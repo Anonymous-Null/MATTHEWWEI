@@ -37,6 +37,8 @@ jobs:
       - name: Install research dependencies
         working-directory: .research
         run: npm ci --no-fund
+      - name: Check discovery and editorial selection
+        run: node --test .research/test/*.test.mjs
       - name: Read live sources and check event dates
         env:
           SCHEDULED: ${{ github.event_name == 'schedule' }}
