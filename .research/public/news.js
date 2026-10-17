@@ -1,5 +1,8 @@
 // Shared news selection for the server and downloadable dashboard.
 export const NEWS_FEEDS = [
+  {url:'https://www.businessinsider.com/rss',source:'Business Insider',category:'Technology'},
+  {url:'https://www.investing.com/rss/news_14.rss',source:'Investing.com',category:'World'},
+  {url:'https://www.investing.com/rss/news.rss',source:'Investing.com',category:'Business'},
   { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', source: 'BBC News', category: 'World' },
   { url: 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', source: 'BBC News', category: 'U.S.' },
   { url: 'https://feeds.bbci.co.uk/news/technology/rss.xml', source: 'BBC News', category: 'Technology' },
@@ -46,7 +49,7 @@ const consequences = /\b(ceasefire|invasion|war|missile|earthquake|hurricane|eva
 const novelty = /\b(discover\w*|breakthrough|robot\w*|quantum|fusion|space|planet|galax\w*|telescope|brain|biology|physics|engineering|new method|new material|first-ever|first time|gene|DNA|clon\w*|artificial intelligence)\b/i;
 const interests = /\b(ai|artificial intelligence|electrical engineering|computer science|research|selective colleges|scholarships?|education|admissions|financial aid|semiconductor|chips|robot\w*)\b/i;
 
-function tokens(title) { return new Set(title.toLowerCase().replace(/[^a-z0-9 ]/g, '').split(/\s+/).filter(t => t.length > 2 && !stopWords.has(t))); }
+function tokens(title) { return new Set(title.toLowerCase().replace(/[^a-z0-9 ]/g, '').split(/\s+/).map(t => /^(waiv|suspend)/.test(t) ? 'waive' : /^russia/.test(t) ? 'russia' : /^sanction/.test(t) ? 'sanction' : t).filter(t => t.length > 2 && !stopWords.has(t))); }
 
 export function storyContext(story) {
   const text = `${story.title} ${story.summary}`;
@@ -74,7 +77,8 @@ export function similarStories(a, b) {
   if (a.id === b.id) return true;
   const x = tokens(a.title), y = tokens(b.title);
   const shared = [...x].filter(t => y.has(t)).length;
-  return shared >= 3 && shared / Math.min(x.size, y.size) >= 0.6;
+  const sameAction = ['waive','resigns','arrested','invades','erupts'].some(t => x.has(t) && y.has(t));
+  return shared >= 3 && (shared / Math.min(x.size, y.size) >= 0.6 || sameAction && shared / Math.min(x.size,y.size) >= 0.3);
 }
 
 export function readableHeadline(title, summary = '') {
@@ -91,7 +95,7 @@ export function readableHeadline(title, summary = '') {
 export const NEWS_WEIGHTS = { surprise: 0.35, consequence: 0.30, novelty: 0.20, relevance: 0.15 };
 
 export function interestScore(story) {
-  const text = `${story.title} ${story.originalSummary || story.summary}`;
+  const text = `${story.title} ${story.editorialText || story.originalSummary || story.summary}`;
   // Reward a concrete twist or consequence, not a science/AI topic alone.
   const contradiction = /\b(couldn['’]t|cannot|can['’]t|unable to) fly\b|\b(challenges?|overturns?|contradicts?)\b.{0,65}\b(assumptions?|theor\w*|understanding|beliefs?)\b|\b(thought extinct|survived without|evolved away from)\b/i.test(text);
   const securityResponse = /\b(cybersecurity|cyberattacks?|hacking|software vulnerabilities)\b/i.test(text)
@@ -105,7 +109,7 @@ export function interestScore(story) {
   const dimensions = {
     surprise: extraordinary.test(text) ? 90 : /\b(discover\w*|myster\w*|record|defies|unexpected|ceasefire|coup|overthrown|resigns|overturned|collapse)\b/i.test(text) ? 65 : 15,
     consequence: consequences.test(text) ? 90 : /\b(climate|energy|health|disease|cancer|privacy|hack|security|financial aid|student loan|cost)\b/i.test(text) ? 60 : 20,
-    novelty: novelty.test(text) ? 85 : /\b(new law|new policy|unexpected decision|peace deal|ceasefire|coup|overthrown)\b/i.test(text) ? 65 : 15,
+    novelty: /\b(discover\w*|demonstrated|achieved|detected|revealed|found|breakthrough)\b/i.test(text) && novelty.test(text) ? 85 : novelty.test(text) ? 40 : /\b(new law|new policy|unexpected decision|peace deal|ceasefire|coup|overthrown)\b/i.test(text) ? 65 : 15,
     relevance: interests.test(text) ? 90 : 10,
   };
   if (contradiction) dimensions.surprise = 95;
@@ -114,6 +118,21 @@ export function interestScore(story) {
   if (abstractMechanism && !practicalResult && !contradiction) {
     dimensions.surprise = Math.min(dimensions.surprise, 25);
     dimensions.consequence = Math.min(dimensions.consequence, 20);
+  }
+  const reversal = /\b(waiv\w*|revers\w*|suspend\w*|scrap\w*|overturn\w*)\b.{0,100}\b(sanctions?|law|tariffs?|ban|restrictions?)\b/i.test(text);
+  const exceptionalScale = /\b(largest|biggest|steepest|shortest|first|lowest|highest)\b.{0,70}\b(in \d+ years|in decades|in history|on record|ever|years)\b/i.test(text);
+  const measuredGain = /\b\d+(?:\.\d+)?\s*(?:times|fold|%)\s+(?:fewer|less|faster|more efficient|reduction)\b/i.test(text);
+  const unexpectedBehavior = /\b(unintended|unauthorized|unexpected)\b.{0,55}\b(behavio\w*|access|actions?|browsing)\b/i.test(text);
+  if (reversal) { dimensions.novelty = 85; dimensions.surprise = Math.max(dimensions.surprise,85); dimensions.consequence = 95; }
+  if (exceptionalScale) dimensions.surprise = Math.max(dimensions.surprise,90);
+  if (measuredGain) { dimensions.surprise = Math.max(dimensions.surprise,75); dimensions.novelty = 90; }
+  const autonomousBreach = /\b(AI|models?|agents?|robots?)\b/i.test(text) && /\b(hacked|stole|breached|bypassed|unauthorized)\b/i.test(text);
+  if (autonomousBreach) { dimensions.surprise = 90; dimensions.consequence = Math.max(dimensions.consequence,80); dimensions.novelty = 85; }
+  if (unexpectedBehavior) { dimensions.surprise = Math.max(dimensions.surprise,85); dimensions.novelty = 85; }
+  // A claimed capability is not an independently demonstrated breakthrough.
+  if (/\bsays? it (?:tested|developed|built)\b/i.test(story.title) && /\b(didn['’]t explain|exaggerat\w*|doubtful|not independently verified)\b/i.test(text)) {
+    dimensions.surprise = Math.min(dimensions.surprise,50);
+    dimensions.novelty = Math.min(dimensions.novelty,40);
   }
   const score = Object.entries(NEWS_WEIGHTS).reduce((sum, [key, weight]) => sum + dimensions[key] * weight, 0);
   return { score, dimensions };
@@ -124,10 +143,12 @@ export function rankStories(items, now = new Date(), options = {}) {
   for (const story of items) {
     const age = (+now - Date.parse(story.publishedAt)) / 3600000;
     const eventAge = story.eventDate ? (+now - Date.parse(story.eventDate.length === 10 ? `${story.eventDate}T12:00:00Z` : story.eventDate)) / 3600000 : age;
-    const text = `${story.title} ${story.originalSummary || story.summary}`;
+    const text = `${story.title} ${story.editorialText || story.originalSummary || story.summary}`;
     const maxAge = options.maxAgeHours ?? 48;
     if (!Number.isFinite(age) || age < -1 || age > maxAge || eventAge > maxAge || eventAge < -24 || trivial.test(story.title) || hype.test(story.title)
       || /\b(APOD|picture of the day|photo of the day|week in pictures|crossword)\b/i.test(story.title)) continue;
+    if (/\b(avoids? hints?|no (?:fresh |new )?(?:signals?|details?|announcements?)|won['’]t prejudge|declines? to (?:say|comment))\b/i.test(`${story.title} ${story.editorialText || ''}`)) continue;
+    if (/\b(could (?:vastly )?(?:boost|transform|revolutionize)|pledges?|profits?|earnings|rate holds|stocks? (?:rise|fall|higher|lower)|buys? \$|stock price|price target)\b/i.test(story.title) && !/\b(crash|collapse|record|largest|steepest|bankrupt)\b/i.test(story.title)) continue;
     if (routine.test(story.title) && !(extraordinary.test(text) && consequences.test(text))) continue;
     if (routinePolitics.test(story.title) && !/\b(coup|overthrown|overturned|assassination|unprecedented|first-ever|record-breaking)\b/i.test(story.title)) continue;
     if (['Technology', 'Business', 'Education'].includes(story.category) && personnel.test(story.title)) continue;

@@ -31,7 +31,7 @@ export function parseFeed(xml, feed) {
   return items.flatMap(item => {
     const content = value => typeof value === 'object' ? value?.['#text'] ?? '' : value;
     const title = plainText(content(item.title));
-    const summary = plainText(content(item.description ?? item.summary ?? item.content)).slice(0, 900);
+    const summary = plainText(content(item.description ?? item.summary ?? item.content)).slice(0, 900) || title;
     const published = new Date(item.pubDate ?? item.published ?? item.updated ?? item['dc:date']);
     const links = Array.isArray(item.link) ? item.link : [item.link];
     const link = atom ? links.find(l => l?.['@_rel'] === 'alternate' || !l?.['@_rel'])?.['@_href'] : content(item.link);

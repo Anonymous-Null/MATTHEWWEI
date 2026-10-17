@@ -1,30 +1,100 @@
 {
-  "fetchedAt": "2026-10-17T13:44:49.499Z",
+  "fetchedAt": "2026-10-17T20:16:50.261Z",
   "news": {
     "schemaVersion": 2,
     "mode": "researched",
     "editionKey": "2026-10-17-am",
     "stories": [
       {
+        "id": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "title": "OpenAI models hacked a crypto wallet and breached more websites",
+        "summary": "OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own.",
+        "publishedAt": "2026-10-16T20:59:01.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
+        "coverage": "Source report",
+        "editorialText": "MORE AI UNALIGNMENT The actions could have resulted in criminal charges had humans been behind the keyboard. Credit: Getty Images OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own. The incident—which likely would have resulted in criminal charges had they been performed directly by a person—has further heightened concerns that widespread AI use could have harmful effects on an unprecedented scale. Easier to beg for forgiveness than ask permission In",
+        "originalPublishedAt": "2026-10-16T20:59:01.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 86,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 80,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "OpenAI models hacked a crypto wallet and breached more websites",
+        "originalSummary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-am"
+      },
+      {
+        "id": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "url": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "title": "Trump's decision to waive Russian sanctions outrages Congress",
+        "summary": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia. Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov. 3. “Beyond irresponsible,” said Sen.",
+        "publishedAt": "2026-10-17T15:09:00.000Z",
+        "source": "AP News",
+        "category": "World",
+        "discovery": "Publisher section",
+        "editorialText": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia. Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov. 3. “Beyond irresponsible,” said Sen. Thom Tillis, R-N.C., on social media, hours after Ukrainian President Volodymyr Zelenskyy expressed hope that the sanctions that were supposed to take effect Sunday targeting Russian’s economy could be revived. “What part of enforcing a law passed 86-11 by the Senate does the President and his advisors not understand?” Tillis said. “It’s unconscionable that this administration is capitulating to a Russian dictator who illegally",
+        "originalPublishedAt": "2026-10-17T15:09:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-17",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia.",
+        "dateEvidenceUrl": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "eventRevision": "2026-10-17:Event",
+        "majorUpdateVerified": false,
+        "explanation": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia. Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov. 3. “Beyond irresponsible,” said Sen.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/c37cc3c/2147483647/strip/true/crop/5853x3902+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd8%2Fb3%2F6c45d7ef411edb5e513b0240aaa2%2F9232619f508c4126b3e9ac3fdc69184a",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 85,
+          "consequence": 95,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Trump's decision to waive Russian sanctions outrages Congress",
+        "originalSummary": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a supported by both major U.S. political parties display of American support for Ukraine in the war with Russia. elected officials from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-am"
+      },
+      {
         "id": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
         "url": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
         "title": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
-        "summary": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) For thousands of years, a mysterious army has stood vigil – silent and impassive in the dark, never wavering from their solemn duty. They are the warriors of the Terracotta Army, carefully crafted 2,200 years ago in China to guard the tomb of Emperor Qin Shihuang. The work is exquisite – at first glance, the thousands of warriors look identical, but look closer, and you'll find an astonishing variety of faces, hairstyles, and armor, a breathtaking display of craftsmanship. Traditionally, archaeologists have assumed that the entire army was built by adult men.",
+        "summary": "Traditionally, archaeologists have assumed that the entire army was built by adult men. New research reveals that this assumption may be wrong. The sculptors – whose work endures long after the emperor they served – left their fingerprints in the still-wet clay, and it's those fingerprints that suggest men, women, and children likely all collaborated in the epic undertaking of the Terracotta Army. \"These findings challenge the long-held assumption that Terracotta Army production relied exclusively on adult male labor,\" write researchers led by archaeologist Xiaoxi Li of Emperor Qinshihuang's Mausoleum Site Museum, \"providing the first quantitative biological evidence for a diverse workforce including women and children.\"",
         "publishedAt": "2026-10-17T10:00:00.000Z",
         "source": "ScienceAlert",
         "category": "Science",
         "coverage": "Source report",
-        "score": 66.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
-        "originalSummary": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) It's not who we thought.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
-        "whyMatters": null,
+        "editorialText": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) For thousands of years, a mysterious army has stood vigil – silent and impassive in the dark, never wavering from their solemn duty. They are the warriors of the Terracotta Army, carefully crafted 2,200 years ago in China to guard the tomb of Emperor Qin Shihuang. The work is exquisite – at first glance, the thousands of warriors look identical, but look closer, and you'll find an astonishing variety of faces, hairstyles, and armor, a breathtaking display of craftsmanship. Traditionally, archaeologists have assumed that the entire army was built by adult men. New research reveals that this assumption may be wrong. The sculptors – whose work endures long after the emperor they served – left their fingerprints in the still-wet clay, and it's those fingerprints that suggest men, women, and children likely all collaborated in the epic undertaking of the Terracotta Army. \"These findings challenge the long-held assumption that Terracotta Army production relied exclusively on adult male labor,\" write researchers led by archaeologist Xiaoxi Li of Emperor",
         "originalPublishedAt": "2026-10-17T10:00:00.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
@@ -34,205 +104,621 @@
         "dateEvidenceUrl": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) For thousands of years, a mysterious army has stood vigil – silent and impassive in the dark, never wavering from their solemn duty. They are the warriors of the Terracotta Army, carefully crafted 2,200 years ago in China to guard the tomb of Emperor Qin Shihuang. The work is exquisite – at first glance, the thousands of warriors look identical, but look closer, and you'll find an astonishing variety of faces, hairstyles, and armor, a breathtaking display of craftsmanship. Traditionally, archaeologists have assumed that the entire army was built by adult men.",
+        "explanation": "Traditionally, archaeologists have assumed that the entire army was built by adult men. New research reveals that this assumption may be wrong. The sculptors – whose work endures long after the emperor they served – left their fingerprints in the still-wet clay, and it's those fingerprints that suggest men, women, and children likely all collaborated in the epic undertaking of the Terracotta Army. \"These findings challenge the long-held assumption that Terracotta Army production relied exclusively on adult male labor,\" write researchers led by archaeologist Xiaoxi Li of Emperor Qinshihuang's Mausoleum Site Museum, \"providing the first quantitative biological evidence for a diverse workforce including women and children.\"",
         "summaryKind": "Source excerpt",
         "imageUrl": "https://www.sciencealert.com/images/2026/10/terracotta-1.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "title": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
-        "summary": "Sebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California. The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border, where temperatures regularly rose past 100F (37.8C). Water was scarce in the once-booming agricultural area, which gets its supply from the beleaguered Colorado River.",
-        "publishedAt": "2026-10-17T13:00:31.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 62.75,
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 76.75,
         "dimensions": {
-          "surprise": 15,
+          "surprise": 95,
           "consequence": 90,
-          "novelty": 85,
+          "novelty": 15,
           "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
-        "originalSummary": "A modern-day prospector promised rural Imperial thousands of jobs and millions in tax revenue – but his plan has set off a firestorm of resistanceSebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California.The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border, where temperatures regularly rose past 100F (37.8C). Water was scarce in the once-booming agricultural area, which gets its supply from the beleaguered Colorado River. And then, there was the city of Imperial – population 22,000 – to win over. As controversial datacenter projects have sprung up across th",
+        "displayTitle": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
+        "originalSummary": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) It's not who we thought.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
         "whyMatters": null,
-        "originalPublishedAt": "2026-10-17T13:00:31.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Sebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California. The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border, where temperatures regularly rose past 100F (37.8C). Water was scarce in the once-booming agricultural area, which gets its supply from the beleaguered Colorado River.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/d767e28f4a63f2c033b1690340f479c914d87492/1000_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=eed0cc19b9deae07f4e5afa17baac9e8",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-am"
       },
       {
-        "id": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "url": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "title": "The new Apple TV 4K just got its first (very small) discount",
-        "summary": "Sheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product recommendations for The Verge. Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November 13th), just days after discounting Apple’s new smart display for the first time. Right now, you can preorder the latest Apple TV 4K ahead of its November 13th release date for $289.99 ($9 off) at Amazon.",
-        "publishedAt": "2026-10-16T16:02:22.000Z",
-        "source": "The Verge",
-        "category": "Technology",
-        "coverage": "Source report",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "The new Apple TV 4K just got its first (very small) discount",
-        "originalSummary": "Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November 13th), just days after discounting Apple’s new smart display for the first time. Right now, you […]",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-16T16:02:22.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Sheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product recommendations for The Verge. Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November 13th), just days after discounting Apple’s new smart display for the first time. Right now, you can preorder the latest Apple TV 4K ahead of its November 13th release date for $289.99 ($9 off) at Amazon.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VergeDealsAppleTV4K.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-        "url": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-        "title": "Hot flashes, night sweats, insomnia – OB-GYNS set new rules for menopause treatment",
-        "summary": "For stories on the science of healthy living, subscribe to NPR's Health newsletter. For the first time since 2014, the American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause. The doctor's group, known as ACOG, recommends hormone replacement therapy alongside certain antidepressants, nonhormonal medicines, and other treatments to address symptoms like hot flashes, insomnia and mood swings. \"What's changing is the breadth of options that we now have … And the benefit of that is that we are better equipped to be able to take an individualized approach for patients,\" said Catherine Cansino, MD, MPH, an obstetrician/gynecologist, chair of ACOG's Committee on Clinical Practice Guidelines and co-author of the new…",
-        "publishedAt": "2026-10-16T17:45:16.000Z",
-        "source": "NPR",
+        "id": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+        "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+        "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+        "summary": "Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday. Tropical rainforests like the Amazon are home to millions of species. In a healthy state, they absorb vast quantities of planet-warming carbon dioxide, helping to keep the Earth cool. But they have come under increasing pressure from decades of deliberate land clearance for agriculture and logging, as well as climate change, which scientists warn can create conditions for wildfires. Brazil's Environment Minister Joao Paulo Capobianco described the decline in Amazon deforestation as \"absolutely stratospheric\".",
+        "publishedAt": "2026-10-17T02:33:09.094Z",
+        "source": "BBC News",
         "category": "Science",
         "coverage": "Source report",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Hot flashes, night sweats, insomnia – OB-GYNS set new rules for menopause treatment",
-        "originalSummary": "For the first time since 2014, the American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-16T17:45:16.000Z",
+        "editorialText": "Jair Bolsonaro promoted mining in indigenous lands in the Amazon and forest clearances soared at the same time as resources to protect the forest were cut. During Bolsonaro's presidency from 2019 to 2022, the Amazon lost nearly 60% more in forest lands compared to the previous four years, news agency AFP reported, citing official data. Lula reversed his policies and oversaw deforestation rates drop to a six-year low during his first year in office. Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday. Tropical rainforests like the Amazon are home to millions of species. In a healthy state, they absorb vast quantities of planet-warming carbon dioxide, helping to keep the Earth cool. But they have come under increasing pressure from decades of deliberate land clearance for agriculture and logging, as well as climate change, which scientists warn can create conditions for wildfires. Brazil's Environment Minister Joao Paulo Capobianco described the decline in Amazon deforestation as \"absolutely stratospheric\". It was an",
+        "originalPublishedAt": "2026-10-17T02:33:09.094Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "For stories on the science of healthy living, subscribe to NPR's Health newsletter. For the first time since 2014, the American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause. The doctor's group, known as ACOG, recommends hormone replacement therapy alongside certain antidepressants, nonhormonal medicines, and other treatments to address symptoms like hot flashes, insomnia and mood swings. \"What's changing is the breadth of options that we now have … And the benefit of that is that we are better equipped to be able to take an individualized approach for patients,\" said Catherine Cansino, MD, MPH, an obstetrician/gynecologist, chair of ACOG's Committee on Clinical Practice Guidelines and co-author of the new…",
+        "explanation": "Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday. Tropical rainforests like the Amazon are home to millions of species. In a healthy state, they absorb vast quantities of planet-warming carbon dioxide, helping to keep the Earth cool. But they have come under increasing pressure from decades of deliberate land clearance for agriculture and logging, as well as climate change, which scientists warn can create conditions for wildfires. Brazil's Environment Minister Joao Paulo Capobianco described the decline in Amazon deforestation as \"absolutely stratospheric\".",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3630x2042+0+83/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb6%2F34%2Fd9c3bde94f53b06e88c7599041d1%2Fgettyimages-151055685.jpg",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Brazil sees record fall in Amazon deforestation as key election looms",
+        "originalSummary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+        "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-am"
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
-        "url": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
-        "title": "Rare pink diamond goes on display in France 100 years after amateur heist",
-        "summary": "A rare pink diamond is going on display in France for the first time since it was stolen almost 100 years ago to the day - the last time it was shown to the public. The nine-carat, pear-shaped gemstone known as the \"Grand Condé\" was pilfered in an overnight raid on the Château de Chantilly in October 1926 and concealed in a hollowed-out apple. The diamond - one of few royal jewels to survive the French Revolution - was recovered a few weeks later when a hungry maid at the hotel in which the thieves were staying took a bite of the apple.",
-        "publishedAt": "2026-10-17T10:46:41.712Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Rare pink diamond goes on display in France 100 years after amateur heist",
-        "originalSummary": "The French royal jewel will be on public display for the first time since it was found hidden in an apple after a 1926 theft.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-17T10:46:41.712Z",
+        "id": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+        "url": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+        "title": "North Korea says it tested new torpedo system with AI capabilities",
+        "summary": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
+        "publishedAt": "2026-10-17T03:47:33.000Z",
+        "source": "AP News",
+        "category": "Technology",
+        "discovery": "Publisher section",
+        "editorialText": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report. North Korea has been ramping up weapons demonstrations in recent weeks, including conducting its first underwater-launched missile tests in nearly three years, as leader Kim Jong Un shifts his focus to naval capabilities after years of ballistic missile development. Experts say the missile tests, carried out Wednesday, likely involved a yet-to-be-deployed submarine that Pyongyang has said is designed to launch nuclear weapons. North Korea also tested hypersonic missile systems of various ranges on Sept. 20 and Oct. 3 as it seeks to expand",
+        "originalPublishedAt": "2026-10-17T03:47:33.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
+        "dateEvidenceUrl": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "A rare pink diamond is going on display in France for the first time since it was stolen almost 100 years ago to the day - the last time it was shown to the public. The nine-carat, pear-shaped gemstone known as the \"Grand Condé\" was pilfered in an overnight raid on the Château de Chantilly in October 1926 and concealed in a hollowed-out apple. The diamond - one of few royal jewels to survive the French Revolution - was recovered a few weeks later when a hungry maid at the hotel in which the thieves were staying took a bite of the apple.",
+        "explanation": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/37cc/live/14013ec0-ca01-11f1-bc2e-018d645d8d21.jpg",
+        "imageUrl": "https://dims.apnews.com/dims4/default/2ad0d29/2147483647/strip/true/crop/4056x2692+0+0/resize/1200x796!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff8%2Fb7%2F5caebcfc007031af93061481d361%2Fe59d4defed8b4a8e9b55d5d5c46080bd",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
+        "imageSourceUrl": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 66,
+        "dimensions": {
+          "surprise": 50,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "North Korea says it tested new torpedo system with AI capabilities",
+        "originalSummary": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
+        "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-am"
       }
     ],
-    "fetchedAt": "2026-10-17T13:44:49.499Z",
-    "checkedAt": "2026-10-17T13:44:49.499Z",
+    "fetchedAt": "2026-10-17T20:16:50.261Z",
+    "checkedAt": "2026-10-17T20:16:50.261Z",
     "sources": [
-      "ScienceDaily",
-      "ScienceAlert",
-      "The Guardian",
-      "The Verge",
-      "BBC News",
-      "NPR",
       "Ars Technica",
-      "Higher Ed Dive",
+      "AP News",
+      "ScienceAlert",
+      "BBC News",
       "Phys.org",
-      "NASA",
-      "MIT News"
+      "The Verge",
+      "ScienceDaily",
+      "The Guardian",
+      "Investing.com",
+      "Higher Ed Dive",
+      "NPR",
+      "MIT News",
+      "Business Insider",
+      "NASA"
     ],
-    "providersAvailable": 20,
-    "providersTotal": 24,
+    "providersAvailable": 28,
+    "providersTotal": 34,
     "research": {
-      "rawCandidates": 495,
-      "candidatesReviewed": 90,
-      "sourcePagesRead": 90,
-      "primaryDatesChecked": 14,
-      "rejected": 12,
+      "rawCandidates": 798,
+      "candidatesReviewed": 240,
+      "sourcePagesRead": 239,
+      "primaryDatesChecked": 21,
+      "rejected": 47,
+      "rejectedCandidates": [
+        {
+          "title": "Suspect in deadly Oregon elementary school shooting was a former student",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006236/suspect-in-deadly-oregon-elementary-school-shooting-was-a-former-student",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Dozens of critically endangered orangutans rescued from Indonesian wildfires",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6004881/dozens-of-critically-endangered-orangutans-rescued-from-indonesian-wildfires",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Think Your Dog Disturbs Your Sleep? It May Be The Other Way Around",
+          "url": "https://www.sciencealert.com/think-your-dog-disturbs-your-sleep-it-may-be-the-other-way-around",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Adult acne is real, but there are ways to treat it. Here’s what to know",
+          "url": "https://apnews.com/article/hormonal-acne-treatment-face-wash-spironolactone-1649a859b41ed0d0da157963656e91b0",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6003966/86m-in-teen-pregnancy-prevention-funds-diverted-to-trump-linked-contractor",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists Discover an Erectile Dysfunction Drug Could Also Regenerate Muscle",
+          "url": "https://www.sciencealert.com/scientists-discover-an-erectile-dysfunction-drug-could-also-regenerate-muscle",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Simulations explore nuclear mitigation of asteroid threats",
+          "url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
+          "reason": "Provider returned HTTP 503"
+        },
+        {
+          "title": "Four astronauts return to Earth after eight months in space",
+          "url": "https://apnews.com/article/spacex-nasa-space-station-3d4ca5874f95fe94afc037b2443f184c",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6003823/journalist-ronan-farrow-on-elon-musks-trillion-dollar-political-influence",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
+          "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6001543/meet-catherine-ericson-an-official-new-york-leaf-peeper-in-lake-placid",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "This week in science: sea monsters, long COVID patients' microbiome, elephant carcasses",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-5995400/this-week-in-science-sea-monsters-long-covid-patients-microbiome-elephant-carcasses",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientist who hunts mysterious ghost particles in the Antarctic ice wins Nobel Prize for physics",
+          "url": "https://apnews.com/article/nobel-prize-physics-sweden-47d0ab2b92f3512eb09ed44ceb6006d8",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
+          "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This bird flies thousands of miles, but its wings have a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "California scientist wins a Nobel Prize, then makes school lunches for his kids",
+          "url": "https://apnews.com/article/nobel-prize-medicine-california-stanford-karl-deisseroth-72ce047423411f1ccffd659e841a8a64",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Tuesday’s takeaways: No clear direction for Wisconsin Democrats",
+          "url": "https://apnews.com/article/primaries-wisconsin-minnesota-democratic-party-socialist-226b31e324cdd9b72200fb9abc9acb69",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Are student protests being manipulated ahead of France's presidential election?",
+          "url": "https://www.bbc.co.uk/news/articles/c8zxlyg965r3o",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brain cells meant to protect us may be fueling cognitive decline",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Cat Owners: There's a Parasite You've Probably Never Heard Of, And It's More Common in Winter",
+          "url": "https://www.sciencealert.com/theres-another-cat-parasite-that-can-infect-humans-a-huge-study-reveals-how-common-it-is",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
+          "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Christa Pike survived 2 doses of an execution drug. How is that possible?",
+          "url": "https://apnews.com/article/christa-pike-tennessee-surviving-lethal-injection-a91e8c3959e8e456c859cef94605de22",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Takeaways from Tuesday’s elections",
+          "url": "https://apnews.com/article/election-takeaways-michigan-senate-primary-democrats-trump-c957db07eb78ea93c70208ba0a6bceed",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Australian scavengers don't just eat everything and slink away. They approach a carcass like a buffet",
+          "url": "https://phys.org/news/2026-10-australian-scavengers-dont-approach-carcass.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Nobel medicine prize goes to 3 scientists for shining light on brain activity",
+          "url": "https://apnews.com/article/nobel-prize-medicine-sweden-2efe9ee7eae9d808fd49a6da1f53ceba",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Mamdani proves his power with New York endorsements, plus more takeaways from Tuesday’s primaries",
+          "url": "https://apnews.com/article/donald-trump-zohran-mamdani-new-york-78d9cc60faff70ffe27fd8d7f6dc1355",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Why is Alberta voting to separate from Canada, and how likely is it to happen?",
+          "url": "https://www.bbc.co.uk/news/articles/c809jg1gj9yo",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The ambiguous costs of climate change",
+          "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Takeaways from primaries featuring Spencer Pratt, a missing congressman and a rare Trump setback",
+          "url": "https://apnews.com/article/california-iowa-new-jersey-primaries-4355e73b946486ac92452ec856966d7e",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Could Celiac Patients Someday Eat Gluten Safely? A New Drug Just Passed a Key Trial",
+          "url": "https://www.sciencealert.com/new-drug-protects-people-with-celiac-disease-from-gluten-damage-in-clinical-trial",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Astronauts arrive at International Space Station on the quickest US express flight yet",
+          "url": "https://apnews.com/article/spacex-nasa-astronauts-crew-13-d885ec0dcb9fab8bbf8977103118caa0",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Takeaways from Tuesday’s primaries: Massie’s loss leaves no doubt about Trump’s power over the GOP",
+          "url": "https://apnews.com/article/election-takeaways-massie-kentucky-georgia-alabama-8eb9f54741ce0313ab15b291bd742c16",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Mayor of Bend shares how her community is doing after elementary school shooting",
+          "url": "https://www.npr.org/2026/10/16/nx-s1-6005377/mayor-of-bend-shares-how-her-community-is-doing-after-elementary-school-shooting",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "SpaceX’s supersized Starship launches into orbit for the first time but flight ends early",
+          "url": "https://apnews.com/article/spacex-starship-orbit-262d3c58d56bf7a525b49115d6c5dfe8",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "One Tech Tip: Lake America backlash fuels interest in Google Maps alternatives",
+          "url": "https://apnews.com/article/google-maps-mapquest-navigation-57a01b62d71b85d21a01091f26fad36a",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Why Texas’ redistricting plan isn’t a sure bet",
+          "url": "https://apnews.com/article/texas-us-house-midterms-election-redistricting-gerrymandering-e56d03c72b6cf7bbb321671e03a5c1bb",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "An autoimmune disease stole this man’s memory. Here’s how he’s learning to cope",
+          "url": "https://apnews.com/article/autoimmune-disease-encephalitis-psychosis-memory-ef4a2eb4866f9f988a4e16caaedb7ffe",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "One Tech Tip: iOS 27 comes with revamped screen time controls and other useful new features",
+          "url": "https://apnews.com/article/one-tech-tip-ios-27-apple-18dddcb8381207ab15e50d55f75768a0",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Where big spending won – and lost – in the Illinois primary",
+          "url": "https://apnews.com/article/illinois-chicago-us-house-senate-elections-campaign-finance-spending-024edf168fdb09c0d0a08a75152d9217",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Calls for safety drills in Asia",
+          "url": "https://apnews.com/article/thailand-philippines-school-shooting-gun-violence-8e4d934af20126794f3631e2000525f5",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Lifelong drugs for autoimmune diseases don’t work well. Now scientists are trying something new",
+          "url": "https://apnews.com/article/autoimmune-diseases-cart-mrna-lupus-diabetes-a4204dc6920a219f27eded2df32d0b8b",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "One Tech Tip: New iPhones arrive, but you can keep your old phone longer by caring for it",
+          "url": "https://apnews.com/article/iphone-apple-android-smartphone-c25c40706e92937def7838f7fb5f9208",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The first midterm primaries of 2026, by the numbers",
+          "url": "https://apnews.com/article/midterm-primaries-texas-north-carolina-results-takeaways-4c3280bbca4e98ba9530211735c95650",
+          "reason": "The actual event/announcement is more than a week old"
+        }
+      ],
       "qualifying": 60,
-      "eventDatesVerified": 10,
-      "eventDatesUnconfirmed": 50,
+      "eventDatesVerified": 11,
+      "eventDatesUnconfirmed": 49,
       "rejectionReasons": {
-        "Source article was unavailable or too short": 2,
-        "The actual event/announcement is more than a week old": 10
+        "Source article was unavailable or too short": 7,
+        "The actual event/announcement is more than a week old": 39,
+        "Provider returned HTTP 503": 1
       },
       "targetCandidates": 20,
-      "method": "Live publisher feeds, original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts."
+      "discoverySources": [
+        {
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/rss",
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
+        },
+        {
+          "source": "Investing.com",
+          "url": "https://www.investing.com/rss/news_14.rss",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "Investing.com",
+          "url": "https://www.investing.com/rss/news.rss",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "BBC News",
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "available": true,
+          "candidates": 23,
+          "error": null
+        },
+        {
+          "source": "BBC News",
+          "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+          "available": true,
+          "candidates": 32,
+          "error": null
+        },
+        {
+          "source": "BBC News",
+          "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+          "available": true,
+          "candidates": 21,
+          "error": null
+        },
+        {
+          "source": "BBC News",
+          "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+          "available": true,
+          "candidates": 42,
+          "error": null
+        },
+        {
+          "source": "BBC News",
+          "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+          "available": true,
+          "candidates": 49,
+          "error": null
+        },
+        {
+          "source": "BBC News",
+          "url": "https://feeds.bbci.co.uk/news/education/rss.xml",
+          "available": true,
+          "candidates": 23,
+          "error": null
+        },
+        {
+          "source": "NPR",
+          "url": "https://feeds.npr.org/1003/rss.xml",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "NPR",
+          "url": "https://feeds.npr.org/1007/rss.xml",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "NPR",
+          "url": "https://feeds.npr.org/1013/rss.xml",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "Ars Technica",
+          "url": "https://feeds.arstechnica.com/arstechnica/index/",
+          "available": true,
+          "candidates": 20,
+          "error": null
+        },
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "Science News",
+          "url": "https://www.sciencenews.org/feed/",
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
+        },
+        {
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/rss/top/science.xml",
+          "available": true,
+          "candidates": 60,
+          "error": null
+        },
+        {
+          "source": "MIT News",
+          "url": "https://news.mit.edu/rss/research",
+          "available": true,
+          "candidates": 50,
+          "error": null
+        },
+        {
+          "source": "Higher Ed Dive",
+          "url": "https://www.highereddive.com/feeds/news/",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "NASA",
+          "url": "https://www.nasa.gov/news-release/feed/",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "Nature",
+          "url": "https://www.nature.com/nature.rss",
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
+        },
+        {
+          "source": "Science",
+          "url": "https://www.science.org/rss/news_current.xml",
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/rss",
+          "available": true,
+          "candidates": 45,
+          "error": null
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/science/rss",
+          "available": true,
+          "candidates": 28,
+          "error": null
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/rss",
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
+        },
+        {
+          "source": "Live Science",
+          "url": "https://www.livescience.com/feeds/all",
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
+        },
+        {
+          "source": "ScienceAlert",
+          "url": "https://www.sciencealert.com/feed",
+          "available": true,
+          "candidates": 10,
+          "error": null
+        },
+        {
+          "source": "Phys.org",
+          "url": "https://phys.org/rss-feed/",
+          "available": true,
+          "candidates": 30,
+          "error": null
+        },
+        {
+          "source": "AP News",
+          "url": "https://apnews.com/",
+          "available": true,
+          "candidates": 45,
+          "error": null
+        },
+        {
+          "source": "AP News",
+          "url": "https://apnews.com/world-news",
+          "available": true,
+          "candidates": 45,
+          "error": null
+        },
+        {
+          "source": "AP News",
+          "url": "https://apnews.com/science",
+          "available": true,
+          "candidates": 45,
+          "error": null
+        },
+        {
+          "source": "AP News",
+          "url": "https://apnews.com/technology",
+          "available": true,
+          "candidates": 45,
+          "error": null
+        },
+        {
+          "source": "AP News",
+          "url": "https://apnews.com/politics",
+          "available": true,
+          "candidates": 45,
+          "error": null
+        },
+        {
+          "source": "AP News",
+          "url": "https://apnews.com/business",
+          "available": true,
+          "candidates": 45,
+          "error": null
+        },
+        {
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/sai",
+          "available": true,
+          "candidates": 15,
+          "error": null
+        }
+      ],
+      "method": "Publisher sections and live feeds; balanced reading budget with no headline-score cutoff; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts."
     },
     "minimumStories": 5,
     "freshCount": 5,
@@ -240,6 +726,86 @@
     "olderCount": 0,
     "reserveStories": [
       {
+        "id": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "title": "OpenAI models hacked a crypto wallet and breached more websites",
+        "summary": "MORE AI UNALIGNMENT The actions could have resulted in criminal charges had humans been behind the keyboard. Credit: Getty Images OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet.",
+        "publishedAt": "2026-10-16T20:59:01.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
+        "coverage": "Source report",
+        "editorialText": "MORE AI UNALIGNMENT The actions could have resulted in criminal charges had humans been behind the keyboard. Credit: Getty Images OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own. The incident—which likely would have resulted in criminal charges had they been performed directly by a person—has further heightened concerns that widespread AI use could have harmful effects on an unprecedented scale. Easier to beg for forgiveness than ask permission In",
+        "originalPublishedAt": "2026-10-16T20:59:01.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "MORE AI UNALIGNMENT The actions could have resulted in criminal charges had humans been behind the keyboard. Credit: Getty Images OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 86,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 80,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "OpenAI models hacked a crypto wallet and breached more websites",
+        "originalSummary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-am"
+      },
+      {
+        "id": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "url": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "title": "Trump's decision to waive Russian sanctions outrages Congress",
+        "summary": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a supported by both major U.S. political parties display of American support for Ukraine in the war with Russia. elected officials from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov.",
+        "publishedAt": "2026-10-17T15:09:00.000Z",
+        "source": "AP News",
+        "category": "World",
+        "discovery": "Publisher section",
+        "editorialText": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia. Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov. 3. “Beyond irresponsible,” said Sen. Thom Tillis, R-N.C., on social media, hours after Ukrainian President Volodymyr Zelenskyy expressed hope that the sanctions that were supposed to take effect Sunday targeting Russian’s economy could be revived. “What part of enforcing a law passed 86-11 by the Senate does the President and his advisors not understand?” Tillis said. “It’s unconscionable that this administration is capitulating to a Russian dictator who illegally",
+        "originalPublishedAt": "2026-10-17T15:09:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-17",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia.",
+        "dateEvidenceUrl": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "eventRevision": "2026-10-17:Event",
+        "majorUpdateVerified": false,
+        "explanation": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a supported by both major U.S. political parties display of American support for Ukraine in the war with Russia. elected officials from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/c37cc3c/2147483647/strip/true/crop/5853x3902+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd8%2Fb3%2F6c45d7ef411edb5e513b0240aaa2%2F9232619f508c4126b3e9ac3fdc69184a",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 85,
+          "consequence": 95,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Trump's decision to waive Russian sanctions outrages Congress",
+        "originalSummary": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a supported by both major U.S. political parties display of American support for Ukraine in the war with Russia. elected officials from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-am"
+      },
+      {
         "id": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
         "url": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
         "title": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
@@ -248,17 +814,7 @@
         "source": "ScienceAlert",
         "category": "Science",
         "coverage": "Source report",
-        "score": 66.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
-        "originalSummary": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) It's not who we thought.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
-        "whyMatters": null,
+        "editorialText": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) For thousands of years, a mysterious army has stood vigil – silent and impassive in the dark, never wavering from their solemn duty. They are the warriors of the Terracotta Army, carefully crafted 2,200 years ago in China to guard the tomb of Emperor Qin Shihuang. The work is exquisite – at first glance, the thousands of warriors look identical, but look closer, and you'll find an astonishing variety of faces, hairstyles, and armor, a breathtaking display of craftsmanship. Traditionally, archaeologists have assumed that the entire army was built by adult men. New research reveals that this assumption may be wrong. The sculptors – whose work endures long after the emperor they served – left their fingerprints in the still-wet clay, and it's those fingerprints that suggest men, women, and children likely all collaborated in the epic undertaking of the Terracotta Army. \"These findings challenge the long-held assumption that Terracotta Army production relied exclusively on adult male labor,\" write researchers led by archaeologist Xiaoxi Li of Emperor",
         "originalPublishedAt": "2026-10-17T10:00:00.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
@@ -273,7 +829,98 @@
         "imageUrl": "https://www.sciencealert.com/images/2026/10/terracotta-1.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 95,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
+        "originalSummary": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) It's not who we thought.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-am"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+        "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+        "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+        "summary": "Jair Bolsonaro promoted mining in indigenous lands in the Amazon and forest clearances soared at the same time as resources to protect the forest were cut. During Bolsonaro's presidency from 2019 to 2022, the Amazon lost nearly 60% more in forest lands compared to the previous four years, news agency AFP reported, citing official data. Lula reversed his policies and oversaw deforestation rates drop to a six-year low during his first year in office. Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday.",
+        "publishedAt": "2026-10-17T02:33:09.094Z",
+        "source": "BBC News",
+        "category": "Science",
+        "coverage": "Source report",
+        "editorialText": "Jair Bolsonaro promoted mining in indigenous lands in the Amazon and forest clearances soared at the same time as resources to protect the forest were cut. During Bolsonaro's presidency from 2019 to 2022, the Amazon lost nearly 60% more in forest lands compared to the previous four years, news agency AFP reported, citing official data. Lula reversed his policies and oversaw deforestation rates drop to a six-year low during his first year in office. Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday. Tropical rainforests like the Amazon are home to millions of species. In a healthy state, they absorb vast quantities of planet-warming carbon dioxide, helping to keep the Earth cool. But they have come under increasing pressure from decades of deliberate land clearance for agriculture and logging, as well as climate change, which scientists warn can create conditions for wildfires. Brazil's Environment Minister Joao Paulo Capobianco described the decline in Amazon deforestation as \"absolutely stratospheric\". It was an",
+        "originalPublishedAt": "2026-10-17T02:33:09.094Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Jair Bolsonaro promoted mining in indigenous lands in the Amazon and forest clearances soared at the same time as resources to protect the forest were cut. During Bolsonaro's presidency from 2019 to 2022, the Amazon lost nearly 60% more in forest lands compared to the previous four years, news agency AFP reported, citing official data. Lula reversed his policies and oversaw deforestation rates drop to a six-year low during his first year in office. Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Brazil sees record fall in Amazon deforestation as key election looms",
+        "originalSummary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-am"
+      },
+      {
+        "id": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+        "url": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+        "title": "North Korea says it tested new torpedo system with AI capabilities",
+        "summary": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
+        "publishedAt": "2026-10-17T03:47:33.000Z",
+        "source": "AP News",
+        "category": "Technology",
+        "discovery": "Publisher section",
+        "editorialText": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report. North Korea has been ramping up weapons demonstrations in recent weeks, including conducting its first underwater-launched missile tests in nearly three years, as leader Kim Jong Un shifts his focus to naval capabilities after years of ballistic missile development. Experts say the missile tests, carried out Wednesday, likely involved a yet-to-be-deployed submarine that Pyongyang has said is designed to launch nuclear weapons. North Korea also tested hypersonic missile systems of various ranges on Sept. 20 and Oct. 3 as it seeks to expand",
+        "originalPublishedAt": "2026-10-17T03:47:33.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/2ad0d29/2147483647/strip/true/crop/4056x2692+0+0/resize/1200x796!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff8%2Fb7%2F5caebcfc007031af93061481d361%2Fe59d4defed8b4a8e9b55d5d5c46080bd",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+        "checkedAt": "2026-10-17T20:16:50.261Z",
+        "score": 66,
+        "dimensions": {
+          "surprise": 50,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "North Korea says it tested new torpedo system with AI capabilities",
+        "originalSummary": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
+        "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-am"
@@ -1252,170 +1899,14 @@
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-15-am"
-      },
-      {
-        "id": "https://news.mit.edu/2026/satellite-data-reveal-how-antarcticas-ice-cliffs-behave-over-time-1015",
-        "url": "https://news.mit.edu/2026/satellite-data-reveal-how-antarcticas-ice-cliffs-behave-over-time-1015",
-        "title": "Satellite data reveal how Antarctica’s ice cliffs behave over time",
-        "summary": "With rising temperatures, the buttressing ice shelves at the edges the Antarctic ice sheet are melting and calving off at record rates, leaving behind sheer cliffs of solid ice. The stability of these exposed ice cliffs could influence how Antarctica further breaks apart and contributes to sea level rise around the world. Scientists have assumed that an ice cliff’s stability depends on its height: Ice cliffs that are taller than 100 meters — about the height of the Statue of Liberty — should collapse under their own weight. And once a cliff sloughs off, it should expose even taller, inland cliffs that collapse in turn.",
-        "publishedAt": "2026-10-15T18:00:00.000Z",
-        "source": "MIT News",
-        "category": "Science",
-        "coverage": "University research release",
-        "score": 33.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 20,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Satellite data reveal how Antarctica’s ice cliffs behave over time",
-        "originalSummary": "The cliffs don’t always collapse in the runaway process that scientists had expected.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-15T18:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-15",
-        "eventKind": "Research announced",
-        "eventDateVerified": true,
-        "dateEvidence": "The institution's original announcement is dated 2026-10-15.",
-        "dateEvidenceUrl": "https://news.mit.edu/2026/satellite-data-reveal-how-antarcticas-ice-cliffs-behave-over-time-1015",
-        "eventRevision": "2026-10-15:Research announced",
-        "majorUpdateVerified": false,
-        "explanation": "With rising temperatures, the buttressing ice shelves at the edges the Antarctic ice sheet are melting and calving off at record rates, leaving behind sheer cliffs of solid ice. The stability of these exposed ice cliffs could influence how Antarctica further breaks apart and contributes to sea level rise around the world. Scientists have assumed that an ice cliff’s stability depends on its height: Ice cliffs that are taller than 100 meters — about the height of the Statue of Liberty — should collapse under their own weight. And once a cliff sloughs off, it should expose even taller, inland cliffs that collapse in turn.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://news.mit.edu/sites/default/files/images/202610/MIT-Ice-Cliffs-01-Press.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://news.mit.edu/2026/satellite-data-reveal-how-antarcticas-ice-cliffs-behave-over-time-1015",
-        "checkedAt": "2026-10-15T18:49:07.073Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-am"
-      },
-      {
-        "id": "https://phys.org/news/2026-10-laser-pulses-quantum-material-tiny.html",
-        "url": "https://phys.org/news/2026-10-laser-pulses-quantum-material-tiny.html",
-        "title": "Laser pulses bring order to a quantum material's tiny electrical regions",
-        "summary": "Physicists at Auburn University have used flashes of laser light to bring order to tiny electrically charged \"islands\" inside a crystal. The discovery helps answer a decades-old question about how the material organizes itself and shows how light could be used to control its behavior—a step toward exploring new technologies for processing and storing information. The research was led by Wencan Jin, the Thomas and Jean Walter endowed associate professor in Auburn's Department of Physics, and graduate student Mohamed Kandil. Their study, \"Optical Poling of a Quantum Ferroelectric Metal across the Order-Disorder Phase Transition,\" was selected as an Editors' Suggestion in Physical Review Letters.",
-        "publishedAt": "2026-10-15T17:00:07.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
-        "score": 47.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "Laser pulses bring order to a quantum material's tiny electrical regions",
-        "originalSummary": "Physicists at Auburn University have used flashes of laser light to bring order to tiny electrically charged \"islands\" inside a crystal. The discovery helps answer a decades-old question about how the material organizes itself and shows how light could be used to control its behavior—a step toward exploring new technologies for processing and storing information.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-15T17:00:07.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-14",
-        "eventKind": "Study published",
-        "eventDateVerified": true,
-        "dateEvidence": "The study cited by the source, “Optical Poling of a Quantum Ferroelectric Metal across the Order-Disorder Phase Transition”, was first published on 2026-10-14.",
-        "dateEvidenceUrl": "https://api.crossref.org/works/10.1103%2Fnx3d-1mqf",
-        "eventRevision": "2026-10-14:Study published",
-        "majorUpdateVerified": false,
-        "explanation": "Physicists at Auburn University have used flashes of laser light to bring order to tiny electrically charged \"islands\" inside a crystal. The discovery helps answer a decades-old question about how the material organizes itself and shows how light could be used to control its behavior—a step toward exploring new technologies for processing and storing information. The research was led by Wencan Jin, the Thomas and Jean Walter endowed associate professor in Auburn's Department of Physics, and graduate student Mohamed Kandil. Their study, \"Optical Poling of a Quantum Ferroelectric Metal across the Order-Disorder Phase Transition,\" was selected as an Editors' Suggestion in Physical Review Letters.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/laser-pulses-bring-ord.jpg",
-        "imageCaption": "Meltdown of ordered polar nanoregions in warmup cycle. Credit: Mohamed Kandil et al.",
-        "imageSourceUrl": "https://phys.org/news/2026-10-laser-pulses-quantum-material-tiny.html",
-        "checkedAt": "2026-10-15T18:49:07.073Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-am"
-      },
-      {
-        "id": "https://phys.org/news/2026-10-quantum-reveal-defects-energy.html",
-        "url": "https://phys.org/news/2026-10-quantum-reveal-defects-energy.html",
-        "title": "Quantum calculations reveal how spin defects lose energy",
-        "summary": "When light hits a tiny defect embedded in a solid material like diamond or silicon carbide, it can kick the defect's electrons into an excited state. These spin defects have the potential to be used as stable, readable qubits for quantum technologies, for example, quantum sensing. But modeling the full physics of their energetics over time—a key step in developing spin defects into new technologies—is a challenging task. Now, researchers at the University of Chicago Pritzker School of Molecular Engineering (UChicago PME) have built a computational framework that captures the full optical cycle of such spin defects, including the prediction of internal conversion, a process particularly hard to model.",
-        "publishedAt": "2026-10-15T15:40:09.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
-        "score": 41.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "Quantum calculations reveal how spin defects lose energy",
-        "originalSummary": "When light hits a tiny defect embedded in a solid material like diamond or silicon carbide, it can kick the defect's electrons into an excited state. These spin defects have the potential to be used as stable, readable qubits for quantum technologies, for example, quantum sensing. But modeling the full physics of their energetics over time—a key step in developing spin defects into new technologies—is a challenging task.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-15T15:40:09.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-14",
-        "eventKind": "Study published",
-        "eventDateVerified": true,
-        "dateEvidence": "The study cited by the source, “First-Principles Calculations of Internal Conversion Processes in Spin Defects”, was first published on 2026-10-14.",
-        "dateEvidenceUrl": "https://api.crossref.org/works/10.1103%2Fy6z6-h16k",
-        "eventRevision": "2026-10-14:Study published",
-        "majorUpdateVerified": false,
-        "explanation": "When light hits a tiny defect embedded in a solid material like diamond or silicon carbide, it can kick the defect's electrons into an excited state. These spin defects have the potential to be used as stable, readable qubits for quantum technologies, for example, quantum sensing. But modeling the full physics of their energetics over time—a key step in developing spin defects into new technologies—is a challenging task. Now, researchers at the University of Chicago Pritzker School of Molecular Engineering (UChicago PME) have built a computational framework that captures the full optical cycle of such spin defects, including the prediction of internal conversion, a process particularly hard to model.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/quantum-calculations-r.jpg",
-        "imageCaption": "Researchers in the Galli Group at the University of Chicago Pritzker School of Molecular Engineering (UChicago PME) have built a computational framework that captures the full optical cycle of such spin defects, including the prediction of internal conversion, a process particularly hard to model. Credit: Galli Group",
-        "imageSourceUrl": "https://phys.org/news/2026-10-quantum-reveal-defects-energy.html",
-        "checkedAt": "2026-10-15T18:49:07.073Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-am"
-      },
-      {
-        "id": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
-        "title": "A fungus is threatening the world’s food supply. Scientists just found a new defense",
-        "summary": "Scientists have uncovered a promising new way to protect some of the world's most important food crops from a destructive fungus that threatens global food security. By engineering the natural immune defenses of plants, researchers have developed an experimental approach that could eventually help wheat, rice, and barley resist fungal infections more effectively. The international research team, led by scientists at the John Innes Centre in the United Kingdom, investigated a recently discovered group of plant immune receptors. They identified how these proteins recognize invading pathogens and demonstrated that they can be modified to detect multiple fungal threats.",
-        "publishedAt": "2026-10-15T00:00:00.000Z",
-        "source": "ScienceDaily",
-        "category": "Science",
-        "coverage": "Research summary",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "A fungus is threatening the world’s food supply. Scientists just found a new defense",
-        "originalSummary": "Scientists have discovered a potential new weapon against a devastating fungus that threatens rice, wheat, and barley worldwide. By engineering a special type of plant immune receptor, researchers created defenses capable of recognizing multiple fungal threats at once. The breakthrough could eventually lead to crops with powerful, long-lasting disease resistance, helping protect a global food supply increasingly threatened by spreading infections and climate change.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-15T00:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Scientists have uncovered a promising new way to protect some of the world's most important food crops from a destructive fungus that threatens global food security. By engineering the natural immune defenses of plants, researchers have developed an experimental approach that could eventually help wheat, rice, and barley resist fungal infections more effectively. The international research team, led by scientists at the John Innes Centre in the United Kingdom, investigated a recently discovered group of plant immune receptors. They identified how these proteins recognize invading pathogens and demonstrated that they can be modified to detect multiple fungal threats.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://www.sciencedaily.com/images/1920/diseased-rice-plants-agricultural-farm.webp",
-        "imageCaption": "Scientists have discovered a promising way to engineer super-resistant crops against a devastating fungus threatening the global food supply. Credit: Shutterstock",
-        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
-        "checkedAt": "2026-10-15T18:49:07.073Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-am"
       }
     ],
     "selectedIds": [
+      "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
       "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
-      "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-      "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-      "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-      "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo"
+      "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
+      "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc"
     ]
   }
 }
