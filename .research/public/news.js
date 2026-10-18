@@ -385,6 +385,42 @@ export function newsGeography(story) {
   return story.category==='World' || foreign.test(lead) ? 'world' : null;
 }
 
+// National/world slots require reporting on public affairs and an actual
+// development. Geography alone and a publisher's section tag are insufficient.
+export function publicNewsScope(story) {
+  const title=story.title || '';
+  const lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,100).join(' ');
+  if(/^\s*(how |why |inside |the science of |a guide to )/i.test(title)
+    || /\b(explainer|opinion|column|book review|literary|Shakespeare|playwright|museum exhibition|art exhibition)\b/i.test(title)) return null;
+  const publicSubject=/\b(presidents?|prime minister|government|Congress|Senate|Supreme Court|courts?|judges?|elections?|vot(?:e|es|ers|ing)|ballots?|midterms?|protests?|demonstrations?|rallies|No Kings|military|troops?|missiles?|airstrikes?|fighter jets?|drones?|war|ceasefire|sanctions?|tariffs?|Federal Reserve|central bank|inflation|unemployment|stock market|earthquake|hurricane|wildfire|pandemic|public health|school funding|education funding|statewide|nationwide)\b/i;
+  const development=/\b(approv\w*|pass(?:es|ed)?|orders?|ordered|signs?|signed|strikes?|attacks?|hits?|killed|kills?|arrests?|arrested|rallies|protests?|demonstrations?|votes?|voted|elections?|ban(?:s|ned)?|rul(?:es|ed|ing)|suspend\w*|waiv\w*|sanctions?|ceasefire|shoot down|shot down|launch\w*|resigns?|resigned|collapsed|evacu\w*|cuts?|raises?|changes?|expands?|surges?|crash\w*|outbreak|deaths?|ablaze)\b/i;
+  // A background passage about national issues cannot turn a technical or
+  // cultural headline into a current public-news development.
+  if(!publicSubject.test(title+' '+lead) || !development.test(title))return null;
+  const scope=newsGeography(story);
+  const context=title+' '+lead;
+  const nationalScale=/\b(national|nationwide|across (?:the )?(?:U\.S\.|US|United States|country)|federal|president|White House|Congress|Senate|Supreme Court|Federal Reserve|No Kings|midterms?|statewide|governor|state government|Massachusetts|Texas|millions|thousands|hundreds)\b/i.test(context);
+  const internationalScale=/\b(president|prime minister|government|military|troops?|missiles?|airstrikes?|fighter jets?|war|ceasefire|sanctions?|tariffs?|national|nationwide|central bank|stock market|inflation|unemployment|earthquake|hurricane|wildfire|pandemic|outbreak|thousands|hundreds|millions)\b/i.test(context);
+  if(scope==='us' && nationalScale)return 'us';
+  if(scope==='world' && internationalScale)return 'world';
+  if(/\b(Federal Reserve|Congress|Senate|IRS|FBI|Supreme Court)\b/.test(title))return 'us';
+  return null;
+}
+
+export function personalBriefingProblems(stories) {
+  const problems=[];
+  if(stories.length!==5)problems.push('The briefing must contain five reports.');
+  for(let slot=1;slot<=5;slot++)if(stories.filter(s=>s.briefingSlot===slot).length!==1)problems.push(`Slot ${slot} must occur exactly once.`);
+  for(const s of stories){
+    if([2,3].includes(s.briefingSlot) && !studentAccessibility(s).accessible)problems.push(`Slot ${s.briefingSlot} requires specialist knowledge.`);
+    if(![4,5].includes(s.briefingSlot))continue;
+    const validOverride=s.slotOverride && personalRelevance(s).critical && personalRelevance(s).score>=85 && s.overrideReason;
+    if(!validOverride && publicNewsScope(s)!==(s.briefingSlot===4?'us':'world'))problems.push(`Slot ${s.briefingSlot} is not qualified public-news reporting.`);
+  }
+  for(let i=0;i<stories.length;i++)for(let j=i+1;j<stories.length;j++)if(samePersonalDevelopment(stories[i],stories[j]))problems.push('Two slots repeat the same development.');
+  return problems;
+}
+
 export function samePersonalDevelopment(a,b) {
   if(similarStories(a,b)) return true;
   const locations=[['france',/\b(France|French|Paris)\b/i],['us',/\b(U\.S\.|US|United States|America|American|No Kings)\b/i],['albania',/\b(Albania|Albanian|Tirana)\b/i],['india',/\b(India|Indian|Delhi)\b/i],['tunisia',/\b(Tunisia|Tunis|Tunisian)\b/i],['china',/\b(China|Chinese|Beijing)\b/i],['indonesia',/\b(Indonesia|Jakarta)\b/i],['britain',/\b(Britain|British|London|UK)\b/i]];
@@ -449,9 +485,9 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
   const quality=s=>score(s)+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;
   const personalPriority=s=>relevance(s).score*.45+quality(s)*.30+studentAccessibility(s).score*.25-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*18;
   const preservesDefaultSlots=s=>{
-    const geo=newsGeography(s);
+    const geo=publicNewsScope(s);
     if(!['us','world'].includes(geo) || chosen.some(p=>p.briefingSlot===(geo==='us'?4:5)))return true;
-    const available=[...recent,...older,...archives].filter((v,i,a)=>a.findIndex(t=>t.id===v.id)===i).filter(v=>unused(v)&&newsGeography(v)===geo);
+    const available=[...recent,...older,...archives].filter((v,i,a)=>a.findIndex(t=>t.id===v.id)===i).filter(v=>unused(v)&&publicNewsScope(v)===geo);
     return available.length>1;
   };
   const pick=(pool,predicate,personal=false)=>pool.filter(s=>unused(s) && predicate(s) && (!personal || preservesDefaultSlots(s))).sort((a,b)=>
@@ -479,9 +515,9 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
     put(s,slot,'For you',flags);
   }
   for(const [slot,geo,label] of [[4,'us','U.S. news'],[5,'world','World news']]) {
-    let s=pick(recent,s=>newsGeography(s)===geo),flags={carriedForward:false,olderReport:false};
-    if(!s){s=pick(older,s=>newsGeography(s)===geo);flags.olderReport=true;}
-    if(!s){s=pick(archives,s=>newsGeography(s)===geo);flags={carriedForward:true};}
+    let s=pick(recent,s=>publicNewsScope(s)===geo),flags={carriedForward:false,olderReport:false};
+    if(!s){s=pick(older,s=>publicNewsScope(s)===geo);flags.olderReport=true;}
+    if(!s){s=pick(archives,s=>publicNewsScope(s)===geo);flags={carriedForward:true};}
     put(s,slot,label,flags);
   }
   // An actual eligibility/deadline/cost change can displace one default slot.
@@ -489,9 +525,9 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
   if(urgent && chosen.length===5){const old=chosen.find(s=>s.briefingSlot===5);chosen.splice(chosen.indexOf(old),1);put(urgent,5,'Affects you',{slotOverride:true,overrideReason:relevance(urgent).connection});}
   // Preserve five genuine reports during outages without silently changing labels.
   for(let slot=1;slot<=5;slot++)if(!chosen.some(s=>s.briefingSlot===slot)){
-    const safe=s=>![2,3].includes(slot)||studentAccessibility(s).accessible;
+    const safe=s=>slot===4?publicNewsScope(s)==='us':slot===5?publicNewsScope(s)==='world':![2,3].includes(slot)||studentAccessibility(s).accessible;
     const s=pick(archives,safe)||pick(recent,safe)||pick(older,safe);
-    put(s,slot,slot===1?'Top story · NYT unavailable':'Coverage kept',{carriedForward:true,slotOverride:true,overrideReason:'No qualifying report for this slot; retaining sourced coverage.'});
+    put(s,slot,slot===1?'Top story · NYT unavailable':slot===4?'U.S. news':slot===5?'World news':'Coverage kept',{carriedForward:true,slotOverride:true,overrideReason:'No qualifying report for this slot; retaining sourced coverage.'});
   }
   return chosen.sort((a,b)=>a.briefingSlot-b.briefingSlot);
 }

@@ -1,6 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { researchNews } from '../lib/research.mjs';
-import { selectPersonalBriefing, PERSONAL_NEWS_LAYOUT } from '../public/news.js';
+import { selectPersonalBriefing, PERSONAL_NEWS_LAYOUT, personalBriefingProblems } from '../public/news.js';
 import { checkInWindow } from '../public/shared.js';
 import { briefingDue } from '../lib/briefing-schedule.mjs';
 
@@ -25,6 +25,8 @@ const previousSources = history.editions.find(e => e.key !== key)?.sources || []
 const reserve = [...(previous?.news?.stories || []), ...(previous?.news?.reserveStories || []), ...(history.archive || [])];
 const selected = selectPersonalBriefing(news.stories, { key, history: history.seen, previousSources, now, fallback:reserve,nytLead:news.nytLead });
 if (selected.length < 5) throw new Error(`Only ${selected.length} usable reports available; retaining the previous edition instead of publishing a short briefing.`);
+const slotProblems=personalBriefingProblems(selected);
+if(slotProblems.length)throw new Error('Refusing invalid slot assignment: '+slotProblems.join(' '));
 news.minimumStories = 5;
 news.layout = PERSONAL_NEWS_LAYOUT;
 news.freshCount = selected.filter(s => !s.carriedForward && !s.olderReport).length;

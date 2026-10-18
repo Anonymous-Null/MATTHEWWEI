@@ -78,3 +78,24 @@ test('personal slots favor high-school-accessible stories over specialized resea
 test('plain-language card never invents a claim that a bug was fixed',async()=>{
  const {studentPresentation}=await import('../public/news.js');const report=s('glasses','Ray-Ban Meta smart glasses record inadvertently','Technology','The smart glasses could record inadvertently, creating a privacy concern.');const summary=studentPresentation(report);assert.ok(!summary.explanation.includes('has been fixed'));assert.match(summary.explanation,/by accident/);
 });
+test('public-news slots reject the exact engineering and literature misclassifications',async()=>{
+ const {publicNewsScope,personalBriefingProblems}=await import('../public/news.js');
+ const motors=s('motors','How Variable Frequency Drives Unlock Hidden Grid Power','Technology','America’s energy supply crunch is driving federal investment. Millions of electric motors waste energy and variable frequency drives can help.');
+ const literature=s('literature','Scholars conclude beyond doubt that Shakespeare was main author of Edward III','World','British researchers found evidence about the authorship of a play published in 1596.');
+ assert.equal(publicNewsScope(motors),null);assert.equal(publicNewsScope(literature),null);
+ const invalid=[{...lead,briefingSlot:1},{...battery,briefingSlot:2},{...robot,briefingSlot:3},{...motors,briefingSlot:4,slotLabel:'U.S. news'},{...literature,briefingSlot:5,slotLabel:'World news'}];
+ assert.equal(personalBriefingProblems(invalid).filter(p=>p.includes('not qualified')).length,2);
+ const selected=selectPersonalBriefing([motors,literature,...base],{now,key,nytLead:lead});assert.equal(selected[3].id,'school');assert.equal(selected[4].id,'world');assert.deepEqual(personalBriefingProblems(selected),[]);
+});
+test('bad national/world stories cannot return through the last fallback path',()=>{
+ const motors=s('motors','How Variable Frequency Drives Unlock Hidden Grid Power','Technology','America uses millions of electric motors; this engineering guide explains electricity savings.');
+ const literature=s('literature','Scholars conclude Shakespeare wrote Edward III','World','British scholars report a literary discovery about a play.');
+ const selected=selectPersonalBriefing([battery,robot],{now,key,nytLead:lead,fallback:[motors,literature,us,world]});assert.equal(selected[3].id,'school');assert.equal(selected[4].id,'world');
+});
+test('public-news recognition uses the reported development rather than the feed label',async()=>{
+ const {publicNewsScope}=await import('../public/news.js');assert.equal(publicNewsScope({...world,category:'Technology'}),'world');assert.equal(publicNewsScope(s('march','No Kings rallies urge early voting ahead of midterms','Science','Rallies across the US encouraged voters to cast ballots in the midterm elections.')),'us');
+});
+test('a small local incident does not qualify merely because it happened in the US or abroad',async()=>{
+ const {publicNewsScope}=await import('../public/news.js');assert.equal(publicNewsScope(s('local','Police arrest man after dispute in a local shop','U.S.','Local police made an arrest following a dispute in a small town.')),null);assert.equal(publicNewsScope(s('abroad','French judge rules on a neighborhood parking dispute','World','A local judge ruled on a dispute involving one parking space in France.')),null);
+ const national=s('law','Congress passes a nationwide student aid law','U.S.','The federal legislation changes financial aid for millions of college students.');assert.equal(publicNewsScope(national),'us');
+});
