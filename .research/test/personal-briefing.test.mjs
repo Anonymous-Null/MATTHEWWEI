@@ -66,3 +66,15 @@ test('sponsored engineering content is excluded even when it matches battery int
 test('scheduled research upgrades legacy editions and retries NYT outages after an hour',async()=>{
  const {briefingDue}=await import('../lib/briefing-schedule.mjs');const previous={fetchedAt:'2026-10-18T13:00:00Z',news:{schemaVersion:2,layout:PERSONAL_NEWS_LAYOUT,editionKey:key,freshCount:5,nytStatus:{available:true},stories:[1,2,3,4,5]}};assert.equal(briefingDue(previous,now),false);assert.equal(briefingDue({...previous,news:{...previous.news,nytStatus:{available:false}}},now),true);assert.equal(briefingDue({...previous,news:{...previous.news,layout:undefined}},now),true);
 });
+test('personal slots favor high-school-accessible stories over specialized research despite relevance',async()=>{
+ const {studentAccessibility}=await import('../public/news.js');
+ const dense=s('dense','Giving AI a crystal clear view of the materials world','Science','Researchers built a multimodal AI model using geometric structures, first-principles computational databases and periodic arrangements of atoms.');
+ const controls=s('controls','How Variable Frequency Drives Unlock Hidden Grid Power','Technology','Variable frequency drives, or VFDs, control industrial electric motors.');
+ const everyday=s('everyday','Smart glasses bug triggers unintended recording','Technology','A software bug caused smart glasses to record audio by accident, raising privacy concerns for people wearing them and anyone nearby.');
+ const space=s('space','NASA’s new telescope takes sharper images','Science','Engineers adjusted the telescope’s mirrors and found that image quality was better than predicted, helping scientists get sharper images of space.');
+ assert.equal(studentAccessibility(dense).accessible,false);assert.equal(studentAccessibility(controls).accessible,false);assert.equal(studentAccessibility(everyday).accessible,true);
+ const result=selectPersonalBriefing([...base,dense,controls,everyday,space],{now,key,nytLead:lead});assert.equal(result.length,5);assert.ok(!result.slice(1,3).some(s=>['dense','controls'].includes(s.id)));
+});
+test('plain-language card never invents a claim that a bug was fixed',async()=>{
+ const {studentPresentation}=await import('../public/news.js');const report=s('glasses','Ray-Ban Meta smart glasses record inadvertently','Technology','The smart glasses could record inadvertently, creating a privacy concern.');const summary=studentPresentation(report);assert.ok(!summary.explanation.includes('has been fixed'));assert.match(summary.explanation,/by accident/);
+});

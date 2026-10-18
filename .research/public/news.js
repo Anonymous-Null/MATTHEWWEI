@@ -338,6 +338,7 @@ export const PERSONAL_NEWS_LAYOUT = 'nyt-interests-us-world-v1';
 
 // Topic preferences only. The reader's biography and identity are not published.
 const personalTopics = [
+  {id:'everyday-tech',weight:84,pattern:/\b(smart glasses|smartphones?|laptops?|phones?|recording|passwords?|privacy|data breach|ChatGPT|AI tools?)\b/i,connection:'Everyday technology, useful tools, and privacy issues you can encounter.'},
   {id:'batteries-materials',weight:96,pattern:/\b(batter(?:y|ies)|thermal runaway|shape.memory alloy|materials science|solid.state|lithium.ion|energy storage|battery management|alloys?|atomic structures|crystalline materials)\b/i,connection:'Battery safety, materials science, and energy engineering.'},
   {id:'electronics-building',weight:94,pattern:/\b(arduino|esp32|microcontrollers?|embedded systems?|electrical engineering|semiconductors?|computer chips?|circuits?|bluetooth|sensors?|robotics?|robots?|variable frequency drives?|electric motors?|motor controllers?)\b/i,connection:'Electrical engineering, embedded electronics, and building projects.'},
   {id:'ai-computing',weight:88,pattern:/\b(artificial intelligence|AI|computer science|computing|cybersecurity|software|programming|quantum comput\w*|machine learning)\b/i,connection:'Computer science, AI, and how computing systems work.'},
@@ -359,7 +360,7 @@ export function personalRelevance(story) {
     && !/\b(actual layoffs?|laid off|hired \d|apprenticeships?|scholarships?)\b/i.test(story.title);
   const computingDevelopment=/\b(models?|agents?|software|computing|programming|cybersecurity|chips?|algorithms?|training|inference|databases?|AI (?:rules|export|safety|regulation)|ChatGPT|chatbots?)\b/i.test(text);
   if(!computingDevelopment) matches=matches.filter(t=>t.id!=='ai-computing');
-  if(personalCrime || jobForecast) matches=matches.filter(t=>!['ai-computing','electronics-building'].includes(t.id));
+  if(personalCrime || jobForecast) matches=matches.filter(t=>!['ai-computing','electronics-building','everyday-tech'].includes(t.id));
 
   // A college's name alone is not evidence that a story matters to an applicant.
   const targetSchool=/\b(MIT|Stanford|UT Austin|University of Texas|Georgia Tech|Rice University)\b/i.test(text);
@@ -405,6 +406,35 @@ export function publishedPersonalBriefing(stories,{key,editionKey}={}) {
   return ordered.map(s=>editionKey && editionKey!==key?{...s,carriedForward:true}:s);
 }
 
+export function studentAccessibility(story) {
+  const title=story.title || '', lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,180).join(' ');
+  const text=`${title} ${lead}`;
+  const technical=[/\bvariable.frequency drives?\b|\bVFDs?\b/i,/\bmultimodal\b/i,/\bgeometric structures?\b/i,/\bfirst.principles\b/i,/\bperiodic arrangements? of atoms\b/i,/\bspintronic|altermagnet|rhodopsin|quasiparticle|wavefunction|Hamiltonian|tensor network|phonon|topological|crystallograph\w*\b/i,/\blogical fidelity|magic state|quantum states?\b/i];
+  const jargon=technical.filter(re=>re.test(text)).length;
+  const everyday=/\b(smart glasses|phones?|laptops?|apps?|ChatGPT|privacy|passwords?|school|students?|college|scholarships?|running|tennis|violin|Rubik|battery fires?|electric cars?|robots?|astronauts?|telescope|images?|Mars|Moon)\b/i.test(title);
+  const understandableResult=/\b(recording|sharper images|image quality|fire safety|save money|protect.*privacy|build.*controller|scholarship|college admission)\b/i.test(text);
+  const score=Math.max(0,Math.min(100,65+(everyday?22:0)+(understandableResult?10:0)-jargon*24));
+  return {score,jargon,accessible:score>=55};
+}
+
+export function studentPresentation(story) {
+  const text=`${story.title} ${story.editorialText || ''} ${story.explanation || ''}`;
+  let explanation=story.explanation || story.summary || '', displayTitle=story.displayTitle || story.title, summaryKind=story.summaryKind;
+  const short=String(story.originalSummary || '').trim(), words=short.split(/\s+/).length;
+  if(words>=30 && words<=130 && studentAccessibility({...story,editorialText:short}).score>=70){explanation=short;summaryKind='Publisher summary';}
+  // These rewrites require the supporting source facts; they never infer a fix.
+  if(/Ray.Ban|Meta.*smart glasses/i.test(text) && /record\w* inadvertently|record\w*.*without.*consent/i.test(text+' '+(story.url || ''))){
+    displayTitle='A bug made Meta’s smart glasses record audio unexpectedly';
+    explanation=`${story.source} reports that a bug in Meta’s Ray-Ban smart glasses could make them record audio by accident. `;
+    if(/bug is fixed/i.test(short))explanation+='The report says the bug has been fixed, but privacy concerns remain. ';
+    if(/glasses light up|recording light|light.*recording/i.test(text))explanation+='The glasses have a light that shows when they are recording, but that does not guarantee a recording was intentional. ';
+    explanation+='That matters both to the person wearing the glasses and to anyone nearby who might be recorded.';
+    summaryKind='Plain-language source summary';
+  }
+  if(/Roman Space Telescope/i.test(story.title) && /image quality nearly 30% better than predicted/i.test(text+' '+short))displayTitle='NASA’s new telescope beat its image-quality target by nearly 30%';
+  return {...story,displayTitle,explanation,summary:explanation,summaryKind};
+}
+
 export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date(),nytLead=null}={}) {
   const prior=Object.values(history).filter(h=>h.editionKey && h.editionKey!==key);
   const alreadySeen=s=>prior.some(h=>(h.id===s.id || h.title && samePersonalDevelopment(h,s))) && !s.majorUpdateVerified;
@@ -417,12 +447,20 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
   const score=s=>s.score??interestScore(s).score;
   const relevance=s=>personalRelevance(s);
   const quality=s=>score(s)+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;
-  const pick=(pool,predicate,personal=false)=>pool.filter(s=>unused(s) && predicate(s)).sort((a,b)=>
-    (personal?relevance(b).score*.65+quality(b)*.35-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(b).primaryTopic).length*18:quality(b))
-    -(personal?relevance(a).score*.65+quality(a)*.35-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(a).primaryTopic).length*18:quality(a)))[0];
+  const personalPriority=s=>relevance(s).score*.45+quality(s)*.30+studentAccessibility(s).score*.25-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*18;
+  const preservesDefaultSlots=s=>{
+    const geo=newsGeography(s);
+    if(!['us','world'].includes(geo) || chosen.some(p=>p.briefingSlot===(geo==='us'?4:5)))return true;
+    const available=[...recent,...older,...archives].filter((v,i,a)=>a.findIndex(t=>t.id===v.id)===i).filter(v=>unused(v)&&newsGeography(v)===geo);
+    return available.length>1;
+  };
+  const pick=(pool,predicate,personal=false)=>pool.filter(s=>unused(s) && predicate(s) && (!personal || preservesDefaultSlots(s))).sort((a,b)=>
+    (personal?personalPriority(b):quality(b))
+    -(personal?personalPriority(a):quality(a)))[0];
   const put=(s,slot,label,flags={})=>{
     if(!s)return;const r=relevance(s);
-    chosen.push({...s,briefingSlot:slot,slotLabel:label,personalTopic:r.primaryTopic,whyForYou:r.connection,selectedEdition:key,...flags});
+    const presented=[2,3].includes(slot)?studentPresentation(s):s;
+    chosen.push({...presented,briefingSlot:slot,slotLabel:label,personalTopic:r.primaryTopic,whyForYou:r.connection,selectedEdition:key,...flags});
   };
   // First means first in NYT's official HomePage RSS order, not most-clicked.
   const lead=checkedPersonalReport(nytLead)?nytLead:current.find(s=>s.nytHomeLead && s.source==='The New York Times');
@@ -432,12 +470,12 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
     if(previous)put(previous,1,'NYT lead · saved',{carriedForward:true,nytUnavailable:true});
     else put(pick(recent,()=>true)||pick(archives,()=>true),1,'Top story · NYT unavailable',{nytUnavailable:true});
   }
-  const goodPersonal=s=>!conflictTopic(s) && (relevance(s).score>=60 || (['Science','Technology'].includes(s.category)&&score(s)>=80)) && score(s)>=(relevance(s).score>=80?12:32);
+  const goodPersonal=s=>studentAccessibility(s).accessible && !conflictTopic(s) && (relevance(s).score>=60 || (['Science','Technology'].includes(s.category)&&score(s)>=80)) && score(s)>=(relevance(s).score>=80?12:32);
   for(const slot of [2,3]) {
     let s=pick(recent,goodPersonal,true),flags={carriedForward:false,olderReport:false};
     if(!s){s=pick(older,goodPersonal,true);flags.olderReport=true;}
     if(!s){s=pick(archives,goodPersonal,true);flags={carriedForward:true};}
-    if(!s){s=pick(recent,s=>score(s)>=60)||pick(archives,s=>score(s)>=50);flags={slotOverride:true,overrideReason:'No qualifying personal-interest report; important broader coverage.'};}
+    if(!s){s=pick(recent,s=>studentAccessibility(s).accessible && score(s)>=60)||pick(archives,s=>studentAccessibility(s).accessible && score(s)>=50);flags={slotOverride:true,overrideReason:'No qualifying personal-interest report; important broader coverage.'};}
     put(s,slot,'For you',flags);
   }
   for(const [slot,geo,label] of [[4,'us','U.S. news'],[5,'world','World news']]) {
@@ -451,7 +489,8 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
   if(urgent && chosen.length===5){const old=chosen.find(s=>s.briefingSlot===5);chosen.splice(chosen.indexOf(old),1);put(urgent,5,'Affects you',{slotOverride:true,overrideReason:relevance(urgent).connection});}
   // Preserve five genuine reports during outages without silently changing labels.
   for(let slot=1;slot<=5;slot++)if(!chosen.some(s=>s.briefingSlot===slot)){
-    const s=pick(archives,()=>true)||pick(recent,()=>true)||pick(older,()=>true);
+    const safe=s=>![2,3].includes(slot)||studentAccessibility(s).accessible;
+    const s=pick(archives,safe)||pick(recent,safe)||pick(older,safe);
     put(s,slot,slot===1?'Top story · NYT unavailable':'Coverage kept',{carriedForward:true,slotOverride:true,overrideReason:'No qualifying report for this slot; retaining sourced coverage.'});
   }
   return chosen.sort((a,b)=>a.briefingSlot-b.briefingSlot);
