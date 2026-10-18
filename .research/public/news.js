@@ -370,7 +370,7 @@ export function personalRelevance(story) {
   const primary=[...matches].sort((a,b)=>b.weight-a.weight)[0];
   return {score:Math.min(100,(primary?.weight || (localImpact?72:0))+(targetSchool && primary?4:0)),
     topics:matches.map(t=>t.id),primaryTopic:primary?.id || (localImpact?'local-student-impact':null),
-    connection:primary?.connection || (localImpact?'School, education, or public-safety developments in Massachusetts or Texas.':null),critical};
+    connection:/\b(variable frequency drives?|motor controllers?)\b/i.test(story.title) ? 'Motor-speed controllers connect to electronics, control systems, and energy efficiency.' : /\bAI\b/i.test(story.title) && /\bmaterials?\b/i.test(story.title) ? 'AI that searches for useful material properties connects computing with materials and battery research.' : primary?.connection || (localImpact?'School, education, or public-safety developments in Massachusetts or Texas.':null),critical};
 }
 
 export function newsGeography(story) {
@@ -382,6 +382,14 @@ export function newsGeography(story) {
   if(domestic.test(title) || story.category==='U.S.' || story.category==='Education') return 'us';
   if(domestic.test(lead) && !foreign.test(title)) return 'us';
   return story.category==='World' || foreign.test(lead) ? 'world' : null;
+}
+
+export function samePersonalDevelopment(a,b) {
+  if(similarStories(a,b)) return true;
+  const locations=[['france',/\b(France|French|Paris)\b/i],['us',/\b(U\.S\.|US|United States|America|American|No Kings)\b/i],['albania',/\b(Albania|Albanian|Tirana)\b/i],['india',/\b(India|Indian|Delhi)\b/i],['tunisia',/\b(Tunisia|Tunis|Tunisian)\b/i],['china',/\b(China|Chinese|Beijing)\b/i],['indonesia',/\b(Indonesia|Jakarta)\b/i],['britain',/\b(Britain|British|London|UK)\b/i]];
+  const kinds=[['protests',/\b(protests?|riots?|rallies|demonstrations?|unrest|marches?)\b/i],['quake',/\b(earthquake|quake)\b/i],['wildfire',/\b(wildfires?|forest fires?)\b/i]];
+  const keys=s=>{const t=s.title || '';return kinds.flatMap(([kind,re])=>re.test(t)?locations.filter(([,place])=>place.test(t)).map(([place])=>`${place}:${kind}`):[]);};
+  const x=keys(a),y=keys(b);return x.some(k=>y.includes(k));
 }
 
 function checkedPersonalReport(s) {
@@ -399,13 +407,13 @@ export function publishedPersonalBriefing(stories,{key,editionKey}={}) {
 
 export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date(),nytLead=null}={}) {
   const prior=Object.values(history).filter(h=>h.editionKey && h.editionKey!==key);
-  const alreadySeen=s=>prior.some(h=>(h.id===s.id || h.title && similarStories(h,s))) && !s.majorUpdateVerified;
+  const alreadySeen=s=>prior.some(h=>(h.id===s.id || h.title && samePersonalDevelopment(h,s))) && !s.majorUpdateVerified;
   const current=stories.filter(checkedPersonalReport);
   const recent=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200});
   const older=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200,maxAgeHours:168}).filter(s=>!recent.some(r=>r.id===s.id));
   const archives=fallback.filter(checkedPersonalReport).filter(editoriallyEligible);
   const chosen=[];
-  const unused=s=>!chosen.some(p=>similarStories(p,s)) && (!conflictTopic(s) || !chosen.some(p=>conflictTopic(p)===conflictTopic(s)));
+  const unused=s=>!chosen.some(p=>samePersonalDevelopment(p,s)) && (!conflictTopic(s) || !chosen.some(p=>conflictTopic(p)===conflictTopic(s)));
   const score=s=>s.score??interestScore(s).score;
   const relevance=s=>personalRelevance(s);
   const quality=s=>score(s)+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;

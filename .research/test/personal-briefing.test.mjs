@@ -55,3 +55,14 @@ test('incidental AI crime coverage and speculative jobs articles are not enginee
  assert.equal(personalRelevance(s('jobs','AI, Robots, and Jobs: Why Gardeners May Still Be Safe','Technology','AI and robots could someday replace gardening jobs, according to an analyst.')).score,0);
  const generic=s('hawaii','University of Hawai’i expands direct admissions to 10 campuses','Education','The system expanded direct admissions at its campuses.');assert.equal(personalRelevance(generic).critical,false);assert.equal(personalRelevance(generic).score,0);
 });
+test('the world slot does not repeat the NYT lead under a different headline',()=>{
+ const france={...lead,title:'France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops'};
+ const duplicate=s('paris','Arrests over France protests rise to 1,800, with streets in Paris devastated','World','Thousands were arrested after major demonstrations and riots across France.');
+ const result=selectPersonalBriefing([...base,duplicate],{now,key,nytLead:france});assert.equal(result[0].id,'nyt');assert.ok(!result.some(s=>s.id==='paris'));assert.equal(result[4].id,'world');
+});
+test('sponsored engineering content is excluded even when it matches battery interests',async()=>{
+ const {editoriallyEligible}=await import('../public/news.js');const ad=s('ad','Simulation App Speeds Up Electric Truck Battery Design','Technology','This article is brought to you by COMSOL. The new product is promoted for electric truck battery research.');assert.equal(editoriallyEligible(ad),false);
+});
+test('scheduled research upgrades legacy editions and retries NYT outages after an hour',async()=>{
+ const {briefingDue}=await import('../lib/briefing-schedule.mjs');const previous={fetchedAt:'2026-10-18T13:00:00Z',news:{schemaVersion:2,layout:PERSONAL_NEWS_LAYOUT,editionKey:key,freshCount:5,nytStatus:{available:true},stories:[1,2,3,4,5]}};assert.equal(briefingDue(previous,now),false);assert.equal(briefingDue({...previous,news:{...previous.news,nytStatus:{available:false}}},now),true);assert.equal(briefingDue({...previous,news:{...previous.news,layout:undefined}},now),true);
+});
