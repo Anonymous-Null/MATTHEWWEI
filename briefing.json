@@ -1,249 +1,283 @@
 {
-  "fetchedAt": "2026-10-17T20:20:30.423Z",
+  "fetchedAt": "2026-10-18T00:40:25.826Z",
   "news": {
     "schemaVersion": 2,
     "mode": "researched",
-    "editionKey": "2026-10-17-am",
+    "editionKey": "2026-10-17-pm",
     "stories": [
       {
-        "id": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-        "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-        "title": "OpenAI models hacked a crypto wallet and breached more websites",
-        "summary": "OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own.",
-        "publishedAt": "2026-10-16T20:59:01.000Z",
-        "source": "Ars Technica",
-        "category": "Technology",
-        "coverage": "Source report",
-        "editorialText": "OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own. The incident—which likely would have resulted in criminal charges had they been performed directly by a person—has further heightened concerns that widespread AI use could have harmful effects on an unprecedented scale. In two of the cases reported Thursday, OpenAI agents tasked with retrieving information from websites hacked them when the models ran into obstacles obtaining it directly. In one incident",
-        "originalPublishedAt": "2026-10-16T20:59:01.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-        "checkedAt": "2026-10-17T20:20:30.423Z",
-        "score": 86,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 80,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "OpenAI models hacked a crypto wallet and breached more websites",
-        "originalSummary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
-        "url": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
-        "title": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
-        "summary": "Traditionally, archaeologists have assumed that the entire army was built by adult men. New research reveals that this assumption may be wrong. The sculptors – whose work endures long after the emperor they served – left their fingerprints in the still-wet clay, and it's those fingerprints that suggest men, women, and children likely all collaborated in the epic undertaking of the Terracotta Army. \"These findings challenge the long-held assumption that Terracotta Army production relied exclusively on adult male labor,\" write researchers led by archaeologist Xiaoxi Li of Emperor Qinshihuang's Mausoleum Site Museum, \"providing the first quantitative biological evidence for a diverse workforce including women and children.\"",
-        "publishedAt": "2026-10-17T10:00:00.000Z",
-        "source": "ScienceAlert",
+        "id": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+        "url": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+        "title": "Global survey links financial hardship to lower trust in science",
+        "summary": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey. The Wellcome Global Monitor 2026 surveyed more than 140,000 people in 140 countries in 2025 and found that trust in science had fallen below prepandemic levels. To track changes over time, researchers compared results from 108 countries surveyed in 2018, 2020 and 2025.",
+        "publishedAt": "2026-10-17T12:00:01.000Z",
+        "source": "Phys.org",
         "category": "Science",
-        "coverage": "Source report",
-        "editorialText": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) For thousands of years, a mysterious army has stood vigil – silent and impassive in the dark, never wavering from their solemn duty. They are the warriors of the Terracotta Army, carefully crafted 2,200 years ago in China to guard the tomb of Emperor Qin Shihuang. The work is exquisite – at first glance, the thousands of warriors look identical, but look closer, and you'll find an astonishing variety of faces, hairstyles, and armor, a breathtaking display of craftsmanship. Traditionally, archaeologists have assumed that the entire army was built by adult men. New research reveals that this assumption may be wrong. The sculptors – whose work endures long after the emperor they served – left their fingerprints in the still-wet clay, and it's those fingerprints that suggest men, women, and children likely all collaborated in the epic undertaking of the Terracotta Army. \"These findings challenge the long-held assumption that Terracotta Army production relied exclusively on adult male labor,\" write researchers led by archaeologist Xiaoxi Li of Emperor",
-        "originalPublishedAt": "2026-10-17T10:00:00.000Z",
+        "coverage": "Research reporting",
+        "editorialText": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey. The Wellcome Global Monitor 2026 surveyed more than 140,000 people in 140 countries in 2025 and found that trust in science had fallen below prepandemic levels. To track changes over time, researchers compared results from 108 countries surveyed in 2018, 2020 and 2025. The proportion of respondents expressing at least some trust in science fell from 77% in 2018 to 72% in 2025, after rising to 80% during the COVID-19 pandemic in 2020. Over the same period, the share reporting little or no trust in science rose from 13% in both 2018 and 2020 to 19% in 2025. Trust in scientists themselves also declined. The share of people expressing \"a lot\" of trust in scientists dropped to 32% in 2025, down from 34% in 2018 and 43% in 2020. \"There isn't a crisis or a wholesale collapse,\" said Mark Henderson, executive director of corporate affairs and",
+        "originalPublishedAt": "2026-10-17T12:00:01.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
+        "dateEvidenceUrl": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Traditionally, archaeologists have assumed that the entire army was built by adult men. New research reveals that this assumption may be wrong. The sculptors – whose work endures long after the emperor they served – left their fingerprints in the still-wet clay, and it's those fingerprints that suggest men, women, and children likely all collaborated in the epic undertaking of the Terracotta Army. \"These findings challenge the long-held assumption that Terracotta Army production relied exclusively on adult male labor,\" write researchers led by archaeologist Xiaoxi Li of Emperor Qinshihuang's Mausoleum Site Museum, \"providing the first quantitative biological evidence for a diverse workforce including women and children.\"",
+        "explanation": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey. The Wellcome Global Monitor 2026 surveyed more than 140,000 people in 140 countries in 2025 and found that trust in science had fallen below prepandemic levels. To track changes over time, researchers compared results from 108 countries surveyed in 2018, 2020 and 2025.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://www.sciencealert.com/images/2026/10/terracotta-1.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
-        "checkedAt": "2026-10-17T20:20:30.423Z",
-        "score": 76.75,
+        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/reading-online.jpg",
+        "imageCaption": "Credit: Unsplash/CC0 Public Domain",
+        "imageSourceUrl": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 66.25,
         "dimensions": {
-          "surprise": 95,
+          "surprise": 65,
           "consequence": 90,
           "novelty": 15,
           "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "2,200-Year-Old Fingerprints Reveal Who Really Built China's Mysterious Terracotta Army",
-        "originalSummary": "One of the many thousands of warriors in the Terracotta Army. (fototrav/E+/Getty Images) It's not who we thought.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+        "displayTitle": "Global survey links financial hardship to lower trust in science",
+        "originalSummary": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
+        "selectedEdition": "2026-10-17-pm"
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
-        "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
-        "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-        "summary": "Donald Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with his Ukrainian counterpart Volodymyr Zelensky deepens. The sanctions were passed by the Congress and signed into law the president in September. But Trump issued an executive order Friday night saying that suspending some was in the US national interest, prompting a backlash from US lawmakers. Zelensky said it was unfortunate the US has decided to \"completely disregard\" the sanctions. Relations between Washington and Kyiv frayed after the US struck a controversial deal to import Russian diesel last week. Ukraine has accused the Trump administration of withdrawing key military support. Trump and Zelensky have exchanged sharp words about one another.",
-        "publishedAt": "2026-10-17T02:48:36.874Z",
-        "source": "BBC News",
-        "category": "World",
+        "id": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "title": "TikTok bans Musk documentary account",
+        "summary": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase.",
+        "publishedAt": "2026-10-17T19:32:23.000Z",
+        "source": "The Verge",
+        "category": "Technology",
         "coverage": "Source report",
-        "editorialText": "Donald Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with his Ukrainian counterpart Volodymyr Zelensky deepens. The sanctions were passed by the Congress and signed into law the president in September. But Trump issued an executive order Friday night saying that suspending some was in the US national interest, prompting a backlash from US lawmakers. Zelensky said it was unfortunate the US has decided to \"completely disregard\" the sanctions. Relations between Washington and Kyiv frayed after the US struck a controversial deal to import Russian diesel last week. Ukraine has accused the Trump administration of withdrawing key military support. Trump and Zelensky have exchanged sharp words about one another. Ukraine's president declared it was nice to be among \"real leaders\" while addressing an EU summit, after Trump said Zelensky was \"more difficult to deal with\" than Russian President Vladimir Putin. The new US sanctions law took aim at Russia's economy by giving Trump broad powers to levy tariffs of up to 100% on imports from the top five purchasers of",
-        "originalPublishedAt": "2026-10-17T02:48:36.874Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-16",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "But Trump issued an executive order Friday night saying that suspending some was in the US national interest, prompting a backlash from US lawmakers.",
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
-        "eventRevision": "2026-10-16:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Donald Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with his Ukrainian counterpart Volodymyr Zelensky deepens. The sanctions were passed by the Congress and signed into law the president in September. But Trump issued an executive order Friday night saying that suspending some was in the US national interest, prompting a backlash from US lawmakers. Zelensky said it was unfortunate the US has decided to \"completely disregard\" the sanctions. Relations between Washington and Kyiv frayed after the US struck a controversial deal to import Russian diesel last week. Ukraine has accused the Trump administration of withdrawing key military support. Trump and Zelensky have exchanged sharp words about one another.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
-        "checkedAt": "2026-10-17T20:20:30.423Z",
-        "score": 76.75,
-        "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-        "originalSummary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o",
-        "url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o",
-        "title": "Jantar Mantar: Is this the end for iconic Delhi protest site?",
-        "summary": "BBC News, Delhi What is the point of a protest? To raise your voice against injustice? To draw attention to a cause? Or to make those in power uncomfortable enough to listen? For more than three decades, Indians have tried to do all three in a narrow, tree-lined road near Jantar Mantar, an 18th Century astronomical obervatory in Delhi. But that may now be coming to an end. This week, Delhi Police said Jantar Mantar, located close to parliament, would no longer be a designated protest site.",
-        "publishedAt": "2026-10-17T00:41:58.018Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "BBC News, Delhi What is the point of a protest? To raise your voice against injustice? To draw attention to a cause? Or to make those in power uncomfortable enough to listen? For more than three decades, Indians have tried to do all three in a narrow, tree-lined road near Jantar Mantar, an 18th Century astronomical obervatory in Delhi. But that may now be coming to an end. This week, Delhi Police said Jantar Mantar, located close to parliament, would no longer be a designated protest site. The decision comes months after the Gen Z-led Cockroach Janta Party (CJP) - not a political party but a collective which began as a joke - led a massive protest there demanding the resignation of federal education minister Dharmendra Pradhan. Tens of thousands turned up and Pradhan subsequently resigned. Police barricaded Jantar Mantar soon afterwards, preventing further demonstrations. Last week, an attempt by CJP supporters to march there, this time demanding the resignation of India's election chief, ended in a police crackdown. Protesters have now been directed to three other sites. Two are",
-        "originalPublishedAt": "2026-10-17T00:41:58.018Z",
+        "editorialText": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase. Last month, YouTube, Meta, X, and TikTok all faced backlash for rejecting ads for the film. YouTube and Google quickly reversed course, calling it an “error.” However, TikTok and X have refused to change their stance, and neither platform has allowed paid advertisements for the film. Banning the documentary’s account, however, marks a serious escalation, and one laced with a dash",
+        "originalPublishedAt": "2026-10-17T19:32:23.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o",
+        "dateEvidenceUrl": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "BBC News, Delhi What is the point of a protest? To raise your voice against injustice? To draw attention to a cause? Or to make those in power uncomfortable enough to listen? For more than three decades, Indians have tried to do all three in a narrow, tree-lined road near Jantar Mantar, an 18th Century astronomical obervatory in Delhi. But that may now be coming to an end. This week, Delhi Police said Jantar Mantar, located close to parliament, would no longer be a designated protest site.",
+        "explanation": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ae0a/live/7e914b00-c96f-11f1-80fc-ab418b149008.jpg",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2194418432.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o",
-        "checkedAt": "2026-10-17T20:20:30.423Z",
-        "score": 71.25,
+        "imageSourceUrl": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 63,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "TikTok bans Musk documentary account",
+        "originalSummary": "Just ahead of the wider release of Alex Gibney's Musk documentary, TikTok has banned the film's social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film's distributor, Bleecker Street, was informed Friday afternoon that a \"permanent suspension\" was imminent. Bleecker Street has […]",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-pm"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "title": "France protests: Violent clashes, looting and buildings ablaze as over 1,000 arrested",
+        "summary": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported.",
+        "publishedAt": "2026-10-17T18:40:14.676Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported. Prime Minister Sébastien Lecornu said 150 police officers were injured in the unrest. In Paris, the main march appeared to be largely peaceful during the afternoon. A group of young people told the BBC they were \"pacifists\" who are \"just trying to make things change, but nothing is moving\". However, as the day wore on some groups lit fires in the street and torched vehicles, including in iconic locations",
+        "originalPublishedAt": "2026-10-17T18:40:14.676Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-17",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living.",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "eventRevision": "2026-10-17:Event",
+        "majorUpdateVerified": false,
+        "explanation": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8264/live/a6715ba0-ca74-11f1-9ef8-9dedd6ab697d.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 59.25,
         "dimensions": {
           "surprise": 75,
           "consequence": 95,
           "novelty": 15,
-          "relevance": 90
+          "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Jantar Mantar: Is this the end for iconic Delhi protest site?",
-        "originalSummary": "Jantar Mantar, an 18th Century site almost synonymous with demonstrations in Delhi, has been denotified as a protest site.",
+        "displayTitle": "France protests: Violent clashes, looting and buildings ablaze as over 1,000 arrested",
+        "originalSummary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
+        "selectedEdition": "2026-10-17-pm"
       },
       {
-        "id": "https://phys.org/news/2026-10-astronomer-global-team-nasa-mission.html",
-        "url": "https://phys.org/news/2026-10-astronomer-global-team-nasa-mission.html",
-        "title": "Astronomer leads global team on NASA mission to create unprecedented view of the early universe",
-        "summary": "Publication details Haojing Yan et al., The Roman eXtreme Deep Field (RXDF), arXiv (2026). DOI: 10.48550/arxiv.2609.08145 Journal information: arXiv Who's behind this story? Gaby Clark MA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news. Full profile → Andrew Zinin Master's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success. Full profile → Citation: Astronomer leads global team on NASA mission to create unprecedented view of the early universe (2026, October 16) retrieved 17 October 2026 from https://phys.org/news/2026-10-astronomer-global-team-nasa-mission.html This document is subject to copyright.",
-        "publishedAt": "2026-10-16T23:20:01.000Z",
-        "source": "Phys.org",
+        "id": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+        "url": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+        "title": "Alcohol Doesn't Just Affect Neurons &ndash; It Triggers Immune Cells to Destroy The Brain's Structural Matrix, Mouse Study Shows",
+        "summary": "It's well known that alcohol has profound consequences on the way the brain works, and research shows that even low levels of the drug can damage your brain. But how does alcohol actually cause brain damage at the cellular level? In a surprising discovery reported in Immunity, scientists found that alcohol doesn't just interact with neurons. New findings show the drug also affects immune cells in the brain called microglia, triggering them to dismantle the extracellular matrix that structurally supports brain cells.",
+        "publishedAt": "2026-10-17T12:00:00.000Z",
+        "source": "ScienceAlert",
         "category": "Science",
-        "coverage": "Research reporting",
-        "editorialText": "A University of Missouri astronomer is leading a team of 130 researchers from 62 institutions—including NASA, the California Institute of Technology, Princeton University and Harvard University—on an ambitious mission to capture an unprecedented view of the early universe. Haojing Yan, a professor of physics and astronomy in Mizzou's College of Arts and Science, heads the international team behind the Roman eXtreme Deep Field (RXDF), a project that will use NASA's newest flagship space observatory, the Nancy Grace Roman Space Telescope, to create one of the deepest and widest views of the early universe ever made. The study is published on the arXiv preprint server. And NASA is giving Yan and the team 386 hours of observation time to do it. Their goal is to help answer one of astronomy's most fundamental questions: How did the universe evolve from its earliest moments into the vast collection of stars, galaxies and planets we see today? By looking billions of years into the past, the team expects to study thousands of early galaxies, exploding stars, giant black holes and other cosmic mysteries. Together,",
-        "originalPublishedAt": "2026-10-16T23:20:01.000Z",
+        "coverage": "Source report",
+        "editorialText": "It's well known that alcohol has profound consequences on the way the brain works, and research shows that even low levels of the drug can damage your brain. But how does alcohol actually cause brain damage at the cellular level? In a surprising discovery reported in Immunity, scientists found that alcohol doesn't just interact with neurons. New findings show the drug also affects immune cells in the brain called microglia, triggering them to dismantle the extracellular matrix that structurally supports brain cells. \"For years, alcohol's effects on the brain were largely viewed through the lens of neurons, and for good reason: alcohol acts directly on neuronal receptors,\" says neuroscientist and senior author of the study Dimitrios Davalos from the Cleveland Clinic. \"By following microglia in real time, we were able to see that they aren't simply responding to damage. They drive the detrimental changes alcohol causes in the brain.\" Microglia are specialized immune cells that continually monitor and maintain the brain by detecting threats, clearing out dead cells and damaged tissue, and pruning neuronal connections. To explore how microglial activity",
+        "originalPublishedAt": "2026-10-17T12:00:00.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://phys.org/news/2026-10-astronomer-global-team-nasa-mission.html",
+        "dateEvidenceUrl": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Publication details Haojing Yan et al., The Roman eXtreme Deep Field (RXDF), arXiv (2026). DOI: 10.48550/arxiv.2609.08145 Journal information: arXiv Who's behind this story? Gaby Clark MA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news. Full profile → Andrew Zinin Master's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success. Full profile → Citation: Astronomer leads global team on NASA mission to create unprecedented view of the early universe (2026, October 16) retrieved 17 October 2026 from https://phys.org/news/2026-10-astronomer-global-team-nasa-mission.html This document is subject to copyright.",
+        "explanation": "It's well known that alcohol has profound consequences on the way the brain works, and research shows that even low levels of the drug can damage your brain. But how does alcohol actually cause brain damage at the cellular level? In a surprising discovery reported in Immunity, scientists found that alcohol doesn't just interact with neurons. New findings show the drug also affects immune cells in the brain called microglia, triggering them to dismantle the extracellular matrix that structurally supports brain cells.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/astronomer-leads-globa-1.jpg",
-        "imageCaption": "The Nancy Grace Roman Space Telescope was assembled at NASA's Lyndon B. Johnson Space Center in Houston, Texas, before it launched into space on August 30 at NASA's Kennedy Space Center in Florida. Credit: NASA",
-        "imageSourceUrl": "https://phys.org/news/2026-10-astronomer-global-team-nasa-mission.html",
-        "checkedAt": "2026-10-17T20:20:30.423Z",
-        "score": 68,
+        "imageUrl": "https://www.sciencealert.com/images/2026/10/brain-disintegrating.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 59.25,
         "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Astronomer leads global team on NASA mission to create unprecedented view of the early universe",
-        "originalSummary": "A University of Missouri astronomer is leading a team of 130 researchers from 62 institutions—including NASA, the California Institute of Technology, Princeton University and Harvard University—on an ambitious mission to capture an unprecedented view of the early universe.",
+        "displayTitle": "Alcohol Doesn't Just Affect Neurons &ndash; It Triggers Immune Cells to Destroy The Brain's Structural Matrix, Mouse Study Shows",
+        "originalSummary": "(Eugene Mymrin/Moment RF/Getty Images) Changes were seen in as little as an hour.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
+        "selectedEdition": "2026-10-17-pm"
+      },
+      {
+        "id": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "url": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "title": "World's oldest shipwreck discovered off coast of Turkey",
+        "summary": "Yet the discovery could transform our understanding of ancient Mediterranean connections during the Early Bronze Age. Here, and perhaps even earlier, lie the foundations of extensive trade routes as we know them today. Associate professor Hakan Öniz of Akdeniz University, Antalya, has worked along this coastline for decades excavating ancient shipwrecks. Acting on clues from local seafarers, Öniz found a shipwreck in shallow waters off Kekova, west of Antalya in Turkey, in 2024. Earlier this year, he contacted me and asked if I would help date some of the pottery vessels found on this wreck. As an archaeologist specializing in desert sites, I found this a singular experience.",
+        "publishedAt": "2026-10-18T00:30:01.000Z",
+        "source": "Phys.org",
+        "category": "Science",
+        "coverage": "Research reporting",
+        "editorialText": "A shipwreck off the coast of Turkey is the oldest shipwreck in the world, our team of archaeologists believes. There's little left of the ship itself, but based on clues from its cargo—including pottery vessels—a research team I was part of has tentatively dated the wreck to around 2700–2400 B.C. That's about 4,500 years ago. Prior to this discovery, the world's oldest shipwreck was a wreck off the coast of Dokos, in Greece, thought to have been from about 4,200 years ago. Much work remains to be done to finesse the conclusions, and a paper outlining the results is yet to be published in a peer-reviewed journal. Yet the discovery could transform our understanding of ancient Mediterranean connections during the Early Bronze Age. Here, and perhaps even earlier, lie the foundations of extensive trade routes as we know them today. Associate professor Hakan Öniz of Akdeniz University, Antalya, has worked along this coastline for decades excavating ancient shipwrecks. Acting on clues from local seafarers, Öniz found a shipwreck in shallow waters off Kekova, west of Antalya in Turkey, in 2024.",
+        "originalPublishedAt": "2026-10-18T00:30:01.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Yet the discovery could transform our understanding of ancient Mediterranean connections during the Early Bronze Age. Here, and perhaps even earlier, lie the foundations of extensive trade routes as we know them today. Associate professor Hakan Öniz of Akdeniz University, Antalya, has worked along this coastline for decades excavating ancient shipwrecks. Acting on clues from local seafarers, Öniz found a shipwreck in shallow waters off Kekova, west of Antalya in Turkey, in 2024. Earlier this year, he contacted me and asked if I would help date some of the pottery vessels found on this wreck. As an archaeologist specializing in desert sites, I found this a singular experience.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/worlds-oldest-shipwrec.jpg",
+        "imageCaption": "Credit: Hakan Öniz",
+        "imageSourceUrl": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 59.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "World's oldest shipwreck discovered off coast of Turkey",
+        "originalSummary": "A shipwreck off the coast of Turkey is the oldest shipwreck in the world, our team of archaeologists believes. There's little left of the ship itself, but based on clues from its cargo—including pottery vessels—a research team I was part of has tentatively dated the wreck to around 2700–2400 B.C.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-pm"
       }
     ],
-    "fetchedAt": "2026-10-17T20:20:30.423Z",
-    "checkedAt": "2026-10-17T20:20:30.423Z",
+    "fetchedAt": "2026-10-18T00:40:25.826Z",
+    "checkedAt": "2026-10-18T00:40:25.826Z",
     "sources": [
-      "Ars Technica",
-      "ScienceAlert",
-      "BBC News",
       "Phys.org",
       "The Verge",
       "ScienceDaily",
+      "BBC News",
+      "ScienceAlert",
       "The Guardian",
-      "Business Insider",
       "Higher Ed Dive",
+      "Ars Technica",
+      "Business Insider",
       "NPR",
-      "MIT News",
       "NASA"
     ],
     "providersAvailable": 22,
     "providersTotal": 34,
     "research": {
-      "rawCandidates": 528,
-      "candidatesReviewed": 232,
-      "sourcePagesRead": 211,
-      "primaryDatesChecked": 35,
+      "rawCandidates": 532,
+      "candidatesReviewed": 213,
+      "sourcePagesRead": 191,
+      "primaryDatesChecked": 33,
       "rejected": 55,
       "rejectedCandidates": [
+        {
+          "title": "U.S. urges Israel to curb settler violence in West Bank, Rubio says",
+          "url": "https://www.investing.com/news/economy-news/us-urges-israel-to-curb-settler-violence-in-west-bank-rubio-says-4955694",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Edward Meyercord, Extreme Networks CEO, sells $1.09m in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/edward-meyercord-extreme-networks-ceo-sells-109m-in-shares-93CH-4955704",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Dozens of critically endangered orangutans rescued from Indonesian wildfires",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6004881/dozens-of-critically-endangered-orangutans-rescued-from-indonesian-wildfires",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Could another France downgrade put the EU’s credit rating at risk?",
+          "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Clover Health CEO Andrew Toy sells $1.3m in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/clover-health-ceo-andrew-toy-sells-13m-in-shares-93CH-4955703",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Iowa's vote in midterms may help determine balance of power in Congress",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6003962/iowas-vote-in-midterms-may-help-determine-balance-of-power-in-congress",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
         {
           "title": "Citi says interest rates may matter more for economy than stock valuations",
           "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Suspect in deadly Oregon elementary school shooting was a former student",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6006236/suspect-in-deadly-oregon-elementary-school-shooting-was-a-former-student",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Dozens of critically endangered orangutans rescued from Indonesian wildfires",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6004881/dozens-of-critically-endangered-orangutans-rescued-from-indonesian-wildfires",
+          "title": "President Trump's widening stamp on D.C. landmarks",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6001826/president-trumps-widening-stamp-on-d-c-landmarks",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -257,19 +291,14 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Gilead chairman & CEO O’Day sells $2.2m in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/gilead-chairman--ceo-oday-sells-22m-in-stock-93CH-4955543",
+          "title": "Maze Therapeutics CEO Jason Coloma sells $932,259 in Maze shares",
+          "url": "https://www.investing.com/news/insider-trading-news/maze-therapeutics-ceo-jason-coloma-sells-932259-in-maze-shares-93CH-4955685",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6003966/86m-in-teen-pregnancy-prevention-funds-diverted-to-trump-linked-contractor",
+          "title": "Biking along the Great American Rail-Trail",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-5973071/biking-along-the-great-american-rail-trail",
           "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
-          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Scientists Discover an Erectile Dysfunction Drug Could Also Regenerate Muscle",
@@ -287,14 +316,19 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Bitcoin coils at 23.6% Fib level near $81,495: Live levels",
-          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-wedged-at-84175-between-key-support-and-resistance-live-93CH-4943299",
+          "title": "PagerDuty executive chair Jennifer Tejada sells $1.6 million in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/pagerduty-executive-chair-jennifer-tejada-sells-16-million-in-shares-93CH-4955675",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6003823/journalist-ronan-farrow-on-elon-musks-trillion-dollar-political-influence",
+          "title": "How public bathrooms reflect America's inequality",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-5886128/how-public-bathrooms-reflect-americas-inequality",
           "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "This bird flies thousands of miles, but its wings have a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "German minister seeks debt brake exemption to maintain Ukraine aid",
@@ -302,19 +336,19 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment",
-          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
+          "title": "First Guaranty Bancshares director Smith buys $822,013 in stock",
+          "url": "https://www.investing.com/news/insider-trading-news/first-guaranty-bancshares-director-smith-buys-822013-in-stock-93CH-4955666",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6001543/meet-catherine-ericson-an-official-new-york-leaf-peeper-in-lake-placid",
+          "title": "Suspect in deadly Oregon elementary school shooting was a former student",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006236/suspect-in-deadly-oregon-elementary-school-shooting-was-a-former-student",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "This week in science: sea monsters, long COVID patients' microbiome, elephant carcasses",
-          "url": "https://www.npr.org/2026/10/15/nx-s1-5995400/this-week-in-science-sea-monsters-long-covid-patients-microbiome-elephant-carcasses",
-          "reason": "Source article was unavailable or too short"
+          "title": "Brain cells meant to protect us may be fueling cognitive decline",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Anthropic’s Clark says AI’s impact accelerating quickly and could vastly boost US GDP",
@@ -322,13 +356,23 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "EOS Climbs 18% In a Green Day",
-          "url": "https://www.investing.com/news/cryptocurrency-news/eos-climbs-18-in-a-green-day-4955523",
-          "reason": "Provider returned HTTP 403"
+          "title": "Why is Alberta voting to separate from Canada, and how likely is it to happen?",
+          "url": "https://www.bbc.co.uk/news/articles/c809jg1gj9yo",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "This bird flies thousands of miles, but its wings have a catch",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6003966/86m-in-teen-pregnancy-prevention-funds-diverted-to-trump-linked-contractor",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Cat Owners: There's a Parasite You've Probably Never Heard Of, And It's More Common in Winter",
+          "url": "https://www.sciencealert.com/theres-another-cat-parasite-that-can-infect-humans-a-huge-study-reveals-how-common-it-is",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -337,23 +381,18 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Anterix CFO Elena Marquez sells $400,606 of stock from $80.00 to $82.50",
-          "url": "https://www.investing.com/news/insider-trading-news/anterix-cfo-elena-marquez-sells-400606-of-stock-from-8000-to-8250-93CH-4955522",
+          "title": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says",
+          "url": "https://www.investing.com/news/commodities-news/venezuela-expects-nearly-76-billion-in-oil-investment-over-five-years-acting-president-says-4955647",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Are student protests being manipulated ahead of France's presidential election?",
-          "url": "https://www.bbc.co.uk/news/articles/c8zxlyg965r3o",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6003823/journalist-ronan-farrow-on-elon-musks-trillion-dollar-political-influence",
+          "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Brain cells meant to protect us may be fueling cognitive decline",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Cat Owners: There's a Parasite You've Probably Never Heard Of, And It's More Common in Winter",
-          "url": "https://www.sciencealert.com/theres-another-cat-parasite-that-can-infect-humans-a-huge-study-reveals-how-common-it-is",
+          "title": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -367,13 +406,18 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Mercedes unveils electric SUV as it expands premium EV lineup",
-          "url": "https://www.investing.com/news/stock-market-news/mercedes-unveils-electric-suv-as-it-expands-premium-ev-lineup-4955521",
+          "title": "Limoneira VP, CFO Hamm sells $11,905 of common stock",
+          "url": "https://www.investing.com/news/insider-trading-news/limoneira-vp-cfo-hamm-sells-11905-of-common-stock-93CH-4955645",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
+          "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6001543/meet-catherine-ericson-an-official-new-york-leaf-peeper-in-lake-placid",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -392,54 +436,9 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Why is Alberta voting to separate from Canada, and how likely is it to happen?",
-          "url": "https://www.bbc.co.uk/news/articles/c809jg1gj9yo",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "The ambiguous costs of climate change",
           "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "IMF members call for more support amid war shocks, ’advanced intelligence’ risks",
-          "url": "https://www.investing.com/news/economy-news/imf-members-call-for-increased-support-for-countries-amid-negative-risks-and-war-spillovers-4955272",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Pedevco director Simon Kukes buys $1.91m in company stock",
-          "url": "https://www.investing.com/news/insider-trading-news/pedevco-director-simon-kukes-buys-191m-in-company-stock-93CH-4955519",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Could Celiac Patients Someday Eat Gluten Safely? A New Drug Just Passed a Key Trial",
-          "url": "https://www.sciencealert.com/new-drug-protects-people-with-celiac-disease-from-gluten-damage-in-clinical-trial",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "China AI supply-chain IPOs hold firm despite valuation pullback, Citi says",
-          "url": "https://www.investing.com/news/economy-news/china-ai-supplychain-ipos-hold-firm-despite-valuation-pullback-citi-says-4955300",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Memory stocks: Is the wall of worry justified?",
-          "url": "https://www.investing.com/news/stock-market-news/memory-stocks-is-the-wall-of-worry-justified-4955476",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Mayor of Bend shares how her community is doing after elementary school shooting",
-          "url": "https://www.npr.org/2026/10/16/nx-s1-6005377/mayor-of-bend-shares-how-her-community-is-doing-after-elementary-school-shooting",
-          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "A quantum highway just one atom high could transform superconductors",
@@ -452,11 +451,6 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
-          "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Scientists discover a plastic-eating “Pac-Man” enzyme with a surprising secret",
           "url": "https://www.sciencedaily.com/releases/2026/10/261014015509.htm",
           "reason": "The actual event/announcement is more than a week old"
@@ -464,6 +458,11 @@
         {
           "title": "Astronomers discover a strange universal rule behind black hole eruptions",
           "url": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
+          "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -482,39 +481,39 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
+          "title": "Scientists discover cell division does more than make new cells: It helps reshape tissues",
+          "url": "https://phys.org/news/2026-10-scientists-cell-division-cells-reshape.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
           "title": "Sexual violence concepts launched online are spilling into the real world",
           "url": "https://phys.org/news/2026-10-sexual-violence-concepts-online-real.html",
-          "reason": "The actual event/announcement is more than a week old"
+          "reason": "Provider returned HTTP 429"
         },
         {
           "title": "New high-frequency method boosts 2D material readout for next-gen quantum computers",
           "url": "https://phys.org/news/2026-10-high-frequency-method-boosts-2d.html",
-          "reason": "The actual event/announcement is more than a week old"
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "Sunlight gives biodiesel byproduct a second life as hydrogen and valuable chemicals",
+          "url": "https://phys.org/news/2026-10-sunlight-biodiesel-byproduct-life-hydrogen.html",
+          "reason": "Provider returned HTTP 429"
         },
         {
           "title": "Infrared light overcomes mirror coating obstacle in gravitational wave detector upgrades",
           "url": "https://phys.org/news/2026-10-infrared-mirror-coating-obstacle-gravitational.html",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "First comprehensive Mars soil classification offers framework for exploration and future farming",
-          "url": "https://phys.org/news/2026-10-comprehensive-mars-soil-classification-framework.html",
-          "reason": "Provider returned HTTP 429"
-        },
-        {
-          "title": "Judging strangers' preferences may actually be easier when they're less like our own",
-          "url": "https://phys.org/news/2026-10-strangers-easier-theyre.html",
-          "reason": "Provider returned HTTP 429"
         }
       ],
       "qualifying": 60,
       "eventDatesVerified": 12,
       "eventDatesUnconfirmed": 48,
       "rejectionReasons": {
-        "Provider returned HTTP 403": 19,
-        "Source article was unavailable or too short": 7,
-        "The actual event/announcement is more than a week old": 27,
-        "Provider returned HTTP 429": 2
+        "Provider returned HTTP 403": 18,
+        "Source article was unavailable or too short": 10,
+        "The actual event/announcement is more than a week old": 23,
+        "Provider returned HTTP 429": 4
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -543,7 +542,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 23,
+          "candidates": 27,
           "error": null
         },
         {
@@ -764,6 +763,206 @@
     "carriedCount": 0,
     "olderCount": 0,
     "reserveStories": [
+      {
+        "id": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+        "url": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+        "title": "Global survey links financial hardship to lower trust in science",
+        "summary": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey. The Wellcome Global Monitor 2026 surveyed more than 140,000 people in 140 countries in 2025 and found that trust in science had fallen below prepandemic levels. To track changes over time, researchers compared results from 108 countries surveyed in 2018, 2020 and 2025.",
+        "publishedAt": "2026-10-17T12:00:01.000Z",
+        "source": "Phys.org",
+        "category": "Science",
+        "coverage": "Research reporting",
+        "editorialText": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey. The Wellcome Global Monitor 2026 surveyed more than 140,000 people in 140 countries in 2025 and found that trust in science had fallen below prepandemic levels. To track changes over time, researchers compared results from 108 countries surveyed in 2018, 2020 and 2025. The proportion of respondents expressing at least some trust in science fell from 77% in 2018 to 72% in 2025, after rising to 80% during the COVID-19 pandemic in 2020. Over the same period, the share reporting little or no trust in science rose from 13% in both 2018 and 2020 to 19% in 2025. Trust in scientists themselves also declined. The share of people expressing \"a lot\" of trust in scientists dropped to 32% in 2025, down from 34% in 2018 and 43% in 2020. \"There isn't a crisis or a wholesale collapse,\" said Mark Henderson, executive director of corporate affairs and",
+        "originalPublishedAt": "2026-10-17T12:00:01.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey. The Wellcome Global Monitor 2026 surveyed more than 140,000 people in 140 countries in 2025 and found that trust in science had fallen below prepandemic levels. To track changes over time, researchers compared results from 108 countries surveyed in 2018, 2020 and 2025.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/reading-online.jpg",
+        "imageCaption": "Credit: Unsplash/CC0 Public Domain",
+        "imageSourceUrl": "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 66.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Global survey links financial hardship to lower trust in science",
+        "originalSummary": "Poor access to health care, limited local influence over research priorities and an unequal distribution of scientific benefits are undermining public confidence in science, experts warn, following the release of a global trust survey.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-pm"
+      },
+      {
+        "id": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "title": "TikTok bans Musk documentary account",
+        "summary": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase.",
+        "publishedAt": "2026-10-17T19:32:23.000Z",
+        "source": "The Verge",
+        "category": "Technology",
+        "coverage": "Source report",
+        "editorialText": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase. Last month, YouTube, Meta, X, and TikTok all faced backlash for rejecting ads for the film. YouTube and Google quickly reversed course, calling it an “error.” However, TikTok and X have refused to change their stance, and neither platform has allowed paid advertisements for the film. Banning the documentary’s account, however, marks a serious escalation, and one laced with a dash",
+        "originalPublishedAt": "2026-10-17T19:32:23.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2194418432.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 63,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "TikTok bans Musk documentary account",
+        "originalSummary": "Just ahead of the wider release of Alex Gibney's Musk documentary, TikTok has banned the film's social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film's distributor, Bleecker Street, was informed Friday afternoon that a \"permanent suspension\" was imminent. Bleecker Street has […]",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-pm"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "title": "France protests: Violent clashes, looting and buildings ablaze as over 1,000 arrested",
+        "summary": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported.",
+        "publishedAt": "2026-10-17T18:40:14.676Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported. Prime Minister Sébastien Lecornu said 150 police officers were injured in the unrest. In Paris, the main march appeared to be largely peaceful during the afternoon. A group of young people told the BBC they were \"pacifists\" who are \"just trying to make things change, but nothing is moving\". However, as the day wore on some groups lit fires in the street and torched vehicles, including in iconic locations",
+        "originalPublishedAt": "2026-10-17T18:40:14.676Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-17",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living.",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "eventRevision": "2026-10-17:Event",
+        "majorUpdateVerified": false,
+        "explanation": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8264/live/a6715ba0-ca74-11f1-9ef8-9dedd6ab697d.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 59.25,
+        "dimensions": {
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "France protests: Violent clashes, looting and buildings ablaze as over 1,000 arrested",
+        "originalSummary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-pm"
+      },
+      {
+        "id": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+        "url": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+        "title": "Alcohol Doesn't Just Affect Neurons &ndash; It Triggers Immune Cells to Destroy The Brain's Structural Matrix, Mouse Study Shows",
+        "summary": "It's well known that alcohol has profound consequences on the way the brain works, and research shows that even low levels of the drug can damage your brain. But how does alcohol actually cause brain damage at the cellular level? In a surprising discovery reported in Immunity, scientists found that alcohol doesn't just interact with neurons. New findings show the drug also affects immune cells in the brain called microglia, triggering them to dismantle the extracellular matrix that structurally supports brain cells.",
+        "publishedAt": "2026-10-17T12:00:00.000Z",
+        "source": "ScienceAlert",
+        "category": "Science",
+        "coverage": "Source report",
+        "editorialText": "It's well known that alcohol has profound consequences on the way the brain works, and research shows that even low levels of the drug can damage your brain. But how does alcohol actually cause brain damage at the cellular level? In a surprising discovery reported in Immunity, scientists found that alcohol doesn't just interact with neurons. New findings show the drug also affects immune cells in the brain called microglia, triggering them to dismantle the extracellular matrix that structurally supports brain cells. \"For years, alcohol's effects on the brain were largely viewed through the lens of neurons, and for good reason: alcohol acts directly on neuronal receptors,\" says neuroscientist and senior author of the study Dimitrios Davalos from the Cleveland Clinic. \"By following microglia in real time, we were able to see that they aren't simply responding to damage. They drive the detrimental changes alcohol causes in the brain.\" Microglia are specialized immune cells that continually monitor and maintain the brain by detecting threats, clearing out dead cells and damaged tissue, and pruning neuronal connections. To explore how microglial activity",
+        "originalPublishedAt": "2026-10-17T12:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "It's well known that alcohol has profound consequences on the way the brain works, and research shows that even low levels of the drug can damage your brain. But how does alcohol actually cause brain damage at the cellular level? In a surprising discovery reported in Immunity, scientists found that alcohol doesn't just interact with neurons. New findings show the drug also affects immune cells in the brain called microglia, triggering them to dismantle the extracellular matrix that structurally supports brain cells.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://www.sciencealert.com/images/2026/10/brain-disintegrating.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 59.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Alcohol Doesn't Just Affect Neurons &ndash; It Triggers Immune Cells to Destroy The Brain's Structural Matrix, Mouse Study Shows",
+        "originalSummary": "(Eugene Mymrin/Moment RF/Getty Images) Changes were seen in as little as an hour.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-pm"
+      },
+      {
+        "id": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "url": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "title": "World's oldest shipwreck discovered off coast of Turkey",
+        "summary": "Yet the discovery could transform our understanding of ancient Mediterranean connections during the Early Bronze Age. Here, and perhaps even earlier, lie the foundations of extensive trade routes as we know them today. Associate professor Hakan Öniz of Akdeniz University, Antalya, has worked along this coastline for decades excavating ancient shipwrecks. Acting on clues from local seafarers, Öniz found a shipwreck in shallow waters off Kekova, west of Antalya in Turkey, in 2024. Earlier this year, he contacted me and asked if I would help date some of the pottery vessels found on this wreck. As an archaeologist specializing in desert sites, I found this a singular experience.",
+        "publishedAt": "2026-10-18T00:30:01.000Z",
+        "source": "Phys.org",
+        "category": "Science",
+        "coverage": "Research reporting",
+        "editorialText": "A shipwreck off the coast of Turkey is the oldest shipwreck in the world, our team of archaeologists believes. There's little left of the ship itself, but based on clues from its cargo—including pottery vessels—a research team I was part of has tentatively dated the wreck to around 2700–2400 B.C. That's about 4,500 years ago. Prior to this discovery, the world's oldest shipwreck was a wreck off the coast of Dokos, in Greece, thought to have been from about 4,200 years ago. Much work remains to be done to finesse the conclusions, and a paper outlining the results is yet to be published in a peer-reviewed journal. Yet the discovery could transform our understanding of ancient Mediterranean connections during the Early Bronze Age. Here, and perhaps even earlier, lie the foundations of extensive trade routes as we know them today. Associate professor Hakan Öniz of Akdeniz University, Antalya, has worked along this coastline for decades excavating ancient shipwrecks. Acting on clues from local seafarers, Öniz found a shipwreck in shallow waters off Kekova, west of Antalya in Turkey, in 2024.",
+        "originalPublishedAt": "2026-10-18T00:30:01.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Yet the discovery could transform our understanding of ancient Mediterranean connections during the Early Bronze Age. Here, and perhaps even earlier, lie the foundations of extensive trade routes as we know them today. Associate professor Hakan Öniz of Akdeniz University, Antalya, has worked along this coastline for decades excavating ancient shipwrecks. Acting on clues from local seafarers, Öniz found a shipwreck in shallow waters off Kekova, west of Antalya in Turkey, in 2024. Earlier this year, he contacted me and asked if I would help date some of the pottery vessels found on this wreck. As an archaeologist specializing in desert sites, I found this a singular experience.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/worlds-oldest-shipwrec.jpg",
+        "imageCaption": "Credit: Hakan Öniz",
+        "imageSourceUrl": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+        "checkedAt": "2026-10-18T00:40:25.826Z",
+        "score": 59.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "World's oldest shipwreck discovered off coast of Turkey",
+        "originalSummary": "A shipwreck off the coast of Turkey is the oldest shipwreck in the world, our team of archaeologists believes. There's little left of the ship itself, but based on clues from its cargo—including pottery vessels—a research team I was part of has tentatively dated the wreck to around 2700–2400 B.C.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-17-pm"
+      },
       {
         "id": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
         "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
@@ -1746,209 +1945,14 @@
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-15-pm"
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
-        "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
-        "title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
-        "summary": "As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice. Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of South Sumatra on Thursday. “This trial of dry ice dispersal is being conducted under the president’s direct instruction to help tackle the haze in South Sumatra,” minister Dudung Abdurachman was quoted as saying by state news agency Antara.",
-        "publishedAt": "2026-10-15T04:25:03.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 54,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 60,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Indonesia fights fire with dry ice as toxic haze spreads across region",
-        "originalSummary": "Having tried cloud seeding and water bombing, one pilot project will see dry ice dispersed by plane across the province of South SumatraAs fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice.Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of South Sumatra on Thursday. Continue reading...",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-15T04:25:03.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice. Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of South Sumatra on Thursday. “This trial of dry ice dispersal is being conducted under the president’s direct instruction to help tackle the haze in South Sumatra,” minister Dudung Abdurachman was quoted as saying by state news agency Antara.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/f91346dbfc3a74a003e6aeb4789749685a84ac60/328_0_4558_3646/master/4558.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=005dfb27ad279a79407390d749a50c19",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
-        "checkedAt": "2026-10-16T01:00:42.206Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-pm"
-      },
-      {
-        "id": "https://phys.org/news/2026-10-extra-weight-dog-brain.html",
-        "url": "https://phys.org/news/2026-10-extra-weight-dog-brain.html",
-        "title": "Can extra weight weigh on your dog's brain?",
-        "summary": "Scientists have learned a lot about what happens to the human body as we age. But there's still much to learn about how other species age, including dogs. Even carrying extra weight could affect a dog's cognitive health. Alexandra Genualdi, a student at Oklahoma State University who presented her research in September at the American Physiological Society's 2026 Comparative Physiology conference in Orlando, talks about her efforts to learn more. What is your research trying to uncover? We wanted to understand whether carrying extra body weight affects the health and well-being of canine companion animals, specifically golden retrievers.",
-        "publishedAt": "2026-10-16T01:00:01.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
-        "score": 53.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Can extra weight weigh on your dog's brain?",
-        "originalSummary": "Scientists have learned a lot about what happens to the human body as we age. But there's still much to learn about how other species age, including dogs. Even carrying extra weight could affect a dog's cognitive health. Alexandra Genualdi, a student at Oklahoma State University who presented her research in September at the American Physiological Society's 2026 Comparative Physiology conference in Orlando, talks about her efforts to learn more.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-16T01:00:01.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://phys.org/news/2026-10-extra-weight-dog-brain.html",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Scientists have learned a lot about what happens to the human body as we age. But there's still much to learn about how other species age, including dogs. Even carrying extra weight could affect a dog's cognitive health. Alexandra Genualdi, a student at Oklahoma State University who presented her research in September at the American Physiological Society's 2026 Comparative Physiology conference in Orlando, talks about her efforts to learn more. What is your research trying to uncover? We wanted to understand whether carrying extra body weight affects the health and well-being of canine companion animals, specifically golden retrievers.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/fat-dog.jpg",
-        "imageCaption": "Credit: Pixabay/CC0 Public Domain",
-        "imageSourceUrl": "https://phys.org/news/2026-10-extra-weight-dog-brain.html",
-        "checkedAt": "2026-10-16T01:00:42.206Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-pm"
-      },
-      {
-        "id": "https://phys.org/news/2026-10-dna-sequencing-methods-rare-mutations.html",
-        "url": "https://phys.org/news/2026-10-dna-sequencing-methods-rare-mutations.html",
-        "title": "New DNA sequencing methods detect rare mutations acquired as bodies grow and age",
-        "summary": "Somatic mutations, the DNA changes that occur as our bodies grow and age, not only hold an important key to cancer but are emerging as the seeds of a wide range of common, noncancerous diseases. The Somatic Mosaicism across Human Tissues (SMaHT) Network, a National Institutes of Health Common Fund initiative to catalog all the normal processes of somatic mutation, has published its first comprehensive benchmarking study in the journal Cell. The researchers developed and calibrated new sequencing technologies, experimental approaches and computational methods that now make it possible to detect different types of somatic mutations with greater sensitivity and specificity than ever before.",
-        "publishedAt": "2026-10-15T19:00:14.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "New DNA sequencing methods detect rare mutations acquired as bodies grow and age",
-        "originalSummary": "Somatic mutations, the DNA changes that occur as our bodies grow and age, not only hold an important key to cancer but are emerging as the seeds of a wide range of common, noncancerous diseases. The Somatic Mosaicism across Human Tissues (SMaHT) Network, a National Institutes of Health Common Fund initiative to catalog all the normal processes of somatic mutation, has published its first comprehensive benchmarking study in the journal Cell.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-15T19:00:14.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://phys.org/news/2026-10-dna-sequencing-methods-rare-mutations.html",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Somatic mutations, the DNA changes that occur as our bodies grow and age, not only hold an important key to cancer but are emerging as the seeds of a wide range of common, noncancerous diseases. The Somatic Mosaicism across Human Tissues (SMaHT) Network, a National Institutes of Health Common Fund initiative to catalog all the normal processes of somatic mutation, has published its first comprehensive benchmarking study in the journal Cell. The researchers developed and calibrated new sequencing technologies, experimental approaches and computational methods that now make it possible to detect different types of somatic mutations with greater sensitivity and specificity than ever before.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/smaht-network-advances.jpg",
-        "imageCaption": "Credit: Cell (2026). DOI: 10.1016/j.cell.2026.09.037",
-        "imageSourceUrl": "https://phys.org/news/2026-10-dna-sequencing-methods-rare-mutations.html",
-        "checkedAt": "2026-10-15T19:13:49.245Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-am"
-      },
-      {
-        "id": "https://www.sciencedaily.com/releases/2026/10/261013015800.htm",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261013015800.htm",
-        "title": "Scientists discover how harmful “zombie cells” hide from the immune system",
-        "summary": "Researchers led by Cedars-Sinai Health Sciences University have discovered a protein that may allow harmful aging cells to escape detection by the immune system. By helping these cells remain in the body instead of being cleared away, the protein could contribute to their accumulation and the development of health problems associated with aging. The discovery, published in Cell Metabolism, identifies PD-L2 as a potential target for therapies aimed at eliminating harmful aging cells. Scientists also believe the protein could serve as a blood marker, providing a way to detect and monitor these cells.",
-        "publishedAt": "2026-10-14T00:00:00.000Z",
-        "source": "ScienceDaily",
-        "category": "Science",
-        "coverage": "Research summary",
-        "score": 71.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "48h",
-        "displayTitle": "Scientists discover how harmful “zombie cells” hide from the immune system",
-        "originalSummary": "Scientists have discovered a protein that may help harmful aging cells hide from the immune system, allowing them to accumulate and fuel age-related health problems. Blocking the protein in mice reduced these cells and inflammation while improving blood sugar regulation and strength, offering a promising new direction for anti-aging research.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-14T00:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261013015800.htm",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Researchers led by Cedars-Sinai Health Sciences University have discovered a protein that may allow harmful aging cells to escape detection by the immune system. By helping these cells remain in the body instead of being cleared away, the protein could contribute to their accumulation and the development of health problems associated with aging. The discovery, published in Cell Metabolism, identifies PD-L2 as a potential target for therapies aimed at eliminating harmful aging cells. Scientists also believe the protein could serve as a blood marker, providing a way to detect and monitor these cells.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://www.sciencedaily.com/images/1920/embryonic-stem-cells-cellular-therapy-regeneration.webp",
-        "imageCaption": "Scientists have uncovered a protein that helps harmful “zombie cells” escape the immune system, revealing a potential new way to fight the damaging effects of aging. Credit: Shutterstock",
-        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261013015800.htm",
-        "checkedAt": "2026-10-15T19:13:49.245Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-am"
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
-        "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
-        "title": "Russia and Ukraine trade strikes as Trump ‘energy ceasefire’ collapses",
-        "summary": "The White House’s unilateral effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed as Moscow sent a record swarm of drones overnight to attack infrastructure in central Ukraine and Kyiv appeared to resume strikes on Russian oil refineries despite warnings from Donald Trump. Moscow accused Ukraine of launching a strike against a Russian oil refinery in the Ryazan region, its first since Trump abruptly declared an “energy ceasefire” that neither Russia nor Ukraine said they had agreed to. Trump has demanded that Volodymyr Zelenskyy stop attacking Russian oil refineries, claiming it is the cause of a global rise in the price of diesel fuel.",
-        "publishedAt": "2026-10-15T15:01:10.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 64.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Russia and Ukraine trade strikes as Trump ‘energy ceasefire’ collapses",
-        "originalSummary": "Moscow sends swarms of drones to attack infrastructure in central Ukraine as Zelenskyy says Kyiv will restart strikes on Russian oil refineriesThe White House’s unilateral effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed as Moscow sent a record swarm of drones overnight to attack infrastructure in central Ukraine and Kyiv appeared to resume strikes on Russian oil refineries despite warnings from Donald Trump.Moscow accused Ukraine of launching a strike against a Russian oil refinery in the Ryazan region, its first since Trump abruptly declared an “energy ceasefire” that neither Russia nor Ukraine said they had agreed to. Continue reading...",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-15T15:01:10.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The White House’s unilateral effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed as Moscow sent a record swarm of drones overnight to attack infrastructure in central Ukraine and Kyiv appeared to resume strikes on Russian oil refineries despite warnings from Donald Trump. Moscow accused Ukraine of launching a strike against a Russian oil refinery in the Ryazan region, its first since Trump abruptly declared an “energy ceasefire” that neither Russia nor Ukraine said they had agreed to. Trump has demanded that Volodymyr Zelenskyy stop attacking Russian oil refineries, claiming it is the cause of a global rise in the price of diesel fuel.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/0859cf99ca689403c3543c139d63683eaa747f5c/292_0_4080_3264/master/4080.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d9688dadcbe28d93c63bb498f6407f85",
-        "imageCaption": "A man stands at the site of his parents' house, destroyed by a Russian airstrike Photograph: Reuters",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
-        "checkedAt": "2026-10-15T19:13:49.245Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-15-am"
       }
     ],
     "selectedIds": [
-      "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "https://www.sciencealert.com/2200-year-old-fingerprints-reveal-who-really-built-chinas-mysterious-terracotta-army",
-      "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
-      "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o",
-      "https://phys.org/news/2026-10-astronomer-global-team-nasa-mission.html"
+      "https://phys.org/news/2026-10-global-survey-links-financial-hardship.html",
+      "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+      "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+      "https://www.sciencealert.com/alcohol-doesnt-just-affect-neurons-it-triggers-immune-cells-to-destroy-the-brains-structural-matrix-mouse-study-shows",
+      "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html"
     ]
   }
 }
