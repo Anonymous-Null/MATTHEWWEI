@@ -28,7 +28,7 @@ export function sectionStories(html, section) {
 // discovery channels so a prolific science feed cannot crowd out world news.
 export function readingQueue(pools,{now=new Date(),limit=180}={}) {
   const seen=new Set(),out=[];
-  const priority = s => /\b(no kings|nationwide|mass protests?|airstrikes?|missile strikes?|drone attacks?|ukrain\w*.{0,60}(?:strikes?|drones?)|ceasefire|coup)\b/i.test(s.title || '') ? 1 : 0;
+  const priority = s => /\b(no kings|nationwide|mass protests?|airstrikes?|missile strikes?|drone attacks?|ukrain\w*.{0,60}(?:strikes?|drones?)|ceasefire|coup|breakthrough|discovery|discovered|spacecraft|telescope|quantum|robotics|scientists|researchers)\b/i.test(s.title || '') ? 1 : 0;
   const queues=pools.map(pool=>pool.filter(s=> {
     const time=Date.parse(s.publishedAt);
     return !s.publishedAt || Number.isFinite(time) && +now-time<=48*3600000 && time<=+now+3600000;

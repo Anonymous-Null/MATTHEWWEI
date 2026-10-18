@@ -98,12 +98,15 @@ export function readableHeadline(title, summary = '') {
 // to cancer, discovery, AI or education in someone's personal background.
 export function editoriallyEligible(story) {
   const title = story.title || '';
+  const backgroundFeature = /\bweekly newsletter\b/i.test(story.editorialText || '');
+  const routineAward = /\b(win|wins|awarded)\b.{0,60}\b(prize|award|fellowship)\b/i.test(title) && !/\bNobel\b/i.test(title);
+  const localSighting = /\b(woodland|nature reserve|local park)\b/i.test(title) && /\b(restored|recorded|sightings?|spotted)\b/i.test(title) && !/\b(new species|thought extinct|rediscovered)\b/i.test(title);
   const localUpkeep = /\b(overgrown|pathways?|potholes?|litter|fly-tipping|dog fouling|grass cutting|wheelie bins?|parking spaces?|town council)\b/i.test(title);
   const widerImpact = /\b(deaths?|killed|disaster|nationwide|national emergency|evacuat\w*|mass poisoning|major breakthrough)\b/i.test(title);
   const routineAppearance = /\b(town hall|faces? (?:tough )?questions|campaign speech|pledges? support)\b/i.test(title) && !/\b(resigns?|assassination|arrested|killed|shot)\b/i.test(title);
   const shopping = /\b(discount|preorder|on sale|deals?)\b/i.test(title) && /\b(tv|iphone|laptop|headphones|phone|tablet|amazon|apple|gadget)\b/i.test(title);
   const careerProfile = /\b(data cent(?:er|re))\b/i.test(title) && /\b(jobs?|career|training|hour)\b/i.test(title) && !/\b(layoffs?|strikes?|collapse|nationwide)\b/i.test(title);
-  return !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance;
+  return !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance && !backgroundFeature && !routineAward && !localSighting;
 }
 
 export const NEWS_WEIGHTS = { surprise: 0.35, consequence: 0.30, novelty: 0.20, relevance: 0.15 };
@@ -149,11 +152,9 @@ export function interestScore(story) {
     dimensions.surprise = Math.min(dimensions.surprise,50);
     dimensions.novelty = Math.min(dimensions.novelty,40);
   }
-  const significantConflict = /\b(ukrain\w*|russia\w*|war|military|civilian\w*)\b/i.test(story.title)
-    && /\b(strikes?|attacks?|killed|missiles?|drones?|offensive|ceasefire|blackout|power grid)\b/i.test(story.title);
   const massProtest = /\b(protests?|demonstrations?|marches?|rallies)\b/i.test(story.title)
     && /\b(nationwide|across (?:the )?(?:US|U\.S\.|country)|millions|hundreds of thousands|largest|thousands|no kings)\b/i.test(text);
-  if (significantConflict || massProtest) { dimensions.consequence = 95; dimensions.surprise = Math.max(dimensions.surprise,65); dimensions.novelty = Math.max(dimensions.novelty,65); }
+  if (massProtest) { dimensions.consequence = 95; dimensions.surprise = Math.max(dimensions.surprise,65); dimensions.novelty = Math.max(dimensions.novelty,65); }
   const score = Object.entries(NEWS_WEIGHTS).reduce((sum, [key, weight]) => sum + dimensions[key] * weight, 0);
   return { score, dimensions };
 }
@@ -220,6 +221,17 @@ export function selectBriefing(stories, { key, history = {}, previousSources = [
   return selected;
 }
 
+// Classify the development, not the feed label: a war report can arrive
+// through a Business or Technology feed and still overlap other war coverage.
+export function conflictTopic(story) {
+  const t=story.title || '';
+  if (!/\b(war|military|missiles?|airstrikes?|strikes?|attacks?|troops?|ceasefire|fighter jets?|shoot down|shot down|hits?|ablaze|bombing|sanctions?)\b/i.test(t)) return null;
+  const context = `${t} ${String(story.editorialText || story.explanation || story.summary || '').slice(0,600)}`;
+  if (/\b(ukrain\w*|russia\w*|romania\w*|nato|black sea|st[ .]+petersburg)\b/i.test(context)) return 'russia-ukraine';
+  if (/\b(iran|israel|gaza|houthi\w*|yemen|hormuz|saudi)\b/i.test(context)) return 'middle-east';
+  return /\b(war|military|missiles?|airstrikes?|troops?|fighter jets?)\b/i.test(t) ? 'other-conflict' : null;
+}
+
 // Quantity is now a product requirement. Prefer new verified developments,
 // including checked reporting with an explicitly unknown event date, then catch-up
 // reporting and finally the real previously published edition. Never invent
@@ -238,10 +250,20 @@ export function completeBriefing(stories, { key, history = {}, previousSources =
     for (const s of items) {
       if (selected.length === 5) break;
       if (selected.some(old => similarStories(old,s))) continue;
+      const conflict=conflictTopic(s);
+      if (conflict && (selected.filter(p=>conflictTopic(p)).length>=2 || selected.some(p=>conflictTopic(p)===conflict))) continue;
       selected.push({ ...s, ...flags });
     }
   };
   const broader = rankStories(current.filter(unseen), now, { broad:true, minScore:20, limit:100 });
+  // Give strong technology and science reporting room in a five-story edition.
+  // This is conditional on checked, unseen, recent candidates meeting the
+  // interest threshold; no weak article is added to satisfy a topic quota.
+  for (const category of ['Technology','Science']) {
+    const choices=broader.filter(s=>s.category===category && !conflictTopic(s) && s.score>=45 && (category!=='Science' || /\b(scientists?|researchers?|study|experiment|telescope|spacecraft|NASA|new species)\b/i.test(`${s.title} ${s.editorialText || ''}`)));
+    choices.sort((a,b)=>b.score-a.score);
+    if(choices.length) add([choices[0]], {carriedForward:false,olderReport:false,selectedEdition:key});
+  }
   // Recalculate variety after each pick. A final global sort used to erase
   // the publisher/category penalties and fill the edition with one theme.
   while (broader.length && selected.length < 5) {

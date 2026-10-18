@@ -19,6 +19,7 @@ if (scheduled && !briefingDue(previous, now)) {
 }
 
 const news = await researchNews({ now, previous: previous?.news?.stories || [], seen: history.seen });
+if (process.env.RESEARCH_REVIEW_PATH) await writeFile(process.env.RESEARCH_REVIEW_PATH, JSON.stringify(news,null,2));
 const key = checkInWindow(now).key;
 const previousSources = history.editions.find(e => e.key !== key)?.sources || [];
 const reserve = [...(previous?.news?.stories || []), ...(previous?.news?.reserveStories || []), ...(history.archive || [])];

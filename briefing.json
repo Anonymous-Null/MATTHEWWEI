@@ -1,155 +1,195 @@
 {
-  "fetchedAt": "2026-10-18T15:19:35.649Z",
+  "fetchedAt": "2026-10-18T15:22:49.685Z",
   "news": {
     "schemaVersion": 2,
     "mode": "researched",
     "editionKey": "2026-10-18-am",
     "stories": [
       {
-        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
-        "publishedAt": "2026-10-18T15:00:02.000Z",
-        "source": "The Guardian",
-        "category": "World",
+        "id": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+        "url": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+        "title": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
+        "summary": "Meta has previously tried to assuage concerns by pointing to the fact that its glasses light up when recording audio or video. But the bug this week shows that even with this light activated, it’s possible for the smart glasses to record inadvertently. Meta’s brief statement does little to alleviate those worries. Meanwhile, the bug lends some credence to reports and trepidation that Ray-Ban Metas are creating recordings without subjects’ knowledge. Meta has been steadfast in its push for gadgets that put microphones and cameras in people’s homes and on their faces, while battling fears that the devices could be used for nonconsensual recordings.",
+        "publishedAt": "2026-10-16T19:11:50.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
         "coverage": "Source report",
-        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
-        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
+        "editorialText": "Meta has previously tried to assuage concerns by pointing to the fact that its glasses light up when recording audio or video. But the bug this week shows that even with this light activated, it’s possible for the smart glasses to record inadvertently. Meta’s brief statement does little to alleviate those worries. Meanwhile, the bug lends some credence to reports and trepidation that Ray-Ban Metas are creating recordings without subjects’ knowledge. Meta has been steadfast in its push for gadgets that put microphones and cameras in people’s homes and on their faces, while battling fears that the devices could be used for nonconsensual recordings. Contractors for Sama, a data annotation company headquartered in Kenya, say they have viewed footage that was shot by Ray-Ban Metas, seemingly without the wearer or other people in the video knowing. A report by Swedish journalists earlier this year interviewed over 30 Sama workers and pointed to a “stream of privacy-sensitive data that is fed straight into the tech giant’s systems,” per a machine translation, resulting in workers viewing private activities, like a glasses owner’s",
+        "originalPublishedAt": "2026-10-16T19:11:50.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "dateEvidenceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "explanation": "Meta has previously tried to assuage concerns by pointing to the fact that its glasses light up when recording audio or video. But the bug this week shows that even with this light activated, it’s possible for the smart glasses to record inadvertently. Meta’s brief statement does little to alleviate those worries. Meanwhile, the bug lends some credence to reports and trepidation that Ray-Ban Metas are creating recordings without subjects’ knowledge. Meta has been steadfast in its push for gadgets that put microphones and cameras in people’s homes and on their faces, while battling fears that the devices could be used for nonconsensual recordings.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
-        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
-        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 89,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "summary": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
-        "publishedAt": "2026-10-18T14:50:37.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
-        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-875x648.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 81.25,
+        "imageSourceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 54.25,
         "dimensions": {
-          "surprise": 75,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 90
+          "surprise": 65,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
         },
-        "freshness": "24h",
-        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
+        "freshness": "48h",
+        "displayTitle": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
+        "originalSummary": "The bug is fixed, but privacy concerns remain.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "title": "Scientists who discovered a third form of magnetism win major physics prize",
-        "summary": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
-        "publishedAt": "2026-10-18T00:00:00.000Z",
+        "id": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+        "summary": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe.",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
         "source": "ScienceDaily",
         "category": "Science",
         "coverage": "Research summary",
-        "editorialText": "Scientists have uncovered a previously unknown form of magnetism, overturning an understanding of magnetic behavior that had stood for more than a century. The discovery, known as altermagnetism, has revealed a third fundamental category of collinear magnetism and opened new possibilities for quantum materials, advanced electronics, and future computing technologies. Three physicists responsible for the breakthrough have been named recipients of the 2026 Europhysics Prize, one of Europe's most prestigious honors in condensed matter physics. The European Physical Society (EPS) Condensed Matter Division selected Professor Jairo Sinova of Johannes Gutenberg University Mainz (JGU), Dr. Libor Šmejkal, and Professor Tomas Jungwirth for their work establishing altermagnetism as a distinct form of magnetic order alongside ferromagnetism and antiferromagnetism. \"This award recognizes a fundamental discovery that challenged one of the most established paradigms in condensed matter physics,\" said Professor Jairo Sinova, Director of the Spin Phenomena Interdisciplinary Center (SPICE) at Mainz University. \"Discovering that an entirely new magnetic phase had remained hidden for more than one hundred years demonstrates that even the most mature scientific fields can still hold fundamental surprises.\" The breakthrough",
-        "originalPublishedAt": "2026-10-18T00:00:00.000Z",
+        "editorialText": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe. Even the smallest improvements in optical precision could help Roman capture clearer images during its sweeping surveys of the cosmos. \"All of Roman's sweeping surveys will rely on the Wide Field Instrument,\" said Dave Hickey, a Wide Field Instrument systems engineer at NASA's Goddard Space Flight Center in Greenbelt, Maryland. \"Many of the mission's primary goals, like studying dark matter and dark energy, wouldn't be possible without it, so it's both exciting and a huge relief to see that it's working well!\" NASA Puts Roman's Powerful Camera System to the Test Following the activation of the Wide Field Instrument in September, engineers began a comprehensive testing campaign",
+        "originalPublishedAt": "2026-10-17T00:00:00.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
+        "explanation": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://www.sciencedaily.com/images/1920/altermagnetic-crystal.webp",
-        "imageCaption": "Schematic illustration of the structure of an altermagnetic crystal: The unique symmetry of the electron distribution underlies the extraordinary properties of this newly discovered class of magnetic materials. Credit: Libor Šmejkal",
-        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 56,
+        "imageUrl": null,
+        "imageCaption": "NASA’s Roman Space Telescope has achieved nearly 30% better image quality than expected, setting the stage for stunning cosmic discoveries. Credit: NASA; background by AI/ScienceDaily.com",
+        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 50.25,
         "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
+          "surprise": 65,
+          "consequence": 60,
+          "novelty": 40,
           "relevance": 10
         },
-        "freshness": "24h",
-        "displayTitle": "Scientists who discovered a third form of magnetism win major physics prize",
-        "originalSummary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
+        "freshness": "48h",
+        "displayTitle": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+        "originalSummary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe. By moving a mirror just one-sixteenth the width of a human hair, the team helped bring its powerful instruments into near-perfect alignment. Roman’s Wide Field Instrument now produces image quality nearly 30% better than predicted, promising exceptionally sharp cosmic surveys.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-        "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-        "summary": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
-        "publishedAt": "2026-10-18T11:57:49.644Z",
-        "source": "BBC News",
-        "category": "World",
+        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
+        "publishedAt": "2026-10-18T13:59:04.000Z",
+        "source": "Investing.com",
+        "category": "Business",
         "coverage": "Source report",
-        "editorialText": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
-        "originalPublishedAt": "2026-10-18T11:57:49.644Z",
+        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
+        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4966/live/70482900-cad8-11f1-a64c-550be9e3c66b.jpg",
-        "imageCaption": "Image caption, The St Petersburg Oil Terminal was among targets hit in the city overnight",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "title": "No Kings rallies urge early voting ahead of midterms",
+        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "publishedAt": "2026-10-17T17:45:49.000Z",
+        "source": "AP News",
+        "category": "U.S.",
+        "discovery": "Publisher section",
+        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
+        "originalPublishedAt": "2026-10-17T17:45:49.000Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-17",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
+        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "eventRevision": "2026-10-17:Event",
+        "majorUpdateVerified": false,
+        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
+        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "title": "Airstrike kills at least 9 in Yemen and other Middle East developments",
+        "summary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "publishedAt": "2026-10-18T08:46:33.000Z",
+        "source": "AP News",
+        "category": "World",
+        "discovery": "Publisher section",
+        "editorialText": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children. Some were in critical condition, he said. Al-Asbahi blamed Saudi Arabia for the strike. There was no immediate comment from the Saudi government. The fighting has reignited Yemen’s civil war after four years of ceasefire. U.S. Ambassador to Israel Mike Huckabee sharply condemned settler violence during an olive harvest in the West Bank that injured several Palestinians and Washington Post photographer Heidi Levine as",
+        "originalPublishedAt": "2026-10-18T08:46:33.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/d065543/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0d%2Ff2%2Fd7d011ba0a121a97467fdeee8c5f%2Fa15a1a1b780c4120a61e73106541f8ff",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
         "score": 64.25,
         "dimensions": {
           "surprise": 65,
@@ -158,88 +198,40 @@
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Oil facilities hit in deadly overnight attack on St Petersburg",
-        "originalSummary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "title": "Cities want to put the boot on robotaxis",
-        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
-        "publishedAt": "2026-10-18T12:00:00.000Z",
-        "source": "The Verge",
-        "category": "Technology",
-        "coverage": "Source report",
-        "editorialText": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada). Nevada was ahead of the curve primarily due to lobbying: Google saw Nevada as prime testing ground for its prototypes, so it urged lawmakers to pass the law that allowed it to do so. The legislation even included a provision exempting drivers from text-messaging bans while the automated system was engaged. Back then, many states and cities welcomed self-driving cars with open arms, eager to be seen as future-forward",
-        "originalPublishedAt": "2026-10-18T12:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2270749481.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 53.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Cities want to put the boot on robotaxis",
-        "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The first state to pass a law […]",
+        "displayTitle": "Airstrike kills at least 9 in Yemen and other Middle East developments",
+        "originalSummary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       }
     ],
-    "fetchedAt": "2026-10-18T15:19:35.649Z",
-    "checkedAt": "2026-10-18T15:19:35.649Z",
+    "fetchedAt": "2026-10-18T15:22:49.685Z",
+    "checkedAt": "2026-10-18T15:22:49.685Z",
     "sources": [
-      "The Guardian",
       "ScienceDaily",
+      "The Guardian",
       "BBC News",
-      "Phys.org",
+      "Investing.com",
+      "AP News",
       "The Verge",
-      "Ars Technica",
       "Higher Ed Dive",
-      "Business Insider",
+      "Ars Technica",
       "ScienceAlert",
+      "Phys.org",
+      "Business Insider",
       "NASA",
       "MIT News"
     ],
-    "providersAvailable": 24,
+    "providersAvailable": 32,
     "providersTotal": 38,
     "research": {
-      "rawCandidates": 570,
-      "candidatesReviewed": 232,
-      "sourcePagesRead": 208,
-      "primaryDatesChecked": 36,
-      "rejected": 64,
+      "rawCandidates": 917,
+      "candidatesReviewed": 240,
+      "sourcePagesRead": 240,
+      "primaryDatesChecked": 21,
+      "rejected": 50,
       "rejectedCandidates": [
-        {
-          "title": "Analysis-IMF/World Bank meetings leave developing countries with more questions than answers",
-          "url": "https://www.investing.com/news/economy-news/analysisimfworld-bank-meetings-leave-developing-countries-with-more-questions-than-answers-4955879",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "JPMorgan raises ICICI Bank stock price target on strong earnings",
-          "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
-          "reason": "Provider returned HTTP 403"
-        },
         {
           "title": "Dad shift: Men now file majority of paid family leave claims in key states",
           "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
@@ -266,19 +258,9 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Close social bonds help wild jackdaws hold feeding spots but come with waiting costs",
-          "url": "https://phys.org/news/2026-10-social-bonds-wild-jackdaws.html",
+          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
+          "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Iran appoints new defence minister amid escalating tensions with U.S.",
-          "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-          "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How to see the Orionid meteor shower",
@@ -291,19 +273,14 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230036.htm",
+          "title": "Scientists Discover an Erectile Dysfunction Drug Could Also Regenerate Muscle",
+          "url": "https://www.sciencealert.com/scientists-discover-an-erectile-dysfunction-drug-could-also-regenerate-muscle",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Microsoft pulls out of UK data centre deal with Nscale, Telegraph reports",
-          "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Spyre presents clinical data on IBD antibody therapies",
-          "url": "https://www.investing.com/news/company-news/spyre-presents-clinical-data-on-ibd-antibody-therapies-93CH-4955924",
-          "reason": "Provider returned HTTP 403"
+          "title": "Nobel medicine prize goes to 3 scientists for shining light on brain activity",
+          "url": "https://apnews.com/article/nobel-prize-medicine-sweden-2efe9ee7eae9d808fd49a6da1f53ceba",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Iowa's vote in midterms may help determine balance of power in Congress",
@@ -311,19 +288,14 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "New Genus of Nightmare Spaghetti Worms Found Deep Under The Indian Ocean",
-          "url": "https://www.sciencealert.com/new-genus-of-nightmare-spaghetti-worms-found-deep-under-the-indian-ocean",
+          "title": "Scientists discover a natural compound that could protect the brain from too much salt",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Russia hits Ukraine’s energy sector 76 times in a week, Zelenskiy says",
-          "url": "https://www.investing.com/news/economy-news/russia-hits-ukraines-energy-sector-76-times-in-a-week-zelenskiy-says-4955841",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Analysis-Carney’s pipeline push is unlikely to bring back Canada’s oil jobs boom",
-          "url": "https://www.investing.com/news/commodities-news/analysiscarneys-pipeline-push-is-unlikely-to-bring-back-canadas-oil-jobs-boom-4955902",
-          "reason": "Provider returned HTTP 403"
+          "title": "Trump says Russia and Ukraine agree to an ‘energy ceasefire’ but Kyiv says attacks continue",
+          "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "What is the Budget and what could be in it?",
@@ -336,68 +308,23 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Scientists discover a natural compound that could protect the brain from too much salt",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+          "title": "New Genus of Nightmare Spaghetti Worms Found Deep Under The Indian Ocean",
+          "url": "https://www.sciencealert.com/new-genus-of-nightmare-spaghetti-worms-found-deep-under-the-indian-ocean",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Lion droppings yield previously unknown microbial species, exposing hidden diversity inside Africa's big cats",
-          "url": "https://phys.org/news/2026-10-lion-yield-previously-unknown-microbial.html",
+          "title": "Lifelong drugs for autoimmune diseases don’t work well. Now scientists are trying something new",
+          "url": "https://apnews.com/article/autoimmune-diseases-cart-mrna-lupus-diabetes-a4204dc6920a219f27eded2df32d0b8b",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "China proposes export curbs on 12 key solar manufacturing technologies",
-          "url": "https://www.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4955825",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "MetroCity Bankshares earnings in spotlight after Q2 miss",
-          "url": "https://www.investing.com/news/earnings/metrocity-bankshares-earnings-in-spotlight-after-q2-miss-93CH-4955923",
-          "reason": "Provider returned HTTP 403"
+          "title": "OpenAI fires 3 safety researchers in dispute over AI risks",
+          "url": "https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Biking along the Great American Rail-Trail",
           "url": "https://www.npr.org/2026/10/17/nx-s1-5973071/biking-along-the-great-american-rail-trail",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "A Deep-Sea Mining Trial Rapidly Threw The Seafloor Ecosystem Off Kilter",
-          "url": "https://www.sciencealert.com/a-deep-sea-mining-trial-rapidly-threw-the-seafloor-ecosystem-off-kilter",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Venezuela expects $76 billion oil investment boost amid U.S. cooperation",
-          "url": "https://www.investing.com/news/economy-news/venezuela-expects-76-billion-oil-investment-boost-amid-us-cooperation-4955719",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "World Businesses for Sale Expands Confidential Seller Support for Owners Seeking Buyers",
-          "url": "https://www.investing.com/news/press-releases/world-businesses-for-sale-expands-confidential-seller-support-for-owners-seeking-buyers-4955921",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "How public bathrooms reflect America's inequality",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-5886128/how-public-bathrooms-reflect-americas-inequality",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Earth's Core Is Leaking All Sorts of Materials That Have Been Trapped Since Our Planet's Birth",
-          "url": "https://www.sciencealert.com/earths-core-is-leaking-all-sorts-of-materials-that-have-been-trapped-since-our-planets-birth",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
-          "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Mid Penn Bancorp director Robert Abel buys $495 in shares",
-          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-robert-abel-buys-495-in-shares-93CH-4955919",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Suspect in deadly Oregon elementary school shooting was a former student",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6006236/suspect-in-deadly-oregon-elementary-school-shooting-was-a-former-student",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -406,18 +333,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "U.S. urges Israel to curb settler violence in West Bank, Rubio says",
-          "url": "https://www.investing.com/news/economy-news/us-urges-israel-to-curb-settler-violence-in-west-bank-rubio-says-4955694",
-          "reason": "Provider returned HTTP 403"
+          "title": "Warming could help make the Indian Ocean a stronger climate buffer",
+          "url": "https://phys.org/news/2026-10-indian-ocean-stronger-climate-buffer.html",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Mid Penn Bancorp director Mowery buys $1,982 in common stock",
-          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-mowery-buys-1982-in-common-stock-93CH-4955914",
-          "reason": "Provider returned HTTP 403"
+          "title": "Climate change is outpacing evolution. Scientists are using DNA to catch up",
+          "url": "https://apnews.com/article/climate-change-dna-adaptation-heat-waves-wildfires-7c34ca1d3a09065b9f9ab617dd1a6e25",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6003966/86m-in-teen-pregnancy-prevention-funds-diverted-to-trump-linked-contractor",
+          "title": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
+          "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "How public bathrooms reflect America's inequality",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-5886128/how-public-bathrooms-reflect-americas-inequality",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -426,23 +358,108 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
+          "title": "A Deep-Sea Mining Trial Rapidly Threw The Seafloor Ecosystem Off Kilter",
+          "url": "https://www.sciencealert.com/a-deep-sea-mining-trial-rapidly-threw-the-seafloor-ecosystem-off-kilter",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Close social bonds help wild jackdaws hold feeding spots but come with waiting costs",
+          "url": "https://phys.org/news/2026-10-social-bonds-wild-jackdaws.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "How we came to be: Scientists get first look at the evolution of early complex animals",
+          "url": "https://apnews.com/article/fossil-animals-evolution-science-china-bizarre-a56a123cbad480e2c35f2356181d32d7",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Tuesday’s takeaways: No clear direction for Wisconsin Democrats",
+          "url": "https://apnews.com/article/primaries-wisconsin-minnesota-democratic-party-socialist-226b31e324cdd9b72200fb9abc9acb69",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Suspect in deadly Oregon elementary school shooting was a former student",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006236/suspect-in-deadly-oregon-elementary-school-shooting-was-a-former-student",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Earth's Core Is Leaking All Sorts of Materials That Have Been Trapped Since Our Planet's Birth",
+          "url": "https://www.sciencealert.com/earths-core-is-leaking-all-sorts-of-materials-that-have-been-trapped-since-our-planets-birth",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Ukraine fires nearly 900 drones at Russia as Kyiv braces for expected huge aerial attack",
+          "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-d6e8cbb6d0ffdc7cbd2da59b9cd6f7c9",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
+          "url": "https://apnews.com/article/swift-observatory-nasa-rescue-10dad290d18011a8a9ad34f830c35b1c",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Takeaways from Tuesday’s elections",
+          "url": "https://apnews.com/article/election-takeaways-michigan-senate-primary-democrats-trump-c957db07eb78ea93c70208ba0a6bceed",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6003966/86m-in-teen-pregnancy-prevention-funds-diverted-to-trump-linked-contractor",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientists find a youth protein that helps aging brain cells act young again",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Lion droppings yield previously unknown microbial species, exposing hidden diversity inside Africa's big cats",
+          "url": "https://phys.org/news/2026-10-lion-yield-previously-unknown-microbial.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Russia pounds Ukraine with missiles and drones, killing 7 and targeting power grid, Zelenskyy says",
+          "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-attacks-b837b4ee58f0aa8b4e5a5a872906d91e",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "NASA spacecraft discovers a huge new crater on the moon",
+          "url": "https://apnews.com/article/moon-lunar-crater-space-nasa-80eea242ad275fda1f7a88587cdccd2f",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Mamdani proves his power with New York endorsements, plus more takeaways from Tuesday’s primaries",
+          "url": "https://apnews.com/article/donald-trump-zohran-mamdani-new-york-78d9cc60faff70ffe27fd8d7f6dc1355",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
           "title": "Trump says he will advise Katie Zacharia to reconsider shortly before she was fired - video",
           "url": "https://www.theguardian.com/us-news/video/2026/oct/16/trump-katie-zacharia-to-reconsider-shortly-before-she-was-fired-video",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Could another France downgrade put the EU’s credit rating at risk?",
-          "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "As AI rally wobbles, stock market’s spotlight turns to earnings",
-          "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
           "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
           "url": "https://www.npr.org/2026/10/17/nx-s1-6003823/journalist-ronan-farrow-on-elon-musks-trillion-dollar-political-influence",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Little Mercury may be shrinking faster than scientists expected",
+          "url": "https://apnews.com/article/mercury-shrinking-planet-47b010ee65287f76565bc4859c7c09b3",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Takeaways from primaries featuring Spencer Pratt, a missing congressman and a rare Trump setback",
+          "url": "https://apnews.com/article/california-iowa-new-jersey-primaries-4355e73b946486ac92452ec856966d7e",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6001543/meet-catherine-ericson-an-official-new-york-leaf-peeper-in-lake-placid",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -451,114 +468,27 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Simulations explore nuclear mitigation of asteroid threats",
-          "url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
+          "title": "Rescue satellite gets close to NASA’s doomed telescope, even if it can’t save it",
+          "url": "https://apnews.com/article/swift-observatory-telescope-rescue-578ab2a986045e98cf364e8300405cc5",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Citi says interest rates may matter more for economy than stock valuations",
-          "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Mid Penn Bancorp director Joel L. Frank buys $2,478 in shares",
-          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-joel-l-frank-buys-2478-in-shares-93CH-4955908",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6001543/meet-catherine-ericson-an-official-new-york-leaf-peeper-in-lake-placid",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Two monster black holes could collide in just 100 years",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
+          "title": "Takeaways from Tuesday’s primaries: Massie’s loss leaves no doubt about Trump’s power over the GOP",
+          "url": "https://apnews.com/article/election-takeaways-massie-kentucky-georgia-alabama-8eb9f54741ce0313ab15b291bd742c16",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists Discover an Erectile Dysfunction Drug Could Also Regenerate Muscle",
-          "url": "https://www.sciencealert.com/scientists-discover-an-erectile-dysfunction-drug-could-also-regenerate-muscle",
+          "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261017230036.htm",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Scientists find a youth protein that helps aging brain cells act young again",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
-          "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Australian scavengers don't just eat everything and slink away. They approach a carcass like a buffet",
-          "url": "https://phys.org/news/2026-10-australian-scavengers-dont-approach-carcass.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "The ambiguous costs of climate change",
-          "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "This bird flies thousands of miles, but its wings have a catch",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Brain cells meant to protect us may be fueling cognitive decline",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
-          "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Political violence: How justifications influence voter approval",
-          "url": "https://phys.org/news/2026-10-political-violence-justifications-voter.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Scientists uncover mystery of how snail shells coil to the right or to the left",
-          "url": "https://phys.org/news/2026-10-scientists-uncover-mystery-snail-shells.html",
-          "reason": "Provider returned HTTP 429"
-        },
-        {
-          "title": "Rabbits were a medieval royal luxury in England—until the Black Death made them commonplace",
-          "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
-          "reason": "Provider returned HTTP 429"
-        },
-        {
-          "title": "Plants shift gene activity within minutes of entering spaceflight, experiment reveals",
-          "url": "https://phys.org/news/2026-10-shift-gene-minutes-spaceflight-reveals.html",
-          "reason": "Provider returned HTTP 429"
-        },
-        {
-          "title": "New 3D model reveals how shadows reshape chemistry in stellar nurseries",
-          "url": "https://phys.org/news/2026-10-3d-reveals-shadows-reshape-chemistry.html",
-          "reason": "Provider returned HTTP 429"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 17,
-      "eventDatesUnconfirmed": 43,
+      "eventDatesVerified": 20,
+      "eventDatesUnconfirmed": 40,
       "rejectionReasons": {
-        "Provider returned HTTP 403": 20,
         "Source article was unavailable or too short": 13,
-        "The actual event/announcement is more than a week old": 27,
-        "Provider returned HTTP 429": 4
+        "The actual event/announcement is more than a week old": 37
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -719,9 +649,9 @@
         {
           "source": "Science",
           "url": "https://www.science.org/rss/news_current.xml",
-          "available": true,
+          "available": false,
           "candidates": 0,
-          "error": null
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "The Guardian",
@@ -768,58 +698,58 @@
         {
           "source": "AP News",
           "url": "https://apnews.com/hub/russia-ukraine",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 32,
+          "error": null
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/us-news",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 45,
+          "error": null
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 45,
+          "error": null
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/world-news",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 45,
+          "error": null
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/science",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 45,
+          "error": null
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/technology",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 45,
+          "error": null
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/politics",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 45,
+          "error": null
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/business",
-          "available": false,
-          "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "available": true,
+          "candidates": 45,
+          "error": null
         },
         {
           "source": "Business Insider",
@@ -836,6 +766,326 @@
     "carriedCount": 0,
     "olderCount": 0,
     "reserveStories": [
+      {
+        "id": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+        "url": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+        "title": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
+        "summary": "Meta has previously tried to assuage concerns by pointing to the fact that its glasses light up when recording audio or video. But the bug this week shows that even with this light activated, it’s possible for the smart glasses to record inadvertently. Meta’s brief statement does little to alleviate those worries. Meanwhile, the bug lends some credence to reports and trepidation that Ray-Ban Metas are creating recordings without subjects’ knowledge. Meta has been steadfast in its push for gadgets that put microphones and cameras in people’s homes and on their faces, while battling fears that the devices could be used for nonconsensual recordings.",
+        "publishedAt": "2026-10-16T19:11:50.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
+        "coverage": "Source report",
+        "editorialText": "Meta has previously tried to assuage concerns by pointing to the fact that its glasses light up when recording audio or video. But the bug this week shows that even with this light activated, it’s possible for the smart glasses to record inadvertently. Meta’s brief statement does little to alleviate those worries. Meanwhile, the bug lends some credence to reports and trepidation that Ray-Ban Metas are creating recordings without subjects’ knowledge. Meta has been steadfast in its push for gadgets that put microphones and cameras in people’s homes and on their faces, while battling fears that the devices could be used for nonconsensual recordings. Contractors for Sama, a data annotation company headquartered in Kenya, say they have viewed footage that was shot by Ray-Ban Metas, seemingly without the wearer or other people in the video knowing. A report by Swedish journalists earlier this year interviewed over 30 Sama workers and pointed to a “stream of privacy-sensitive data that is fed straight into the tech giant’s systems,” per a machine translation, resulting in workers viewing private activities, like a glasses owner’s",
+        "originalPublishedAt": "2026-10-16T19:11:50.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Meta has previously tried to assuage concerns by pointing to the fact that its glasses light up when recording audio or video. But the bug this week shows that even with this light activated, it’s possible for the smart glasses to record inadvertently. Meta’s brief statement does little to alleviate those worries. Meanwhile, the bug lends some credence to reports and trepidation that Ray-Ban Metas are creating recordings without subjects’ knowledge. Meta has been steadfast in its push for gadgets that put microphones and cameras in people’s homes and on their faces, while battling fears that the devices could be used for nonconsensual recordings.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-875x648.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 54.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
+        "originalSummary": "The bug is fixed, but privacy concerns remain.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+        "summary": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe.",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
+        "source": "ScienceDaily",
+        "category": "Science",
+        "coverage": "Research summary",
+        "editorialText": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe. Even the smallest improvements in optical precision could help Roman capture clearer images during its sweeping surveys of the cosmos. \"All of Roman's sweeping surveys will rely on the Wide Field Instrument,\" said Dave Hickey, a Wide Field Instrument systems engineer at NASA's Goddard Space Flight Center in Greenbelt, Maryland. \"Many of the mission's primary goals, like studying dark matter and dark energy, wouldn't be possible without it, so it's both exciting and a huge relief to see that it's working well!\" NASA Puts Roman's Powerful Camera System to the Test Following the activation of the Wide Field Instrument in September, engineers began a comprehensive testing campaign",
+        "originalPublishedAt": "2026-10-17T00:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": null,
+        "imageCaption": "NASA’s Roman Space Telescope has achieved nearly 30% better image quality than expected, setting the stage for stunning cosmic discoveries. Credit: NASA; background by AI/ScienceDaily.com",
+        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 50.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 60,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+        "originalSummary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe. By moving a mirror just one-sixteenth the width of a human hair, the team helped bring its powerful instruments into near-perfect alignment. Roman’s Wide Field Instrument now produces image quality nearly 30% better than predicted, promising exceptionally sharp cosmic surveys.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
+        "publishedAt": "2026-10-18T13:59:04.000Z",
+        "source": "Investing.com",
+        "category": "Business",
+        "coverage": "Source report",
+        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
+        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "title": "No Kings rallies urge early voting ahead of midterms",
+        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "publishedAt": "2026-10-17T17:45:49.000Z",
+        "source": "AP News",
+        "category": "U.S.",
+        "discovery": "Publisher section",
+        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
+        "originalPublishedAt": "2026-10-17T17:45:49.000Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-17",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
+        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "eventRevision": "2026-10-17:Event",
+        "majorUpdateVerified": false,
+        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
+        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "title": "Airstrike kills at least 9 in Yemen and other Middle East developments",
+        "summary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "publishedAt": "2026-10-18T08:46:33.000Z",
+        "source": "AP News",
+        "category": "World",
+        "discovery": "Publisher section",
+        "editorialText": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children. Some were in critical condition, he said. Al-Asbahi blamed Saudi Arabia for the strike. There was no immediate comment from the Saudi government. The fighting has reignited Yemen’s civil war after four years of ceasefire. U.S. Ambassador to Israel Mike Huckabee sharply condemned settler violence during an olive harvest in the West Bank that injured several Palestinians and Washington Post photographer Heidi Levine as",
+        "originalPublishedAt": "2026-10-18T08:46:33.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/d065543/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0d%2Ff2%2Fd7d011ba0a121a97467fdeee8c5f%2Fa15a1a1b780c4120a61e73106541f8ff",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 64.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 90,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Airstrike kills at least 9 in Yemen and other Middle East developments",
+        "originalSummary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
+        "url": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
+        "title": "Restored Hertfordshire woodland sees first damselflies recorded",
+        "summary": "Two species of damselfly have been recorded for the first time in a woodland after the completion of a three-year project to restore habitat across seven nature reserves, a wildlife trust has revealed. Work on the Ancient Astonbury and Wilder Woodlands project, in Hertfordshire, was made possible with a £162,698 grant from the National Lottery Heritage Fund. An increase in flowers attracted more butterflies, with Silver-washed Fritillaries also recorded in much higher numbers during summer 2026 than in previous years, the Herts & Middlesex Wildlife Trust said. The Beautiful Demoiselle and Willow Emerald damselflies were spotted at Astonbury Wood, close to Stevenage.",
+        "publishedAt": "2026-10-18T05:16:16.527Z",
+        "source": "BBC News",
+        "category": "Science",
+        "coverage": "Source report",
+        "editorialText": "Two species of damselfly have been recorded for the first time in a woodland after the completion of a three-year project to restore habitat across seven nature reserves, a wildlife trust has revealed. Work on the Ancient Astonbury and Wilder Woodlands project, in Hertfordshire, was made possible with a £162,698 grant from the National Lottery Heritage Fund. An increase in flowers attracted more butterflies, with Silver-washed Fritillaries also recorded in much higher numbers during summer 2026 than in previous years, the Herts & Middlesex Wildlife Trust said. The Beautiful Demoiselle and Willow Emerald damselflies were spotted at Astonbury Wood, close to Stevenage. The seven sites that made up the project were Astonbury Wood, Balls Wood near Hertford, Fir & Pond Woods near Potters Bar, Gobions Wood near Brookmans Park, Old Park Wood in Harefield, Long Deans in Hemel Hempstead, and Hawkins Wood between Buntingford and Royston. An ancient woodland, the size of a football pitch, was turned back into coppice management, to allow more light to reach the woodland floor and encourage flowers, insects and birds to thrive.",
+        "originalPublishedAt": "2026-10-18T05:16:16.527Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Two species of damselfly have been recorded for the first time in a woodland after the completion of a three-year project to restore habitat across seven nature reserves, a wildlife trust has revealed. Work on the Ancient Astonbury and Wilder Woodlands project, in Hertfordshire, was made possible with a £162,698 grant from the National Lottery Heritage Fund. An increase in flowers attracted more butterflies, with Silver-washed Fritillaries also recorded in much higher numbers during summer 2026 than in previous years, the Herts & Middlesex Wildlife Trust said. The Beautiful Demoiselle and Willow Emerald damselflies were spotted at Astonbury Wood, close to Stevenage.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f498/live/7ed85640-c897-11f1-b0a4-81e564f1cfaa.jpg",
+        "imageCaption": "Image caption, The Beautiful Demoiselle damselfly was recorded for the first time at Astonbury Wood",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 56,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Restored Hertfordshire woodland sees first damselflies recorded",
+        "originalSummary": "A three-year project to restore woodland at seven nature reserves is completed.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "title": "Scientists who discovered a third form of magnetism win major physics prize",
+        "summary": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
+        "publishedAt": "2026-10-18T00:00:00.000Z",
+        "source": "ScienceDaily",
+        "category": "Science",
+        "coverage": "Research summary",
+        "editorialText": "Scientists have uncovered a previously unknown form of magnetism, overturning an understanding of magnetic behavior that had stood for more than a century. The discovery, known as altermagnetism, has revealed a third fundamental category of collinear magnetism and opened new possibilities for quantum materials, advanced electronics, and future computing technologies. Three physicists responsible for the breakthrough have been named recipients of the 2026 Europhysics Prize, one of Europe's most prestigious honors in condensed matter physics. The European Physical Society (EPS) Condensed Matter Division selected Professor Jairo Sinova of Johannes Gutenberg University Mainz (JGU), Dr. Libor Šmejkal, and Professor Tomas Jungwirth for their work establishing altermagnetism as a distinct form of magnetic order alongside ferromagnetism and antiferromagnetism. \"This award recognizes a fundamental discovery that challenged one of the most established paradigms in condensed matter physics,\" said Professor Jairo Sinova, Director of the Spin Phenomena Interdisciplinary Center (SPICE) at Mainz University. \"Discovering that an entirely new magnetic phase had remained hidden for more than one hundred years demonstrates that even the most mature scientific fields can still hold fundamental surprises.\" The breakthrough",
+        "originalPublishedAt": "2026-10-18T00:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://www.sciencedaily.com/images/1920/altermagnetic-crystal.webp",
+        "imageCaption": "Schematic illustration of the structure of an altermagnetic crystal: The unique symmetry of the electron distribution underlies the extraordinary properties of this newly discovered class of magnetic materials. Credit: Libor Šmejkal",
+        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 56,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Scientists who discovered a third form of magnetism win major physics prize",
+        "originalSummary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
+        "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
+        "title": "Anti-government protesters battle with police in Albania",
+        "summary": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration.",
+        "publishedAt": "2026-10-17T20:53:00.817Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration. Many of the protesters in central Tirana wore gas masks or face masks, while volunteers handed out syringes of saline eyewash to reduce the pain from the tear gas which billows down the street. The constant boom of petrol bombs could be heard exploding on Saturday. During the afternoon, the focus of the protests shifted to the office of Prime Minister Edi Rama on the city's main boulevard.",
+        "originalPublishedAt": "2026-10-17T20:53:00.817Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9b85/live/bbc9c4f0-ca6b-11f1-b2e2-233efb1fd43c.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
+        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "score": 59,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Anti-government protesters battle with police in Albania",
+        "originalSummary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
       {
         "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
         "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
@@ -911,46 +1161,6 @@
         "freshness": "24h",
         "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
         "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "title": "Scientists who discovered a third form of magnetism win major physics prize",
-        "summary": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
-        "publishedAt": "2026-10-18T00:00:00.000Z",
-        "source": "ScienceDaily",
-        "category": "Science",
-        "coverage": "Research summary",
-        "editorialText": "Scientists have uncovered a previously unknown form of magnetism, overturning an understanding of magnetic behavior that had stood for more than a century. The discovery, known as altermagnetism, has revealed a third fundamental category of collinear magnetism and opened new possibilities for quantum materials, advanced electronics, and future computing technologies. Three physicists responsible for the breakthrough have been named recipients of the 2026 Europhysics Prize, one of Europe's most prestigious honors in condensed matter physics. The European Physical Society (EPS) Condensed Matter Division selected Professor Jairo Sinova of Johannes Gutenberg University Mainz (JGU), Dr. Libor Šmejkal, and Professor Tomas Jungwirth for their work establishing altermagnetism as a distinct form of magnetic order alongside ferromagnetism and antiferromagnetism. \"This award recognizes a fundamental discovery that challenged one of the most established paradigms in condensed matter physics,\" said Professor Jairo Sinova, Director of the Spin Phenomena Interdisciplinary Center (SPICE) at Mainz University. \"Discovering that an entirely new magnetic phase had remained hidden for more than one hundred years demonstrates that even the most mature scientific fields can still hold fundamental surprises.\" The breakthrough",
-        "originalPublishedAt": "2026-10-18T00:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://www.sciencedaily.com/images/1920/altermagnetic-crystal.webp",
-        "imageCaption": "Schematic illustration of the structure of an altermagnetic crystal: The unique symmetry of the electron distribution underlies the extraordinary properties of this newly discovered class of magnetic materials. Credit: Libor Šmejkal",
-        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Scientists who discovered a third form of magnetism win major physics prize",
-        "originalSummary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
@@ -1037,46 +1247,6 @@
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "publishedAt": "2026-10-18T13:59:04.000Z",
-        "source": "Investing.com",
-        "category": "Business",
-        "coverage": "Source report",
-        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
-        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "checkedAt": "2026-10-18T15:16:29.520Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
         "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
         "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
         "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
@@ -1151,43 +1321,6 @@
         "freshness": "24h",
         "displayTitle": "Intensifying drone attacks on ships in Black Sea bring war ever closer to Nato shores",
         "originalSummary": "Six attacks in 10 days by suspected Russian drones mark dramatic escalation in maritime conflictThe first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala.The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Continue reading...",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "title": "No Kings rallies urge early voting ahead of midterms",
-        "source": "AP News",
-        "category": "U.S.",
-        "publishedAt": "2026-10-17T17:45:49.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventDateVerified": true,
-        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
-        "eventKind": "Event",
-        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "eventRevision": "2026-10-17:Event",
-        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
-        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "checkedAt": "2026-10-18T15:19:01.982Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
-        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t see Wonder Woman giving up her magic lasso. So why would you give up your right, your power, your obligation to vote? Be a super hero, use your power. Go to the polls and vote.” Trump has long been suspicious of mail voting and has claimed without evidence that voting fraud cost him the 2020 presidential election. His administration sued California election officials Thursday, asking a judge to bar the state from counting mail-in ballots for the midterm elections from people whom the federal government has identified as “likely” noncitizens until their immigration status can be confirmed. On Friday the Justice Department warned that local officials who process and tabulate ballots submitted by suspected noncitizen voters are putting themselves at risk of criminal investigation and potential prosecution.    Earlier that day Democratic Sens. Alex Padilla of California, Sheldon Whitehouse of Rhode Island and Dick Durbin of Illinois wrote to Attorney General Todd Blanche demanding that the Justice Department commit to not seizing ballots or other election materials before the midterm elections are certified.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
@@ -1348,46 +1481,6 @@
         "freshness": "24h",
         "displayTitle": "Jeremy Vernon battles with overgrown pathways in Launceston",
         "originalSummary": "One man's battle against weeds and overgrown pathways makes a big difference to the town",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "title": "Anti-government protesters battle with police in Albania",
-        "summary": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration.",
-        "publishedAt": "2026-10-17T20:53:00.817Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration. Many of the protesters in central Tirana wore gas masks or face masks, while volunteers handed out syringes of saline eyewash to reduce the pain from the tear gas which billows down the street. The constant boom of petrol bombs could be heard exploding on Saturday. During the afternoon, the focus of the protests shifted to the office of Prime Minister Edi Rama on the city's main boulevard.",
-        "originalPublishedAt": "2026-10-17T20:53:00.817Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9b85/live/bbc9c4f0-ca6b-11f1-b2e2-233efb1fd43c.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "checkedAt": "2026-10-18T11:09:39.945Z",
-        "score": 59,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Anti-government protesters battle with police in Albania",
-        "originalSummary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
@@ -1872,172 +1965,14 @@
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
-        "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
-        "title": "Brazil sees record fall in Amazon deforestation as key election looms",
-        "summary": "Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday. Tropical rainforests like the Amazon are home to millions of species. In a healthy state, they absorb vast quantities of planet-warming carbon dioxide, helping to keep the Earth cool. But they have come under increasing pressure from decades of deliberate land clearance for agriculture and logging, as well as climate change, which scientists warn can create conditions for wildfires. Brazil's Environment Minister Joao Paulo Capobianco described the decline in Amazon deforestation as \"absolutely stratospheric\".",
-        "publishedAt": "2026-10-17T02:33:09.094Z",
-        "source": "BBC News",
-        "category": "Science",
-        "coverage": "Source report",
-        "editorialText": "Jair Bolsonaro promoted mining in indigenous lands in the Amazon and forest clearances soared at the same time as resources to protect the forest were cut. During Bolsonaro's presidency from 2019 to 2022, the Amazon lost nearly 60% more in forest lands compared to the previous four years, news agency AFP reported, citing official data. Lula reversed his policies and oversaw deforestation rates drop to a six-year low during his first year in office. Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday. Tropical rainforests like the Amazon are home to millions of species. In a healthy state, they absorb vast quantities of planet-warming carbon dioxide, helping to keep the Earth cool. But they have come under increasing pressure from decades of deliberate land clearance for agriculture and logging, as well as climate change, which scientists warn can create conditions for wildfires. Brazil's Environment Minister Joao Paulo Capobianco described the decline in Amazon deforestation as \"absolutely stratospheric\". It was an",
-        "originalPublishedAt": "2026-10-17T02:33:09.094Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Lula tightened up environmental monitoring and penalties for illegal logging. \"Our goal is to achieve zero illegal deforestation by 2030,\" he said in a post on X on Friday. Tropical rainforests like the Amazon are home to millions of species. In a healthy state, they absorb vast quantities of planet-warming carbon dioxide, helping to keep the Earth cool. But they have come under increasing pressure from decades of deliberate land clearance for agriculture and logging, as well as climate change, which scientists warn can create conditions for wildfires. Brazil's Environment Minister Joao Paulo Capobianco described the decline in Amazon deforestation as \"absolutely stratospheric\".",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o",
-        "checkedAt": "2026-10-17T20:16:50.261Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Brazil sees record fall in Amazon deforestation as key election looms",
-        "originalSummary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
-        "url": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
-        "title": "North Korea says it tested new torpedo system with AI capabilities",
-        "summary": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
-        "publishedAt": "2026-10-17T03:47:33.000Z",
-        "source": "AP News",
-        "category": "Technology",
-        "discovery": "Publisher section",
-        "editorialText": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report. North Korea has been ramping up weapons demonstrations in recent weeks, including conducting its first underwater-launched missile tests in nearly three years, as leader Kim Jong Un shifts his focus to naval capabilities after years of ballistic missile development. Experts say the missile tests, carried out Wednesday, likely involved a yet-to-be-deployed submarine that Pyongyang has said is designed to launch nuclear weapons. North Korea also tested hypersonic missile systems of various ranges on Sept. 20 and Oct. 3 as it seeks to expand",
-        "originalPublishedAt": "2026-10-17T03:47:33.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/2ad0d29/2147483647/strip/true/crop/4056x2692+0+0/resize/1200x796!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff8%2Fb7%2F5caebcfc007031af93061481d361%2Fe59d4defed8b4a8e9b55d5d5c46080bd",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
-        "checkedAt": "2026-10-17T20:16:50.261Z",
-        "score": 66,
-        "dimensions": {
-          "surprise": 50,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "North Korea says it tested new torpedo system with AI capabilities",
-        "originalSummary": "SEOUL, South Korea (AP) — North Korea said Saturday it had successfully tested a new torpedo system that uses artificial intelligence for target detection and guidance. The Korean Central News Agency said the weapon tested Thursday was a “super-speed, precisely guided” torpedo system named Zam-2.0. It didn’t explain what was meant by artificial intelligence. The report added that test verified the weapon’s propulsion systems, which were developed through more than 180 tests over the past five years. South Korea’s military, which often accuses the North of exaggerating its military technologies, did not immediately comment on KCNA’s report.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "title": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
-        "summary": "Sebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California. The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border, where temperatures regularly rose past 100F (37.8C). Water was scarce in the once-booming agricultural area, which gets its supply from the beleaguered Colorado River.",
-        "publishedAt": "2026-10-17T13:00:31.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 62.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
-        "originalSummary": "A modern-day prospector promised rural Imperial thousands of jobs and millions in tax revenue – but his plan has set off a firestorm of resistanceSebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California.The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border, where temperatures regularly rose past 100F (37.8C). Water was scarce in the once-booming agricultural area, which gets its supply from the beleaguered Colorado River. And then, there was the city of Imperial – population 22,000 – to win over. As controversial datacenter projects have sprung up across th",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-17T13:00:31.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Sebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fields and sleepy desert suburbs was exactly what he’d been searching for – the perfect place to realize his dream of building the largest artificial intelligence datacenter in California. The dusty expanse wasn’t an obvious location. It was in the Sonoran desert, just north of the Mexican border, where temperatures regularly rose past 100F (37.8C). Water was scarce in the once-booming agricultural area, which gets its supply from the beleaguered Colorado River.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/d767e28f4a63f2c033b1690340f479c914d87492/1000_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=eed0cc19b9deae07f4e5afa17baac9e8",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "url": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "title": "The new Apple TV 4K just got its first (very small) discount",
-        "summary": "Sheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product recommendations for The Verge. Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November 13th), just days after discounting Apple’s new smart display for the first time. Right now, you can preorder the latest Apple TV 4K ahead of its November 13th release date for $289.99 ($9 off) at Amazon.",
-        "publishedAt": "2026-10-16T16:02:22.000Z",
-        "source": "The Verge",
-        "category": "Technology",
-        "coverage": "Source report",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "The new Apple TV 4K just got its first (very small) discount",
-        "originalSummary": "Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November 13th), just days after discounting Apple’s new smart display for the first time. Right now, you […]",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-16T16:02:22.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Sheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product recommendations for The Verge. Earlier this week, Apple announced its new Apple TV 4K, which costs nearly twice as much as the 2022 model did at launch. Amazon is now offering the first discount on the forthcoming streaming box (coming out on November 13th), just days after discounting Apple’s new smart display for the first time. Right now, you can preorder the latest Apple TV 4K ahead of its November 13th release date for $289.99 ($9 off) at Amazon.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VergeDealsAppleTV4K.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
       }
     ],
     "selectedIds": [
-      "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-      "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-      "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-      "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-      "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws"
+      "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+      "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+      "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+      "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+      "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3"
     ]
   }
 }

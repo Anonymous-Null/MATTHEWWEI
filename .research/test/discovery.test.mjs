@@ -88,3 +88,22 @@ test('briefing keeps variety rather than undoing it with a final global score so
  const protest={...report('march','No Kings rallies urge early voting ahead of midterms','Rallies organized by the No Kings network were held Saturday across the US, with hundreds of events encouraging voters to cast their ballots early.'),category:'U.S.',publishedAt:'2026-10-16T18:00:00Z',eventDate:'2026-10-16'};
  assert.ok(completeBriefing([...war,protest],{key:'edition',now}).some(s=>s.id==='march'));
 });
+test('one conflict cannot dominate even when its articles have different feed categories',()=>{
+ const reports=['alpha','beta','gamma','delta'].map((id,i)=>({...report(id,`Ukraine military strikes ${id} site`,'A major unexpected attack affected military facilities and thousands of residents. Officials announced the consequences today.'),category:['World','Business','Technology','U.S.'][i]}));
+ const others=[report('science','Scientists discover an unexpected property of light','Scientists discovered an unexpected property of light that challenges assumptions about physics and could enable new experiments.'),report('tech','Robots demonstrate a new engineering breakthrough','Researchers demonstrated an unprecedented engineering breakthrough in robotics with measurable improvements over earlier designs.'),report('biology','Biologists discover an unusual animal behavior','Scientists discovered an unexpected animal behavior that challenges assumptions about evolution and how animals adapt to their surroundings.'),report('protest','No Kings rallies draw nationwide crowds','Rallies across the US brought thousands of people together in a nationwide demonstration with major political significance.')];
+ const selected=completeBriefing([...reports,...others],{key:'edition',now});assert.equal(selected.length,5);assert.equal(selected.filter(s=>/Ukraine/.test(s.title)).length,1);assert.ok(selected.some(s=>s.id==='tech'));
+});
+test('conflict cap also applies when filling from archived checked stories',()=>{
+ const reports=['alpha','beta','gamma'].map(id=>report(id,`Russian military attacks ${id} facility`,'Officials announced a major military attack with significant consequences for thousands of residents and regional security.'));
+ const other=['biology','space','engineering','education'].map(id=>report(id,`Unexpected ${id} discovery`,'Scientists discovered an unexpected result that changes current understanding and has significant implications for future research.'));
+ const selected=completeBriefing([],{key:'edition',now,fallback:[...reports,...other]});assert.equal(selected.length,5);assert.equal(selected.filter(s=>/Russian/.test(s.title)).length,1);
+});
+test('conflict identification covers hits and local place headlines using their source context',async()=>{
+ const {conflictTopic}=await import('../public/news.js');assert.equal(conflictTopic({title:'Oil facilities hit in deadly overnight attack on St Petersburg',summary:'Ukraine launched drones at Russia overnight.'}),'russia-ukraine');assert.equal(conflictTopic({title:'Russia hits Ukraine’s energy sector 76 times in a week'}),'russia-ukraine');
+});
+test('strong recent technology and science get room alongside world news',()=>{
+ const tech={...report('device','Smart glasses bug exposes unexpected recordings','A newly discovered bug in smart glasses caused unexpected recording of private conversations. The company has confirmed the problem and is investigating the cause.'),category:'Technology'};
+ const science={...report('space','Space telescope demonstrates sharper images','Scientists discovered an unexpected improvement in the space telescope, whose image quality exceeds predictions after a successful test.'),category:'Science'};
+ const politics=['Unexpected federal housing ruling affects millions','Historic nationwide demonstrations force government resignation','Unprecedented tariffs reshape global trade','Major election result overturns the governing coalition','Supreme court bans a controversial surveillance program'].map((title,id)=>report(String(id),title,'An unprecedented federal ruling affects millions of people and changes major government policies. Officials announced the consequences today.'));
+ const selected=completeBriefing([...politics,tech,science],{key:'edition',now});assert.equal(selected.length,5);assert.ok(selected.some(s=>s.id==='device'));assert.ok(selected.some(s=>s.id==='space'));
+});
