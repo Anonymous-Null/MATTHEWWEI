@@ -1,11 +1,31 @@
 {
-  "fetchedAt": "2026-10-18T17:45:07.834Z",
+  "fetchedAt": "2026-10-18T17:48:52.739Z",
   "news": {
-    "nytLead": null,
+    "nytLead": {
+      "id": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+      "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+      "title": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+      "summary": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+      "publishedAt": "2026-10-18T15:48:40.000Z",
+      "source": "The New York Times",
+      "category": "Top story",
+      "coverage": "Source report",
+      "feedChecked": true,
+      "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "feedRank": 1,
+      "nytHomeLead": true,
+      "sourcePageChecked": false,
+      "explanation": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+      "eventDate": null,
+      "eventDateVerified": false,
+      "summaryKind": "NYT public-feed summary · full article unavailable",
+      "articleAccessError": "Provider returned HTTP 403",
+      "checkedAt": "2026-10-18T17:48:52.739Z"
+    },
     "nytStatus": {
-      "available": false,
-      "checkedAt": "2026-10-18T17:45:07.834Z",
-      "error": "fetch failed"
+      "available": true,
+      "checkedAt": "2026-10-18T17:48:52.739Z",
+      "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
@@ -30,16 +50,15 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-18T15:53:31.164Z",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
         "briefingSlot": 1,
-        "slotLabel": "NYT lead · saved",
+        "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-18-am",
         "leadUnchanged": true,
-        "carriedForward": true,
-        "olderReport": false,
-        "nytUnavailable": true
+        "carriedForward": false,
+        "olderReport": false
       },
       {
         "id": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
@@ -69,7 +88,7 @@
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-875x648.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
-        "checkedAt": "2026-10-18T17:45:07.834Z",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
         "score": 54.25,
         "dimensions": {
           "surprise": 65,
@@ -117,7 +136,7 @@
         "imageUrl": null,
         "imageCaption": "NASA’s Roman Space Telescope has achieved nearly 30% better image quality than expected, setting the stage for stunning cosmic discoveries. Credit: NASA; background by AI/ScienceDaily.com",
         "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-        "checkedAt": "2026-10-18T17:45:07.834Z",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
         "score": 50.25,
         "dimensions": {
           "surprise": 65,
@@ -138,84 +157,92 @@
         "olderReport": false
       },
       {
-        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "title": "No Kings rallies urge early voting ahead of midterms",
-        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "publishedAt": "2026-10-17T17:45:49.000Z",
-        "source": "AP News",
-        "category": "U.S.",
-        "discovery": "Publisher section",
-        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
-        "originalPublishedAt": "2026-10-17T17:45:49.000Z",
+        "id": "https://spectrum.ieee.org/variable-frequency-drives",
+        "url": "https://spectrum.ieee.org/variable-frequency-drives",
+        "title": "How Variable Frequency Drives Unlock Hidden Grid Power",
+        "summary": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
+        "publishedAt": "2026-10-17T13:00:02.000Z",
+        "source": "IEEE Spectrum",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceived hassle of retrofitting equipment and because they’re typically not required. On average, only 16 percent of motor systems at industrial facilities and 4 percent of commercial-sector motors use VFDs, according to a 2021 market report by Lawrence Berkeley National",
+        "originalPublishedAt": "2026-10-17T13:00:02.000Z",
         "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
-        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "eventRevision": "2026-10-17:Event",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
+        "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "explanation": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
+        "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356",
         "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "checkedAt": "2026-10-18T17:45:07.834Z",
-        "score": 65.75,
+        "imageSourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
+        "score": 63,
         "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 15,
           "relevance": 10
         },
         "freshness": "48h",
-        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
-        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "displayTitle": "How Variable Frequency Drives Unlock Hidden Grid Power",
+        "originalSummary": "This article was originally published by Canary Media.America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceive",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
+        "personalTopic": "electronics-building",
+        "whyForYou": "Motor-speed controllers connect to electronics, control systems, and energy efficiency.",
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "publishedAt": "2026-10-18T09:49:18.000Z",
-        "source": "AP News",
+        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "publishedAt": "2026-10-18T15:00:02.000Z",
+        "source": "The Guardian",
         "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
-        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 38,
+        "nytHomeLead": false,
+        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
+        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
         "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
-        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "eventRevision": "2026-10-18:Event",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "checkedAt": "2026-10-18T17:45:07.834Z",
-        "score": 76.75,
+        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
+        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
+        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
+        "score": 89,
         "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
+          "surprise": 90,
+          "consequence": 90,
           "novelty": 85,
-          "relevance": 10
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
@@ -226,33 +253,51 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-18T17:45:07.834Z",
-    "checkedAt": "2026-10-18T17:45:07.834Z",
+    "fetchedAt": "2026-10-18T17:48:52.739Z",
+    "checkedAt": "2026-10-18T17:48:52.739Z",
     "sources": [
-      "AP News",
+      "The Guardian",
       "ScienceDaily",
       "BBC News",
-      "The Guardian",
-      "Investing.com",
+      "Phys.org",
       "IEEE Spectrum",
       "Ars Technica",
       "Higher Ed Dive",
-      "ScienceAlert",
-      "Phys.org",
       "The Verge",
+      "ScienceAlert",
       "Business Insider",
       "NASA",
       "MIT News"
     ],
-    "providersAvailable": 36,
+    "providersAvailable": 31,
     "providersTotal": 45,
     "research": {
-      "rawCandidates": 1127,
+      "rawCandidates": 835,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 238,
-      "primaryDatesChecked": 21,
-      "rejected": 56,
+      "sourcePagesRead": 196,
+      "primaryDatesChecked": 36,
+      "rejected": 85,
       "rejectedCandidates": [
+        {
+          "title": "Meta Withdraws $25 Million from Its Midterms Push",
+          "url": "https://www.nytimes.com/2026/10/16/technology/meta-midterms-funding.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "For a Mere $2 Million, You Could Own Three Books That Unlocked the Universe",
+          "url": "https://www.nytimes.com/2026/10/17/science/sothebys-science-books-auction.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Trump endorses Israeli Prime Minister Netanyahu for reelection amid Iran war",
+          "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Captain of flydubai plane describes blocking axe blows as co-pilot attacked",
+          "url": "https://www.investing.com/news/commodities-news/captain-of-flydubai-planedescribes-blocking-axe-blows-as-copilot-attacked-4956008",
+          "reason": "Provider returned HTTP 403"
+        },
         {
           "title": "Dad shift: Men now file majority of paid family leave claims in key states",
           "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
@@ -284,9 +329,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
-          "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "The French City of Limoges Wasn’t Known for Unrest. Then Rioters Set Fire to Its City Hall.",
+          "url": "https://www.nytimes.com/2026/10/18/world/france-limoges-fire-arson-protests.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Why No One Can Look Away From Elizabeth Holmes",
+          "url": "https://www.nytimes.com/2026/10/16/podcasts/hardfork-elizabeth-holmes.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "The Leap Second Has Been Canceled",
+          "url": "https://www.nytimes.com/2026/10/16/science/leap-second-abolished-vote.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Midterms: UBS assigns a 50% probability to a Democratic sweep",
+          "url": "https://www.investing.com/news/economy-news/midterms-ubs-assigns-a-50-probability-to-a-democratic-sweep-4955971",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How to see the Orionid meteor shower",
@@ -309,9 +369,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Nobel medicine prize goes to 3 scientists for shining light on brain activity",
-          "url": "https://apnews.com/article/nobel-prize-medicine-sweden-2efe9ee7eae9d808fd49a6da1f53ceba",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Why Are There Protests in France?",
+          "url": "https://www.nytimes.com/article/france-student-protests-why.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Terry Tao Is on the Front Lines of the Debate Over AI and the Future of Math",
+          "url": "https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Analysis-IMF/World Bank meetings leave developing countries with more questions than answers",
+          "url": "https://www.investing.com/news/economy-news/analysisimfworld-bank-meetings-leave-developing-countries-with-more-questions-than-answers-4955879",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Iowa's vote in midterms may help determine balance of power in Congress",
@@ -324,14 +394,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists discover a way to reverse coral bleaching at record speed",
-          "url": "https://phys.org/news/2026-10-scientists-reverse-coral.html",
-          "reason": "Provider returned HTTP 503"
+          "title": "O.J. Simpson, a Secret Informant and a Decades-Old Mystery",
+          "url": "https://www.nytimes.com/2026/10/18/us/oj-simpson-ippolito-informant-accomplice.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Trump says Russia and Ukraine agree to an ‘energy ceasefire’ but Kyiv says attacks continue",
-          "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Citizen Science Groups Grapple With the Rise of A.I. Slop",
+          "url": "https://www.nytimes.com/2026/10/16/science/citizen-science-ai-slop.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Microsoft pulls out of UK data centre deal with Nscale, Telegraph reports",
+          "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "JPMorgan raises ICICI Bank stock price target on strong earnings",
+          "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "What is the Budget and what could be in it?",
@@ -349,14 +429,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Lifelong drugs for autoimmune diseases don’t work well. Now scientists are trying something new",
-          "url": "https://apnews.com/article/autoimmune-diseases-cart-mrna-lupus-diabetes-a4204dc6920a219f27eded2df32d0b8b",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "5 Takeaways From The Times’s Re-Examination of the O.J. Simpson Case",
+          "url": "https://www.nytimes.com/2026/10/18/us/oj-simpson-case-takeaways.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "OpenAI fires 3 safety researchers in dispute over AI risks",
-          "url": "https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "The New Science of Stuttering",
+          "url": "https://www.nytimes.com/2026/10/18/science/the-new-science-of-stuttering.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Russia hits Ukraine’s energy sector 76 times in a week, Zelenskiy says",
+          "url": "https://www.investing.com/news/economy-news/russia-hits-ukraines-energy-sector-76-times-in-a-week-zelenskiy-says-4955841",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+          "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Biking along the Great American Rail-Trail",
@@ -369,14 +459,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Climate change is outpacing evolution. Scientists are using DNA to catch up",
-          "url": "https://apnews.com/article/climate-change-dna-adaptation-heat-waves-wildfires-7c34ca1d3a09065b9f9ab617dd1a6e25",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "3 Charts That Explain the Economy as Voters Head to the Polls",
+          "url": "https://www.nytimes.com/2026/10/18/business/economy/economy-midterm-elections.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
-          "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "A Reporter Who Saw Covid Coming Has Died",
+          "url": "https://www.nytimes.com/2026/10/17/health/helen-branswell-dead.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "China proposes export curbs on 12 key solar manufacturing technologies",
+          "url": "https://www.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4955825",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Spyre presents clinical data on IBD antibody therapies",
+          "url": "https://www.investing.com/news/company-news/spyre-presents-clinical-data-on-ibd-antibody-therapies-93CH-4955924",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How public bathrooms reflect America's inequality",
@@ -394,19 +494,29 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "How we came to be: Scientists get first look at the evolution of early complex animals",
-          "url": "https://apnews.com/article/fossil-animals-evolution-science-china-bizarre-a56a123cbad480e2c35f2356181d32d7",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Across Farm Country, Economic Discontent Strains Republican Coalition",
+          "url": "https://www.nytimes.com/2026/10/18/us/politics/farmers-ranchers-trump-economic-stress.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Tuesday’s takeaways: No clear direction for Wisconsin Democrats",
-          "url": "https://apnews.com/article/primaries-wisconsin-minnesota-democratic-party-socialist-226b31e324cdd9b72200fb9abc9acb69",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "RFK Jr. Pledged to Advance Anti-Vaccine Group’s Goals. Here’s What He’s Doing.",
+          "url": "https://www.nytimes.com/2026/10/16/us/politics/rfk-jr-vaccines.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Nicola Jennings on Trump’s new White House press secretary – cartoon",
           "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/18/nicola-jennings-donald-trump-new-white-house-press-secretary-cartoon",
           "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Venezuela expects $76 billion oil investment boost amid U.S. cooperation",
+          "url": "https://www.investing.com/news/economy-news/venezuela-expects-76-billion-oil-investment-boost-amid-us-cooperation-4955719",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Analysis-Carney’s pipeline push is unlikely to bring back Canada’s oil jobs boom",
+          "url": "https://www.investing.com/news/commodities-news/analysiscarneys-pipeline-push-is-unlikely-to-bring-back-canadas-oil-jobs-boom-4955902",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Suspect in deadly Oregon elementary school shooting was a former student",
@@ -419,19 +529,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ukraine fires nearly 900 drones at Russia as Kyiv braces for expected huge aerial attack",
-          "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-d6e8cbb6d0ffdc7cbd2da59b9cd6f7c9",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Some MAHA Voters in Arizona Question Their G.O.P. Ties",
+          "url": "https://www.nytimes.com/2026/10/18/us/maha-voters-republican-split.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
-          "url": "https://apnews.com/article/swift-observatory-nasa-rescue-10dad290d18011a8a9ad34f830c35b1c",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
+          "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Takeaways from Tuesday’s elections",
-          "url": "https://apnews.com/article/election-takeaways-michigan-senate-primary-democrats-trump-c957db07eb78ea93c70208ba0a6bceed",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "MetroCity Bankshares earnings in spotlight after Q2 miss",
+          "url": "https://www.investing.com/news/earnings/metrocity-bankshares-earnings-in-spotlight-after-q2-miss-93CH-4955923",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
@@ -449,19 +559,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Russia pounds Ukraine with missiles and drones, killing 7 and targeting power grid, Zelenskyy says",
-          "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-attacks-b837b4ee58f0aa8b4e5a5a872906d91e",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "How a Dominican Man Became an ICE Target Before the NYC Shooting",
+          "url": "https://www.nytimes.com/2026/10/18/nyregion/nyc-ice-shooting-oscar-belgal.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "NASA spacecraft discovers a huge new crater on the moon",
-          "url": "https://apnews.com/article/moon-lunar-crater-space-nasa-80eea242ad275fda1f7a88587cdccd2f",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "U.S. urges Israel to curb settler violence in West Bank, Rubio says",
+          "url": "https://www.investing.com/news/economy-news/us-urges-israel-to-curb-settler-violence-in-west-bank-rubio-says-4955694",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Mamdani proves his power with New York endorsements, plus more takeaways from Tuesday’s primaries",
-          "url": "https://apnews.com/article/donald-trump-zohran-mamdani-new-york-78d9cc60faff70ffe27fd8d7f6dc1355",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "World Businesses for Sale Expands Confidential Seller Support for Owners Seeking Buyers",
+          "url": "https://www.investing.com/news/press-releases/world-businesses-for-sale-expands-confidential-seller-support-for-owners-seeking-buyers-4955921",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
@@ -476,22 +586,27 @@
         {
           "title": "Close social bonds help wild jackdaws hold feeding spots but come with waiting costs",
           "url": "https://phys.org/news/2026-10-social-bonds-wild-jackdaws.html",
-          "reason": "Provider returned HTTP 503"
-        },
-        {
-          "title": "Little Mercury may be shrinking faster than scientists expected",
-          "url": "https://apnews.com/article/mercury-shrinking-planet-47b010ee65287f76565bc4859c7c09b3",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Takeaways from primaries featuring Spencer Pratt, a missing congressman and a rare Trump setback",
-          "url": "https://apnews.com/article/california-iowa-new-jersey-primaries-4355e73b946486ac92452ec856966d7e",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
+          "url": "https://www.nytimes.com/2026/10/18/us/oklahoma-extreme-heat-electricity-crisis.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Trump says he will advise Katie Zacharia to reconsider shortly before she was fired - video",
           "url": "https://www.theguardian.com/us-news/video/2026/oct/16/trump-katie-zacharia-to-reconsider-shortly-before-she-was-fired-video",
           "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Could another France downgrade put the EU’s credit rating at risk?",
+          "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Mid Penn Bancorp director Robert Abel buys $495 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-robert-abel-buys-495-in-shares-93CH-4955919",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
@@ -504,14 +619,9 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Rescue satellite gets close to NASA’s doomed telescope, even if it can’t save it",
-          "url": "https://apnews.com/article/swift-observatory-telescope-rescue-578ab2a986045e98cf364e8300405cc5",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Takeaways from Tuesday’s primaries: Massie’s loss leaves no doubt about Trump’s power over the GOP",
-          "url": "https://apnews.com/article/election-takeaways-massie-kentucky-georgia-alabama-8eb9f54741ce0313ab15b291bd742c16",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "The Man Who Taught Us How to Pay Attention",
+          "url": "https://www.nytimes.com/2026/10/18/magazine/john-berger-attention.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
@@ -524,23 +634,84 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists studying cockroach milk and nose-blowing win Ig Nobel prizes for quirky science",
-          "url": "https://apnews.com/article/ig-nobel-prize-2026-d5c5ebe9d9724243c827eebbf5e27212",
+          "title": "‘I Shall Be Very Surprised if There Isn’t a Next Chapter’: A Q&A With Sarah Coakley",
+          "url": "https://www.nytimes.com/2026/10/18/opinion/religion-christ-systematic-theology-sarah-coakley.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "I Teach at a Business School. It’s Time to Shut Them Down.",
+          "url": "https://www.nytimes.com/2026/10/18/opinion/business-school-mba-harvard-cornell-cambridge.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Two monster black holes could collide in just 100 years",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Why Texas’ redistricting plan isn’t a sure bet",
-          "url": "https://apnews.com/article/texas-us-house-midterms-election-redistricting-gerrymandering-e56d03c72b6cf7bbb321671e03a5c1bb",
+          "title": "O.J.’s Accomplice?",
+          "url": "https://www.nytimes.com/2026/10/18/briefing/ojs-accomplice.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Carney Says Fire at Canadian Forces Base Wainwright in Alberta Killed 4 and Injured Dozens",
+          "url": "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Simulations explore nuclear mitigation of asteroid threats",
+          "url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This bird flies thousands of miles, but its wings have a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brain cells meant to protect us may be fueling cognitive decline",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
+          "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Australian scavengers don't just eat everything and slink away. They approach a carcass like a buffet",
+          "url": "https://phys.org/news/2026-10-australian-scavengers-dont-approach-carcass.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The ambiguous costs of climate change",
+          "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Popular song lyrics express less emotion over time, analysis of 38K+ songs finds",
+          "url": "https://phys.org/news/2026-10-popular-song-lyrics-emotion-analysis.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "During El Niño, a perfect storm of weather systems could spell disaster for the Great Barrier Reef",
+          "url": "https://phys.org/news/2026-10-el-nio-storm-weather-disaster.html",
+          "reason": "Provider returned HTTP 429"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 17,
-      "eventDatesUnconfirmed": 43,
+      "eventDatesVerified": 16,
+      "eventDatesUnconfirmed": 44,
       "rejectionReasons": {
+        "Provider returned HTTP 403": 41,
         "Source article was unavailable or too short": 14,
-        "The actual event/announcement is more than a week old": 40,
-        "Provider returned HTTP 503": 2
+        "The actual event/announcement is more than a week old": 28,
+        "Provider returned HTTP 429": 2
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -575,23 +746,23 @@
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-          "available": false,
-          "candidates": 0,
-          "error": "fetch failed"
+          "available": true,
+          "candidates": 15,
+          "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-          "available": false,
-          "candidates": 0,
-          "error": "fetch failed"
+          "available": true,
+          "candidates": 20,
+          "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
-          "available": false,
-          "candidates": 0,
-          "error": "fetch failed"
+          "available": true,
+          "candidates": 20,
+          "error": null
         },
         {
           "source": "The Guardian",
@@ -750,9 +921,9 @@
         {
           "source": "Science",
           "url": "https://www.science.org/rss/news_current.xml",
-          "available": false,
+          "available": true,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": null
         },
         {
           "source": "The Guardian",
@@ -799,58 +970,58 @@
         {
           "source": "AP News",
           "url": "https://apnews.com/hub/russia-ukraine",
-          "available": true,
-          "candidates": 32,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/us-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/world-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/science",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/technology",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/politics",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/business",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "Business Insider",
@@ -864,8 +1035,8 @@
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 4,
-    "carriedCount": 1,
+    "freshCount": 5,
+    "carriedCount": 0,
     "olderCount": 0,
     "reserveStories": [
       {
@@ -887,16 +1058,15 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-18T15:53:31.164Z",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
         "briefingSlot": 1,
-        "slotLabel": "NYT lead · saved",
+        "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-18-am",
         "leadUnchanged": true,
-        "carriedForward": true,
-        "olderReport": false,
-        "nytUnavailable": true
+        "carriedForward": false,
+        "olderReport": false
       },
       {
         "id": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
@@ -926,7 +1096,7 @@
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-875x648.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
-        "checkedAt": "2026-10-18T17:45:07.834Z",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
         "score": 54.25,
         "dimensions": {
           "surprise": 65,
@@ -974,7 +1144,7 @@
         "imageUrl": null,
         "imageCaption": "NASA’s Roman Space Telescope has achieved nearly 30% better image quality than expected, setting the stage for stunning cosmic discoveries. Credit: NASA; background by AI/ScienceDaily.com",
         "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-        "checkedAt": "2026-10-18T17:45:07.834Z",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
         "score": 50.25,
         "dimensions": {
           "surprise": 65,
@@ -990,6 +1160,102 @@
         "slotLabel": "For you",
         "personalTopic": "aviation-space",
         "whyForYou": "Aviation, space, and aerospace engineering.",
+        "selectedEdition": "2026-10-18-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://spectrum.ieee.org/variable-frequency-drives",
+        "url": "https://spectrum.ieee.org/variable-frequency-drives",
+        "title": "How Variable Frequency Drives Unlock Hidden Grid Power",
+        "summary": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
+        "publishedAt": "2026-10-17T13:00:02.000Z",
+        "source": "IEEE Spectrum",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceived hassle of retrofitting equipment and because they’re typically not required. On average, only 16 percent of motor systems at industrial facilities and 4 percent of commercial-sector motors use VFDs, according to a 2021 market report by Lawrence Berkeley National",
+        "originalPublishedAt": "2026-10-17T13:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356",
+        "imageCaption": "",
+        "imageSourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
+        "score": 63,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "How Variable Frequency Drives Unlock Hidden Grid Power",
+        "originalSummary": "This article was originally published by Canary Media.America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceive",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": "electronics-building",
+        "whyForYou": "Motor-speed controllers connect to electronics, control systems, and energy efficiency.",
+        "selectedEdition": "2026-10-18-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "publishedAt": "2026-10-18T15:00:02.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 38,
+        "nytHomeLead": false,
+        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
+        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
+        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
+        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "checkedAt": "2026-10-18T17:48:52.739Z",
+        "score": 89,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
@@ -1078,54 +1344,6 @@
         "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://spectrum.ieee.org/variable-frequency-drives",
-        "url": "https://spectrum.ieee.org/variable-frequency-drives",
-        "title": "How Variable Frequency Drives Unlock Hidden Grid Power",
-        "summary": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
-        "publishedAt": "2026-10-17T13:00:02.000Z",
-        "source": "IEEE Spectrum",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceived hassle of retrofitting equipment and because they’re typically not required. On average, only 16 percent of motor systems at industrial facilities and 4 percent of commercial-sector motors use VFDs, according to a 2021 market report by Lawrence Berkeley National",
-        "originalPublishedAt": "2026-10-17T13:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356",
-        "imageCaption": "",
-        "imageSourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
-        "checkedAt": "2026-10-18T15:53:31.164Z",
-        "score": 63,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "How Variable Frequency Drives Unlock Hidden Grid Power",
-        "originalSummary": "This article was originally published by Canary Media.America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceive",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Motor-speed controllers connect to electronics, control systems, and energy efficiency.",
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
@@ -1691,46 +1909,6 @@
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
-        "publishedAt": "2026-10-18T15:00:02.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
-        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
-        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
-        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "checkedAt": "2026-10-18T15:25:36.410Z",
-        "score": 89,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
         "id": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
         "url": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
         "title": "Restored Hertfordshire woodland sees first damselflies recorded",
@@ -2175,8 +2353,8 @@
       "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
       "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
       "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-      "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-      "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+      "https://spectrum.ieee.org/variable-frequency-drives",
+      "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii"
     ]
   }
 }
