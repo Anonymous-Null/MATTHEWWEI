@@ -1,5 +1,7 @@
 // Shared news selection for the server and downloadable dashboard.
 export const NEWS_FEEDS = [
+  {url:'https://www.theguardian.com/world/ukraine/rss',source:'The Guardian',category:'World'},
+  {url:'https://www.theguardian.com/us-news/us-politics/rss',source:'The Guardian',category:'U.S.'},
   {url:'https://www.businessinsider.com/rss',source:'Business Insider',category:'Technology'},
   {url:'https://www.investing.com/rss/news_14.rss',source:'Investing.com',category:'World'},
   {url:'https://www.investing.com/rss/news.rss',source:'Investing.com',category:'Business'},
@@ -92,6 +94,18 @@ export function readableHeadline(title, summary = '') {
   return title.replace(/\bsupplemental essays\b/gi, 'extra application essays').replace(/\bnixed\b/gi, 'removed');
 }
 
+// Local upkeep and shopping stories must not qualify on incidental references
+// to cancer, discovery, AI or education in someone's personal background.
+export function editoriallyEligible(story) {
+  const title = story.title || '';
+  const localUpkeep = /\b(overgrown|pathways?|potholes?|litter|fly-tipping|dog fouling|grass cutting|wheelie bins?|parking spaces?|town council)\b/i.test(title);
+  const widerImpact = /\b(deaths?|killed|disaster|nationwide|national emergency|evacuat\w*|mass poisoning|major breakthrough)\b/i.test(title);
+  const routineAppearance = /\b(town hall|faces? (?:tough )?questions|campaign speech|pledges? support)\b/i.test(title) && !/\b(resigns?|assassination|arrested|killed|shot)\b/i.test(title);
+  const shopping = /\b(discount|preorder|on sale|deals?)\b/i.test(title) && /\b(tv|iphone|laptop|headphones|phone|tablet|amazon|apple|gadget)\b/i.test(title);
+  const careerProfile = /\b(data cent(?:er|re))\b/i.test(title) && /\b(jobs?|career|training|hour)\b/i.test(title) && !/\b(layoffs?|strikes?|collapse|nationwide)\b/i.test(title);
+  return !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance;
+}
+
 export const NEWS_WEIGHTS = { surprise: 0.35, consequence: 0.30, novelty: 0.20, relevance: 0.15 };
 
 export function interestScore(story) {
@@ -112,6 +126,7 @@ export function interestScore(story) {
     novelty: /\b(discover\w*|demonstrated|achieved|detected|revealed|found|breakthrough)\b/i.test(text) && novelty.test(text) ? 85 : novelty.test(text) ? 40 : /\b(new law|new policy|unexpected decision|peace deal|ceasefire|coup|overthrown)\b/i.test(text) ? 65 : 15,
     relevance: interests.test(text) ? 90 : 10,
   };
+  if (/\b(discovered|found out|diagnosed)\b.{0,35}\b(?:he|she|I) (?:had|has)\b/i.test(text)) { dimensions.surprise = Math.min(dimensions.surprise,25); dimensions.novelty = Math.min(dimensions.novelty,20); }
   if (contradiction) dimensions.surprise = 95;
   if (securityResponse || crisis) { dimensions.consequence = 95; dimensions.surprise = Math.max(dimensions.surprise, 75); }
   if (everydayChange) { dimensions.consequence = Math.max(dimensions.consequence, 75); dimensions.surprise = Math.max(dimensions.surprise, 65); }
@@ -134,6 +149,11 @@ export function interestScore(story) {
     dimensions.surprise = Math.min(dimensions.surprise,50);
     dimensions.novelty = Math.min(dimensions.novelty,40);
   }
+  const significantConflict = /\b(ukrain\w*|russia\w*|war|military|civilian\w*)\b/i.test(story.title)
+    && /\b(strikes?|attacks?|killed|missiles?|drones?|offensive|ceasefire|blackout|power grid)\b/i.test(story.title);
+  const massProtest = /\b(protests?|demonstrations?|marches?|rallies)\b/i.test(story.title)
+    && /\b(nationwide|across (?:the )?(?:US|U\.S\.|country)|millions|hundreds of thousands|largest|thousands|no kings)\b/i.test(text);
+  if (significantConflict || massProtest) { dimensions.consequence = 95; dimensions.surprise = Math.max(dimensions.surprise,65); dimensions.novelty = Math.max(dimensions.novelty,65); }
   const score = Object.entries(NEWS_WEIGHTS).reduce((sum, [key, weight]) => sum + dimensions[key] * weight, 0);
   return { score, dimensions };
 }
@@ -145,9 +165,10 @@ export function rankStories(items, now = new Date(), options = {}) {
     const eventAge = story.eventDate ? (+now - Date.parse(story.eventDate.length === 10 ? `${story.eventDate}T12:00:00Z` : story.eventDate)) / 3600000 : age;
     const text = `${story.title} ${story.editorialText || story.originalSummary || story.summary}`;
     const maxAge = options.maxAgeHours ?? 48;
+    if (!editoriallyEligible(story)) continue;
     if (!Number.isFinite(age) || age < -1 || age > maxAge || eventAge > maxAge || eventAge < -24 || trivial.test(story.title) || hype.test(story.title)
       || /\b(APOD|picture of the day|photo of the day|week in pictures|crossword)\b/i.test(story.title)) continue;
-    if (/\b(avoids? hints?|no (?:fresh |new )?(?:signals?|details?|announcements?)|won['’]t prejudge|declines? to (?:say|comment))\b/i.test(`${story.title} ${story.editorialText || ''}`)) continue;
+    if (/\b(avoids? hints?|no (?:fresh |new )?(?:signals?|details?|announcements?|answers?)|won['’]t prejudge|declines? to (?:say|comment))\b/i.test(`${story.title} ${story.editorialText || ''}`)) continue;
     if (/\b(could (?:vastly )?(?:boost|transform|revolutionize)|pledges?|profits?|earnings|rate holds|stocks? (?:rise|fall|higher|lower)|buys? \$|stock price|price target)\b/i.test(story.title) && !/\b(crash|collapse|record|largest|steepest|bankrupt)\b/i.test(story.title)) continue;
     if (routine.test(story.title) && !(extraordinary.test(text) && consequences.test(text))) continue;
     if (routinePolitics.test(story.title) && !/\b(coup|overthrown|overturned|assassination|unprecedented|first-ever|record-breaking)\b/i.test(story.title)) continue;
@@ -204,7 +225,7 @@ export function selectBriefing(stories, { key, history = {}, previousSources = [
 // reporting and finally the real previously published edition. Never invent
 // a date or disguise a carried story as a new development.
 export function completeBriefing(stories, { key, history = {}, previousSources = [], now = new Date(), fallback = [], editionKey = key } = {}) {
-  const checked = s => s && typeof s.id === 'string' && typeof s.title === 'string'
+  const checked = s => s && editoriallyEligible(s) && typeof s.id === 'string' && typeof s.title === 'string'
     && typeof s.source === 'string' && /^https:\/\//.test(s.url || '') && Number.isFinite(Date.parse(s.publishedAt))
     && (s.sourcePageChecked || s.eventDateVerified) && typeof (s.explanation || s.summary) === 'string' && (s.explanation || s.summary).trim().length > 40
     && !/\b(APOD|picture of the day|photo of the day)\b/i.test(s.title);
@@ -221,12 +242,16 @@ export function completeBriefing(stories, { key, history = {}, previousSources =
     }
   };
   const broader = rankStories(current.filter(unseen), now, { broad:true, minScore:20, limit:100 });
-  // Date confidence breaks close ties; it must not override editorial interest.
-  broader.sort((a,b) => {
-    const value = s => s.score + (s.freshness === '24h' ? 6 : 0) + (s.eventDateVerified ? 2 : 0) + (previousSources.includes(s.source) ? 0 : 2);
-    return value(b) - value(a);
-  });
-  add(broader, { carriedForward:false, olderReport:false, selectedEdition:key });
+  // Recalculate variety after each pick. A final global sort used to erase
+  // the publisher/category penalties and fill the edition with one theme.
+  while (broader.length && selected.length < 5) {
+    const value = s => s.score + (s.freshness === '24h' ? 3 : 0) + (s.eventDateVerified ? 2 : 0)
+      + (previousSources.includes(s.source) ? 0 : 2)
+      - selected.filter(p => p.source === s.source).length * 5
+      - selected.filter(p => p.category === s.category).length * 4;
+    broader.sort((a,b) => value(b)-value(a));
+    add([broader.shift()], { carriedForward:false, olderReport:false, selectedEdition:key });
+  }
   const catchup = rankStories(current.filter(unseen), now, { broad:true, minScore:20, maxAgeHours:168, limit:100 });
   add(catchup, { carriedForward:false, olderReport:true, selectedEdition:key });
   add([...stories, ...fallback].filter(checked).sort((a,b) => Date.parse(b.publishedAt)-Date.parse(a.publishedAt)), { carriedForward:true });

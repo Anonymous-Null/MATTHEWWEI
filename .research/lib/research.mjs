@@ -16,7 +16,7 @@ const sourceHosts = {
 };
 const months = 'january february march april may june july august september october november december'.split(' ');
 const weekdays = 'sunday monday tuesday wednesday thursday friday saturday'.split(' ');
-const eventVerb = /\b(announced|signed|killed|struck|issued|ruled|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found)\b/i;
+const eventVerb = /\b(held|acknowledged|disclosed|announced|signed|killed|struck|issued|ruled|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found)\b/i;
 const future = /\b(will|plans to|scheduled to|expected to|is set to)\b/i;
 const majorEvent = /\b(signed|overturned|resigned|invaded|ceasefire|banned|approved|erupted|landed|discovered)\b/i;
 
@@ -127,7 +127,7 @@ export function parseSourceArticle(html, story) {
   for (const nuisance of body.querySelectorAll('figure,figcaption,button,nav,aside,header,h1,h2,h3,.credit,.caption,.toggle-caption,.image-credit,.captionwrap,.imagewrap,.byline,.headline,.article-header,.bucketwrap,.storyenhancement,.related-story')) nuisance.remove();
   for (const block of body.querySelectorAll('p,div,li,h1,h2,h3,h4,section,blockquote')) block.appendChild(document.createTextNode(' '));
   let text = plainText(body.textContent || body.documentElement?.textContent || '');
-  text = text.replace(/^Updated \[hour\]:\[minute\] \[AMPM\] \[timezone\], \[monthFull\] \[day\], \[year\]\s*/, '')
+  text = text.replace(/^By THE ASSOCIATED PRESS\s*/, '').replace(/^Updated \[hour\]:\[minute\] \[AMPM\] \[timezone\], \[monthFull\] \[day\], \[year\]\s*/, '')
     .replace(/^Skip to content\s*/i, '').replace(/\b\d+ MIN READ\b/g, '');
 
   if (story.source === 'BBC News') {

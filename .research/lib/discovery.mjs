@@ -3,6 +3,8 @@ import { plainText } from '../public/news.js';
 
 // Publisher section editors surface stories that short, topic-specific feeds miss.
 export const NEWS_SECTIONS = [
+  {url:'https://apnews.com/hub/russia-ukraine',source:'AP News',category:'World'},
+  {url:'https://apnews.com/us-news',source:'AP News',category:'U.S.'},
   {url:'https://apnews.com/',source:'AP News',category:'World'},
   ...[['world-news','World'],['science','Science'],['technology','Technology'],['politics','U.S.'],['business','Business']].map(([path,category]) => ({url:`https://apnews.com/${path}`,source:'AP News',category})),
   {url:'https://www.businessinsider.com/sai',source:'Business Insider',category:'Technology'},
@@ -26,10 +28,11 @@ export function sectionStories(html, section) {
 // discovery channels so a prolific science feed cannot crowd out world news.
 export function readingQueue(pools,{now=new Date(),limit=180}={}) {
   const seen=new Set(),out=[];
+  const priority = s => /\b(no kings|nationwide|mass protests?|airstrikes?|missile strikes?|drone attacks?|ukrain\w*.{0,60}(?:strikes?|drones?)|ceasefire|coup)\b/i.test(s.title || '') ? 1 : 0;
   const queues=pools.map(pool=>pool.filter(s=> {
     const time=Date.parse(s.publishedAt);
     return !s.publishedAt || Number.isFinite(time) && +now-time<=48*3600000 && time<=+now+3600000;
-  }));
+  }).sort((a,b)=>priority(b)-priority(a)));
   for(let i=0;out.length<limit && queues.some(q=>i<q.length);i++) {
     for(const q of queues) {
       const s=q[i];if(!s || seen.has(s.id)) continue;

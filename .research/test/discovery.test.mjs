@@ -59,3 +59,32 @@ test('excerpt reaches the finding instead of spending the word budget on the int
  const finding='Researchers found fingerprints belonging to children among the Terracotta Army sculptures. The analysis identified distinct patterns in the clay and revealed that children helped make the figures alongside adults. The fingerprints provide evidence about the workers who built the army and challenge earlier assumptions about their ages. The team cautioned that the sample does not establish exactly how many children worked on the project, and further analysis is needed to confirm how widespread their involvement was.';
  const excerpt=explanationFromText(intro+finding,'Fingerprints reveal who built the Terracotta Army');assert.match(excerpt,/children/);assert.ok(excerpt.split(/\s+/).length<=120);assert.ok(!excerpt.endsWith('…'));
 });
+test('local upkeep cannot become a discovery story through incidental medical background, even as fallback',()=>{
+ const local=report('path','Jeremy Vernon battles with overgrown pathways in Launceston','He discovered he had kidney cancer. He moved home and now clears pathways with his shovel and wheelbarrow.');
+ assert.equal(rankStories([local],now,{broad:true,minScore:0}).length,0);
+ assert.equal(completeBriefing([],{key:'new',now,fallback:[local]}).length,0);
+ const important=report('danger','Overgrown pathways block evacuation during major wildfire disaster','Officials ordered an evacuation because a major wildfire is threatening thousands of homes.');
+ assert.equal(rankStories([important],now,{broad:true,minScore:0}).length,1);
+});
+test('major strikes and mass protests outrank a routine career profile and shopping deal',()=>{
+ const items=[report('jobs',"Meta's giant data center is creating a new path to $30-an-hour jobs",'Thousands of workers are studying AI at college to prepare for data center careers.'),report('sale','The new Apple TV 4K just got its first discount','Apple announced a new model this week. Buy it now at a discount.'),report('war','Ukraine strikes military facilities with drones','Officials reported strikes on military facilities and power infrastructure.'),report('march','No Kings protests draw crowds across the US','Hundreds of thousands joined demonstrations across the country.')];
+ const ranked=rankStories(items,now,{broad:true,minScore:0});assert.equal(ranked.length,2);assert.ok(ranked.every(s=>['war','march'].includes(s.id)));
+});
+test('a large demonstration is read before incidental section features when the budget is tight',()=>{
+ const pool=[{id:'local',title:'A local festival opens this week'},{id:'march',title:'No Kings rallies across US urge voters to cast ballots early'}];
+ assert.equal(readingQueue([pool],{now,limit:1})[0].id,'march');
+});
+test('political appearances and meetings with no new answers do not fill a major-news briefing',()=>{
+ const appearance=report('town','Vance faces tough questions on Iran war in town hall','He faced questions about artificial intelligence, nuclear war and inflation.');
+ const meeting=report('meeting','IMF meetings leave more questions than answers','The meetings yielded no new answers on war, artificial intelligence or inflation.');
+ assert.equal(rankStories([appearance,meeting],now,{broad:true,minScore:0}).length,0);
+});
+test('a rally is dated by when it was held, not an unrelated lawsuit later in the article',()=>{
+ const d=eventDateInText('Rallies organized by the No Kings network were held Saturday across the U.S. His administration sued California election officials Thursday over the midterms.', '2026-10-17T17:45:49Z', {title:'No Kings rallies urge early voting ahead of midterms',category:'U.S.'});
+ assert.equal(d.date,'2026-10-17');assert.match(d.evidence,/held Saturday/);
+});
+test('briefing keeps variety rather than undoing it with a final global score sort',()=>{
+ const war=['alpha','beta','gamma','delta','epsilon'].map((id,i)=>report(id,`Ukraine drone strikes ${id} military site`,'Officials reported major strikes on military facilities. Authorities are assessing the damage and casualties from the attack.'));
+ const protest={...report('march','No Kings rallies urge early voting ahead of midterms','Rallies organized by the No Kings network were held Saturday across the US, with hundreds of events encouraging voters to cast their ballots early.'),category:'U.S.',publishedAt:'2026-10-16T18:00:00Z',eventDate:'2026-10-16'};
+ assert.ok(completeBriefing([...war,protest],{key:'edition',now}).some(s=>s.id==='march'));
+});
