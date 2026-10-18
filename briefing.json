@@ -1,234 +1,245 @@
 {
-  "fetchedAt": "2026-10-18T15:16:29.520Z",
+  "fetchedAt": "2026-10-18T15:19:35.649Z",
   "news": {
     "schemaVersion": 2,
     "mode": "researched",
     "editionKey": "2026-10-18-am",
     "stories": [
       {
-        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "publishedAt": "2026-10-18T13:59:04.000Z",
-        "source": "Investing.com",
-        "category": "Business",
-        "coverage": "Source report",
-        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
-        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "checkedAt": "2026-10-18T15:16:29.520Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. One person was killed and five others were wounded in the St. Petersburg attack, which sparked fires at the Petersburg Oil Terminal and the city’s Ruchi oil depot, local Gov. Alexander Beglov said.",
-        "publishedAt": "2026-10-18T09:49:18.000Z",
-        "source": "AP News",
-        "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "By THE ASSOCIATED PRESS Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. One person was killed and five others were wounded in the St. Petersburg attack, which sparked fires at the Petersburg Oil Terminal and the city’s Ruchi oil depot, local Gov. Alexander Beglov said. A logistics center belonging to Russian retailer Ozon and a data center operated by Russian tech giant VK were also targeted, the companies confirmed. Russia’s Defense Ministry said Sunday that its forces had destroyed 1,015 Ukrainian drones over 15 Russian regions, the annexed Ukrainian peninsula of Crimea and the Black Sea. Kremlin spokesperson Dmitry Peskov told Russian state news agency Tass that Kyiv was “resisting” Moscow’s invasion but",
-        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
-        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "eventRevision": "2026-10-18:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. One person was killed and five others were wounded in the St. Petersburg attack, which sparked fires at the Petersburg Oil Terminal and the city’s Ruchi oil depot, local Gov. Alexander Beglov said.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "checkedAt": "2026-10-18T15:16:29.520Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "originalSummary": "By THE ASSOCIATED PRESS Updated [hour]:[minute] [AMPM] [timezone], [monthFull] [day], [year] Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. One person was killed and five others were wounded in the St. Petersburg attack, which sparked fires at the Petersburg Oil Terminal and the city’s Ruchi oil depot, local Gov. Alexander Beglov said.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theguardian.com/business/2026/oct/18/drone-attacks-ships-black-sea-russia-ukraine-war",
-        "url": "https://www.theguardian.com/business/2026/oct/18/drone-attacks-ships-black-sea-russia-ukraine-war",
-        "title": "Intensifying drone attacks on ships in Black Sea bring war ever closer to Nato shores",
-        "summary": "The first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala. The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Six days later drones struck another ship off the coast of Bulgaria, HS Dignity. Eleven crew members died.",
-        "publishedAt": "2026-10-18T05:00:51.000Z",
+        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "publishedAt": "2026-10-18T15:00:02.000Z",
         "source": "The Guardian",
         "category": "World",
         "coverage": "Source report",
-        "editorialText": "The first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala. The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Six days later drones struck another ship off the coast of Bulgaria, HS Dignity. Eleven crew members died. By Thursday, the attacks had encroached on Romania’s airspace and territorial water. Two chemical tankers, Wine Trader and Yara J, were attacked and left burning. Seven more sailors were missing. The attacks on six ships in 10 days – the Able and Chelsea-3 were also hit – marked a dramatic escalation in a maritime conflict that is pressing on Nato’s borders. While global attention has focused on the risks for",
-        "originalPublishedAt": "2026-10-18T05:00:51.000Z",
+        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
+        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/business/2026/oct/18/drone-attacks-ships-black-sea-russia-ukraine-war",
+        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "The first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala. The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Six days later drones struck another ship off the coast of Bulgaria, HS Dignity. Eleven crew members died.",
+        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/e886f1a13a50a50476946b3452987388831e52f9/73_0_2249_1800/master/2249.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e4b4403b6c83eb7a09d3eed721692921",
-        "imageCaption": "The Wine Trader ship was struck in the territorial waters of Romania, near Sulina, on Thursday. Photograph: ARSVOM/AFP/Getty Images",
-        "imageSourceUrl": "https://www.theguardian.com/business/2026/oct/18/drone-attacks-ships-black-sea-russia-ukraine-war",
-        "checkedAt": "2026-10-18T15:16:29.520Z",
-        "score": 65.75,
+        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
+        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
+        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 89,
         "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 85,
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Intensifying drone attacks on ships in Black Sea bring war ever closer to Nato shores",
-        "originalSummary": "Six attacks in 10 days by suspected Russian drones mark dramatic escalation in maritime conflictThe first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala.The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Continue reading...",
+        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "title": "No Kings rallies urge early voting ahead of midterms",
-        "source": "AP News",
-        "category": "U.S.",
-        "publishedAt": "2026-10-17T17:45:49.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventDateVerified": true,
-        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
-        "eventKind": "Event",
-        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "eventRevision": "2026-10-17:Event",
-        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
-        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "checkedAt": "2026-10-18T15:19:01.982Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
-        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t see Wonder Woman giving up her magic lasso. So why would you give up your right, your power, your obligation to vote? Be a super hero, use your power. Go to the polls and vote.” Trump has long been suspicious of mail voting and has claimed without evidence that voting fraud cost him the 2020 presidential election. His administration sued California election officials Thursday, asking a judge to bar the state from counting mail-in ballots for the midterm elections from people whom the federal government has identified as “likely” noncitizens until their immigration status can be confirmed. On Friday the Justice Department warned that local officials who process and tabulate ballots submitted by suspected noncitizen voters are putting themselves at risk of criminal investigation and potential prosecution.    Earlier that day Democratic Sens. Alex Padilla of California, Sheldon Whitehouse of Rhode Island and Dick Durbin of Illinois wrote to Attorney General Todd Blanche demanding that the Justice Department commit to not seizing ballots or other election materials before the midterm elections are certified.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
-        "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
-        "title": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
-        "summary": "Investing.com -- Two Saudi military personnel were killed in a helicopter crash near Yemen on Sunday, as regional fighting intensified and tanker attacks threatened shipping through the Strait of Hormuz. The Saudi-led coalition said an AH-6i reconnaissance helicopter crashed in Najran due to a technical malfunction, killing both crew members. Coalition spokesman Major General Turki al-Maliki said the aircraft crashed in an area under the Saudi National Guard Ministry’s jurisdiction. The incident followed a claim by Houthi military spokesman Yahya Saree that the group had shot down a Saudi Apache helicopter near Najran on Saturday. Al-Maliki rejected the claim. Najran has faced repeated Houthi attacks as Yemen’s conflict increasingly becomes another front in the U.S.-led war against Iran.",
-        "publishedAt": "2026-10-18T03:33:56.000Z",
-        "source": "Investing.com",
+        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "summary": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "publishedAt": "2026-10-18T14:50:37.000Z",
+        "source": "The Guardian",
         "category": "World",
         "coverage": "Source report",
-        "editorialText": "Investing.com -- Two Saudi military personnel were killed in a helicopter crash near Yemen on Sunday, as regional fighting intensified and tanker attacks threatened shipping through the Strait of Hormuz. The Saudi-led coalition said an AH-6i reconnaissance helicopter crashed in Najran due to a technical malfunction, killing both crew members. Coalition spokesman Major General Turki al-Maliki said the aircraft crashed in an area under the Saudi National Guard Ministry’s jurisdiction. The incident followed a claim by Houthi military spokesman Yahya Saree that the group had shot down a Saudi Apache helicopter near Najran on Saturday. Al-Maliki rejected the claim. Najran has faced repeated Houthi attacks as Yemen’s conflict increasingly becomes another front in the U.S.-led war against Iran. Meanwhile, Iran’s Islamic Revolutionary Guard Corps said two supertankers struck naval mines on Saturday, triggering fires. The Iranian navy separately reported a tanker burning in the Gulf of Oman. The IRGC reiterated that the Strait of Hormuz remained closed to vessels travelling without Iranian authorisation. The United Kingdom Maritime Trade Operations agency also reported two tanker attacks near Saudi Arabia on Friday,",
-        "originalPublishedAt": "2026-10-18T03:33:56.000Z",
+        "editorialText": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
+        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
         "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Investing.com -- Two Saudi military personnel were killed in a helicopter crash near Yemen on Sunday, as regional fighting intensified and tanker attacks threatened shipping through the Strait of Hormuz.",
-        "dateEvidenceUrl": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
-        "eventRevision": "2026-10-18:Event",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Investing.com -- Two Saudi military personnel were killed in a helicopter crash near Yemen on Sunday, as regional fighting intensified and tanker attacks threatened shipping through the Strait of Hormuz. The Saudi-led coalition said an AH-6i reconnaissance helicopter crashed in Najran due to a technical malfunction, killing both crew members. Coalition spokesman Major General Turki al-Maliki said the aircraft crashed in an area under the Saudi National Guard Ministry’s jurisdiction. The incident followed a claim by Houthi military spokesman Yahya Saree that the group had shot down a Saudi Apache helicopter near Najran on Saturday. Al-Maliki rejected the claim. Najran has faced repeated Houthi attacks as Yemen’s conflict increasingly becomes another front in the U.S.-led war against Iran.",
+        "explanation": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM2M133_1200_L.jpg",
+        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
-        "checkedAt": "2026-10-18T15:16:29.520Z",
-        "score": 65.75,
+        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 81.25,
+        "dimensions": {
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "title": "Scientists who discovered a third form of magnetism win major physics prize",
+        "summary": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
+        "publishedAt": "2026-10-18T00:00:00.000Z",
+        "source": "ScienceDaily",
+        "category": "Science",
+        "coverage": "Research summary",
+        "editorialText": "Scientists have uncovered a previously unknown form of magnetism, overturning an understanding of magnetic behavior that had stood for more than a century. The discovery, known as altermagnetism, has revealed a third fundamental category of collinear magnetism and opened new possibilities for quantum materials, advanced electronics, and future computing technologies. Three physicists responsible for the breakthrough have been named recipients of the 2026 Europhysics Prize, one of Europe's most prestigious honors in condensed matter physics. The European Physical Society (EPS) Condensed Matter Division selected Professor Jairo Sinova of Johannes Gutenberg University Mainz (JGU), Dr. Libor Šmejkal, and Professor Tomas Jungwirth for their work establishing altermagnetism as a distinct form of magnetic order alongside ferromagnetism and antiferromagnetism. \"This award recognizes a fundamental discovery that challenged one of the most established paradigms in condensed matter physics,\" said Professor Jairo Sinova, Director of the Spin Phenomena Interdisciplinary Center (SPICE) at Mainz University. \"Discovering that an entirely new magnetic phase had remained hidden for more than one hundred years demonstrates that even the most mature scientific fields can still hold fundamental surprises.\" The breakthrough",
+        "originalPublishedAt": "2026-10-18T00:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://www.sciencedaily.com/images/1920/altermagnetic-crystal.webp",
+        "imageCaption": "Schematic illustration of the structure of an altermagnetic crystal: The unique symmetry of the electron distribution underlies the extraordinary properties of this newly discovered class of magnetic materials. Credit: Libor Šmejkal",
+        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 56,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Scientists who discovered a third form of magnetism win major physics prize",
+        "originalSummary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "summary": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "publishedAt": "2026-10-18T11:57:49.644Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
+        "originalPublishedAt": "2026-10-18T11:57:49.644Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4966/live/70482900-cad8-11f1-a64c-550be9e3c66b.jpg",
+        "imageCaption": "Image caption, The St Petersburg Oil Terminal was among targets hit in the city overnight",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 64.25,
         "dimensions": {
           "surprise": 65,
-          "consequence": 95,
+          "consequence": 90,
           "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
-        "originalSummary": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
+        "displayTitle": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "originalSummary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "title": "Cities want to put the boot on robotaxis",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
+        "publishedAt": "2026-10-18T12:00:00.000Z",
+        "source": "The Verge",
+        "category": "Technology",
+        "coverage": "Source report",
+        "editorialText": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada). Nevada was ahead of the curve primarily due to lobbying: Google saw Nevada as prime testing ground for its prototypes, so it urged lawmakers to pass the law that allowed it to do so. The legislation even included a provision exempting drivers from text-messaging bans while the automated system was engaged. Back then, many states and cities welcomed self-driving cars with open arms, eager to be seen as future-forward",
+        "originalPublishedAt": "2026-10-18T12:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2270749481.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 53.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Cities want to put the boot on robotaxis",
+        "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The first state to pass a law […]",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       }
     ],
-    "fetchedAt": "2026-10-18T15:16:29.520Z",
-    "checkedAt": "2026-10-18T15:16:29.520Z",
+    "fetchedAt": "2026-10-18T15:19:35.649Z",
+    "checkedAt": "2026-10-18T15:19:35.649Z",
     "sources": [
-      "ScienceDaily",
       "The Guardian",
+      "ScienceDaily",
       "BBC News",
-      "Investing.com",
-      "AP News",
-      "The Verge",
-      "Higher Ed Dive",
-      "Ars Technica",
       "Phys.org",
-      "ScienceAlert",
+      "The Verge",
+      "Ars Technica",
+      "Higher Ed Dive",
       "Business Insider",
+      "ScienceAlert",
       "NASA",
       "MIT News"
     ],
-    "providersAvailable": 32,
+    "providersAvailable": 24,
     "providersTotal": 38,
     "research": {
-      "rawCandidates": 917,
-      "candidatesReviewed": 240,
-      "sourcePagesRead": 241,
-      "primaryDatesChecked": 21,
-      "rejected": 47,
+      "rawCandidates": 570,
+      "candidatesReviewed": 232,
+      "sourcePagesRead": 208,
+      "primaryDatesChecked": 36,
+      "rejected": 64,
       "rejectedCandidates": [
+        {
+          "title": "Analysis-IMF/World Bank meetings leave developing countries with more questions than answers",
+          "url": "https://www.investing.com/news/economy-news/analysisimfworld-bank-meetings-leave-developing-countries-with-more-questions-than-answers-4955879",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "JPMorgan raises ICICI Bank stock price target on strong earnings",
+          "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
+          "reason": "Provider returned HTTP 403"
+        },
         {
           "title": "Dad shift: Men now file majority of paid family leave claims in key states",
           "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
@@ -260,9 +271,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Adult acne is real, but there are ways to treat it. Here’s what to know",
-          "url": "https://apnews.com/article/hormonal-acne-treatment-face-wash-spironolactone-1649a859b41ed0d0da157963656e91b0",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Iran appoints new defence minister amid escalating tensions with U.S.",
+          "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+          "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How to see the Orionid meteor shower",
@@ -280,9 +296,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Four astronauts return to Earth after eight months in space",
-          "url": "https://apnews.com/article/spacex-nasa-space-station-3d4ca5874f95fe94afc037b2443f184c",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Microsoft pulls out of UK data centre deal with Nscale, Telegraph reports",
+          "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Spyre presents clinical data on IBD antibody therapies",
+          "url": "https://www.investing.com/news/company-news/spyre-presents-clinical-data-on-ibd-antibody-therapies-93CH-4955924",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Iowa's vote in midterms may help determine balance of power in Congress",
@@ -295,14 +316,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
-          "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Russia hits Ukraine’s energy sector 76 times in a week, Zelenskiy says",
+          "url": "https://www.investing.com/news/economy-news/russia-hits-ukraines-energy-sector-76-times-in-a-week-zelenskiy-says-4955841",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Trump says Russia and Ukraine agree to an ‘energy ceasefire’ but Kyiv says attacks continue",
-          "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Analysis-Carney’s pipeline push is unlikely to bring back Canada’s oil jobs boom",
+          "url": "https://www.investing.com/news/commodities-news/analysiscarneys-pipeline-push-is-unlikely-to-bring-back-canadas-oil-jobs-boom-4955902",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "What is the Budget and what could be in it?",
@@ -320,9 +341,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientist who hunts mysterious ghost particles in the Antarctic ice wins Nobel Prize for physics",
-          "url": "https://apnews.com/article/nobel-prize-physics-sweden-47d0ab2b92f3512eb09ed44ceb6006d8",
+          "title": "Lion droppings yield previously unknown microbial species, exposing hidden diversity inside Africa's big cats",
+          "url": "https://phys.org/news/2026-10-lion-yield-previously-unknown-microbial.html",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "China proposes export curbs on 12 key solar manufacturing technologies",
+          "url": "https://www.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4955825",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "MetroCity Bankshares earnings in spotlight after Q2 miss",
+          "url": "https://www.investing.com/news/earnings/metrocity-bankshares-earnings-in-spotlight-after-q2-miss-93CH-4955923",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Biking along the Great American Rail-Trail",
@@ -335,14 +366,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "California scientist wins a Nobel Prize, then makes school lunches for his kids",
-          "url": "https://apnews.com/article/nobel-prize-medicine-california-stanford-karl-deisseroth-72ce047423411f1ccffd659e841a8a64",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Venezuela expects $76 billion oil investment boost amid U.S. cooperation",
+          "url": "https://www.investing.com/news/economy-news/venezuela-expects-76-billion-oil-investment-boost-amid-us-cooperation-4955719",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
-          "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "World Businesses for Sale Expands Confidential Seller Support for Owners Seeking Buyers",
+          "url": "https://www.investing.com/news/press-releases/world-businesses-for-sale-expands-confidential-seller-support-for-owners-seeking-buyers-4955921",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How public bathrooms reflect America's inequality",
@@ -355,14 +386,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Christa Pike survived 2 doses of an execution drug. How is that possible?",
-          "url": "https://apnews.com/article/christa-pike-tennessee-surviving-lethal-injection-a91e8c3959e8e456c859cef94605de22",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
+          "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Tuesday’s takeaways: No clear direction for Wisconsin Democrats",
-          "url": "https://apnews.com/article/primaries-wisconsin-minnesota-democratic-party-socialist-226b31e324cdd9b72200fb9abc9acb69",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Mid Penn Bancorp director Robert Abel buys $495 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-robert-abel-buys-495-in-shares-93CH-4955919",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Suspect in deadly Oregon elementary school shooting was a former student",
@@ -375,19 +406,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ukraine fires nearly 900 drones at Russia as Kyiv braces for expected huge aerial attack",
-          "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-d6e8cbb6d0ffdc7cbd2da59b9cd6f7c9",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "U.S. urges Israel to curb settler violence in West Bank, Rubio says",
+          "url": "https://www.investing.com/news/economy-news/us-urges-israel-to-curb-settler-violence-in-west-bank-rubio-says-4955694",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Nobel medicine prize goes to 3 scientists for shining light on brain activity",
-          "url": "https://apnews.com/article/nobel-prize-medicine-sweden-2efe9ee7eae9d808fd49a6da1f53ceba",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Takeaways from Tuesday’s elections",
-          "url": "https://apnews.com/article/election-takeaways-michigan-senate-primary-democrats-trump-c957db07eb78ea93c70208ba0a6bceed",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Mid Penn Bancorp director Mowery buys $1,982 in common stock",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-mowery-buys-1982-in-common-stock-93CH-4955914",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
@@ -400,19 +426,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Russia pounds Ukraine with missiles and drones, killing 7 and targeting power grid, Zelenskyy says",
-          "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-attacks-b837b4ee58f0aa8b4e5a5a872906d91e",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Mamdani proves his power with New York endorsements, plus more takeaways from Tuesday’s primaries",
-          "url": "https://apnews.com/article/donald-trump-zohran-mamdani-new-york-78d9cc60faff70ffe27fd8d7f6dc1355",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Trump says he will advise Katie Zacharia to reconsider shortly before she was fired - video",
           "url": "https://www.theguardian.com/us-news/video/2026/oct/16/trump-katie-zacharia-to-reconsider-shortly-before-she-was-fired-video",
           "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Could another France downgrade put the EU’s credit rating at risk?",
+          "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "As AI rally wobbles, stock market’s spotlight turns to earnings",
+          "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
@@ -430,9 +456,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Takeaways from primaries featuring Spencer Pratt, a missing congressman and a rare Trump setback",
-          "url": "https://apnews.com/article/california-iowa-new-jersey-primaries-4355e73b946486ac92452ec856966d7e",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Citi says interest rates may matter more for economy than stock valuations",
+          "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Mid Penn Bancorp director Joel L. Frank buys $2,478 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-joel-l-frank-buys-2478-in-shares-93CH-4955908",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
@@ -450,27 +481,84 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Astronauts arrive at International Space Station on the quickest US express flight yet",
-          "url": "https://apnews.com/article/spacex-nasa-astronauts-crew-13-d885ec0dcb9fab8bbf8977103118caa0",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Takeaways from Tuesday’s primaries: Massie’s loss leaves no doubt about Trump’s power over the GOP",
-          "url": "https://apnews.com/article/election-takeaways-massie-kentucky-georgia-alabama-8eb9f54741ce0313ab15b291bd742c16",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Scientists find a youth protein that helps aging brain cells act young again",
           "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
+          "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Australian scavengers don't just eat everything and slink away. They approach a carcass like a buffet",
+          "url": "https://phys.org/news/2026-10-australian-scavengers-dont-approach-carcass.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The ambiguous costs of climate change",
+          "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This bird flies thousands of miles, but its wings have a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brain cells meant to protect us may be fueling cognitive decline",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
+          "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Political violence: How justifications influence voter approval",
+          "url": "https://phys.org/news/2026-10-political-violence-justifications-voter.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists uncover mystery of how snail shells coil to the right or to the left",
+          "url": "https://phys.org/news/2026-10-scientists-uncover-mystery-snail-shells.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "Rabbits were a medieval royal luxury in England—until the Black Death made them commonplace",
+          "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "Plants shift gene activity within minutes of entering spaceflight, experiment reveals",
+          "url": "https://phys.org/news/2026-10-shift-gene-minutes-spaceflight-reveals.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "New 3D model reveals how shadows reshape chemistry in stellar nurseries",
+          "url": "https://phys.org/news/2026-10-3d-reveals-shadows-reshape-chemistry.html",
+          "reason": "Provider returned HTTP 429"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 19,
-      "eventDatesUnconfirmed": 41,
+      "eventDatesVerified": 17,
+      "eventDatesUnconfirmed": 43,
       "rejectionReasons": {
+        "Provider returned HTTP 403": 20,
         "Source article was unavailable or too short": 13,
-        "The actual event/announcement is more than a week old": 34
+        "The actual event/announcement is more than a week old": 27,
+        "Provider returned HTTP 429": 4
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -631,9 +719,9 @@
         {
           "source": "Science",
           "url": "https://www.science.org/rss/news_current.xml",
-          "available": false,
+          "available": true,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": null
         },
         {
           "source": "The Guardian",
@@ -680,58 +768,58 @@
         {
           "source": "AP News",
           "url": "https://apnews.com/hub/russia-ukraine",
-          "available": true,
-          "candidates": 32,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/us-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/world-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/science",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/technology",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/politics",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/business",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "Business Insider",
@@ -748,6 +836,206 @@
     "carriedCount": 0,
     "olderCount": 0,
     "reserveStories": [
+      {
+        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "publishedAt": "2026-10-18T15:00:02.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
+        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
+        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
+        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 89,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "summary": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "publishedAt": "2026-10-18T14:50:37.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
+        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 81.25,
+        "dimensions": {
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "title": "Scientists who discovered a third form of magnetism win major physics prize",
+        "summary": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
+        "publishedAt": "2026-10-18T00:00:00.000Z",
+        "source": "ScienceDaily",
+        "category": "Science",
+        "coverage": "Research summary",
+        "editorialText": "Scientists have uncovered a previously unknown form of magnetism, overturning an understanding of magnetic behavior that had stood for more than a century. The discovery, known as altermagnetism, has revealed a third fundamental category of collinear magnetism and opened new possibilities for quantum materials, advanced electronics, and future computing technologies. Three physicists responsible for the breakthrough have been named recipients of the 2026 Europhysics Prize, one of Europe's most prestigious honors in condensed matter physics. The European Physical Society (EPS) Condensed Matter Division selected Professor Jairo Sinova of Johannes Gutenberg University Mainz (JGU), Dr. Libor Šmejkal, and Professor Tomas Jungwirth for their work establishing altermagnetism as a distinct form of magnetic order alongside ferromagnetism and antiferromagnetism. \"This award recognizes a fundamental discovery that challenged one of the most established paradigms in condensed matter physics,\" said Professor Jairo Sinova, Director of the Spin Phenomena Interdisciplinary Center (SPICE) at Mainz University. \"Discovering that an entirely new magnetic phase had remained hidden for more than one hundred years demonstrates that even the most mature scientific fields can still hold fundamental surprises.\" The breakthrough",
+        "originalPublishedAt": "2026-10-18T00:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://www.sciencedaily.com/images/1920/altermagnetic-crystal.webp",
+        "imageCaption": "Schematic illustration of the structure of an altermagnetic crystal: The unique symmetry of the electron distribution underlies the extraordinary properties of this newly discovered class of magnetic materials. Credit: Libor Šmejkal",
+        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 56,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Scientists who discovered a third form of magnetism win major physics prize",
+        "originalSummary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "summary": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "publishedAt": "2026-10-18T11:57:49.644Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
+        "originalPublishedAt": "2026-10-18T11:57:49.644Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4966/live/70482900-cad8-11f1-a64c-550be9e3c66b.jpg",
+        "imageCaption": "Image caption, The St Petersburg Oil Terminal was among targets hit in the city overnight",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 64.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 90,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "originalSummary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "title": "Cities want to put the boot on robotaxis",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
+        "publishedAt": "2026-10-18T12:00:00.000Z",
+        "source": "The Verge",
+        "category": "Technology",
+        "coverage": "Source report",
+        "editorialText": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada). Nevada was ahead of the curve primarily due to lobbying: Google saw Nevada as prime testing ground for its prototypes, so it urged lawmakers to pass the law that allowed it to do so. The legislation even included a provision exempting drivers from text-messaging bans while the automated system was engaged. Back then, many states and cities welcomed self-driving cars with open arms, eager to be seen as future-forward",
+        "originalPublishedAt": "2026-10-18T12:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2270749481.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "checkedAt": "2026-10-18T15:19:35.649Z",
+        "score": 53.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Cities want to put the boot on robotaxis",
+        "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The first state to pass a law […]",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
       {
         "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
         "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
@@ -1020,46 +1308,6 @@
         "freshness": "24h",
         "displayTitle": "Meta's giant data center is creating a new path to $30-an-hour jobs",
         "originalSummary": "Thousands of construction workers are arriving in a small Louisiana community to build Meta's largest-ever data center. Less than an hour away, at the Louisiana Delta Community College's West Monroe campus, the next generation of data center professionals is hoping to join their ranks. \"I see AI is really the future. We're going to need data centers to house all the data,\" Eric Crowe Jr., 27, told Business Insider. \"I feel like it will become a very lucrative job to have, and we're going to need more of them. Why not get in now before it gets oversaturated?\" Crowe Jr. is among the students who signed up for the community college's Data Center Technician program.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "summary": "From 2h ago More than 1,800 people have been arrested in France over protests on Saturday, the country’s interior minister Laurent Nunez has said. Nunez, in a post on X, said “the Republic will not yield” as more than 500 police officers, gendarmes and firefighters have been injured in the demonstrations. “The material damage is considerable,” Nunez added, pointing to damaged shops. He blamed thousands of “far-left” protesters along with “criminals who looted and ransacked” buildings across France. “The Republic will yield nothing to those who seek to impose disorder and violence,” he said. In the post he said double quotation markProtesting is a fundamental right. Causing disorder through violence and in a coordinated manner is not.",
-        "publishedAt": "2026-10-18T10:57:17.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "From 2h ago More than 1,800 people have been arrested in France over protests on Saturday, the country’s interior minister Laurent Nunez has said. Nunez, in a post on X, said “the Republic will not yield” as more than 500 police officers, gendarmes and firefighters have been injured in the demonstrations. “The material damage is considerable,” Nunez added, pointing to damaged shops. He blamed thousands of “far-left” protesters along with “criminals who looted and ransacked” buildings across France. “The Republic will yield nothing to those who seek to impose disorder and violence,” he said. In the post he said double quotation markProtesting is a fundamental right. Causing disorder through violence and in a coordinated manner is not. Attacking our law enforcement officers, targeting our institutions, damaging public buildings, breaking into prefectures or town halls, and looting businesses – none of this can be justified. Following the events of 17 October – which, in some cities, continued late into the night-I wish to express my sincere gratitude and full support to the police officers, gendarmes, and firefighters who intervened under extreme",
-        "originalPublishedAt": "2026-10-18T10:57:17.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "From 2h ago More than 1,800 people have been arrested in France over protests on Saturday, the country’s interior minister Laurent Nunez has said. Nunez, in a post on X, said “the Republic will not yield” as more than 500 police officers, gendarmes and firefighters have been injured in the demonstrations. “The material damage is considerable,” Nunez added, pointing to damaged shops. He blamed thousands of “far-left” protesters along with “criminals who looted and ransacked” buildings across France. “The Republic will yield nothing to those who seek to impose disorder and violence,” he said. In the post he said double quotation markProtesting is a fundamental right. Causing disorder through violence and in a coordinated manner is not.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "checkedAt": "2026-10-18T11:09:39.945Z",
-        "score": 59.25,
-        "dimensions": {
-          "surprise": 75,
-          "consequence": 95,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsProtests in France caused damage worth hundreds of millions of euros, according to the head of a trade body representing shop owners.About 1,500 shops and retailers were damaged in the demonstrations according to Alexandre Bompard, president of the Retail and Trade Federation.Protesting is a fundamental right.Causing disorder through violence and in a coordinated manner is not. Continue reading...",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
@@ -1782,170 +2030,14 @@
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-        "url": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-        "title": "Hot flashes, night sweats, insomnia – OB-GYNS set new rules for menopause treatment",
-        "summary": "For stories on the science of healthy living, subscribe to NPR's Health newsletter. For the first time since 2014, the American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause. The doctor's group, known as ACOG, recommends hormone replacement therapy alongside certain antidepressants, nonhormonal medicines, and other treatments to address symptoms like hot flashes, insomnia and mood swings. \"What's changing is the breadth of options that we now have … And the benefit of that is that we are better equipped to be able to take an individualized approach for patients,\" said Catherine Cansino, MD, MPH, an obstetrician/gynecologist, chair of ACOG's Committee on Clinical Practice Guidelines and co-author of the new…",
-        "publishedAt": "2026-10-16T17:45:16.000Z",
-        "source": "NPR",
-        "category": "Science",
-        "coverage": "Source report",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Hot flashes, night sweats, insomnia – OB-GYNS set new rules for menopause treatment",
-        "originalSummary": "For the first time since 2014, the American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-16T17:45:16.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "For stories on the science of healthy living, subscribe to NPR's Health newsletter. For the first time since 2014, the American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause. The doctor's group, known as ACOG, recommends hormone replacement therapy alongside certain antidepressants, nonhormonal medicines, and other treatments to address symptoms like hot flashes, insomnia and mood swings. \"What's changing is the breadth of options that we now have … And the benefit of that is that we are better equipped to be able to take an individualized approach for patients,\" said Catherine Cansino, MD, MPH, an obstetrician/gynecologist, chair of ACOG's Committee on Clinical Practice Guidelines and co-author of the new…",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3630x2042+0+83/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb6%2F34%2Fd9c3bde94f53b06e88c7599041d1%2Fgettyimages-151055685.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
-        "url": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
-        "title": "Rare pink diamond goes on display in France 100 years after amateur heist",
-        "summary": "A rare pink diamond is going on display in France for the first time since it was stolen almost 100 years ago to the day - the last time it was shown to the public. The nine-carat, pear-shaped gemstone known as the \"Grand Condé\" was pilfered in an overnight raid on the Château de Chantilly in October 1926 and concealed in a hollowed-out apple. The diamond - one of few royal jewels to survive the French Revolution - was recovered a few weeks later when a hungry maid at the hotel in which the thieves were staying took a bite of the apple.",
-        "publishedAt": "2026-10-17T10:46:41.712Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Rare pink diamond goes on display in France 100 years after amateur heist",
-        "originalSummary": "The French royal jewel will be on public display for the first time since it was found hidden in an apple after a 1926 theft.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-17T10:46:41.712Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "A rare pink diamond is going on display in France for the first time since it was stolen almost 100 years ago to the day - the last time it was shown to the public. The nine-carat, pear-shaped gemstone known as the \"Grand Condé\" was pilfered in an overnight raid on the Château de Chantilly in October 1926 and concealed in a hollowed-out apple. The diamond - one of few royal jewels to survive the French Revolution - was recovered a few weeks later when a hungry maid at the hotel in which the thieves were staying took a bite of the apple.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/37cc/live/14013ec0-ca01-11f1-bc2e-018d645d8d21.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo",
-        "checkedAt": "2026-10-17T13:44:49.499Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o",
-        "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o",
-        "title": "Pope pictured for first time since surgery and cancer diagnosis",
-        "summary": "Also on Friday, the Pope phoned Russian President Vladimir Putin from hospital to urge a ceasefire in the Russian-occupied Ukrainian city of Oleshky, where access to food and water has been cut off for thousands. \"The fact that he accepted the call and spoke with the Pope may, I hope, be a sign that the Pope's request will indeed be carried out,\" said Cardinal Pietro Parolin, the Vatican's secretary of state. Without mentioning a ceasefire, the Kremlin said: \"The Vatican's intention to help create the conditions necessary to ensure the safety of the town's population and to organise vital supplies has been supported\".",
-        "publishedAt": "2026-10-16T14:36:39.333Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Pope pictured for first time since surgery and cancer diagnosis",
-        "originalSummary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-16T14:36:39.333Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Also on Friday, the Pope phoned Russian President Vladimir Putin from hospital to urge a ceasefire in the Russian-occupied Ukrainian city of Oleshky, where access to food and water has been cut off for thousands. \"The fact that he accepted the call and spoke with the Pope may, I hope, be a sign that the Pope's request will indeed be carried out,\" said Cardinal Pietro Parolin, the Vatican's secretary of state. Without mentioning a ceasefire, the Kremlin said: \"The Vatican's intention to help create the conditions necessary to ensure the safety of the town's population and to organise vital supplies has been supported\".",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b711/live/6c3028b0-c978-11f1-9a39-31b474234113.jpg",
-        "imageCaption": "Image caption, Pope Leo thanked medical staff as he was pictured for the first time since his lung surgery",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o",
-        "checkedAt": "2026-10-16T23:37:34.237Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-16-pm"
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/16/attacks-on-ukraine-power-plants-show-russia-has-given-up-on-military-victory",
-        "url": "https://www.theguardian.com/world/2026/oct/16/attacks-on-ukraine-power-plants-show-russia-has-given-up-on-military-victory",
-        "title": "Power plant attacks reflect Russian blueprint to make Ukrainian cities unlivable",
-        "summary": "As Russian missiles and drones have systematically slammed into power plants in Kyiv and Kharkiv this week, the rolling blackouts and water outages have increasingly resembled a supposed Russian blueprint to destroy life in major Ukrainian cities seen by the Guardian. Even as Donald Trump unilaterally declared an “energy ceasefire” last week between Moscow and Kyiv, Russia continued with its methodical and devastating strikes on Ukraine’s power grid, in particular in Kyiv, in a strategy meant to punish Ukraine’s population and drive the country to capitulation.",
-        "publishedAt": "2026-10-16T15:28:10.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "score": 64.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Power plant attacks reflect Russian blueprint to make Ukrainian cities unlivable",
-        "originalSummary": "Kremlin turning to punishment of Ukraine’s population in major cities as frontlines remain frozenEurope live – latest updatesAs Russian missiles and drones have systematically slammed into power plants in Kyiv and Kharkiv this week, the rolling blackouts and water outages have increasingly resembled a supposed Russian blueprint to destroy life in major Ukrainian cities seen by the Guardian.Even as Donald Trump unilaterally declared an “energy ceasefire” last week between Moscow and Kyiv, Russia continued with its methodical and devastating strikes on Ukraine’s power grid, in particular in Kyiv, in a strategy meant to punish Ukraine’s population and drive the country to capitulation. Continue reading...",
-        "whyMatters": null,
-        "originalPublishedAt": "2026-10-16T15:28:10.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/16/attacks-on-ukraine-power-plants-show-russia-has-given-up-on-military-victory",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "As Russian missiles and drones have systematically slammed into power plants in Kyiv and Kharkiv this week, the rolling blackouts and water outages have increasingly resembled a supposed Russian blueprint to destroy life in major Ukrainian cities seen by the Guardian. Even as Donald Trump unilaterally declared an “energy ceasefire” last week between Moscow and Kyiv, Russia continued with its methodical and devastating strikes on Ukraine’s power grid, in particular in Kyiv, in a strategy meant to punish Ukraine’s population and drive the country to capitulation.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/31cf026c415926e42b92bfec42453b9b849d4c23/0_451_2147_1717/master/2147.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6fd0b59ff6445a347301f3ef3a064dc9",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/16/attacks-on-ukraine-power-plants-show-russia-has-given-up-on-military-victory",
-        "checkedAt": "2026-10-16T23:37:34.237Z",
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-16-pm"
       }
     ],
     "selectedIds": [
-      "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-      "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-      "https://www.theguardian.com/business/2026/oct/18/drone-attacks-ships-black-sea-russia-ukraine-war",
-      "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-      "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749"
+      "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+      "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+      "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+      "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+      "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws"
     ]
   }
 }
