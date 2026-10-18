@@ -1,62 +1,64 @@
 {
-  "fetchedAt": "2026-10-18T15:45:22.632Z",
+  "fetchedAt": "2026-10-18T15:50:33.533Z",
   "news": {
-    "nytLead": null,
+    "nytLead": {
+      "id": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+      "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+      "title": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+      "summary": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+      "publishedAt": "2026-10-18T15:48:40.000Z",
+      "source": "The New York Times",
+      "category": "Top story",
+      "coverage": "Source report",
+      "feedChecked": true,
+      "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "feedRank": 1,
+      "nytHomeLead": true,
+      "sourcePageChecked": false,
+      "explanation": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+      "eventDate": null,
+      "eventDateVerified": false,
+      "summaryKind": "NYT public-feed summary · full article unavailable",
+      "articleAccessError": "Provider returned HTTP 403",
+      "checkedAt": "2026-10-18T15:50:33.533Z"
+    },
     "nytStatus": {
-      "available": false,
-      "checkedAt": "2026-10-18T15:45:22.632Z",
-      "error": "fetch failed"
+      "available": true,
+      "checkedAt": "2026-10-18T15:50:33.533Z",
+      "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
     "editionKey": "2026-10-18-am",
     "stories": [
       {
-        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "publishedAt": "2026-10-18T13:59:04.000Z",
-        "source": "Investing.com",
-        "category": "Business",
+        "id": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+        "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+        "title": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+        "summary": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+        "publishedAt": "2026-10-18T15:48:40.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.investing.com/rss/news.rss",
-        "feedRank": 3,
-        "nytHomeLead": false,
-        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
-        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
-        "sourcePageChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "sourcePageChecked": false,
+        "explanation": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
         "eventDate": null,
-        "eventKind": null,
         "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "whyMatters": null,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
         "briefingSlot": 1,
-        "slotLabel": "Top story · NYT unavailable",
+        "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-18-am",
-        "nytUnavailable": true
+        "leadUnchanged": false,
+        "carriedForward": false,
+        "olderReport": false
       },
       {
         "id": "https://spectrum.ieee.org/variable-frequency-drives",
@@ -86,7 +88,7 @@
         "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356",
         "imageCaption": "",
         "imageSourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
         "score": 63,
         "dimensions": {
           "surprise": 90,
@@ -134,7 +136,7 @@
         "imageUrl": "https://news.mit.edu/sites/default/files/images/202610/MIT-Synthetic-Narratives-01-press.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
         "score": 32.75,
         "dimensions": {
           "surprise": 15,
@@ -155,40 +157,44 @@
         "olderReport": false
       },
       {
-        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "title": "No Kings rallies urge early voting ahead of midterms",
-        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "publishedAt": "2026-10-17T17:45:49.000Z",
-        "source": "AP News",
+        "id": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "url": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "title": "'No Kings' protesters rally across the US – video",
+        "summary": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
+        "publishedAt": "2026-10-18T15:20:57.000Z",
+        "source": "The Guardian",
         "category": "U.S.",
-        "discovery": "Publisher section",
-        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
-        "originalPublishedAt": "2026-10-17T17:45:49.000Z",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 14,
+        "nytHomeLead": false,
+        "editorialText": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
+        "originalPublishedAt": "2026-10-18T15:20:57.000Z",
         "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
-        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "eventRevision": "2026-10-17:Event",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "explanation": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
+        "imageUrl": "https://i.guim.co.uk/img/media/a23e5b15a3fc06952bea8bde913dfd3452f5521c/250_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b2211dd702e246542173198a3bfb239d",
         "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
-        "score": 65.75,
+        "imageSourceUrl": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
+        "score": 36.75,
         "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 15,
           "relevance": 10
         },
-        "freshness": "48h",
-        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
-        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
+        "freshness": "24h",
+        "displayTitle": "'No Kings' protesters rally across the US – video",
+        "originalSummary": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call Continue reading...",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
@@ -199,40 +205,44 @@
         "olderReport": false
       },
       {
-        "id": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "title": "Airstrike kills at least 9 in Yemen and other Middle East developments",
-        "summary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
-        "publishedAt": "2026-10-18T08:46:33.000Z",
-        "source": "AP News",
+        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "summary": "Key events 1h ago Summary 1h ago Why are the protests happening? 3h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 5h ago Emmanuel Macron to address French public 7h ago Arrests rise to 1,800 in France 8h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "publishedAt": "2026-10-18T14:50:37.000Z",
+        "source": "The Guardian",
         "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children. Some were in critical condition, he said. Al-Asbahi blamed Saudi Arabia for the strike. There was no immediate comment from the Saudi government. The fighting has reignited Yemen’s civil war after four years of ceasefire. U.S. Ambassador to Israel Mike Huckabee sharply condemned settler violence during an olive harvest in the West Bank that injured several Palestinians and Washington Post photographer Heidi Levine as",
-        "originalPublishedAt": "2026-10-18T08:46:33.000Z",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 22,
+        "nytHomeLead": false,
+        "editorialText": "Key events 1h ago Summary 1h ago Why are the protests happening? 3h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 5h ago Emmanuel Macron to address French public 7h ago Arrests rise to 1,800 in France 8h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
+        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "explanation": "Key events 1h ago Summary 1h ago Why are the protests happening? 3h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 5h ago Emmanuel Macron to address French public 7h ago Arrests rise to 1,800 in France 8h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/d065543/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0d%2Ff2%2Fd7d011ba0a121a97467fdeee8c5f%2Fa15a1a1b780c4120a61e73106541f8ff",
+        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
         "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
-        "score": 64.25,
+        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
+        "score": 81.25,
         "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
+          "surprise": 75,
+          "consequence": 95,
           "novelty": 65,
-          "relevance": 10
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Airstrike kills at least 9 in Yemen and other Middle East developments",
-        "originalSummary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
@@ -243,33 +253,46 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-18T15:45:22.632Z",
-    "checkedAt": "2026-10-18T15:45:22.632Z",
+    "fetchedAt": "2026-10-18T15:50:33.533Z",
+    "checkedAt": "2026-10-18T15:50:33.533Z",
     "sources": [
-      "ScienceDaily",
       "The Guardian",
+      "ScienceDaily",
       "BBC News",
-      "Investing.com",
-      "AP News",
-      "IEEE Spectrum",
-      "Higher Ed Dive",
-      "Ars Technica",
-      "ScienceAlert",
-      "The Verge",
       "Phys.org",
+      "IEEE Spectrum",
+      "Ars Technica",
+      "Higher Ed Dive",
+      "The Verge",
+      "ScienceAlert",
       "Business Insider",
       "NASA",
       "MIT News"
     ],
-    "providersAvailable": 36,
+    "providersAvailable": 31,
     "providersTotal": 45,
     "research": {
-      "rawCandidates": 1127,
+      "rawCandidates": 835,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 239,
-      "primaryDatesChecked": 20,
-      "rejected": 50,
+      "sourcePagesRead": 197,
+      "primaryDatesChecked": 36,
+      "rejected": 82,
       "rejectedCandidates": [
+        {
+          "title": "Meta Withdraws $25 Million from Its Midterms Push",
+          "url": "https://www.nytimes.com/2026/10/16/technology/meta-midterms-funding.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "For a Mere $2 Million, You Could Own Three Books That Unlocked the Universe",
+          "url": "https://www.nytimes.com/2026/10/17/science/sothebys-science-books-auction.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Midterms: UBS assigns a 50% probability to a Democratic sweep",
+          "url": "https://www.investing.com/news/economy-news/midterms-ubs-assigns-a-50-probability-to-a-democratic-sweep-4955971",
+          "reason": "Provider returned HTTP 403"
+        },
         {
           "title": "Dad shift: Men now file majority of paid family leave claims in key states",
           "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
@@ -296,9 +319,29 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
-          "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "4 Takeaways From a Voting-Focused ‘No Kings’ Day",
+          "url": "https://www.nytimes.com/2026/10/17/us/politics/no-kings-day-takeways.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Why No One Can Look Away From Elizabeth Holmes",
+          "url": "https://www.nytimes.com/2026/10/16/podcasts/hardfork-elizabeth-holmes.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "The Leap Second Has Been Canceled",
+          "url": "https://www.nytimes.com/2026/10/16/science/leap-second-abolished-vote.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Analysis-IMF/World Bank meetings leave developing countries with more questions than answers",
+          "url": "https://www.investing.com/news/economy-news/analysisimfworld-bank-meetings-leave-developing-countries-with-more-questions-than-answers-4955879",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "JPMorgan raises ICICI Bank stock price target on strong earnings",
+          "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How to see the Orionid meteor shower",
@@ -316,9 +359,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Nobel medicine prize goes to 3 scientists for shining light on brain activity",
-          "url": "https://apnews.com/article/nobel-prize-medicine-sweden-2efe9ee7eae9d808fd49a6da1f53ceba",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Why Are There Protests in France?",
+          "url": "https://www.nytimes.com/article/france-student-protests-why.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Terry Tao Is on the Front Lines of the Debate Over AI and the Future of Math",
+          "url": "https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Iran appoints new defence minister amid escalating tensions with U.S.",
+          "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+          "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Iowa's vote in midterms may help determine balance of power in Congress",
@@ -331,9 +389,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trump says Russia and Ukraine agree to an ‘energy ceasefire’ but Kyiv says attacks continue",
-          "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "O.J. Simpson, a Secret Informant and a Decades-Old Mystery",
+          "url": "https://www.nytimes.com/2026/10/18/us/oj-simpson-ippolito-informant-accomplice.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Citizen Science Groups Grapple With the Rise of A.I. Slop",
+          "url": "https://www.nytimes.com/2026/10/16/science/citizen-science-ai-slop.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Microsoft pulls out of UK data centre deal with Nscale, Telegraph reports",
+          "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Spyre presents clinical data on IBD antibody therapies",
+          "url": "https://www.investing.com/news/company-news/spyre-presents-clinical-data-on-ibd-antibody-therapies-93CH-4955924",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "What is the Budget and what could be in it?",
@@ -351,14 +424,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Lifelong drugs for autoimmune diseases don’t work well. Now scientists are trying something new",
-          "url": "https://apnews.com/article/autoimmune-diseases-cart-mrna-lupus-diabetes-a4204dc6920a219f27eded2df32d0b8b",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "5 Takeaways From The Times’s Re-Examination of the O.J. Simpson Case",
+          "url": "https://www.nytimes.com/2026/10/18/us/oj-simpson-case-takeaways.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "OpenAI fires 3 safety researchers in dispute over AI risks",
-          "url": "https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "The New Science of Stuttering",
+          "url": "https://www.nytimes.com/2026/10/18/science/the-new-science-of-stuttering.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Russia hits Ukraine’s energy sector 76 times in a week, Zelenskiy says",
+          "url": "https://www.investing.com/news/economy-news/russia-hits-ukraines-energy-sector-76-times-in-a-week-zelenskiy-says-4955841",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Analysis-Carney’s pipeline push is unlikely to bring back Canada’s oil jobs boom",
+          "url": "https://www.investing.com/news/commodities-news/analysiscarneys-pipeline-push-is-unlikely-to-bring-back-canadas-oil-jobs-boom-4955902",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Biking along the Great American Rail-Trail",
@@ -376,14 +459,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Climate change is outpacing evolution. Scientists are using DNA to catch up",
-          "url": "https://apnews.com/article/climate-change-dna-adaptation-heat-waves-wildfires-7c34ca1d3a09065b9f9ab617dd1a6e25",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "3 Charts That Explain the Economy as Voters Head to the Polls",
+          "url": "https://www.nytimes.com/2026/10/18/business/economy/economy-midterm-elections.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
-          "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "A Reporter Who Saw Covid Coming Has Died",
+          "url": "https://www.nytimes.com/2026/10/17/health/helen-branswell-dead.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "China proposes export curbs on 12 key solar manufacturing technologies",
+          "url": "https://www.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4955825",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "MetroCity Bankshares earnings in spotlight after Q2 miss",
+          "url": "https://www.investing.com/news/earnings/metrocity-bankshares-earnings-in-spotlight-after-q2-miss-93CH-4955923",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How public bathrooms reflect America's inequality",
@@ -403,17 +496,27 @@
         {
           "title": "Close social bonds help wild jackdaws hold feeding spots but come with waiting costs",
           "url": "https://phys.org/news/2026-10-social-bonds-wild-jackdaws.html",
-          "reason": "Provider returned HTTP 503"
-        },
-        {
-          "title": "How we came to be: Scientists get first look at the evolution of early complex animals",
-          "url": "https://apnews.com/article/fossil-animals-evolution-science-china-bizarre-a56a123cbad480e2c35f2356181d32d7",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Tuesday’s takeaways: No clear direction for Wisconsin Democrats",
-          "url": "https://apnews.com/article/primaries-wisconsin-minnesota-democratic-party-socialist-226b31e324cdd9b72200fb9abc9acb69",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Across Farm Country, Economic Discontent Strains Republican Coalition",
+          "url": "https://www.nytimes.com/2026/10/18/us/politics/farmers-ranchers-trump-economic-stress.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "RFK Jr. Pledged to Advance Anti-Vaccine Group’s Goals. Here’s What He’s Doing.",
+          "url": "https://www.nytimes.com/2026/10/16/us/politics/rfk-jr-vaccines.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Venezuela expects $76 billion oil investment boost amid U.S. cooperation",
+          "url": "https://www.investing.com/news/economy-news/venezuela-expects-76-billion-oil-investment-boost-amid-us-cooperation-4955719",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "World Businesses for Sale Expands Confidential Seller Support for Owners Seeking Buyers",
+          "url": "https://www.investing.com/news/press-releases/world-businesses-for-sale-expands-confidential-seller-support-for-owners-seeking-buyers-4955921",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Suspect in deadly Oregon elementary school shooting was a former student",
@@ -426,19 +529,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ukraine fires nearly 900 drones at Russia as Kyiv braces for expected huge aerial attack",
-          "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-d6e8cbb6d0ffdc7cbd2da59b9cd6f7c9",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Key to Past Hurricane Cleanup, Some Immigrant Workers Fear Florida’s Raids",
+          "url": "https://www.nytimes.com/2026/10/16/us/immigration-ice-agents-hurricane-repairs.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
-          "url": "https://apnews.com/article/swift-observatory-nasa-rescue-10dad290d18011a8a9ad34f830c35b1c",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
+          "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Takeaways from Tuesday’s elections",
-          "url": "https://apnews.com/article/election-takeaways-michigan-senate-primary-democrats-trump-c957db07eb78ea93c70208ba0a6bceed",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Mid Penn Bancorp director Robert Abel buys $495 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-robert-abel-buys-495-in-shares-93CH-4955919",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
@@ -456,24 +559,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Russia pounds Ukraine with missiles and drones, killing 7 and targeting power grid, Zelenskyy says",
-          "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-attacks-b837b4ee58f0aa8b4e5a5a872906d91e",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "NASA spacecraft discovers a huge new crater on the moon",
-          "url": "https://apnews.com/article/moon-lunar-crater-space-nasa-80eea242ad275fda1f7a88587cdccd2f",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Mamdani proves his power with New York endorsements, plus more takeaways from Tuesday’s primaries",
-          "url": "https://apnews.com/article/donald-trump-zohran-mamdani-new-york-78d9cc60faff70ffe27fd8d7f6dc1355",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
+          "url": "https://www.nytimes.com/2026/10/18/us/oklahoma-extreme-heat-electricity-crisis.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Trump says he will advise Katie Zacharia to reconsider shortly before she was fired - video",
           "url": "https://www.theguardian.com/us-news/video/2026/oct/16/trump-katie-zacharia-to-reconsider-shortly-before-she-was-fired-video",
           "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "U.S. urges Israel to curb settler violence in West Bank, Rubio says",
+          "url": "https://www.investing.com/news/economy-news/us-urges-israel-to-curb-settler-violence-in-west-bank-rubio-says-4955694",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Mid Penn Bancorp director Mowery buys $1,982 in common stock",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-mowery-buys-1982-in-common-stock-93CH-4955914",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
@@ -486,14 +589,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Little Mercury may be shrinking faster than scientists expected",
-          "url": "https://apnews.com/article/mercury-shrinking-planet-47b010ee65287f76565bc4859c7c09b3",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Pope Leo Addresses the Faithful a Day After Leaving the Hospital",
+          "url": "https://www.nytimes.com/2026/10/18/world/europe/pope-leo-mass-lung-cancer.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Takeaways from primaries featuring Spencer Pratt, a missing congressman and a rare Trump setback",
-          "url": "https://apnews.com/article/california-iowa-new-jersey-primaries-4355e73b946486ac92452ec856966d7e",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Could another France downgrade put the EU’s credit rating at risk?",
+          "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "As AI rally wobbles, stock market’s spotlight turns to earnings",
+          "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
@@ -506,28 +614,88 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Rescue satellite gets close to NASA’s doomed telescope, even if it can’t save it",
-          "url": "https://apnews.com/article/swift-observatory-telescope-rescue-578ab2a986045e98cf364e8300405cc5",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Takeaways from Tuesday’s primaries: Massie’s loss leaves no doubt about Trump’s power over the GOP",
-          "url": "https://apnews.com/article/election-takeaways-massie-kentucky-georgia-alabama-8eb9f54741ce0313ab15b291bd742c16",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "The Man Who Taught Us How to Pay Attention",
+          "url": "https://www.nytimes.com/2026/10/18/magazine/john-berger-attention.html",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
           "url": "https://www.sciencedaily.com/releases/2026/10/261017230036.htm",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This Is the Good Scenario?",
+          "url": "https://www.nytimes.com/2026/10/18/opinion/ai-bubble-catastrophe-investors-control.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Simulations explore nuclear mitigation of asteroid threats",
+          "url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "I Teach at a Business School. It’s Time to Shut Them Down.",
+          "url": "https://www.nytimes.com/2026/10/18/opinion/business-school-mba-harvard-cornell-cambridge.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Two monster black holes could collide in just 100 years",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "O.J.’s Accomplice?",
+          "url": "https://www.nytimes.com/2026/10/18/briefing/ojs-accomplice.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Trump Endorses Netanyahu as Best U.S. Partner in Tight Israeli Election",
+          "url": "https://www.nytimes.com/2026/10/18/us/politics/trump-endorses-netanyahu-election-israel.html",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
+          "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Australian scavengers don't just eat everything and slink away. They approach a carcass like a buffet",
+          "url": "https://phys.org/news/2026-10-australian-scavengers-dont-approach-carcass.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This bird flies thousands of miles, but its wings have a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The ambiguous costs of climate change",
+          "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brain cells meant to protect us may be fueling cognitive decline",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
+          "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
+          "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 19,
-      "eventDatesUnconfirmed": 41,
+      "eventDatesVerified": 17,
+      "eventDatesUnconfirmed": 43,
       "rejectionReasons": {
+        "Provider returned HTTP 403": 42,
         "Source article was unavailable or too short": 13,
-        "The actual event/announcement is more than a week old": 36,
-        "Provider returned HTTP 503": 1
+        "The actual event/announcement is more than a week old": 27
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -562,23 +730,23 @@
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-          "available": false,
-          "candidates": 0,
-          "error": "fetch failed"
+          "available": true,
+          "candidates": 15,
+          "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-          "available": false,
-          "candidates": 0,
-          "error": "fetch failed"
+          "available": true,
+          "candidates": 20,
+          "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
-          "available": false,
-          "candidates": 0,
-          "error": "fetch failed"
+          "available": true,
+          "candidates": 20,
+          "error": null
         },
         {
           "source": "The Guardian",
@@ -730,16 +898,16 @@
         {
           "source": "Nature",
           "url": "https://www.nature.com/nature.rss",
-          "available": true,
+          "available": false,
           "candidates": 0,
-          "error": null
+          "error": "fetch failed"
         },
         {
           "source": "Science",
           "url": "https://www.science.org/rss/news_current.xml",
-          "available": false,
+          "available": true,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": null
         },
         {
           "source": "The Guardian",
@@ -786,58 +954,58 @@
         {
           "source": "AP News",
           "url": "https://apnews.com/hub/russia-ukraine",
-          "available": true,
-          "candidates": 32,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/us-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/world-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/science",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/technology",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/politics",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/business",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "Business Insider",
@@ -856,51 +1024,33 @@
     "olderCount": 0,
     "reserveStories": [
       {
-        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "publishedAt": "2026-10-18T13:59:04.000Z",
-        "source": "Investing.com",
-        "category": "Business",
+        "id": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+        "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+        "title": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+        "summary": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+        "publishedAt": "2026-10-18T15:48:40.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.investing.com/rss/news.rss",
-        "feedRank": 3,
-        "nytHomeLead": false,
-        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
-        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
-        "sourcePageChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "sourcePageChecked": false,
+        "explanation": "After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
         "eventDate": null,
-        "eventKind": null,
         "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "whyMatters": null,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
         "briefingSlot": 1,
-        "slotLabel": "Top story · NYT unavailable",
+        "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-18-am",
-        "nytUnavailable": true
+        "leadUnchanged": false,
+        "carriedForward": false,
+        "olderReport": false
       },
       {
         "id": "https://spectrum.ieee.org/variable-frequency-drives",
@@ -930,7 +1080,7 @@
         "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356",
         "imageCaption": "",
         "imageSourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
         "score": 63,
         "dimensions": {
           "surprise": 90,
@@ -978,7 +1128,7 @@
         "imageUrl": "https://news.mit.edu/sites/default/files/images/202610/MIT-Synthetic-Narratives-01-press.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
         "score": 32.75,
         "dimensions": {
           "surprise": 15,
@@ -997,6 +1147,149 @@
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "url": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "title": "'No Kings' protesters rally across the US – video",
+        "summary": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
+        "publishedAt": "2026-10-18T15:20:57.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 14,
+        "nytHomeLead": false,
+        "editorialText": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
+        "originalPublishedAt": "2026-10-18T15:20:57.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/a23e5b15a3fc06952bea8bde913dfd3452f5521c/250_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b2211dd702e246542173198a3bfb239d",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
+        "score": 36.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "'No Kings' protesters rally across the US – video",
+        "originalSummary": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-18-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "summary": "Key events 1h ago Summary 1h ago Why are the protests happening? 3h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 5h ago Emmanuel Macron to address French public 7h ago Arrests rise to 1,800 in France 8h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "publishedAt": "2026-10-18T14:50:37.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 22,
+        "nytHomeLead": false,
+        "editorialText": "Key events 1h ago Summary 1h ago Why are the protests happening? 3h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 5h ago Emmanuel Macron to address French public 7h ago Arrests rise to 1,800 in France 8h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
+        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Key events 1h ago Summary 1h ago Why are the protests happening? 3h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 5h ago Emmanuel Macron to address French public 7h ago Arrests rise to 1,800 in France 8h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "checkedAt": "2026-10-18T15:50:33.533Z",
+        "score": 81.25,
+        "dimensions": {
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-18-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
+        "publishedAt": "2026-10-18T13:59:04.000Z",
+        "source": "Investing.com",
+        "category": "Business",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.investing.com/rss/news.rss",
+        "feedRank": 3,
+        "nytHomeLead": false,
+        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
+        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "checkedAt": "2026-10-18T15:45:22.632Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "whyMatters": null,
+        "briefingSlot": 1,
+        "slotLabel": "Top story · NYT unavailable",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-18-am",
+        "nytUnavailable": true
       },
       {
         "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
@@ -1437,46 +1730,6 @@
         "freshness": "24h",
         "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
         "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "summary": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
-        "publishedAt": "2026-10-18T14:50:37.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
-        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "checkedAt": "2026-10-18T15:25:36.410Z",
-        "score": 81.25,
-        "dimensions": {
-          "surprise": 75,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
@@ -2041,94 +2294,14 @@
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-pm"
-      },
-      {
-        "id": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
-        "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
-        "title": "TikTok bans Musk documentary account",
-        "summary": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase.",
-        "publishedAt": "2026-10-17T19:32:23.000Z",
-        "source": "The Verge",
-        "category": "Technology",
-        "coverage": "Source report",
-        "editorialText": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase. Last month, YouTube, Meta, X, and TikTok all faced backlash for rejecting ads for the film. YouTube and Google quickly reversed course, calling it an “error.” However, TikTok and X have refused to change their stance, and neither platform has allowed paid advertisements for the film. Banning the documentary’s account, however, marks a serious escalation, and one laced with a dash",
-        "originalPublishedAt": "2026-10-17T19:32:23.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths. Just ahead of the wider release of Alex Gibney’s Musk documentary, TikTok has banned the film’s social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film’s distributor, Bleecker Street, was informed Friday afternoon that a “permanent suspension” was imminent. Bleecker Street has not yet responded to a request for comment from The Verge. While TikTok has no official affiliation with Elon Musk, part owner Larry Ellison appears in the film via a text message offering to help Musk fund his Twitter purchase.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/gettyimages-2194418432.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
-        "checkedAt": "2026-10-18T00:40:25.826Z",
-        "score": 63,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "TikTok bans Musk documentary account",
-        "originalSummary": "Just ahead of the wider release of Alex Gibney's Musk documentary, TikTok has banned the film's social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film's distributor, Bleecker Street, was informed Friday afternoon that a \"permanent suspension\" was imminent. Bleecker Street has […]",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-pm"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
-        "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
-        "title": "France protests: Violent clashes, looting and buildings ablaze as over 1,000 arrested",
-        "summary": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported.",
-        "publishedAt": "2026-10-17T18:40:14.676Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported. Prime Minister Sébastien Lecornu said 150 police officers were injured in the unrest. In Paris, the main march appeared to be largely peaceful during the afternoon. A group of young people told the BBC they were \"pacifists\" who are \"just trying to make things change, but nothing is moving\". However, as the day wore on some groups lit fires in the street and torched vehicles, including in iconic locations",
-        "originalPublishedAt": "2026-10-17T18:40:14.676Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living.",
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
-        "eventRevision": "2026-10-17:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the cost of living. At least 1,200 people were arrested during what the French government described as an \"escalation in violence\" alongside an estimated 550,000 taking to the streets. In Paris, there were significant clashes into the evening with riot police, who used tear gas and water cannon on crowds. Buildings were set alight in the capital and other areas, including in Limoges where a large fire in the town hall caused the roof to partly collapse. Looting broke out in several cities, with widespread vandalism targeting city halls and businesses also reported.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8264/live/a6715ba0-ca74-11f1-9ef8-9dedd6ab697d.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
-        "checkedAt": "2026-10-18T00:40:25.826Z",
-        "score": 59.25,
-        "dimensions": {
-          "surprise": 75,
-          "consequence": 95,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "France protests: Violent clashes, looting and buildings ablaze as over 1,000 arrested",
-        "originalSummary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-pm"
       }
     ],
     "selectedIds": [
-      "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+      "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
       "https://spectrum.ieee.org/variable-frequency-drives",
       "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-      "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-      "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3"
+      "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
+      "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news"
     ]
   }
 }
