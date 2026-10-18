@@ -1,5 +1,12 @@
 // Shared news selection for the server and downloadable dashboard.
 export const NEWS_FEEDS = [
+  {url:'https://spectrum.ieee.org/feeds/feed.rss',source:'IEEE Spectrum',category:'Technology'},
+  {url:'https://www.sciencedaily.com/rss/matter_energy/batteries.xml',source:'ScienceDaily',category:'Science'},
+  {url:'https://www.sciencedaily.com/rss/matter_energy/materials_science.xml',source:'ScienceDaily',category:'Science'},
+  {url:'https://www.sciencedaily.com/rss/computers_math/robotics.xml',source:'ScienceDaily',category:'Technology'},
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',source:'The New York Times',category:'Top story',homepageLead:true},
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml',source:'The New York Times',category:'Technology'},
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/Science.xml',source:'The New York Times',category:'Science'},
   {url:'https://www.theguardian.com/world/ukraine/rss',source:'The Guardian',category:'World'},
   {url:'https://www.theguardian.com/us-news/us-politics/rss',source:'The Guardian',category:'U.S.'},
   {url:'https://www.businessinsider.com/rss',source:'Business Insider',category:'Technology'},
@@ -98,6 +105,8 @@ export function readableHeadline(title, summary = '') {
 // to cancer, discovery, AI or education in someone's personal background.
 export function editoriallyEligible(story) {
   const title = story.title || '';
+  const sponsored = /\b(this article is brought to you by|sponsored content|paid content|advertisement feature)\b/i.test(story.editorialText || story.explanation || story.summary || '');
+  const serviceAnnouncement = /\b(new services available|membership services|call for papers|register for (?:our|the) webinar)\b/i.test(title);
   const backgroundFeature = /\bweekly newsletter\b/i.test(story.editorialText || '');
   const routineAward = /\b(win|wins|awarded)\b.{0,60}\b(prize|award|fellowship)\b/i.test(title) && !/\bNobel\b/i.test(title);
   const localSighting = /\b(woodland|nature reserve|local park)\b/i.test(title) && /\b(restored|recorded|sightings?|spotted)\b/i.test(title) && !/\b(new species|thought extinct|rediscovered)\b/i.test(title);
@@ -106,7 +115,7 @@ export function editoriallyEligible(story) {
   const routineAppearance = /\b(town hall|faces? (?:tough )?questions|campaign speech|pledges? support)\b/i.test(title) && !/\b(resigns?|assassination|arrested|killed|shot)\b/i.test(title);
   const shopping = /\b(discount|preorder|on sale|deals?)\b/i.test(title) && /\b(tv|iphone|laptop|headphones|phone|tablet|amazon|apple|gadget)\b/i.test(title);
   const careerProfile = /\b(data cent(?:er|re))\b/i.test(title) && /\b(jobs?|career|training|hour)\b/i.test(title) && !/\b(layoffs?|strikes?|collapse|nationwide)\b/i.test(title);
-  return !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance && !backgroundFeature && !routineAward && !localSighting;
+  return !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance && !backgroundFeature && !routineAward && !localSighting && !sponsored && !serviceAnnouncement;
 }
 
 export const NEWS_WEIGHTS = { surprise: 0.35, consequence: 0.30, novelty: 0.20, relevance: 0.15 };
@@ -324,3 +333,118 @@ export function plainLanguageSummary(text) {
   return sentences.slice(0, 2).join('').replace(/\uE000/g, '.').trim();
 }
 
+
+export const PERSONAL_NEWS_LAYOUT = 'nyt-interests-us-world-v1';
+
+// Topic preferences only. The reader's biography and identity are not published.
+const personalTopics = [
+  {id:'batteries-materials',weight:96,pattern:/\b(batter(?:y|ies)|thermal runaway|shape.memory alloy|materials science|solid.state|lithium.ion|energy storage|battery management|alloys?|atomic structures|crystalline materials)\b/i,connection:'Battery safety, materials science, and energy engineering.'},
+  {id:'electronics-building',weight:94,pattern:/\b(arduino|esp32|microcontrollers?|embedded systems?|electrical engineering|semiconductors?|computer chips?|circuits?|bluetooth|sensors?|robotics?|robots?|variable frequency drives?|electric motors?|motor controllers?)\b/i,connection:'Electrical engineering, embedded electronics, and building projects.'},
+  {id:'ai-computing',weight:88,pattern:/\b(artificial intelligence|AI|computer science|computing|cybersecurity|software|programming|quantum comput\w*|machine learning)\b/i,connection:'Computer science, AI, and how computing systems work.'},
+  {id:'college-access',weight:95,pattern:/\b(admissions?|scholarships?|financial aid|tuition|FAFSA|research opportunit\w*|high.school research|summer research|undergraduate engineering)\b/i,connection:'Engineering college plans, college costs, scholarships, or research opportunities.'},
+  {id:'rotc-service',weight:98,pattern:/\b(ROTC|officer training|commissioning|military scholarship|air force scholarship|service academ\w*)\b/i,connection:'ROTC scholarships and the path into military service.'},
+  {id:'aviation-space',weight:83,pattern:/\b(aviation|spacecraft|space telescope|NASA|astronauts?|rockets?|aircraft|aerospace|flight testing)\b/i,connection:'Aviation, space, and aerospace engineering.'},
+  {id:'energy-engineering',weight:85,pattern:/\b(power grid|grid power|electricity|clean energy|solar cells?|fusion|renewable energy|power electronics|electric vehicles?|EVs)\b/i,connection:'Energy systems and engineering.'},
+  {id:'learning-hobbies',weight:65,pattern:/\b(running|runners?|marathon|tennis|violin|music acoustics|Mandarin|Chinese language|Rubik.?s cube|speedcub\w*)\b/i,connection:'Running, tennis, violin, Chinese, or building problem-solving skills.'},
+  {id:'student-impact',weight:90,pattern:/\b(high.school students?|college applicants?|student visas?|Asian.American|Chinese.American|racial discrimination|school funding)\b/i,connection:'Changes affecting students, college access, or equal treatment.'},
+];
+
+export function personalRelevance(story) {
+  // Use the headline and lead, not incidental names or a long background tail.
+  const lead=String(story.editorialText || story.originalSummary || story.explanation || story.summary || '').split(/\s+/).slice(0,160).join(' ');
+  const text=`${story.title} ${lead}`;
+  let matches=personalTopics.filter(t=>t.pattern.test(text));
+  const personalCrime=/\b(prosecutor|arrested|charged|CSAM|sex abuse|child abuse)\b/i.test(story.title);
+  const jobForecast=/\b(AI|robots?)\b/i.test(story.title) && /\b(jobs?|gardeners?|unemployment|may still|might replace)\b/i.test(story.title)
+    && !/\b(actual layoffs?|laid off|hired \d|apprenticeships?|scholarships?)\b/i.test(story.title);
+  const computingDevelopment=/\b(models?|agents?|software|computing|programming|cybersecurity|chips?|algorithms?|training|inference|databases?|AI (?:rules|export|safety|regulation)|ChatGPT|chatbots?)\b/i.test(text);
+  if(!computingDevelopment) matches=matches.filter(t=>t.id!=='ai-computing');
+  if(personalCrime || jobForecast) matches=matches.filter(t=>!['ai-computing','electronics-building'].includes(t.id));
+
+  // A college's name alone is not evidence that a story matters to an applicant.
+  const targetSchool=/\b(MIT|Stanford|UT Austin|University of Texas|Georgia Tech|Rice University)\b/i.test(text);
+  if(!targetSchool && /\b(direct admissions|campus update|new degree program)\b/i.test(text)) matches=matches.filter(t=>t.id!=='college-access');
+  const localImpact=/\b(Massachusetts|Andover|Boston|Texas)\b/i.test(text) && /\b(students?|schools?|education|scholarships?|research opportunities|public safety|emergency)\b/i.test(text);
+  const critical=/\b(ROTC|scholarship|student visa|financial aid|tuition|FAFSA)\b/i.test(story.title)
+    && /\b(cuts?|canceled|cancelled|suspended|eligibility|abolished|ends?|banned|new requirements|deadline)\b/i.test(story.title);
+  const primary=[...matches].sort((a,b)=>b.weight-a.weight)[0];
+  return {score:Math.min(100,(primary?.weight || (localImpact?72:0))+(targetSchool && primary?4:0)),
+    topics:matches.map(t=>t.id),primaryTopic:primary?.id || (localImpact?'local-student-impact':null),
+    connection:primary?.connection || (localImpact?'School, education, or public-safety developments in Massachusetts or Texas.':null),critical};
+}
+
+export function newsGeography(story) {
+  const title=story.title || '', lead=String(story.editorialText || story.explanation || story.summary || '').slice(0,400);
+  if(conflictTopic(story)) return 'world';
+  const foreign=/\b(Ukraine|Russia|China|Chinese government|Albania|Tunisia|India|Indonesia|France|French|Germany|Britain|British|Iran|Israel|Gaza|Yemen|Japan|Romania|Peru|Canada|Canadian|Mexico|Sudan|Congo)\b/i;
+  const domestic=/\b(U\.S\.|US|United States|America|American|Massachusetts|Texas|Boston|Andover|California|New York|Congress|Supreme Court|White House|federal judge|No Kings|ROTC)\b/i;
+  if(foreign.test(title) && !/\b(Chinese.American|Asian.American|Chinese language)\b/i.test(title)) return 'world';
+  if(domestic.test(title) || story.category==='U.S.' || story.category==='Education') return 'us';
+  if(domestic.test(lead) && !foreign.test(title)) return 'us';
+  return story.category==='World' || foreign.test(lead) ? 'world' : null;
+}
+
+function checkedPersonalReport(s) {
+  if(!s || typeof s.id!=='string' || typeof s.title!=='string' || !/^https:\/\//.test(s.url || '') || !Number.isFinite(Date.parse(s.publishedAt))) return false;
+  const feedLead=s.source==='The New York Times' && s.nytHomeLead && s.feedChecked && /^https:\/\/(?:www\.)?nytimes\.com\//.test(s.url);
+  return Boolean((s.sourcePageChecked || s.eventDateVerified || feedLead) && (s.explanation || s.summary || '').trim().length>25);
+}
+
+export function publishedPersonalBriefing(stories,{key,editionKey}={}) {
+  const slots=new Set();
+  const ordered=stories.filter(s=>Number.isInteger(s.briefingSlot) && s.briefingSlot>=1 && s.briefingSlot<=5 && checkedPersonalReport(s))
+    .sort((a,b)=>a.briefingSlot-b.briefingSlot).filter(s=>{if(slots.has(s.briefingSlot))return false;slots.add(s.briefingSlot);return true;});
+  return ordered.map(s=>editionKey && editionKey!==key?{...s,carriedForward:true}:s);
+}
+
+export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date(),nytLead=null}={}) {
+  const prior=Object.values(history).filter(h=>h.editionKey && h.editionKey!==key);
+  const alreadySeen=s=>prior.some(h=>(h.id===s.id || h.title && similarStories(h,s))) && !s.majorUpdateVerified;
+  const current=stories.filter(checkedPersonalReport);
+  const recent=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200});
+  const older=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200,maxAgeHours:168}).filter(s=>!recent.some(r=>r.id===s.id));
+  const archives=fallback.filter(checkedPersonalReport).filter(editoriallyEligible);
+  const chosen=[];
+  const unused=s=>!chosen.some(p=>similarStories(p,s)) && (!conflictTopic(s) || !chosen.some(p=>conflictTopic(p)===conflictTopic(s)));
+  const score=s=>s.score??interestScore(s).score;
+  const relevance=s=>personalRelevance(s);
+  const quality=s=>score(s)+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;
+  const pick=(pool,predicate,personal=false)=>pool.filter(s=>unused(s) && predicate(s)).sort((a,b)=>
+    (personal?relevance(b).score*.65+quality(b)*.35-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(b).primaryTopic).length*18:quality(b))
+    -(personal?relevance(a).score*.65+quality(a)*.35-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(a).primaryTopic).length*18:quality(a)))[0];
+  const put=(s,slot,label,flags={})=>{
+    if(!s)return;const r=relevance(s);
+    chosen.push({...s,briefingSlot:slot,slotLabel:label,personalTopic:r.primaryTopic,whyForYou:r.connection,selectedEdition:key,...flags});
+  };
+  // First means first in NYT's official HomePage RSS order, not most-clicked.
+  const lead=checkedPersonalReport(nytLead)?nytLead:current.find(s=>s.nytHomeLead && s.source==='The New York Times');
+  if(lead) put(lead,1,'NYT lead',{leadUnchanged:alreadySeen(lead),carriedForward:false,olderReport:false});
+  else {
+    const previous=archives.find(s=>s.briefingSlot===1 && s.source==='The New York Times');
+    if(previous)put(previous,1,'NYT lead · saved',{carriedForward:true,nytUnavailable:true});
+    else put(pick(recent,()=>true)||pick(archives,()=>true),1,'Top story · NYT unavailable',{nytUnavailable:true});
+  }
+  const goodPersonal=s=>!conflictTopic(s) && (relevance(s).score>=60 || (['Science','Technology'].includes(s.category)&&score(s)>=80)) && score(s)>=(relevance(s).score>=80?12:32);
+  for(const slot of [2,3]) {
+    let s=pick(recent,goodPersonal,true),flags={carriedForward:false,olderReport:false};
+    if(!s){s=pick(older,goodPersonal,true);flags.olderReport=true;}
+    if(!s){s=pick(archives,goodPersonal,true);flags={carriedForward:true};}
+    if(!s){s=pick(recent,s=>score(s)>=60)||pick(archives,s=>score(s)>=50);flags={slotOverride:true,overrideReason:'No qualifying personal-interest report; important broader coverage.'};}
+    put(s,slot,'For you',flags);
+  }
+  for(const [slot,geo,label] of [[4,'us','U.S. news'],[5,'world','World news']]) {
+    let s=pick(recent,s=>newsGeography(s)===geo),flags={carriedForward:false,olderReport:false};
+    if(!s){s=pick(older,s=>newsGeography(s)===geo);flags.olderReport=true;}
+    if(!s){s=pick(archives,s=>newsGeography(s)===geo);flags={carriedForward:true};}
+    put(s,slot,label,flags);
+  }
+  // An actual eligibility/deadline/cost change can displace one default slot.
+  const urgent=pick(recent,s=>relevance(s).critical && relevance(s).score>=85,true);
+  if(urgent && chosen.length===5){const old=chosen.find(s=>s.briefingSlot===5);chosen.splice(chosen.indexOf(old),1);put(urgent,5,'Affects you',{slotOverride:true,overrideReason:relevance(urgent).connection});}
+  // Preserve five genuine reports during outages without silently changing labels.
+  for(let slot=1;slot<=5;slot++)if(!chosen.some(s=>s.briefingSlot===slot)){
+    const s=pick(archives,()=>true)||pick(recent,()=>true)||pick(older,()=>true);
+    put(s,slot,slot===1?'Top story · NYT unavailable':'Coverage kept',{carriedForward:true,slotOverride:true,overrideReason:'No qualifying report for this slot; retaining sourced coverage.'});
+  }
+  return chosen.sort((a,b)=>a.briefingSlot-b.briefingSlot);
+}

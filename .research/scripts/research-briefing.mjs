@@ -1,6 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { researchNews } from '../lib/research.mjs';
-import { completeBriefing } from '../public/news.js';
+import { selectPersonalBriefing, PERSONAL_NEWS_LAYOUT } from '../public/news.js';
 import { checkInWindow } from '../public/shared.js';
 import { briefingDue } from '../lib/briefing-schedule.mjs';
 
@@ -23,9 +23,10 @@ if (process.env.RESEARCH_REVIEW_PATH) await writeFile(process.env.RESEARCH_REVIE
 const key = checkInWindow(now).key;
 const previousSources = history.editions.find(e => e.key !== key)?.sources || [];
 const reserve = [...(previous?.news?.stories || []), ...(previous?.news?.reserveStories || []), ...(history.archive || [])];
-const selected = completeBriefing(news.stories, { key, history: history.seen, previousSources, now, fallback:reserve });
+const selected = selectPersonalBriefing(news.stories, { key, history: history.seen, previousSources, now, fallback:reserve,nytLead:news.nytLead });
 if (selected.length < 5) throw new Error(`Only ${selected.length} usable reports available; retaining the previous edition instead of publishing a short briefing.`);
 news.minimumStories = 5;
+news.layout = PERSONAL_NEWS_LAYOUT;
 news.freshCount = selected.filter(s => !s.carriedForward && !s.olderReport).length;
 news.carriedCount = selected.filter(s => s.carriedForward).length;
 news.olderCount = selected.filter(s => s.olderReport && !s.carriedForward).length;

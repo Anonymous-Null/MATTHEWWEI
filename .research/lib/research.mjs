@@ -6,6 +6,7 @@ import { plainText, rankStories, plainLanguageSummary, sourceImage, similarStori
 import { shiftDate, checkInWindow } from '../public/shared.js';
 
 const sourceHosts = {
+  'The New York Times':['nytimes.com'], 'IEEE Spectrum':['spectrum.ieee.org'],
   'AP News':['apnews.com'], 'Business Insider':['businessinsider.com'], 'Investing.com':['investing.com'],
   'BBC News': ['bbc.com', 'bbc.co.uk'], NPR: ['npr.org'], 'Ars Technica': ['arstechnica.com'],
   'The Verge': ['theverge.com'], 'Science News': ['sciencenews.org'], ScienceDaily: ['sciencedaily.com'],
@@ -182,7 +183,7 @@ async function mapLimit(items, limit, worker) {
 
 export async function researchNews({ fetcher = fetch, now = new Date(), previous = [], seen = {}, limit = 240 } = {}) {
   const discovery = await Promise.allSettled([
-    ...NEWS_FEEDS.map(async feed => parseFeed(await fetchText(feed.url, { fetcher }), feed)),
+    ...NEWS_FEEDS.map(async feed => parseFeed(await fetchText(feed.url, { fetcher }), feed).map((s,i)=>({...s,feedChecked:true,sourceFeedUrl:feed.url,feedRank:i+1,nytHomeLead:Boolean(feed.homepageLead && i===0)}))),
     ...NEWS_SECTIONS.map(async section => sectionStories(await fetchArticle(section, fetcher),section)),
   ]);
   const available = discovery.filter(f => f.status === 'fulfilled' && f.value.length).length;
@@ -191,11 +192,20 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
   const raw=pools.flat(), key=checkInWindow(now).key;
   const prior=Object.values(seen).filter(s=>s.editionKey && s.editionKey!==key);
   const candidates=readingQueue(pools.map(pool=>pool.filter(story=>
-    !story.publishedAt || !prior.some(old=>old.id===story.id && Date.parse(story.publishedAt)<=Date.parse(old.seenAt)))),{now,limit});
+    story.nytHomeLead || !story.publishedAt || !prior.some(old=>old.id===story.id && Date.parse(story.publishedAt)<=Date.parse(old.seenAt)))),{now,limit});
   let pagesRead = 0, primaryDatesRead = 0;
   const checks = await mapLimit(candidates, 4, async story => {
-    const article = parseSourceArticle(await fetchArticle(story, fetcher), story); pagesRead++;
-    if (article.text.split(/\s+/).length < 60) throw new Error('Source article was unavailable or too short');
+    let article;
+    try { article=parseSourceArticle(await fetchArticle(story,fetcher),story); }
+    catch(error) {
+      if(story.nytHomeLead) return {...story,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',articleAccessError:error.message,checkedAt:now.toISOString()};
+      throw error;
+    }
+    pagesRead++;
+    if(article.text.split(/\s+/).length<60){
+      if(story.nytHomeLead)return {...story,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',checkedAt:now.toISOString()};
+      throw new Error('Source article was unavailable or too short');
+    }
     if (oldResearchEvidence(article.text, now)) throw new Error('The lead describes older research, not a fresh development');
     const publishedAt = article.publishedAt || story.publishedAt;
     if (!publishedAt || !Number.isFinite(Date.parse(publishedAt))) throw new Error('No reliable publication date');
@@ -228,7 +238,10 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
     return verified;
   });
   const stories = rankStories(checks.flatMap(r => r.value ? [r.value] : []), now, { broad:true, minScore:20, maxAgeHours:168, limit:60 });
+  const nytLead=checks.find(r=>r.value?.nytHomeLead)?.value || raw.find(s=>s.nytHomeLead);
+  const nytStatus={available:Boolean(nytLead),checkedAt:now.toISOString(),error:discovery[NEWS_FEEDS.findIndex(f=>f.homepageLead)]?.reason?.message || null};
   return {
+    nytLead:nytLead ? {...nytLead,explanation:nytLead.explanation||nytLead.summary,feedChecked:true}:null,nytStatus,
     schemaVersion: 2, mode: 'researched', editionKey: checkInWindow(now).key, stories,
     fetchedAt: now.toISOString(), checkedAt: now.toISOString(), sources: [...new Set(stories.map(s => s.source))],
     providersAvailable: available, providersTotal: NEWS_FEEDS.length + NEWS_SECTIONS.length,
