@@ -1,5 +1,7 @@
 // Shared news selection for the server and downloadable dashboard.
 export const NEWS_FEEDS = [
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/US.xml',source:'The New York Times',category:'U.S.'},
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',source:'The New York Times',category:'World'},
   {url:'https://spectrum.ieee.org/feeds/feed.rss',source:'IEEE Spectrum',category:'Technology'},
   {url:'https://www.sciencedaily.com/rss/matter_energy/batteries.xml',source:'ScienceDaily',category:'Science'},
   {url:'https://www.sciencedaily.com/rss/matter_energy/materials_science.xml',source:'ScienceDaily',category:'Science'},
@@ -390,10 +392,10 @@ export function newsGeography(story) {
 export function publicNewsScope(story) {
   const title=story.title || '';
   const lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,100).join(' ');
-  if(/^\s*(how |why |inside |the science of |a guide to )/i.test(title)
-    || /\b(explainer|opinion|column|book review|literary|Shakespeare|playwright|museum exhibition|art exhibition)\b/i.test(title)) return null;
+  if(/\?\s*$/.test(title) || /^\s*(how |why |inside |the science of |a guide to )/i.test(title)
+    || /\b(explainer|analysis|commentary|opinion|column|approval ratings?|book review|literary|Shakespeare|playwright|museum exhibition|art exhibition)\b/i.test(title)) return null;
   const publicSubject=/\b(presidents?|prime minister|government|Congress|Senate|Supreme Court|courts?|judges?|elections?|vot(?:e|es|ers|ing)|ballots?|midterms?|protests?|demonstrations?|rallies|No Kings|military|troops?|missiles?|airstrikes?|fighter jets?|drones?|war|ceasefire|sanctions?|tariffs?|Federal Reserve|central bank|inflation|unemployment|stock market|earthquake|hurricane|wildfire|pandemic|public health|school funding|education funding|statewide|nationwide)\b/i;
-  const development=/\b(approv\w*|pass(?:es|ed)?|orders?|ordered|signs?|signed|strikes?|attacks?|hits?|killed|kills?|arrests?|arrested|rallies|protests?|demonstrations?|votes?|voted|elections?|ban(?:s|ned)?|rul(?:es|ed|ing)|suspend\w*|waiv\w*|sanctions?|ceasefire|shoot down|shot down|launch\w*|resigns?|resigned|collapsed|evacu\w*|cuts?|raises?|changes?|expands?|surges?|crash\w*|outbreak|deaths?|ablaze)\b/i;
+  const development=/\b(approve(?:s|d)?|pass(?:es|ed)?|orders?|ordered|signs?|signed|strikes?|attacks?|hits?|killed|kills?|arrests?|arrested|rallies|protests?|demonstrations?|votes?|voted|elections?|ban(?:s|ned)?|rul(?:es|ed|ing)|suspend\w*|waiv\w*|sanctions?|ceasefire|shoot down|shot down|launch\w*|resigns?|resigned|collapsed|evacu\w*|cuts?|raises?|changes?|expands?|surges?|crash\w*|outbreak|deaths?|ablaze)\b/i;
   // A background passage about national issues cannot turn a technical or
   // cultural headline into a current public-news development.
   if(!publicSubject.test(title+' '+lead) || !development.test(title))return null;
@@ -431,7 +433,8 @@ export function samePersonalDevelopment(a,b) {
 
 function checkedPersonalReport(s) {
   if(!s || typeof s.id!=='string' || typeof s.title!=='string' || !/^https:\/\//.test(s.url || '') || !Number.isFinite(Date.parse(s.publishedAt))) return false;
-  const feedLead=s.source==='The New York Times' && s.nytHomeLead && s.feedChecked && /^https:\/\/(?:www\.)?nytimes\.com\//.test(s.url);
+  const officialNytFeed=/^https:\/\/rss\.nytimes\.com\/services\/xml\/rss\/nyt\/(?:HomePage|US|World|Technology|Science)\.xml$/.test(s.sourceFeedUrl || '');
+  const feedLead=s.source==='The New York Times' && (s.nytHomeLead || s.nytFeedSummary && officialNytFeed) && s.feedChecked && /^https:\/\/(?:www\.)?nytimes\.com\//.test(s.url);
   return Boolean((s.sourcePageChecked || s.eventDateVerified || feedLead) && (s.explanation || s.summary || '').trim().length>25);
 }
 

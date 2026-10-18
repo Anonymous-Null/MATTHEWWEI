@@ -99,3 +99,10 @@ test('a small local incident does not qualify merely because it happened in the 
  const {publicNewsScope}=await import('../public/news.js');assert.equal(publicNewsScope(s('local','Police arrest man after dispute in a local shop','U.S.','Local police made an arrest following a dispute in a small town.')),null);assert.equal(publicNewsScope(s('abroad','French judge rules on a neighborhood parking dispute','World','A local judge ruled on a dispute involving one parking space in France.')),null);
  const national=s('law','Congress passes a nationwide student aid law','U.S.','The federal legislation changes financial aid for millions of college students.');assert.equal(publicNewsScope(national),'us');
 });
+test('approval ratings are not approval of a law and a political question is not a new decision',async()=>{
+ const {publicNewsScope}=await import('../public/news.js');const analysis=s('analysis','Small business owners are doing OK – but will that help Trump overcome his low approval ratings?','U.S.','President Donald Trump is struggling in opinion polls, even as some business owners are optimistic.');assert.equal(publicNewsScope(analysis),null);assert.equal(publicNewsScope(s('vote','Congress approves a new federal student aid law','U.S.','Congress approved nationwide legislation affecting millions of students.')),'us');
+});
+test('official NYT public-feed reporting can fill a national slot with a transparent feed-only label',()=>{
+ const national={...us,id:'nyt-national',source:'The New York Times',url:'https://www.nytimes.com/2026/10/18/us/national.html',sourcePageChecked:false,feedChecked:true,nytFeedSummary:true,sourceFeedUrl:'https://rss.nytimes.com/services/xml/rss/nyt/US.xml',title:'Congress approves a nationwide student aid law',summaryKind:'NYT public-feed summary · full article unavailable'};
+ const result=selectPersonalBriefing([battery,robot,national,world],{now,key,nytLead:lead});assert.equal(result[3].id,'nyt-national');assert.equal(result[3].sourcePageChecked,false);assert.match(result[3].summaryKind,/public-feed/);
+});

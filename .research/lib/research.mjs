@@ -198,12 +198,12 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
     let article;
     try { article=parseSourceArticle(await fetchArticle(story,fetcher),story); }
     catch(error) {
-      if(story.nytHomeLead) return {...story,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',articleAccessError:error.message,checkedAt:now.toISOString()};
+      if(story.source==='The New York Times' && story.feedChecked) return {...story,nytFeedSummary:true,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',articleAccessError:error.message,checkedAt:now.toISOString()};
       throw error;
     }
     pagesRead++;
     if(article.text.split(/\s+/).length<60){
-      if(story.nytHomeLead)return {...story,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',checkedAt:now.toISOString()};
+      if(story.source==='The New York Times' && story.feedChecked)return {...story,nytFeedSummary:true,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',checkedAt:now.toISOString()};
       throw new Error('Source article was unavailable or too short');
     }
     if (oldResearchEvidence(article.text, now)) throw new Error('The lead describes older research, not a fresh development');
