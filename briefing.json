@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T15:22:49.685Z",
+  "fetchedAt": "2026-10-18T15:25:36.410Z",
   "news": {
     "schemaVersion": 2,
     "mode": "researched",
@@ -29,7 +29,7 @@
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-875x648.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
         "score": 54.25,
         "dimensions": {
           "surprise": 65,
@@ -46,150 +46,150 @@
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-        "title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
-        "summary": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe.",
+        "id": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "title": "Archaeologists discover 1,200-year-old mummified hairless dog in Peru",
+        "summary": "They frequently appear in pottery created by ancient societies along the Andean coast. Today, a variation of the breed is recognized by the American Kennel Club as the Peruvian Inca Orchid. The dogs are also an important national symbol, having been officially designated part of Peru's cultural heritage in 2000. A study published in the Journal of Anthropological Archaeology reports the first physical evidence of Peruvian hairless dogs at Castillo de Huarmey, the only known Wari Empire site discovered so far on Peru's northern coast. Ancient Dog Remains Discovered at a Wari Empire Site Located approximately 190 miles north of Lima, Castillo de Huarmey covers 110 acres and once served as an administrative and burial center for the Wari Empire.",
         "publishedAt": "2026-10-17T00:00:00.000Z",
         "source": "ScienceDaily",
         "category": "Science",
         "coverage": "Research summary",
-        "editorialText": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe. Even the smallest improvements in optical precision could help Roman capture clearer images during its sweeping surveys of the cosmos. \"All of Roman's sweeping surveys will rely on the Wide Field Instrument,\" said Dave Hickey, a Wide Field Instrument systems engineer at NASA's Goddard Space Flight Center in Greenbelt, Maryland. \"Many of the mission's primary goals, like studying dark matter and dark energy, wouldn't be possible without it, so it's both exciting and a huge relief to see that it's working well!\" NASA Puts Roman's Powerful Camera System to the Test Following the activation of the Wide Field Instrument in September, engineers began a comprehensive testing campaign",
+        "editorialText": "Archaeologists working at an ancient burial complex in Peru have uncovered remarkable evidence of hairless dogs that lived more than 1,200 years ago, long before the rise of the Inca Empire. The discoveries include naturally mummified remains, unusual skeletal features, and clues about what the animals ate and how they were treated by the people around them. Peruvian hairless dogs are a distinctive Indigenous breed known for their slender bodies, pointed ears, and lack of fur. They frequently appear in pottery created by ancient societies along the Andean coast. Today, a variation of the breed is recognized by the American Kennel Club as the Peruvian Inca Orchid. The dogs are also an important national symbol, having been officially designated part of Peru's cultural heritage in 2000. A study published in the Journal of Anthropological Archaeology reports the first physical evidence of Peruvian hairless dogs at Castillo de Huarmey, the only known Wari Empire site discovered so far on Peru's northern coast. Ancient Dog Remains Discovered at a Wari Empire Site Located approximately 190 miles north of Lima, Castillo de Huarmey",
         "originalPublishedAt": "2026-10-17T00:00:00.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "NASA's Nancy Grace Roman Space Telescope is performing even better than scientists anticipated after engineers completed an extensive series of tests and precision adjustments. The work has brought the observatory's powerful instruments into exceptionally sharp focus, with its main camera system now delivering image quality nearly 30% better than predicted. The achievement marks an important step toward the telescope's ambitious mission to investigate dark matter, dark energy, and other mysteries of the universe.",
+        "explanation": "They frequently appear in pottery created by ancient societies along the Andean coast. Today, a variation of the breed is recognized by the American Kennel Club as the Peruvian Inca Orchid. The dogs are also an important national symbol, having been officially designated part of Peru's cultural heritage in 2000. A study published in the Journal of Anthropological Archaeology reports the first physical evidence of Peruvian hairless dogs at Castillo de Huarmey, the only known Wari Empire site discovered so far on Peru's northern coast. Ancient Dog Remains Discovered at a Wari Empire Site Located approximately 190 miles north of Lima, Castillo de Huarmey covers 110 acres and once served as an administrative and burial center for the Wari Empire.",
         "summaryKind": "Source excerpt",
-        "imageUrl": null,
-        "imageCaption": "NASA’s Roman Space Telescope has achieved nearly 30% better image quality than expected, setting the stage for stunning cosmic discoveries. Credit: NASA; background by AI/ScienceDaily.com",
-        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
-        "score": 50.25,
+        "imageUrl": "https://www.sciencedaily.com/images/1920/mummified-dog-skull.webp",
+        "imageCaption": "A naturally mummified dog skull painted with cinnabar from Castillo de Huarmey in Peru. Credit: Weronika Tomczyk",
+        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
+        "score": 56,
         "dimensions": {
-          "surprise": 65,
-          "consequence": 60,
-          "novelty": 40,
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 85,
           "relevance": 10
         },
         "freshness": "48h",
-        "displayTitle": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
-        "originalSummary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe. By moving a mirror just one-sixteenth the width of a human hair, the team helped bring its powerful instruments into near-perfect alignment. Roman’s Wide Field Instrument now produces image quality nearly 30% better than predicted, promising exceptionally sharp cosmic surveys.",
+        "displayTitle": "Archaeologists discover 1,200-year-old mummified hairless dog in Peru",
+        "originalSummary": "Archaeologists have discovered 1,200-year-old remains of Peru’s famous hairless dogs at an ancient Wari Empire burial site, including remarkably preserved mummies and puppies buried alongside humans. Their unusual teeth, diets, and burial arrangements reveal surprising clues about how ancient Peruvians cared for, bred, and sometimes discarded their dogs.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "summary": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
-        "publishedAt": "2026-10-18T13:59:04.000Z",
-        "source": "Investing.com",
-        "category": "Business",
+        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "publishedAt": "2026-10-18T15:00:02.000Z",
+        "source": "The Guardian",
+        "category": "World",
         "coverage": "Source report",
-        "editorialText": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank. Both vessels were anchored near the Sulina Canal, which links the Danube River to the Black Sea and is an export route for Ukraine. NATO member Romania shares a 614-km (381-mile) border with Ukraine, much of it along the Danube, and has repeatedly reported Russian drone incursions into its airspace since Moscow’s full-scale invasion of Ukraine in 2022. Romania started shooting down",
-        "originalPublishedAt": "2026-10-18T13:59:04.000Z",
+        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
+        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "BUCHAREST, Oct 17 (Reuters) - Romanian F-16 fighter jets shot down two drones over the country’s territorial waters on Saturday, the defence ministry said. Defence Minister Radu Miruta said on Sunday the drones were likely latest generation Russian drones, flying at speeds similar to fighter jets. \"The ones from last night were flying at 450 km/h, which leads us to think they were Russian-made Geran-4 drones with a turboprop engine,\" Miruta said. \"This is the first time we’ve shot down drones like these.\" The drones were brought down days after two chemical tankers were hit by drones near Romania’s Black Sea coast, the latest in a series of attacks highlighting risks to commercial shipping on NATO’s eastern flank.",
+        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9H0A6_L.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
-        "score": 68,
+        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
+        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
+        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
+        "score": 89,
         "dimensions": {
           "surprise": 90,
           "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
+          "novelty": 85,
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "originalSummary": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       },
       {
-        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "title": "No Kings rallies urge early voting ahead of midterms",
-        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "publishedAt": "2026-10-17T17:45:49.000Z",
-        "source": "AP News",
-        "category": "U.S.",
-        "discovery": "Publisher section",
-        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
-        "originalPublishedAt": "2026-10-17T17:45:49.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
-        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "eventRevision": "2026-10-17:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
-        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "title": "Airstrike kills at least 9 in Yemen and other Middle East developments",
-        "summary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
-        "publishedAt": "2026-10-18T08:46:33.000Z",
-        "source": "AP News",
+        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "summary": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "publishedAt": "2026-10-18T14:50:37.000Z",
+        "source": "The Guardian",
         "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children. Some were in critical condition, he said. Al-Asbahi blamed Saudi Arabia for the strike. There was no immediate comment from the Saudi government. The fighting has reignited Yemen’s civil war after four years of ceasefire. U.S. Ambassador to Israel Mike Huckabee sharply condemned settler violence during an olive harvest in the West Bank that injured several Palestinians and Washington Post photographer Heidi Levine as",
-        "originalPublishedAt": "2026-10-18T08:46:33.000Z",
+        "coverage": "Source report",
+        "editorialText": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
+        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "explanation": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/d065543/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0d%2Ff2%2Fd7d011ba0a121a97467fdeee8c5f%2Fa15a1a1b780c4120a61e73106541f8ff",
+        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
         "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
+        "score": 81.25,
+        "dimensions": {
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "summary": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "publishedAt": "2026-10-18T11:57:49.644Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
+        "originalPublishedAt": "2026-10-18T11:57:49.644Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4966/live/70482900-cad8-11f1-a64c-550be9e3c66b.jpg",
+        "imageCaption": "Image caption, The St Petersburg Oil Terminal was among targets hit in the city overnight",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
         "score": 64.25,
         "dimensions": {
           "surprise": 65,
@@ -198,40 +198,48 @@
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Airstrike kills at least 9 in Yemen and other Middle East developments",
-        "originalSummary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
+        "displayTitle": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "originalSummary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
       }
     ],
-    "fetchedAt": "2026-10-18T15:22:49.685Z",
-    "checkedAt": "2026-10-18T15:22:49.685Z",
+    "fetchedAt": "2026-10-18T15:25:36.410Z",
+    "checkedAt": "2026-10-18T15:25:36.410Z",
     "sources": [
-      "ScienceDaily",
       "The Guardian",
+      "ScienceDaily",
       "BBC News",
-      "Investing.com",
-      "AP News",
+      "Phys.org",
+      "Ars Technica",
       "The Verge",
       "Higher Ed Dive",
-      "Ars Technica",
       "ScienceAlert",
-      "Phys.org",
       "Business Insider",
       "NASA",
       "MIT News"
     ],
-    "providersAvailable": 32,
+    "providersAvailable": 24,
     "providersTotal": 38,
     "research": {
-      "rawCandidates": 917,
-      "candidatesReviewed": 240,
-      "sourcePagesRead": 240,
-      "primaryDatesChecked": 21,
-      "rejected": 50,
+      "rawCandidates": 570,
+      "candidatesReviewed": 232,
+      "sourcePagesRead": 208,
+      "primaryDatesChecked": 36,
+      "rejected": 64,
       "rejectedCandidates": [
+        {
+          "title": "Analysis-IMF/World Bank meetings leave developing countries with more questions than answers",
+          "url": "https://www.investing.com/news/economy-news/analysisimfworld-bank-meetings-leave-developing-countries-with-more-questions-than-answers-4955879",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "JPMorgan raises ICICI Bank stock price target on strong earnings",
+          "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-raises-icici-bank-stock-price-target-on-strong-earnings-93CH-4955968",
+          "reason": "Provider returned HTTP 403"
+        },
         {
           "title": "Dad shift: Men now file majority of paid family leave claims in key states",
           "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
@@ -258,9 +266,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
-          "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Iran appoints new defence minister amid escalating tensions with U.S.",
+          "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+          "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How to see the Orionid meteor shower",
@@ -278,9 +291,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Nobel medicine prize goes to 3 scientists for shining light on brain activity",
-          "url": "https://apnews.com/article/nobel-prize-medicine-sweden-2efe9ee7eae9d808fd49a6da1f53ceba",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Microsoft pulls out of UK data centre deal with Nscale, Telegraph reports",
+          "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Spyre presents clinical data on IBD antibody therapies",
+          "url": "https://www.investing.com/news/company-news/spyre-presents-clinical-data-on-ibd-antibody-therapies-93CH-4955924",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Iowa's vote in midterms may help determine balance of power in Congress",
@@ -293,9 +311,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trump says Russia and Ukraine agree to an ‘energy ceasefire’ but Kyiv says attacks continue",
-          "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Russia hits Ukraine’s energy sector 76 times in a week, Zelenskiy says",
+          "url": "https://www.investing.com/news/economy-news/russia-hits-ukraines-energy-sector-76-times-in-a-week-zelenskiy-says-4955841",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Analysis-Carney’s pipeline push is unlikely to bring back Canada’s oil jobs boom",
+          "url": "https://www.investing.com/news/commodities-news/analysiscarneys-pipeline-push-is-unlikely-to-bring-back-canadas-oil-jobs-boom-4955902",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "What is the Budget and what could be in it?",
@@ -313,14 +336,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Lifelong drugs for autoimmune diseases don’t work well. Now scientists are trying something new",
-          "url": "https://apnews.com/article/autoimmune-diseases-cart-mrna-lupus-diabetes-a4204dc6920a219f27eded2df32d0b8b",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "China proposes export curbs on 12 key solar manufacturing technologies",
+          "url": "https://www.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4955825",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "OpenAI fires 3 safety researchers in dispute over AI risks",
-          "url": "https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "MetroCity Bankshares earnings in spotlight after Q2 miss",
+          "url": "https://www.investing.com/news/earnings/metrocity-bankshares-earnings-in-spotlight-after-q2-miss-93CH-4955923",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Biking along the Great American Rail-Trail",
@@ -338,14 +361,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Climate change is outpacing evolution. Scientists are using DNA to catch up",
-          "url": "https://apnews.com/article/climate-change-dna-adaptation-heat-waves-wildfires-7c34ca1d3a09065b9f9ab617dd1a6e25",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Venezuela expects $76 billion oil investment boost amid U.S. cooperation",
+          "url": "https://www.investing.com/news/economy-news/venezuela-expects-76-billion-oil-investment-boost-amid-us-cooperation-4955719",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Election takeaways: Donalds joins historic field and progressive scores upset victory in Florida",
-          "url": "https://apnews.com/article/florida-wyoming-alaska-primaries-democrats-trump-63e620b06acba77102cfe32781bd4efa",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "World Businesses for Sale Expands Confidential Seller Support for Owners Seeking Buyers",
+          "url": "https://www.investing.com/news/press-releases/world-businesses-for-sale-expands-confidential-seller-support-for-owners-seeking-buyers-4955921",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How public bathrooms reflect America's inequality",
@@ -368,14 +391,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "How we came to be: Scientists get first look at the evolution of early complex animals",
-          "url": "https://apnews.com/article/fossil-animals-evolution-science-china-bizarre-a56a123cbad480e2c35f2356181d32d7",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Iran war: Saudi helicopter crash kills two as tanker attacks threaten Hormuz",
+          "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Tuesday’s takeaways: No clear direction for Wisconsin Democrats",
-          "url": "https://apnews.com/article/primaries-wisconsin-minnesota-democratic-party-socialist-226b31e324cdd9b72200fb9abc9acb69",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Mid Penn Bancorp director Robert Abel buys $495 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-robert-abel-buys-495-in-shares-93CH-4955919",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Suspect in deadly Oregon elementary school shooting was a former student",
@@ -388,19 +411,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ukraine fires nearly 900 drones at Russia as Kyiv braces for expected huge aerial attack",
-          "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-d6e8cbb6d0ffdc7cbd2da59b9cd6f7c9",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "U.S. urges Israel to curb settler violence in West Bank, Rubio says",
+          "url": "https://www.investing.com/news/economy-news/us-urges-israel-to-curb-settler-violence-in-west-bank-rubio-says-4955694",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
-          "url": "https://apnews.com/article/swift-observatory-nasa-rescue-10dad290d18011a8a9ad34f830c35b1c",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Takeaways from Tuesday’s elections",
-          "url": "https://apnews.com/article/election-takeaways-michigan-senate-primary-democrats-trump-c957db07eb78ea93c70208ba0a6bceed",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Mid Penn Bancorp director Mowery buys $1,982 in common stock",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-mowery-buys-1982-in-common-stock-93CH-4955914",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
@@ -418,24 +436,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Russia pounds Ukraine with missiles and drones, killing 7 and targeting power grid, Zelenskyy says",
-          "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-attacks-b837b4ee58f0aa8b4e5a5a872906d91e",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "NASA spacecraft discovers a huge new crater on the moon",
-          "url": "https://apnews.com/article/moon-lunar-crater-space-nasa-80eea242ad275fda1f7a88587cdccd2f",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Mamdani proves his power with New York endorsements, plus more takeaways from Tuesday’s primaries",
-          "url": "https://apnews.com/article/donald-trump-zohran-mamdani-new-york-78d9cc60faff70ffe27fd8d7f6dc1355",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Trump says he will advise Katie Zacharia to reconsider shortly before she was fired - video",
           "url": "https://www.theguardian.com/us-news/video/2026/oct/16/trump-katie-zacharia-to-reconsider-shortly-before-she-was-fired-video",
           "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Could another France downgrade put the EU’s credit rating at risk?",
+          "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "As AI rally wobbles, stock market’s spotlight turns to earnings",
+          "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Journalist Ronan Farrow on Elon Musk's trillion-dollar political influence",
@@ -448,14 +461,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Little Mercury may be shrinking faster than scientists expected",
-          "url": "https://apnews.com/article/mercury-shrinking-planet-47b010ee65287f76565bc4859c7c09b3",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Citi says interest rates may matter more for economy than stock valuations",
+          "url": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Takeaways from primaries featuring Spencer Pratt, a missing congressman and a rare Trump setback",
-          "url": "https://apnews.com/article/california-iowa-new-jersey-primaries-4355e73b946486ac92452ec856966d7e",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Mid Penn Bancorp director Joel L. Frank buys $2,478 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/mid-penn-bancorp-director-joel-l-frank-buys-2478-in-shares-93CH-4955908",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Meet Catherine Ericson, an official New York leaf peeper in Lake Placid",
@@ -468,27 +481,84 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Rescue satellite gets close to NASA’s doomed telescope, even if it can’t save it",
-          "url": "https://apnews.com/article/swift-observatory-telescope-rescue-578ab2a986045e98cf364e8300405cc5",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Takeaways from Tuesday’s primaries: Massie’s loss leaves no doubt about Trump’s power over the GOP",
-          "url": "https://apnews.com/article/election-takeaways-massie-kentucky-georgia-alabama-8eb9f54741ce0313ab15b291bd742c16",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
           "url": "https://www.sciencedaily.com/releases/2026/10/261017230036.htm",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Simulations explore nuclear mitigation of asteroid threats",
+          "url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Two monster black holes could collide in just 100 years",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
+          "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Australian scavengers don't just eat everything and slink away. They approach a carcass like a buffet",
+          "url": "https://phys.org/news/2026-10-australian-scavengers-dont-approach-carcass.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This bird flies thousands of miles, but its wings have a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The ambiguous costs of climate change",
+          "url": "https://phys.org/news/2026-10-ambiguous-climate.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brain cells meant to protect us may be fueling cognitive decline",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
+          "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "How animal identifiability affects children's food choices",
+          "url": "https://phys.org/news/2026-10-animal-affects-children-food-choices.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "Political violence: How justifications influence voter approval",
+          "url": "https://phys.org/news/2026-10-political-violence-justifications-voter.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "Rabbits were a medieval royal luxury in England—until the Black Death made them commonplace",
+          "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
+          "reason": "Provider returned HTTP 429"
+        },
+        {
+          "title": "Plants shift gene activity within minutes of entering spaceflight, experiment reveals",
+          "url": "https://phys.org/news/2026-10-shift-gene-minutes-spaceflight-reveals.html",
+          "reason": "Provider returned HTTP 429"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 20,
-      "eventDatesUnconfirmed": 40,
+      "eventDatesVerified": 18,
+      "eventDatesUnconfirmed": 42,
       "rejectionReasons": {
+        "Provider returned HTTP 403": 20,
         "Source article was unavailable or too short": 13,
-        "The actual event/announcement is more than a week old": 37
+        "The actual event/announcement is more than a week old": 27,
+        "Provider returned HTTP 429": 4
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -649,9 +719,9 @@
         {
           "source": "Science",
           "url": "https://www.science.org/rss/news_current.xml",
-          "available": false,
+          "available": true,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": null
         },
         {
           "source": "The Guardian",
@@ -698,58 +768,58 @@
         {
           "source": "AP News",
           "url": "https://apnews.com/hub/russia-ukraine",
-          "available": true,
-          "candidates": 32,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/us-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/world-news",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/science",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/technology",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/politics",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/business",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "Provider returned HTTP 403"
         },
         {
           "source": "Business Insider",
@@ -790,7 +860,7 @@
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/unnamed-1-875x648.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
         "score": 54.25,
         "dimensions": {
           "surprise": 65,
@@ -801,6 +871,166 @@
         "freshness": "48h",
         "displayTitle": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
         "originalSummary": "The bug is fixed, but privacy concerns remain.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "title": "Archaeologists discover 1,200-year-old mummified hairless dog in Peru",
+        "summary": "They frequently appear in pottery created by ancient societies along the Andean coast. Today, a variation of the breed is recognized by the American Kennel Club as the Peruvian Inca Orchid. The dogs are also an important national symbol, having been officially designated part of Peru's cultural heritage in 2000. A study published in the Journal of Anthropological Archaeology reports the first physical evidence of Peruvian hairless dogs at Castillo de Huarmey, the only known Wari Empire site discovered so far on Peru's northern coast. Ancient Dog Remains Discovered at a Wari Empire Site Located approximately 190 miles north of Lima, Castillo de Huarmey covers 110 acres and once served as an administrative and burial center for the Wari Empire.",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
+        "source": "ScienceDaily",
+        "category": "Science",
+        "coverage": "Research summary",
+        "editorialText": "Archaeologists working at an ancient burial complex in Peru have uncovered remarkable evidence of hairless dogs that lived more than 1,200 years ago, long before the rise of the Inca Empire. The discoveries include naturally mummified remains, unusual skeletal features, and clues about what the animals ate and how they were treated by the people around them. Peruvian hairless dogs are a distinctive Indigenous breed known for their slender bodies, pointed ears, and lack of fur. They frequently appear in pottery created by ancient societies along the Andean coast. Today, a variation of the breed is recognized by the American Kennel Club as the Peruvian Inca Orchid. The dogs are also an important national symbol, having been officially designated part of Peru's cultural heritage in 2000. A study published in the Journal of Anthropological Archaeology reports the first physical evidence of Peruvian hairless dogs at Castillo de Huarmey, the only known Wari Empire site discovered so far on Peru's northern coast. Ancient Dog Remains Discovered at a Wari Empire Site Located approximately 190 miles north of Lima, Castillo de Huarmey",
+        "originalPublishedAt": "2026-10-17T00:00:00.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "They frequently appear in pottery created by ancient societies along the Andean coast. Today, a variation of the breed is recognized by the American Kennel Club as the Peruvian Inca Orchid. The dogs are also an important national symbol, having been officially designated part of Peru's cultural heritage in 2000. A study published in the Journal of Anthropological Archaeology reports the first physical evidence of Peruvian hairless dogs at Castillo de Huarmey, the only known Wari Empire site discovered so far on Peru's northern coast. Ancient Dog Remains Discovered at a Wari Empire Site Located approximately 190 miles north of Lima, Castillo de Huarmey covers 110 acres and once served as an administrative and burial center for the Wari Empire.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://www.sciencedaily.com/images/1920/mummified-dog-skull.webp",
+        "imageCaption": "A naturally mummified dog skull painted with cinnabar from Castillo de Huarmey in Peru. Credit: Weronika Tomczyk",
+        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
+        "score": 56,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "Archaeologists discover 1,200-year-old mummified hairless dog in Peru",
+        "originalSummary": "Archaeologists have discovered 1,200-year-old remains of Peru’s famous hairless dogs at an ancient Wari Empire burial site, including remarkably preserved mummies and puppies buried alongside humans. Their unusual teeth, diets, and burial arrangements reveal surprising clues about how ancient Peruvians cared for, bred, and sometimes discarded their dogs.",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "publishedAt": "2026-10-18T15:00:02.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
+        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
+        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
+        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
+        "score": 89,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "summary": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "publishedAt": "2026-10-18T14:50:37.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
+        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Key events 33m ago Summary 1h ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 4h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 8h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
+        "score": 81.25,
+        "dimensions": {
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
+        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
+        "whyMatters": null,
+        "carriedForward": false,
+        "olderReport": false,
+        "selectedEdition": "2026-10-18-am"
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "summary": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "publishedAt": "2026-10-18T11:57:49.644Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "editorialText": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
+        "originalPublishedAt": "2026-10-18T11:57:49.644Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4966/live/70482900-cad8-11f1-a64c-550be9e3c66b.jpg",
+        "imageCaption": "Image caption, The St Petersburg Oil Terminal was among targets hit in the city overnight",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
+        "checkedAt": "2026-10-18T15:25:36.410Z",
+        "score": 64.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 90,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "originalSummary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
@@ -1081,126 +1311,6 @@
         "freshness": "24h",
         "displayTitle": "Anti-government protesters battle with police in Albania",
         "originalSummary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
-        "publishedAt": "2026-10-18T15:00:02.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
-        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
-        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
-        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 89,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "summary": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
-        "publishedAt": "2026-10-18T14:50:37.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday. France’s interior minister Laurent Nunez said “the Republic will not yield” after 1,800 were arrested across the country on Saturday. Protests which had begun about education and schooling conditions in France have broadened to wider cost of living issues. Buildings were set alight, including Limoges City Hall in central France, as other cities suffered widespread vandalism. More than 500 police officers, gendarmes and firefighters were injured. Nunez blamed thousands of “far",
-        "originalPublishedAt": "2026-10-18T14:50:37.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Key events 27m ago Summary 50m ago Why are the protests happening? 2h ago Trump says \"France is burning\" as he blames violence on immigration 3h ago Macron to meet ministers to discuss protests 4h ago Emmanuel Macron to address French public 6h ago Arrests rise to 1,800 in France 7h ago Record numbers arrested in Paris 7h ago Opening summary It’s approaching 5pm in Paris, as we await French President Emmanuel Macron’s televised response to large-scale protests and unrest across France on Saturday. Here’s a summary of today’s events Macron will address the French public on TV at 8pm (7pm BST) after crisis meetings with ministers on Sunday.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/72eddfdab73cd6b8d98c4fd7741a2043478b01c6/740_0_6184_4946/master/6184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8b71e022f51bff08c5ecf2119117d3ff",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 81.25,
-        "dimensions": {
-          "surprise": 75,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live",
-        "originalSummary": "Interior minister says ‘the Republic will not yield’ to France’s worst protests in yearsA dispatch here from Sam Jones, our reporter in Madrid, as protests have spread to Italy and PortugalThe angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. Continue reading...",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-        "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-        "summary": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
-        "publishedAt": "2026-10-18T11:57:49.644Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
-        "originalPublishedAt": "2026-10-18T11:57:49.644Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities. The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4966/live/70482900-cad8-11f1-a64c-550be9e3c66b.jpg",
-        "imageCaption": "Image caption, The St Petersburg Oil Terminal was among targets hit in the city overnight",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 64.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Oil facilities hit in deadly overnight attack on St Petersburg",
-        "originalSummary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
         "whyMatters": null,
         "carriedForward": false,
         "olderReport": false,
@@ -1925,54 +2035,14 @@
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-17-am"
-      },
-      {
-        "id": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
-        "url": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
-        "title": "Trump's decision to waive Russian sanctions outrages Congress",
-        "summary": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia. Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov. 3. “Beyond irresponsible,” said Sen.",
-        "publishedAt": "2026-10-17T15:09:00.000Z",
-        "source": "AP News",
-        "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia. Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov. 3. “Beyond irresponsible,” said Sen. Thom Tillis, R-N.C., on social media, hours after Ukrainian President Volodymyr Zelenskyy expressed hope that the sanctions that were supposed to take effect Sunday targeting Russian’s economy could be revived. “What part of enforcing a law passed 86-11 by the Senate does the President and his advisors not understand?” Tillis said. “It’s unconscionable that this administration is capitulating to a Russian dictator who illegally",
-        "originalPublishedAt": "2026-10-17T15:09:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia.",
-        "dateEvidenceUrl": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
-        "eventRevision": "2026-10-17:Event",
-        "majorUpdateVerified": false,
-        "explanation": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a bipartisan display of American support for Ukraine in the war with Russia. Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov. 3. “Beyond irresponsible,” said Sen.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/c37cc3c/2147483647/strip/true/crop/5853x3902+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd8%2Fb3%2F6c45d7ef411edb5e513b0240aaa2%2F9232619f508c4126b3e9ac3fdc69184a",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
-        "checkedAt": "2026-10-17T20:16:50.261Z",
-        "score": 76.75,
-        "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Trump's decision to waive Russian sanctions outrages Congress",
-        "originalSummary": "WASHINGTON (AP) — President Donald Trump’s abrupt decision to waive sanctions on Russia days before they were to take effect drew outrage Saturday from members of Congress, which had overwhelmingly passed the legislation in a supported by both major U.S. political parties display of American support for Ukraine in the war with Russia. elected officials from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia’s Vladimir Putin. Trump recently announced a diesel deal with Putin to import Russian energy in a long-shot effort to curb high gas prices in the U.S. that are roiling the midterm elections on Nov.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-17-am"
       }
     ],
     "selectedIds": [
       "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
-      "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
-      "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
-      "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-      "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3"
+      "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+      "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+      "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+      "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o"
     ]
   }
 }
