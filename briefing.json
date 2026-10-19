@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-18T23:15:00.686Z",
+  "fetchedAt": "2026-10-19T15:38:27.433Z",
   "news": {
     "nytLead": {
-      "id": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
-      "url": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
-      "title": "Trump Hits Campaign Trail as White House Turmoil Weighs on GOP Midterm Prospects",
-      "summary": "As Trump rallies around the nation, his White House was consumed by dramas that reinforce how his presidency has become a drag on his party’s prospects in the midterms.",
-      "publishedAt": "2026-10-18T21:50:16.000Z",
+      "id": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
+      "url": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
+      "title": "France’s Far Right Seizes the Moment as Rioting Stuns the Country",
+      "summary": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
+      "publishedAt": "2026-10-19T12:55:13.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -16,28 +16,28 @@
       "nytHomeLead": true,
       "nytFeedSummary": true,
       "sourcePageChecked": false,
-      "explanation": "As Trump rallies around the nation, his White House was consumed by dramas that reinforce how his presidency has become a drag on his party’s prospects in the midterms.",
+      "explanation": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
       "eventDate": null,
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-18T23:15:00.686Z"
+      "checkedAt": "2026-10-19T15:38:27.433Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-18T23:15:00.686Z",
+      "checkedAt": "2026-10-19T15:38:27.433Z",
       "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
-    "editionKey": "2026-10-18-pm",
+    "editionKey": "2026-10-19-am",
     "stories": [
       {
-        "id": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
-        "url": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
-        "title": "Trump Hits Campaign Trail as White House Turmoil Weighs on GOP Midterm Prospects",
-        "summary": "As Trump rallies around the nation, his White House was consumed by dramas that reinforce how his presidency has become a drag on his party’s prospects in the midterms.",
-        "publishedAt": "2026-10-18T21:50:16.000Z",
+        "id": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
+        "url": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
+        "title": "France’s Far Right Seizes the Moment as Rioting Stuns the Country",
+        "summary": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
+        "publishedAt": "2026-10-19T12:55:13.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -47,123 +47,123 @@
         "nytHomeLead": true,
         "nytFeedSummary": true,
         "sourcePageChecked": false,
-        "explanation": "As Trump rallies around the nation, his White House was consumed by dramas that reinforce how his presidency has become a drag on his party’s prospects in the midterms.",
+        "explanation": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-18T23:15:00.686Z",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-18-pm",
+        "selectedEdition": "2026-10-19-am",
         "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html",
-        "url": "https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html",
-        "title": "Ancient Nubian temple faience workshop reveals links between craft production and royal power",
-        "summary": "Publication details Rennan Lemos et al., Crafting power in Kush: faience production and state control in the Napatan region, Antiquity (2026). DOI: 10.15184/aqy.2026.10434 Who's behind this story? Lisa Lock BA art history, MA material culture. Former museum editor, paramedic, and transplant coordinator. Editing for Science X since 2021. Full profile → Robert Egan Bachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language. Full profile → Citation: Ancient Nubian temple faience workshop reveals links between craft production and royal power (2026, October 18) retrieved 18 October 2026 from https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html This document is subject to copyright.",
-        "publishedAt": "2026-10-18T23:00:02.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
+        "id": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+        "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.”",
+        "publishedAt": "2026-10-19T13:58:41.000Z",
+        "source": "The Verge",
+        "category": "Technology",
+        "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://phys.org/rss-feed/",
-        "feedRank": 1,
+        "sourceFeedUrl": "https://www.theverge.com/rss/index.xml",
+        "feedRank": 6,
         "nytHomeLead": false,
-        "editorialText": "Archaeologists have discovered a faience workshop at a major temple complex in the ancient Nubian capital of Napata, showing how the rulers of ancient Kush used specialized craft production to reinforce royal power. Ancient Egypt thrived in the northern Nile Valley, but its southern neighbor, Nubia, in modern Sudan, was arguably just as important, with Nubia's Kushite Empire even taking over and controlling Egypt during the eighth century B.C. However, while Egypt has captured the imaginations of people for centuries, we know comparatively little about Nubia, and scholarship has often viewed the Kushite Empire as imitating Egypt in many of its political and economic undertakings. \"Recent scholarship has increasingly challenged older views that portrayed Kush simply as a copy of Egypt, but important questions remain about how the Kushite state controlled resources, labor, production and the distribution of prestige goods,\" states the study's lead author, Dr. Rennan Lemos from Durham University. To tackle these questions, Dr. Kathryn Howley from New York University and Lemos, alongside a team of investigators, excavated at the major temple complex of Sanam, built by the",
-        "originalPublishedAt": "2026-10-18T23:00:02.000Z",
+        "editorialText": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.” With Cairn, users set a start and end point for the AI agents, which document their progress as they move forward with the task. However, as noted by Norforge, hackers can also use the tool to orchestrate cyberattacks using AI agents. The hacker who broke into more than 100 sites was the “most active” among the exposed Cairn instances discovered by Norforge, waging attacks on companies based",
+        "originalPublishedAt": "2026-10-19T13:58:41.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html",
+        "dateEvidenceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Publication details Rennan Lemos et al., Crafting power in Kush: faience production and state control in the Napatan region, Antiquity (2026). DOI: 10.15184/aqy.2026.10434 Who's behind this story? Lisa Lock BA art history, MA material culture. Former museum editor, paramedic, and transplant coordinator. Editing for Science X since 2021. Full profile → Robert Egan Bachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language. Full profile → Citation: Ancient Nubian temple faience workshop reveals links between craft production and royal power (2026, October 18) retrieved 18 October 2026 from https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html This document is subject to copyright.",
+        "explanation": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.”",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/uncovering-the-shimmer.jpg",
-        "imageCaption": "A green faience anepigraphic shabti excavated in the workshop and a matching mould from elsewhere inside the temple. Credit: Antiquity (2026). DOI: 10.15184/aqy.2026.10434",
-        "imageSourceUrl": "https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html",
-        "checkedAt": "2026-10-18T23:15:00.686Z",
-        "score": 59.25,
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
+        "score": 71.25,
         "dimensions": {
           "surprise": 65,
-          "consequence": 20,
+          "consequence": 60,
           "novelty": 85,
           "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Ancient Nubian temple faience workshop reveals links between craft production and royal power",
-        "originalSummary": "Archaeologists have discovered a faience workshop at a major temple complex in the ancient Nubian capital of Napata, showing how the rulers of ancient Kush used specialized craft production to reinforce royal power.",
+        "displayTitle": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+        "originalSummary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown […]",
         "whyMatters": null,
         "briefingSlot": 2,
         "slotLabel": "For you",
-        "personalTopic": "college-access",
-        "whyForYou": "Engineering college plans, college costs, scholarships, or research opportunities.",
-        "selectedEdition": "2026-10-18-pm",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-19-am",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals",
-        "url": "https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals",
-        "title": "Electricity costs put UK steelmakers in worst position in three years against EU rivals",
-        "summary": "British steelmakers have been pushed further behind European rivals on electricity costs after the US-Israeli war on Iran caused a surge in global gas prices. The premium paid by the British industry over its French counterpart has risen to almost £30 a megawatt hour (MWh), its highest level in three years, according to analysis by the lobby group UK Steel. Energy prices have long been one of the main factors businesses cite when asked what is holding back British industry. For Andy Burnham they represent perhaps the biggest obstacle to his goal of “reindustrialising” the UK.",
-        "publishedAt": "2026-10-18T23:01:12.000Z",
-        "source": "The Guardian",
-        "category": "World",
+        "id": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+        "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+        "title": "Agility Robotics Digit 5 Redesign Prioritizes Safety",
+        "summary": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world.",
+        "publishedAt": "2026-10-19T13:00:03.000Z",
+        "source": "IEEE Spectrum",
+        "category": "Technology",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
-        "feedRank": 21,
+        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
+        "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "British steelmakers have been pushed further behind European rivals on electricity costs after the US-Israeli war on Iran caused a surge in global gas prices. The premium paid by the British industry over its French counterpart has risen to almost £30 a megawatt hour (MWh), its highest level in three years, according to analysis by the lobby group UK Steel. Energy prices have long been one of the main factors businesses cite when asked what is holding back British industry. For Andy Burnham they represent perhaps the biggest obstacle to his goal of “reindustrialising” the UK. Analysts blame the UK’s high electricity prices on its reliance on gas for power generation, which is crucial for cleaner steelmaking with electric arc furnaces. The way the market is set up means that the wholesale gas price determines the price of electricity even from other sources that cost much less to produce, such as wind or solar power, and Iran’s closure of the strait of Hormuz in response to Donald Trump’s bombing campaign has caused global gas prices to soar. Electricity prices in",
-        "originalPublishedAt": "2026-10-18T23:01:12.000Z",
+        "editorialText": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5’s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do. Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it’s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commercial product, Agility has",
+        "originalPublishedAt": "2026-10-19T13:00:03.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals",
+        "dateEvidenceUrl": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "British steelmakers have been pushed further behind European rivals on electricity costs after the US-Israeli war on Iran caused a surge in global gas prices. The premium paid by the British industry over its French counterpart has risen to almost £30 a megawatt hour (MWh), its highest level in three years, according to analysis by the lobby group UK Steel. Energy prices have long been one of the main factors businesses cite when asked what is holding back British industry. For Andy Burnham they represent perhaps the biggest obstacle to his goal of “reindustrialising” the UK.",
+        "explanation": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/3e1770f8e84434c47a2dd4a86c78a42c8dac2876/1167_387_3487_2789/master/3487.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3fc558f2df60c12d3814947b2c74c30c",
-        "imageCaption": "British Steel’s Scunthorpe works. Analysts blame the UK’s high electricity prices on its reliance on gas for power generation. Photograph: Ian Forsyth/Getty Images",
-        "imageSourceUrl": "https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals",
-        "checkedAt": "2026-10-18T23:15:00.686Z",
-        "score": 63,
+        "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68441166&width=1200&height=600&coordinates=0%2C1537%2C0%2C1538",
+        "imageCaption": "",
+        "imageSourceUrl": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
+        "score": 53.75,
         "dimensions": {
-          "surprise": 90,
+          "surprise": 15,
           "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
+          "novelty": 40,
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Electricity costs put UK steelmakers in worst position in three years against EU rivals",
-        "originalSummary": "Premium paid over French counterparts has risen to almost £30 a megawatt hour, analysis by lobby group findsBritish steelmakers have been pushed further behind European rivals on electricity costs after the US-Israeli war on Iran caused a surge in global gas prices.The premium paid by the British industry over its French counterpart has risen to almost £30 a megawatt hour (MWh), its highest level in three years, according to analysis by the lobby group UK Steel. Continue reading...",
+        "displayTitle": "Agility Robotics Digit 5 Redesign Prioritizes Safety",
+        "originalSummary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5’s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do.Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it’s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commer",
         "whyMatters": null,
         "briefingSlot": 3,
         "slotLabel": "For you",
-        "personalTopic": "energy-engineering",
-        "whyForYou": "Energy systems and engineering.",
-        "selectedEdition": "2026-10-18-pm",
+        "personalTopic": "batteries-materials",
+        "whyForYou": "Battery safety, materials science, and energy engineering.",
+        "selectedEdition": "2026-10-19-am",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/us-news/2026/oct/18/trump-dc-golf-course-renovation",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/trump-dc-golf-course-renovation",
-        "title": "Trump says DC golf course ‘restoration’ to start despite judge’s order to pause plans",
-        "summary": "Donald Trump posted on Truth Social on Sunday that “restoration work will begin” on 15 November to a historic public golf course in Washington DC despite a federal judge’s court order to pause his plans over environmental and historic preservation concerns. US district judge Ana Reyes had ruled earlier this year that the federal government must give notice before any substantive construction work on the East Potomac golf course could proceed, and last week issued an order halting the removal of trees at the site, which she called “inexcusable”. Trump said Sunday in a post on Truth Social that work on the golf course would begin on 15 November and that ⁠it would reopen in about 15 months.",
-        "publishedAt": "2026-10-18T21:44:21.000Z",
+        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "publishedAt": "2026-10-18T19:00:02.000Z",
         "source": "The Guardian",
         "category": "U.S.",
         "coverage": "Source report",
@@ -171,70 +171,62 @@
         "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
         "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "Donald Trump posted on Truth Social on Sunday that “restoration work will begin” on 15 November to a historic public golf course in Washington DC despite a federal judge’s court order to pause his plans over environmental and historic preservation concerns. US district judge Ana Reyes had ruled earlier this year that the federal government must give notice before any substantive construction work on the East Potomac golf course could proceed, and last week issued an order halting the removal of trees at the site, which she called “inexcusable”. Trump said Sunday in a post on Truth Social that work on the golf course would begin on 15 November and that ⁠it would reopen in about 15 months. He wrote that the facility would be transformed into “one of the Best and Most Spectacular Golf Courses anywhere in the World”. Trump did not acknowledge the legal fight in his post, which included an artist’s rendering for the course redesign. The judge in the case took notice of Trump’s online message and ordered the government to notify her by 8pm ET",
-        "originalPublishedAt": "2026-10-18T21:44:21.000Z",
+        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
+        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/trump-dc-golf-course-renovation",
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Donald Trump posted on Truth Social on Sunday that “restoration work will begin” on 15 November to a historic public golf course in Washington DC despite a federal judge’s court order to pause his plans over environmental and historic preservation concerns. US district judge Ana Reyes had ruled earlier this year that the federal government must give notice before any substantive construction work on the East Potomac golf course could proceed, and last week issued an order halting the removal of trees at the site, which she called “inexcusable”. Trump said Sunday in a post on Truth Social that work on the golf course would begin on 15 November and that ⁠it would reopen in about 15 months.",
+        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/3ca631f85573f7d6dc2d7e98b67228c8b7f16fe0/1151_0_4715_3774/master/4715.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c64f5dc93818374069b9fd4245348296",
+        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/trump-dc-golf-course-renovation",
-        "checkedAt": "2026-10-18T23:15:00.686Z",
-        "score": 36.75,
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "checkedAt": "2026-10-18T19:06:25.150Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Trump says DC golf course ‘restoration’ to start despite judge’s order to pause plans",
-        "originalSummary": "Judge orders government to notify her by 8pm ET Sunday whether its position changed from Friday’s court filing Donald Trump posted on Truth Social on Sunday that “restoration work will begin” on 15 November to a historic public golf course in Washington DC despite a federal judge’s court order to pause his plans over environmental and historic preservation concerns.US district judge Ana Reyes had ruled earlier this year that the federal government must give notice before any substantive construction work on the East Potomac golf course could proceed, and last week issued an order halting the removal of trees at the site, which she called “inexcusable”. Continue reading...",
+        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-18-pm",
-        "carriedForward": false,
+        "selectedEdition": "2026-10-19-am",
+        "carriedForward": true,
         "olderReport": false
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-        "summary": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
-        "publishedAt": "2026-10-18T22:10:45.113Z",
-        "source": "BBC News",
-        "category": "World",
+        "id": "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html",
+        "url": "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html",
+        "title": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal",
+        "summary": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
+        "publishedAt": "2026-10-19T00:05:08.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "feedRank": 3,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 10,
         "nytHomeLead": false,
-        "editorialText": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\". Russian envoy Kirill Dmitriev has responded to Trump's order by calling it \"an important and truly historic moment\", and saying the sanctions would have inflicted \"serious damage\" on the US and global market. Trump also claimed in his Truth Social post that Zelensky \"doesn't want to end this war, and probably never did\", adding \"he could have made a better deal two years ago than he can now\". Zelensky has pushed for an end",
-        "originalPublishedAt": "2026-10-18T22:10:45.113Z",
-        "sourcePageChecked": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
         "eventDate": null,
-        "eventKind": null,
         "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4644/live/461bcc30-cb38-11f1-8a27-2de4c72fadc2.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "checkedAt": "2026-10-18T23:15:00.686Z",
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
         "score": 76.75,
         "dimensions": {
           "surprise": 85,
@@ -243,48 +235,78 @@
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-        "originalSummary": "The US president blocked numerous sanctions on Russia two days before they were due to take effect.",
+        "displayTitle": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal",
+        "originalSummary": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-18-pm",
+        "selectedEdition": "2026-10-19-am",
         "carriedForward": false,
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-18T23:15:00.686Z",
-    "checkedAt": "2026-10-18T23:15:00.686Z",
+    "fetchedAt": "2026-10-19T15:38:27.433Z",
+    "checkedAt": "2026-10-19T15:38:27.433Z",
     "sources": [
       "BBC News",
+      "The New York Times",
       "ScienceDaily",
       "The Verge",
       "The Guardian",
-      "Phys.org",
-      "The New York Times",
+      "Higher Ed Dive",
+      "IEEE Spectrum",
       "Ars Technica",
-      "Business Insider",
-      "ScienceAlert"
+      "NPR"
     ],
-    "providersAvailable": 33,
+    "providersAvailable": 28,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 911,
-      "candidatesReviewed": 240,
-      "sourcePagesRead": 169,
-      "primaryDatesChecked": 31,
-      "rejected": 56,
+      "rawCandidates": 778,
+      "candidatesReviewed": 227,
+      "sourcePagesRead": 127,
+      "primaryDatesChecked": 18,
+      "rejected": 53,
       "rejectedCandidates": [
         {
-          "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
-          "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
+          "title": "Europe’s electric car sales jump 70% in September",
+          "url": "https://www.investing.com/news/economy-news/europes-electric-car-sales-jump-70-in-september-93CH-4958017",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Disgruntled farmers may help flip Senate seat in Kansas",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6002946/disgruntled-farmers-may-help-flip-senate-seat-in-kansas",
+          "title": "Bajaj Finance Q2 FY27 slides: 26% AUM growth, AI push, guidance raised",
+          "url": "https://www.investing.com/news/company-news/bajaj-finance-q2-fy27-slides-26-aum-growth-ai-push-guidance-raised-93CH-4958021",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "The University of Nevada now offers students the opportunity to minor in mariachi",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5995179/the-university-of-nevada-now-offers-students-the-opportunity-to-minor-in-mariachi",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
+          "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/",
+          "reason": "Unrecognized source-page host"
+        },
+        {
+          "title": "French markets tumble as riots add to political crisis",
+          "url": "https://www.investing.com/news/economy-news/french-markets-tumble-as-riots-add-to-political-crisis-4958015",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Arcutis Biotherapeutics stock hits 52-week high at $31.80",
+          "url": "https://www.investing.com/news/company-news/arcutis-biotherapeutics-stock-hits-52week-high-at-3180-93CH-4958019",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Activists decry the clearing 250-year-old trees for border wall expansion",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-5995629/activists-decry-the-clearing-250-year-old-trees-for-border-wall-expansion",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -293,9 +315,24 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "The University of Nevada now offers students the opportunity to minor in mariachi",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-5995179/the-university-of-nevada-now-offers-students-the-opportunity-to-minor-in-mariachi",
-          "reason": "Source article was unavailable or too short"
+          "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+          "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Autumn Paints Poland’s Bieszczady Mountains",
+          "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "S&P 500, Nasdaq climb as AI-linked stocks recover ahead of earnings",
+          "url": "https://www.investing.com/news/economy-news/wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall-4956777",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
@@ -303,53 +340,28 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Best of Both Worlds: 'Hybrid' Quantum Computers Could Be Just Around The Corner, Researchers Say",
-          "url": "https://www.sciencealert.com/best-of-both-worlds-hybrid-quantum-computers-could-be-just-around-the-corner-researchers-say",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Trump endorses Israeli Prime Minister Netanyahu for reelection amid Iran war",
-          "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858",
+          "title": "Hassett says inflation \"needing some work\"",
+          "url": "https://www.investing.com/news/economy-news/hassett-says-inflation-needing-some-work-4957964",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Oil slips as Trump’s sanction waiver may lead to more Russian fuel supplies",
-          "url": "https://www.investing.com/news/commodities-news/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies-4956112",
+          "title": "Ondine Biomedical plans to raise £10m through share placement",
+          "url": "https://www.investing.com/news/company-news/ondine-biomedical-plans-to-raise-10m-through-share-placement-93CH-4958016",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Zoe Kazan on her adaptation of Steinbeck's East of Eden - and her grandfather's",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6001704/zoe-kazan-on-her-adaptation-of-steinbecks-east-of-eden-and-her-grandfathers",
+          "title": "Disgruntled farmers may help flip Senate seat in Kansas",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6002946/disgruntled-farmers-may-help-flip-senate-seat-in-kansas",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Dozens of critically endangered orangutans rescued from Indonesian wildfires",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6004881/dozens-of-critically-endangered-orangutans-rescued-from-indonesian-wildfires",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Scientists discover a natural compound that could protect the brain from too much salt",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+          "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "One Blood Type Seems to Carry a Higher Risk of Type 2 Diabetes",
-          "url": "https://www.sciencealert.com/one-blood-type-seems-to-carry-a-higher-risk-of-type-2-diabetes",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Physicists prove a long-suspected quantum speed limit for thermalization",
-          "url": "https://phys.org/news/2026-10-physicists-quantum-limit-thermalization.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Midterms: UBS assigns a 50% probability to a Democratic sweep",
-          "url": "https://www.investing.com/news/economy-news/midterms-ubs-assigns-a-50-probability-to-a-democratic-sweep-4955971",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Veradermics to present phase 3 hair loss trial results Monday",
-          "url": "https://www.investing.com/news/company-news/veradermics-to-present-phase-3-hair-loss-trial-results-monday-93CH-4956109",
+          "title": "China warns UK against following EU on electric vehicle restrictions",
+          "url": "https://www.investing.com/news/economy-news/china-warns-uk-against-following-eu-on-electric-vehicle-restrictions-93CH-4957949",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -358,9 +370,29 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "What is the Budget and what could be in it?",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno",
+          "title": "Zoe Kazan on her adaptation of Steinbeck's East of Eden - and her grandfather's",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6001704/zoe-kazan-on-her-adaptation-of-steinbecks-east-of-eden-and-her-grandfathers",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
+          "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists discover a natural compound that could protect the brain from too much salt",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Canada inflation breaches BoC target as gasoline prices surge",
+          "url": "https://www.investing.com/news/economy-news/canada-inflation-breaches-boc-target-as-gasoline-prices-surge-4957777",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push (Oct 15)",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-grants-outside-evaluator-metr-employeelevel-access-in-ai-safety-push-oct-15-4958014",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Dad shift: Men now file majority of paid family leave claims in key states",
@@ -368,18 +400,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Genome detectives: Researchers sequence the genome of a harmful plant pathogen",
-          "url": "https://phys.org/news/2026-10-genome-sequence-pathogen.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Analysis-IMF/World Bank meetings leave developing countries with more questions than answers",
-          "url": "https://www.investing.com/news/economy-news/analysisimfworld-bank-meetings-leave-developing-countries-with-more-questions-than-answers-4955879",
+          "title": "Canada’s annual inflation rate rose to 3.1% in September",
+          "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-rose-to-31-in-september-4957385",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Australia’s Challenger gets takeover bid from unit of Japan’s Daiichi Life",
-          "url": "https://www.investing.com/news/stock-market-news/australias-challenger-gets-takeover-bid-from-unit-of-japans-daiichi-life-4956101",
+          "title": "Uber wins bid to throw out UK mass lawsuit by black cab drivers",
+          "url": "https://www.investing.com/news/stock-market-news/uber-wins-bid-to-throw-out-uk-mass-lawsuit-by-black-cab-drivers-4956748",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -393,23 +420,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "New Genus of Nightmare Spaghetti Worms Found Deep Under The Indian Ocean",
-          "url": "https://www.sciencealert.com/new-genus-of-nightmare-spaghetti-worms-found-deep-under-the-indian-ocean",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Nicola Jennings on Trump’s new White House press secretary – cartoon",
           "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/18/nicola-jennings-donald-trump-new-white-house-press-secretary-cartoon",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Microsoft pulls out of UK data centre deal with Nscale, Telegraph reports",
-          "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855",
+          "title": "Analysis-France’s unrest lays bare ’slow agony’ of Macron’s twilight months",
+          "url": "https://www.investing.com/news/economy-news/analysisfrances-unrest-lays-bare-slow-agony-of-macrons-twilight-months-4957694",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-          "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4956082",
+          "title": "Factbox-Top cases on the US Supreme Court’s docket",
+          "url": "https://www.investing.com/news/stock-market-news/factboxtop-cases-on-the-us-supreme-courts-docket-4957994",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -423,38 +445,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "China proposes export curbs on 12 key solar manufacturing technologies",
-          "url": "https://www.investing.com/news/economy-news/china-proposes-export-curbs-on-12-key-solar-manufacturing-technologies-4955825",
+          "title": "Norway names TikTok, Snapchat and Roblox in social media ban",
+          "url": "https://www.investing.com/news/economy-news/norway-names-tiktok-snapchat-and-roblox-in-social-media-ban-93CH-4957608",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Disc Medicine to present Phase 3 trial results for bitopertin",
-          "url": "https://www.investing.com/news/company-news/disc-medicine-to-present-phase-3-trial-results-for-bitopertin-93CH-4956077",
+          "title": "AI stocks bounce back after bruising selloff, CoreWeave gets Goldman upgrade",
+          "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-rise-after-steepest-weekly-selloff-in-months-4957420",
           "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "What is the Budget and what could be in it?",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "President Trump's widening stamp on D.C. landmarks",
           "url": "https://www.npr.org/2026/10/17/nx-s1-6001826/president-trumps-widening-stamp-on-d-c-landmarks",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "A Deep-Sea Mining Trial Rapidly Threw The Seafloor Ecosystem Off Kilter",
-          "url": "https://www.sciencealert.com/a-deep-sea-mining-trial-rapidly-threw-the-seafloor-ecosystem-off-kilter",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Venezuela expects $76 billion oil investment boost amid U.S. cooperation",
-          "url": "https://www.investing.com/news/economy-news/venezuela-expects-76-billion-oil-investment-boost-amid-us-cooperation-4955719",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Mink Brook asset management, 10% owner, rebalances $736,666 in DLH stock",
-          "url": "https://www.investing.com/news/insider-trading-news/mink-brook-asset-management-10-owner-rebalances-736666-in-dlh-stock-93CH-4956076",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Biking along the Great American Rail-Trail",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-5973071/biking-along-the-great-american-rail-trail",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -463,39 +470,49 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Earth's Core Is Leaking All Sorts of Materials That Have Been Trapped Since Our Planet's Birth",
-          "url": "https://www.sciencealert.com/earths-core-is-leaking-all-sorts-of-materials-that-have-been-trapped-since-our-planets-birth",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "U.S. urges Israel to curb settler violence in West Bank, Rubio says",
-          "url": "https://www.investing.com/news/economy-news/us-urges-israel-to-curb-settler-violence-in-west-bank-rubio-says-4955694",
+          "title": "Houthi strike on government camp in Yemen kills at least 20 fighters - AP",
+          "url": "https://www.investing.com/news/economy-news/houthi-strike-on-government-camp-in-yemen-kills-at-least-20-fighters--ap-4957360",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
-          "url": "https://www.investing.com/news/commodities-news/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions-4955750",
+          "title": "Miami HEAT partners with HPE for Wi-Fi 7 network upgrade",
+          "url": "https://www.investing.com/news/company-news/miami-heat-partners-with-hpe-for-wifi-7-network-upgrade-93CH-4958013",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "How public bathrooms reflect America's inequality",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-5886128/how-public-bathrooms-reflect-americas-inequality",
+          "title": "Biking along the Great American Rail-Trail",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-5973071/biking-along-the-great-american-rail-trail",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
+          "title": "Fatty liver disease is actually five different conditions, scientists discover",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070642.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Park Ohio Holdings CLO Vilsack sells $207,112 in common stock",
-          "url": "https://www.investing.com/news/insider-trading-news/park-ohio-holdings-clo-vilsack-sells-207112-in-common-stock-93CH-4956066",
-          "reason": "Provider returned HTTP 403"
+          "title": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Suspect in deadly Oregon elementary school shooting was a former student",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6006236/suspect-in-deadly-oregon-elementary-school-shooting-was-a-former-student",
-          "reason": "Source article was unavailable or too short"
+          "title": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Something strange is happening beneath a volcano near 2 million people",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205039.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Why is Alberta voting on whether to separate from Canada, and how likely is it to happen?",
+          "url": "https://www.bbc.co.uk/news/articles/c809jg1gj9yo",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Modern neuroscience is rediscovering a surprising idea freud had 130 years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018084028.htm",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
@@ -503,68 +520,29 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Park Ohio secretary & CLO Vilsack sells $148,000 in common stock",
-          "url": "https://www.investing.com/news/insider-trading-news/park-ohio-secretary--clo-vilsack-sells-148000-in-common-stock-93CH-4956057",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "$86m in teen pregnancy prevention funds diverted to Trump-linked contractor",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6003966/86m-in-teen-pregnancy-prevention-funds-diverted-to-trump-linked-contractor",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Think Your Dog Disturbs Your Sleep? It May Be The Other Way Around",
-          "url": "https://www.sciencealert.com/think-your-dog-disturbs-your-sleep-it-may-be-the-other-way-around",
+          "title": "Astronomers discover a ghostly green star unlike any known before",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261017230018.htm",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "What are the new faces coming to UK bank notes?",
+          "url": "https://www.bbc.co.uk/news/videos/c9zrd6d12ll8o",
+          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "Two monster black holes could collide in just 100 years",
           "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "This bird flies thousands of miles, but its wings have a catch",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Brain cells meant to protect us may be fueling cognitive decline",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "A new way to detect stabilizing properties of optical devices",
-          "url": "https://phys.org/news/2026-10-stabilizing-properties-optical-devices.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Warming could help make the Indian Ocean a stronger climate buffer",
-          "url": "https://phys.org/news/2026-10-indian-ocean-stronger-climate-buffer.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Close social bonds help wild jackdaws hold feeding spots but come with waiting costs",
-          "url": "https://phys.org/news/2026-10-social-bonds-wild-jackdaws.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Lion droppings yield previously unknown microbial species, exposing hidden diversity inside Africa's big cats",
-          "url": "https://phys.org/news/2026-10-lion-yield-previously-unknown-microbial.html",
-          "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 12,
-      "eventDatesUnconfirmed": 48,
+      "eventDatesVerified": 7,
+      "eventDatesUnconfirmed": 53,
       "rejectionReasons": {
-        "Provider returned HTTP 403": 17,
-        "Source article was unavailable or too short": 14,
-        "The actual event/announcement is more than a week old": 25
+        "Provider returned HTTP 403": 18,
+        "Source article was unavailable or too short": 12,
+        "The actual event/announcement is more than a week old": 22,
+        "Unrecognized source-page host": 1
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -572,7 +550,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 20,
+          "candidates": 23,
           "error": null
         },
         {
@@ -614,7 +592,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 21,
+          "candidates": 25,
           "error": null
         },
         {
@@ -628,7 +606,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 20,
+          "candidates": 21,
           "error": null
         },
         {
@@ -670,14 +648,14 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 28,
+          "candidates": 26,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
           "available": true,
-          "candidates": 29,
+          "candidates": 23,
           "error": null
         },
         {
@@ -691,14 +669,14 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
           "available": true,
-          "candidates": 42,
+          "candidates": 41,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
           "available": true,
-          "candidates": 53,
+          "candidates": 46,
           "error": null
         },
         {
@@ -781,30 +759,30 @@
         {
           "source": "Nature",
           "url": "https://www.nature.com/nature.rss",
-          "available": true,
+          "available": false,
           "candidates": 0,
-          "error": null
+          "error": "fetch failed"
         },
         {
           "source": "Science",
           "url": "https://www.science.org/rss/news_current.xml",
-          "available": true,
+          "available": false,
           "candidates": 0,
-          "error": null
+          "error": "fetch failed"
         },
         {
           "source": "The Guardian",
           "url": "https://www.theguardian.com/world/rss",
-          "available": true,
-          "candidates": 45,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
         },
         {
           "source": "The Guardian",
           "url": "https://www.theguardian.com/science/rss",
-          "available": true,
-          "candidates": 27,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
         },
         {
           "source": "The Guardian",
@@ -823,89 +801,303 @@
         {
           "source": "ScienceAlert",
           "url": "https://www.sciencealert.com/feed",
-          "available": true,
-          "candidates": 10,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
         },
         {
           "source": "Phys.org",
           "url": "https://phys.org/rss-feed/",
-          "available": true,
-          "candidates": 30,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/hub/russia-ukraine",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/us-news",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/world-news",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/science",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/technology",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/politics",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "AP News",
           "url": "https://apnews.com/business",
           "available": false,
           "candidates": 0,
-          "error": "Provider returned HTTP 403"
+          "error": "fetch failed"
         },
         {
           "source": "Business Insider",
           "url": "https://www.businessinsider.com/sai",
-          "available": true,
-          "candidates": 13,
-          "error": null
+          "available": false,
+          "candidates": 0,
+          "error": "fetch failed"
         }
       ],
       "method": "Publisher sections and live feeds; balanced reading budget with no headline-score cutoff; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts."
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 5,
-    "carriedCount": 0,
+    "freshCount": 4,
+    "carriedCount": 1,
     "olderCount": 0,
     "reserveStories": [
+      {
+        "id": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
+        "url": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
+        "title": "France’s Far Right Seizes the Moment as Rioting Stuns the Country",
+        "summary": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
+        "publishedAt": "2026-10-19T12:55:13.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
+        "briefingSlot": 1,
+        "slotLabel": "NYT lead",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-19-am",
+        "leadUnchanged": false,
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+        "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.”",
+        "publishedAt": "2026-10-19T13:58:41.000Z",
+        "source": "The Verge",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theverge.com/rss/index.xml",
+        "feedRank": 6,
+        "nytHomeLead": false,
+        "editorialText": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.” With Cairn, users set a start and end point for the AI agents, which document their progress as they move forward with the task. However, as noted by Norforge, hackers can also use the tool to orchestrate cyberattacks using AI agents. The hacker who broke into more than 100 sites was the “most active” among the exposed Cairn instances discovered by Norforge, waging attacks on companies based",
+        "originalPublishedAt": "2026-10-19T13:58:41.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
+        "score": 71.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 60,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+        "originalSummary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown […]",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-19-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+        "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+        "title": "Agility Robotics Digit 5 Redesign Prioritizes Safety",
+        "summary": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world.",
+        "publishedAt": "2026-10-19T13:00:03.000Z",
+        "source": "IEEE Spectrum",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5’s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do. Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it’s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commercial product, Agility has",
+        "originalPublishedAt": "2026-10-19T13:00:03.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68441166&width=1200&height=600&coordinates=0%2C1537%2C0%2C1538",
+        "imageCaption": "",
+        "imageSourceUrl": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
+        "score": 53.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Agility Robotics Digit 5 Redesign Prioritizes Safety",
+        "originalSummary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5’s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do.Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it’s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commer",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "batteries-materials",
+        "whyForYou": "Battery safety, materials science, and energy engineering.",
+        "selectedEdition": "2026-10-19-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "publishedAt": "2026-10-18T19:00:02.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
+        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "checkedAt": "2026-10-18T19:06:25.150Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-19-am",
+        "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html",
+        "url": "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html",
+        "title": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal",
+        "summary": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
+        "publishedAt": "2026-10-19T00:05:08.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 10,
+        "nytHomeLead": false,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-19T15:38:27.433Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 85,
+          "consequence": 95,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal",
+        "originalSummary": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-19-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
       {
         "id": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
         "url": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
@@ -1250,54 +1442,6 @@
         "slotLabel": "For you",
         "personalTopic": "aviation-space",
         "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "publishedAt": "2026-10-18T19:00:02.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
-        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "checkedAt": "2026-10-18T19:06:25.150Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
@@ -2085,174 +2229,14 @@
         "carriedForward": false,
         "olderReport": false,
         "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
-        "url": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
-        "title": "Restored Hertfordshire woodland sees first damselflies recorded",
-        "summary": "Two species of damselfly have been recorded for the first time in a woodland after the completion of a three-year project to restore habitat across seven nature reserves, a wildlife trust has revealed. Work on the Ancient Astonbury and Wilder Woodlands project, in Hertfordshire, was made possible with a £162,698 grant from the National Lottery Heritage Fund. An increase in flowers attracted more butterflies, with Silver-washed Fritillaries also recorded in much higher numbers during summer 2026 than in previous years, the Herts & Middlesex Wildlife Trust said. The Beautiful Demoiselle and Willow Emerald damselflies were spotted at Astonbury Wood, close to Stevenage.",
-        "publishedAt": "2026-10-18T05:16:16.527Z",
-        "source": "BBC News",
-        "category": "Science",
-        "coverage": "Source report",
-        "editorialText": "Two species of damselfly have been recorded for the first time in a woodland after the completion of a three-year project to restore habitat across seven nature reserves, a wildlife trust has revealed. Work on the Ancient Astonbury and Wilder Woodlands project, in Hertfordshire, was made possible with a £162,698 grant from the National Lottery Heritage Fund. An increase in flowers attracted more butterflies, with Silver-washed Fritillaries also recorded in much higher numbers during summer 2026 than in previous years, the Herts & Middlesex Wildlife Trust said. The Beautiful Demoiselle and Willow Emerald damselflies were spotted at Astonbury Wood, close to Stevenage. The seven sites that made up the project were Astonbury Wood, Balls Wood near Hertford, Fir & Pond Woods near Potters Bar, Gobions Wood near Brookmans Park, Old Park Wood in Harefield, Long Deans in Hemel Hempstead, and Hawkins Wood between Buntingford and Royston. An ancient woodland, the size of a football pitch, was turned back into coppice management, to allow more light to reach the woodland floor and encourage flowers, insects and birds to thrive.",
-        "originalPublishedAt": "2026-10-18T05:16:16.527Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Two species of damselfly have been recorded for the first time in a woodland after the completion of a three-year project to restore habitat across seven nature reserves, a wildlife trust has revealed. Work on the Ancient Astonbury and Wilder Woodlands project, in Hertfordshire, was made possible with a £162,698 grant from the National Lottery Heritage Fund. An increase in flowers attracted more butterflies, with Silver-washed Fritillaries also recorded in much higher numbers during summer 2026 than in previous years, the Herts & Middlesex Wildlife Trust said. The Beautiful Demoiselle and Willow Emerald damselflies were spotted at Astonbury Wood, close to Stevenage.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f498/live/7ed85640-c897-11f1-b0a4-81e564f1cfaa.jpg",
-        "imageCaption": "Image caption, The Beautiful Demoiselle damselfly was recorded for the first time at Astonbury Wood",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cwg5jvnqv28go",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Restored Hertfordshire woodland sees first damselflies recorded",
-        "originalSummary": "A three-year project to restore woodland at seven nature reserves is completed.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "title": "Scientists who discovered a third form of magnetism win major physics prize",
-        "summary": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
-        "publishedAt": "2026-10-18T00:00:00.000Z",
-        "source": "ScienceDaily",
-        "category": "Science",
-        "coverage": "Research summary",
-        "editorialText": "Scientists have uncovered a previously unknown form of magnetism, overturning an understanding of magnetic behavior that had stood for more than a century. The discovery, known as altermagnetism, has revealed a third fundamental category of collinear magnetism and opened new possibilities for quantum materials, advanced electronics, and future computing technologies. Three physicists responsible for the breakthrough have been named recipients of the 2026 Europhysics Prize, one of Europe's most prestigious honors in condensed matter physics. The European Physical Society (EPS) Condensed Matter Division selected Professor Jairo Sinova of Johannes Gutenberg University Mainz (JGU), Dr. Libor Šmejkal, and Professor Tomas Jungwirth for their work establishing altermagnetism as a distinct form of magnetic order alongside ferromagnetism and antiferromagnetism. \"This award recognizes a fundamental discovery that challenged one of the most established paradigms in condensed matter physics,\" said Professor Jairo Sinova, Director of the Spin Phenomena Interdisciplinary Center (SPICE) at Mainz University. \"Discovering that an entirely new magnetic phase had remained hidden for more than one hundred years demonstrates that even the most mature scientific fields can still hold fundamental surprises.\" The breakthrough",
-        "originalPublishedAt": "2026-10-18T00:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "However, their electrons can exhibit properties previously associated with ferromagnets. This unusual combination allows altermagnets to support electrical currents with strongly polarized electron spins while also displaying extremely rapid magnetic dynamics. Those characteristics could make them valuable for a new generation of spintronic devices, potentially advancing the speed and capabilities of future information technologies. The significance extends well beyond electronics. Altermagnetism represents a previously unrecognized symmetry class of matter and has revealed unexpected connections to several major areas of modern physics, including topological phenomena, unconventional superconductivity, and quantum materials with strong interactions between electrons. How Scientists Discovered Altermagnetism The path toward this discovery began with theoretical investigations into unusual ways that electricity moves through magnetic materials.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://www.sciencedaily.com/images/1920/altermagnetic-crystal.webp",
-        "imageCaption": "Schematic illustration of the structure of an altermagnetic crystal: The unique symmetry of the electron distribution underlies the extraordinary properties of this newly discovered class of magnetic materials. Credit: Libor Šmejkal",
-        "imageSourceUrl": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
-        "score": 56,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Scientists who discovered a third form of magnetism win major physics prize",
-        "originalSummary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "title": "Anti-government protesters battle with police in Albania",
-        "summary": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration.",
-        "publishedAt": "2026-10-17T20:53:00.817Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "editorialText": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration. Many of the protesters in central Tirana wore gas masks or face masks, while volunteers handed out syringes of saline eyewash to reduce the pain from the tear gas which billows down the street. The constant boom of petrol bombs could be heard exploding on Saturday. During the afternoon, the focus of the protests shifted to the office of Prime Minister Edi Rama on the city's main boulevard.",
-        "originalPublishedAt": "2026-10-17T20:53:00.817Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "CorrespondentReporting fromTirana, Albania Demonstrators and riot police fought pitched battles in the centre of Tirana on Saturday for the fifth day in a row. Masked protesters, many of them high school and university students, hurled rocks and petrol bombs at riot police trying to defend the education ministry, one of the focal points of the protests. The police responded with water cannon and volleys of tear gas, sending the crowds scattering. There are also reports that rubber bullets were used for the first time. Protests which began in the summer have grown into a wider anti-government movement, with calls for the prime minister to resign following corruption allegations linked to his administration.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9b85/live/bbc9c4f0-ca6b-11f1-b2e2-233efb1fd43c.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crwydey50xeno",
-        "checkedAt": "2026-10-18T15:22:49.685Z",
-        "score": 59,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 20,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Anti-government protesters battle with police in Albania",
-        "originalSummary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
-      },
-      {
-        "id": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "title": "Cities want to put the boot on robotaxis",
-        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
-        "publishedAt": "2026-10-18T12:00:00.000Z",
-        "source": "The Verge",
-        "category": "Technology",
-        "coverage": "Source report",
-        "editorialText": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada). Nevada was ahead of the curve primarily due to lobbying: Google saw Nevada as prime testing ground for its prototypes, so it urged lawmakers to pass the law that allowed it to do so. The legislation even included a provision exempting drivers from text-messaging bans while the automated system was engaged. Back then, many states and cities welcomed self-driving cars with open arms, eager to be seen as future-forward",
-        "originalPublishedAt": "2026-10-18T12:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here. The first state to pass a law legalizing self-driving cars operating on public roads was Nevada in June 2011 — long before such vehicles were operating on public roads. This was three years before the introduction of Tesla’s Autopilot, five years before Waymo spun out of the Google self-driving car project, and seven years before the first commercial robotaxi service got underway (in Arizona, not Nevada).",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2270749481.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-        "checkedAt": "2026-10-18T15:19:35.649Z",
-        "score": 53.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Cities want to put the boot on robotaxis",
-        "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The first state to pass a law […]",
-        "whyMatters": null,
-        "carriedForward": false,
-        "olderReport": false,
-        "selectedEdition": "2026-10-18-am"
       }
     ],
     "selectedIds": [
-      "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
-      "https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html",
-      "https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals",
-      "https://www.theguardian.com/us-news/2026/oct/18/trump-dc-golf-course-renovation",
-      "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo"
+      "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
+      "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+      "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+      "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html"
     ]
   }
 }
