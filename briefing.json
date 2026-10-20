@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T15:33:54.178Z",
+  "fetchedAt": "2026-10-20T17:10:25.118Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
@@ -21,11 +21,11 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-20T15:33:54.178Z"
+      "checkedAt": "2026-10-20T17:10:25.118Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-20T15:33:54.178Z",
+      "checkedAt": "2026-10-20T17:10:25.118Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -52,61 +52,13 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-20-am",
         "leadUnchanged": false,
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "url": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
-        "summary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
-        "publishedAt": "2026-10-20T09:40:13.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://phys.org/rss-feed/",
-        "feedRank": 26,
-        "nytHomeLead": false,
-        "editorialText": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island. Officials declared success an hour later when the spacecraft separated as planned from the rocket's upper stage. Flight controllers burst into applause and jumped to their feet, shaking hands and embracing. While NASA has successfully landed nine spacecraft on Mars over the past 50 years and China scored a 2021 touchdown, no one has ever reached Phobos or its sidekick Deimos. And no one has managed to fetch samples from Mars, let alone its moons. If successful, bits of dust, soil and rocks from Phobos will arrive on Earth in 2031. \"There's a lot of adrenaline and a lot of excitement and",
-        "originalPublishedAt": "2026-10-20T09:40:13.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/japan-mars-moons-1.jpg",
-        "imageCaption": "An H3 rocket lifts off from the Tanegashima Space Center in Kagoshima prefecture, southern Japan, Tuesday, Oct. 20, 2026. Credit: Naoki Hiraoka/Kyodo News via AP",
-        "imageSourceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
-        "score": 50.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 20,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
-        "originalSummary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples.",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
-        "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
       },
@@ -138,7 +90,7 @@
         "imageUrl": null,
         "imageCaption": "The study is one of the most comprehensive demonstrations yet of how AI analysis of a selfie could help to assess a patient’s health and guide their medical care. Photograph: Addictive Stock Creatives/Alamy",
         "imageSourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -150,10 +102,58 @@
         "displayTitle": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
         "originalSummary": "System can estimate a person’s biological age and predict chances of cancer survival from a single photographDoctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face.The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. Continue reading...",
         "whyMatters": null,
-        "briefingSlot": 3,
+        "briefingSlot": 2,
         "slotLabel": "For you",
         "personalTopic": "everyday-tech",
         "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+        "summary": "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes. Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed.",
+        "publishedAt": "2026-10-20T12:33:13.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes. Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed. Muse, which Meta CEO Mark Zuckerberg said last month was “built from the ground up for privacy and security,” seems to take the same precautions. But a central design decision for constructing URLs has made the links easy to discover. As a result, researchers from security firm Claroc said they were able to enumerate 6,800 links Muse users created for sharing conversations with others. After",
+        "originalPublishedAt": "2026-10-20T12:33:13.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes. Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
+        "score": 71.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 60,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Meta Muse exposes users' personal and business secrets when they share conversations",
+        "originalSummary": "A single query is all that's required to find thousands of conversations listed by title.",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
         "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
@@ -234,7 +234,7 @@
         "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a834/live/7aae38a0-cc89-11f1-bed8-c51b95c602ec.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
         "score": 69.25,
         "dimensions": {
           "surprise": 75,
@@ -255,16 +255,16 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-20T15:33:54.178Z",
-    "checkedAt": "2026-10-20T15:33:54.178Z",
+    "fetchedAt": "2026-10-20T17:10:25.118Z",
+    "checkedAt": "2026-10-20T17:10:25.118Z",
     "sources": [
       "The Guardian",
-      "Business Insider",
-      "BBC News",
       "Phys.org",
       "Ars Technica",
-      "ScienceAlert",
+      "BBC News",
       "NPR",
+      "ScienceAlert",
+      "Business Insider",
       "The New York Times",
       "Higher Ed Dive",
       "ScienceDaily",
@@ -276,11 +276,11 @@
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 920,
+      "rawCandidates": 923,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 178,
-      "primaryDatesChecked": 27,
-      "rejected": 55,
+      "sourcePagesRead": 176,
+      "primaryDatesChecked": 24,
+      "rejected": 53,
       "rejectedCandidates": [
         {
           "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -288,13 +288,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Colombian Congress approves budget allocations, cuts funding to peace deal",
-          "url": "https://www.investing.com/news/economy-news/colombian-congress-approves-2011-billion-budget-for-2027-4959358",
+          "title": "Brazil’s Lula challenges Flavio Bolsonaro to make financial records public ahead of election",
+          "url": "https://www.investing.com/news/economy-news/brazils-lula-challenges-flavio-bolsonaro-to-make-financial-records-public-ahead-of-election-4960755",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Why is Loblaw stock climbing today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-loblaw-stock-climbing-today-93CH-4960637",
+          "title": "Star Equity at LD Micro: micro-cap roll-up aims for bigger scale",
+          "url": "https://www.investing.com/news/transcripts/star-equity-at-ld-micro-microcap-rollup-aims-for-bigger-scale-93CH-4960768",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -313,23 +313,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "A quantum pathway to entropy-free energy transfer",
-          "url": "https://phys.org/news/2026-10-quantum-pathway-entropy-free-energy.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
           "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/",
           "reason": "Unrecognized source-page host"
         },
         {
-          "title": "Swiss air traffic control operates at half capacity after technical fault",
-          "url": "https://www.investing.com/news/economy-news/swiss-air-traffic-control-operates-at-half-capacity-after-technical-fault-93CH-4960580",
+          "title": "Stocks mostly rise as oil, US yields ease; euro edges up",
+          "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "China criticizes US ban on DeepSeek AI from federal systems",
-          "url": "https://www.investing.com/news/stock-market-news/china-criticizes-us-ban-on-deepseek-ai-from-federal-systems-93CH-4960636",
+          "title": "Southern California Edison sets Nov. 30 claim deadline for Eaton Fire",
+          "url": "https://www.investing.com/news/company-news/southern-california-edison-sets-nov-30-claim-deadline-for-eaton-fire-93CH-4960767",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -353,13 +348,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Dollar dips on AI worries, euro edges up despite French unrest",
-          "url": "https://www.investing.com/news/economy-news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-4958627",
+          "title": "UK stocks slip as banks and commodity-linked stocks weigh",
+          "url": "https://www.investing.com/news/economy-news/ftse-100-slips-as-banks-weigh-defensive-stockslimit-decline-4959525",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Twilio reiterated as large-cap software top pick by BTIG",
-          "url": "https://www.investing.com/news/stock-market-news/twilio-reiterated-as-largecap-software-top-pick-by-btig-4960635",
+          "title": "Senegal bonds drop as assembly president rejects budget plan",
+          "url": "https://www.investing.com/news/stock-market-news/senegal-bonds-drop-as-assembly-president-rejects-budget-plan-93CH-4960764",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -378,13 +373,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Analysis-France’s unrest lays bare ’slow agony’ of Macron’s twilight months",
-          "url": "https://www.investing.com/news/economy-news/analysisfrances-unrest-lays-bare-slow-agony-of-macrons-twilight-months-4960559",
+          "title": "Quantum probability can't be derived without assuming it first",
+          "url": "https://phys.org/news/2026-10-quantum-probability-derived-assuming.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "French bond yields dip but remain near 24-year high in volatile trading",
+          "url": "https://www.investing.com/news/economy-news/french-bond-yields-near-24year-high-as-new-protests-loom-4959545",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Unconfirmed Qatar-Pakistan Iran peace proposal lifts stocks, weighs on oil",
-          "url": "https://www.investing.com/news/stock-market-news/unconfirmed-qatarpakistan-iran-peace-proposal-lifts-stocks-weighs-on-oil-4960631",
+          "title": "Raymond James raises Rapport Therapeutics price target on bipolar data",
+          "url": "https://www.investing.com/news/analyst-ratings/raymond-james-raises-rapport-therapeutics-price-target-on-bipolar-data-93CH-4960763",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -393,13 +393,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Brazil’s Bolsonaro courts events sector with pledge to restore tax breaks ahead of election",
-          "url": "https://www.investing.com/news/economy-news/brazils-bolsonaro-courts-events-sector-with-pledge-to-restore-tax-breaks-ahead-of-election-4960490",
+          "title": "US Social Security Agency corrects nearly 15% of records in database cleanup",
+          "url": "https://www.investing.com/news/economy-news/us-social-security-agency-corrects-nearly-15-of-records-in-database-cleanup-4960687",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Epicrispr at Chardan’s 10th Annual Healthcare Conference: early data impresses",
-          "url": "https://www.investing.com/news/transcripts/epicrispr-at-chardans-10th-annual-healthcare-conference-early-data-impresses-93CH-4960633",
+          "title": "Oppenheimer reiterates Eupraxia stock rating on EoE data",
+          "url": "https://www.investing.com/news/analyst-ratings/oppenheimer-reiterates-eupraxia-stock-rating-on-eoe-data-93CH-4960762",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -413,23 +413,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "The Human Fingerprint on Earth’s Water Cycle",
-          "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+          "title": "A quantum pathway to entropy-free energy transfer",
+          "url": "https://phys.org/news/2026-10-quantum-pathway-entropy-free-energy.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ancient wildfire study offers warning for a warming world",
-          "url": "https://phys.org/news/2026-10-ancient-wildfire-world.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Federal Reserve seen skipping Oct rate hike but hiking in Dec - Reuters poll",
-          "url": "https://www.investing.com/news/economy-news/federal-reserve-seen-skipping-oct-rate-hike-but-hiking-in-dec--reuters-poll-4960292",
+          "title": "European stocks extend slide as French protests dent risk appetite",
+          "url": "https://www.investing.com/news/economy-news/european-stocks-extend-slide-as-french-protests-dent-risk-appetite-4960644",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Myriad Genetics stock surges on $210M prenatal unit sale",
-          "url": "https://www.investing.com/news/stock-market-news/myriad-genetics-stock-surges-on-210m-prenatal-unit-sale-4960632",
+          "title": "TD Cowen holds Myriad Genetics stock rating on Labcorp sale",
+          "url": "https://www.investing.com/news/analyst-ratings/td-cowen-holds-myriad-genetics-stock-rating-on-labcorp-sale-93CH-4960760",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -438,24 +433,29 @@
           "reason": "Source article was unavailable or too short"
         },
         {
+          "title": "The Human Fingerprint on Earth’s Water Cycle",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
           "title": "Old Blood Cells Have Been Transformed Into Brain Stem Cells That Get Younger As They Age",
           "url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Human activity threatens biodiversity in remote Patagonian kelp forests",
-          "url": "https://phys.org/news/2026-10-human-threatens-biodiversity-remote-patagonian.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Shares down again as oil stays high; AI earnings in focus",
-          "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
+          "title": "Colombian Congress approves budget allocations, cuts funding to peace deal",
+          "url": "https://www.investing.com/news/economy-news/colombian-congress-approves-2011-billion-budget-for-2027-4959358",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Morocco stocks lower at close of trade; Moroccan All Shares down 0.07%",
-          "url": "https://www.investing.com/news/stock-market-news/morocco-stocks-lower-at-close-of-trade-moroccan-all-shares-down-007-4960630",
+          "title": "Evercore ISI reiterates Outperform on Salesforce stock at $290",
+          "url": "https://www.investing.com/news/analyst-ratings/evercore-isi-reiterates-outperform-on-salesforce-stock-at-290-93CH-4960761",
           "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Don't fall for this - how to protect yourself from AI scams",
+          "url": "https://www.bbc.co.uk/news/articles/c60rl1xvjv89o",
+          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "What is the Budget and what could be in it?",
@@ -463,23 +463,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
+          "title": "POV: Your girls' PE lesson gets a glow up",
+          "url": "https://www.bbc.co.uk/news/videos/cq4g1kz7l4d3o",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
           "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
           "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Surprising pattern emerges in reincarnation reports",
-          "url": "https://phys.org/news/2026-10-pattern-emerges-reincarnation.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "US homebuilding falls as mortgage rates climb to 7.40%",
-          "url": "https://www.investing.com/news/economy-news/us-homebuilding-falls-as-mortgage-rates-climb-to-740-93CH-4960110",
+          "title": "Swiss air traffic control operates at half capacity after technical fault",
+          "url": "https://www.investing.com/news/economy-news/swiss-air-traffic-control-operates-at-half-capacity-after-technical-fault-93CH-4960580",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Oil falls more than 2% after unconfirmed report of ’middle ground’ U.S.-Iran deal",
-          "url": "https://www.investing.com/news/commodities-news/oil-holds-near-fivemonth-high-as-hormuz-attacks-threaten-supply-recovery-4958615",
+          "title": "Zelenskiy meets Witkoff as US-Ukraine relations sink to new lows",
+          "url": "https://www.investing.com/news/stock-market-news/zelenskiy-to-meet-witkoff-as-trump-praises-russia-and-rebukes-ukraine-4959324",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -493,23 +493,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "ADHD Drugs May Reduce The Risk of Early Death, Major Study Finds",
-          "url": "https://www.sciencealert.com/adhd-drugs-may-reduce-the-risk-of-early-death-major-study-finds",
+          "title": "Drones help archaeologists find Aboriginal rock art sites hidden in Australia's rugged Blue Mountains",
+          "url": "https://phys.org/news/2026-10-drones-archaeologists-aboriginal-art-sites.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Study asks, Who benefits from where hospitals or landfills are located?",
-          "url": "https://phys.org/news/2026-10-benefits-hospitals-landfills.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Fed to skip October but raise rates again in December, nearly all economists say: Reuters poll",
-          "url": "https://www.investing.com/news/economy-news/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll-4960095",
+          "title": "Dollar dips on AI worries, euro edges up despite French unrest",
+          "url": "https://www.investing.com/news/economy-news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-4958627",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Starboard’s Smith unveils stake in Solstice, presses for improvements",
-          "url": "https://www.investing.com/news/stock-market-news/starboards-smith-unveils-stake-in-solstice-presses-for-improvements-4960628",
+          "title": "Choice hotels president & CEO Dominic Dragisich sells $137,424 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/choice-hotels-president--ceo-dominic-dragisich-sells-137424-in-shares-93CH-4960756",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -528,18 +523,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Locusts get a sensory assist from nanomaterials—helping them detect more chemicals",
-          "url": "https://phys.org/news/2026-10-locusts-sensory-nanomaterials-chemicals.html",
+          "title": "Marital breakups can also have long-term effects, and some are felt keenly in old age",
+          "url": "https://phys.org/news/2026-10-marital-breakups-term-effects-felt.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Bank of Israel to pause rate cuts ahead of October 27 election: Reuters poll",
-          "url": "https://www.investing.com/news/economy-news/bank-of-israel-to-pause-rate-cuts-ahead-of-october-27-election-reuters-poll-4959988",
+          "title": "Analysis-France’s unrest lays bare ’slow agony’ of Macron’s twilight months",
+          "url": "https://www.investing.com/news/economy-news/analysisfrances-unrest-lays-bare-slow-agony-of-macrons-twilight-months-4960559",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Old Second Bancorp declares $0.08 dividend payable November 9",
-          "url": "https://www.investing.com/news/sec-filings/old-second-bancorp-declares-008-dividend-payable-november-9-93CH-4960627",
+          "title": "Brent slips as Iran president discusses mediation with Pakistan army chief",
+          "url": "https://www.investing.com/news/commodities-news/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks-4958607",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -551,20 +546,15 @@
           "title": "Astronomers uncover new secrets of the Universe’s first five minutes",
           "url": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Peat bogs, the natural archives of mining fallout, reveal ancient Europe's hidden metal networks",
-          "url": "https://phys.org/news/2026-10-peat-bogs-natural-archives-fallout.html",
-          "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 10,
-      "eventDatesUnconfirmed": 50,
+      "eventDatesVerified": 12,
+      "eventDatesUnconfirmed": 48,
       "rejectionReasons": {
-        "The actual event/announcement is more than a week old": 25,
+        "The actual event/announcement is more than a week old": 21,
         "Provider returned HTTP 403": 20,
-        "Source article was unavailable or too short": 9,
+        "Source article was unavailable or too short": 11,
         "Unrecognized source-page host": 1
       },
       "targetCandidates": 20,
@@ -573,14 +563,14 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 23,
+          "candidates": 27,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 52,
+          "candidates": 51,
           "error": null
         },
         {
@@ -615,7 +605,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 23,
+          "candidates": 21,
           "error": null
         },
         {
@@ -671,7 +661,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 34,
+          "candidates": 36,
           "error": null
         },
         {
@@ -927,61 +917,13 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-20-am",
         "leadUnchanged": false,
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "url": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
-        "summary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
-        "publishedAt": "2026-10-20T09:40:13.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://phys.org/rss-feed/",
-        "feedRank": 26,
-        "nytHomeLead": false,
-        "editorialText": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island. Officials declared success an hour later when the spacecraft separated as planned from the rocket's upper stage. Flight controllers burst into applause and jumped to their feet, shaking hands and embracing. While NASA has successfully landed nine spacecraft on Mars over the past 50 years and China scored a 2021 touchdown, no one has ever reached Phobos or its sidekick Deimos. And no one has managed to fetch samples from Mars, let alone its moons. If successful, bits of dust, soil and rocks from Phobos will arrive on Earth in 2031. \"There's a lot of adrenaline and a lot of excitement and",
-        "originalPublishedAt": "2026-10-20T09:40:13.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/japan-mars-moons-1.jpg",
-        "imageCaption": "An H3 rocket lifts off from the Tanegashima Space Center in Kagoshima prefecture, southern Japan, Tuesday, Oct. 20, 2026. Credit: Naoki Hiraoka/Kyodo News via AP",
-        "imageSourceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
-        "score": 50.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 20,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
-        "originalSummary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples.",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
-        "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
       },
@@ -1013,7 +955,7 @@
         "imageUrl": null,
         "imageCaption": "The study is one of the most comprehensive demonstrations yet of how AI analysis of a selfie could help to assess a patient’s health and guide their medical care. Photograph: Addictive Stock Creatives/Alamy",
         "imageSourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -1025,10 +967,58 @@
         "displayTitle": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
         "originalSummary": "System can estimate a person’s biological age and predict chances of cancer survival from a single photographDoctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face.The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. Continue reading...",
         "whyMatters": null,
-        "briefingSlot": 3,
+        "briefingSlot": 2,
         "slotLabel": "For you",
         "personalTopic": "everyday-tech",
         "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+        "summary": "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes. Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed.",
+        "publishedAt": "2026-10-20T12:33:13.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes. Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed. Muse, which Meta CEO Mark Zuckerberg said last month was “built from the ground up for privacy and security,” seems to take the same precautions. But a central design decision for constructing URLs has made the links easy to discover. As a result, researchers from security firm Claroc said they were able to enumerate 6,800 links Muse users created for sharing conversations with others. After",
+        "originalPublishedAt": "2026-10-20T12:33:13.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes. Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
+        "score": 71.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 60,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Meta Muse exposes users' personal and business secrets when they share conversations",
+        "originalSummary": "A single query is all that's required to find thousands of conversations listed by title.",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
         "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
@@ -1109,7 +1099,7 @@
         "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a834/live/7aae38a0-cc89-11f1-bed8-c51b95c602ec.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
-        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "checkedAt": "2026-10-20T17:10:25.118Z",
         "score": 69.25,
         "dimensions": {
           "surprise": 75,
@@ -1125,6 +1115,54 @@
         "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "url": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+        "summary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
+        "publishedAt": "2026-10-20T09:40:13.000Z",
+        "source": "Phys.org",
+        "category": "Science",
+        "coverage": "Research reporting",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://phys.org/rss-feed/",
+        "feedRank": 26,
+        "nytHomeLead": false,
+        "editorialText": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island. Officials declared success an hour later when the spacecraft separated as planned from the rocket's upper stage. Flight controllers burst into applause and jumped to their feet, shaking hands and embracing. While NASA has successfully landed nine spacecraft on Mars over the past 50 years and China scored a 2021 touchdown, no one has ever reached Phobos or its sidekick Deimos. And no one has managed to fetch samples from Mars, let alone its moons. If successful, bits of dust, soil and rocks from Phobos will arrive on Earth in 2031. \"There's a lot of adrenaline and a lot of excitement and",
+        "originalPublishedAt": "2026-10-20T09:40:13.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/japan-mars-moons-1.jpg",
+        "imageCaption": "An H3 rocket lifts off from the Tanegashima Space Center in Kagoshima prefecture, southern Japan, Tuesday, Oct. 20, 2026. Credit: Naoki Hiraoka/Kyodo News via AP",
+        "imageSourceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "score": 50.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+        "originalSummary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples.",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "electronics-building",
+        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
         "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
@@ -2144,52 +2182,12 @@
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.nytimes.com/2026/10/17/us/no-kings-early-voting-midterms.html",
-        "url": "https://www.nytimes.com/2026/10/17/us/no-kings-early-voting-midterms.html",
-        "title": "New Round of ‘No Kings’ Rallies Focuses on Getting Out the Vote",
-        "summary": "With midterm elections approaching, organizers of the demonstrations known for their anti-Trump sentiment are urging people to vote early.",
-        "publishedAt": "2026-10-18T00:04:16.000Z",
-        "source": "The New York Times",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
-        "feedRank": 17,
-        "nytHomeLead": false,
-        "nytFeedSummary": true,
-        "sourcePageChecked": false,
-        "explanation": "With midterm elections approaching, organizers of the demonstrations known for their anti-Trump sentiment are urging people to vote early.",
-        "eventDate": null,
-        "eventDateVerified": false,
-        "summaryKind": "NYT public-feed summary · full article unavailable",
-        "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-18T18:06:12.070Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "New Round of ‘No Kings’ Rallies Focuses on Getting Out the Vote",
-        "originalSummary": "With midterm elections approaching, organizers of the demonstrations known for their anti-Trump sentiment are urging people to vote early.",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
       "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
-      "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
       "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+      "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
       "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
       "https://www.bbc.co.uk/news/articles/cm5ynkk570pno"
     ]
