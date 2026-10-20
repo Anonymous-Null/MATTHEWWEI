@@ -6,7 +6,7 @@
       "source": "The New York Times",
       "eventDate": null,
       "editionKey": "2026-10-19-pm",
-      "seenAt": "2026-10-20T00:22:22.090Z"
+      "seenAt": "2026-10-20T01:36:06.944Z"
     },
     "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks": {
       "id": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
@@ -15,7 +15,7 @@
       "eventDate": null,
       "eventRevision": null,
       "editionKey": "2026-10-19-pm",
-      "seenAt": "2026-10-20T00:22:22.090Z"
+      "seenAt": "2026-10-20T01:36:06.944Z"
     },
     "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10": {
       "id": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
@@ -24,7 +24,7 @@
       "eventDate": null,
       "eventRevision": null,
       "editionKey": "2026-10-19-pm",
-      "seenAt": "2026-10-20T00:22:22.090Z"
+      "seenAt": "2026-10-20T01:36:06.944Z"
     },
     "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html": {
       "id": "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html",
@@ -1075,7 +1075,7 @@
       "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
       "title": "Trump Rallies Red States Amid Fears About G.O.P. Voter Enthusiasm as Midterms Near",
       "summary": "The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.",
-      "publishedAt": "2026-10-19T21:04:40.000Z",
+      "publishedAt": "2026-10-20T01:22:57.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -1090,7 +1090,7 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-20T00:22:22.090Z",
+      "checkedAt": "2026-10-20T01:36:06.944Z",
       "briefingSlot": 1,
       "slotLabel": "NYT lead",
       "personalTopic": null,
@@ -1128,7 +1128,7 @@
       "imageUrl": "https://i.guim.co.uk/img/media/8b8c7baa851530aa5cc92126c0aa8893b34bf1b7/0_63_3016_2414/master/3016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=836c99cbed5d9b97809fd0edb5367a5a",
       "imageCaption": "",
       "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-      "checkedAt": "2026-10-20T00:22:22.090Z",
+      "checkedAt": "2026-10-20T01:36:06.944Z",
       "score": 68,
       "dimensions": {
         "surprise": 90,
@@ -1169,10 +1169,10 @@
       "majorUpdateVerified": false,
       "explanation": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise.",
       "summaryKind": "Publisher summary",
-      "imageUrl": "https://i.insider.com/6acf250ae50b02f612be300c?width=1200&format=jpeg",
+      "imageUrl": "https://i.insider.com/6ad6b86be50b02f612be50f0?width=1200&format=jpeg",
       "imageCaption": "",
       "imageSourceUrl": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
-      "checkedAt": "2026-10-20T00:22:22.090Z",
+      "checkedAt": "2026-10-20T01:36:06.944Z",
       "score": 54,
       "dimensions": {
         "surprise": 90,
