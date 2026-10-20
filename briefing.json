@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-19T17:20:45.137Z",
+  "fetchedAt": "2026-10-20T00:22:22.090Z",
   "news": {
     "nytLead": {
-      "id": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html",
-      "url": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html",
-      "title": "France Officials Acknowledge ‘Failure’ Around Riots",
-      "summary": "Prime Minister Sébastien Lecornu defended police efforts and pledged to restore order as government ministers acknowledged failures.",
-      "publishedAt": "2026-10-19T15:29:08.000Z",
+      "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
+      "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
+      "title": "Trump Rallies Red States Amid Fears About G.O.P. Voter Enthusiasm as Midterms Near",
+      "summary": "The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.",
+      "publishedAt": "2026-10-19T21:04:40.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -16,28 +16,28 @@
       "nytHomeLead": true,
       "nytFeedSummary": true,
       "sourcePageChecked": false,
-      "explanation": "Prime Minister Sébastien Lecornu defended police efforts and pledged to restore order as government ministers acknowledged failures.",
+      "explanation": "The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.",
       "eventDate": null,
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-19T17:20:45.137Z"
+      "checkedAt": "2026-10-20T00:22:22.090Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-19T17:20:45.137Z",
+      "checkedAt": "2026-10-20T00:22:22.090Z",
       "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
-    "editionKey": "2026-10-19-am",
+    "editionKey": "2026-10-19-pm",
     "stories": [
       {
-        "id": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html",
-        "url": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html",
-        "title": "France Officials Acknowledge ‘Failure’ Around Riots",
-        "summary": "Prime Minister Sébastien Lecornu defended police efforts and pledged to restore order as government ministers acknowledged failures.",
-        "publishedAt": "2026-10-19T15:29:08.000Z",
+        "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
+        "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
+        "title": "Trump Rallies Red States Amid Fears About G.O.P. Voter Enthusiasm as Midterms Near",
+        "summary": "The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.",
+        "publishedAt": "2026-10-19T21:04:40.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -47,111 +47,119 @@
         "nytHomeLead": true,
         "nytFeedSummary": true,
         "sourcePageChecked": false,
-        "explanation": "Prime Minister Sébastien Lecornu defended police efforts and pledged to restore order as government ministers acknowledged failures.",
+        "explanation": "The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-19T17:20:45.137Z",
+        "checkedAt": "2026-10-20T00:22:22.090Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-19-am",
-        "leadUnchanged": true,
+        "selectedEdition": "2026-10-19-pm",
+        "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.businessinsider.com/smoke-signals-dangerous-fatalism-of-agi-silicon-valley-2026-10",
-        "url": "https://www.businessinsider.com/smoke-signals-dangerous-fatalism-of-agi-silicon-valley-2026-10",
-        "title": "Smoke signals: The dangerous fatalism of AGI in Silicon Valley",
-        "summary": "The dangerous fatalism of AGI in Silicon Valley By Aki Ito You're currently following this author! Click to unsubscribe from email alerts. 2026-10-19T08:11:01.270Z Read in app Last week, Palantir CTO Shyam Sankar mentioned something bizarre in an interview on CBS News. \"So many AI researchers have started smoking as a way of signaling to other researchers how much they believe in AI,\" he said. Their thinking, he said, goes like this: \"I believe so much in AI that it's going to cure cancer. So I'm showing you my chips are all in.\" I laughed as I read the quote. It read like a headline in The Onion, mocking the blind optimism of the AI-pilled.",
-        "publishedAt": "2026-10-19T08:11:01.270Z",
-        "source": "Business Insider",
-        "category": "Technology",
-        "discovery": "Publisher section",
-        "editorialText": "The dangerous fatalism of AGI in Silicon Valley By Aki Ito You're currently following this author! Click to unsubscribe from email alerts. 2026-10-19T08:11:01.270Z Read in app Last week, Palantir CTO Shyam Sankar mentioned something bizarre in an interview on CBS News. \"So many AI researchers have started smoking as a way of signaling to other researchers how much they believe in AI,\" he said. Their thinking, he said, goes like this: \"I believe so much in AI that it's going to cure cancer. So I'm showing you my chips are all in.\" I laughed as I read the quote. It read like a headline in The Onion, mocking the blind optimism of the AI-pilled. But then I felt sad and worried for them. Are they smoking because they believe AI is saving the world, I wondered, or because they believe AI is ending it? It's been an especially alarming few months here in San Francisco. OpenAI's bots went rogue and hacked another company, and then an Anthropic researcher quit, warning that AI could wipe out the human race. It seemed",
-        "originalPublishedAt": "2026-10-19T08:11:01.270Z",
+        "id": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+        "url": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+        "title": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
+        "summary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
+        "publishedAt": "2026-10-19T23:37:57.000Z",
+        "source": "The Guardian",
+        "category": "Science",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
+        "feedRank": 8,
+        "nytHomeLead": false,
+        "editorialText": "Japan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth. The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. The spacecraft is expected to reach Mars’s orbit in August next year and collect at least 10g of soil and rock from the surface of Phobos, one of two small, potato-shaped moons orbiting the planet. It is scheduled to return in 2031, Jaxa said. The pock-marked moon, which has a diameter measuring 14 miles (22.5km), orbits Mars three times a day about 6,000km above its surface. The flagship H3 rocket carrying the unmanned probe blasted off into a pitch black sky from Tanegashima Space Centre at 4:41am, witnessed by thousands of people who had woken up early to follow a livestream. An hour later, Jaxa scientists declared the launch a success when the",
+        "originalPublishedAt": "2026-10-19T23:37:57.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.businessinsider.com/smoke-signals-dangerous-fatalism-of-agi-silicon-valley-2026-10",
+        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "The dangerous fatalism of AGI in Silicon Valley By Aki Ito You're currently following this author! Click to unsubscribe from email alerts. 2026-10-19T08:11:01.270Z Read in app Last week, Palantir CTO Shyam Sankar mentioned something bizarre in an interview on CBS News. \"So many AI researchers have started smoking as a way of signaling to other researchers how much they believe in AI,\" he said. Their thinking, he said, goes like this: \"I believe so much in AI that it's going to cure cancer. So I'm showing you my chips are all in.\" I laughed as I read the quote. It read like a headline in The Onion, mocking the blind optimism of the AI-pilled.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.insider.com/6ad26b2fadb77227909a67d4?width=1200&format=jpeg",
+        "explanation": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.guim.co.uk/img/media/8b8c7baa851530aa5cc92126c0aa8893b34bf1b7/0_63_3016_2414/master/3016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=836c99cbed5d9b97809fd0edb5367a5a",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.businessinsider.com/smoke-signals-dangerous-fatalism-of-agi-silicon-valley-2026-10",
-        "checkedAt": "2026-10-19T17:20:45.137Z",
-        "score": 86,
+        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+        "checkedAt": "2026-10-20T00:22:22.090Z",
+        "score": 68,
         "dimensions": {
           "surprise": 90,
-          "consequence": 80,
-          "novelty": 85,
-          "relevance": 90
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Smoke signals: The dangerous fatalism of AGI in Silicon Valley",
-        "originalSummary": "The dangerous fatalism of AGI in Silicon Valley By Aki Ito You're currently following this author! Click to unsubscribe from email alerts. 2026-10-19T08:11:01.270Z Read in app Last week, Palantir CTO Shyam Sankar mentioned something bizarre in an interview on CBS News. \"So many AI researchers have started smoking as a way of signaling to other researchers how much they believe in AI,\" he said. Their thinking, he said, goes like this: \"I believe so much in AI that it's going to cure cancer. So I'm showing you my chips are all in.\" I laughed as I read the quote. It read like a headline in The Onion, mocking the blind optimism of the AI-pilled.",
+        "displayTitle": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
+        "originalSummary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 2,
         "slotLabel": "For you",
-        "personalTopic": "ai-computing",
-        "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-19-am",
+        "personalTopic": "aviation-space",
+        "whyForYou": "Aviation, space, and aerospace engineering.",
+        "selectedEdition": "2026-10-19-pm",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.nytimes.com/2026/10/19/us/politics/supreme-court-race-school-admissions.html",
-        "url": "https://www.nytimes.com/2026/10/19/us/politics/supreme-court-race-school-admissions.html",
-        "title": "Supreme Court to Hear New Case on Race and School Admissions",
-        "summary": "The court’s decision to review an admissions policy for selective middle school programs in Maryland follows its rejection of affirmative action in higher education.",
-        "publishedAt": "2026-10-19T16:48:23.000Z",
-        "source": "The New York Times",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "nytFeedSummary": true,
-        "sourcePageChecked": false,
-        "explanation": "The court’s decision to review an admissions policy for selective middle school programs in Maryland follows its rejection of affirmative action in higher education.",
+        "id": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "url": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "title": "Amazon's $220 billion AI bet tests the limits of its empire",
+        "summary": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise.",
+        "publishedAt": "2026-10-19T09:00:01.265Z",
+        "source": "Business Insider",
+        "category": "Technology",
+        "discovery": "Publisher section",
+        "editorialText": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise. Amazon's machine-learning and AI business is \"hugely free cash flow negative,\" he said, adding that he expects the company's free cash flow to remain negative for \"the next couple of years or so.\" Amazon has made big bets before. It spent heavily on cloud computing, fulfillment centers, and its delivery network long before they became some of the company's most valuable assets. Investors questioned those investments",
+        "originalPublishedAt": "2026-10-19T09:00:01.265Z",
+        "sourcePageChecked": true,
         "eventDate": null,
+        "eventKind": null,
         "eventDateVerified": false,
-        "summaryKind": "NYT public-feed summary · full article unavailable",
-        "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-19T17:20:45.137Z",
-        "score": 48.75,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise.",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.insider.com/6acf250ae50b02f612be300c?width=1200&format=jpeg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "checkedAt": "2026-10-20T00:22:22.090Z",
+        "score": 54,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
+          "surprise": 90,
+          "consequence": 20,
           "novelty": 15,
           "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Supreme Court to Hear New Case on Race and School Admissions",
-        "originalSummary": "The court’s decision to review an admissions policy for selective middle school programs in Maryland follows its rejection of affirmative action in higher education.",
+        "displayTitle": "Amazon's $220 billion AI bet tests the limits of its empire",
+        "originalSummary": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise.",
         "whyMatters": null,
         "briefingSlot": 3,
         "slotLabel": "For you",
-        "personalTopic": "college-access",
-        "whyForYou": "Engineering college plans, college costs, scholarships, or research opportunities.",
-        "selectedEdition": "2026-10-19-am",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-19-pm",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
-        "title": "Trump DoJ announces arrests of 28 green card holders in California on noncitizen voting related charges – live",
-        "summary": "From 20m ago The Department of Justice has announced the arrest of 28 legal permanent residents or green card holders in California “who are charged in criminal complaints with federal crimes, including that they fraudulently registered to vote in US elections, electoral contests in which most of them cast illegal and fraudulently obtained ballots”. (A reminder that, as the DoJ press release says, these are allegations, and not yet proven.) Ahead of next month’s midterms, the Trump administration has escalated its fight with the Golden state, warning on Friday that local officials who process and tabulate ballots submitted by suspected noncitizen voters are putting themselves at risk of criminal investigation and potential prosecution.",
-        "publishedAt": "2026-10-19T17:11:16.000Z",
+        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "publishedAt": "2026-10-18T19:00:02.000Z",
         "source": "The Guardian",
         "category": "U.S.",
         "coverage": "Source report",
@@ -159,62 +167,70 @@
         "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
         "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "From 20m ago The Department of Justice has announced the arrest of 28 legal permanent residents or green card holders in California “who are charged in criminal complaints with federal crimes, including that they fraudulently registered to vote in US elections, electoral contests in which most of them cast illegal and fraudulently obtained ballots”. (A reminder that, as the DoJ press release says, these are allegations, and not yet proven.) Ahead of next month’s midterms, the Trump administration has escalated its fight with the Golden state, warning on Friday that local officials who process and tabulate ballots submitted by suspected noncitizen voters are putting themselves at risk of criminal investigation and potential prosecution. That threat came just a day after the administration sued California to prevent it from counting mail-in ballots from people the federal government has allegedly identified as “likely” noncitizens until their immigration status can be confirmed. As my colleague Sam Levine reported on Thursday, the suit came two days after the DoJ made a specious demand to the state. On Tuesday, the department sent election officials in",
-        "originalPublishedAt": "2026-10-19T17:11:16.000Z",
+        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
+        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "From 20m ago The Department of Justice has announced the arrest of 28 legal permanent residents or green card holders in California “who are charged in criminal complaints with federal crimes, including that they fraudulently registered to vote in US elections, electoral contests in which most of them cast illegal and fraudulently obtained ballots”. (A reminder that, as the DoJ press release says, these are allegations, and not yet proven.) Ahead of next month’s midterms, the Trump administration has escalated its fight with the Golden state, warning on Friday that local officials who process and tabulate ballots submitted by suspected noncitizen voters are putting themselves at risk of criminal investigation and potential prosecution.",
+        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/c461cd7626b23f29f5e52a28e63f6f6a156de1ec/1176_0_5883_4706/master/5883.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=65f2db360251d55315e496ab85cb6450",
-        "imageCaption": "Department of elections workers sorting mail-in ballots for the California primary election in June 2026. The Department of Justice is escalating its actions against the state over alleged voter fraud. Photograph: Jeff Chiu/AP",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
-        "checkedAt": "2026-10-19T17:20:45.137Z",
-        "score": 36.75,
+        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "checkedAt": "2026-10-18T19:06:25.150Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Trump DoJ announces arrests of 28 green card holders in California on noncitizen voting related charges – live",
-        "originalSummary": "Latest action on alleged voter fraud comes as administration escalates its fight with state as midterms loomSign up for US Breaking News emailA new Washington Post-ABC poll shows that Donald Trump’s approval rating has reached a new low – 33%.This comes, just over two weeks away from the November midterms, as the president continues crisscrossing the country as part of his campaign blitz for embattled Republicans. Continue reading...",
+        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-19-am",
-        "carriedForward": false,
+        "selectedEdition": "2026-10-19-pm",
+        "carriedForward": true,
         "olderReport": false
       },
       {
-        "id": "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html",
-        "url": "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html",
-        "title": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal",
-        "summary": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
-        "publishedAt": "2026-10-19T00:05:08.000Z",
-        "source": "The New York Times",
-        "category": "U.S.",
+        "id": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+        "summary": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
+        "publishedAt": "2026-10-18T22:10:45.113Z",
+        "source": "BBC News",
+        "category": "World",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
-        "feedRank": 14,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 3,
         "nytHomeLead": false,
-        "nytFeedSummary": true,
-        "sourcePageChecked": false,
-        "explanation": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
+        "editorialText": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\". Russian envoy Kirill Dmitriev has responded to Trump's order by calling it \"an important and truly historic moment\", and saying the sanctions would have inflicted \"serious damage\" on the US and global market. Trump also claimed in his Truth Social post that Zelensky \"doesn't want to end this war, and probably never did\", adding \"he could have made a better deal two years ago than he can now\". Zelensky has pushed for an end",
+        "originalPublishedAt": "2026-10-18T22:10:45.113Z",
+        "sourcePageChecked": true,
         "eventDate": null,
+        "eventKind": null,
         "eventDateVerified": false,
-        "summaryKind": "NYT public-feed summary · full article unavailable",
-        "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-19T17:20:45.137Z",
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4644/live/461bcc30-cb38-11f1-8a27-2de4c72fadc2.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "checkedAt": "2026-10-18T23:15:00.686Z",
         "score": 76.75,
         "dimensions": {
           "surprise": 85,
@@ -223,63 +239,59 @@
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Trump Defends Plans to Ease Russia Sanctions and Hints at a Hostage Deal",
-        "originalSummary": "The president on Sunday justified his reversal of almost five years of sanctions against Russia as part of peace negotiations. He did not name any hostage.",
+        "displayTitle": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+        "originalSummary": "The US president blocked numerous sanctions on Russia two days before they were due to take effect.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-19-am",
-        "carriedForward": false,
+        "selectedEdition": "2026-10-19-pm",
+        "carriedForward": true,
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-19T17:20:45.137Z",
-    "checkedAt": "2026-10-19T17:20:45.137Z",
+    "fetchedAt": "2026-10-20T00:22:22.090Z",
+    "checkedAt": "2026-10-20T00:22:22.090Z",
     "sources": [
-      "Business Insider",
-      "Phys.org",
-      "The New York Times",
-      "BBC News",
-      "ScienceDaily",
-      "The Verge",
       "The Guardian",
+      "ScienceDaily",
+      "BBC News",
+      "The Verge",
+      "Phys.org",
       "Higher Ed Dive",
-      "IEEE Spectrum",
+      "Business Insider",
+      "MIT News",
+      "The New York Times",
+      "NPR",
       "Ars Technica",
       "ScienceAlert",
-      "NPR",
-      "NASA"
+      "NASA",
+      "IEEE Spectrum"
     ],
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 903,
+      "rawCandidates": 912,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 178,
-      "primaryDatesChecked": 32,
-      "rejected": 68,
+      "sourcePagesRead": 177,
+      "primaryDatesChecked": 30,
+      "rejected": 56,
       "rejectedCandidates": [
         {
-          "title": "Nasdaq climbs over 1% as AI-linked stocks recover ahead of key earnings",
+          "title": "Nasdaq climbs as chip and AI-linked stocks bounce back",
           "url": "https://www.investing.com/news/economy-news/wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall-4956777",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Blue Owl Capital Corp stock hits 52-week low at 9.81 USD",
-          "url": "https://www.investing.com/news/company-news/blue-owl-capital-corp-stock-hits-52week-low-at-981-usd-93CH-4958087",
+          "title": "Honeywell Aerospace sees business aviation growth on rising aircraft use",
+          "url": "https://www.investing.com/news/stock-market-news/honeywell-aerospace-sees-business-aviation-growth-on-rising-aircraft-use-4958553",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "The University of Nevada now offers students the opportunity to minor in mariachi",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-5995179/the-university-of-nevada-now-offers-students-the-opportunity-to-minor-in-mariachi",
+          "title": "Schools struggle to measure how much AI experiments are helping",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-5991881/schools-struggle-to-measure-how-much-ai-experiments-are-helping",
           "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Huge DMV data breach impacted current and former Florida residents",
-          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
-          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
@@ -287,13 +299,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "New Form of Superconductor Behavior Discovered That We've Never Seen Before",
-          "url": "https://www.sciencealert.com/new-form-of-superconductor-behavior-discovered-that-weve-never-seen-before",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Scientists redetermine a key strontium frequency with 50 times better precision for quantum technologies",
-          "url": "https://phys.org/news/2026-10-scientists-redetermine-key-strontium-frequency.html",
+          "title": "The Universe Seems to Be Stuck in Place by a Strange Quantum Phenomenon",
+          "url": "https://www.sciencealert.com/the-universe-seems-to-be-stuck-in-place-by-a-strange-quantum-phenomenon",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -302,13 +309,43 @@
           "reason": "Unrecognized source-page host"
         },
         {
-          "title": "TSX slips as hotter inflation revives rate concerns, oil prices retreat",
-          "url": "https://www.investing.com/news/economy-news/tsx-slips-as-hotter-inflation-revives-rate-concerns-oil-prices-retreat-4958049",
+          "title": "Trading Day: AI storm abates",
+          "url": "https://www.investing.com/news/economy-news/trading-day-ai-storm-abates-4958391",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Truist previews lodging sector earnings, adjusts estimates",
-          "url": "https://www.investing.com/news/stock-market-news/truist-previews-lodging-sector-earnings-adjusts-estimates-4958085",
+          "title": "Waymo plans to quintuple fleet to 20,000, Semafor reports",
+          "url": "https://www.investing.com/news/stock-market-news/waymo-plans-to-quintuple-fleet-to-20000-semafor-reports-4958528",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "What time is it on the moon?",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6003578/what-time-is-it-on-the-moon",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "The University of Nevada now offers students the opportunity to minor in mariachi",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5995179/the-university-of-nevada-now-offers-students-the-opportunity-to-minor-in-mariachi",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "New Form of Superconductor Behavior Discovered That We've Never Seen Before",
+          "url": "https://www.sciencealert.com/new-form-of-superconductor-behavior-discovered-that-weve-never-seen-before",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Indonesia faces rare MSCI exclusion that could cut it off from global capital",
+          "url": "https://www.investing.com/news/economy-news/indonesia-faces-rare-msci-exclusion-that-could-cut-it-off-from-global-capital-4956189",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "AGNC Investment earnings missed, revenue topped estimates",
+          "url": "https://www.investing.com/news/earnings/agnc-investment-earnings-missed-revenue-topped-estimates-4958555",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -322,58 +359,43 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "What time is it on the moon?",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6003578/what-time-is-it-on-the-moon",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Best of Both Worlds: 'Hybrid' Quantum Computers Could Be Just Around The Corner, Researchers Say",
-          "url": "https://www.sciencealert.com/best-of-both-worlds-hybrid-quantum-computers-could-be-just-around-the-corner-researchers-say",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Researchers use artificial intelligence to design potential antiviral compounds",
-          "url": "https://phys.org/news/2026-10-artificial-intelligence-potential-antiviral-compounds.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "FTC sues to block Platinum Equity playground equipment deal",
-          "url": "https://www.investing.com/news/economy-news/ftc-sues-to-block-platinum-equity-playground-equipment-deal-93CH-4958036",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "France urges curfews in some areas after weekend of riots",
-          "url": "https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
-          "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
           "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "ADHD Drugs May Reduce The Risk of Early Death, Major Study Finds",
-          "url": "https://www.sciencealert.com/adhd-drugs-may-reduce-the-risk-of-early-death-major-study-finds",
+          "title": "Old Blood Cells Have Been Transformed Into Brain Stem Cells That Get Younger As They Age",
+          "url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Europe’s electric car sales jump 70% in September",
-          "url": "https://www.investing.com/news/economy-news/europes-electric-car-sales-jump-70-in-september-93CH-4958017",
+          "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
+          "url": "https://www.investing.com/news/economy-news/fed-sees-ai-boom-adding-to-inflation-headache-but-others-may-pay-for-the-medicine-4956834",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "US stocks rebound with AI earnings test ahead; French markets tumble",
-          "url": "https://www.investing.com/news/stock-market-news/asian-stocks-skid-wall-street-and-bonds-aided-by-oil-slip-4956176",
+          "title": "Cathie Wood’s ARK sells Palantir and Shopify stock, buys CoreWeave",
+          "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-palantir-and-shopify-stock-buys-coreweave-93CH-4958554",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists are growing human brain tissue in living mice—could this make their welfare harder to assess?",
+          "url": "https://phys.org/news/2026-10-scientists-human-brain-tissue-mice.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brazil’s government says $4 billion budget reshuffle needed for Lula measures in 2027",
+          "url": "https://www.investing.com/news/economy-news/brazils-government-says-4-billion-budget-reshuffle-needed-for-lula-measures-in-2027-4958115",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Whirlpool appoints former Vanguard executive to board",
+          "url": "https://www.investing.com/news/company-news/whirlpool-appoints-former-vanguard-executive-to-board-93CH-4958541",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -382,28 +404,23 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+          "title": "Scientists discover a natural compound that could protect the brain from too much salt",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Autumn Paints Poland’s Bieszczady Mountains",
-          "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/",
+          "title": "ADHD Drugs May Reduce The Risk of Early Death, Major Study Finds",
+          "url": "https://www.sciencealert.com/adhd-drugs-may-reduce-the-risk-of-early-death-major-study-finds",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Probiotics May Protect From Signs of Early Cognitive Decline, Clinical Trial Finds",
-          "url": "https://www.sciencealert.com/probiotics-may-protect-from-signs-of-early-cognitive-decline-clinical-trial-finds",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "French markets tumble as riots add to political crisis",
-          "url": "https://www.investing.com/news/economy-news/french-markets-tumble-as-riots-add-to-political-crisis-4958015",
+          "title": "Brazil budget shifts 1% of spending for election measures",
+          "url": "https://www.investing.com/news/economy-news/brazil-budget-shifts-1-of-spending-for-election-measures-93CH-4958108",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Venezuela oilfield hiring picks up as first wave of investment builds",
-          "url": "https://www.investing.com/news/commodities-news/venezuela-oilfield-hiring-picks-up-as-first-wave-of-investment-builds-4958083",
+          "title": "Disney EVP Brent Woodford sells $318,958 in company stock",
+          "url": "https://www.investing.com/news/insider-trading-news/disney-evp-brent-woodford-sells-318958-in-company-stock-93CH-4958539",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -417,23 +434,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Scientists discover a natural compound that could protect the brain from too much salt",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+          "title": "Probiotics May Protect From Signs of Early Cognitive Decline, Clinical Trial Finds",
+          "url": "https://www.sciencealert.com/probiotics-may-protect-from-signs-of-early-cognitive-decline-clinical-trial-finds",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "How Many Steps a Day Does It Take to Sharpen Your Attention? A 14-Year Study Hints at The Range",
-          "url": "https://www.sciencealert.com/how-many-steps-a-day-does-it-take-to-sharpen-your-attention-a-14-year-study-hints-at-the-range",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Hassett says inflation \"needing some work\"",
-          "url": "https://www.investing.com/news/economy-news/hassett-says-inflation-needing-some-work-4957964",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Amazon unveils tool to run AI code on custom chips",
-          "url": "https://www.investing.com/news/company-news/amazon-unveils-tool-to-run-ai-code-on-custom-chips-93CH-4958084",
+          "title": "TSX slips as hotter inflation revives rate concerns, oil prices retreat",
+          "url": "https://www.investing.com/news/economy-news/tsx-slips-as-hotter-inflation-revives-rate-concerns-oil-prices-retreat-4958049",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -442,33 +449,33 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
-          "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "China warns UK against following EU on electric vehicle restrictions",
-          "url": "https://www.investing.com/news/economy-news/china-warns-uk-against-following-eu-on-electric-vehicle-restrictions-93CH-4957949",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Cleveland-Cliffs options activity after Q3 earnings beat",
-          "url": "https://www.investing.com/news/stock-market-news/clevelandcliffs-options-activity-after-q3-earnings-beat-93CH-4958081",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
           "title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
           "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "A Saline Injection Could Offer Longer Relief From Carpal Tunnel Pain",
-          "url": "https://www.sciencealert.com/a-saline-injection-could-offer-longer-relief-from-carpal-tunnel-pain",
+          "title": "How Many Steps a Day Does It Take to Sharpen Your Attention? A 14-Year Study Hints at The Range",
+          "url": "https://www.sciencealert.com/how-many-steps-a-day-does-it-take-to-sharpen-your-attention-a-14-year-study-hints-at-the-range",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "FTC sues to block Platinum Equity playground equipment deal",
+          "url": "https://www.investing.com/news/economy-news/ftc-sues-to-block-platinum-equity-playground-equipment-deal-93CH-4958036",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "TransUnion EVP Abdelsadek sells $64,775 in stock",
+          "url": "https://www.investing.com/news/insider-trading-news/transunion-evp-abdelsadek-sells-64775-in-stock-93CH-4958527",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Scientists discover that male and female skin play by different rules",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261017230020.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Autumn Paints Poland’s Bieszczady Mountains",
+          "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -477,23 +484,43 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Canada inflation breaches BoC target as gasoline prices surge",
-          "url": "https://www.investing.com/news/economy-news/canada-inflation-breaches-boc-target-as-gasoline-prices-surge-4957777",
+          "title": "Europe’s electric car sales jump 70% in September",
+          "url": "https://www.investing.com/news/economy-news/europes-electric-car-sales-jump-70-in-september-93CH-4958017",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Christiane Amanpour to leave CNN after four decades as Ellison era begins",
-          "url": "https://www.investing.com/news/stock-market-news/christiane-amanpour-to-leave-cnn-after-four-decades-as-ellison-era-begins-4958080",
+          "title": "Cloudflare director Carl Ledbetter sells $1.52m in stock",
+          "url": "https://www.investing.com/news/insider-trading-news/cloudflare-director-carl-ledbetter-sells-152m-in-stock-93CH-4958521",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Iowa's vote in midterms may help determine balance of power in Congress",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6003962/iowas-vote-in-midterms-may-help-determine-balance-of-power-in-congress",
-          "reason": "Source article was unavailable or too short"
+          "title": "Florida DMV hacked after police dept insecurely stored login info",
+          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists discover that male and female skin play by different rules",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230020.htm",
+          "title": "Scientists find a youth protein that helps aging brain cells act young again",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "A Saline Injection Could Offer Longer Relief From Carpal Tunnel Pain",
+          "url": "https://www.sciencealert.com/a-saline-injection-could-offer-longer-relief-from-carpal-tunnel-pain",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "French markets tumble as riots add to political crisis",
+          "url": "https://www.investing.com/news/economy-news/french-markets-tumble-as-riots-add-to-political-crisis-4958015",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Cloudflare CFO Thomas Seifert sells $3.7m in company stock",
+          "url": "https://www.investing.com/news/insider-trading-news/cloudflare-cfo-thomas-seifert-sells-37m-in-company-stock-93CH-4958520",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Fatty liver disease is actually five different conditions, scientists discover",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070642.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -502,63 +529,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Canada’s annual inflation rate rose to 3.1% in September",
-          "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-rose-to-31-in-september-4957385",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "European stocks drop amid political turmoil in France",
-          "url": "https://www.investing.com/news/stock-market-news/european-stocks-start-week-on-dour-note-on-french-civil-unrest-4956419",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "President Trump's widening stamp on D.C. landmarks",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6001826/president-trumps-widening-stamp-on-d-c-landmarks",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Scientists find a youth protein that helps aging brain cells act young again",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Giving AI a 'crystal clear' view of the materials world by mapping geometry to text",
-          "url": "https://phys.org/news/2026-10-ai-crystal-view-materials-world.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Analysis-France’s unrest lays bare ’slow agony’ of Macron’s twilight months",
-          "url": "https://www.investing.com/news/economy-news/analysisfrances-unrest-lays-bare-slow-agony-of-macrons-twilight-months-4957694",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Evaxion stock surges on 3-year melanoma vaccine trial data",
-          "url": "https://www.investing.com/news/stock-market-news/evaxion-stock-surges-on-3year-melanoma-vaccine-trial-data-4958076",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "What is the Budget and what could be in it?",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Biking along the Great American Rail-Trail",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-5973071/biking-along-the-great-american-rail-trail",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Fatty liver disease is actually five different conditions, scientists discover",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070642.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "New Genus of Nightmare Spaghetti Worms Found Deep Under The Indian Ocean",
-          "url": "https://www.sciencealert.com/new-genus-of-nightmare-spaghetti-worms-found-deep-under-the-indian-ocean",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "'24/7 unmanned synthesis platform' uses robots and light to produce drug candidates",
-          "url": "https://phys.org/news/2026-10-unmanned-synthesis-platform-robots-drug.html",
+          "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
+          "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -567,13 +539,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "X-rays reveal surprisingly long-lived spin waves in copper oxide",
-          "url": "https://phys.org/news/2026-10-rays-reveal-copper-oxide.html",
+          "title": "Forgotten particle could answer mystery of why we exist, say physicists",
+          "url": "https://phys.org/news/2026-10-forgotten-particle-mystery-physicists.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -582,33 +549,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
+          "title": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
           "title": "Something strange is happening beneath a volcano near 2 million people",
           "url": "https://www.sciencedaily.com/releases/2026/10/261018205039.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Modern neuroscience is rediscovering a surprising idea freud had 130 years ago",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018084028.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230036.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "How plants unwittingly help fungal pathogens",
-          "url": "https://phys.org/news/2026-10-unwittingly-fungal-pathogens.html",
           "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 10,
-      "eventDatesUnconfirmed": 50,
+      "eventDatesVerified": 16,
+      "eventDatesUnconfirmed": 44,
       "rejectionReasons": {
-        "Provider returned HTTP 403": 20,
-        "Source article was unavailable or too short": 12,
-        "The actual event/announcement is more than a week old": 35,
+        "Provider returned HTTP 403": 19,
+        "Source article was unavailable or too short": 9,
+        "The actual event/announcement is more than a week old": 27,
         "Unrecognized source-page host": 1
       },
       "targetCandidates": 20,
@@ -617,14 +574,14 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 24,
+          "candidates": 26,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 53,
+          "candidates": 51,
           "error": null
         },
         {
@@ -659,7 +616,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 21,
+          "candidates": 22,
           "error": null
         },
         {
@@ -673,7 +630,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 22,
+          "candidates": 23,
           "error": null
         },
         {
@@ -715,7 +672,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 26,
+          "candidates": 28,
           "error": null
         },
         {
@@ -743,7 +700,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
           "available": true,
-          "candidates": 47,
+          "candidates": 51,
           "error": null
         },
         {
@@ -939,7 +896,7 @@
           "source": "Business Insider",
           "url": "https://www.businessinsider.com/sai",
           "available": true,
-          "candidates": 14,
+          "candidates": 15,
           "error": null
         }
       ],
@@ -947,10 +904,228 @@
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 5,
-    "carriedCount": 0,
+    "freshCount": 3,
+    "carriedCount": 2,
     "olderCount": 0,
     "reserveStories": [
+      {
+        "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
+        "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
+        "title": "Trump Rallies Red States Amid Fears About G.O.P. Voter Enthusiasm as Midterms Near",
+        "summary": "The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.",
+        "publishedAt": "2026-10-19T21:04:40.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "The president’s swing is taking him to states including South Carolina and Kansas that were not seen as competitive just a few months ago.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-20T00:22:22.090Z",
+        "briefingSlot": 1,
+        "slotLabel": "NYT lead",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-19-pm",
+        "leadUnchanged": false,
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+        "url": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+        "title": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
+        "summary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
+        "publishedAt": "2026-10-19T23:37:57.000Z",
+        "source": "The Guardian",
+        "category": "Science",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
+        "feedRank": 8,
+        "nytHomeLead": false,
+        "editorialText": "Japan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth. The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. The spacecraft is expected to reach Mars’s orbit in August next year and collect at least 10g of soil and rock from the surface of Phobos, one of two small, potato-shaped moons orbiting the planet. It is scheduled to return in 2031, Jaxa said. The pock-marked moon, which has a diameter measuring 14 miles (22.5km), orbits Mars three times a day about 6,000km above its surface. The flagship H3 rocket carrying the unmanned probe blasted off into a pitch black sky from Tanegashima Space Centre at 4:41am, witnessed by thousands of people who had woken up early to follow a livestream. An hour later, Jaxa scientists declared the launch a success when the",
+        "originalPublishedAt": "2026-10-19T23:37:57.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.guim.co.uk/img/media/8b8c7baa851530aa5cc92126c0aa8893b34bf1b7/0_63_3016_2414/master/3016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=836c99cbed5d9b97809fd0edb5367a5a",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+        "checkedAt": "2026-10-20T00:22:22.090Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
+        "originalSummary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "aviation-space",
+        "whyForYou": "Aviation, space, and aerospace engineering.",
+        "selectedEdition": "2026-10-19-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "url": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "title": "Amazon's $220 billion AI bet tests the limits of its empire",
+        "summary": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise.",
+        "publishedAt": "2026-10-19T09:00:01.265Z",
+        "source": "Business Insider",
+        "category": "Technology",
+        "discovery": "Publisher section",
+        "editorialText": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise. Amazon's machine-learning and AI business is \"hugely free cash flow negative,\" he said, adding that he expects the company's free cash flow to remain negative for \"the next couple of years or so.\" Amazon has made big bets before. It spent heavily on cloud computing, fulfillment centers, and its delivery network long before they became some of the company's most valuable assets. Investors questioned those investments",
+        "originalPublishedAt": "2026-10-19T09:00:01.265Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise.",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.insider.com/6acf250ae50b02f612be300c?width=1200&format=jpeg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+        "checkedAt": "2026-10-20T00:22:22.090Z",
+        "score": 54,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 20,
+          "novelty": 15,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Amazon's $220 billion AI bet tests the limits of its empire",
+        "originalSummary": "At an internal staff meeting in September, AWS CFO John Felton had a joke for Prasad Kalyanaraman, the executive overseeing much of Amazon's AI infrastructure expansion. \"You've taken us free cash flow negative as a company, so congratulations,\" Felton said, according to a recording of the meeting obtained by Business Insider. The remark was lighthearted. But it captured a stunning reversal. Just two years ago, Wall Street was debating what Amazon would do with its growing cash hoard. Now, free cash flow has evaporated as Amazon embarks on its biggest bet ever, spending $220 billion this year alone to build the physical backbone for AI. At the meeting, Kalyanaraman did not dispute Felton's premise.",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-19-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "publishedAt": "2026-10-18T19:00:02.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
+        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "checkedAt": "2026-10-18T19:06:25.150Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-19-pm",
+        "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+        "summary": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
+        "publishedAt": "2026-10-18T22:10:45.113Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 3,
+        "nytHomeLead": false,
+        "editorialText": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\". Russian envoy Kirill Dmitriev has responded to Trump's order by calling it \"an important and truly historic moment\", and saying the sanctions would have inflicted \"serious damage\" on the US and global market. Trump also claimed in his Truth Social post that Zelensky \"doesn't want to end this war, and probably never did\", adding \"he could have made a better deal two years ago than he can now\". Zelensky has pushed for an end",
+        "originalPublishedAt": "2026-10-18T22:10:45.113Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4644/live/461bcc30-cb38-11f1-8a27-2de4c72fadc2.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
+        "checkedAt": "2026-10-18T23:15:00.686Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 85,
+          "consequence": 95,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+        "originalSummary": "The US president blocked numerous sanctions on Russia two days before they were due to take effect.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-19-pm",
+        "carriedForward": true,
+        "olderReport": false
+      },
       {
         "id": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html",
         "url": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html",
@@ -1280,54 +1455,6 @@
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "publishedAt": "2026-10-18T19:00:02.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
-        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "checkedAt": "2026-10-18T19:06:25.150Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-19-am",
-        "carriedForward": true,
-        "olderReport": false
-      },
-      {
         "id": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
         "url": "https://www.nytimes.com/2026/10/18/us/trump-midterm-elections-republicans-approval-ratings.html",
         "title": "Trump Hits Campaign Trail as White House Turmoil Weighs on GOP Midterm Prospects",
@@ -1495,54 +1622,6 @@
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-18-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-        "summary": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
-        "publishedAt": "2026-10-18T22:10:45.113Z",
-        "source": "BBC News",
-        "category": "World",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "feedRank": 3,
-        "nytHomeLead": false,
-        "editorialText": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\". Russian envoy Kirill Dmitriev has responded to Trump's order by calling it \"an important and truly historic moment\", and saying the sanctions would have inflicted \"serious damage\" on the US and global market. Trump also claimed in his Truth Social post that Zelensky \"doesn't want to end this war, and probably never did\", adding \"he could have made a better deal two years ago than he can now\". Zelensky has pushed for an end",
-        "originalPublishedAt": "2026-10-18T22:10:45.113Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table. \"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\". Trump blocked numerous sanctions on Russia two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened. Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4644/live/461bcc30-cb38-11f1-8a27-2de4c72fadc2.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-        "checkedAt": "2026-10-18T23:15:00.686Z",
-        "score": 76.75,
-        "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-        "originalSummary": "The US president blocked numerous sanctions on Russia two days before they were due to take effect.",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-18-pm",
@@ -2138,154 +2217,14 @@
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "title": "Airstrike kills at least 9 in Yemen and other Middle East developments",
-        "summary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
-        "publishedAt": "2026-10-18T08:46:33.000Z",
-        "source": "AP News",
-        "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children. Some were in critical condition, he said. Al-Asbahi blamed Saudi Arabia for the strike. There was no immediate comment from the Saudi government. The fighting has reignited Yemen’s civil war after four years of ceasefire. U.S. Ambassador to Israel Mike Huckabee sharply condemned settler violence during an olive harvest in the West Bank that injured several Palestinians and Washington Post photographer Heidi Levine as",
-        "originalPublishedAt": "2026-10-18T08:46:33.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/d065543/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0d%2Ff2%2Fd7d011ba0a121a97467fdeee8c5f%2Fa15a1a1b780c4120a61e73106541f8ff",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
-        "score": 64.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Airstrike kills at least 9 in Yemen and other Middle East developments",
-        "originalSummary": "An airstrike has killed at least nine people in an area of Yemen controlled by Iran-backed Houthi rebels as fighting escalates with Saudi-backed forces. Meanwhile, the U.S. ambassador to Israel condemned a settler attack on an American journalist that left her needing surgery, in some of the latest violence in the Israeli-occupied West Bank. Here is the latest news from the Middle East on Sunday. Read our full coverage here. An airstrike killed at least nine people, including five children and two women, in Yemen’s northern province of Saada, the Houthi-run Health Ministry said. Spokesperson Anees al-Asbahi said in a statement the strike hit a house in Sahar district and also wounded 19, including 11 children.",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
-        "url": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
-        "title": "New Services Available from IEEE Smart Cities",
-        "summary": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have implemented artificial intelligence and deep learning programs. Dubai, Paris, and Coral Gables, Fla., are among the cities that have invested heavily in programs to become smarter. But along with the conveniences that come with a smart city transition, there have been challenges including safety and privacy issues and eroding relationships between residents and city officials. Although many initiatives have delivered real innovations, not all have been successful.",
-        "publishedAt": "2026-10-16T18:00:03.000Z",
-        "source": "IEEE Spectrum",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
-        "feedRank": 2,
-        "nytHomeLead": false,
-        "editorialText": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have implemented artificial intelligence and deep learning programs. Dubai, Paris, and Coral Gables, Fla., are among the cities that have invested heavily in programs to become smarter. But along with the conveniences that come with a smart city transition, there have been challenges including safety and privacy issues and eroding relationships between residents and city officials. Although many initiatives have delivered real innovations, not all have been successful. Inefficient global coordination has hindered projects with unclear standards, socioeconomic differences, and a lack of worldwide governance, leading to a disconnect between the technologies and the ability to adapt to them. Citizens’ trust in the technologies suffers because of privacy breaches, personal data leaks, and other issues. Smart city projects are complex and expensive endeavors that involve politicians, citizens, technocrats, and engineers. Successful projects require citizens to be fully engaged and to have strong collaborations with the participants, especially engineers,",
-        "originalPublishedAt": "2026-10-16T18:00:03.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have implemented artificial intelligence and deep learning programs. Dubai, Paris, and Coral Gables, Fla., are among the cities that have invested heavily in programs to become smarter. But along with the conveniences that come with a smart city transition, there have been challenges including safety and privacy issues and eroding relationships between residents and city officials. Although many initiatives have delivered real innovations, not all have been successful.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=1200&height=600&coordinates=0%2C625%2C0%2C625",
-        "imageCaption": "",
-        "imageSourceUrl": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
-        "score": 44.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 60,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "48h",
-        "displayTitle": "New Services Available from IEEE Smart Cities",
-        "originalSummary": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have implemented artificial intelligence and deep learning programs.Dubai, Paris, and Coral Gables, Fla., are among the cities that have invested heavily in programs to become smarter.But along with the conveniences that come with a smart city transition, there have been challenges including safety and privacy issues and eroding relationships between residents and city officials.Although many initiatives have delivered real innovations, not all have been successful. Inefficient global coordination has hindered projects with unclear standards, socioeconomic differences, and a lack of worldwide governance, leading to a disconnect between the technologies and th",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/cm4g189jvnxjo",
-        "url": "https://www.bbc.co.uk/news/articles/cm4g189jvnxjo",
-        "title": "Faisal Islam: Why China and AI are worrying global finance bosses",
-        "summary": "When it comes to the future direction of the global economy there is a bit of a tug of war going on. There are starkly opposing forces. On the one hand holding back growth are the familiar, recurring crises from the energy shock, trade conflict and actual war. This is reflected most clearly in the sharply rising interest rate costs for the world's advanced economies. Pulling in the other direction is the boost from massive spending on AI, and the frankly astonishing resilience shown especially by smaller economies, as new routes for trade, including for oil and gas, have been established out of necessity.",
-        "publishedAt": "2026-10-17T01:59:48.756Z",
-        "source": "BBC News",
-        "category": "Business",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/business/rss.xml",
-        "feedRank": 3,
-        "nytHomeLead": false,
-        "editorialText": "When it comes to the future direction of the global economy there is a bit of a tug of war going on. There are starkly opposing forces. On the one hand holding back growth are the familiar, recurring crises from the energy shock, trade conflict and actual war. This is reflected most clearly in the sharply rising interest rate costs for the world's advanced economies. Pulling in the other direction is the boost from massive spending on AI, and the frankly astonishing resilience shown especially by smaller economies, as new routes for trade, including for oil and gas, have been established out of necessity. At the IMF meetings in Bangkok this week these themes came up again and again, including among those at the very top table. But not even they know which way things are going to go. In the meantime it's a sportsman's bet where the roving eye of the bond markets will focus next. Currently they seem to be looking at the US and France. However, the French finance minister, Roland Lescure, has been telling the world",
-        "originalPublishedAt": "2026-10-17T01:59:48.756Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cm4g189jvnxjo",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "When it comes to the future direction of the global economy there is a bit of a tug of war going on. There are starkly opposing forces. On the one hand holding back growth are the familiar, recurring crises from the energy shock, trade conflict and actual war. This is reflected most clearly in the sharply rising interest rate costs for the world's advanced economies. Pulling in the other direction is the boost from massive spending on AI, and the frankly astonishing resilience shown especially by smaller economies, as new routes for trade, including for oil and gas, have been established out of necessity.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8ba8/live/ea5ead70-c986-11f1-b646-2b044167639a.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cm4g189jvnxjo",
-        "checkedAt": "2026-10-18T15:45:22.632Z",
-        "score": 48.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 90
-        },
-        "freshness": "48h",
-        "displayTitle": "Faisal Islam: Why China and AI are worrying global finance bosses",
-        "originalSummary": "At the IMF meeting in Bangkok this week finance and business leaders grappled with uncertainty.",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "ai-computing",
-        "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
-      "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html",
-      "https://www.businessinsider.com/smoke-signals-dangerous-fatalism-of-agi-silicon-valley-2026-10",
-      "https://www.nytimes.com/2026/10/19/us/politics/supreme-court-race-school-admissions.html",
-      "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
-      "https://www.nytimes.com/2026/10/18/us/politics/trump-russia-sanctions-hostage-negotiations.html"
+      "https://www.nytimes.com/2026/10/19/us/politics/trump-midterm-rally-red-states.html",
+      "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+      "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+      "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+      "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo"
     ]
   }
 }
