@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T11:40:59.469Z",
+  "fetchedAt": "2026-10-20T15:33:54.178Z",
   "news": {
     "nytLead": {
-      "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
-      "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
-      "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
-      "summary": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
-      "publishedAt": "2026-10-20T07:19:14.000Z",
+      "id": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
+      "url": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
+      "title": "A ‘Doom Loop’ Threatens France as Populism Confronts Markets",
+      "summary": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
+      "publishedAt": "2026-10-20T14:24:30.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -16,16 +16,16 @@
       "nytHomeLead": true,
       "nytFeedSummary": true,
       "sourcePageChecked": false,
-      "explanation": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
+      "explanation": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
       "eventDate": null,
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-20T11:40:59.469Z"
+      "checkedAt": "2026-10-20T15:33:54.178Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-20T11:40:59.469Z",
+      "checkedAt": "2026-10-20T15:33:54.178Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -33,11 +33,11 @@
     "editionKey": "2026-10-20-am",
     "stories": [
       {
-        "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
-        "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
-        "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
-        "summary": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
-        "publishedAt": "2026-10-20T07:19:14.000Z",
+        "id": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
+        "url": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
+        "title": "A ‘Doom Loop’ Threatens France as Populism Confronts Markets",
+        "summary": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
+        "publishedAt": "2026-10-20T14:24:30.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -47,18 +47,18 @@
         "nytHomeLead": true,
         "nytFeedSummary": true,
         "sourcePageChecked": false,
-        "explanation": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
+        "explanation": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-20-am",
-        "leadUnchanged": true,
+        "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
       },
@@ -73,7 +73,7 @@
         "coverage": "Research reporting",
         "feedChecked": true,
         "sourceFeedUrl": "https://phys.org/rss-feed/",
-        "feedRank": 6,
+        "feedRank": 26,
         "nytHomeLead": false,
         "editorialText": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island. Officials declared success an hour later when the spacecraft separated as planned from the rocket's upper stage. Flight controllers burst into applause and jumped to their feet, shaking hands and embracing. While NASA has successfully landed nine spacecraft on Mars over the past 50 years and China scored a 2021 touchdown, no one has ever reached Phobos or its sidekick Deimos. And no one has managed to fetch samples from Mars, let alone its moons. If successful, bits of dust, soil and rocks from Phobos will arrive on Earth in 2031. \"There's a lot of adrenaline and a lot of excitement and",
         "originalPublishedAt": "2026-10-20T09:40:13.000Z",
@@ -90,7 +90,7 @@
         "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/japan-mars-moons-1.jpg",
         "imageCaption": "An H3 rocket lifts off from the Tanegashima Space Center in Kagoshima prefecture, southern Japan, Tuesday, Oct. 20, 2026. Credit: Naoki Hiraoka/Kyodo News via AP",
         "imageSourceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
         "score": 50.25,
         "dimensions": {
           "surprise": 65,
@@ -121,7 +121,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.theguardian.com/science/rss",
-        "feedRank": 1,
+        "feedRank": 2,
         "nytHomeLead": false,
         "editorialText": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages. Details of the breakthrough were published in the Lancet Digital Health journal. The system can estimate a person’s biological age – the age a person looks, rather than their actual, chronological age – and predict the chances of survival for cancer patients from an ordinary photograph of their face, according to the results of a study that examined the model. Doctors used the technology to develop two complementary tools. FAHR-FaceAge estimates a patient’s biological age, and",
         "originalPublishedAt": "2026-10-19T22:30:08.000Z",
@@ -138,7 +138,7 @@
         "imageUrl": null,
         "imageCaption": "The study is one of the most comprehensive demonstrations yet of how AI analysis of a selfie could help to assess a patient’s health and guide their medical care. Photograph: Addictive Stock Creatives/Alamy",
         "imageSourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
-        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -207,89 +207,94 @@
         "olderReport": false
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
-        "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
-        "title": "DeepSeek banned from US government in race with China for AI dominance",
-        "summary": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China.",
-        "publishedAt": "2026-10-19T18:21:54.279Z",
+        "id": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
+        "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
+        "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+        "summary": "Europe correspondentReporting fromMarseille Thunder and lightning have boomed across Marseille following the weekend's mayhem, illuminating the cracked windows and boarded-up doors of hundreds of businesses that were smashed as protests gave way to disorder. France's second city saw some of the worst violence as chaos gripped the country on Saturday. Local business leaders say more than 500 premises were damaged, and the majority looted. A police union boss told the BBC that the weekend had been an \"apocalyptic\" hell for his colleagues. 118 officers were injured, representing more than a tenth of the national figure. So far, 101 arrests have been made in the port city, a quarter of them children.",
+        "publishedAt": "2026-10-20T12:08:06.336Z",
         "source": "BBC News",
-        "category": "Technology",
+        "category": "World",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "feedRank": 3,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 2,
         "nytHomeLead": false,
-        "editorialText": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China. The DHS, DeepSeek, and the Chinese embassy in Washington DC have been contacted for comment. The DHS made the order public on Monday, but the ban took effect from the end of July. The order is specific to civilian agencies, including the Department of the Treasury, the Department of State and the Department of Justice. However, agencies within the Department of Defense are excluded. The ban follows criticism of Chinese AI from",
-        "originalPublishedAt": "2026-10-19T18:21:54.279Z",
+        "editorialText": "Europe correspondentReporting fromMarseille Thunder and lightning have boomed across Marseille following the weekend's mayhem, illuminating the cracked windows and boarded-up doors of hundreds of businesses that were smashed as protests gave way to disorder. France's second city saw some of the worst violence as chaos gripped the country on Saturday. Local business leaders say more than 500 premises were damaged, and the majority looted. A police union boss told the BBC that the weekend had been an \"apocalyptic\" hell for his colleagues. 118 officers were injured, representing more than a tenth of the national figure. So far, 101 arrests have been made in the port city, a quarter of them children. But by Monday, it was police who were most conspicuous on the city's streets, not protesters. For eight hours, demonstrations and gatherings were banned in an effort to avoid a third consecutive day of disorder. It seemed to work; the largest central gathering we witnessed was a posse of weather-beaten tourists trudging around the quayside. Nonetheless, an overnight curfew for minors will come into force in parts of the",
+        "originalPublishedAt": "2026-10-20T12:08:06.336Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China.",
+        "explanation": "Europe correspondentReporting fromMarseille Thunder and lightning have boomed across Marseille following the weekend's mayhem, illuminating the cracked windows and boarded-up doors of hundreds of businesses that were smashed as protests gave way to disorder. France's second city saw some of the worst violence as chaos gripped the country on Saturday. Local business leaders say more than 500 premises were damaged, and the majority looted. A police union boss told the BBC that the weekend had been an \"apocalyptic\" hell for his colleagues. 118 officers were injured, representing more than a tenth of the national figure. So far, 101 arrests have been made in the port city, a quarter of them children.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/76fb/live/a102f4a0-cbe9-11f1-ad7b-fd8c269705fe.jpg",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a834/live/7aae38a0-cc89-11f1-bed8-c51b95c602ec.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
-        "checkedAt": "2026-10-20T11:40:59.469Z",
-        "score": 53.75,
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "score": 69.25,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 90
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "DeepSeek banned from US government in race with China for AI dominance",
-        "originalSummary": "The Chinese technology is removed from most US government agencies as race for AI dominance steps up.",
+        "displayTitle": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+        "originalSummary": "France's second city saw some of the worst violence as chaos gripped the country on Saturday.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
-        "personalTopic": "ai-computing",
-        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "personalTopic": null,
+        "whyForYou": null,
         "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-20T11:40:59.469Z",
-    "checkedAt": "2026-10-20T11:40:59.469Z",
+    "fetchedAt": "2026-10-20T15:33:54.178Z",
+    "checkedAt": "2026-10-20T15:33:54.178Z",
     "sources": [
-      "Business Insider",
       "The Guardian",
-      "ScienceDaily",
+      "Business Insider",
       "BBC News",
       "Phys.org",
+      "Ars Technica",
       "ScienceAlert",
       "NPR",
-      "Higher Ed Dive",
-      "MIT News",
       "The New York Times",
+      "Higher Ed Dive",
+      "ScienceDaily",
+      "MIT News",
       "The Verge",
-      "Ars Technica",
       "NASA",
       "IEEE Spectrum"
     ],
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 916,
+      "rawCandidates": 920,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 177,
-      "primaryDatesChecked": 25,
-      "rejected": 54,
+      "sourcePagesRead": 178,
+      "primaryDatesChecked": 27,
+      "rejected": 55,
       "rejectedCandidates": [
         {
-          "title": "Brazil’s love affair with cellphones turns theft into an election flashpoint",
-          "url": "https://www.investing.com/news/economy-news/brazils-love-affair-with-cellphones-turns-theft-into-an-election-flashpoint-4959230",
+          "title": "Scientists reach the ultimate quantum limit on a surface",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Colombian Congress approves budget allocations, cuts funding to peace deal",
+          "url": "https://www.investing.com/news/economy-news/colombian-congress-approves-2011-billion-budget-for-2027-4959358",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Stephens initiates Concentra stock with overweight on health model",
-          "url": "https://www.investing.com/news/analyst-ratings/stephens-initiates-concentra-stock-with-overweight-on-health-model-93CH-4959761",
+          "title": "Why is Loblaw stock climbing today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-loblaw-stock-climbing-today-93CH-4960637",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -298,8 +303,8 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+          "title": "Scientists finally uncover why statins can cause muscle pain",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -308,18 +313,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
+          "title": "A quantum pathway to entropy-free energy transfer",
+          "url": "https://phys.org/news/2026-10-quantum-pathway-entropy-free-energy.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
           "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
           "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/",
           "reason": "Unrecognized source-page host"
         },
         {
-          "title": "French bond yields near 24-year high as new protests loom",
-          "url": "https://www.investing.com/news/economy-news/french-bond-yields-near-24year-high-as-new-protests-loom-4959545",
+          "title": "Swiss air traffic control operates at half capacity after technical fault",
+          "url": "https://www.investing.com/news/economy-news/swiss-air-traffic-control-operates-at-half-capacity-after-technical-fault-93CH-4960580",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Hertz shares jump 5% as subsidiary Oro Mobility secures $80M strategic investment",
-          "url": "https://www.investing.com/news/stock-market-news/hertz-shares-jump-5-as-subsidiary-oro-mobility-secures-80m-strategic-investment-4959756",
+          "title": "China criticizes US ban on DeepSeek AI from federal systems",
+          "url": "https://www.investing.com/news/stock-market-news/china-criticizes-us-ban-on-deepseek-ai-from-federal-systems-93CH-4960636",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -338,33 +348,18 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
+          "title": "Scientists discover a surprising link between vitamin C and cancer survival",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093437.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "The Human Fingerprint on Earth’s Water Cycle",
-          "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "New Form of Superconductor Behavior Discovered That We've Never Seen Before",
-          "url": "https://www.sciencealert.com/new-form-of-superconductor-behavior-discovered-that-weve-never-seen-before",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery",
-          "url": "https://phys.org/news/2026-10-nanoscale-tech-tracks-proteins-neurons.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Colombian Congress approves $201.1 billion budget for 2027",
-          "url": "https://www.investing.com/news/economy-news/colombian-congress-approves-2011-billion-budget-for-2027-4959358",
+          "title": "Dollar dips on AI worries, euro edges up despite French unrest",
+          "url": "https://www.investing.com/news/economy-news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-4958627",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Best Buy launches gaming platform in beta with IGN partnership",
-          "url": "https://www.investing.com/news/company-news/best-buy-launches-gaming-platform-in-beta-with-ign-partnership-93CH-4959759",
+          "title": "Twilio reiterated as large-cap software top pick by BTIG",
+          "url": "https://www.investing.com/news/stock-market-news/twilio-reiterated-as-largecap-software-top-pick-by-btig-4960635",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -373,23 +368,38 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "The University of Nevada now offers students the opportunity to minor in mariachi",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-5995179/the-university-of-nevada-now-offers-students-the-opportunity-to-minor-in-mariachi",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+          "title": "Scientists discover a bizarre Jurassic “squid” unlike anything ever seen",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093434.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "FTSE 100 slips as banks weigh; defensive stocks limit decline",
-          "url": "https://www.investing.com/news/economy-news/ftse-100-slips-as-banks-weigh-defensive-stockslimit-decline-4959525",
+          "title": "Water May Be a Hidden Trigger Behind The Spread of Alzheimer's in The Brain",
+          "url": "https://www.sciencealert.com/water-may-be-a-hidden-trigger-behind-the-spread-of-alzheimers-in-the-brain",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Analysis-France’s unrest lays bare ’slow agony’ of Macron’s twilight months",
+          "url": "https://www.investing.com/news/economy-news/analysisfrances-unrest-lays-bare-slow-agony-of-macrons-twilight-months-4960559",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Vicor shares jump 5% on third quarter earnings beat",
-          "url": "https://www.investing.com/news/earnings/vicor-shares-jump-5-on-third-quarter-earnings-beat-93CH-4959758",
+          "title": "Unconfirmed Qatar-Pakistan Iran peace proposal lifts stocks, weighs on oil",
+          "url": "https://www.investing.com/news/stock-market-news/unconfirmed-qatarpakistan-iran-peace-proposal-lifts-stocks-weighs-on-oil-4960631",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Scientists find a way to fight Alzheimer’s brain damage without removing toxic tau",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093355.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brazil’s Bolsonaro courts events sector with pledge to restore tax breaks ahead of election",
+          "url": "https://www.investing.com/news/economy-news/brazils-bolsonaro-courts-events-sector-with-pledge-to-restore-tax-breaks-ahead-of-election-4960490",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Epicrispr at Chardan’s 10th Annual Healthcare Conference: early data impresses",
+          "url": "https://www.investing.com/news/transcripts/epicrispr-at-chardans-10th-annual-healthcare-conference-early-data-impresses-93CH-4960633",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -398,38 +408,28 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+          "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ford recalls more than 102,000 F-Series trucks over faulty speedometer, US NHTSA says",
-          "url": "https://www.investing.com/news/economy-news/ford-recalls-more-than-102000-fseries-trucks-over-faulty-speedometer-us-nhtsa-says-4959445",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "TSX futures inch down as traders eye Bank of Canada rate path",
-          "url": "https://www.investing.com/news/stock-market-news/tsx-futures-inch-down-as-traders-eye-bank-of-canada-rate-path-4959494",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Scientists discover a natural compound that could protect the brain from too much salt",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+          "title": "The Human Fingerprint on Earth’s Water Cycle",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Old Blood Cells Have Been Transformed Into Brain Stem Cells That Get Younger As They Age",
-          "url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
+          "title": "Ancient wildfire study offers warning for a warming world",
+          "url": "https://phys.org/news/2026-10-ancient-wildfire-world.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Brazil central bank looks to encourage responsible lending in consumer debt crackdown, sources say",
-          "url": "https://www.investing.com/news/economy-news/brazil-central-bank-looks-to-encourage-responsible-lending-in-consumer-debt-crackdown-sources-say-4959398",
+          "title": "Federal Reserve seen skipping Oct rate hike but hiking in Dec - Reuters poll",
+          "url": "https://www.investing.com/news/economy-news/federal-reserve-seen-skipping-oct-rate-hike-but-hiking-in-dec--reuters-poll-4960292",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Jefferies lowers Southern stock price target on regulatory outlook",
-          "url": "https://www.investing.com/news/analyst-ratings/jefferies-lowers-southern-stock-price-target-on-regulatory-outlook-93CH-4959739",
+          "title": "Myriad Genetics stock surges on $210M prenatal unit sale",
+          "url": "https://www.investing.com/news/stock-market-news/myriad-genetics-stock-surges-on-210m-prenatal-unit-sale-4960632",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -438,18 +438,23 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Measuring regrowth: Erk gradients guide zebrafish fins back to their original size after injury",
-          "url": "https://phys.org/news/2026-10-regrowth-erk-gradients-zebrafish-fins.html",
+          "title": "Old Blood Cells Have Been Transformed Into Brain Stem Cells That Get Younger As They Age",
+          "url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Shares slide again as oil stays high; AI earnings in focus",
+          "title": "Human activity threatens biodiversity in remote Patagonian kelp forests",
+          "url": "https://phys.org/news/2026-10-human-threatens-biodiversity-remote-patagonian.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Shares down again as oil stays high; AI earnings in focus",
           "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Susquehanna lowers Live Nation stock price target on pricing concerns",
-          "url": "https://www.investing.com/news/analyst-ratings/susquehanna-lowers-live-nation-stock-price-target-on-pricing-concerns-93CH-4959738",
+          "title": "Morocco stocks lower at close of trade; Moroccan All Shares down 0.07%",
+          "url": "https://www.investing.com/news/stock-market-news/morocco-stocks-lower-at-close-of-trade-moroccan-all-shares-down-007-4960630",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -458,8 +463,33 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
+          "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Surprising pattern emerges in reincarnation reports",
+          "url": "https://phys.org/news/2026-10-pattern-emerges-reincarnation.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "US homebuilding falls as mortgage rates climb to 7.40%",
+          "url": "https://www.investing.com/news/economy-news/us-homebuilding-falls-as-mortgage-rates-climb-to-740-93CH-4960110",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Oil falls more than 2% after unconfirmed report of ’middle ground’ U.S.-Iran deal",
+          "url": "https://www.investing.com/news/commodities-news/oil-holds-near-fivemonth-high-as-hormuz-attacks-threaten-supply-recovery-4958615",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Disgruntled farmers may help flip Senate seat in Kansas",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6002946/disgruntled-farmers-may-help-flip-senate-seat-in-kansas",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -468,23 +498,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Partisan segregation may be shaping Asian Americans' voting behavior",
-          "url": "https://phys.org/news/2026-10-partisan-segregation-asian-americans-voting.html",
+          "title": "Study asks, Who benefits from where hospitals or landfills are located?",
+          "url": "https://phys.org/news/2026-10-benefits-hospitals-landfills.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Euro rebounds as French protests ease, dollar slips",
-          "url": "https://www.investing.com/news/economy-news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-4958627",
+          "title": "Fed to skip October but raise rates again in December, nearly all economists say: Reuters poll",
+          "url": "https://www.investing.com/news/economy-news/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll-4960095",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Needham holds Carter’s stock rating, lowers estimates on demand",
-          "url": "https://www.investing.com/news/analyst-ratings/needham-holds-carters-stock-rating-lowers-estimates-on-demand-93CH-4959737",
+          "title": "Starboard’s Smith unveils stake in Solstice, presses for improvements",
+          "url": "https://www.investing.com/news/stock-market-news/starboards-smith-unveils-stake-in-solstice-presses-for-improvements-4960628",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Disgruntled farmers may help flip Senate seat in Kansas",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6002946/disgruntled-farmers-may-help-flip-senate-seat-in-kansas",
+          "title": "Zoe Kazan on her adaptation of Steinbeck's East of Eden - and her grandfather's",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6001704/zoe-kazan-on-her-adaptation-of-steinbecks-east-of-eden-and-her-grandfathers",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -498,24 +528,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Netflix to report; OpenAI’s reported fundraising plans - what’s moving markets",
-          "url": "https://www.investing.com/news/economy-news/netflix-to-report-openais-reported-fundraising-plans--whats-moving-markets-4959058",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Horace Mann CEO Marita Zuraitis sells $316,734 of HMN stock",
-          "url": "https://www.investing.com/news/insider-trading-news/horace-mann-ceo-marita-zuraitis-sells-316734-of-hmn-stock-93CH-4959736",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Zoe Kazan on her adaptation of Steinbeck's East of Eden - and her grandfather's",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6001704/zoe-kazan-on-her-adaptation-of-steinbecks-east-of-eden-and-her-grandfathers",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
+          "title": "Locusts get a sensory assist from nanomaterials—helping them detect more chemicals",
+          "url": "https://phys.org/news/2026-10-locusts-sensory-nanomaterials-chemicals.html",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Bank of Israel to pause rate cuts ahead of October 27 election: Reuters poll",
+          "url": "https://www.investing.com/news/economy-news/bank-of-israel-to-pause-rate-cuts-ahead-of-october-27-election-reuters-poll-4959988",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Old Second Bancorp declares $0.08 dividend payable November 9",
+          "url": "https://www.investing.com/news/sec-filings/old-second-bancorp-declares-008-dividend-payable-november-9-93CH-4960627",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "How Many Steps a Day Does It Take to Sharpen Your Attention? A 14-Year Study Hints at The Range",
@@ -523,43 +548,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Daiwa, Mizuho clear final hurdles to launch China securities units, Bloomberg says",
-          "url": "https://www.investing.com/news/economy-news/daiwa-mizuho-clear-final-hurdles-to-launch-china-securities-units-bloomberg-says-4958768",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Barclays cuts Vodafone on AI threats to earnings and German market exposure",
-          "url": "https://www.investing.com/news/stock-market-news/barclays-cuts-vodafone-on-ai-threats-to-earnings-and-german-market-exposure-4959721",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Dad shift: Men now file majority of paid family leave claims in key states",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
+          "title": "Astronomers uncover new secrets of the Universe’s first five minutes",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Florida DMV hacked after police dept insecurely stored login info",
-          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Something strange is happening beneath a volcano near 2 million people",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205039.htm",
+          "title": "Peat bogs, the natural archives of mining fallout, reveal ancient Europe's hidden metal networks",
+          "url": "https://phys.org/news/2026-10-peat-bogs-natural-archives-fallout.html",
           "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 17,
-      "eventDatesUnconfirmed": 43,
+      "eventDatesVerified": 10,
+      "eventDatesUnconfirmed": 50,
       "rejectionReasons": {
+        "The actual event/announcement is more than a week old": 25,
         "Provider returned HTTP 403": 20,
-        "Source article was unavailable or too short": 11,
-        "The actual event/announcement is more than a week old": 22,
+        "Source article was unavailable or too short": 9,
         "Unrecognized source-page host": 1
       },
       "targetCandidates": 20,
@@ -568,14 +573,14 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 24,
+          "candidates": 23,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 54,
+          "candidates": 52,
           "error": null
         },
         {
@@ -610,7 +615,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 21,
+          "candidates": 23,
           "error": null
         },
         {
@@ -624,7 +629,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 20,
+          "candidates": 22,
           "error": null
         },
         {
@@ -666,14 +671,14 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 33,
+          "candidates": 34,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
           "available": true,
-          "candidates": 22,
+          "candidates": 23,
           "error": null
         },
         {
@@ -890,7 +895,7 @@
           "source": "Business Insider",
           "url": "https://www.businessinsider.com/sai",
           "available": true,
-          "candidates": 14,
+          "candidates": 15,
           "error": null
         }
       ],
@@ -903,11 +908,11 @@
     "olderCount": 0,
     "reserveStories": [
       {
-        "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
-        "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
-        "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
-        "summary": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
-        "publishedAt": "2026-10-20T07:19:14.000Z",
+        "id": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
+        "url": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
+        "title": "A ‘Doom Loop’ Threatens France as Populism Confronts Markets",
+        "summary": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
+        "publishedAt": "2026-10-20T14:24:30.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -917,18 +922,18 @@
         "nytHomeLead": true,
         "nytFeedSummary": true,
         "sourcePageChecked": false,
-        "explanation": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
+        "explanation": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-20-am",
-        "leadUnchanged": true,
+        "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
       },
@@ -943,7 +948,7 @@
         "coverage": "Research reporting",
         "feedChecked": true,
         "sourceFeedUrl": "https://phys.org/rss-feed/",
-        "feedRank": 6,
+        "feedRank": 26,
         "nytHomeLead": false,
         "editorialText": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island. Officials declared success an hour later when the spacecraft separated as planned from the rocket's upper stage. Flight controllers burst into applause and jumped to their feet, shaking hands and embracing. While NASA has successfully landed nine spacecraft on Mars over the past 50 years and China scored a 2021 touchdown, no one has ever reached Phobos or its sidekick Deimos. And no one has managed to fetch samples from Mars, let alone its moons. If successful, bits of dust, soil and rocks from Phobos will arrive on Earth in 2031. \"There's a lot of adrenaline and a lot of excitement and",
         "originalPublishedAt": "2026-10-20T09:40:13.000Z",
@@ -960,7 +965,7 @@
         "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/japan-mars-moons-1.jpg",
         "imageCaption": "An H3 rocket lifts off from the Tanegashima Space Center in Kagoshima prefecture, southern Japan, Tuesday, Oct. 20, 2026. Credit: Naoki Hiraoka/Kyodo News via AP",
         "imageSourceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
-        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
         "score": 50.25,
         "dimensions": {
           "surprise": 65,
@@ -991,7 +996,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.theguardian.com/science/rss",
-        "feedRank": 1,
+        "feedRank": 2,
         "nytHomeLead": false,
         "editorialText": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages. Details of the breakthrough were published in the Lancet Digital Health journal. The system can estimate a person’s biological age – the age a person looks, rather than their actual, chronological age – and predict the chances of survival for cancer patients from an ordinary photograph of their face, according to the results of a study that examined the model. Doctors used the technology to develop two complementary tools. FAHR-FaceAge estimates a patient’s biological age, and",
         "originalPublishedAt": "2026-10-19T22:30:08.000Z",
@@ -1008,7 +1013,7 @@
         "imageUrl": null,
         "imageCaption": "The study is one of the most comprehensive demonstrations yet of how AI analysis of a selfie could help to assess a patient’s health and guide their medical care. Photograph: Addictive Stock Creatives/Alamy",
         "imageSourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
-        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -1074,6 +1079,84 @@
         "whyForYou": null,
         "selectedEdition": "2026-10-20-am",
         "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
+        "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
+        "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+        "summary": "Europe correspondentReporting fromMarseille Thunder and lightning have boomed across Marseille following the weekend's mayhem, illuminating the cracked windows and boarded-up doors of hundreds of businesses that were smashed as protests gave way to disorder. France's second city saw some of the worst violence as chaos gripped the country on Saturday. Local business leaders say more than 500 premises were damaged, and the majority looted. A police union boss told the BBC that the weekend had been an \"apocalyptic\" hell for his colleagues. 118 officers were injured, representing more than a tenth of the national figure. So far, 101 arrests have been made in the port city, a quarter of them children.",
+        "publishedAt": "2026-10-20T12:08:06.336Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 2,
+        "nytHomeLead": false,
+        "editorialText": "Europe correspondentReporting fromMarseille Thunder and lightning have boomed across Marseille following the weekend's mayhem, illuminating the cracked windows and boarded-up doors of hundreds of businesses that were smashed as protests gave way to disorder. France's second city saw some of the worst violence as chaos gripped the country on Saturday. Local business leaders say more than 500 premises were damaged, and the majority looted. A police union boss told the BBC that the weekend had been an \"apocalyptic\" hell for his colleagues. 118 officers were injured, representing more than a tenth of the national figure. So far, 101 arrests have been made in the port city, a quarter of them children. But by Monday, it was police who were most conspicuous on the city's streets, not protesters. For eight hours, demonstrations and gatherings were banned in an effort to avoid a third consecutive day of disorder. It seemed to work; the largest central gathering we witnessed was a posse of weather-beaten tourists trudging around the quayside. Nonetheless, an overnight curfew for minors will come into force in parts of the",
+        "originalPublishedAt": "2026-10-20T12:08:06.336Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Europe correspondentReporting fromMarseille Thunder and lightning have boomed across Marseille following the weekend's mayhem, illuminating the cracked windows and boarded-up doors of hundreds of businesses that were smashed as protests gave way to disorder. France's second city saw some of the worst violence as chaos gripped the country on Saturday. Local business leaders say more than 500 premises were damaged, and the majority looted. A police union boss told the BBC that the weekend had been an \"apocalyptic\" hell for his colleagues. 118 officers were injured, representing more than a tenth of the national figure. So far, 101 arrests have been made in the port city, a quarter of them children.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a834/live/7aae38a0-cc89-11f1-bed8-c51b95c602ec.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno",
+        "checkedAt": "2026-10-20T15:33:54.178Z",
+        "score": 69.25,
+        "dimensions": {
+          "surprise": 75,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+        "originalSummary": "France's second city saw some of the worst violence as chaos gripped the country on Saturday.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
+        "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
+        "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
+        "summary": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
+        "publishedAt": "2026-10-20T07:19:14.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "briefingSlot": 1,
+        "slotLabel": "NYT lead",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-20-am",
+        "leadUnchanged": true,
+        "carriedForward": false,
         "olderReport": false
       },
       {
@@ -2101,106 +2184,14 @@
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "title": "No Kings rallies urge early voting ahead of midterms",
-        "summary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "publishedAt": "2026-10-17T17:45:49.000Z",
-        "source": "AP News",
-        "category": "U.S.",
-        "discovery": "Publisher section",
-        "editorialText": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft. At an Atlanta rally, City Councilman Michael Julian Bond told the crowd to urge others to vote ahead of the Nov. 3 general election. “The Constitution gives you one power, right? That is the power to vote. Are you gonna use that power?” he said. “You don’t see Superman giving up his power,” Bond continued. “You don’t see Black Panther giving up his power. You don’t",
-        "originalPublishedAt": "2026-10-17T17:45:49.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-17",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections.",
-        "dateEvidenceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "eventRevision": "2026-10-17:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/ec12d70/2147483647/strip/true/crop/2000x1333+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2Fd3%2Fa0d2fbadd0528c009762b7797a89%2F8d3416a5f67b498b92c346a8851469b1",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
-        "checkedAt": "2026-10-18T18:04:24.350Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "No Kings rallies urge early voting ahead of midterms",
-        "originalSummary": "Rallies organized by the No Kings network opposed to President Donald Trump were held Saturday in cities and communities across the U.S., with an aim of getting people out to vote early in the midterm elections. The hundreds of planned events were billed as nonpartisan, though they sought to build on nearly two years’ worth of No Kings marches and demonstrations by people upset with Trump’s presidency. A band entertained what appeared to be a few hundred people in caps and coats at the Lincoln Memorial in Washington. Despite the chilly weather, many in the crowd danced to the tunes. “VOTE EARLY” and “HANDS OFF MY VOTE!” were among the many signs held aloft.",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://spectrum.ieee.org/variable-frequency-drives",
-        "url": "https://spectrum.ieee.org/variable-frequency-drives",
-        "title": "How Variable Frequency Drives Unlock Hidden Grid Power",
-        "summary": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
-        "publishedAt": "2026-10-17T13:00:02.000Z",
-        "source": "IEEE Spectrum",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceived hassle of retrofitting equipment and because they’re typically not required. On average, only 16 percent of motor systems at industrial facilities and 4 percent of commercial-sector motors use VFDs, according to a 2021 market report by Lawrence Berkeley National",
-        "originalPublishedAt": "2026-10-17T13:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "This article was originally published by Canary Media. America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356",
-        "imageCaption": "",
-        "imageSourceUrl": "https://spectrum.ieee.org/variable-frequency-drives",
-        "checkedAt": "2026-10-18T17:48:52.739Z",
-        "score": 63,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "How Variable Frequency Drives Unlock Hidden Grid Power",
-        "originalSummary": "This article was originally published by Canary Media.America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted energy from an unexpected source: motors. Some 50 million electric motors drive the fans, pumps, and compressors found in virtually every factory and building. Together, they gobble enough electricity to equal nearly a third of total U.S. power demand. Often, the motors use far more energy than they actually need to keep America’s machines humming. Companies can install devices known as variable frequency drives, or VFDs, to make motors run super efficiently. Yet adoption remains relatively low, in part because of the perceive",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Motor-speed controllers connect to electronics, control systems, and energy efficiency.",
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
-      "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
+      "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
       "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
       "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
       "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-      "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo"
+      "https://www.bbc.co.uk/news/articles/cm5ynkk570pno"
     ]
   }
 }
