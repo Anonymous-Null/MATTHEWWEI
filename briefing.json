@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T06:03:21.942Z",
+  "fetchedAt": "2026-10-20T11:40:59.469Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
       "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
       "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
       "summary": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
-      "publishedAt": "2026-10-20T01:00:18.000Z",
+      "publishedAt": "2026-10-20T07:19:14.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -21,23 +21,23 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-20T06:03:21.942Z"
+      "checkedAt": "2026-10-20T11:40:59.469Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-20T06:03:21.942Z",
+      "checkedAt": "2026-10-20T11:40:59.469Z",
       "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
-    "editionKey": "2026-10-19-pm",
+    "editionKey": "2026-10-20-am",
     "stories": [
       {
         "id": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
         "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
         "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
         "summary": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
-        "publishedAt": "2026-10-20T01:00:18.000Z",
+        "publishedAt": "2026-10-20T07:19:14.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -52,109 +52,109 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T06:03:21.942Z",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-19-pm",
-        "leadUnchanged": false,
+        "selectedEdition": "2026-10-20-am",
+        "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "url": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "title": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
-        "summary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
-        "publishedAt": "2026-10-19T23:37:57.000Z",
+        "id": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "url": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+        "summary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
+        "publishedAt": "2026-10-20T09:40:13.000Z",
+        "source": "Phys.org",
+        "category": "Science",
+        "coverage": "Research reporting",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://phys.org/rss-feed/",
+        "feedRank": 6,
+        "nytHomeLead": false,
+        "editorialText": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island. Officials declared success an hour later when the spacecraft separated as planned from the rocket's upper stage. Flight controllers burst into applause and jumped to their feet, shaking hands and embracing. While NASA has successfully landed nine spacecraft on Mars over the past 50 years and China scored a 2021 touchdown, no one has ever reached Phobos or its sidekick Deimos. And no one has managed to fetch samples from Mars, let alone its moons. If successful, bits of dust, soil and rocks from Phobos will arrive on Earth in 2031. \"There's a lot of adrenaline and a lot of excitement and",
+        "originalPublishedAt": "2026-10-20T09:40:13.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/japan-mars-moons-1.jpg",
+        "imageCaption": "An H3 rocket lifts off from the Tanegashima Space Center in Kagoshima prefecture, southern Japan, Tuesday, Oct. 20, 2026. Credit: Naoki Hiraoka/Kyodo News via AP",
+        "imageSourceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "score": 50.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+        "originalSummary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples.",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "electronics-building",
+        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+        "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+        "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+        "summary": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages.",
+        "publishedAt": "2026-10-19T22:30:08.000Z",
         "source": "The Guardian",
         "category": "Science",
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.theguardian.com/science/rss",
-        "feedRank": 8,
-        "nytHomeLead": false,
-        "editorialText": "Japan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth. The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. The spacecraft is expected to reach Mars’s orbit in August next year and collect at least 10g of soil and rock from the surface of Phobos, one of two small, potato-shaped moons orbiting the planet. It is scheduled to return in 2031, Jaxa said. The pock-marked moon, which has a diameter measuring 14 miles (22.5km), orbits Mars three times a day about 6,000km above its surface. The flagship H3 rocket carrying the unmanned probe blasted off into a pitch black sky from Tanegashima Space Centre at 4:41am, witnessed by thousands of people who had woken up early to follow a livestream. An hour later, Jaxa scientists declared the launch a success when the",
-        "originalPublishedAt": "2026-10-19T23:37:57.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
-        "summaryKind": "Publisher summary",
-        "imageUrl": "https://i.guim.co.uk/img/media/8b8c7baa851530aa5cc92126c0aa8893b34bf1b7/0_63_3016_2414/master/3016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=836c99cbed5d9b97809fd0edb5367a5a",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "checkedAt": "2026-10-20T06:03:21.942Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
-        "originalSummary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "aviation-space",
-        "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-19-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
-        "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
-        "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
-        "summary": "A Saudi national charged with secretly planting a recording device in one of OpenAI's meeting rooms has been accused of having \"considerable support\" from the Saudi government, according to a court filing, external in California. US prosecutors claimed Abdulrahman Alfozan, who worked for the AI firm, was in \"frequent communication... with a member of the Saudi royal family\", and say a member of the country's military paid for a one-way flight to Saudi Arabia for his wife and son after his arrest. The 35-year-old engineer was on Monday deemed a flight risk and denied bail, pending trial. The Saudi government did not immediately respond to BBC requests for comment.",
-        "publishedAt": "2026-10-19T16:22:12.290Z",
-        "source": "BBC News",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
         "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "A Saudi national charged with secretly planting a recording device in one of OpenAI's meeting rooms has been accused of having \"considerable support\" from the Saudi government, according to a court filing, external in California. US prosecutors claimed Abdulrahman Alfozan, who worked for the AI firm, was in \"frequent communication... with a member of the Saudi royal family\", and say a member of the country's military paid for a one-way flight to Saudi Arabia for his wife and son after his arrest. The 35-year-old engineer was on Monday deemed a flight risk and denied bail, pending trial. The Saudi government did not immediately respond to BBC requests for comment. Alfozan had worked at OpenAI for around a year before he allegedly made his attempt to plant an audio recorder. The AI company discovered the device, which was plugged into the back of a TV in a conference meeting room and covered up with toilet paper, on 30 September. A camera was placed in the room and on 5 October, Alfozan was filmed entering and appearing to look behind the television",
-        "originalPublishedAt": "2026-10-19T16:22:12.290Z",
+        "editorialText": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages. Details of the breakthrough were published in the Lancet Digital Health journal. The system can estimate a person’s biological age – the age a person looks, rather than their actual, chronological age – and predict the chances of survival for cancer patients from an ordinary photograph of their face, according to the results of a study that examined the model. Doctors used the technology to develop two complementary tools. FAHR-FaceAge estimates a patient’s biological age, and",
+        "originalPublishedAt": "2026-10-19T22:30:08.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
+        "dateEvidenceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "A Saudi national charged with secretly planting a recording device in one of OpenAI's meeting rooms has been accused of having \"considerable support\" from the Saudi government, according to a court filing, external in California. US prosecutors claimed Abdulrahman Alfozan, who worked for the AI firm, was in \"frequent communication... with a member of the Saudi royal family\", and say a member of the country's military paid for a one-way flight to Saudi Arabia for his wife and son after his arrest. The 35-year-old engineer was on Monday deemed a flight risk and denied bail, pending trial. The Saudi government did not immediately respond to BBC requests for comment.",
+        "explanation": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
-        "checkedAt": "2026-10-20T06:03:21.942Z",
-        "score": 59.25,
+        "imageUrl": null,
+        "imageCaption": "The study is one of the most comprehensive demonstrations yet of how AI analysis of a selfie could help to assess a patient’s health and guide their medical care. Photograph: Addictive Stock Creatives/Alamy",
+        "imageSourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "score": 80,
         "dimensions": {
-          "surprise": 65,
-          "consequence": 20,
+          "surprise": 90,
+          "consequence": 60,
           "novelty": 85,
           "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
-        "originalSummary": "The Saudi government did not immediately respond to BBC requests for comment.",
+        "displayTitle": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+        "originalSummary": "System can estimate a person’s biological age and predict chances of cancer survival from a single photographDoctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face.The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 3,
         "slotLabel": "For you",
         "personalTopic": "everyday-tech",
         "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
-        "selectedEdition": "2026-10-19-pm",
+        "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
       },
@@ -202,69 +202,73 @@
         "slotLabel": "U.S. news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-19-pm",
+        "selectedEdition": "2026-10-20-am",
         "carriedForward": true,
         "olderReport": false
       },
       {
-        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "publishedAt": "2026-10-18T09:49:18.000Z",
-        "source": "AP News",
-        "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
-        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
+        "id": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "title": "DeepSeek banned from US government in race with China for AI dominance",
+        "summary": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China.",
+        "publishedAt": "2026-10-19T18:21:54.279Z",
+        "source": "BBC News",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "feedRank": 3,
+        "nytHomeLead": false,
+        "editorialText": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China. The DHS, DeepSeek, and the Chinese embassy in Washington DC have been contacted for comment. The DHS made the order public on Monday, but the ban took effect from the end of July. The order is specific to civilian agencies, including the Department of the Treasury, the Department of State and the Department of Justice. However, agencies within the Department of Defense are excluded. The ban follows criticism of Chinese AI from",
+        "originalPublishedAt": "2026-10-19T18:21:54.279Z",
         "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
-        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "eventRevision": "2026-10-18:Event",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "explanation": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/76fb/live/a102f4a0-cbe9-11f1-ad7b-fd8c269705fe.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "checkedAt": "2026-10-18T18:04:24.350Z",
-        "score": 76.75,
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "score": 53.75,
         "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
-          "novelty": 85,
-          "relevance": 10
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "displayTitle": "DeepSeek banned from US government in race with China for AI dominance",
+        "originalSummary": "The Chinese technology is removed from most US government agencies as race for AI dominance steps up.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-19-pm",
-        "carriedForward": true,
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-20T06:03:21.942Z",
-    "checkedAt": "2026-10-20T06:03:21.942Z",
+    "fetchedAt": "2026-10-20T11:40:59.469Z",
+    "checkedAt": "2026-10-20T11:40:59.469Z",
     "sources": [
       "Business Insider",
-      "ScienceDaily",
       "The Guardian",
-      "Phys.org",
+      "ScienceDaily",
       "BBC News",
-      "The Verge",
+      "Phys.org",
       "ScienceAlert",
+      "NPR",
       "Higher Ed Dive",
       "MIT News",
       "The New York Times",
-      "NPR",
+      "The Verge",
       "Ars Technica",
       "NASA",
       "IEEE Spectrum"
@@ -272,25 +276,25 @@
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 913,
+      "rawCandidates": 916,
       "candidatesReviewed": 240,
       "sourcePagesRead": 177,
-      "primaryDatesChecked": 26,
-      "rejected": 56,
+      "primaryDatesChecked": 25,
+      "rejected": 54,
       "rejectedCandidates": [
         {
-          "title": "Shares stumble, oil rises as investors await AI sector earnings",
-          "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
+          "title": "Brazil’s love affair with cellphones turns theft into an election flashpoint",
+          "url": "https://www.investing.com/news/economy-news/brazils-love-affair-with-cellphones-turns-theft-into-an-election-flashpoint-4959230",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Wyndham Hotels & Resorts CEO Ballotti sells $1.42 million in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/wyndham-hotels--resorts-ceo-ballotti-sells-142-million-in-stock-93CH-4958786",
+          "title": "Stephens initiates Concentra stock with overweight on health model",
+          "url": "https://www.investing.com/news/analyst-ratings/stephens-initiates-concentra-stock-with-overweight-on-health-model-93CH-4959761",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Schools struggle to measure how much AI experiments are helping",
-          "url": "https://www.npr.org/2026/10/19/nx-s1-5991881/schools-struggle-to-measure-how-much-ai-experiments-are-helping",
+          "title": "Data center divides North Carolina county",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6000388/data-center-divides-north-carolina-county",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -304,24 +308,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery",
-          "url": "https://phys.org/news/2026-10-nanoscale-tech-tracks-proteins-neurons.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
           "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/",
           "reason": "Unrecognized source-page host"
         },
         {
-          "title": "Daiwa, Mizuho clear final hurdles to launch China securities units, Bloomberg says",
-          "url": "https://www.investing.com/news/economy-news/daiwa-mizuho-clear-final-hurdles-to-launch-china-securities-units-bloomberg-says-4958768",
+          "title": "French bond yields near 24-year high as new protests loom",
+          "url": "https://www.investing.com/news/economy-news/french-bond-yields-near-24year-high-as-new-protests-loom-4959545",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "France imposes curfews in parts of Paris, other cities after weekend of riots",
-          "url": "https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666",
+          "title": "Hertz shares jump 5% as subsidiary Oro Mobility secures $80M strategic investment",
+          "url": "https://www.investing.com/news/stock-market-news/hertz-shares-jump-5-as-subsidiary-oro-mobility-secures-80m-strategic-investment-4959756",
           "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "'There's a lot to be done': North Carolina continues recovery from Hurricane Helene",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6000389/theres-a-lot-to-be-done-north-carolina-continues-recovery-from-hurricane-helene",
+          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "What time is it on the moon?",
@@ -329,8 +333,8 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "The University of Nevada now offers students the opportunity to minor in mariachi",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-5995179/the-university-of-nevada-now-offers-students-the-opportunity-to-minor-in-mariachi",
+          "title": "Schools struggle to measure how much AI experiments are helping",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-5991881/schools-struggle-to-measure-how-much-ai-experiments-are-helping",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -349,18 +353,28 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Morning Bid: Korean canary in the AI coalmine",
-          "url": "https://www.investing.com/news/economy-news/morning-bid-korean-canary-in-the-ai-coalmine-4958763",
+          "title": "Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery",
+          "url": "https://phys.org/news/2026-10-nanoscale-tech-tracks-proteins-neurons.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Colombian Congress approves $201.1 billion budget for 2027",
+          "url": "https://www.investing.com/news/economy-news/colombian-congress-approves-2011-billion-budget-for-2027-4959358",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Australia stocks lower at close of trade; S&P/ASX 200 down 0.33%",
-          "url": "https://www.investing.com/news/stock-market-news/australia-stocks-lower-at-close-of-trade-spasx-200-down-033-4958781",
+          "title": "Best Buy launches gaming platform in beta with IGN partnership",
+          "url": "https://www.investing.com/news/company-news/best-buy-launches-gaming-platform-in-beta-with-ign-partnership-93CH-4959759",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Activists decry the clearing 250-year-old trees for border wall expansion",
-          "url": "https://www.npr.org/2026/10/19/nx-s1-5995629/activists-decry-the-clearing-250-year-old-trees-for-border-wall-expansion",
+          "title": "North Carolina and Georgia are research hubs. How Trump's cuts have affected them",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6000394/north-carolina-and-georgia-are-research-hubs-how-trumps-cuts-have-affected-them",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "The University of Nevada now offers students the opportunity to minor in mariachi",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5995179/the-university-of-nevada-now-offers-students-the-opportunity-to-minor-in-mariachi",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -369,13 +383,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Hegseth meets Netanyahu in unannounced Israel visit, Axios reports",
-          "url": "https://www.investing.com/news/economy-news/hegseth-meets-netanyahu-in-unannounced-israel-visit-axios-reports-4958737",
+          "title": "FTSE 100 slips as banks weigh; defensive stocks limit decline",
+          "url": "https://www.investing.com/news/economy-news/ftse-100-slips-as-banks-weigh-defensive-stockslimit-decline-4959525",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Tele2 Q3 core profit misses forecasts, cuts capex outlook on record cash flow",
-          "url": "https://www.investing.com/news/earnings/tele2-q3-core-profit-misses-forecasts-cuts-capex-outlook-on-record-cash-flow-4958780",
+          "title": "Vicor shares jump 5% on third quarter earnings beat",
+          "url": "https://www.investing.com/news/earnings/vicor-shares-jump-5-on-third-quarter-earnings-beat-93CH-4959758",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -389,29 +403,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Old Blood Cells Have Been Transformed Into Brain Stem Cells That Get Younger As They Age",
-          "url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Chinese official says economy resilient but recovery momentum remains weak",
-          "url": "https://www.investing.com/news/economy-news/chinese-official-says-economy-resilient-but-recovery-momentum-remains-weak-4958730",
+          "title": "Ford recalls more than 102,000 F-Series trucks over faulty speedometer, US NHTSA says",
+          "url": "https://www.investing.com/news/economy-news/ford-recalls-more-than-102000-fseries-trucks-over-faulty-speedometer-us-nhtsa-says-4959445",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Volkswagen bet on Xpeng to save its China business. It’s not going to plan",
-          "url": "https://www.investing.com/news/stock-market-news/volkswagen-bet-on-xpeng-to-save-its-china-business-its-not-going-to-plan-4958774",
+          "title": "TSX futures inch down as traders eye Bank of Canada rate path",
+          "url": "https://www.investing.com/news/stock-market-news/tsx-futures-inch-down-as-traders-eye-bank-of-canada-rate-path-4959494",
           "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "POV: Your girls' PE lesson gets a glow up",
-          "url": "https://www.bbc.co.uk/news/videos/cq4g1kz7l4d3o",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Disgruntled farmers may help flip Senate seat in Kansas",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6002946/disgruntled-farmers-may-help-flip-senate-seat-in-kansas",
-          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "Scientists discover a natural compound that could protect the brain from too much salt",
@@ -419,29 +418,49 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists are growing human brain tissue in living mice—could this make their welfare harder to assess?",
-          "url": "https://phys.org/news/2026-10-scientists-human-brain-tissue-mice.html",
+          "title": "Old Blood Cells Have Been Transformed Into Brain Stem Cells That Get Younger As They Age",
+          "url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Gold slips as investors weigh Fed rate outlook",
-          "url": "https://www.investing.com/news/economy-news/gold-slips-as-investors-weigh-fed-rate-outlook-4958646",
+          "title": "Brazil central bank looks to encourage responsible lending in consumer debt crackdown, sources say",
+          "url": "https://www.investing.com/news/economy-news/brazil-central-bank-looks-to-encourage-responsible-lending-in-consumer-debt-crackdown-sources-say-4959398",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Analysis-As Japan pursues a chip-industry reboot, it’s being pressed to build America’s",
-          "url": "https://www.investing.com/news/economic-indicators/analysisas-japan-pursues-a-chipindustry-reboot-its-being-pressed-to-build-americas-4958769",
+          "title": "Jefferies lowers Southern stock price target on regulatory outlook",
+          "url": "https://www.investing.com/news/analyst-ratings/jefferies-lowers-southern-stock-price-target-on-regulatory-outlook-93CH-4959739",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Zoe Kazan on her adaptation of Steinbeck's East of Eden - and her grandfather's",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6001704/zoe-kazan-on-her-adaptation-of-steinbecks-east-of-eden-and-her-grandfathers",
+          "title": "Activists decry the clearing 250-year-old trees for border wall expansion",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-5995629/activists-decry-the-clearing-250-year-old-trees-for-border-wall-expansion",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Experimental Facilities",
-          "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/",
-          "reason": "Provider returned HTTP 429"
+          "title": "Measuring regrowth: Erk gradients guide zebrafish fins back to their original size after injury",
+          "url": "https://phys.org/news/2026-10-regrowth-erk-gradients-zebrafish-fins.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Shares slide again as oil stays high; AI earnings in focus",
+          "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Susquehanna lowers Live Nation stock price target on pricing concerns",
+          "url": "https://www.investing.com/news/analyst-ratings/susquehanna-lowers-live-nation-stock-price-target-on-pricing-concerns-93CH-4959738",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "What is the Budget and what could be in it?",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "ADHD Drugs May Reduce The Risk of Early Death, Major Study Finds",
@@ -449,28 +468,28 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "China leaves loan rates steady for 17th consecutive month",
-          "url": "https://www.investing.com/news/economy-news/china-leaves-loan-rates-steady-for-17th-consecutive-month-4958644",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Asian currencies firm as dollar retreats; yuan hits four-year high",
-          "url": "https://www.investing.com/news/forex-news/asian-currencies-firm-asdollar-retreats-yuan-hits-fouryear-high-4958775",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "How to see the Orionid meteor shower",
-          "url": "https://www.bbc.co.uk/weather/articles/c64gr18jrvx3o",
+          "title": "Partisan segregation may be shaping Asian Americans' voting behavior",
+          "url": "https://phys.org/news/2026-10-partisan-segregation-asian-americans-voting.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Dad shift: Men now file majority of paid family leave claims in key states",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
+          "title": "Euro rebounds as French protests ease, dollar slips",
+          "url": "https://www.investing.com/news/economy-news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-4958627",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Needham holds Carter’s stock rating, lowers estimates on demand",
+          "url": "https://www.investing.com/news/analyst-ratings/needham-holds-carters-stock-rating-lowers-estimates-on-demand-93CH-4959737",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Disgruntled farmers may help flip Senate seat in Kansas",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6002946/disgruntled-farmers-may-help-flip-senate-seat-in-kansas",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
+          "title": "Fatty liver disease is actually five different conditions, scientists discover",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070642.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -479,18 +498,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Dollar and euro drift, yen slips as markets seek direction",
-          "url": "https://www.investing.com/news/economy-news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-4958627",
+          "title": "Netflix to report; OpenAI’s reported fundraising plans - what’s moving markets",
+          "url": "https://www.investing.com/news/economy-news/netflix-to-report-openais-reported-fundraising-plans--whats-moving-markets-4959058",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "US to launch $8 billion support program for farmers to offset diesel costs, Trump says",
-          "url": "https://www.investing.com/news/commodities-news/us-to-launch-8-billion-support-program-for-farmers-to-offset-diesel-costs-trump-says-4958688",
+          "title": "Horace Mann CEO Marita Zuraitis sells $316,734 of HMN stock",
+          "url": "https://www.investing.com/news/insider-trading-news/horace-mann-ceo-marita-zuraitis-sells-316734-of-hmn-stock-93CH-4959736",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Scientists discover that male and female skin play by different rules",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261017230020.htm",
+          "title": "Zoe Kazan on her adaptation of Steinbeck's East of Eden - and her grandfather's",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6001704/zoe-kazan-on-her-adaptation-of-steinbecks-east-of-eden-and-her-grandfathers",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -499,49 +523,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Nicola Jennings on Trump’s new White House press secretary – cartoon",
-          "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/18/nicola-jennings-donald-trump-new-white-house-press-secretary-cartoon",
+          "title": "Daiwa, Mizuho clear final hurdles to launch China securities units, Bloomberg says",
+          "url": "https://www.investing.com/news/economy-news/daiwa-mizuho-clear-final-hurdles-to-launch-china-securities-units-bloomberg-says-4958768",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Barclays cuts Vodafone on AI threats to earnings and German market exposure",
+          "url": "https://www.investing.com/news/stock-market-news/barclays-cuts-vodafone-on-ai-threats-to-earnings-and-german-market-exposure-4959721",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Dad shift: Men now file majority of paid family leave claims in key states",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5977811/dad-shift-men-now-file-majority-of-paid-family-leave-claims-in-key-states",
           "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Nasdaq climbs as chip and AI-linked stocks bounce back",
-          "url": "https://www.investing.com/news/economy-news/wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall-4956777",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Florida DMV hacked after police dept insecurely stored login info",
-          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Fatty liver disease is actually five different conditions, scientists discover",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070642.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Trading Day: AI storm abates",
-          "url": "https://www.investing.com/news/economy-news/trading-day-ai-storm-abates-4958391",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "SK Hynix RSI hits 19.94 in steep downtrend: Live levels",
-          "url": "https://www.investing.com/news/stock-market-news/sk-hynix-crashes-206-below-20period-ma-live-levels-93CH-4956188",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "A Saline Injection Could Offer Longer Relief From Carpal Tunnel Pain",
-          "url": "https://www.sciencealert.com/a-saline-injection-could-offer-longer-relief-from-carpal-tunnel-pain",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "A Chinese rocket deorbited over Minnesota and left this in a farmer's cornfield",
-          "url": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
-          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
@@ -549,8 +543,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Why is Alberta voting on whether to separate from Canada, and how likely is it to happen?",
-          "url": "https://www.bbc.co.uk/news/articles/c809jg1gj9yo",
+          "title": "Florida DMV hacked after police dept insecurely stored login info",
+          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -560,14 +554,13 @@
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 15,
-      "eventDatesUnconfirmed": 45,
+      "eventDatesVerified": 17,
+      "eventDatesUnconfirmed": 43,
       "rejectionReasons": {
-        "Provider returned HTTP 403": 19,
-        "Source article was unavailable or too short": 10,
-        "The actual event/announcement is more than a week old": 25,
-        "Unrecognized source-page host": 1,
-        "Provider returned HTTP 429": 1
+        "Provider returned HTTP 403": 20,
+        "Source article was unavailable or too short": 11,
+        "The actual event/announcement is more than a week old": 22,
+        "Unrecognized source-page host": 1
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -575,14 +568,14 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 25,
+          "candidates": 24,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 53,
+          "candidates": 54,
           "error": null
         },
         {
@@ -617,7 +610,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 18,
+          "candidates": 21,
           "error": null
         },
         {
@@ -631,7 +624,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 22,
+          "candidates": 20,
           "error": null
         },
         {
@@ -673,7 +666,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 31,
+          "candidates": 33,
           "error": null
         },
         {
@@ -806,7 +799,7 @@
           "source": "The Guardian",
           "url": "https://www.theguardian.com/science/rss",
           "available": true,
-          "candidates": 27,
+          "candidates": 28,
           "error": null
         },
         {
@@ -897,7 +890,7 @@
           "source": "Business Insider",
           "url": "https://www.businessinsider.com/sai",
           "available": true,
-          "candidates": 15,
+          "candidates": 14,
           "error": null
         }
       ],
@@ -905,8 +898,8 @@
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 3,
-    "carriedCount": 2,
+    "freshCount": 4,
+    "carriedCount": 1,
     "olderCount": 0,
     "reserveStories": [
       {
@@ -914,7 +907,7 @@
         "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
         "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
         "summary": "The series of recent steps by the president that seem to favor Vladimir Putin reflect his intensifying desire to normalize the relationship with Moscow even if it means further undercutting Ukraine.",
-        "publishedAt": "2026-10-20T01:00:18.000Z",
+        "publishedAt": "2026-10-20T07:19:14.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -929,13 +922,205 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T06:03:21.942Z",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-19-pm",
-        "leadUnchanged": false,
+        "selectedEdition": "2026-10-20-am",
+        "leadUnchanged": true,
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "url": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+        "summary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
+        "publishedAt": "2026-10-20T09:40:13.000Z",
+        "source": "Phys.org",
+        "category": "Science",
+        "coverage": "Research reporting",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://phys.org/rss-feed/",
+        "feedRank": 6,
+        "nytHomeLead": false,
+        "editorialText": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island. Officials declared success an hour later when the spacecraft separated as planned from the rocket's upper stage. Flight controllers burst into applause and jumped to their feet, shaking hands and embracing. While NASA has successfully landed nine spacecraft on Mars over the past 50 years and China scored a 2021 touchdown, no one has ever reached Phobos or its sidekick Deimos. And no one has managed to fetch samples from Mars, let alone its moons. If successful, bits of dust, soil and rocks from Phobos will arrive on Earth in 2031. \"There's a lot of adrenaline and a lot of excitement and",
+        "originalPublishedAt": "2026-10-20T09:40:13.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples. Five of the world's space agencies joined forces for the five-year mission that will attempt to land a robotic prospector plus a rover on Phobos, the larger and closer of Mars' two pint-sized moons. The Japan Aerospace Exploration Agency, which is leading the sampling effort, launched the spacecraft before dawn from the country's main spaceport on Tanegashima Island.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/japan-mars-moons-1.jpg",
+        "imageCaption": "An H3 rocket lifts off from the Tanegashima Space Center in Kagoshima prefecture, southern Japan, Tuesday, Oct. 20, 2026. Credit: Naoki Hiraoka/Kyodo News via AP",
+        "imageSourceUrl": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "score": 50.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+        "originalSummary": "A Japanese spacecraft rocketed toward Mars on Tuesday on a quest to explore its mysterious moons and bring back samples.",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "electronics-building",
+        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+        "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+        "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+        "summary": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages.",
+        "publishedAt": "2026-10-19T22:30:08.000Z",
+        "source": "The Guardian",
+        "category": "Science",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages. Details of the breakthrough were published in the Lancet Digital Health journal. The system can estimate a person’s biological age – the age a person looks, rather than their actual, chronological age – and predict the chances of survival for cancer patients from an ordinary photograph of their face, according to the results of a study that examined the model. Doctors used the technology to develop two complementary tools. FAHR-FaceAge estimates a patient’s biological age, and",
+        "originalPublishedAt": "2026-10-19T22:30:08.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face. The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. It is one of the most comprehensive demonstrations to date of how AI analysis of a selfie could help assess a patient’s health and potentially guide their medical care, and was trained on data from more than 40 million facial photographs across a range of ethnicities and ages.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": null,
+        "imageCaption": "The study is one of the most comprehensive demonstrations yet of how AI analysis of a selfie could help to assess a patient’s health and guide their medical care. Photograph: Addictive Stock Creatives/Alamy",
+        "imageSourceUrl": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "score": 80,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 60,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+        "originalSummary": "System can estimate a person’s biological age and predict chances of cancer survival from a single photographDoctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face.The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "everyday-tech",
+        "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "publishedAt": "2026-10-18T19:00:02.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
+        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "checkedAt": "2026-10-18T19:06:25.150Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-20-am",
+        "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "title": "DeepSeek banned from US government in race with China for AI dominance",
+        "summary": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China.",
+        "publishedAt": "2026-10-19T18:21:54.279Z",
+        "source": "BBC News",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "feedRank": 3,
+        "nytHomeLead": false,
+        "editorialText": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China. The DHS, DeepSeek, and the Chinese embassy in Washington DC have been contacted for comment. The DHS made the order public on Monday, but the ban took effect from the end of July. The order is specific to civilian agencies, including the Department of the Treasury, the Department of State and the Department of Justice. However, agencies within the Department of Defense are excluded. The ban follows criticism of Chinese AI from",
+        "originalPublishedAt": "2026-10-19T18:21:54.279Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has been seen as a disruptive force in the ongoing AI technology race. While the DHS notice did not detail the exact security concerns surrounding DeepSeek, the White House has this year criticised AI firms from China.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/76fb/live/a102f4a0-cbe9-11f1-ad7b-fd8c269705fe.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+        "checkedAt": "2026-10-20T11:40:59.469Z",
+        "score": 53.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "DeepSeek banned from US government in race with China for AI dominance",
+        "originalSummary": "The Chinese technology is removed from most US government agencies as race for AI dominance steps up.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
       },
@@ -1033,54 +1218,6 @@
         "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
         "selectedEdition": "2026-10-19-pm",
         "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "publishedAt": "2026-10-18T19:00:02.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
-        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "checkedAt": "2026-10-18T19:06:25.150Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-19-pm",
-        "carriedForward": true,
         "olderReport": false
       },
       {
@@ -2056,158 +2193,14 @@
         "selectedEdition": "2026-10-18-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "summary": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
-        "publishedAt": "2026-10-18T15:00:02.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
-        "feedRank": 38,
-        "nytHomeLead": false,
-        "editorialText": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. He said: “That’s the new finding, that both Shakespeare, now confirmed beyond doubt, and Marlowe, unexpectedly found for the first time, are present in the play, and therefore it represents a newly found collaboration between the two. “It has massive implications for our understanding of the relationship between the two most important dramatists of this period. This changes both the Shakespeare canon and the Marlowe canon and will be of significant international interest.” Loughnane, a reader in early modern studies at the University of Kent and general editor of the Oxford Marlowe editorial project, collaborated",
-        "originalPublishedAt": "2026-10-18T15:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Dramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe. The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/9c8e899762425492abfe5294af03f840961b7c5e/298_0_2884_2307/master/2884.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0a25cec7c68539783bc83f576b8639ea",
-        "imageCaption": "A Royal Shakespeare Company production of Edward III. It has been long thought Shakespeare wrote at least a few scenes. Photograph: Geraint Lewis/ArenaPAL",
-        "imageSourceUrl": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
-        "checkedAt": "2026-10-18T17:48:52.739Z",
-        "score": 89,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
-        "originalSummary": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-        "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-        "title": "Giving AI a “crystal clear” view of the materials world",
-        "summary": "They found that the model trained on AI-generated descriptions successfully learned how to align geometric structures with text descriptions while the other did not. “We wanted to create an AI model that works broadly across materials,” Li says. “That’s why we decided to synthesize narratives rather than rely solely on existing papers. We found when we used that narrative dataset, the models are better at predicting the function.” Accelerating materials science The researchers then showed their model could be given a natural language query describing a property and identify crystalline materials with that property, outperforming a baseline.",
-        "publishedAt": "2026-10-18T04:00:00.000Z",
-        "source": "MIT News",
-        "category": "Science",
-        "coverage": "University research release",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://news.mit.edu/rss/research",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "In principle, artificial intelligence could make finding the right material for an application as simple as ordering dinner: Scientists would tell a large language model what they want, and it would serve them a perfectly designed crystal for the job. Unfortunately, that approach doesn’t work well yet, and the problem comes down to data: Most materials consist of crystals, which are 3D periodic arrangements of atoms whose structures are stored in specialized formats, not the text streams that today’s large language models are trained on. The experimental literature is also heavily biased toward a few popular classes of crystals, making AI outputs skew toward those materials. Now MIT researchers have created a multimodal AI model that tackles these problems. The model combines 3D atomic structures with natural language descriptions to create rich linguistic descriptions about the structures from experimental research papers and first-principles computational databases. The unified description outlines not just the chemical composition and structure, but also its properties, processing considerations, and potential applications, helping AI learn more about what makes materials impactful. In a new paper in Nature",
-        "originalPublishedAt": "2026-10-18T04:00:00.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Research announced",
-        "eventDateVerified": true,
-        "dateEvidence": "The institution's original announcement is dated 2026-10-18.",
-        "dateEvidenceUrl": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-        "eventRevision": "2026-10-18:Research announced",
-        "majorUpdateVerified": false,
-        "explanation": "They found that the model trained on AI-generated descriptions successfully learned how to align geometric structures with text descriptions while the other did not. “We wanted to create an AI model that works broadly across materials,” Li says. “That’s why we decided to synthesize narratives rather than rely solely on existing papers. We found when we used that narrative dataset, the models are better at predicting the function.” Accelerating materials science The researchers then showed their model could be given a natural language query describing a property and identify crystalline materials with that property, outperforming a baseline.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://news.mit.edu/sites/default/files/images/202610/MIT-Synthetic-Narratives-01-press.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-        "checkedAt": "2026-10-18T15:53:31.164Z",
-        "score": 32.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 20,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Giving AI a “crystal clear” view of the materials world",
-        "originalSummary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "batteries-materials",
-        "whyForYou": "AI that searches for useful material properties connects computing with materials and battery research.",
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
-        "url": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
-        "title": "'No Kings' protesters rally across the US – video",
-        "summary": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
-        "publishedAt": "2026-10-18T15:20:57.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 14,
-        "nytHomeLead": false,
-        "editorialText": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
-        "originalPublishedAt": "2026-10-18T15:20:57.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/a23e5b15a3fc06952bea8bde913dfd3452f5521c/250_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b2211dd702e246542173198a3bfb239d",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video",
-        "checkedAt": "2026-10-18T15:53:31.164Z",
-        "score": 36.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "'No Kings' protesters rally across the US – video",
-        "originalSummary": "Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-18-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
       "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html",
-      "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-      "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
+      "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
+      "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
       "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-      "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+      "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo"
     ]
   }
 }
