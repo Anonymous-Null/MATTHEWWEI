@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T23:54:19.097Z",
+  "fetchedAt": "2026-10-21T15:17:27.254Z",
   "news": {
     "nytLead": {
-      "id": "https://www.nytimes.com/2026/10/20/us/politics/julio-herrera-pardon-alina-habba.html",
-      "url": "https://www.nytimes.com/2026/10/20/us/politics/julio-herrera-pardon-alina-habba.html",
-      "title": "A Billionaire Wanted a Trump Pardon. His Family Gave Alina Habba a $50 Million Deal.",
-      "summary": "Julio Herrera Velutini, a prominent Venezuelan, was seeking clemency. He got it not long after his daughter gave Ms. Habba, a lawyer close to President Trump, an extraordinarily lucrative job.",
-      "publishedAt": "2026-10-20T23:18:31.000Z",
+      "id": "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+      "url": "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+      "title": "Russia Releases American Stephen Hubbard From Prison, State Media Reports",
+      "summary": "The move buys good will with President Trump while costing the President Vladimir V. Putin — who is wanted for war crimes — little.",
+      "publishedAt": "2026-10-21T14:28:48.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -16,28 +16,28 @@
       "nytHomeLead": true,
       "nytFeedSummary": true,
       "sourcePageChecked": false,
-      "explanation": "Julio Herrera Velutini, a prominent Venezuelan, was seeking clemency. He got it not long after his daughter gave Ms. Habba, a lawyer close to President Trump, an extraordinarily lucrative job.",
+      "explanation": "The move buys good will with President Trump while costing the President Vladimir V. Putin — who is wanted for war crimes — little.",
       "eventDate": null,
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-20T23:54:19.097Z"
+      "checkedAt": "2026-10-21T15:17:27.254Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-20T23:54:19.097Z",
+      "checkedAt": "2026-10-21T15:17:27.254Z",
       "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
-    "editionKey": "2026-10-20-pm",
+    "editionKey": "2026-10-21-am",
     "stories": [
       {
-        "id": "https://www.nytimes.com/2026/10/20/us/politics/julio-herrera-pardon-alina-habba.html",
-        "url": "https://www.nytimes.com/2026/10/20/us/politics/julio-herrera-pardon-alina-habba.html",
-        "title": "A Billionaire Wanted a Trump Pardon. His Family Gave Alina Habba a $50 Million Deal.",
-        "summary": "Julio Herrera Velutini, a prominent Venezuelan, was seeking clemency. He got it not long after his daughter gave Ms. Habba, a lawyer close to President Trump, an extraordinarily lucrative job.",
-        "publishedAt": "2026-10-20T23:18:31.000Z",
+        "id": "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+        "url": "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+        "title": "Russia Releases American Stephen Hubbard From Prison, State Media Reports",
+        "summary": "The move buys good will with President Trump while costing the President Vladimir V. Putin — who is wanted for war crimes — little.",
+        "publishedAt": "2026-10-21T14:28:48.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -47,240 +47,231 @@
         "nytHomeLead": true,
         "nytFeedSummary": true,
         "sourcePageChecked": false,
-        "explanation": "Julio Herrera Velutini, a prominent Venezuelan, was seeking clemency. He got it not long after his daughter gave Ms. Habba, a lawyer close to President Trump, an extraordinarily lucrative job.",
+        "explanation": "The move buys good will with President Trump while costing the President Vladimir V. Putin — who is wanted for war crimes — little.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T23:54:19.097Z",
+        "checkedAt": "2026-10-21T15:17:27.254Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-20-pm",
+        "selectedEdition": "2026-10-21-am",
         "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
-        "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
-        "title": "Can the new federal voucher program help public schools? Democrats are torn",
-        "summary": "Catch up on what you missed with our Education newsletter, sent weekly. Democrats and public school advocates have until the end of the year to make a tough decision: Whether to embrace a Republican program that might help some public-school families pay for things like tutoring and summer school – even if it will also pour taxpayer dollars into private schools. Colorado's Jared Polis was the first Democratic governor to opt in to the coming Federal Scholarship Tax Credit, a new program the Trump administration is calling \"America's first nationwide school choice program.\"",
-        "publishedAt": "2026-10-20T09:00:00.000Z",
-        "source": "NPR",
-        "category": "Education",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.npr.org/1013/rss.xml",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "Catch up on what you missed with our Education newsletter, sent weekly. Democrats and public school advocates have until the end of the year to make a tough decision: Whether to embrace a Republican program that might help some public-school families pay for things like tutoring and summer school – even if it will also pour taxpayer dollars into private schools. Colorado's Jared Polis was the first Democratic governor to opt in to the coming Federal Scholarship Tax Credit, a new program the Trump administration is calling \"America's first nationwide school choice program.\" \"An obvious decision,\" says Polis of his choice to embrace the policy that, with the help of a generous tax credit, could raise billions of dollars in taxpayer donations nationwide. \"Of course I want Colorado kids to be the beneficiaries of that,\" Polis tells NPR. \"I think many other governors would like kids in their state to be the beneficiaries of that.\" Many Republicans, yes. But his fellow Democrats aren't so sure. \"That is never going to happen,\" Minnesota Gov. Tim Walz said earlier this year when",
-        "originalPublishedAt": "2026-10-20T09:00:00.000Z",
+        "id": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+        "url": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+        "title": "Jensen Huang's keynote included a protester and a wobbly robot demo",
+        "summary": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that?",
+        "publishedAt": "2026-10-21T13:17:42.167Z",
+        "source": "Business Insider",
+        "category": "Technology",
+        "discovery": "Publisher section",
+        "editorialText": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that? What are you doing about the environmental destruction?\" The protester appeared to be referring to an August statement from Ukraine's Defence Intelligence, which said it had identified an Nvidia Jetson Orin computer module in a Russian S-71 Monochrome cruise missile. The agency did not allege that Nvidia knowingly supplied the component to Russia. Greenpeace said in a press release that it's calling on Nvidia to",
+        "originalPublishedAt": "2026-10-21T13:17:42.167Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
+        "dateEvidenceUrl": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Catch up on what you missed with our Education newsletter, sent weekly. Democrats and public school advocates have until the end of the year to make a tough decision: Whether to embrace a Republican program that might help some public-school families pay for things like tutoring and summer school – even if it will also pour taxpayer dollars into private schools. Colorado's Jared Polis was the first Democratic governor to opt in to the coming Federal Scholarship Tax Credit, a new program the Trump administration is calling \"America's first nationwide school choice program.\"",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4400x2475+0+786/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2Fb8%2Faef234494be2a7c8a3e614b5bcfa%2Fgettyimages-1742945157.jpg",
+        "explanation": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that?",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.insider.com/6ad8a70d2428f6b45581459e?width=1200&format=jpeg",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
-        "checkedAt": "2026-10-20T23:54:19.097Z",
-        "score": 48.75,
+        "imageSourceUrl": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+        "checkedAt": "2026-10-21T15:17:27.254Z",
+        "score": 62.75,
         "dimensions": {
           "surprise": 15,
           "consequence": 90,
-          "novelty": 15,
+          "novelty": 85,
           "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "Can the new federal voucher program help public schools? Democrats are torn",
-        "originalSummary": "The new scholarship tax credit program could help public school families pay for some educational services, but advocates worry it could do more harm than good.",
+        "displayTitle": "Jensen Huang's keynote included a protester and a wobbly robot demo",
+        "originalSummary": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that?",
         "whyMatters": null,
         "briefingSlot": 2,
         "slotLabel": "For you",
-        "personalTopic": "college-access",
-        "whyForYou": "Engineering college plans, college costs, scholarships, or research opportunities.",
-        "selectedEdition": "2026-10-20-pm",
+        "personalTopic": "electronics-building",
+        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
+        "selectedEdition": "2026-10-21-am",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-        "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-        "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-        "summary": "Heartbleed is the name of a critical vulnerability in the OpenSSL cryptography library. In 2014, it came under mass exploitation. Exploits let many unaffiliated hackers decrypt TLS-protected exchanges between parties. They also recovered private TLS certificate keys, session cookies, and passwords. The attacks compromised thousands of servers, some belonging to large companies and government agencies around the world. Recovery required a long series of steps that took years. Steps included patching OpenSSL on all affected devices, reissuing millions of TLS keys, revoking old certificates, rotating passwords and session tokens and updating embedded devices and other forgotten systems—something that was extremely time- and resource-intensive, especially at Internet scale.",
-        "publishedAt": "2026-10-20T19:47:35.000Z",
-        "source": "Ars Technica",
+        "id": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "title": "Websites taken down as critical PHP cyber-security update issued",
+        "summary": "The Finnish government, Edinburgh council and the BBC are among those to have taken down sites and pages ahead of a software update to a programming language which underpins many online services. Two critical vulnerabilities have been found with the PHP programming language, which is widely used across the internet. A fix was issued on Wednesday afternoon. The flaws were discovered by AI, with cyber-security firm Wiz saying they were the \"most severe vulnerabilities ever discovered\" by the tech, which is reshaping the cyber landscape. Multiple national cyber-security agencies have urged organisations to rapidly adopt the updates, or consider taking their websites offline.",
+        "publishedAt": "2026-10-21T12:09:22.519Z",
+        "source": "BBC News",
         "category": "Technology",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
-        "feedRank": 8,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "Heartbleed is the name of a critical vulnerability in the OpenSSL cryptography library. In 2014, it came under mass exploitation. Exploits let many unaffiliated hackers decrypt TLS-protected exchanges between parties. They also recovered private TLS certificate keys, session cookies, and passwords. The attacks compromised thousands of servers, some belonging to large companies and government agencies around the world. Recovery required a long series of steps that took years. Steps included patching OpenSSL on all affected devices, reissuing millions of TLS keys, revoking old certificates, rotating passwords and session tokens and updating embedded devices and other forgotten systems—something that was extremely time- and resource-intensive, especially at Internet scale. “Every time you need a lot of different people in different contexts to do something, it will take a long time,” Valsorda explained. “This time it’s worse because there’s more contexts, more people, and more heterogeneity.” The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits",
-        "originalPublishedAt": "2026-10-20T19:47:35.000Z",
+        "editorialText": "The Finnish government, Edinburgh council and the BBC are among those to have taken down sites and pages ahead of a software update to a programming language which underpins many online services. Two critical vulnerabilities have been found with the PHP programming language, which is widely used across the internet. A fix was issued on Wednesday afternoon. The flaws were discovered by AI, with cyber-security firm Wiz saying they were the \"most severe vulnerabilities ever discovered\" by the tech, which is reshaping the cyber landscape. Multiple national cyber-security agencies have urged organisations to rapidly adopt the updates, or consider taking their websites offline. Finland has temporarily shut down the government's public web services, while the Netherlands' cyber-security agency said it was taking its own website offline due to the vulnerabilities. Meanwhile, the White House said federal agencies were assessing potential impacts to government systems and critical infrastructure, and it was working with leading AI labs to speed up a fix to the issue. And in a post on X, external, Japan's Prime Minister Sanae Takaichi urged people to check if",
+        "originalPublishedAt": "2026-10-21T12:09:22.519Z",
         "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-        "eventRevision": null,
+        "eventDate": "2026-10-21",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "A fix was issued on Wednesday afternoon.",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "eventRevision": "2026-10-21:Event",
         "majorUpdateVerified": false,
-        "explanation": "Heartbleed is the name of a critical vulnerability in the OpenSSL cryptography library. In 2014, it came under mass exploitation. Exploits let many unaffiliated hackers decrypt TLS-protected exchanges between parties. They also recovered private TLS certificate keys, session cookies, and passwords. The attacks compromised thousands of servers, some belonging to large companies and government agencies around the world. Recovery required a long series of steps that took years. Steps included patching OpenSSL on all affected devices, reissuing millions of TLS keys, revoking old certificates, rotating passwords and session tokens and updating embedded devices and other forgotten systems—something that was extremely time- and resource-intensive, especially at Internet scale.",
+        "explanation": "The Finnish government, Edinburgh council and the BBC are among those to have taken down sites and pages ahead of a software update to a programming language which underpins many online services. Two critical vulnerabilities have been found with the PHP programming language, which is widely used across the internet. A fix was issued on Wednesday afternoon. The flaws were discovered by AI, with cyber-security firm Wiz saying they were the \"most severe vulnerabilities ever discovered\" by the tech, which is reshaping the cyber landscape. Multiple national cyber-security agencies have urged organisations to rapidly adopt the updates, or consider taking their websites offline.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/broken-encryption-lock-1152x648.jpg",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/eb5e/live/02351720-cd44-11f1-8177-0f8bd59b54c4.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-        "checkedAt": "2026-10-20T23:54:19.097Z",
-        "score": 68.25,
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "checkedAt": "2026-10-21T15:17:27.254Z",
+        "score": 80.25,
         "dimensions": {
           "surprise": 65,
           "consequence": 90,
           "novelty": 85,
-          "relevance": 10
+          "relevance": 90
         },
         "freshness": "24h",
-        "displayTitle": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-        "originalSummary": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
+        "displayTitle": "Websites taken down as critical PHP cyber-security update issued",
+        "originalSummary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
         "whyMatters": null,
         "briefingSlot": 3,
         "slotLabel": "For you",
-        "personalTopic": "everyday-tech",
-        "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
-        "selectedEdition": "2026-10-20-pm",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-21-am",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.highereddive.com/news/unc-chapel-hill-strikes-bargain-with-trump-administration-to-end-probes/833458/",
-        "url": "https://www.highereddive.com/news/unc-chapel-hill-strikes-bargain-with-trump-administration-to-end-probes/833458/",
-        "title": "UNC-Chapel Hill strikes bargain with Trump administration to end probes",
-        "summary": "The University of North Carolina at Chapel Hill on Monday struck a deal with the Trump administration to end federal investigations into its handling of alleged campus antisemitism and civil rights violations. Under the terms, the highly selective public flagship will share with the federal government years’ worth data on civil rights complaints and adopt new policies, ranging from admissions changes to student activity oversight. In exchange, the U.S. departments of Justice and Education will end more than a dozen active civil rights probes into the university. UNC-Chapel Hill did not admit wrongdoing under the agreement, and the federal government said it does not intend to dictate the \"content of academic speech or curricula\" at the university.",
-        "publishedAt": "2026-10-20T10:07:36.000Z",
-        "source": "Higher Ed Dive",
-        "category": "Education",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.highereddive.com/feeds/news/",
-        "feedRank": 2,
-        "nytHomeLead": false,
-        "editorialText": "The University of North Carolina at Chapel Hill on Monday struck a deal with the Trump administration to end federal investigations into its handling of alleged campus antisemitism and civil rights violations. Under the terms, the highly selective public flagship will share with the federal government years’ worth data on civil rights complaints and adopt new policies, ranging from admissions changes to student activity oversight. In exchange, the U.S. departments of Justice and Education will end more than a dozen active civil rights probes into the university. UNC-Chapel Hill did not admit wrongdoing under the agreement, and the federal government said it does not intend to dictate the \"content of academic speech or curricula\" at the university. Unlike most of the deals the Trump administration has struck, UNC-Chapel Hill will not pay a monetary settlement. UNC-Chapel Hill faced 18 active Title VI investigations from the Education Department dating back to 2019, \"spanning the Biden and Trump administrations,\" according to the university. Title VI bars institutions that receive federal funding from discriminating on the basis of race, color or national origin.",
-        "originalPublishedAt": "2026-10-20T10:07:36.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-19",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "The University of North Carolina at Chapel Hill on Monday struck a deal with the Trump administration to end federal investigations into its handling of alleged campus antisemitism and civil rights violations.",
-        "dateEvidenceUrl": "https://www.highereddive.com/news/unc-chapel-hill-strikes-bargain-with-trump-administration-to-end-probes/833458/",
-        "eventRevision": "2026-10-19:Event",
-        "majorUpdateVerified": false,
-        "explanation": "The University of North Carolina at Chapel Hill on Monday struck a deal with the Trump administration to end federal investigations into its handling of alleged campus antisemitism and civil rights violations. Under the terms, the highly selective public flagship will share with the federal government years’ worth data on civil rights complaints and adopt new policies, ranging from admissions changes to student activity oversight. In exchange, the U.S. departments of Justice and Education will end more than a dozen active civil rights probes into the university. UNC-Chapel Hill did not admit wrongdoing under the agreement, and the federal government said it does not intend to dictate the \"content of academic speech or curricula\" at the university.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://imgproxy.divecdn.com/CccgV-GqqtKDnAkZBCwlg3ZYvKkC0cE5RWyi5ko9-eY/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjI4MDk1NTkxLmpwZw==.webp",
-        "imageCaption": "Students walk on the University of North Carolina at Chapel Hill's campus on Aug. 18, 2020, in Chapel Hill, N.C. The public flagship struck a deal with the Trump administration to end more than a dozen federal civil rights probes. Melissa Sue Gerrits via Getty Images",
-        "imageSourceUrl": "https://www.highereddive.com/news/unc-chapel-hill-strikes-bargain-with-trump-administration-to-end-probes/833458/",
-        "checkedAt": "2026-10-20T23:54:19.097Z",
-        "score": 48.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 90
-        },
-        "freshness": "48h",
-        "displayTitle": "UNC-Chapel Hill strikes bargain with Trump administration to end probes",
-        "originalSummary": "Under the deal, the highly selective public flagship will implement several wide-ranging policy changes to resolve more than a dozen civil rights investigations.",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": "college-access",
-        "whyForYou": "Engineering college plans, college costs, scholarships, or research opportunities.",
-        "selectedEdition": "2026-10-20-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-        "url": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-        "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy",
-        "summary": "The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway. He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. The Ukrainian president said: “It’s very important for our people, for children, adults, civilians, because we can hear when ballistic [missiles] is coming. So we are thankful to the American side.” Witkoff will on Wednesday meet Russian president Vladimir Putin after what a US official called “constructive” talks with Zelenskyy in Norway.",
-        "publishedAt": "2026-10-20T19:32:28.000Z",
+        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "publishedAt": "2026-10-18T19:00:02.000Z",
         "source": "The Guardian",
-        "category": "World",
+        "category": "U.S.",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/world/ukraine/rss",
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
         "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway. He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. The Ukrainian president said: “It’s very important for our people, for children, adults, civilians, because we can hear when ballistic [missiles] is coming. So we are thankful to the American side.” Witkoff will on Wednesday meet Russian president Vladimir Putin after what a US official called “constructive” talks with Zelenskyy in Norway. The US envoy would aim to “create a pathway toward direct trilateral and broader multilateral negotiations”, a US official told Reuters. The talks in Oslo took place amid the worst crisis in US-Ukraine relations since Putin’s full-scale invasion nearly five years ago. Donald Trump has bitterly accused Zelenskyy of failing to end the war and has said Ukraine needs a new leader. On",
-        "originalPublishedAt": "2026-10-20T19:32:28.000Z",
+        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
+        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway. He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. The Ukrainian president said: “It’s very important for our people, for children, adults, civilians, because we can hear when ballistic [missiles] is coming. So we are thankful to the American side.” Witkoff will on Wednesday meet Russian president Vladimir Putin after what a US official called “constructive” talks with Zelenskyy in Norway.",
+        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/388bbd7aa11bf49b58d5a9636c356b457651bd90/0_459_5908_4729/master/5908.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=32a528987da8dfa71d3db90c316a3571",
-        "imageCaption": "Zelenskyy (right) with the Finnish president (centre) and US envoy Steve Witkoff (left) in Oslo, Norway. Photograph: Heiko Junge/Pool NTB/AP",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-        "checkedAt": "2026-10-20T23:54:19.097Z",
-        "score": 36.75,
+        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "checkedAt": "2026-10-18T19:06:25.150Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy",
-        "originalSummary": "Advance warnings of missile attacks were seemingly suspended last week by the White House, but Ukraine’s president says: ‘Now it works’The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway.He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. Continue reading...",
+        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-21-am",
+        "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
+        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "publishedAt": "2026-10-18T09:49:18.000Z",
+        "source": "AP News",
+        "category": "World",
+        "discovery": "Publisher section",
+        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
+        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-18",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
+        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "eventRevision": "2026-10-18:Event",
+        "majorUpdateVerified": false,
+        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "checkedAt": "2026-10-18T18:04:24.350Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 85,
+          "consequence": 95,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
+        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-20-pm",
-        "carriedForward": false,
+        "selectedEdition": "2026-10-21-am",
+        "carriedForward": true,
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-20T23:54:19.097Z",
-    "checkedAt": "2026-10-20T23:54:19.097Z",
+    "fetchedAt": "2026-10-21T15:17:27.254Z",
+    "checkedAt": "2026-10-21T15:17:27.254Z",
     "sources": [
-      "Business Insider",
-      "Phys.org",
       "The Guardian",
-      "Ars Technica",
       "BBC News",
-      "ScienceAlert",
-      "NPR",
-      "Higher Ed Dive",
-      "ScienceDaily",
-      "MIT News",
-      "The New York Times",
-      "The Verge",
       "NASA",
+      "Phys.org",
+      "Business Insider",
+      "Ars Technica",
+      "The New York Times",
+      "Higher Ed Dive",
+      "MIT News",
+      "The Verge",
+      "NPR",
+      "ScienceAlert",
       "IEEE Spectrum"
     ],
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 918,
+      "rawCandidates": 927,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 175,
-      "primaryDatesChecked": 24,
-      "rejected": 48,
+      "sourcePagesRead": 174,
+      "primaryDatesChecked": 23,
+      "rejected": 49,
       "rejectedCandidates": [
         {
           "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -288,43 +279,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trump promises cash for fraud tips as he awards right-wing YouTuber",
-          "url": "https://www.investing.com/news/economy-news/trump-promises-cash-for-fraud-tips-as-he-awards-rightwing-youtuber-4961325",
+          "title": "Dollar mixed as traders wait on Fed, Aussie gains",
+          "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Canada, Turkey to agree during Carney visit to deepen defence and energy ties, source says",
-          "url": "https://www.investing.com/news/world-news/canada-turkey-set-to-sign-pledge-during-carney-visit-to-deepen-defence-energy-ties-source-says-4960723",
+          "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.05%",
+          "url": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-005-4963621",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Men speak out against sexual violence following Cornell rape story",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-5991914/men-speak-out-against-sexual-violence-following-cornell-rape-story",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Scientists finally uncover why statins can cause muscle pain",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Edge AI for Smart Cities: From Insight to Cognitive Action",
-          "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/",
-          "reason": "Unrecognized source-page host"
-        },
-        {
-          "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
-          "url": "https://www.investing.com/news/economy-news/boj-to-raise-rates-to-150-in-december-sticking-to-quarterly-pace-reuters-poll-4961275",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Bath & Body Works director Sarah Nash sells $14 in company stock",
-          "url": "https://www.investing.com/news/insider-trading-news/bath--body-works-director-sarah-nash-sells-14-in-company-stock-93CH-4961367",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Mississippi AG says officers did not use excessive force in toddler death",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6009249/mississippi-ag-says-officers-did-not-use-excessive-force-in-toddler-death",
+          "title": "Mississippi AG says use of force was 'justified' in fatal shooting of toddler",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009535/mississippi-ag-says-use-of-force-was-justified-in-fatal-shooting-of-toddler",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -333,53 +299,48 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Scientists discover a surprising link between vitamin C and cancer survival",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093437.htm",
+          "title": "Too much RNA can starve cells of energy, scientists discover",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "A Lost Schrödinger Manuscript Reveals a Surprising Twist in Quantum Physics",
-          "url": "https://www.sciencealert.com/a-lost-schrdinger-manuscript-reveals-a-surprising-twist-in-quantum-physics",
+          "title": "Scientists Found a Bizarre Pattern in Over 1,000 Cases of Alleged Human Reincarnation",
+          "url": "https://www.sciencealert.com/scientists-found-a-bizarre-pattern-in-over-1000-cases-of-alleged-human-reincarnation",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Australia central banker says policy working, inflation outlook worse",
-          "url": "https://www.investing.com/news/economy-news/australia-central-banker-says-policy-working-inflation-outlook-worse-4961287",
+          "title": "Bank of Israel holds interest rates steady a week before election",
+          "url": "https://www.investing.com/news/economy-news/bank-of-israel-holds-interest-rates-steady-a-week-before-election-4963179",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "LiveOne at LD Micro 20th Annual Main Event Conference: turnaround gains",
-          "url": "https://www.investing.com/news/transcripts/liveone-at-ld-micro-20th-annual-main-event-conference-turnaround-gains-93CH-4961363",
+          "title": "Nebius earnings in focus: Can AI cloud growth offset wider losses?",
+          "url": "https://www.investing.com/news/earnings/nebius-earnings-in-focus-can-ai-cloud-growth-offset-wider-losses-93CH-4963620",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Data center divides North Carolina county",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6000388/data-center-divides-north-carolina-county",
+          "title": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists Have Reconstructed The Face of The Oldest Known Homo Sapiens, And It Looks Very Familiar",
+          "url": "https://www.sciencealert.com/scientists-have-reconstructed-the-face-of-the-oldest-known-homo-sapiens-and-it-looks-very-familiar",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "‘Trump’ caged and Serbian students on the march: photos of the day – Wednesday",
+          "url": "https://www.theguardian.com/news/gallery/2026/oct/21/trump-caged-serbian-students-march-photos-of-the-day-wednesday",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Scientists discover a bizarre Jurassic “squid” unlike anything ever seen",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093434.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "This Heart Treatment From The 1970s Could Also Improve Memory in Alzheimer's Patients",
-          "url": "https://www.sciencealert.com/this-heart-treatment-from-the-1970s-could-also-improve-memory-in-alzheimers-patients",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Forgotten samples from Greenland's Cold War base reveal warmer summers during ancient ice-free period",
-          "url": "https://phys.org/news/2026-10-forgotten-samples-greenland-cold-war.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Stocks mostly rise as oil, US yields ease; French stocks fall",
-          "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
+          "title": "Russia, US, Ukraine talks may take place mid-November in Abu Dhabi",
+          "url": "https://www.investing.com/news/economy-news/russia-us-ukraine-talks-may-take-place-midnovember-in-abu-dhabi-93CH-4963538",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "WidePoint at LD Micro: growth bets meet a legal hurdle",
-          "url": "https://www.investing.com/news/transcripts/widepoint-at-ld-micro-growth-bets-meet-a-legal-hurdle-93CH-4961362",
+          "title": "Lockheed Martin earnings up next: Can munitions surge deliver?",
+          "url": "https://www.investing.com/news/earnings/lockheed-martin-earnings-up-next-can-munitions-surge-deliver-93CH-4963619",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -388,8 +349,103 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "'There's a lot to be done': North Carolina continues recovery from Hurricane Helene",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6000389/theres-a-lot-to-be-done-north-carolina-continues-recovery-from-hurricane-helene",
+          "title": "Scientists finally uncover why statins can cause muscle pain",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Extratropical Cyclone Whips Past Iceland",
+          "url": "https://science.nasa.gov/earth/earth-observatory/extratropical-cyclone-whips-past-iceland/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "OpenAI president urges AI safeguards as group he funds opposes regulation",
+          "url": "https://www.investing.com/news/economy-news/openai-president-urges-ai-safeguards-as-group-he-funds-opposes-regulation-4962263",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "United Rentals faces earnings test amid mega project boom",
+          "url": "https://www.investing.com/news/earnings/united-rentals-faces-earnings-test-amid-mega-project-boom-93CH-4963618",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "What is happening to UK prices?",
+          "url": "https://www.bbc.co.uk/news/articles/c17rgd8e9gjo",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Scientists discover ghostly, eyeless creature hidden in Chinese cave",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093445.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "A Lost Schrödinger Manuscript Reveals a Surprising Twist in Quantum Physics",
+          "url": "https://www.sciencealert.com/a-lost-schrdinger-manuscript-reveals-a-surprising-twist-in-quantum-physics",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Micron, Taiwan union sign deal, withdraw from mediation",
+          "url": "https://www.investing.com/news/economy-news/micron-taiwan-union-sign-deal-withdraw-from-mediation-4961824",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "FirstCash earnings up next: Can lending growth offset AFF woes?",
+          "url": "https://www.investing.com/news/earnings/firstcash-earnings-up-next-can-lending-growth-offset-aff-woes-93CH-4963616",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Scientists discover a surprising link between vitamin C and cancer survival",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093437.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Physicists Trapped a Particle of Antimatter And Kept It Caged For Months",
+          "url": "https://www.sciencealert.com/physicists-trapped-a-particle-of-antimatter-and-kept-it-caged-for-months",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Nasdaq leads gains as SpaceX, Super Micro results improve AI appetite",
+          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-lead-gains-as-spacex-super-micro-results-lift-ai-trade-4962357",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "United Airlines sees elevated fuel costs through 2027, flags margin challenges",
+          "url": "https://www.investing.com/news/stock-market-news/united-airlines-sees-elevated-fuel-costs-through-2027-flags-margin-challenges-4963584",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "What is the Budget and what could be in it?",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Men speak out against sexual violence following Cornell rape story",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-5991914/men-speak-out-against-sexual-violence-following-cornell-rape-story",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Scientists discover a bizarre Jurassic “squid” unlike anything ever seen",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093434.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "A Strange New Time Crystal Emerges From Synchronized Vibrations",
+          "url": "https://www.sciencealert.com/a-strange-new-time-crystal-emerges-from-synchronized-vibrations",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Brookings paper offers broad plan to shrink Fed balance sheet",
+          "url": "https://www.investing.com/news/economy-news/brookings-paper-offers-broad-plan-to-shrink-fed-balance-sheet-4963227",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Valero earnings loom as refining margins hit record highs",
+          "url": "https://www.investing.com/news/earnings/valero-earnings-loom-as-refining-margins-hit-record-highs-93CH-4963615",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Mississippi AG says officers did not use excessive force in toddler death",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6009249/mississippi-ag-says-officers-did-not-use-excessive-force-in-toddler-death",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -398,13 +454,58 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trading Day: Oil reversal lifts spirits",
-          "url": "https://www.investing.com/news/economy-news/trading-day-oil-reversal-lifts-spirits-4961184",
+          "title": "The Way You Sleep Can Reveal Your Risk of Heart Failure Up to 10 Years in Advance",
+          "url": "https://www.sciencealert.com/the-way-you-sleep-can-reveal-your-risk-of-heart-failure-up-to-10-years-in-advance",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "India rate panel flags more hikes but wary of aggressive cycle, minutes show",
+          "url": "https://www.investing.com/news/economy-news/india-rate-panel-flags-more-hikes-but-wary-of-aggressive-cycle-minutes-show-4963177",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Lotus Technology at LD Micro main event: turnaround gains pace",
-          "url": "https://www.investing.com/news/transcripts/lotus-technology-at-ld-micro-main-event-turnaround-gains-pace-93CH-4961361",
+          "title": "Investors brace for Waste Connections earnings amid valuation debate",
+          "url": "https://www.investing.com/news/earnings/investors-brace-for-waste-connections-earnings-amid-valuation-debate-93CH-4963614",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Data center divides North Carolina county",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6000388/data-center-divides-north-carolina-county",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "This Heart Treatment From The 1970s Could Also Improve Memory in Alzheimer's Patients",
+          "url": "https://www.sciencealert.com/this-heart-treatment-from-the-1970s-could-also-improve-memory-in-alzheimers-patients",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Saudi capital’s airport resumes some operations after Houthi strikes - AP",
+          "url": "https://www.investing.com/news/economy-news/saudi-capitals-airport-resumes-some-operations-after-houthi-strikes--ap-4963154",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Zephyr Minerals closes $260,000 private placement financing",
+          "url": "https://www.investing.com/news/company-news/zephyr-minerals-closes-260000-private-placement-financing-93CH-4963611",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "'There's a lot to be done': North Carolina continues recovery from Hurricane Helene",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6000389/theres-a-lot-to-be-done-north-carolina-continues-recovery-from-hurricane-helene",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Thousands of Greek students, teachers protest over education, pay",
+          "url": "https://www.investing.com/news/economy-news/thousands-of-greek-students-teachers-protest-over-education-pay-4963064",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Ping An Bio announces 1-for-40 reverse stock split effective Thursday",
+          "url": "https://www.investing.com/news/company-news/ping-an-bio-announces-1for40-reverse-stock-split-effective-thursday-93CH-4963612",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -413,124 +514,18 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Colombian Congress approves budget allocations, cuts funding to peace deal",
-          "url": "https://www.investing.com/news/economy-news/colombian-congress-approves-2011-billion-budget-for-2027-4959358",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Porch group COO Matthew Neagle sells $713,228 in shares",
-          "url": "https://www.investing.com/news/insider-trading-news/porch-group-coo-matthew-neagle-sells-713228-in-shares-93CH-4961360",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Water May Be a Hidden Trigger Behind The Spread of Alzheimer's in The Brain",
-          "url": "https://www.sciencealert.com/water-may-be-a-hidden-trigger-behind-the-spread-of-alzheimers-in-the-brain",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Factbox-Trump promises billions in payments to voters ahead of midterm elections",
-          "url": "https://www.investing.com/news/economy-news/factboxtrump-promises-billions-in-payments-to-voters-ahead-of-midterm-elections-4961063",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "AJB investment fund II buys $21,221 in Jewett Cameron Trading Co",
-          "url": "https://www.investing.com/news/insider-trading-news/ajb-investment-fund-ii-buys-21221-in-jewett-cameron-trading-co-93CH-4961359",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "POV: Your girls' PE lesson gets a glow up",
-          "url": "https://www.bbc.co.uk/news/videos/cq4g1kz7l4d3o",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Brazil’s love affair with cellphones turns theft into an election flashpoint",
-          "url": "https://www.investing.com/news/economy-news/brazils-love-affair-with-cellphones-turns-theft-into-an-election-flashpoint-4959230",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "BioCardia president and CEO Peter Altman buys $475 in BCDA shares",
-          "url": "https://www.investing.com/news/insider-trading-news/biocardia-president-and-ceo-peter-altman-buys-475-in-bcda-shares-93CH-4961358",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Activists decry the clearing 250-year-old trees for border wall expansion",
-          "url": "https://www.npr.org/2026/10/19/nx-s1-5995629/activists-decry-the-clearing-250-year-old-trees-for-border-wall-expansion",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "The Human Fingerprint on Earth’s Water Cycle",
-          "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Dollar dips as traders weigh Iran, AI risks",
-          "url": "https://www.investing.com/news/economy-news/dollar-and-euro-drift-yen-slips-as-markets-seek-direction-4958627",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Micron Technology’s Scott Deboer sells $25.7m in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/micron-technologys-scott-deboer-sells-257m-in-stock-93CH-4961357",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Fatty liver disease is actually five different conditions, scientists discover",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261016070642.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Old Blood Cells Have Been Transformed Into Brain Stem Cells That Get Younger As They Age",
-          "url": "https://www.sciencealert.com/old-blood-cells-have-been-transformed-into-brain-stem-cells-that-get-younger-as-they-age",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Northern Australia is a 'lifeboat' for critically endangered green sawfish",
-          "url": "https://phys.org/news/2026-10-northern-australia-lifeboat-critically-endangered.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Brazil’s Lula challenges Flavio Bolsonaro to make financial records public ahead of election",
-          "url": "https://www.investing.com/news/economy-news/brazils-lula-challenges-flavio-bolsonaro-to-make-financial-records-public-ahead-of-election-4960755",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "SpaceX and Tesla’s Terafab targets 2028 for volume chip production, Musk says",
-          "url": "https://www.investing.com/news/stock-market-news/spacex-and-teslas-terafab-targets-2028-for-volume-chip-production-musk-says-4961351",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Male seahorse pouch proteins may help remove toxic waste from developing embryos",
-          "url": "https://phys.org/news/2026-10-male-seahorse-pouch-proteins-toxic.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Astronomers uncover new secrets of the Universe’s first five minutes",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
+          "title": "A train was delayed by a solar storm. But something didn't add up.",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085021.htm",
           "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 14,
-      "eventDatesUnconfirmed": 46,
+      "eventDatesVerified": 12,
+      "eventDatesUnconfirmed": 48,
       "rejectionReasons": {
-        "The actual event/announcement is more than a week old": 18,
+        "The actual event/announcement is more than a week old": 20,
         "Provider returned HTTP 403": 20,
-        "Source article was unavailable or too short": 9,
-        "Unrecognized source-page host": 1
+        "Source article was unavailable or too short": 9
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -538,14 +533,14 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 28,
+          "candidates": 30,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 53,
+          "candidates": 50,
           "error": null
         },
         {
@@ -580,7 +575,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 15,
+          "candidates": 23,
           "error": null
         },
         {
@@ -594,7 +589,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 24,
+          "candidates": 23,
           "error": null
         },
         {
@@ -636,14 +631,14 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 33,
+          "candidates": 38,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
           "available": true,
-          "candidates": 22,
+          "candidates": 21,
           "error": null
         },
         {
@@ -657,14 +652,14 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
           "available": true,
-          "candidates": 41,
+          "candidates": 39,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
           "available": true,
-          "candidates": 54,
+          "candidates": 53,
           "error": null
         },
         {
@@ -860,7 +855,7 @@
           "source": "Business Insider",
           "url": "https://www.businessinsider.com/sai",
           "available": true,
-          "candidates": 14,
+          "candidates": 16,
           "error": null
         }
       ],
@@ -868,10 +863,224 @@
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 5,
-    "carriedCount": 0,
+    "freshCount": 3,
+    "carriedCount": 2,
     "olderCount": 0,
     "reserveStories": [
+      {
+        "id": "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+        "url": "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+        "title": "Russia Releases American Stephen Hubbard From Prison, State Media Reports",
+        "summary": "The move buys good will with President Trump while costing the President Vladimir V. Putin — who is wanted for war crimes — little.",
+        "publishedAt": "2026-10-21T14:28:48.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "The move buys good will with President Trump while costing the President Vladimir V. Putin — who is wanted for war crimes — little.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-21T15:17:27.254Z",
+        "briefingSlot": 1,
+        "slotLabel": "NYT lead",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-21-am",
+        "leadUnchanged": false,
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+        "url": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+        "title": "Jensen Huang's keynote included a protester and a wobbly robot demo",
+        "summary": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that?",
+        "publishedAt": "2026-10-21T13:17:42.167Z",
+        "source": "Business Insider",
+        "category": "Technology",
+        "discovery": "Publisher section",
+        "editorialText": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that? What are you doing about the environmental destruction?\" The protester appeared to be referring to an August statement from Ukraine's Defence Intelligence, which said it had identified an Nvidia Jetson Orin computer module in a Russian S-71 Monochrome cruise missile. The agency did not allege that Nvidia knowingly supplied the component to Russia. Greenpeace said in a press release that it's calling on Nvidia to",
+        "originalPublishedAt": "2026-10-21T13:17:42.167Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that?",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.insider.com/6ad8a70d2428f6b45581459e?width=1200&format=jpeg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+        "checkedAt": "2026-10-21T15:17:27.254Z",
+        "score": 62.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Jensen Huang's keynote included a protester and a wobbly robot demo",
+        "originalSummary": "By Thibault Spirlet You're currently following this author! Click to unsubscribe from email alerts. Even for a seasoned keynote pro like Jensen Huang, there's always the risk that things don't go fully to plan. The Nvidia CEO opened the company's Berlin conference on Wednesday to make the case that Europe should build its own AI economy — complete with AI factories, autonomous agents, and robots. But the pitch was interrupted about 20 minutes into the keynote by protesters holding a Greenpeace banner reading, \"Nvidia, clean your dirty business!\" One protester shouted: \"Clean up your act! What about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that?",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "electronics-building",
+        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
+        "selectedEdition": "2026-10-21-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "title": "Websites taken down as critical PHP cyber-security update issued",
+        "summary": "The Finnish government, Edinburgh council and the BBC are among those to have taken down sites and pages ahead of a software update to a programming language which underpins many online services. Two critical vulnerabilities have been found with the PHP programming language, which is widely used across the internet. A fix was issued on Wednesday afternoon. The flaws were discovered by AI, with cyber-security firm Wiz saying they were the \"most severe vulnerabilities ever discovered\" by the tech, which is reshaping the cyber landscape. Multiple national cyber-security agencies have urged organisations to rapidly adopt the updates, or consider taking their websites offline.",
+        "publishedAt": "2026-10-21T12:09:22.519Z",
+        "source": "BBC News",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "The Finnish government, Edinburgh council and the BBC are among those to have taken down sites and pages ahead of a software update to a programming language which underpins many online services. Two critical vulnerabilities have been found with the PHP programming language, which is widely used across the internet. A fix was issued on Wednesday afternoon. The flaws were discovered by AI, with cyber-security firm Wiz saying they were the \"most severe vulnerabilities ever discovered\" by the tech, which is reshaping the cyber landscape. Multiple national cyber-security agencies have urged organisations to rapidly adopt the updates, or consider taking their websites offline. Finland has temporarily shut down the government's public web services, while the Netherlands' cyber-security agency said it was taking its own website offline due to the vulnerabilities. Meanwhile, the White House said federal agencies were assessing potential impacts to government systems and critical infrastructure, and it was working with leading AI labs to speed up a fix to the issue. And in a post on X, external, Japan's Prime Minister Sanae Takaichi urged people to check if",
+        "originalPublishedAt": "2026-10-21T12:09:22.519Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-21",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "A fix was issued on Wednesday afternoon.",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "eventRevision": "2026-10-21:Event",
+        "majorUpdateVerified": false,
+        "explanation": "The Finnish government, Edinburgh council and the BBC are among those to have taken down sites and pages ahead of a software update to a programming language which underpins many online services. Two critical vulnerabilities have been found with the PHP programming language, which is widely used across the internet. A fix was issued on Wednesday afternoon. The flaws were discovered by AI, with cyber-security firm Wiz saying they were the \"most severe vulnerabilities ever discovered\" by the tech, which is reshaping the cyber landscape. Multiple national cyber-security agencies have urged organisations to rapidly adopt the updates, or consider taking their websites offline.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/eb5e/live/02351720-cd44-11f1-8177-0f8bd59b54c4.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+        "checkedAt": "2026-10-21T15:17:27.254Z",
+        "score": 80.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 90,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "24h",
+        "displayTitle": "Websites taken down as critical PHP cyber-security update issued",
+        "originalSummary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-21-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "publishedAt": "2026-10-18T19:00:02.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
+        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "checkedAt": "2026-10-18T19:06:25.150Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
+        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-21-am",
+        "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
+        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "publishedAt": "2026-10-18T09:49:18.000Z",
+        "source": "AP News",
+        "category": "World",
+        "discovery": "Publisher section",
+        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
+        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-18",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
+        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "eventRevision": "2026-10-18:Event",
+        "majorUpdateVerified": false,
+        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "checkedAt": "2026-10-18T18:04:24.350Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 85,
+          "consequence": 95,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
+        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-21-am",
+        "carriedForward": true,
+        "olderReport": false
+      },
       {
         "id": "https://www.nytimes.com/2026/10/20/us/politics/julio-herrera-pardon-alina-habba.html",
         "url": "https://www.nytimes.com/2026/10/20/us/politics/julio-herrera-pardon-alina-habba.html",
@@ -1409,54 +1618,6 @@
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "publishedAt": "2026-10-18T19:00:02.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
-        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "checkedAt": "2026-10-18T19:06:25.150Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-20-am",
-        "carriedForward": true,
-        "olderReport": false
-      },
-      {
         "id": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
         "url": "https://phys.org/news/2026-10-japan-spacecraft-mysterious-moons-mars.html",
         "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
@@ -1676,50 +1837,6 @@
         "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
         "selectedEdition": "2026-10-19-pm",
         "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "publishedAt": "2026-10-18T09:49:18.000Z",
-        "source": "AP News",
-        "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
-        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
-        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "eventRevision": "2026-10-18:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "checkedAt": "2026-10-18T18:04:24.350Z",
-        "score": 76.75,
-        "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-19-pm",
-        "carriedForward": true,
         "olderReport": false
       },
       {
@@ -2045,140 +2162,14 @@
         "selectedEdition": "2026-10-19-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
-        "url": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html",
-        "title": "France’s Far Right Seizes the Moment as Rioting Stuns the Country",
-        "summary": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
-        "publishedAt": "2026-10-19T12:55:13.000Z",
-        "source": "The New York Times",
-        "category": "Top story",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "feedRank": 1,
-        "nytHomeLead": true,
-        "nytFeedSummary": true,
-        "sourcePageChecked": false,
-        "explanation": "The National Rally, already ahead in the polls, presented itself as the party best placed to restore law and order.",
-        "eventDate": null,
-        "eventDateVerified": false,
-        "summaryKind": "NYT public-feed summary · full article unavailable",
-        "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-19T15:38:27.433Z",
-        "briefingSlot": 1,
-        "slotLabel": "NYT lead",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-19-am",
-        "leadUnchanged": false,
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-        "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-        "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.”",
-        "publishedAt": "2026-10-19T13:58:41.000Z",
-        "source": "The Verge",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theverge.com/rss/index.xml",
-        "feedRank": 6,
-        "nytHomeLead": false,
-        "editorialText": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.” With Cairn, users set a start and end point for the AI agents, which document their progress as they move forward with the task. However, as noted by Norforge, hackers can also use the tool to orchestrate cyberattacks using AI agents. The hacker who broke into more than 100 sites was the “most active” among the exposed Cairn instances discovered by Norforge, waging attacks on companies based",
-        "originalPublishedAt": "2026-10-19T13:58:41.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn’t name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cairn, an open-source AI platform that describes itself as a “general-purpose problem-solving engine.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-        "checkedAt": "2026-10-19T15:38:27.433Z",
-        "score": 71.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-        "originalSummary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown […]",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "ai-computing",
-        "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-19-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
-        "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
-        "title": "Agility Robotics Digit 5 Redesign Prioritizes Safety",
-        "summary": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world.",
-        "publishedAt": "2026-10-19T13:00:03.000Z",
-        "source": "IEEE Spectrum",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://spectrum.ieee.org/feeds/feed.rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5’s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do. Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it’s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commercial product, Agility has",
-        "originalPublishedAt": "2026-10-19T13:00:03.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Author and Agility Robotics co-founder Jonathan Hurst next to his new Digit 5 humanoid robot worker. Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68441166&width=1200&height=600&coordinates=0%2C1537%2C0%2C1538",
-        "imageCaption": "",
-        "imageSourceUrl": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
-        "checkedAt": "2026-10-19T15:38:27.433Z",
-        "score": 53.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Agility Robotics Digit 5 Redesign Prioritizes Safety",
-        "originalSummary": "Agility Robotics, the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5. It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5’s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do.Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it’s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commer",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "batteries-materials",
-        "whyForYou": "Battery safety, materials science, and energy engineering.",
-        "selectedEdition": "2026-10-19-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
-      "https://www.nytimes.com/2026/10/20/us/politics/julio-herrera-pardon-alina-habba.html",
-      "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
-      "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-      "https://www.highereddive.com/news/unc-chapel-hill-strikes-bargain-with-trump-administration-to-end-probes/833458/",
-      "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy"
+      "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+      "https://www.businessinsider.com/jensen-huang-berlin-gtc-keynote-protester-nvidia-robot-demo-2026-10",
+      "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+      "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+      "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
     ]
   }
 }
