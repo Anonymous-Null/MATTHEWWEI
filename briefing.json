@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T01:15:05.190Z",
+  "fetchedAt": "2026-10-22T04:50:48.104Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
@@ -21,11 +21,11 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-22T01:15:05.190Z"
+      "checkedAt": "2026-10-22T04:50:48.104Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-22T01:15:05.190Z",
+      "checkedAt": "2026-10-22T04:50:48.104Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -52,7 +52,7 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
@@ -90,7 +90,7 @@
         "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/science-enabling-technology/technology-highlights/2026/cyprus_swamp_regA_color_by_alt_pcd5_trajectory_G_60fps.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
         "imageCaption": "",
         "imageSourceUrl": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -121,7 +121,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "feedRank": 4,
+        "feedRank": 6,
         "nytHomeLead": false,
         "editorialText": "Technology reporter Just Eat has apologised after it was ridiculed online over a series of mistakes with AI-generated pictures for some of its restaurants' food items. The online food delivery platform had been testing out the tech to showcase food which didn't have images yet - but not all turned out as planned. Instead the AI invented several bizarre concoctions, from bacon and eggs floating in a glass of cola - a confusion between \"soda\" and \"soda bread\" - to chips poking out of muffins. A Just Eat spokesperson said the firm was \"in the process of removing\" the incorrect images, and would stop making more until the AI was further developed. \"We work with tens of thousands of small restaurants on their food imagery, including funding professional local photographers,\" the spokesperson told the BBC. \"We've been trialling AI-enhanced images, and as with any new technology, it isn't always quite right the first time.\" The incident highlights the difficulties companies can still face when using AI to speed up or simplify work processes, especially when it is used to interpret",
         "originalPublishedAt": "2026-10-21T17:04:13.697Z",
@@ -138,7 +138,7 @@
         "imageUrl": null,
         "imageCaption": "Image caption, A chip muffin and bacon and egg soda - menu items well known in parts of the UK, but not to the AI which made this",
         "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -234,7 +234,7 @@
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-1152x648-1792605015.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "score": 36.75,
         "dimensions": {
           "surprise": 15,
@@ -255,8 +255,8 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-22T01:15:05.190Z",
-    "checkedAt": "2026-10-22T01:15:05.190Z",
+    "fetchedAt": "2026-10-22T04:50:48.104Z",
+    "checkedAt": "2026-10-22T04:50:48.104Z",
     "sources": [
       "The Guardian",
       "BBC News",
@@ -275,25 +275,20 @@
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 936,
+      "rawCandidates": 945,
       "candidatesReviewed": 240,
       "sourcePagesRead": 176,
-      "primaryDatesChecked": 24,
-      "rejected": 47,
+      "primaryDatesChecked": 23,
+      "rejected": 46,
       "rejectedCandidates": [
         {
-          "title": "Scientists reach the ultimate quantum limit on a surface",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "U.S., Israel prepare for renewed Iran strikes after midterm elections - NYT",
-          "url": "https://www.investing.com/news/economy-news/us-israel-prepare-for-renewed-iran-strikes-after-midterm-elections--nyt-4964461",
+          "title": "Morning Bid: France’s debt strains, AI in focus",
+          "url": "https://www.investing.com/news/economy-news/morning-bid-frances-debt-strains-ai-in-focus-4964608",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Why is Tesla stock falling after-hours today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-falling-afterhours-today-93CH-4964486",
+          "title": "Government websites go dark after AI-discovered flaw sparks security scramble",
+          "url": "https://www.investing.com/news/stock-market-news/cyber-agency-warns-websites-may-go-dark-as-php-prepares-critical-fix-4961963",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -302,18 +297,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "AI designs functional enzyme components that could help expand drug discovery",
-          "url": "https://phys.org/news/2026-10-ai-functional-enzyme-components-drug.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
-          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-lead-gains-as-spacex-super-micro-results-lift-ai-trade-4962357",
+          "title": "Bank of Korea holds rates, upbeat outlook points to future hikes",
+          "url": "https://www.investing.com/news/economy-news/bank-of-korea-holds-rates-after-backtoback-hikes-4964499",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Oil rises as US orders diplomats to leave Saudi Arabia amid escalating tensions",
-          "url": "https://www.investing.com/news/commodities-news/oil-rises-as-us-orders-diplomats-to-leave-saudi-arabia-amid-escalating-tensions-4964484",
+          "title": "Axel Springer pitched deal to buy TikTok’s European arm, FT reports",
+          "url": "https://www.investing.com/news/stock-market-news/axel-springer-pitched-deal-to-buy-tiktoks-european-arm-ft-reports-4964610",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -327,13 +317,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Stocks rise on AI-led earnings, France’s 10-year bond yield hits 5%",
-          "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-strong-earnings-buoy-wall-street-4961492",
+          "title": "When powerful women are remembered as witches, we should challenge the historical motive",
+          "url": "https://phys.org/news/2026-10-powerful-women-witches-historical.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Colombia to enact 2027 budget by decree after congressional process fails",
+          "url": "https://www.investing.com/news/economy-news/procedural-flaw-threatens-colombias-2027-budget-4962333",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Verisign CEO D. James Bidzos sells $1.01 million in company stock",
-          "url": "https://www.investing.com/news/insider-trading-news/verisign-ceo-d-james-bidzos-sells-101-million-in-company-stock-93CH-4964483",
+          "title": "Review finds KPMG Australia mishandled whistleblower claims, pause on government work extended",
+          "url": "https://www.investing.com/news/stock-market-news/review-finds-kpmg-australia-mishandled-whistleblower-claims-pause-on-government-work-extended-4964609",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -352,18 +347,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Virus that sickens cows, kills deer still rare in New York state—for now",
-          "url": "https://phys.org/news/2026-10-virus-sickens-cows-deer-rare.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "New Zealand Q3 inflation rises 0.7% from previous quarter",
-          "url": "https://www.investing.com/news/economy-news/new-zealand-q3-inflation-rises-07-from-previous-quarter-4964304",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Oil prices rise as M.East tensions fuel fears of supply disruptions",
-          "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-meast-tensions-fuel-fears-of-supply-disruptions-4964479",
+          "title": "Asian markets dip as investors weigh tech earnings, Gulf tensions",
+          "url": "https://www.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4964558",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -372,43 +357,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Four questions about schoolwork feedback to guide young students' learning",
-          "url": "https://phys.org/news/2026-10-schoolwork-feedback-young-students.html",
+          "title": "New Fossil Confirms a Human Ancestor Appeared 200,000 Years Earlier Than Expected",
+          "url": "https://www.sciencealert.com/new-fossil-confirms-a-human-ancestor-appeared-200000-years-earlier-than-expected",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trading Day: Tech it away",
-          "url": "https://www.investing.com/news/economy-news/trading-day-tech-it-away-4964198",
+          "title": "Dip in the dollar takes a breather with Fed in focus",
+          "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Meta sued in Australia class action over alleged social media harm to children",
-          "url": "https://www.investing.com/news/stock-market-news/meta-sued-in-australia-class-action-over-alleged-social-media-harm-to-children-4964476",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Scientists discover a surprising link between vitamin C and cancer survival",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093437.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "'Low-Oxygen' Drug Combination Reverses Parkinson's Symptoms in Mice",
-          "url": "https://www.sciencealert.com/low-oxygen-drug-combination-reverses-parkinsons-symptoms-in-mice",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "‘Trump’ caged and Serbian students on the march: photos of the day – Wednesday",
-          "url": "https://www.theguardian.com/news/gallery/2026/oct/21/trump-caged-serbian-students-march-photos-of-the-day-wednesday",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Nigeria shifts to private capital for growth, rules out fuel subsidies",
-          "url": "https://www.investing.com/news/economy-news/nigeria-shifts-to-private-capital-for-growth-rules-out-fuel-subsidies-93CH-4963869",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Earnings call transcript: AIC Mines posts record cash flow in Q1 2026",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-aic-mines-posts-record-cash-flow-in-q1-2026-93CH-4964477",
+          "title": "European auto sales rise 10% in Sept; EVs, hybrids lead",
+          "url": "https://www.investing.com/news/stock-market-news/european-auto-sales-rise-10-in-sept-evs-hybrids-lead-4964607",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -417,23 +377,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "One-Quarter of Data Centers Are Located in Water-Stressed Areas, Study Shows",
-          "url": "https://www.sciencealert.com/one-quarter-of-data-centers-are-located-in-water-stressed-areas-study-shows",
+          "title": "'Low-Oxygen' Drug Combination Reverses Parkinson's Symptoms in Mice",
+          "url": "https://www.sciencealert.com/low-oxygen-drug-combination-reverses-parkinsons-symptoms-in-mice",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "AI listens to bee buzzes to monitor activity without lethal traps",
-          "url": "https://phys.org/news/2026-10-ai-bee-lethal.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Dollar dips as traders wait on Fed; Aussie gains",
-          "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462",
+          "title": "Bank of Korea holds rates at 3% after back-to-back hikes",
+          "url": "https://www.investing.com/news/economy-news/bank-of-korea-holds-rates-at-3-after-backtoback-hikes-won-strengthens-4964507",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Trump campaigns in South Carolina to support Senate candidate Graham",
-          "url": "https://www.investing.com/news/commodities-news/trump-to-rally-for-graham-in-tight-south-carolina-senate-race-amid-russia-rift-4962232",
+          "title": "Exclusive-Musk’s public endorsement of SpaceX-Tesla deal may throw a wrench in talks",
+          "url": "https://www.investing.com/news/stock-market-news/exclusivemusks-public-endorsement-of-spacextesla-deal-may-throw-a-wrench-in-talks-4964606",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -442,13 +397,43 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Brookings paper offers broad plan to shrink Fed balance sheet",
-          "url": "https://www.investing.com/news/economy-news/brookings-paper-offers-broad-plan-to-shrink-fed-balance-sheet-4963227",
+          "title": "One-Quarter of Data Centers Are Located in Water-Stressed Areas, Study Shows",
+          "url": "https://www.sciencealert.com/one-quarter-of-data-centers-are-located-in-water-stressed-areas-study-shows",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "How 39 young people experience climate education in a rapidly changing world",
+          "url": "https://phys.org/news/2026-10-young-people-climate-rapidly-world.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "‘Trump’ caged and Serbian students on the march: photos of the day – Wednesday",
+          "url": "https://www.theguardian.com/news/gallery/2026/oct/21/trump-caged-serbian-students-march-photos-of-the-day-wednesday",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Bank of Korea holds rates as expected after back-to-back hikes",
+          "url": "https://www.investing.com/news/economy-news/bank-of-korea-holds-rates-as-expected-after-backtoback-hikes-4964494",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Finance of America CIO Jeremy Prahm sells $60,265 in stock.",
-          "url": "https://www.investing.com/news/insider-trading-news/finance-of-america-cio-jeremy-prahm-sells-60265-in-stock-93CH-4964475",
+          "title": "Apple will have limited iPhone Duo units available in stores on Friday",
+          "url": "https://www.investing.com/news/stock-market-news/apple-will-have-limited-iphone-duo-units-available-in-stores-on-friday-4963408",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Student motivation and responsibility shown to be key to tackling bullying in physical education",
+          "url": "https://phys.org/news/2026-10-student-responsibility-shown-key-tackling.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Japan funding conditions still loose despite interest rate hikes, survey shows",
+          "url": "https://www.investing.com/news/economy-news/japan-funding-conditions-still-loose-despite-interest-rate-hikes-survey-shows-4964487",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -457,18 +442,18 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Holding out or holding back? Kindergarten redshirting and retention shifted sharply during the pandemic",
-          "url": "https://phys.org/news/2026-10-kindergarten-redshirting-retention-shifted-sharply.html",
+          "title": "A train was delayed by a solar storm. But something didn't add up.",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085021.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "OpenAI president urges AI safeguards as group he funds opposes regulation",
-          "url": "https://www.investing.com/news/economy-news/openai-president-urges-ai-safeguards-as-group-he-funds-opposes-regulation-4962263",
+          "title": "U.S., Israel prepare for renewed Iran strikes after midterm elections - NYT",
+          "url": "https://www.investing.com/news/economy-news/us-israel-prepare-for-renewed-iran-strikes-after-midterm-elections--nyt-4964461",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Nippon Life Insurance Co. buys $5.6m Corebridge Financial shares",
-          "url": "https://www.investing.com/news/insider-trading-news/nippon-life-insurance-co-buys-56m-corebridge-financial-shares-93CH-4964470",
+          "title": "Mid Penn earnings missed by $0.01, revenue fell short of estimates",
+          "url": "https://www.investing.com/news/earnings/mid-penn-earnings-missed-by-001-revenue-fell-short-of-estimates-4964604",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -477,8 +462,8 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
+          "title": "Astronauts’ hearts just passed a surprising test for Mars",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085016.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -492,13 +477,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Russian oil tax price runs 60% above budget assumptions in October",
-          "url": "https://www.investing.com/news/economy-news/russian-oil-tax-price-runs-60-above-budget-assumptions-in-october-93CH-4963763",
+          "title": "Virus that sickens cows, kills deer still rare in New York state—for now",
+          "url": "https://phys.org/news/2026-10-virus-sickens-cows-deer-rare.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
+          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-lead-gains-as-spacex-super-micro-results-lift-ai-trade-4962357",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Qualys chief legal officer Bruce K. Posey sells $166,963 in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/qualys-chief-legal-officer-bruce-k-posey-sells-166963-in-stock-93CH-4964469",
+          "title": "Cloudflare sees millions of exploit attempts after PHP disclosure",
+          "url": "https://www.investing.com/news/stock-market-news/cloudflare-sees-millions-of-exploit-attempts-after-php-disclosure-4964603",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -507,24 +497,28 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "A train was delayed by a solar storm. But something didn't add up.",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261020085021.htm",
+          "title": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020084818.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
-          "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
-          "reason": "Provider returned HTTP 429"
+          "title": "The Way You Sleep Can Reveal Your Risk of Heart Failure Up to 10 Years in Advance",
+          "url": "https://www.sciencealert.com/the-way-you-sleep-can-reveal-your-risk-of-heart-failure-up-to-10-years-in-advance",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Four questions about schoolwork feedback to guide young students' learning",
+          "url": "https://phys.org/news/2026-10-schoolwork-feedback-young-students.html",
+          "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
       "eventDatesVerified": 14,
       "eventDatesUnconfirmed": 46,
       "rejectionReasons": {
-        "The actual event/announcement is more than a week old": 21,
-        "Provider returned HTTP 403": 20,
-        "Source article was unavailable or too short": 5,
-        "Provider returned HTTP 429": 1
+        "Provider returned HTTP 403": 18,
+        "The actual event/announcement is more than a week old": 23,
+        "Source article was unavailable or too short": 5
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -532,7 +526,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 37,
+          "candidates": 40,
           "error": null
         },
         {
@@ -574,21 +568,21 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 18,
+          "candidates": 23,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
           "available": true,
-          "candidates": 21,
+          "candidates": 20,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 24,
+          "candidates": 25,
           "error": null
         },
         {
@@ -637,7 +631,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
           "available": true,
-          "candidates": 24,
+          "candidates": 25,
           "error": null
         },
         {
@@ -741,9 +735,9 @@
         {
           "source": "Nature",
           "url": "https://www.nature.com/nature.rss",
-          "available": false,
+          "available": true,
           "candidates": 0,
-          "error": "fetch failed"
+          "error": null
         },
         {
           "source": "Science",
@@ -886,7 +880,7 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
@@ -924,7 +918,7 @@
         "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/science-enabling-technology/technology-highlights/2026/cyprus_swamp_regA_color_by_alt_pcd5_trajectory_G_60fps.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
         "imageCaption": "",
         "imageSourceUrl": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -955,7 +949,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "feedRank": 4,
+        "feedRank": 6,
         "nytHomeLead": false,
         "editorialText": "Technology reporter Just Eat has apologised after it was ridiculed online over a series of mistakes with AI-generated pictures for some of its restaurants' food items. The online food delivery platform had been testing out the tech to showcase food which didn't have images yet - but not all turned out as planned. Instead the AI invented several bizarre concoctions, from bacon and eggs floating in a glass of cola - a confusion between \"soda\" and \"soda bread\" - to chips poking out of muffins. A Just Eat spokesperson said the firm was \"in the process of removing\" the incorrect images, and would stop making more until the AI was further developed. \"We work with tens of thousands of small restaurants on their food imagery, including funding professional local photographers,\" the spokesperson told the BBC. \"We've been trialling AI-enhanced images, and as with any new technology, it isn't always quite right the first time.\" The incident highlights the difficulties companies can still face when using AI to speed up or simplify work processes, especially when it is used to interpret",
         "originalPublishedAt": "2026-10-21T17:04:13.697Z",
@@ -972,7 +966,7 @@
         "imageUrl": null,
         "imageCaption": "Image caption, A chip muffin and bacon and egg soda - menu items well known in parts of the UK, but not to the AI which made this",
         "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -1068,7 +1062,7 @@
         "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-1152x648-1792605015.jpg",
         "imageCaption": "",
         "imageSourceUrl": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-        "checkedAt": "2026-10-22T01:15:05.190Z",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
         "score": 36.75,
         "dimensions": {
           "surprise": 15,

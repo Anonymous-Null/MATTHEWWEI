@@ -6,7 +6,7 @@
       "source": "The New York Times",
       "eventDate": null,
       "editionKey": "2026-10-21-pm",
-      "seenAt": "2026-10-22T01:15:05.190Z"
+      "seenAt": "2026-10-22T04:50:48.104Z"
     },
     "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/": {
       "id": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
@@ -15,7 +15,7 @@
       "eventDate": null,
       "eventRevision": null,
       "editionKey": "2026-10-21-pm",
-      "seenAt": "2026-10-22T01:15:05.190Z"
+      "seenAt": "2026-10-22T04:50:48.104Z"
     },
     "https://www.bbc.co.uk/news/articles/crz981p0klvgo": {
       "id": "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
@@ -24,7 +24,7 @@
       "eventDate": null,
       "eventRevision": null,
       "editionKey": "2026-10-21-pm",
-      "seenAt": "2026-10-22T01:15:05.190Z"
+      "seenAt": "2026-10-22T04:50:48.104Z"
     },
     "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/": {
       "id": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
@@ -33,7 +33,7 @@
       "eventDate": null,
       "eventRevision": null,
       "editionKey": "2026-10-21-pm",
-      "seenAt": "2026-10-22T01:15:05.190Z"
+      "seenAt": "2026-10-22T04:50:48.104Z"
     },
     "https://phys.org/news/2026-10-military-worsen-climate-undermine-experts.html": {
       "id": "https://phys.org/news/2026-10-military-worsen-climate-undermine-experts.html",
@@ -1366,7 +1366,7 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-22T01:15:05.190Z",
+      "checkedAt": "2026-10-22T04:50:48.104Z",
       "briefingSlot": 1,
       "slotLabel": "NYT lead",
       "personalTopic": null,
@@ -1404,7 +1404,7 @@
       "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/science-enabling-technology/technology-highlights/2026/cyprus_swamp_regA_color_by_alt_pcd5_trajectory_G_60fps.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
       "imageCaption": "",
       "imageSourceUrl": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-      "checkedAt": "2026-10-22T01:15:05.190Z",
+      "checkedAt": "2026-10-22T04:50:48.104Z",
       "score": 80,
       "dimensions": {
         "surprise": 90,
@@ -1435,7 +1435,7 @@
       "coverage": "Source report",
       "feedChecked": true,
       "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-      "feedRank": 4,
+      "feedRank": 6,
       "nytHomeLead": false,
       "editorialText": "Technology reporter Just Eat has apologised after it was ridiculed online over a series of mistakes with AI-generated pictures for some of its restaurants' food items. The online food delivery platform had been testing out the tech to showcase food which didn't have images yet - but not all turned out as planned. Instead the AI invented several bizarre concoctions, from bacon and eggs floating in a glass of cola - a confusion between \"soda\" and \"soda bread\" - to chips poking out of muffins. A Just Eat spokesperson said the firm was \"in the process of removing\" the incorrect images, and would stop making more until the AI was further developed. \"We work with tens of thousands of small restaurants on their food imagery, including funding professional local photographers,\" the spokesperson told the BBC. \"We've been trialling AI-enhanced images, and as with any new technology, it isn't always quite right the first time.\" The incident highlights the difficulties companies can still face when using AI to speed up or simplify work processes, especially when it is used to interpret",
       "originalPublishedAt": "2026-10-21T17:04:13.697Z",
@@ -1452,7 +1452,7 @@
       "imageUrl": null,
       "imageCaption": "Image caption, A chip muffin and bacon and egg soda - menu items well known in parts of the UK, but not to the AI which made this",
       "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
-      "checkedAt": "2026-10-22T01:15:05.190Z",
+      "checkedAt": "2026-10-22T04:50:48.104Z",
       "score": 80,
       "dimensions": {
         "surprise": 90,
@@ -1548,7 +1548,7 @@
       "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-1152x648-1792605015.jpg",
       "imageCaption": "",
       "imageSourceUrl": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-      "checkedAt": "2026-10-22T01:15:05.190Z",
+      "checkedAt": "2026-10-22T04:50:48.104Z",
       "score": 36.75,
       "dimensions": {
         "surprise": 15,
