@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-22T04:50:48.104Z",
+  "fetchedAt": "2026-10-22T10:13:41.292Z",
   "news": {
     "nytLead": {
-      "id": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
-      "url": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
-      "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
-      "summary": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
-      "publishedAt": "2026-10-22T00:58:22.000Z",
+      "id": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+      "url": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+      "title": "Putin Nears a Prize: Restoring Ties With the U.S. While Giving Up Nothing",
+      "summary": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
+      "publishedAt": "2026-10-22T10:10:06.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -16,16 +16,16 @@
       "nytHomeLead": true,
       "nytFeedSummary": true,
       "sourcePageChecked": false,
-      "explanation": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
+      "explanation": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
       "eventDate": null,
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-22T04:50:48.104Z"
+      "checkedAt": "2026-10-22T10:13:41.292Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-22T04:50:48.104Z",
+      "checkedAt": "2026-10-22T10:13:41.292Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -33,11 +33,11 @@
     "editionKey": "2026-10-21-pm",
     "stories": [
       {
-        "id": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
-        "url": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
-        "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
-        "summary": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
-        "publishedAt": "2026-10-22T00:58:22.000Z",
+        "id": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+        "url": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+        "title": "Putin Nears a Prize: Restoring Ties With the U.S. While Giving Up Nothing",
+        "summary": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
+        "publishedAt": "2026-10-22T10:10:06.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -47,12 +47,12 @@
         "nytHomeLead": true,
         "nytFeedSummary": true,
         "sourcePageChecked": false,
-        "explanation": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
+        "explanation": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-22T04:50:48.104Z",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
@@ -73,7 +73,7 @@
         "coverage": "Institution announcement",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.nasa.gov/news-release/feed/",
-        "feedRank": 7,
+        "feedRank": 9,
         "nytHomeLead": false,
         "editorialText": "From orbit, today's space-based laser instruments measure Earth's forests and terrain one narrow line at a time. Between those lines are enormous gaps that include millions of acres of land scientists never directly measure. NASA’s CASALS instrument will blend machine learning with an ultra-compact lidar instrument to adaptively ‘sweep’ large swaths of Earth’s surface. This new capability for space-based remote sensors allows CASALS to create truly three-dimensional (3D) topographical renderings. A team of researchers at NASA’s Goddard Space Flight Center (GSFC) has developed a new instrument designed to eliminate blind spots between lines of lidar data on the Earth’s surface. Built with support from NASA’s Earth Science Technology Office (ESTO), the Concurrent Artificially-intelligent Spectrometry Lidar System (CASALS) could help researchers map the features of Earth’s surface with unprecedented detail. Rather than mechanically steering a laser with moving mirrors, CASALS steers light using wavelength itself, generating a continuous, 3D swath of the ground below. John Yorks, a physical research scientist at GSFC and Principal Investigator for CASALS, explained that the instrument features a novel transmitter and optical grating system that manipulates",
         "originalPublishedAt": "2026-10-21T12:17:58.000Z",
@@ -90,7 +90,7 @@
         "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/science-enabling-technology/technology-highlights/2026/cyprus_swamp_regA_color_by_alt_pcd5_trajectory_G_60fps.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
         "imageCaption": "",
         "imageSourceUrl": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-        "checkedAt": "2026-10-22T04:50:48.104Z",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -121,7 +121,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "feedRank": 6,
+        "feedRank": 7,
         "nytHomeLead": false,
         "editorialText": "Technology reporter Just Eat has apologised after it was ridiculed online over a series of mistakes with AI-generated pictures for some of its restaurants' food items. The online food delivery platform had been testing out the tech to showcase food which didn't have images yet - but not all turned out as planned. Instead the AI invented several bizarre concoctions, from bacon and eggs floating in a glass of cola - a confusion between \"soda\" and \"soda bread\" - to chips poking out of muffins. A Just Eat spokesperson said the firm was \"in the process of removing\" the incorrect images, and would stop making more until the AI was further developed. \"We work with tens of thousands of small restaurants on their food imagery, including funding professional local photographers,\" the spokesperson told the BBC. \"We've been trialling AI-enhanced images, and as with any new technology, it isn't always quite right the first time.\" The incident highlights the difficulties companies can still face when using AI to speed up or simplify work processes, especially when it is used to interpret",
         "originalPublishedAt": "2026-10-21T17:04:13.697Z",
@@ -138,7 +138,7 @@
         "imageUrl": null,
         "imageCaption": "Image caption, A chip muffin and bacon and egg soda - menu items well known in parts of the UK, but not to the AI which made this",
         "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
-        "checkedAt": "2026-10-22T04:50:48.104Z",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -207,44 +207,36 @@
         "olderReport": false
       },
       {
-        "id": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-        "url": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-        "title": "Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump",
-        "summary": "Starlink’s dominance of the market for low-Earth orbit satellite broadband, and the technology’s usefulness for military operations, has given Musk a unique ability to influence the war in Ukraine. Musk first sent Starlink terminals to Ukraine in February 2022 after the Russian invasion disrupted broadband access. SpaceX confirmed in 2023 that it had blocked Ukraine from using Starlink with military drones, saying its contract with Ukraine did not allow offensive uses. But in August 2024, SpaceX received a Pentagon contract to expand Ukraine’s access to the military-focused Starshield, Bloomberg reported later that year. The August 2024 deal was apparently the second such contract, and it reportedly allowed Ukraine to connect another 2,500 Starlink terminals to the Starshield network.",
-        "publishedAt": "2026-10-21T18:35:38.000Z",
-        "source": "Ars Technica",
-        "category": "Technology",
+        "id": "https://www.nytimes.com/2026/10/22/world/asia/indonesia-protests-rainforest-haze.html",
+        "url": "https://www.nytimes.com/2026/10/22/world/asia/indonesia-protests-rainforest-haze.html",
+        "title": "Protests in Indonesia Demand Action to Stop Rainforest Fires",
+        "summary": "Smoke from the blazes, blamed on destructive agricultural practices, has sickened hundreds of thousands and blanketed neighboring countries.",
+        "publishedAt": "2026-10-22T04:22:51.000Z",
+        "source": "The New York Times",
+        "category": "World",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
-        "feedRank": 8,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "feedRank": 5,
         "nytHomeLead": false,
-        "editorialText": "Starlink’s dominance of the market for low-Earth orbit satellite broadband, and the technology’s usefulness for military operations, has given Musk a unique ability to influence the war in Ukraine. Musk first sent Starlink terminals to Ukraine in February 2022 after the Russian invasion disrupted broadband access. SpaceX confirmed in 2023 that it had blocked Ukraine from using Starlink with military drones, saying its contract with Ukraine did not allow offensive uses. But in August 2024, SpaceX received a Pentagon contract to expand Ukraine’s access to the military-focused Starshield, Bloomberg reported later that year. The August 2024 deal was apparently the second such contract, and it reportedly allowed Ukraine to connect another 2,500 Starlink terminals to the Starshield network. Ukraine already had 500 terminals connected to Starshield under a previous contract, the Bloomberg report said. Despite those previously reported contracts, Secretary of State Marco Rubio told reporters on Saturday that Ukraine uses only Starlink and not Starshield. “I know Ukraine wants access to Starshield. They do not have Starshield now. They’ve asked for access to it in order to conduct deep",
-        "originalPublishedAt": "2026-10-21T18:35:38.000Z",
-        "sourcePageChecked": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "Smoke from the blazes, blamed on destructive agricultural practices, has sickened hundreds of thousands and blanketed neighboring countries.",
         "eventDate": null,
-        "eventKind": null,
         "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Starlink’s dominance of the market for low-Earth orbit satellite broadband, and the technology’s usefulness for military operations, has given Musk a unique ability to influence the war in Ukraine. Musk first sent Starlink terminals to Ukraine in February 2022 after the Russian invasion disrupted broadband access. SpaceX confirmed in 2023 that it had blocked Ukraine from using Starlink with military drones, saying its contract with Ukraine did not allow offensive uses. But in August 2024, SpaceX received a Pentagon contract to expand Ukraine’s access to the military-focused Starshield, Bloomberg reported later that year. The August 2024 deal was apparently the second such contract, and it reportedly allowed Ukraine to connect another 2,500 Starlink terminals to the Starshield network.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-1152x648-1792605015.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-        "checkedAt": "2026-10-22T04:50:48.104Z",
-        "score": 36.75,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump",
-        "originalSummary": "Musk and Trump both denied ordering Starlink slowdown. WSJ reports it was Musk.",
+        "displayTitle": "Protests in Indonesia Demand Action to Stop Rainforest Fires",
+        "originalSummary": "Smoke from the blazes, blamed on destructive agricultural practices, has sickened hundreds of thousands and blanketed neighboring countries.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
@@ -255,8 +247,8 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-22T04:50:48.104Z",
-    "checkedAt": "2026-10-22T04:50:48.104Z",
+    "fetchedAt": "2026-10-22T10:13:41.292Z",
+    "checkedAt": "2026-10-22T10:13:41.292Z",
     "sources": [
       "The Guardian",
       "BBC News",
@@ -266,30 +258,35 @@
       "ScienceAlert",
       "NPR",
       "The New York Times",
-      "Higher Ed Dive",
       "Business Insider",
-      "MIT News",
+      "ScienceDaily",
       "Phys.org",
+      "MIT News",
       "IEEE Spectrum"
     ],
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 945,
+      "rawCandidates": 943,
       "candidatesReviewed": 240,
       "sourcePagesRead": 176,
-      "primaryDatesChecked": 23,
-      "rejected": 46,
+      "primaryDatesChecked": 22,
+      "rejected": 43,
       "rejectedCandidates": [
         {
-          "title": "Morning Bid: France’s debt strains, AI in focus",
-          "url": "https://www.investing.com/news/economy-news/morning-bid-frances-debt-strains-ai-in-focus-4964608",
+          "title": "Barclays to slash 5,000 jobs in AI-powered cost-cutting drive",
+          "url": "https://www.investing.com/news/economy-news/barclays-to-slash-5000-jobs-in-aipowered-costcutting-drive-4965189",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Government websites go dark after AI-discovered flaw sparks security scramble",
-          "url": "https://www.investing.com/news/stock-market-news/cyber-agency-warns-websites-may-go-dark-as-php-prepares-critical-fix-4961963",
+          "title": "Earnings call transcript: IHG Hotels & Resorts posts strong Q3 2026 growth",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ihg-hotels--resorts-posts-strong-q3-2026-growth-93CH-4965195",
           "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "'500 new vulnerabilities' found in government, says AI minister",
+          "url": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po",
+          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "Too much RNA can starve cells of energy, scientists discover",
@@ -297,13 +294,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Bank of Korea holds rates, upbeat outlook points to future hikes",
-          "url": "https://www.investing.com/news/economy-news/bank-of-korea-holds-rates-after-backtoback-hikes-4964499",
+          "title": "Stocks fall, bonds gain as Meta dents tech optimism",
+          "url": "https://www.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4964558",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Axel Springer pitched deal to buy TikTok’s European arm, FT reports",
-          "url": "https://www.investing.com/news/stock-market-news/axel-springer-pitched-deal-to-buy-tiktoks-european-arm-ft-reports-4964610",
+          "title": "Midsona Q3 2026 slides: profit steady as sales mix shifts",
+          "url": "https://www.investing.com/news/company-news/midsona-q3-2026-slides-profit-steady-as-sales-mix-shifts-93CH-4965193",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -312,28 +309,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists Found a Bizarre Pattern in Over 1,000 Cases of Alleged Human Reincarnation",
-          "url": "https://www.sciencealert.com/scientists-found-a-bizarre-pattern-in-over-1000-cases-of-alleged-human-reincarnation",
+          "title": "Fires Char New Guinea",
+          "url": "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "When powerful women are remembered as witches, we should challenge the historical motive",
-          "url": "https://phys.org/news/2026-10-powerful-women-witches-historical.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Colombia to enact 2027 budget by decree after congressional process fails",
-          "url": "https://www.investing.com/news/economy-news/procedural-flaw-threatens-colombias-2027-budget-4962333",
+          "title": "Philippines central bank raises rates by 50 basis points to 5.25%",
+          "url": "https://www.investing.com/news/economy-news/philippines-central-bank-raises-rates-by-50-basis-points-to-525-93CH-4965021",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Review finds KPMG Australia mishandled whistleblower claims, pause on government work extended",
-          "url": "https://www.investing.com/news/stock-market-news/review-finds-kpmg-australia-mishandled-whistleblower-claims-pause-on-government-work-extended-4964609",
+          "title": "C-RAD Q3 2026 presentation: EMEA weakness drives sharp decline",
+          "url": "https://www.investing.com/news/company-news/crad-q3-2026-presentation-emea-weakness-drives-sharp-decline-93CH-4965192",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Mississippi AG says use of force was 'justified' in fatal shooting of toddler",
-          "url": "https://www.npr.org/2026/10/21/nx-s1-6009535/mississippi-ag-says-use-of-force-was-justified-in-fatal-shooting-of-toddler",
+          "title": "How prize-winning pumpkin growers produce the biggest gourds",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6000203/how-prize-winning-pumpkin-growers-produce-the-biggest-gourds",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -342,14 +334,29 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists Have Reconstructed The Face of The Oldest Known Homo Sapiens, And It Looks Very Familiar",
-          "url": "https://www.sciencealert.com/scientists-have-reconstructed-the-face-of-the-oldest-known-homo-sapiens-and-it-looks-very-familiar",
+          "title": "Scientists Found a Bizarre Pattern in Over 1,000 Cases of Alleged Human Reincarnation",
+          "url": "https://www.sciencealert.com/scientists-found-a-bizarre-pattern-in-over-1000-cases-of-alleged-human-reincarnation",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Asian markets dip as investors weigh tech earnings, Gulf tensions",
-          "url": "https://www.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4964558",
+          "title": "Yen set for biggest rally in a month; risk-averse investors shun dollar",
+          "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
           "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Bitcoin retreats below $82k as AI selldown, rising oil batter risk",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-back-to-82k-as-ai-selldown-rising-oil-batter-risk-4964695",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "What do pupils think of GCSE Maths changes?",
+          "url": "https://www.bbc.co.uk/news/videos/cmrey522x08go",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "A look at Elon Musk's wide-reaching influence",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6010616/a-look-at-elon-musks-wide-reaching-influence",
+          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "Scientists discover ghostly, eyeless creature hidden in Chinese cave",
@@ -357,18 +364,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "New Fossil Confirms a Human Ancestor Appeared 200,000 Years Earlier Than Expected",
-          "url": "https://www.sciencealert.com/new-fossil-confirms-a-human-ancestor-appeared-200000-years-earlier-than-expected",
+          "title": "Scientists Have Reconstructed The Face of The Oldest Known Homo Sapiens, And It Looks Very Familiar",
+          "url": "https://www.sciencealert.com/scientists-have-reconstructed-the-face-of-the-oldest-known-homo-sapiens-and-it-looks-very-familiar",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Dip in the dollar takes a breather with Fed in focus",
-          "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
+          "title": "Norway’s wealth fund posts $30 billion loss in third quarter",
+          "url": "https://www.investing.com/news/economy-news/norways-wealth-fund-posts-30-billion-loss-in-third-quarter-4964992",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "European auto sales rise 10% in Sept; EVs, hybrids lead",
-          "url": "https://www.investing.com/news/stock-market-news/european-auto-sales-rise-10-in-sept-evs-hybrids-lead-4964607",
+          "title": "Citizens cuts Six Flags stock price target on weaker traffic",
+          "url": "https://www.investing.com/news/analyst-ratings/citizens-cuts-six-flags-stock-price-target-on-weaker-traffic-93CH-4965191",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -377,48 +384,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "'Low-Oxygen' Drug Combination Reverses Parkinson's Symptoms in Mice",
-          "url": "https://www.sciencealert.com/low-oxygen-drug-combination-reverses-parkinsons-symptoms-in-mice",
+          "title": "New Fossil Confirms a Human Ancestor Appeared 200,000 Years Earlier Than Expected",
+          "url": "https://www.sciencealert.com/new-fossil-confirms-a-human-ancestor-appeared-200000-years-earlier-than-expected",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Bank of Korea holds rates at 3% after back-to-back hikes",
-          "url": "https://www.investing.com/news/economy-news/bank-of-korea-holds-rates-at-3-after-backtoback-hikes-won-strengthens-4964507",
+          "title": "Meta’s revenue beat; Tesla’s lower annual sales goal - what’s moving markets",
+          "url": "https://www.investing.com/news/economy-news/metas-revenue-beat-teslas-lower-annual-sales-goal--whats-moving-markets-4964928",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Exclusive-Musk’s public endorsement of SpaceX-Tesla deal may throw a wrench in talks",
-          "url": "https://www.investing.com/news/stock-market-news/exclusivemusks-public-endorsement-of-spacextesla-deal-may-throw-a-wrench-in-talks-4964606",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Scientists find a way to fight Alzheimer’s brain damage without removing toxic tau",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093355.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "One-Quarter of Data Centers Are Located in Water-Stressed Areas, Study Shows",
-          "url": "https://www.sciencealert.com/one-quarter-of-data-centers-are-located-in-water-stressed-areas-study-shows",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "How 39 young people experience climate education in a rapidly changing world",
-          "url": "https://phys.org/news/2026-10-young-people-climate-rapidly-world.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "‘Trump’ caged and Serbian students on the march: photos of the day – Wednesday",
-          "url": "https://www.theguardian.com/news/gallery/2026/oct/21/trump-caged-serbian-students-march-photos-of-the-day-wednesday",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Bank of Korea holds rates as expected after back-to-back hikes",
-          "url": "https://www.investing.com/news/economy-news/bank-of-korea-holds-rates-as-expected-after-backtoback-hikes-4964494",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Apple will have limited iPhone Duo units available in stores on Friday",
-          "url": "https://www.investing.com/news/stock-market-news/apple-will-have-limited-iphone-duo-units-available-in-stores-on-friday-4963408",
+          "title": "Citizens cuts Alphabet stock price target on search competition risks",
+          "url": "https://www.investing.com/news/analyst-ratings/citizens-cuts-alphabet-stock-price-target-on-search-competition-risks-93CH-4965190",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -427,18 +404,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Student motivation and responsibility shown to be key to tackling bullying in physical education",
-          "url": "https://phys.org/news/2026-10-student-responsibility-shown-key-tackling.html",
+          "title": "'Low-Oxygen' Drug Combination Reverses Parkinson's Symptoms in Mice",
+          "url": "https://www.sciencealert.com/low-oxygen-drug-combination-reverses-parkinsons-symptoms-in-mice",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Japan funding conditions still loose despite interest rate hikes, survey shows",
-          "url": "https://www.investing.com/news/economy-news/japan-funding-conditions-still-loose-despite-interest-rate-hikes-survey-shows-4964487",
+          "title": "When powerful women are remembered as witches, we should challenge the historical motive",
+          "url": "https://phys.org/news/2026-10-powerful-women-witches-historical.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Samsung Electro-Mechanics gets $2.8 billion chip investment from Tesla, Nvidia, report says",
+          "url": "https://www.investing.com/news/economy-news/samsung-electromechanics-gets-28-billion-chip-investment-from-tesla-nvidia-report-says-4964838",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Men speak out against sexual violence following Cornell rape story",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-5991914/men-speak-out-against-sexual-violence-following-cornell-rape-story",
+          "title": "Mississippi AG says use of force was 'justified' in fatal shooting of toddler",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009535/mississippi-ag-says-use-of-force-was-justified-in-fatal-shooting-of-toddler",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -447,19 +429,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "U.S., Israel prepare for renewed Iran strikes after midterm elections - NYT",
-          "url": "https://www.investing.com/news/economy-news/us-israel-prepare-for-renewed-iran-strikes-after-midterm-elections--nyt-4964461",
-          "reason": "Provider returned HTTP 403"
+          "title": "One-Quarter of Data Centers Are Located in Water-Stressed Areas, Study Shows",
+          "url": "https://www.sciencealert.com/one-quarter-of-data-centers-are-located-in-water-stressed-areas-study-shows",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Mid Penn earnings missed by $0.01, revenue fell short of estimates",
-          "url": "https://www.investing.com/news/earnings/mid-penn-earnings-missed-by-001-revenue-fell-short-of-estimates-4964604",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Mississippi AG says officers did not use excessive force in toddler death",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6009249/mississippi-ag-says-officers-did-not-use-excessive-force-in-toddler-death",
+          "title": "‘Trump’ caged and Serbian students on the march: photos of the day – Wednesday",
+          "url": "https://www.theguardian.com/news/gallery/2026/oct/21/trump-caged-serbian-students-march-photos-of-the-day-wednesday",
           "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Strength in Japanese loan demand expected to leave scope for more BOJ hikes",
+          "url": "https://www.investing.com/news/economy-news/japan-funding-conditions-still-loose-despite-interest-rate-hikes-survey-shows-4964487",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Bernstein says Samsung overtook SK hynix in HBM revenue in 3Q26",
+          "url": "https://www.investing.com/news/stock-market-news/bernstein-says-samsung-overtook-sk-hynix-in-hbm-revenue-in-3q26-93CH-4965188",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Astronauts’ hearts just passed a surprising test for Mars",
@@ -467,34 +454,14 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Extratropical Cyclone Whips Past Iceland",
-          "url": "https://science.nasa.gov/earth/earth-observatory/extratropical-cyclone-whips-past-iceland/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "A Strange New Time Crystal Emerges From Synchronized Vibrations",
-          "url": "https://www.sciencealert.com/a-strange-new-time-crystal-emerges-from-synchronized-vibrations",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Virus that sickens cows, kills deer still rare in New York state—for now",
-          "url": "https://phys.org/news/2026-10-virus-sickens-cows-deer-rare.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
-          "url": "https://www.investing.com/news/economy-news/nasdaq-futures-lead-gains-as-spacex-super-micro-results-lift-ai-trade-4962357",
+          "title": "Japanese investors sell foreign bonds for fifth straight week, eye home market",
+          "url": "https://www.investing.com/news/economy-news/japanese-investors-sell-foreign-bonds-for-fifth-straight-week-eye-home-market-4964701",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Cloudflare sees millions of exploit attempts after PHP disclosure",
-          "url": "https://www.investing.com/news/stock-market-news/cloudflare-sees-millions-of-exploit-attempts-after-php-disclosure-4964603",
+          "title": "As Americans eat out less, paper towel maker Essity feels the pinch",
+          "url": "https://www.investing.com/news/economic-indicators/as-americans-eat-out-less-paper-towel-maker-essity-feels-the-pinch-4965123",
           "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Data center divides North Carolina county",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6000388/data-center-divides-north-carolina-county",
-          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
@@ -502,13 +469,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "The Way You Sleep Can Reveal Your Risk of Heart Failure Up to 10 Years in Advance",
-          "url": "https://www.sciencealert.com/the-way-you-sleep-can-reveal-your-risk-of-heart-failure-up-to-10-years-in-advance",
+          "title": "IMF sees 1.3% contraction in Middle East, North Africa and Pakistan in 2026",
+          "url": "https://www.investing.com/news/economy-news/imf-sees-13-contraction-in-middle-east-north-africa-and-pakistan-in-2026-4964654",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Nasdaq futures drop over 1% as AI worries resurface, oil climbs",
+          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "A Strange New Time Crystal Emerges From Synchronized Vibrations",
+          "url": "https://www.sciencealert.com/a-strange-new-time-crystal-emerges-from-synchronized-vibrations",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Four questions about schoolwork feedback to guide young students' learning",
-          "url": "https://phys.org/news/2026-10-schoolwork-feedback-young-students.html",
+          "title": "How 39 young people experience climate education in a rapidly changing world",
+          "url": "https://phys.org/news/2026-10-young-people-climate-rapidly-world.html",
           "reason": "The actual event/announcement is more than a week old"
         }
       ],
@@ -516,9 +493,9 @@
       "eventDatesVerified": 14,
       "eventDatesUnconfirmed": 46,
       "rejectionReasons": {
-        "Provider returned HTTP 403": 18,
-        "The actual event/announcement is more than a week old": 23,
-        "Source article was unavailable or too short": 5
+        "Provider returned HTTP 403": 19,
+        "Source article was unavailable or too short": 6,
+        "The actual event/announcement is more than a week old": 18
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -526,14 +503,14 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 40,
+          "candidates": 39,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 49,
+          "candidates": 50,
           "error": null
         },
         {
@@ -568,7 +545,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 23,
+          "candidates": 18,
           "error": null
         },
         {
@@ -582,7 +559,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 25,
+          "candidates": 26,
           "error": null
         },
         {
@@ -624,14 +601,14 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 38,
+          "candidates": 39,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
           "available": true,
-          "candidates": 25,
+          "candidates": 27,
           "error": null
         },
         {
@@ -652,7 +629,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
           "available": true,
-          "candidates": 55,
+          "candidates": 56,
           "error": null
         },
         {
@@ -757,7 +734,7 @@
           "source": "The Guardian",
           "url": "https://www.theguardian.com/science/rss",
           "available": true,
-          "candidates": 29,
+          "candidates": 27,
           "error": null
         },
         {
@@ -861,11 +838,11 @@
     "olderCount": 0,
     "reserveStories": [
       {
-        "id": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
-        "url": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
-        "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
-        "summary": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
-        "publishedAt": "2026-10-22T00:58:22.000Z",
+        "id": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+        "url": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+        "title": "Putin Nears a Prize: Restoring Ties With the U.S. While Giving Up Nothing",
+        "summary": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
+        "publishedAt": "2026-10-22T10:10:06.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -875,12 +852,12 @@
         "nytHomeLead": true,
         "nytFeedSummary": true,
         "sourcePageChecked": false,
-        "explanation": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
+        "explanation": "Russia has sought to separate the war in Ukraine from potential business deals and diplomacy with the United States. Its efforts now appear to be working.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-22T04:50:48.104Z",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
@@ -901,7 +878,7 @@
         "coverage": "Institution announcement",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.nasa.gov/news-release/feed/",
-        "feedRank": 7,
+        "feedRank": 9,
         "nytHomeLead": false,
         "editorialText": "From orbit, today's space-based laser instruments measure Earth's forests and terrain one narrow line at a time. Between those lines are enormous gaps that include millions of acres of land scientists never directly measure. NASA’s CASALS instrument will blend machine learning with an ultra-compact lidar instrument to adaptively ‘sweep’ large swaths of Earth’s surface. This new capability for space-based remote sensors allows CASALS to create truly three-dimensional (3D) topographical renderings. A team of researchers at NASA’s Goddard Space Flight Center (GSFC) has developed a new instrument designed to eliminate blind spots between lines of lidar data on the Earth’s surface. Built with support from NASA’s Earth Science Technology Office (ESTO), the Concurrent Artificially-intelligent Spectrometry Lidar System (CASALS) could help researchers map the features of Earth’s surface with unprecedented detail. Rather than mechanically steering a laser with moving mirrors, CASALS steers light using wavelength itself, generating a continuous, 3D swath of the ground below. John Yorks, a physical research scientist at GSFC and Principal Investigator for CASALS, explained that the instrument features a novel transmitter and optical grating system that manipulates",
         "originalPublishedAt": "2026-10-21T12:17:58.000Z",
@@ -918,7 +895,7 @@
         "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/science-enabling-technology/technology-highlights/2026/cyprus_swamp_regA_color_by_alt_pcd5_trajectory_G_60fps.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
         "imageCaption": "",
         "imageSourceUrl": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-        "checkedAt": "2026-10-22T04:50:48.104Z",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -949,7 +926,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "feedRank": 6,
+        "feedRank": 7,
         "nytHomeLead": false,
         "editorialText": "Technology reporter Just Eat has apologised after it was ridiculed online over a series of mistakes with AI-generated pictures for some of its restaurants' food items. The online food delivery platform had been testing out the tech to showcase food which didn't have images yet - but not all turned out as planned. Instead the AI invented several bizarre concoctions, from bacon and eggs floating in a glass of cola - a confusion between \"soda\" and \"soda bread\" - to chips poking out of muffins. A Just Eat spokesperson said the firm was \"in the process of removing\" the incorrect images, and would stop making more until the AI was further developed. \"We work with tens of thousands of small restaurants on their food imagery, including funding professional local photographers,\" the spokesperson told the BBC. \"We've been trialling AI-enhanced images, and as with any new technology, it isn't always quite right the first time.\" The incident highlights the difficulties companies can still face when using AI to speed up or simplify work processes, especially when it is used to interpret",
         "originalPublishedAt": "2026-10-21T17:04:13.697Z",
@@ -966,7 +943,7 @@
         "imageUrl": null,
         "imageCaption": "Image caption, A chip muffin and bacon and egg soda - menu items well known in parts of the UK, but not to the AI which made this",
         "imageSourceUrl": "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
-        "checkedAt": "2026-10-22T04:50:48.104Z",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
         "score": 80,
         "dimensions": {
           "surprise": 90,
@@ -1032,6 +1009,76 @@
         "whyForYou": null,
         "selectedEdition": "2026-10-21-pm",
         "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.nytimes.com/2026/10/22/world/asia/indonesia-protests-rainforest-haze.html",
+        "url": "https://www.nytimes.com/2026/10/22/world/asia/indonesia-protests-rainforest-haze.html",
+        "title": "Protests in Indonesia Demand Action to Stop Rainforest Fires",
+        "summary": "Smoke from the blazes, blamed on destructive agricultural practices, has sickened hundreds of thousands and blanketed neighboring countries.",
+        "publishedAt": "2026-10-22T04:22:51.000Z",
+        "source": "The New York Times",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "feedRank": 5,
+        "nytHomeLead": false,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "Smoke from the blazes, blamed on destructive agricultural practices, has sickened hundreds of thousands and blanketed neighboring countries.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-22T10:13:41.292Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Protests in Indonesia Demand Action to Stop Rainforest Fires",
+        "originalSummary": "Smoke from the blazes, blamed on destructive agricultural practices, has sickened hundreds of thousands and blanketed neighboring countries.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-21-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
+        "url": "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
+        "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
+        "summary": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
+        "publishedAt": "2026-10-22T00:58:22.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "explanation": "Renewed hostilities might not be any more successful than the war’s first phase, and President Trump has repeatedly canceled plans for a return to major combat.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · full article unavailable",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-22T04:50:48.104Z",
+        "briefingSlot": 1,
+        "slotLabel": "NYT lead",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-21-pm",
+        "leadUnchanged": false,
+        "carriedForward": false,
         "olderReport": false
       },
       {
@@ -2071,110 +2118,14 @@
         "selectedEdition": "2026-10-20-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "url": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "title": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
-        "summary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
-        "publishedAt": "2026-10-19T23:37:57.000Z",
-        "source": "The Guardian",
-        "category": "Science",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
-        "feedRank": 8,
-        "nytHomeLead": false,
-        "editorialText": "Japan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth. The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. The spacecraft is expected to reach Mars’s orbit in August next year and collect at least 10g of soil and rock from the surface of Phobos, one of two small, potato-shaped moons orbiting the planet. It is scheduled to return in 2031, Jaxa said. The pock-marked moon, which has a diameter measuring 14 miles (22.5km), orbits Mars three times a day about 6,000km above its surface. The flagship H3 rocket carrying the unmanned probe blasted off into a pitch black sky from Tanegashima Space Centre at 4:41am, witnessed by thousands of people who had woken up early to follow a livestream. An hour later, Jaxa scientists declared the launch a success when the",
-        "originalPublishedAt": "2026-10-19T23:37:57.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
-        "summaryKind": "Publisher summary",
-        "imageUrl": "https://i.guim.co.uk/img/media/8b8c7baa851530aa5cc92126c0aa8893b34bf1b7/0_63_3016_2414/master/3016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=836c99cbed5d9b97809fd0edb5367a5a",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
-        "checkedAt": "2026-10-20T06:03:21.942Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "‘Once-in-a-lifetime chance’: Japan launches historic mission to collect rocks from Mars’s moon Phobos",
-        "originalSummary": "Scientists hope Martian material collected will shed light on the origins of the solar system and life on EarthJapan has successfully launched a spacecraft on an unprecedented mission to bring back samples from one of Mars’s moons that scientists hope will shed light on the origins of the solar system and life on Earth.The Martian ⁠Moons Exploration (MMX) spacecraft, propelled by Japan’s flagship H3 rocket, lifted off before dawn from Tanegashima island in the country’s far south-west, the Japan Aerospace Exploration Agency (Jaxa) said. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "aviation-space",
-        "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-19-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
-        "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
-        "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
-        "summary": "A Saudi national charged with secretly planting a recording device in one of OpenAI's meeting rooms has been accused of having \"considerable support\" from the Saudi government, according to a court filing, external in California. US prosecutors claimed Abdulrahman Alfozan, who worked for the AI firm, was in \"frequent communication... with a member of the Saudi royal family\", and say a member of the country's military paid for a one-way flight to Saudi Arabia for his wife and son after his arrest. The 35-year-old engineer was on Monday deemed a flight risk and denied bail, pending trial. The Saudi government did not immediately respond to BBC requests for comment.",
-        "publishedAt": "2026-10-19T16:22:12.290Z",
-        "source": "BBC News",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "A Saudi national charged with secretly planting a recording device in one of OpenAI's meeting rooms has been accused of having \"considerable support\" from the Saudi government, according to a court filing, external in California. US prosecutors claimed Abdulrahman Alfozan, who worked for the AI firm, was in \"frequent communication... with a member of the Saudi royal family\", and say a member of the country's military paid for a one-way flight to Saudi Arabia for his wife and son after his arrest. The 35-year-old engineer was on Monday deemed a flight risk and denied bail, pending trial. The Saudi government did not immediately respond to BBC requests for comment. Alfozan had worked at OpenAI for around a year before he allegedly made his attempt to plant an audio recorder. The AI company discovered the device, which was plugged into the back of a TV in a conference meeting room and covered up with toilet paper, on 30 September. A camera was placed in the room and on 5 October, Alfozan was filmed entering and appearing to look behind the television",
-        "originalPublishedAt": "2026-10-19T16:22:12.290Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "A Saudi national charged with secretly planting a recording device in one of OpenAI's meeting rooms has been accused of having \"considerable support\" from the Saudi government, according to a court filing, external in California. US prosecutors claimed Abdulrahman Alfozan, who worked for the AI firm, was in \"frequent communication... with a member of the Saudi royal family\", and say a member of the country's military paid for a one-way flight to Saudi Arabia for his wife and son after his arrest. The 35-year-old engineer was on Monday deemed a flight risk and denied bail, pending trial. The Saudi government did not immediately respond to BBC requests for comment.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
-        "checkedAt": "2026-10-20T06:03:21.942Z",
-        "score": 59.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
-        "originalSummary": "The Saudi government did not immediately respond to BBC requests for comment.",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "everyday-tech",
-        "whyForYou": "Everyday technology, useful tools, and privacy issues you can encounter.",
-        "selectedEdition": "2026-10-19-pm",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
-      "https://www.nytimes.com/2026/10/21/us/politics/us-israel-renewed-iran-strikes.html",
+      "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
       "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
       "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
       "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-      "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/"
+      "https://www.nytimes.com/2026/10/22/world/asia/indonesia-protests-rainforest-haze.html"
     ]
   }
 }
