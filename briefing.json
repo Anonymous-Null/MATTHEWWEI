@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T23:24:32.309Z",
+  "fetchedAt": "2026-10-23T01:14:17.425Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/22/us/politics/iowa-farmers-republicans-trump.html",
@@ -21,11 +21,11 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-22T23:24:32.309Z"
+      "checkedAt": "2026-10-23T01:14:17.425Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-22T23:24:32.309Z",
+      "checkedAt": "2026-10-23T01:14:17.425Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -52,13 +52,13 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-22T23:24:32.309Z",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-22-pm",
-        "leadUnchanged": true,
+        "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
       },
@@ -73,7 +73,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.theverge.com/rss/index.xml",
-        "feedRank": 6,
+        "feedRank": 7,
         "nytHomeLead": false,
         "editorialText": "Emma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO. Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge — but legal experts say these changes aren’t enough to address their concerns. “This does nothing to restrict the ‘associated with your products or services’ [language] that would let Meta scrape entire sites,” James Grimmelmann, a professor of digital and information law at Cornell Law School, tells Nieman Lab. Initially, Meta’s new terms for business accounts appeared to give the company permission to train its AI on news sites. The terms, which go into effect October 30th, stated that Meta “may use any content” from the websites associated with a business account to “develop, research” and “train” Meta’s products. At the time, legal experts told Nieman Lab that this could allow Meta “to argue its commercial terms supersede other blocking instructions,” such as the robots.txt file that has",
         "originalPublishedAt": "2026-10-22T20:32:05.000Z",
@@ -90,7 +90,7 @@
         "imageUrl": null,
         "imageCaption": "",
         "imageSourceUrl": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-        "checkedAt": "2026-10-22T23:24:32.309Z",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
         "score": 88.75,
         "dimensions": {
           "surprise": 85,
@@ -111,99 +111,99 @@
         "olderReport": false
       },
       {
-        "id": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-        "url": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-        "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
-        "summary": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget. On October 13th, Brendan Carr’s FCC gave itself a new power — it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it’s exercising that power for the first time, blocking two gadgets because they contain “foreign surveillance chips,” the FCC claims.",
-        "publishedAt": "2026-10-22T20:23:48.000Z",
-        "source": "The Verge",
-        "category": "Technology",
+        "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "summary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "publishedAt": "2026-10-22T23:51:24.000Z",
+        "source": "The Guardian",
+        "category": "World",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.theverge.com/rss/index.xml",
-        "feedRank": 8,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 16,
         "nytHomeLead": false,
-        "editorialText": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget. On October 13th, Brendan Carr’s FCC gave itself a new power — it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it’s exercising that power for the first time, blocking two gadgets because they contain “foreign surveillance chips,” the FCC claims. The agency doesn’t say which specific gadgets it blocked, and it didn’t immediately respond to our request for comment, but it does name the “surveillance chip”: it’s a HiVision Hi3516CV610 UHD Smart Vision SoC, a chip that turns a raw camera sensor into a home security camera, a dashcam, or the like. It’s often sold as a package with a Sony camera sensor and sometimes even a lens already on board, according to listings we viewed on AliExpress. The FCC is calling it a foreign surveillance chip because HiVision advertises it as “designed for the",
-        "originalPublishedAt": "2026-10-22T20:23:48.000Z",
+        "editorialText": "The federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station. The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. The ESA offer for Bennell-Pegg to join a future ISS mission garnered support from philanthropists and the Australian space industry, but has previously described by the office of the science minister, Tim Ayres, as “a very expensive undertaking” which no government alone could fund. Announcing the decision on Friday, Ayres said:“The government has been engaging extensively with the private sector, philanthropists, and other levels of government to raise funding to support a space flight – which is a significant cost. “We are grateful to the philanthropists who have committed over $6m in cash, plus in-kind support, and some indicative support from some state governments.” Bennell-Pegg is director of space technology at the Australian Space Agency (ASA) and completed astronaut training with the ESA in 2024. She is not the first Australian",
+        "originalPublishedAt": "2026-10-22T23:51:24.000Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
+        "dateEvidenceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget. On October 13th, Brendan Carr’s FCC gave itself a new power — it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it’s exercising that power for the first time, blocking two gadgets because they contain “foreign surveillance chips,” the FCC claims.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "explanation": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.guim.co.uk/img/media/d23d8f0976a7c8b113da25b1c581dcc0372119fb/846_241_5250_4201/master/5250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec067a9075a79845bf98935768dd62eb",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-        "checkedAt": "2026-10-22T23:24:32.309Z",
-        "score": 71,
+        "imageSourceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
+        "score": 68,
         "dimensions": {
           "surprise": 90,
-          "consequence": 60,
+          "consequence": 90,
           "novelty": 40,
-          "relevance": 90
+          "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
-        "originalSummary": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it's exercising that power for the first time, blocking two gadgets because they contain \"foreign surveillance chips,\" the FCC claims. […]",
+        "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 3,
         "slotLabel": "For you",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
+        "personalTopic": "aviation-space",
+        "whyForYou": "Aviation, space, and aerospace engineering.",
         "selectedEdition": "2026-10-22-pm",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "publishedAt": "2026-10-18T19:00:02.000Z",
-        "source": "The Guardian",
+        "id": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+        "summary": "A US judge has ordered President Donald Trump to answer questions under oath in his defamation lawsuit against the BBC by 11 December. Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave before the riot at the US Capitol in 2021. Trump cancelled a previous deposition - or interview under oath - on 16 October, citing \"matters of national importance\". But a lawyer representing the BBC said in court that Trump was campaigning in Georgia that day and had \"prioritised that\" over answering the questions.",
+        "publishedAt": "2026-10-22T16:24:14.165Z",
+        "source": "BBC News",
         "category": "U.S.",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
         "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
-        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
+        "editorialText": "A US judge has ordered President Donald Trump to answer questions under oath in his defamation lawsuit against the BBC by 11 December. Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave before the riot at the US Capitol in 2021. Trump cancelled a previous deposition - or interview under oath - on 16 October, citing \"matters of national importance\". But a lawyer representing the BBC said in court that Trump was campaigning in Georgia that day and had \"prioritised that\" over answering the questions. President Trump's lawsuit against the BBC is in the phase known as \"discovery\", where the two sides provide internal or other records that could form evidence. Charles Tobin, a lawyer for the BBC, told a court in Miami on Thursday that with two months left in the discovery period, Trump had still not completed a deposition. The judge in the case, US Magistrate Judge Enjoliqué Lett, said that Trump must sit for the deposition by 11 December, unless the discovery period is extended.",
+        "originalPublishedAt": "2026-10-22T16:24:14.165Z",
         "sourcePageChecked": true,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
+        "explanation": "A US judge has ordered President Donald Trump to answer questions under oath in his defamation lawsuit against the BBC by 11 December. Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave before the riot at the US Capitol in 2021. Trump cancelled a previous deposition - or interview under oath - on 16 October, citing \"matters of national importance\". But a lawyer representing the BBC said in court that Trump was campaigning in Georgia that day and had \"prioritised that\" over answering the questions.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "checkedAt": "2026-10-18T19:06:25.150Z",
-        "score": 65.75,
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
+        "score": 47.25,
         "dimensions": {
           "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
+          "consequence": 20,
+          "novelty": 85,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
+        "displayTitle": "Trump ordered to answer questions under oath in BBC lawsuit",
+        "originalSummary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-22-pm",
-        "carriedForward": true,
+        "carriedForward": false,
         "olderReport": false
       },
       {
@@ -251,32 +251,32 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-22T23:24:32.309Z",
-    "checkedAt": "2026-10-22T23:24:32.309Z",
+    "fetchedAt": "2026-10-23T01:14:17.425Z",
+    "checkedAt": "2026-10-23T01:14:17.425Z",
     "sources": [
       "The Verge",
+      "Phys.org",
       "The Guardian",
       "BBC News",
       "The New York Times",
-      "Business Insider",
-      "NASA",
       "NPR",
-      "ScienceAlert",
+      "NASA",
+      "Ars Technica",
+      "Business Insider",
       "Higher Ed Dive",
       "MIT News",
       "IEEE Spectrum",
-      "Phys.org",
-      "Ars Technica",
+      "ScienceAlert",
       "ScienceDaily"
     ],
     "providersAvailable": 33,
     "providersTotal": 47,
     "research": {
-      "rawCandidates": 936,
+      "rawCandidates": 933,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 176,
+      "sourcePagesRead": 173,
       "primaryDatesChecked": 27,
-      "rejected": 51,
+      "rejected": 52,
       "rejectedCandidates": [
         {
           "title": "A revolutionary new microscope could reveal the hidden machinery of life",
@@ -289,13 +289,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Stocks drop as Meta fans AI worries, Treasuries gain",
-          "url": "https://www.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4964558",
+          "title": "Japan is not yet officially out of deflation, economy minister says",
+          "url": "https://www.investing.com/news/economy-news/japan-is-not-yet-officially-out-of-deflation-economy-minister-says-4967852",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Provident Financial authorizes 5% stock buyback program",
-          "url": "https://www.investing.com/news/company-news/provident-financial-authorizes-5-stock-buyback-program-93CH-4967794",
+          "title": "Nikkei 225 deeply oversold at 62,287 after breakdown: Live levels",
+          "url": "https://www.investing.com/news/stock-market-news/nikkei-225-teeters-above-635725-support-live-levels-93CH-4956186",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -314,8 +314,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Supramolecular assembly opens a new route to building quantum materials",
-          "url": "https://phys.org/news/2026-10-supramolecular-route-quantum-materials.html",
+          "title": "Researchers develop AI tool to map microRNA binding sites on circular RNAs",
+          "url": "https://phys.org/news/2026-10-ai-tool-microrna-sites-circular.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -324,13 +324,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Exclusive-Australian agency mulled firing KPMG over data-handling rule breach, documents show",
-          "url": "https://www.investing.com/news/economy-news/exclusiveaustralian-agency-mulled-firing-kpmg-over-datahandling-rule-breach-documents-show-4967323",
+          "title": "Japan core inflation exceeds BOJ target, cements near-term rate hike chance",
+          "url": "https://www.investing.com/news/economy-news/japan-core-inflation-exceeds-boj-target-cements-nearterm-rate-hike-chance-4967842",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Apple SVP Jennifer Newstead sells $814,748 in AAPL stock",
-          "url": "https://www.investing.com/news/insider-trading-news/apple-svp-jennifer-newstead-sells-814748-in-aapl-stock-93CH-4967792",
+          "title": "SK Hynix bounces from oversold low amid bearish trend: Live levels",
+          "url": "https://www.investing.com/news/stock-market-news/sk-hynix-crashes-206-below-20period-ma-live-levels-93CH-4956188",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -339,18 +339,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Amino acid stabilizes material's quantum state above room temperature",
-          "url": "https://phys.org/news/2026-10-amino-acid-stabilizes-material-quantum.html",
+          "title": "Supramolecular assembly opens a new route to building quantum materials",
+          "url": "https://phys.org/news/2026-10-supramolecular-route-quantum-materials.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Newmont beats quarterly profit estimates on higher gold prices, Cadia recovery",
-          "url": "https://www.investing.com/news/economy-news/newmont-beats-quarterly-profit-estimates-on-higher-gold-prices-4967488",
+          "title": "UK consumer confidence tumbles ahead of Healey’s budget, GfK reports",
+          "url": "https://www.investing.com/news/economy-news/uk-consumer-confidence-tumbles-ahead-of-healeys-budget-gfk-reports-4967810",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Glenbrook Capital Management purchases $74,838 of SenesTech stock",
-          "url": "https://www.investing.com/news/insider-trading-news/glenbrook-capital-management-purchases-74838-of-senestech-stock-93CH-4967791",
+          "title": "HD Hyundai to build US shipyard with Kiewit, create 3,000 jobs",
+          "url": "https://www.investing.com/news/stock-market-news/hd-hyundai-to-build-us-shipyard-with-kiewit-create-3000-jobs-4967906",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -364,23 +364,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "A Strange Radio Signal in The Far Reaches of The Milky Way Is Behaving Like Nothing Else in The Galaxy",
-          "url": "https://www.sciencealert.com/a-strange-radio-signal-in-the-far-reaches-of-the-milky-way-is-behaving-like-nothing-else-in-the-galaxy",
+          "title": "One Habit May Delay Ovarian Aging – And a Drug Could Mimic Its Effects",
+          "url": "https://www.sciencealert.com/one-habit-may-delay-ovarian-aging-and-a-drug-could-mimic-its-effects",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "With climate-resilient crops in mind, study tackles flaw in photosynthesis",
-          "url": "https://phys.org/news/2026-10-climate-resilient-crops-mind-tackles.html",
+          "title": "Amino acid stabilizes material's quantum state above room temperature",
+          "url": "https://phys.org/news/2026-10-amino-acid-stabilizes-material-quantum.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trump signs order aimed at reducing single-family housing costs",
-          "url": "https://www.investing.com/news/economy-news/trump-signs-executive-order-aimed-at-reducing-housing-costs-4967243",
+          "title": "Stocks drop as Meta fans AI worries, Treasuries gain",
+          "url": "https://www.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4964558",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Block director Anthony Eisen sells $1.41m in Block (XYZ) shares",
-          "url": "https://www.investing.com/news/insider-trading-news/block-director-anthony-eisen-sells-141m-in-block-xyz-shares-93CH-4967790",
+          "title": "Zai Lab raises $250 million in private placement financing",
+          "url": "https://www.investing.com/news/company-news/zai-lab-raises-250-million-in-private-placement-financing-93CH-4967899",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -389,23 +389,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trading Day: Maximum pAIn",
-          "url": "https://www.investing.com/news/economy-news/trading-day-maximum-pain-4967585",
+          "title": "A Strange Radio Signal in The Far Reaches of The Milky Way Is Behaving Like Nothing Else in The Galaxy",
+          "url": "https://www.sciencealert.com/a-strange-radio-signal-in-the-far-reaches-of-the-milky-way-is-behaving-like-nothing-else-in-the-galaxy",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Exclusive-Australian agency mulled firing KPMG over data-handling rule breach, documents show",
+          "url": "https://www.investing.com/news/economy-news/exclusiveaustralian-agency-mulled-firing-kpmg-over-datahandling-rule-breach-documents-show-4967323",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "PC Connection chairman Gallup sells $1.32m in shares",
-          "url": "https://www.investing.com/news/insider-trading-news/pc-connection-chairman-gallup-sells-132m-in-shares-93CH-4967789",
+          "title": "Why is SK Hynix stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-stock-sliding-today-93CH-4967898",
           "reason": "Provider returned HTTP 403"
         },
         {
           "title": "'500 new vulnerabilities' found in government, says AI minister",
           "url": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Fall 2026 earnings watch",
-          "url": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -419,18 +419,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "A Common Supplement Displays a Concerning Link to Heart Failure",
-          "url": "https://www.sciencealert.com/a-common-supplement-displays-a-concerning-link-to-heart-failure",
+          "title": "Autonomous triangular modules could build tomorrow's mega-observatories",
+          "url": "https://phys.org/news/2026-10-autonomous-triangular-modules-tomorrow-mega.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ultrafast light pulses track molecular motion with three-femtosecond resolution",
-          "url": "https://phys.org/news/2026-10-ultrafast-pulses-track-molecular-motion.html",
-          "reason": "The actual event/announcement is more than a week old"
+          "title": "Newmont beats quarterly profit estimates on higher gold prices, Cadia recovery",
+          "url": "https://www.investing.com/news/economy-news/newmont-beats-quarterly-profit-estimates-on-higher-gold-prices-4967488",
+          "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
-          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187",
+          "title": "Why is Samsung Electronics stock declining today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-samsung-electronics-stock-declining-today-93CH-4967897",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -439,28 +439,33 @@
           "reason": "Source article was unavailable or too short"
         },
         {
+          "title": "Fall 2026 earnings watch",
+          "url": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
           "title": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
           "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Herpes Virus Appears to Hijack The Brain's Immune Cells, And It Could Have Serious Consequences",
-          "url": "https://www.sciencealert.com/herpes-virus-appears-to-hijack-the-brains-immune-cells-and-it-could-have-serious-consequences",
+          "title": "A Common Supplement Displays a Concerning Link to Heart Failure",
+          "url": "https://www.sciencealert.com/a-common-supplement-displays-a-concerning-link-to-heart-failure",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Shrinking iron films strengthens laser-driven demagnetization",
-          "url": "https://phys.org/news/2026-10-iron-laser-driven-demagnetization.html",
+          "title": "Acupuncture and mutual exchange in Chinese and Soviet science",
+          "url": "https://phys.org/news/2026-10-acupuncture-mutual-exchange-chinese-soviet.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Trump orders talks on wind turbine imports, sets 180-day deadline",
-          "url": "https://www.investing.com/news/economy-news/trump-orders-talks-on-wind-turbine-imports-sets-180day-deadline-93CH-4967274",
+          "title": "Trump signs order aimed at reducing single-family housing costs",
+          "url": "https://www.investing.com/news/economy-news/trump-signs-executive-order-aimed-at-reducing-housing-costs-4967243",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Newmont Q3 2026 slides: record cash flow, Red Chris nears decision",
-          "url": "https://www.investing.com/news/company-news/newmont-q3-2026-slides-record-cash-flow-red-chris-nears-decision-93CH-4967786",
+          "title": "Analysis-Musk’s political baggage clouds prospects for SpaceX-Tesla deal",
+          "url": "https://www.investing.com/news/stock-market-news/analysismusks-political-baggage-clouds-prospects-for-spacextesla-deal-4965229",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -469,18 +474,38 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
+          "title": "Herpes Virus Appears to Hijack The Brain's Immune Cells, And It Could Have Serious Consequences",
+          "url": "https://www.sciencealert.com/herpes-virus-appears-to-hijack-the-brains-immune-cells-and-it-could-have-serious-consequences",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Light-activated catalyst makes sustainable production of hydrogen peroxide more efficient",
+          "url": "https://phys.org/news/2026-10-catalyst-sustainable-production-hydrogen-peroxide.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Trading Day: Maximum pAIn",
+          "url": "https://www.investing.com/news/economy-news/trading-day-maximum-pain-4967585",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "ikeGPS H1 FY27 slides: subscription revenue up 22%, ARR growth expected",
+          "url": "https://www.investing.com/news/company-news/ikegps-h1-fy27-slides-subscription-revenue-up-22-arr-growth-expected-93CH-4967894",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
           "title": "New Fossil Confirms a Human Ancestor Appeared 200,000 Years Earlier Than Expected",
           "url": "https://www.sciencealert.com/new-fossil-confirms-a-human-ancestor-appeared-200000-years-earlier-than-expected",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Turkey’s central bank cuts key rate to 36% from 37%",
-          "url": "https://www.investing.com/news/economy-news/turkeys-central-bank-cuts-key-rate-to-36-from-37-93CH-4967221",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Provident Financial declares $0.14 quarterly dividend",
-          "url": "https://www.investing.com/news/company-news/provident-financial-declares-014-quarterly-dividend-93CH-4967785",
+          "title": "Japan factory activity slows in Oct, services improve, PMI shows",
+          "url": "https://www.investing.com/news/economic-indicators/japan-factory-activity-slows-in-oct-services-improve-pmi-shows-4967893",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -489,38 +514,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Global database provides a fuller picture of the elements that make up plant life",
-          "url": "https://phys.org/news/2026-10-global-database-fuller-picture-elements.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Yen jumps as oil, AI and France worries rattle markets",
-          "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
+          "title": "Trump orders talks on wind turbine imports, sets 180-day deadline",
+          "url": "https://www.investing.com/news/economy-news/trump-orders-talks-on-wind-turbine-imports-sets-180day-deadline-93CH-4967274",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Tredegar director John Gottwald sells $267,530 in company stock",
-          "url": "https://www.investing.com/news/insider-trading-news/tredegar-director-john-gottwald-sells-267530-in-company-stock-93CH-4967782",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "One-Quarter of Data Centers Are Located in Water-Stressed Areas, Study Shows",
-          "url": "https://www.sciencealert.com/one-quarter-of-data-centers-are-located-in-water-stressed-areas-study-shows",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Brazil's presidential elections linked to decades of fluctuating environmental destruction—study",
-          "url": "https://phys.org/news/2026-10-brazil-presidential-elections-linked-decades.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "ECB’s Pereira calls for deeper EU single market integration",
-          "url": "https://www.investing.com/news/economy-news/ecbs-pereira-calls-for-deeper-eu-single-market-integration-93CH-4967139",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "FCC grants Intel waiver for foreign-made robotic devices",
-          "url": "https://www.investing.com/news/stock-market-news/fcc-grants-intel-waiver-for-foreignmade-robotic-devices-4967773",
+          "title": "Rapport Therapeutics director Paul Silva buys $99,636 in stock",
+          "url": "https://www.investing.com/news/insider-trading-news/rapport-therapeutics-director-paul-silva-buys-99636-in-stock-93CH-4967892",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -529,17 +529,22 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "How farming helped cause two medieval tsunamis in an Italian lake—and why the danger has returned",
-          "url": "https://phys.org/news/2026-10-farming-medieval-tsunamis-italian-lake.html",
+          "title": "One-Quarter of Data Centers Are Located in Water-Stressed Areas, Study Shows",
+          "url": "https://www.sciencealert.com/one-quarter-of-data-centers-are-located-in-water-stressed-areas-study-shows",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "With climate-resilient crops in mind, study tackles flaw in photosynthesis",
+          "url": "https://phys.org/news/2026-10-climate-resilient-crops-mind-tackles.html",
           "reason": "The actual event/announcement is more than a week old"
         }
       ],
       "qualifying": 60,
-      "eventDatesVerified": 9,
-      "eventDatesUnconfirmed": 51,
+      "eventDatesVerified": 8,
+      "eventDatesUnconfirmed": 52,
       "rejectionReasons": {
         "The actual event/announcement is more than a week old": 26,
-        "Provider returned HTTP 403": 19,
+        "Provider returned HTTP 403": 20,
         "Source article was unavailable or too short": 6
       },
       "targetCandidates": 20,
@@ -548,7 +553,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 28,
+          "candidates": 27,
           "error": null
         },
         {
@@ -646,7 +651,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 39,
+          "candidates": 37,
           "error": null
         },
         {
@@ -878,8 +883,8 @@
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 3,
-    "carriedCount": 2,
+    "freshCount": 4,
+    "carriedCount": 1,
     "olderCount": 0,
     "reserveStories": [
       {
@@ -902,13 +907,13 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · full article unavailable",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-22T23:24:32.309Z",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-22-pm",
-        "leadUnchanged": true,
+        "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
       },
@@ -923,7 +928,7 @@
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.theverge.com/rss/index.xml",
-        "feedRank": 6,
+        "feedRank": 7,
         "nytHomeLead": false,
         "editorialText": "Emma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO. Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge — but legal experts say these changes aren’t enough to address their concerns. “This does nothing to restrict the ‘associated with your products or services’ [language] that would let Meta scrape entire sites,” James Grimmelmann, a professor of digital and information law at Cornell Law School, tells Nieman Lab. Initially, Meta’s new terms for business accounts appeared to give the company permission to train its AI on news sites. The terms, which go into effect October 30th, stated that Meta “may use any content” from the websites associated with a business account to “develop, research” and “train” Meta’s products. At the time, legal experts told Nieman Lab that this could allow Meta “to argue its commercial terms supersede other blocking instructions,” such as the robots.txt file that has",
         "originalPublishedAt": "2026-10-22T20:32:05.000Z",
@@ -940,7 +945,7 @@
         "imageUrl": null,
         "imageCaption": "",
         "imageSourceUrl": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-        "checkedAt": "2026-10-22T23:24:32.309Z",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
         "score": 88.75,
         "dimensions": {
           "surprise": 85,
@@ -958,6 +963,146 @@
         "whyForYou": "Computer science, AI, and how computing systems work.",
         "selectedEdition": "2026-10-22-pm",
         "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "summary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "publishedAt": "2026-10-22T23:51:24.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 16,
+        "nytHomeLead": false,
+        "editorialText": "The federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station. The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. The ESA offer for Bennell-Pegg to join a future ISS mission garnered support from philanthropists and the Australian space industry, but has previously described by the office of the science minister, Tim Ayres, as “a very expensive undertaking” which no government alone could fund. Announcing the decision on Friday, Ayres said:“The government has been engaging extensively with the private sector, philanthropists, and other levels of government to raise funding to support a space flight – which is a significant cost. “We are grateful to the philanthropists who have committed over $6m in cash, plus in-kind support, and some indicative support from some state governments.” Bennell-Pegg is director of space technology at the Australian Space Agency (ASA) and completed astronaut training with the ESA in 2024. She is not the first Australian",
+        "originalPublishedAt": "2026-10-22T23:51:24.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.guim.co.uk/img/media/d23d8f0976a7c8b113da25b1c581dcc0372119fb/846_241_5250_4201/master/5250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec067a9075a79845bf98935768dd62eb",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "aviation-space",
+        "whyForYou": "Aviation, space, and aerospace engineering.",
+        "selectedEdition": "2026-10-22-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+        "summary": "A US judge has ordered President Donald Trump to answer questions under oath in his defamation lawsuit against the BBC by 11 December. Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave before the riot at the US Capitol in 2021. Trump cancelled a previous deposition - or interview under oath - on 16 October, citing \"matters of national importance\". But a lawyer representing the BBC said in court that Trump was campaigning in Georgia that day and had \"prioritised that\" over answering the questions.",
+        "publishedAt": "2026-10-22T16:24:14.165Z",
+        "source": "BBC News",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "A US judge has ordered President Donald Trump to answer questions under oath in his defamation lawsuit against the BBC by 11 December. Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave before the riot at the US Capitol in 2021. Trump cancelled a previous deposition - or interview under oath - on 16 October, citing \"matters of national importance\". But a lawyer representing the BBC said in court that Trump was campaigning in Georgia that day and had \"prioritised that\" over answering the questions. President Trump's lawsuit against the BBC is in the phase known as \"discovery\", where the two sides provide internal or other records that could form evidence. Charles Tobin, a lawyer for the BBC, told a court in Miami on Thursday that with two months left in the discovery period, Trump had still not completed a deposition. The judge in the case, US Magistrate Judge Enjoliqué Lett, said that Trump must sit for the deposition by 11 December, unless the discovery period is extended.",
+        "originalPublishedAt": "2026-10-22T16:24:14.165Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "A US judge has ordered President Donald Trump to answer questions under oath in his defamation lawsuit against the BBC by 11 December. Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave before the riot at the US Capitol in 2021. Trump cancelled a previous deposition - or interview under oath - on 16 October, citing \"matters of national importance\". But a lawyer representing the BBC said in court that Trump was campaigning in Georgia that day and had \"prioritised that\" over answering the questions.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+        "checkedAt": "2026-10-23T01:14:17.425Z",
+        "score": 47.25,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Trump ordered to answer questions under oath in BBC lawsuit",
+        "originalSummary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-22-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
+        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "publishedAt": "2026-10-18T09:49:18.000Z",
+        "source": "AP News",
+        "category": "World",
+        "discovery": "Publisher section",
+        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
+        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
+        "sourcePageChecked": true,
+        "eventDate": "2026-10-18",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
+        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "eventRevision": "2026-10-18:Event",
+        "majorUpdateVerified": false,
+        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
+        "imageCaption": "",
+        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "checkedAt": "2026-10-18T18:04:24.350Z",
+        "score": 76.75,
+        "dimensions": {
+          "surprise": 85,
+          "consequence": 95,
+          "novelty": 85,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
+        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-22-pm",
+        "carriedForward": true,
         "olderReport": false
       },
       {
@@ -1050,50 +1195,6 @@
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-22-pm",
-        "carriedForward": true,
-        "olderReport": false
-      },
-      {
-        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "publishedAt": "2026-10-18T09:49:18.000Z",
-        "source": "AP News",
-        "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
-        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
-        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "eventRevision": "2026-10-18:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "checkedAt": "2026-10-18T18:04:24.350Z",
-        "score": 76.75,
-        "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-22-pm",
@@ -2071,91 +2172,13 @@
         "selectedEdition": "2026-10-20-pm",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-        "url": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-        "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy",
-        "summary": "The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway. He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. The Ukrainian president said: “It’s very important for our people, for children, adults, civilians, because we can hear when ballistic [missiles] is coming. So we are thankful to the American side.” Witkoff will on Wednesday meet Russian president Vladimir Putin after what a US official called “constructive” talks with Zelenskyy in Norway.",
-        "publishedAt": "2026-10-20T19:32:28.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/world/ukraine/rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway. He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. The Ukrainian president said: “It’s very important for our people, for children, adults, civilians, because we can hear when ballistic [missiles] is coming. So we are thankful to the American side.” Witkoff will on Wednesday meet Russian president Vladimir Putin after what a US official called “constructive” talks with Zelenskyy in Norway. The US envoy would aim to “create a pathway toward direct trilateral and broader multilateral negotiations”, a US official told Reuters. The talks in Oslo took place amid the worst crisis in US-Ukraine relations since Putin’s full-scale invasion nearly five years ago. Donald Trump has bitterly accused Zelenskyy of failing to end the war and has said Ukraine needs a new leader. On",
-        "originalPublishedAt": "2026-10-20T19:32:28.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway. He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. The Ukrainian president said: “It’s very important for our people, for children, adults, civilians, because we can hear when ballistic [missiles] is coming. So we are thankful to the American side.” Witkoff will on Wednesday meet Russian president Vladimir Putin after what a US official called “constructive” talks with Zelenskyy in Norway.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/388bbd7aa11bf49b58d5a9636c356b457651bd90/0_459_5908_4729/master/5908.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=32a528987da8dfa71d3db90c316a3571",
-        "imageCaption": "Zelenskyy (right) with the Finnish president (centre) and US envoy Steve Witkoff (left) in Oslo, Norway. Photograph: Heiko Junge/Pool NTB/AP",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy",
-        "checkedAt": "2026-10-20T23:54:19.097Z",
-        "score": 36.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy",
-        "originalSummary": "Advance warnings of missile attacks were seemingly suspended last week by the White House, but Ukraine’s president says: ‘Now it works’The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway.He said Ukraine was again receiving advance warnings of ballistic missile attacks, which were seemingly suspended last week by the White House. “Now it works. It’s great,” he said, adding that the US move would save lives. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-20-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
-        "url": "https://www.nytimes.com/2026/10/20/business/france-protests-bond-markets.html",
-        "title": "A ‘Doom Loop’ Threatens France as Populism Confronts Markets",
-        "summary": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
-        "publishedAt": "2026-10-20T14:24:30.000Z",
-        "source": "The New York Times",
-        "category": "Top story",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "feedRank": 1,
-        "nytHomeLead": true,
-        "nytFeedSummary": true,
-        "sourcePageChecked": false,
-        "explanation": "The turmoil shows the profound challenges facing governments stuck between unhappy citizens and wary bond investors.",
-        "eventDate": null,
-        "eventDateVerified": false,
-        "summaryKind": "NYT public-feed summary · full article unavailable",
-        "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-20T20:37:20.508Z",
-        "briefingSlot": 1,
-        "slotLabel": "NYT lead",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-20-am",
-        "leadUnchanged": false,
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
       "https://www.nytimes.com/2026/10/22/us/politics/iowa-farmers-republicans-trump.html",
       "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-      "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+      "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+      "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
       "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
     ]
   }
