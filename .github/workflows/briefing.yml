@@ -8,10 +8,10 @@ on:
       - '.research/**'
       - '.github/workflows/briefing.yml'
   schedule:
-    # Eastern edition keys handle EST/EDT and delayed cron starts. The hourly
+    # Eastern edition keys handle EST/EDT and delayed cron starts. The off-peak half-hour
     # catch-up repairs missed triggers; complete editions are a cheap no-op.
     - cron: '0 0,11,12,23 * * *'
-    - cron: '17 * * * *'
+    - cron: '7,37 * * * *'
 
 permissions:
   contents: write
