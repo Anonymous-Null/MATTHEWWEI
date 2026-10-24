@@ -392,7 +392,7 @@ export function personalStoryEligible(story) {
   // become a student's building/science story because they mention chips or AI.
   const businessProcess=/\b(waivers?|compliance|lobbying|earnings|investors?|funding round|accreditor|administrative staff|executive staff|CEO|stocks?|shares?|stock market|price target|designat(?:es?|ed|ion)|critical material)\b/i.test(title);
   const punditry=/\b(warns?|reacts?|experts? say|legal experts|could still|growing wave|Q&A|interview|preview|symposium|guidelines)\b/i.test(title);
-  const professional=/\b(PHP|CVE-\d|kernel|enterprise|database migration|patch management|renal|enzyme|molecular|phonon|spintronic|botnet|homebrew)\b/i.test(title) || /\babandoned\b.*\bapps?\b/i.test(title);
+  const professional=/\b(PHP|CVE-\d|kernel|enterprise|database migration|patch management|renal|enzyme|molecular|phonon|spintronic|botnet|homebrew)\b/i.test(title+' '+lead) || /\babandoned\b.*\bapps?\b/i.test(title);
   const routineAdoption=/\b(uses?|adopts?|rolls? out)\b.{0,75}\b(ChatGPT|AI tools?|copilot)\b/i.test(title);
   const conversationalLaunch=/\b(?:AI model|chatbot)\b.{0,70}\b(?:friend|talks to you|companion)\b/i.test(title);
   const careerProfile=/\bwent from\b.+\bto\b/i.test(title) || /\b(career profile|meet the engineer|day in the life)\b/i.test(title);
@@ -421,6 +421,7 @@ export function publicNewsScope(story) {
   const lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,100).join(' ');
   if(/\?\s*$/.test(title) || /^\s*(how |why |inside |the science of |a guide to )/i.test(title)
     || /\b(explainer|analysis|commentary|opinion|column|approval ratings?|book review|literary|Shakespeare|playwright|museum exhibition|art exhibition)\b/i.test(title)) return null;
+  if(/\b(would|could|might|may)\b/i.test(title) && !/\b(approved|approves?|passed|passes|ordered|orders?|signed|announced|banned|attacked|struck|killed|launched|overturned|ruled|blocks?|blocked|cuts?|suspended|filed|sues?|sued|resigns?)\b/i.test(title))return null;
   const publicSubject=/\b(presidents?|prime minister|government|Congress|Senate|Supreme Court|courts?|judges?|elections?|vot(?:e|es|ers|ing)|ballots?|midterms?|protests?|demonstrations?|rallies|No Kings|military|troops?|missiles?|airstrikes?|fighter jets?|drones?|war|ceasefire|sanctions?|tariffs?|Federal Reserve|central bank|inflation|unemployment|stock market|earthquake|hurricane|wildfire|pandemic|public health|school funding|education funding|statewide|nationwide)\b/i;
   const development=/\b(approve(?:s|d)?|pass(?:es|ed)?|orders?|ordered|signs?|signed|strikes?|attacks?|hits?|killed|kills?|arrests?|arrested|rallies|protests?|demonstrations?|votes?|voted|elections?|ban(?:s|ned)?|rul(?:es|ed|ing)|suspend\w*|waiv\w*|sanctions?|ceasefire|shoot down|shot down|launch\w*|resigns?|resigned|collapsed|evacu\w*|cuts?|raises?|changes?|expands?|surges?|crash\w*|outbreak|deaths?|ablaze)\b/i;
   // A background passage about national issues cannot turn a technical or

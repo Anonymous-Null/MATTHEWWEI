@@ -54,8 +54,8 @@ test('prepublication link checks reject dead or subscription-only articles; the 
   const results=await checkBriefingLinks(input,{fetcher,now});assert.equal(results[0].story.linkStatus,200);assert.match(results[1].error,/subscription/);assert.match(results[2].error,/404/);assert.equal(results[3].story.articleAccess,'feed-only');assert.match(results[3].story.summaryKind,/subscription/);
 });
 test('an unchanged NYT lead alone does not churn complete editions or misrepresent a fresh story',()=>{
-  const previous={fetchedAt:'2026-10-23T19:00:00Z',news:{schemaVersion:2,layout:PERSONAL_NEWS_LAYOUT,editionKey:key,freshCount:4,nytStatus:{available:true},stories:[{leadUnchanged:true},{},{},{},{}]}};
-  assert.equal(briefingDue(previous,now),false);assert.equal(briefingDue({...previous,news:{...previous.news,stories:[{leadUnchanged:true},{carriedForward:true},{},{},{}]}},now),true);
+  const previous={fetchedAt:'2026-10-23T19:00:00Z',news:{schemaVersion:2,layout:PERSONAL_NEWS_LAYOUT,editionKey:key,freshCount:4,nytStatus:{available:true},stories:[story('nyt','Top NYT story','Top story','A source report.',{briefingSlot:1,leadUnchanged:true}),story('a','Engineers build a safer battery','Science','Engineers built a new battery mechanism for electric cars.',{briefingSlot:2}),story('b','NASA builds a new Moon telescope','Science','NASA built a new telescope and demonstrated sharper images of the Moon.',{briefingSlot:3}),story('us','Congress approves national student aid legislation','U.S.','Congress approved a federal student aid law affecting millions of students.',{briefingSlot:4}),story('world','Ukraine launches a major drone attack','World','Ukraine launched a major attack on military facilities in Russia.',{briefingSlot:5})]}};
+  assert.equal(briefingDue(previous,now),false);assert.equal(briefingDue({...previous,news:{...previous.news,stories:previous.news.stories.map((s,i)=>i===1?{...s,carriedForward:true}:s)}},now),true);
 });
 test('replacing an inaccessible personal article preserves five distinct slot assignments',async()=>{
   const text='Researchers announced a successful battery test on Friday. Their new system was tested in a series of controlled experiments. They documented measurements, described their methods, and identified the limitations of the result. The report explains that the finding is an early demonstration and that more trials are needed. The researchers published the full results with a detailed account of the evidence. They also explained how other teams could repeat the experiment to check the outcome.';
@@ -66,4 +66,10 @@ test('replacing an inaccessible personal article preserves five distinct slot as
   const fetcher=async url=>url.includes('nytimes')?new Response('Blocked',{status:403}):url.endsWith('/'+blockedId)?new Response('Gone',{status:410}):new Response(html);
   const result=await selectAccessibleBriefing(candidates,{now,key,nytLead:lead},{fetcher});
   assert.equal(result.selected.length,5);assert.deepEqual(result.selected.map(s=>s.briefingSlot),[1,2,3,4,5]);assert.equal(result.selected.some(s=>s.id===blockedId),false);assert.ok(result.rejectedLinks.some(s=>s.id===blockedId));
+});
+
+test('a hypothetical local park plan is not a reported national action',async()=>{
+  const {publicNewsScope}=await import('../public/news.js');
+  const park=story('park',"A D.C. park was made 'for the pleasure of the people.' Trump's plan would change that",'U.S.','The president has proposed changing a local park in Washington, D.C.');
+  assert.equal(publicNewsScope(park),null);
 });

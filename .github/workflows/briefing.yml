@@ -42,8 +42,9 @@ jobs:
       - name: Read live sources and check event dates
         env:
           SCHEDULED: ${{ github.event_name == 'schedule' }}
+          SOURCE_PUSH: ${{ github.event_name == 'push' }}
         run: |
-          if [ "$SCHEDULED" = "true" ]; then
+          if [ "$SCHEDULED" = "true" ] || [ "$SOURCE_PUSH" = "true" ]; then
             node .research/scripts/research-briefing.mjs --deployment --scheduled
           else
             node .research/scripts/research-briefing.mjs --deployment

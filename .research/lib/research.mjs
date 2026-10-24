@@ -17,7 +17,7 @@ const sourceHosts = {
 };
 const months = 'january february march april may june july august september october november december'.split(' ');
 const weekdays = 'sunday monday tuesday wednesday thursday friday saturday'.split(' ');
-const eventVerb = /\b(held|acknowledged|disclosed|announced|signed|killed|struck|issued|ruled|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found|surpassed|crossed|ticked|set|restarted|resumed|reported|outlined|unveiled|developed|built|created)\b/i;
+const eventVerb = /\b(held|acknowledged|disclosed|announced|signed|killed|struck|issued|ruled|ordered|filed|decided|testified|conducted|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found|surpassed|crossed|ticked|set|restarted|resumed|reported|outlined|unveiled|developed|built|created)\b/i;
 const future = /\b(will|plans to|scheduled to|expected to|is set to)\b/i;
 const majorEvent = /\b(signed|overturned|resigned|invaded|ceasefire|banned|approved|erupted|landed|discovered)\b/i;
 
@@ -44,8 +44,9 @@ export function eventDateInText(text, publishedAt, { title = '', category = '' }
     const context = `${refersBack ? sentences[i - 1] || '' : ''} ${sentence}`.toLowerCase();
     if (anchors.length && !anchors.some(w => context.includes(w)) && !(['Science','Technology'].includes(category) && /\b(study|paper|findings|discovery)\b/i.test(sentence))) continue;
     let date = sentence.match(/\b(20\d{2}-\d{2}-\d{2})\b/)?.[1];
-    const named = sentence.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|nd|rd|th)?(?:,?\s+(20\d{2}))?\b/i);
-    if (!date && named) date = `${named[3] || year}-${String(months.indexOf(named[1].toLowerCase()) + 1).padStart(2, '0')}-${named[2].padStart(2, '0')}`;
+    const named = sentence.match(/\b(January|February|March|April|May|June|July|August|September|October|November|December|Jan\.?|Feb\.?|Mar\.?|Apr\.?|Jun\.?|Jul\.?|Aug\.?|Sept?\.?|Oct\.?|Nov\.?|Dec\.?)\s+(\d{1,2})(?:st|nd|rd|th)?(?:,?\s+(20\d{2}))?\b/i);
+    if (!date && named) date = `${named[3] || year}-${String(months.findIndex(m=>m.startsWith(named[1].toLowerCase().slice(0,3))) + 1).padStart(2, '0')}-${named[2].padStart(2, '0')}`;
+    if(date>anchor && /\b(by|until|deadline)\b/i.test(sentence))date=null;
     if (!date) {
       const weekday = sentence.match(/\b(?:(?:on|this|last)\s+)?(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)\b/i);
       if (weekday) {
