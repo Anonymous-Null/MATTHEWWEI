@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-24T12:54:06.085Z",
+  "fetchedAt": "2026-10-24T23:39:17.215Z",
   "news": {
     "nytLead": {
-      "id": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-      "url": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-      "title": "How Trump Gave the Worst Polluters a Free Pass",
-      "summary": "The president temporarily waived clean-air rules for industrial facilities that spew cancer-causing gases. Then his appointees worked to gut the regulations altogether.",
-      "publishedAt": "2026-10-24T12:28:26.000Z",
+      "id": "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
+      "url": "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
+      "title": "Alaska Election Gambit Shows Justice Dept. Has Bowed to Trump’s Demands",
+      "summary": "With moves in Alaska and California, the department has stepped up interventions in the midterm elections as the president’s instrument of unmediated executive power.",
+      "publishedAt": "2026-10-24T19:21:11.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -17,28 +17,28 @@
       "nytFeedSummary": true,
       "sourcePageChecked": false,
       "articleAccess": "feed-only",
-      "explanation": "The president temporarily waived clean-air rules for industrial facilities that spew cancer-causing gases. Then his appointees worked to gut the regulations altogether.",
+      "explanation": "With moves in Alaska and California, the department has stepped up interventions in the midterm elections as the president’s instrument of unmediated executive power.",
       "eventDate": null,
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-24T12:54:06.085Z"
+      "checkedAt": "2026-10-24T23:39:17.215Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-24T12:54:06.085Z",
+      "checkedAt": "2026-10-24T23:39:17.215Z",
       "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
-    "editionKey": "2026-10-24-am",
+    "editionKey": "2026-10-24-pm",
     "stories": [
       {
-        "id": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-        "url": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-        "title": "How Trump Gave the Worst Polluters a Free Pass",
-        "summary": "The president temporarily waived clean-air rules for industrial facilities that spew cancer-causing gases. Then his appointees worked to gut the regulations altogether.",
-        "publishedAt": "2026-10-24T12:28:26.000Z",
+        "id": "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
+        "url": "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
+        "title": "Alaska Election Gambit Shows Justice Dept. Has Bowed to Trump’s Demands",
+        "summary": "With moves in Alaska and California, the department has stepped up interventions in the midterm elections as the president’s instrument of unmediated executive power.",
+        "publishedAt": "2026-10-24T19:21:11.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -49,55 +49,55 @@
         "nytFeedSummary": true,
         "sourcePageChecked": false,
         "articleAccess": "feed-only",
-        "explanation": "The president temporarily waived clean-air rules for industrial facilities that spew cancer-causing gases. Then his appointees worked to gut the regulations altogether.",
+        "explanation": "With moves in Alaska and California, the department has stepped up interventions in the midterm elections as the president’s instrument of unmediated executive power.",
         "eventDate": null,
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-24T12:54:06.085Z",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-24-am",
+        "selectedEdition": "2026-10-24-pm",
         "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false,
-        "linkCheckedAt": "2026-10-24T12:54:06.085Z"
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
       },
       {
-        "id": "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
-        "url": "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
-        "title": "NASA adopting Apollo's urgency to build a moon base and land astronauts within 2 years",
-        "summary": "\"It is incredibly ambitious,\" Rubio told The Associated Press earlier this month. \"One thing I've always believed and learned is don't bet against America.\" Who's behind this story? Andrew Zinin Master's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success. Full profile → © 2026 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed without permission. Citation: NASA adopting Apollo's urgency to build a moon base and land astronauts within 2 years (2026, October 24) retrieved 24 October 2026 from https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html This document is subject to copyright.",
-        "publishedAt": "2026-10-24T09:28:00.000Z",
-        "source": "Phys.org",
-        "category": "Science",
-        "coverage": "Research reporting",
+        "id": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+        "summary": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed.",
+        "publishedAt": "2026-10-23T22:48:25.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
+        "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://phys.org/rss-feed/",
-        "feedRank": 5,
+        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
+        "feedRank": 3,
         "nytHomeLead": false,
-        "editorialText": "NASA is moving fast on its plans to build a moon base and return astronauts to the lunar surface in as little as two years. Administrator Jared Isaacman said Friday that the space agency is still on track to launch Artemis III next summer on a docking exercise with Elon Musk's and Jeff Bezos' lunar landers. The two-week mission featuring four astronauts will be confined to orbit around Earth—no moon trip this time. The all-important Artemis IV—NASA's first moon landing by astronauts since Apollo—remains scheduled for 2028, Isaacman said. His update came six months after the successful Artemis II flight around the moon by four astronauts, humanity's first lunar trip in more than half a century. NASA will keep its options open as long as possible before choosing between SpaceX and Blue Origin for the Artemis IV lunar lander, according to officials. Isaacman said the \"new space race\" to land astronauts on the moon—racing against China now versus the Soviet Union during the Apollo era—will be \"much closer than it ever needed to be\" because of slow going in past",
-        "originalPublishedAt": "2026-10-24T09:28:00.000Z",
+        "editorialText": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed. In short, it makes some aspects of a lunar landing significantly easier for Blue Origin. As part of this, NASA announced Friday that it is working with United Launch Alliance to develop an “extended” version of the Centaur V upper stage. In concert with the core stage of the Space Launch System, this upper stage would allow Orion to reach low-lunar orbit. This is a big deal. It",
+        "originalPublishedAt": "2026-10-23T22:48:25.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T12:54:06.085Z",
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
         "primaryDoi": null,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
-        "eventRevision": null,
+        "eventDate": "2026-10-23",
+        "eventKind": "Announced",
+        "eventDateVerified": true,
+        "dateEvidence": "As part of this, NASA announced Friday that it is working with United Launch Alliance to develop an “extended” version of the Centaur V upper stage.",
+        "dateEvidenceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "eventRevision": "2026-10-23:Announced",
         "majorUpdateVerified": false,
-        "explanation": "\"It is incredibly ambitious,\" Rubio told The Associated Press earlier this month. \"One thing I've always believed and learned is don't bet against America.\" Who's behind this story? Andrew Zinin Master's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success. Full profile → © 2026 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed without permission. Citation: NASA adopting Apollo's urgency to build a moon base and land astronauts within 2 years (2026, October 24) retrieved 24 October 2026 from https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html This document is subject to copyright.",
+        "explanation": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/nasa-artemis-moon.jpg",
-        "imageCaption": "In this photo provided by NASA, the final left and right forward solid rocket booster motor segments for Artemis III are integrated onto the mobile launcher for the SLS (Space Launch System) rocket on Thursday, Sept. 24, 2026, at NASA's Kennedy Space Center in Florida. Credit: Frank Michaux/NASA via AP",
-        "imageSourceUrl": "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
-        "checkedAt": "2026-10-24T12:54:06.085Z",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur-1002x648.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
         "score": 20.75,
         "dimensions": {
           "surprise": 15,
@@ -105,103 +105,102 @@
           "novelty": 40,
           "relevance": 10
         },
-        "freshness": "24h",
-        "displayTitle": "NASA adopting Apollo's urgency to build a moon base and land astronauts within 2 years",
-        "originalSummary": "NASA is moving fast on its plans to build a moon base and return astronauts to the lunar surface in as little as two years.",
+        "freshness": "48h",
+        "displayTitle": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+        "originalSummary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
         "whyMatters": null,
         "briefingSlot": 2,
         "slotLabel": "For you",
         "personalTopic": "aviation-space",
         "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-24-am",
+        "selectedEdition": "2026-10-24-pm",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-        "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-        "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations - NASA",
-        "summary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit […]",
-        "publishedAt": "2026-10-23T22:37:53.000Z",
-        "source": "NASA",
+        "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "summary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "publishedAt": "2026-10-22T23:51:24.000Z",
+        "source": "The Guardian",
         "category": "Science",
-        "coverage": "Institution announcement",
+        "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.nasa.gov/news-release/feed/",
-        "feedRank": 3,
+        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
+        "feedRank": 20,
         "nytHomeLead": false,
-        "editorialText": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit to perform a series of demonstrations with test versions, or test articles, of human landing systems being developed by industry partners Blue Origin and SpaceX. During the planned 14-day mission, crews and flight controllers will practice the rendezvous, docking, habitation, and operational procedures that will be essential when Artemis astronauts begin landing near the Moon’s South Pole in 2028. The mission is designed to reduce risk, validate hardware, and gain operational experience before NASA attempts a crewed lunar landing. “Every piece of this mission in Earth orbit is designed to reduce risk before we put astronauts back on the Moon,” said Jeremy Parsons, NASA’s Artemis program manager. “We’re launching three spacecraft on three different rockets and testing how they operate together — something NASA has",
-        "originalPublishedAt": "2026-10-23T22:37:53.000Z",
+        "editorialText": "The federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station. The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. The ESA offer for Bennell-Pegg to join a future ISS mission garnered support from philanthropists and the Australian space industry, but has previously described by the office of the science minister, Tim Ayres, as “a very expensive undertaking” which no government alone could fund. Announcing the decision on Friday, Ayres said:“The government has been engaging extensively with the private sector, philanthropists, and other levels of government to raise funding to support a space flight – which is a significant cost. “We are grateful to the philanthropists who have committed over $6m in cash, plus in-kind support, and some indicative support from some state governments.” Bennell-Pegg is director of space technology at the Australian Space Agency (ASA) and completed astronaut training with the ESA in 2024. She is not the first Australian",
+        "originalPublishedAt": "2026-10-22T23:51:24.000Z",
         "sourcePageChecked": true,
-        "articleAccess": "readable",
-        "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T12:54:06.085Z",
-        "primaryDoi": null,
-        "eventDate": "2026-10-23",
-        "eventKind": "Announcement published",
-        "eventDateVerified": true,
-        "dateEvidence": "The institution's original announcement is dated 2026-10-23. This is the announcement date, not the date of a future mission.",
-        "dateEvidenceUrl": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-        "eventRevision": "2026-10-23:Announcement published",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit […]",
+        "explanation": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
         "summaryKind": "Publisher summary",
-        "imageUrl": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg",
+        "imageUrl": "https://i.guim.co.uk/img/media/d23d8f0976a7c8b113da25b1c581dcc0372119fb/846_241_5250_4201/master/5250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec067a9075a79845bf98935768dd62eb",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-        "checkedAt": "2026-10-24T12:54:06.085Z",
-        "score": 20.75,
+        "imageSourceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "checkedAt": "2026-10-23T04:53:11.138Z",
+        "score": 68,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 20,
+          "surprise": 90,
+          "consequence": 90,
           "novelty": 40,
           "relevance": 10
         },
-        "freshness": "48h",
-        "displayTitle": "NASA’s Artemis III Mission to Test Future Moon Lander Operations - NASA",
-        "originalSummary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit […]",
+        "freshness": "24h",
+        "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 3,
         "slotLabel": "For you",
         "personalTopic": "aviation-space",
         "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-24-am",
-        "carriedForward": false,
-        "olderReport": false
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": true,
+        "olderReport": false,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/c678pv4krx37o",
-        "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o",
-        "title": "Trump administration sues to block certification of Alaska election",
-        "summary": "The Trump administration wants to block the certification of the Senate election in Alaska if Republican Senator Dan Sullivan loses, arguing that another candidate with the same name may confuse voters. The justice department said in a federal lawsuit filed on Thursday that the inclusion of another Dan Sullivan on the ballot could lead some to mistakenly cast their votes for the wrong candidate. Polls suggest the race between Senator Sullivan and Democrat Mary Peltola is tight, with Peltola holding a narrow lead in the final days before the 3 November vote. The US government wants the judge to bar the state from certifying the results if Senator Sullivan loses by a margin less than the other Sullivan.",
-        "publishedAt": "2026-10-23T16:07:35.179Z",
-        "source": "BBC News",
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+        "title": "Man detained at Georgia immigration detention center dies as hunger strike continues",
+        "summary": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex.",
+        "publishedAt": "2026-10-24T22:06:15.000Z",
+        "source": "The Guardian",
         "category": "U.S.",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
-        "feedRank": 3,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 2,
         "nytHomeLead": false,
-        "editorialText": "The Trump administration wants to block the certification of the Senate election in Alaska if Republican Senator Dan Sullivan loses, arguing that another candidate with the same name may confuse voters. The justice department said in a federal lawsuit filed on Thursday that the inclusion of another Dan Sullivan on the ballot could lead some to mistakenly cast their votes for the wrong candidate. Polls suggest the race between Senator Sullivan and Democrat Mary Peltola is tight, with Peltola holding a narrow lead in the final days before the 3 November vote. The US government wants the judge to bar the state from certifying the results if Senator Sullivan loses by a margin less than the other Sullivan. \"I'm the one that said do it,\" US President Donald Trump told reporters when asked for his thoughts on the lawsuit after he landed in Florida for a campaign rally on Friday. Trump has referred to the second Sullivan's candidacy as a \"scam\" and said his administration was looking at \"powerful legal options\" to end it. The retired teacher previously denied his",
-        "originalPublishedAt": "2026-10-23T16:07:35.179Z",
+        "editorialText": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex. GEO Group, the private prison company that runs the facilities under contract for the federal government, referred all questions to ICE. The Georgia bureau of investigation (GBI), a state law enforcement agency, confirmed in an email that the local sheriff’s office requested the GBI conduct an “in-custody death investigation” at the D Ray facility, the Guardian can reveal. ICE and the Department",
+        "originalPublishedAt": "2026-10-24T22:06:15.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T12:54:06.085Z",
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
         "primaryDoi": null,
         "eventDate": "2026-10-23",
         "eventKind": "Event",
         "eventDateVerified": true,
-        "dateEvidence": "\"I'm the one that said do it,\" US President Donald Trump told reporters when asked for his thoughts on the lawsuit after he landed in Florida for a campaign rally on Friday.",
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c678pv4krx37o",
+        "dateEvidence": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside.",
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
         "eventRevision": "2026-10-23:Event",
         "majorUpdateVerified": false,
-        "explanation": "The Trump administration wants to block the certification of the Senate election in Alaska if Republican Senator Dan Sullivan loses, arguing that another candidate with the same name may confuse voters. The justice department said in a federal lawsuit filed on Thursday that the inclusion of another Dan Sullivan on the ballot could lead some to mistakenly cast their votes for the wrong candidate. Polls suggest the race between Senator Sullivan and Democrat Mary Peltola is tight, with Peltola holding a narrow lead in the final days before the 3 November vote. The US government wants the judge to bar the state from certifying the results if Senator Sullivan loses by a margin less than the other Sullivan.",
+        "explanation": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/056d/live/ef958c50-cef9-11f1-a7ee-733e71112503.jpg",
-        "imageCaption": "Image caption, Senator Dan Sullivan, right, is in a tight race with Democratic contender Mary Peltola.",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c678pv4krx37o",
-        "checkedAt": "2026-10-24T12:54:06.085Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/5098ba27928833896c54068aea6264d9317ddb09/324_0_3238_2590/master/3238.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a538d8b94d088289c4658503ae2887fd",
+        "imageCaption": "Detainees behind concertina wire inside the Folkston ICE Processing Center and D Ray James Processing Center in Folkston, Georgia, on 9 September 2025. Photograph: Erik S Lesser/EPA",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
         "score": 36.75,
         "dimensions": {
           "surprise": 15,
@@ -210,94 +209,93 @@
           "relevance": 10
         },
         "freshness": "48h",
-        "displayTitle": "Trump administration sues to block certification of Alaska election",
-        "originalSummary": "The justice department has filed a lawsuit arguing that the inclusion of two candidates named Dan Sullivan could confuse voters.",
+        "displayTitle": "Man detained at Georgia immigration detention center dies as hunger strike continues",
+        "originalSummary": "Death inside Folkston facility comes as officials allegedly threaten hunger strikers there with force-feedingAn immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside.The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-24-am",
+        "selectedEdition": "2026-10-24-pm",
         "carriedForward": false,
         "olderReport": false
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o",
-        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o",
-        "title": "US lifts tariffs on some Canadian goods before midterm elections",
-        "summary": "The Trump administration is lifting some of its 50% tariffs on Canadian goods two weeks before the midterm elections, after a Republican candidate in a key US Senate race said she had lobbied for the change. From 30 October, tariffs will be eased on products including \"plywood sheets, some paper products, certain machinery and refrigeration equipment\", the White House said on Friday. Republican Senator Susan Collins, who is in a tight race to keep her seat in Maine, first announced the exemptions, saying they would help her state's agriculture industry. The US imposed a 50% levy on $20bn (£15bn) worth of Canadian goods after trade talks between the two countries collapsed in August.",
-        "publishedAt": "2026-10-23T20:09:45.691Z",
+        "id": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+        "summary": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history.",
+        "publishedAt": "2026-10-24T21:09:27.675Z",
         "source": "BBC News",
-        "category": "U.S.",
+        "category": "World",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
-        "feedRank": 2,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "The Trump administration is lifting some of its 50% tariffs on Canadian goods two weeks before the midterm elections, after a Republican candidate in a key US Senate race said she had lobbied for the change. From 30 October, tariffs will be eased on products including \"plywood sheets, some paper products, certain machinery and refrigeration equipment\", the White House said on Friday. Republican Senator Susan Collins, who is in a tight race to keep her seat in Maine, first announced the exemptions, saying they would help her state's agriculture industry. The US imposed a 50% levy on $20bn (£15bn) worth of Canadian goods after trade talks between the two countries collapsed in August. Canada has imposed a series of countermeasures in response to the US tariffs, which Prime Minister Mark Carney said were \"necessary to protect our workers\". Last month, Carney matched the US tariffs \"dollar for dollar\" after the breakdown in talks. Trump had imposed them for what he called \"unequal treatment\" of US car, dairy and alcohol exports. The White House said that, while tariffs would be lifted",
-        "originalPublishedAt": "2026-10-23T20:09:45.691Z",
+        "editorialText": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history. The interior ministry said an estimated 410,000 people protested on Saturday, while the unions put the number at about 800,000. Some 70,000 police officers were deployed and restrictions imposed in several cities to prevent the latest protests over the cost of living and poor school conditions from descending into the kind of chaos which saw officers outnumbered, hundreds of businesses looted and buildings torched. President Emmanuel Macron had decreed earlier this week that only demonstrations organised by",
+        "originalPublishedAt": "2026-10-24T19:28:47.774Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T12:54:06.085Z",
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
         "primaryDoi": null,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The Trump administration is lifting some of its 50% tariffs on Canadian goods two weeks before the midterm elections, after a Republican candidate in a key US Senate race said she had lobbied for the change. From 30 October, tariffs will be eased on products including \"plywood sheets, some paper products, certain machinery and refrigeration equipment\", the White House said on Friday. Republican Senator Susan Collins, who is in a tight race to keep her seat in Maine, first announced the exemptions, saying they would help her state's agriculture industry. The US imposed a 50% levy on $20bn (£15bn) worth of Canadian goods after trade talks between the two countries collapsed in August.",
+        "eventDate": "2026-10-24",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Clashes between protesters and riot police in Paris erupted at the end of a peaceful march from the city's Porte d'Italie towards Porte de Vincennes on Saturday, where the police operation included an elite unit that usually deals with organised crime and counter-terrorism.",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "eventRevision": "2026-10-24:Event",
+        "majorUpdateVerified": true,
+        "explanation": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1860/live/f6b62750-cf1d-11f1-9796-954775b3a434.jpg",
-        "imageCaption": "Image caption, Canada and the US are currently locked in a tit-for-tat trade war",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o",
-        "checkedAt": "2026-10-24T12:54:06.085Z",
-        "score": 36.75,
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "US lifts tariffs on some Canadian goods before midterm elections",
-        "originalSummary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
+        "displayTitle": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+        "originalSummary": "Officials have so far managed to avoid a repeat of last weekend's rioting and looting as hundreds of thousands took part in demonstrations.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-24-am",
+        "selectedEdition": "2026-10-24-pm",
         "carriedForward": false,
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-24T12:54:06.085Z",
-    "checkedAt": "2026-10-24T12:54:06.085Z",
+    "fetchedAt": "2026-10-24T23:39:17.215Z",
+    "checkedAt": "2026-10-24T23:39:17.215Z",
     "sources": [
-      "Phys.org",
-      "BBC News",
-      "ScienceDaily",
       "The New York Times",
+      "ScienceDaily",
+      "BBC News",
+      "MIT News",
       "Ars Technica",
       "The Guardian",
       "NPR",
-      "MIT News",
-      "Higher Ed Dive",
-      "IEEE Spectrum",
       "ScienceAlert",
-      "NASA"
+      "Higher Ed Dive",
+      "Phys.org",
+      "IEEE Spectrum"
     ],
     "providersAvailable": 34,
     "providersTotal": 49,
     "research": {
-      "rawCandidates": 959,
+      "rawCandidates": 945,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 165,
-      "primaryDatesChecked": 21,
-      "rejected": 63,
+      "sourcePagesRead": 175,
+      "primaryDatesChecked": 29,
+      "rejected": 81,
       "rejectedCandidates": [
         {
           "title": "A tiny defect in a crystal reveals a big quantum surprise",
@@ -310,13 +308,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Russia, Ukraine agree to local ceasefire as new peace talks planned - Reuters",
-          "url": "https://www.investing.com/news/economy-news/russia-ukraine-agree-to-local-ceasefire-as-new-peace-talks-planned--reuters-4970527",
+          "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
+          "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "First Interstate BancSystem director Scott sells $184,500 in shares",
-          "url": "https://www.investing.com/news/insider-trading-news/first-interstate-bancsystem-director-scott-sells-184500-in-shares-93CH-4970823",
+          "title": "Why South Korea’s stock market represents the purest AI trade",
+          "url": "https://www.investing.com/news/stock-market-news/why-south-koreas-stock-market-represents-the-purest-ai-trade-4970991",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -325,13 +323,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Lee Chang Dong ponders the ethics of the camera",
-          "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
+          "title": "Blue Planet III is keeping the rough edges in the age of AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Dental implants can hijack your immune system, scientists discover",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261022081314.htm",
+          "title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -340,8 +338,88 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Researchers Developed a Molecule to Fight Alzheimer's – Then Found It's Already in Our Blood",
-          "url": "https://www.sciencealert.com/researchers-developed-a-molecule-to-fight-alzheimers-then-found-its-already-in-our-blood",
+          "title": "Scientists demonstrate AI-designed enzyme for drug synthesis",
+          "url": "https://phys.org/news/2026-10-scientists-ai-enzyme-drug-synthesis.html",
+          "reason": "fetch failed"
+        },
+        {
+          "title": "Peter Thiel says Apple has done 'nothing new' after Steve Jobs",
+          "url": "https://www.businessinsider.com/peter-thiel-apple-steve-jobs-tim-cook-innovation-iphone-duo-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Ukraine says military Starlink service restored as Musk cites terms violations",
+          "url": "https://www.investing.com/news/economy-news/ukraine-says-military-starlink-service-restored-after-10day-disruption-4970760",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Trump set to announce Audi plan to build US factory in Georgia, source says",
+          "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Texas voters cast early ballots in key senate race",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6014610/texas-voters-cast-early-ballots-in-key-senate-race",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "The latest in space science: We look back at the Big Bang",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6008076/the-latest-in-space-science-we-look-back-at-the-big-bang",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Pennsylvania will require labels on AI-generated ads",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
+          "url": "https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Inside the cyber flaw scramble that brought the AI threat to life",
+          "url": "https://www.businessinsider.com/black-october-php-vulnerability-cybersecurity-ai-threat-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Houthis launch broad assault on Saudi sites as U.S. warns of Iranian plots",
+          "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Inside the Trump-administration campaign to return Brazil’s Bolsonaro clan to power",
+          "url": "https://www.investing.com/news/stock-market-news/inside-the-trumpadministration-campaign-to-return-brazils-bolsonaro-clan-to-power-4970978",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Comedian Charlie Berens has made Wisconsin politics a laughing matter",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011198/comedian-charlie-berens-has-made-wisconsin-politics-a-laughing-matter",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+          "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Dental implants can hijack your immune system, scientists discover",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261022081314.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
+          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -355,14 +433,14 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "The latest in space science: We look back at the Big Bang",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6008076/the-latest-in-space-science-we-look-back-at-the-big-bang",
+          "title": "Amber weather warning as Storm Boelo hits Scotland",
+          "url": "https://www.bbc.co.uk/news/videos/cmqlnkq6p6y7o",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Laika has spent 20 years building up to Wildwood",
-          "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
-          "reason": "Source requires a subscription"
+          "title": "'Swing State of the Union' podcast digs deep on issues weighing on Wisconsin voters",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011186/swing-state-of-the-union-podcast-digs-deep-on-issues-weighing-on-wisconsin-voters",
+          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
@@ -370,8 +448,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "We're a Step Closer to Quantum Computers That Can Correct Their Own Mistakes",
-          "url": "https://www.sciencealert.com/were-a-step-closer-to-quantum-computers-that-can-correct-their-own-mistakes",
+          "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
+          "url": "https://www.sciencealert.com/as-water-crisis-continues-backup-water-supply-in-the-colorado-river-basin-is-also-drying-up",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
+          "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -385,38 +468,33 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Kotak Q2 FY27 slides: profit jumps 26% as asset quality improves",
-          "url": "https://www.investing.com/news/company-news/kotak-q2-fy27-slides-profit-jumps-26-as-asset-quality-improves-93CH-4970820",
+          "title": "Volkswagen to build Georgia Audi plant, expand in SC - Bloomberg",
+          "url": "https://www.investing.com/news/company-news/volkswagen-to-build-georgia-audi-plant-expand-in-sc--bloomberg-4970968",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Video released in Mississippi police shooting of toddler",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013628/video-released-in-mississippi-police-shooting-of-toddler",
+          "title": "How data centers became a bipartisan political issue in Wisconsin",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Should 'bird brain' be a compliment? Here's how crows think fast",
-          "url": "https://www.npr.org/2026/10/22/nx-s1-6010587/should-bird-brain-be-a-compliment-heres-how-crows-think-fast",
-          "reason": "Source article was unavailable or too short"
+          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "It’s time to find a new browser",
-          "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
+          "title": "What to expect from Apple’s ‘Pro and tell’ event",
+          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "title": "Both Low And High Testosterone Seem to Be Linked to an Irregular Heartbeat, Study Finds",
+          "url": "https://www.sciencealert.com/both-low-and-high-testosterone-seem-to-be-linked-to-an-irregular-heartbeat-study-finds",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
-          "url": "https://www.sciencealert.com/as-water-crisis-continues-backup-water-supply-in-the-colorado-river-basin-is-also-drying-up",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Scientists uncover the molecular pillars that shape our cells' powerpacks",
-          "url": "https://phys.org/news/2026-10-scientists-uncover-molecular-pillars-cells.html",
+          "title": "How flare ribbons reveal hidden solar explosions on the sun",
+          "url": "https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -425,33 +503,23 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Ukraine says military Starlink service restored after 10-day disruption",
-          "url": "https://www.investing.com/news/economy-news/ukraine-says-military-starlink-service-restored-after-10day-disruption-4970760",
+          "title": "UK to inject £20.4 billion into state-backed lenders in budget, FT reports",
+          "url": "https://www.investing.com/news/economy-news/uk-to-inject-204-billion-into-statebacked-lenders-in-budget-ft-reports-4970689",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Earnings call transcript: Kotak Mahindra Bank posts strong Q2 2026 profit growth",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kotak-mahindra-bank-posts-strong-q2-2026-profit-growth-93CH-4970814",
+          "title": "Adlai Nortye director Ji Ping sells $163,274 in ANL stock",
+          "url": "https://www.investing.com/news/insider-trading-news/adlai-nortye-director-ji-ping-sells-163274-in-anl-stock-93CH-4970965",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Weather warnings in place ahead of Storm Boelo",
-          "url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Father who killed the Bend school shooter speaks to Oregon Public Broadcasting",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6014731/father-who-killed-the-bend-school-shooter-speaks-to-oregon-public-broadcasting",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Xbox’s first chief operating officer is out after just a few months",
-          "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+          "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+          "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Cleaner brick kilns cut pollution, but gains did not reach workers, research finds",
-          "url": "https://phys.org/news/2026-10-cleaner-brick-kilns-pollution-gains.html",
+          "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery",
+          "url": "https://www.sciencealert.com/miniature-ball-lightning-created-in-a-lab-could-help-solve-a-centuries-old-mystery",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -460,18 +528,23 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK to inject £20.4 billion into state-backed lenders in budget, FT reports",
-          "url": "https://www.investing.com/news/economy-news/uk-to-inject-204-billion-into-statebacked-lenders-in-budget-ft-reports-4970689",
+          "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
+          "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "title": "Can silver recover from its latest sell-off? UBS weighs in",
+          "url": "https://www.investing.com/news/commodities-news/can-silver-recover-from-its-latest-selloff-ubs-weighs-in-4970956",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Weather warnings in place ahead of Storm Boelo",
+          "url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "OpenAI now trains its frontier AI models with no internet access",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+          "title": "Lee Chang Dong ponders the ethics of the camera",
+          "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
           "reason": "Source requires a subscription"
         },
         {
@@ -480,13 +553,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery",
-          "url": "https://www.sciencealert.com/miniature-ball-lightning-created-in-a-lab-could-help-solve-a-centuries-old-mystery",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "New long‑clawed British dinosaur is the first of its kind in Europe",
-          "url": "https://phys.org/news/2026-10-longclawed-british-dinosaur-kind-europe.html",
+          "title": "NASA's Perseverance Just Broke The Off-World Driving Record, While Mostly Steering Itself",
+          "url": "https://www.sciencealert.com/nasas-perseverance-just-drove-farther-than-any-vehicle-on-another-world-mostly-steering-itself",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -495,23 +563,33 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
-          "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
+          "title": "UK unveils $800 million AI security funding plan",
+          "url": "https://www.investing.com/news/economy-news/uk-unveils-800-million-ai-security-funding-plan-4970642",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "How InvestingPro’s Fair Value spotted BWFG’s 109% gain in advance",
-          "url": "https://www.investing.com/news/investment-ideas/how-investingpros-fair-value-spotted-bwfgs-109-gain-in-advance-93CH-4970800",
+          "title": "Woori Financial ADR earnings beat by $0.29, revenue topped estimates",
+          "url": "https://www.investing.com/news/earnings/woori-financial-adr-earnings-beat-by-029-revenue-topped-estimates-4970952",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
-          "url": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+          "title": "Video released in Mississippi police shooting of toddler",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6013628/video-released-in-mississippi-police-shooting-of-toddler",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Laika has spent 20 years building up to Wildwood",
+          "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "NASA's Perseverance Just Broke The Off-World Driving Record, While Mostly Steering Itself",
-          "url": "https://www.sciencealert.com/nasas-perseverance-just-drove-farther-than-any-vehicle-on-another-world-mostly-steering-itself",
+          "title": "Glioblastoma breakthrough reveals how brain cancer cells become more aggressive",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261022081300.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications",
+          "url": "https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -520,28 +598,33 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Ben Jennings on Donald Trump’s flattery of Vladimir Putin – cartoon",
-          "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/22/ben-jennings-on-donald-trumps-flattery-of-vladimir-putin-cartoon",
+          "title": "UK’s Healey to give two state-backed lenders £20 billion capital boost in budget",
+          "url": "https://www.investing.com/news/economy-news/uks-healey-to-give-two-statebacked-lenders-20-billion-capital-boost-in-budget-4970530",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "What is the Budget and what could be in it?",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Father who killed the Bend school shooter speaks to Oregon Public Broadcasting",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6014731/father-who-killed-the-bend-school-shooter-speaks-to-oregon-public-broadcasting",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "UK unveils $800 million AI security funding plan",
-          "url": "https://www.investing.com/news/economy-news/uk-unveils-800-million-ai-security-funding-plan-4970642",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "ProPetro’s 49% decline: how Fair Value spotted the warning signs",
-          "url": "https://www.investing.com/news/investment-ideas/propetros-49-decline-how-fair-value-spotted-the-warning-signs-93CH-4970798",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+          "title": "It’s time to find a new browser",
+          "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "One of Earth’s most powerful supervolcanoes is refilling with fresh magma",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023003214.htm",
+          "title": "Your Brain May Be Switching Between Two Versions of Reality 15 Times a Second",
+          "url": "https://www.sciencealert.com/your-brain-may-be-switching-between-two-versions-of-reality-15-times-a-second",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
+          "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -550,18 +633,33 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Saudi Arabia intercepts Houthi missile as Trump threatens new strikes",
-          "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
+          "title": "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
+          "url": "https://www.investing.com/news/economy-news/us-to-remove-50-tariffs-on-some-canadian-goods-to-help-republicans-in-midterms-wsj-reports-4970225",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Jennifer J. Kent, Kohl’s chief legal officer, sells $550,560 in shares",
-          "url": "https://www.investing.com/news/insider-trading-news/jennifer-j-kent-kohls-chief-legal-officer-sells-550560-in-shares-93CH-4970797",
+          "title": "Amgen at ESMO: IMDELLTRA data points to earlier lung cancer use",
+          "url": "https://www.investing.com/news/transcripts/amgen-at-esmo-imdelltra-data-points-to-earlier-lung-cancer-use-93CH-4970944",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Your Brain May Be Switching Between Two Versions of Reality 15 Times a Second",
-          "url": "https://www.sciencealert.com/your-brain-may-be-switching-between-two-versions-of-reality-15-times-a-second",
+          "title": "Xbox’s first chief operating officer is out after just a few months",
+          "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "A hidden bias in human language challenges 70 years of science",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Tiny Genetic Tweak From An Ancient Virus Might've Prevented Chimpanzees From Developing Brains Like Ours",
+          "url": "https://www.sciencealert.com/tiny-genetic-tweak-from-an-ancient-virus-mightve-prevented-chimpanzees-from-developing-brains-like-ours",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years",
+          "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -570,23 +668,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK’s Healey to give two state-backed lenders £20 billion capital boost in budget",
-          "url": "https://www.investing.com/news/economy-news/uks-healey-to-give-two-statebacked-lenders-20-billion-capital-boost-in-budget-4970530",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races",
-          "url": "https://www.investing.com/news/economic-indicators/as-winter-nears-heating-oil-emerges-as-hurdle-for-republicans-in-us-senate-races-4970790",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Tiny Genetic Tweak From An Ancient Virus Might've Prevented Chimpanzees From Developing Brains Like Ours",
-          "url": "https://www.sciencealert.com/tiny-genetic-tweak-from-an-ancient-virus-mightve-prevented-chimpanzees-from-developing-brains-like-ours",
+          "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Surveying the genetic battlefield to uncover the rules of rapid evolution",
-          "url": "https://phys.org/news/2026-10-surveying-genetic-battlefield-uncover-rapid.html",
+          "title": "Cleaner brick kilns cut pollution, but gains did not reach workers, research finds",
+          "url": "https://phys.org/news/2026-10-cleaner-brick-kilns-pollution-gains.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -595,34 +683,35 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
-          "url": "https://www.investing.com/news/economy-news/us-to-remove-50-tariffs-on-some-canadian-goods-to-help-republicans-in-midterms-wsj-reports-4970225",
-          "reason": "Provider returned HTTP 403"
+          "title": "Trump floats unconstitutional third term at campaign rally in Iowa – video",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/trump-floats-unconstitutional-third-term-at-campaign-rally-in-iowa-video",
+          "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Alaska LNG developer faces scrutiny over funding from sanctioned Russian firm - FT",
-          "url": "https://www.investing.com/news/company-news/alaska-lng-developer-faces-scrutiny-over-funding-from-sanctioned-russian-firm--ft-4970777",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Elon Musk’s dangerous grip on outer space",
-          "url": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
-          "reason": "Source requires a subscription"
+          "title": "New long‑clawed British dinosaur is the first of its kind in Europe",
+          "url": "https://phys.org/news/2026-10-longclawed-british-dinosaur-kind-europe.html",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "The Elizabeth Holmes bump is real",
           "url": "https://www.businessinsider.com/elizabeth-holmes-you-can-see-everything-bump-spotify-dropout-book-2026-10",
           "reason": "Source requires a subscription"
+        },
+        {
+          "title": "These key races in the 2026 midterms will decide who controls the US Senate – video explainer",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/these-key-races-in-the-2026-midterms-will-decide-who-controls-the-us-senate-video-explainer",
+          "reason": "Source article was unavailable or too short"
         }
       ],
-      "qualifying": 105,
-      "eventDatesVerified": 19,
-      "eventDatesUnconfirmed": 86,
+      "qualifying": 83,
+      "eventDatesVerified": 18,
+      "eventDatesUnconfirmed": 65,
       "rejectionReasons": {
-        "The actual event/announcement is more than a week old": 21,
+        "The actual event/announcement is more than a week old": 30,
         "Provider returned HTTP 403": 18,
-        "Source article was unavailable or too short": 6,
-        "Source requires a subscription": 18
+        "Source article was unavailable or too short": 11,
+        "Source requires a subscription": 21,
+        "fetch failed": 1
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -630,21 +719,21 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 38,
+          "candidates": 20,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 53,
+          "candidates": 51,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Education.xml",
           "available": true,
-          "candidates": 22,
+          "candidates": 20,
           "error": null
         },
         {
@@ -679,21 +768,21 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 15,
+          "candidates": 19,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
           "available": true,
-          "candidates": 23,
+          "candidates": 24,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 32,
+          "candidates": 31,
           "error": null
         },
         {
@@ -735,21 +824,21 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 28,
+          "candidates": 31,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
           "available": true,
-          "candidates": 26,
+          "candidates": 28,
           "error": null
         },
         {
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
           "available": true,
-          "candidates": 21,
+          "candidates": 20,
           "error": null
         },
         {
@@ -974,17 +1063,256 @@
       "linkChecks": 5,
       "rejectedLinks": [
         {
-          "id": "https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html",
-          "reason": "Provider returned HTTP 403"
+          "id": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
+          "reason": "The article requires a subscription"
         }
       ]
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 5,
-    "carriedCount": 0,
+    "freshCount": 4,
+    "carriedCount": 1,
     "olderCount": 0,
     "reserveStories": [
+      {
+        "id": "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
+        "url": "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
+        "title": "Alaska Election Gambit Shows Justice Dept. Has Bowed to Trump’s Demands",
+        "summary": "With moves in Alaska and California, the department has stepped up interventions in the midterm elections as the president’s instrument of unmediated executive power.",
+        "publishedAt": "2026-10-24T19:21:11.000Z",
+        "source": "The New York Times",
+        "category": "Top story",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "feedRank": 1,
+        "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "articleAccess": "feed-only",
+        "explanation": "With moves in Alaska and California, the department has stepped up interventions in the midterm elections as the president’s instrument of unmediated executive power.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
+        "briefingSlot": 1,
+        "slotLabel": "NYT lead",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-24-pm",
+        "leadUnchanged": false,
+        "carriedForward": false,
+        "olderReport": false,
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
+      },
+      {
+        "id": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+        "summary": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed.",
+        "publishedAt": "2026-10-23T22:48:25.000Z",
+        "source": "Ars Technica",
+        "category": "Technology",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
+        "feedRank": 3,
+        "nytHomeLead": false,
+        "editorialText": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed. In short, it makes some aspects of a lunar landing significantly easier for Blue Origin. As part of this, NASA announced Friday that it is working with United Launch Alliance to develop an “extended” version of the Centaur V upper stage. In concert with the core stage of the Space Launch System, this upper stage would allow Orion to reach low-lunar orbit. This is a big deal. It",
+        "originalPublishedAt": "2026-10-23T22:48:25.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
+        "primaryDoi": null,
+        "eventDate": "2026-10-23",
+        "eventKind": "Announced",
+        "eventDateVerified": true,
+        "dateEvidence": "As part of this, NASA announced Friday that it is working with United Launch Alliance to develop an “extended” version of the Centaur V upper stage.",
+        "dateEvidenceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "eventRevision": "2026-10-23:Announced",
+        "majorUpdateVerified": false,
+        "explanation": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur-1002x648.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
+        "score": 20.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 20,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+        "originalSummary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "aviation-space",
+        "whyForYou": "Aviation, space, and aerospace engineering.",
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "summary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "publishedAt": "2026-10-22T23:51:24.000Z",
+        "source": "The Guardian",
+        "category": "Science",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
+        "feedRank": 20,
+        "nytHomeLead": false,
+        "editorialText": "The federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station. The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. The ESA offer for Bennell-Pegg to join a future ISS mission garnered support from philanthropists and the Australian space industry, but has previously described by the office of the science minister, Tim Ayres, as “a very expensive undertaking” which no government alone could fund. Announcing the decision on Friday, Ayres said:“The government has been engaging extensively with the private sector, philanthropists, and other levels of government to raise funding to support a space flight – which is a significant cost. “We are grateful to the philanthropists who have committed over $6m in cash, plus in-kind support, and some indicative support from some state governments.” Bennell-Pegg is director of space technology at the Australian Space Agency (ASA) and completed astronaut training with the ESA in 2024. She is not the first Australian",
+        "originalPublishedAt": "2026-10-22T23:51:24.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.guim.co.uk/img/media/d23d8f0976a7c8b113da25b1c581dcc0372119fb/846_241_5250_4201/master/5250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec067a9075a79845bf98935768dd62eb",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "checkedAt": "2026-10-23T04:53:11.138Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "aviation-space",
+        "whyForYou": "Aviation, space, and aerospace engineering.",
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": true,
+        "olderReport": false,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+        "title": "Man detained at Georgia immigration detention center dies as hunger strike continues",
+        "summary": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex.",
+        "publishedAt": "2026-10-24T22:06:15.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 2,
+        "nytHomeLead": false,
+        "editorialText": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex. GEO Group, the private prison company that runs the facilities under contract for the federal government, referred all questions to ICE. The Georgia bureau of investigation (GBI), a state law enforcement agency, confirmed in an email that the local sheriff’s office requested the GBI conduct an “in-custody death investigation” at the D Ray facility, the Guardian can reveal. ICE and the Department",
+        "originalPublishedAt": "2026-10-24T22:06:15.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
+        "primaryDoi": null,
+        "eventDate": "2026-10-23",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside.",
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+        "eventRevision": "2026-10-23:Event",
+        "majorUpdateVerified": false,
+        "explanation": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/5098ba27928833896c54068aea6264d9317ddb09/324_0_3238_2590/master/3238.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a538d8b94d088289c4658503ae2887fd",
+        "imageCaption": "Detainees behind concertina wire inside the Folkston ICE Processing Center and D Ray James Processing Center in Folkston, Georgia, on 9 September 2025. Photograph: Erik S Lesser/EPA",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
+        "score": 36.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "48h",
+        "displayTitle": "Man detained at Georgia immigration detention center dies as hunger strike continues",
+        "originalSummary": "Death inside Folkston facility comes as officials allegedly threaten hunger strikers there with force-feedingAn immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside.The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+        "summary": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history.",
+        "publishedAt": "2026-10-24T21:09:27.675Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history. The interior ministry said an estimated 410,000 people protested on Saturday, while the unions put the number at about 800,000. Some 70,000 police officers were deployed and restrictions imposed in several cities to prevent the latest protests over the cost of living and poor school conditions from descending into the kind of chaos which saw officers outnumbered, hundreds of businesses looted and buildings torched. President Emmanuel Macron had decreed earlier this week that only demonstrations organised by",
+        "originalPublishedAt": "2026-10-24T19:28:47.774Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
+        "primaryDoi": null,
+        "eventDate": "2026-10-24",
+        "eventKind": "Event",
+        "eventDateVerified": true,
+        "dateEvidence": "Clashes between protesters and riot police in Paris erupted at the end of a peaceful march from the city's Porte d'Italie towards Porte de Vincennes on Saturday, where the police operation included an elite unit that usually deals with organised crime and counter-terrorism.",
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "eventRevision": "2026-10-24:Event",
+        "majorUpdateVerified": true,
+        "explanation": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+        "checkedAt": "2026-10-24T23:39:17.215Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+        "originalSummary": "Officials have so far managed to avoid a repeat of last weekend's rioting and looting as hundreds of thousands took part in demonstrations.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
       {
         "id": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
         "url": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
@@ -1994,54 +2322,6 @@
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
-        "summary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
-        "publishedAt": "2026-10-22T23:51:24.000Z",
-        "source": "The Guardian",
-        "category": "Science",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
-        "feedRank": 20,
-        "nytHomeLead": false,
-        "editorialText": "The federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station. The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. The ESA offer for Bennell-Pegg to join a future ISS mission garnered support from philanthropists and the Australian space industry, but has previously described by the office of the science minister, Tim Ayres, as “a very expensive undertaking” which no government alone could fund. Announcing the decision on Friday, Ayres said:“The government has been engaging extensively with the private sector, philanthropists, and other levels of government to raise funding to support a space flight – which is a significant cost. “We are grateful to the philanthropists who have committed over $6m in cash, plus in-kind support, and some indicative support from some state governments.” Bennell-Pegg is director of space technology at the Australian Space Agency (ASA) and completed astronaut training with the ESA in 2024. She is not the first Australian",
-        "originalPublishedAt": "2026-10-22T23:51:24.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
-        "summaryKind": "Publisher summary",
-        "imageUrl": "https://i.guim.co.uk/img/media/d23d8f0976a7c8b113da25b1c581dcc0372119fb/846_241_5250_4201/master/5250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec067a9075a79845bf98935768dd62eb",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "checkedAt": "2026-10-23T04:53:11.138Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
-        "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "aviation-space",
-        "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-22-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
         "id": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
         "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
         "title": "Trump ordered to answer questions under oath in BBC lawsuit",
@@ -2166,202 +2446,14 @@
         "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "title": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "summary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "publishedAt": "2026-10-18T09:49:18.000Z",
-        "source": "AP News",
-        "category": "World",
-        "discovery": "Publisher section",
-        "editorialText": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.” Trump told reporters late Saturday that they did not know what his decision on further sanctions against Russia would be, despite signing an executive order Friday night waiving planned restrictions, citing U.S. national interests. Zelenskyy said that while he trusted Trump, siding with Moscow would be a tragedy and a “historic mistake” for Washington. “People want to forget what’s going on. But we can’t give this possibility to forget, or to change reality, or",
-        "originalPublishedAt": "2026-10-18T09:49:18.000Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-18",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war.",
-        "dateEvidenceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "eventRevision": "2026-10-18:Event",
-        "majorUpdateVerified": false,
-        "explanation": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://dims.apnews.com/dims4/default/bb50fa5/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F15%2F54%2F979a3f7335b2a2edbba18103b2f0%2F82fc122574d14ec3abbad9aacd169959",
-        "imageCaption": "",
-        "imageSourceUrl": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
-        "checkedAt": "2026-10-18T18:04:24.350Z",
-        "score": 76.75,
-        "dimensions": {
-          "surprise": 85,
-          "consequence": 95,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Russian oil sites ablaze as Ukraine launches more than 1,000 drones",
-        "originalSummary": "Ukrainian strikes set an oil export terminal and a depot ablaze in St. Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia in one of its largest aerial attacks of the war. The strikes came as tensions between Ukraine and Washington deepened, with U.S. President Donald Trump criticizing Kyiv’s attacks on Russian oil infrastructure and the prospect of further U.S. sanctions against Moscow still uncertain. Speaking on NBC’s “Meet the Press” on Sunday, Ukrainian President Volodymyr Zelenskyy said waiving sanctions against Russia would strengthen Putin’s war effort. He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-22-pm",
-        "carriedForward": true,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-        "url": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-        "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
-        "summary": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget. On October 13th, Brendan Carr’s FCC gave itself a new power — it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it’s exercising that power for the first time, blocking two gadgets because they contain “foreign surveillance chips,” the FCC claims.",
-        "publishedAt": "2026-10-22T20:23:48.000Z",
-        "source": "The Verge",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theverge.com/rss/index.xml",
-        "feedRank": 8,
-        "nytHomeLead": false,
-        "editorialText": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget. On October 13th, Brendan Carr’s FCC gave itself a new power — it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it’s exercising that power for the first time, blocking two gadgets because they contain “foreign surveillance chips,” the FCC claims. The agency doesn’t say which specific gadgets it blocked, and it didn’t immediately respond to our request for comment, but it does name the “surveillance chip”: it’s a HiVision Hi3516CV610 UHD Smart Vision SoC, a chip that turns a raw camera sensor into a home security camera, a dashcam, or the like. It’s often sold as a package with a Sony camera sensor and sometimes even a lens already on board, according to listings we viewed on AliExpress. The FCC is calling it a foreign surveillance chip because HiVision advertises it as “designed for the",
-        "originalPublishedAt": "2026-10-22T20:23:48.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget. On October 13th, Brendan Carr’s FCC gave itself a new power — it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it’s exercising that power for the first time, blocking two gadgets because they contain “foreign surveillance chips,” the FCC claims.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-        "checkedAt": "2026-10-22T23:24:32.309Z",
-        "score": 71,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 60,
-          "novelty": 40,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
-        "originalSummary": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it's exercising that power for the first time, blocking two gadgets because they contain \"foreign surveillance chips,\" the FCC claims. […]",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
-        "selectedEdition": "2026-10-22-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "title": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "summary": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "publishedAt": "2026-10-18T19:00:02.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 1,
-        "nytHomeLead": false,
-        "editorialText": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.” “We have regained access to our accounts, but Meta still owes us an explanation,” the No Kings Coalition posted on their Instagram page, on Sunday. “Restricting communications about voting in the middle of an election is unacceptable.” Organizers remained skeptical about Meta’s explanation that high-frequency posting triggered an automated response, and said members “posted only a handful of times and livestreamed to thousands”. Senator Bernie Sanders also expressed concerns",
-        "originalPublishedAt": "2026-10-18T19:00:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Meta apologized on Saturday and blamed the account’s temporary suspension on an automated action that’s triggered “when accounts post, share or comment at very high frequencies”. “Unfortunately, that automated action was clearly taken in error,” Meta spokesperson Andy Stone, wrote on X. “Everything is now working as it should and we sincerely apologize.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e3d72e6ee414b768f2324e6dd58d5a5",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
-        "checkedAt": "2026-10-18T19:06:25.150Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Outrage after Meta suspends No Kings Instagram account during protests",
-        "originalSummary": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hoursThe coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday.The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking censorship fears. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-22-pm",
-        "carriedForward": true,
-        "olderReport": false
-      },
-      {
-        "id": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-        "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-        "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-        "summary": "“These vulnerabilities often provide a direct path to the server’s file system or database,” the NSA said. “If an immediate update is not feasible, it is recommended that organizations take the system offline until it can be fully mitigated.” Researchers at two US cybersecurity groups, Calif and Wiz, discovered the vulnerabilities. Alphabet-owned Wiz estimated that the compromised programming language powered about 70 percent of all websites in the world. “Given the severity of these flaws and PHP’s widespread use, we consider this one of the most impactful security issues in recent memory,” OpenAI said on Wednesday. “To our knowledge, frontier AI found these vulnerabilities before attackers did.”",
-        "publishedAt": "2026-10-22T15:25:02.000Z",
-        "source": "Ars Technica",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
-        "feedRank": 9,
-        "nytHomeLead": false,
-        "editorialText": "“These vulnerabilities often provide a direct path to the server’s file system or database,” the NSA said. “If an immediate update is not feasible, it is recommended that organizations take the system offline until it can be fully mitigated.” Researchers at two US cybersecurity groups, Calif and Wiz, discovered the vulnerabilities. Alphabet-owned Wiz estimated that the compromised programming language powered about 70 percent of all websites in the world. “Given the severity of these flaws and PHP’s widespread use, we consider this one of the most impactful security issues in recent memory,” OpenAI said on Wednesday. “To our knowledge, frontier AI found these vulnerabilities before attackers did.” “It highlights how AI can uncover security flaws with Internet-scale impact, but the same capabilities can also help attackers rapidly develop offensive tools and exploits,” the AI lab added. OpenAI worked with PHP, Calif, and Wiz to verify the vulnerabilities and develop the patches. The White House said federal agencies were assessing the potential impacts of the bugs on government systems and critical infrastructure. PHP’s wide presence on the Internet is largely because",
-        "originalPublishedAt": "2026-10-22T15:25:02.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "“These vulnerabilities often provide a direct path to the server’s file system or database,” the NSA said. “If an immediate update is not feasible, it is recommended that organizations take the system offline until it can be fully mitigated.” Researchers at two US cybersecurity groups, Calif and Wiz, discovered the vulnerabilities. Alphabet-owned Wiz estimated that the compromised programming language powered about 70 percent of all websites in the world. “Given the severity of these flaws and PHP’s widespread use, we consider this one of the most impactful security issues in recent memory,” OpenAI said on Wednesday. “To our knowledge, frontier AI found these vulnerabilities before attackers did.”",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-        "checkedAt": "2026-10-22T20:09:00.092Z",
-        "score": 80.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "24h",
-        "displayTitle": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-        "originalSummary": "Hackers were already probing the bug before defenders were told it existed.",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "ai-computing",
-        "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-22-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
-      "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-      "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
-      "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-      "https://www.bbc.co.uk/news/articles/c678pv4krx37o",
-      "https://www.bbc.co.uk/news/articles/c60qk573yzz8o"
+      "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
+      "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+      "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+      "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
+      "https://www.bbc.co.uk/news/articles/c95ynd587ynzo"
     ]
   }
 }
