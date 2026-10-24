@@ -2,6 +2,7 @@
 export const NEWS_FEEDS = [
   {url:'https://rss.nytimes.com/services/xml/rss/nyt/US.xml',source:'The New York Times',category:'U.S.'},
   {url:'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',source:'The New York Times',category:'World'},
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/Education.xml',source:'The New York Times',category:'Education'},
   {url:'https://spectrum.ieee.org/feeds/feed.rss',source:'IEEE Spectrum',category:'Technology'},
   {url:'https://www.sciencedaily.com/rss/matter_energy/batteries.xml',source:'ScienceDaily',category:'Science'},
   {url:'https://www.sciencedaily.com/rss/matter_energy/materials_science.xml',source:'ScienceDaily',category:'Science'},
@@ -107,6 +108,9 @@ export function readableHeadline(title, summary = '') {
 // to cancer, discovery, AI or education in someone's personal background.
 export function editoriallyEligible(story) {
   const title = story.title || '';
+  const opinion = /\/(?:commentisfree|opinion|editorials?|columnists?)\//i.test(story.url || '') || /\b(opinion|commentary|editorial|cartoon)\b/i.test(story.coverage || '') || /\bI have my doubts\b/i.test(title);
+  const promotion = /\b(refurbished|shopping guide|best deals|invites media|media advisory|webinar|conference preview)\b/i.test(title);
+  const imageFeature=/\bImage (?:of the Day|Article)\b/i.test(String(story.editorialText || story.explanation || '').split(/\s+/).slice(0,45).join(' '));
   const sponsored = /\b(this article is brought to you by|sponsored content|paid content|advertisement feature)\b/i.test(story.editorialText || story.explanation || story.summary || '');
   const serviceAnnouncement = /\b(new services available|membership services|call for papers|register for (?:our|the) webinar)\b/i.test(title);
   const backgroundFeature = /\bweekly newsletter\b/i.test(story.editorialText || '');
@@ -117,7 +121,7 @@ export function editoriallyEligible(story) {
   const routineAppearance = /\b(town hall|faces? (?:tough )?questions|campaign speech|pledges? support)\b/i.test(title) && !/\b(resigns?|assassination|arrested|killed|shot)\b/i.test(title);
   const shopping = /\b(discount|preorder|on sale|deals?)\b/i.test(title) && /\b(tv|iphone|laptop|headphones|phone|tablet|amazon|apple|gadget)\b/i.test(title);
   const careerProfile = /\b(data cent(?:er|re))\b/i.test(title) && /\b(jobs?|career|training|hour)\b/i.test(title) && !/\b(layoffs?|strikes?|collapse|nationwide)\b/i.test(title);
-  return !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance && !backgroundFeature && !routineAward && !localSighting && !sponsored && !serviceAnnouncement;
+  return !opinion && !promotion && !imageFeature && !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance && !backgroundFeature && !routineAward && !localSighting && !sponsored && !serviceAnnouncement;
 }
 
 export const NEWS_WEIGHTS = { surprise: 0.35, consequence: 0.30, novelty: 0.20, relevance: 0.15 };
@@ -357,6 +361,10 @@ export function personalRelevance(story) {
   const lead=String(story.editorialText || story.originalSummary || story.explanation || story.summary || '').split(/\s+/).slice(0,160).join(' ');
   const text=`${story.title} ${lead}`;
   let matches=personalTopics.filter(t=>t.pattern.test(text));
+  // Research conducted AT a college is not college admissions/access news.
+  const collegeSubject=/\b(admissions?|college applicants?|undergraduate|tuition|financial aid|scholarships?|FAFSA|high.school research|summer research|research opportunit\w*)\b/i.test(story.title+' '+lead.split(/\s+/).slice(0,65).join(' '));
+  const unrelatedTraining=/\b(cosmetology|massage therapy|beauty school|dental school|medical school|MBA|doctoral|PhD)\b/i.test(story.title);
+  if(!collegeSubject || unrelatedTraining)matches=matches.filter(t=>t.id!=='college-access');
   const personalCrime=/\b(prosecutor|arrested|charged|CSAM|sex abuse|child abuse)\b/i.test(story.title);
   const jobForecast=/\b(AI|robots?)\b/i.test(story.title) && /\b(jobs?|gardeners?|unemployment|may still|might replace)\b/i.test(story.title)
     && !/\b(actual layoffs?|laid off|hired \d|apprenticeships?|scholarships?)\b/i.test(story.title);
@@ -370,10 +378,29 @@ export function personalRelevance(story) {
   const localImpact=/\b(Massachusetts|Andover|Boston|Texas)\b/i.test(text) && /\b(students?|schools?|education|scholarships?|research opportunities|public safety|emergency)\b/i.test(text);
   const critical=/\b(ROTC|scholarship|student visa|financial aid|tuition|FAFSA)\b/i.test(story.title)
     && /\b(cuts?|canceled|cancelled|suspended|eligibility|abolished|ends?|banned|new requirements|deadline)\b/i.test(story.title);
-  const primary=[...matches].sort((a,b)=>b.weight-a.weight)[0];
+  const headlineMatches=matches.filter(t=>t.pattern.test(story.title));
+  const primary=[...(headlineMatches.length?headlineMatches:matches)].sort((a,b)=>b.weight-a.weight)[0];
   return {score:Math.min(100,(primary?.weight || (localImpact?72:0))+(targetSchool && primary?4:0)),
     topics:matches.map(t=>t.id),primaryTopic:primary?.id || (localImpact?'local-student-impact':null),
     connection:/\b(variable frequency drives?|motor controllers?)\b/i.test(story.title) ? 'Motor-speed controllers connect to electronics, control systems, and energy efficiency.' : /\bAI\b/i.test(story.title) && /\bmaterials?\b/i.test(story.title) ? 'AI that searches for useful material properties connects computing with materials and battery research.' : primary?.connection || (localImpact?'School, education, or public-safety developments in Massachusetts or Texas.':null),critical};
+}
+
+export function personalStoryEligible(story) {
+  if(!editoriallyEligible(story) || !studentAccessibility(story).accessible || conflictTopic(story))return false;
+  const title=story.title || '',lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,110).join(' ');
+  // Corporate compliance, investor coverage and professional tutorials do not
+  // become a student's building/science story because they mention chips or AI.
+  const businessProcess=/\b(waivers?|compliance|lobbying|earnings|investors?|funding round|accreditor|administrative staff|executive staff|CEO|stocks?|shares?|stock market|price target|designat(?:es?|ed|ion)|critical material)\b/i.test(title);
+  const punditry=/\b(warns?|reacts?|experts? say|legal experts|could still|growing wave|Q&A|interview|preview|symposium|guidelines)\b/i.test(title);
+  const professional=/\b(PHP|CVE-\d|kernel|enterprise|database migration|patch management|renal|enzyme|molecular|phonon|spintronic|botnet|homebrew)\b/i.test(title) || /\babandoned\b.*\bapps?\b/i.test(title);
+  const routineAdoption=/\b(uses?|adopts?|rolls? out)\b.{0,75}\b(ChatGPT|AI tools?|copilot)\b/i.test(title);
+  const conversationalLaunch=/\b(?:AI model|chatbot)\b.{0,70}\b(?:friend|talks to you|companion)\b/i.test(title);
+  const careerProfile=/\bwent from\b.+\bto\b/i.test(title) || /\b(career profile|meet the engineer|day in the life)\b/i.test(title);
+  if(businessProcess || punditry || professional || routineAdoption || conversationalLaunch || careerProfile)return false;
+  const r=personalRelevance(story);
+  const direct=/\b(AI|ChatGPT|computer|computing|smart glasses|software|cybersecurity|password|privacy|phones?|laptops?|apps?|robot\w*|sensors?|chips?|battery|batteries|electric cars?|electric vehicles?|materials?|energy|electricity|space|NASA|rover|Mars|Moon|astronaut|telescope|rockets?|admissions?|scholarships?|tuition|financial aid|college applicants?|undergraduate|ROTC|FAFSA|research opportunit\w*|high.school|students?)\b/i.test(title);
+  const concrete=/\b(built|builds?|created?|design\w*|demonstrat\w*|discover\w*|found|finds?|achiev\w*|breaks?|broke|record|first|new|improves?|reduces?|safer|fire|protect\w*|hack\w*|ban\w*|costs?|cuts?|expand\w*|changes?|opens?|approved|released|launched)\b/i.test(title+' '+lead);
+  return direct && concrete && r.score>=60;
 }
 
 export function newsGeography(story) {
@@ -415,6 +442,7 @@ export function personalBriefingProblems(stories) {
   for(let slot=1;slot<=5;slot++)if(stories.filter(s=>s.briefingSlot===slot).length!==1)problems.push(`Slot ${slot} must occur exactly once.`);
   for(const s of stories){
     if([2,3].includes(s.briefingSlot) && !studentAccessibility(s).accessible)problems.push(`Slot ${s.briefingSlot} requires specialist knowledge.`);
+    if([2,3].includes(s.briefingSlot) && !personalStoryEligible(s) && !s.slotOverride)problems.push(`Slot ${s.briefingSlot} has no concrete student-relevant development.`);
     if(![4,5].includes(s.briefingSlot))continue;
     const validOverride=s.slotOverride && personalRelevance(s).critical && personalRelevance(s).score>=85 && s.overrideReason;
     if(!validOverride && publicNewsScope(s)!==(s.briefingSlot===4?'us':'world'))problems.push(`Slot ${s.briefingSlot} is not qualified public-news reporting.`);
@@ -425,6 +453,16 @@ export function personalBriefingProblems(stories) {
 
 export function samePersonalDevelopment(a,b) {
   if(similarStories(a,b)) return true;
+  const canonical=s=>{try{const u=new URL(s.url || s.id);return u.hostname.replace(/^www\./,'').replace(/^bbc\.co\.uk$/,'bbc.com')+u.pathname.replace(/\/$/,'');}catch{return s.id;}};
+  if(canonical(a)===canonical(b) || a.primaryDoi && a.primaryDoi===b.primaryDoi)return true;
+  // Cross-publisher headlines can frame the same action differently. Require
+  // several specific shared terms as well as the action; "Trump" or "AI"
+  // alone must never collapse unrelated national/technology developments.
+  const generic=new Set('trump president officials official government federal judge court news report says scientists researchers research study technology artificial intelligence'.split(' '));
+  const xTitle=tokens(a.title || ''),yTitle=tokens(b.title || '');
+  const specific=[...xTitle].filter(t=>yTitle.has(t)&&!generic.has(t));
+  const actions=[/\b(block\w*|halt\w*|stop\w*)\b/i,/\b(sues?|sued|lawsuits?)\b/i,/\b(bans?|banned|prohibits?)\b/i,/\b(approves?|approved|passes|passed)\b/i,/\b(ceasefire|truce)\b/i,/\b(arrest\w*|detain\w*)\b/i];
+  if(specific.length>=4 && specific.length/Math.min(xTitle.size,yTitle.size)>=.35 && actions.some(re=>re.test(a.title)&&re.test(b.title)))return true;
   const locations=[['france',/\b(France|French|Paris)\b/i],['us',/\b(U\.S\.|US|United States|America|American|No Kings)\b/i],['albania',/\b(Albania|Albanian|Tirana)\b/i],['india',/\b(India|Indian|Delhi)\b/i],['tunisia',/\b(Tunisia|Tunis|Tunisian)\b/i],['china',/\b(China|Chinese|Beijing)\b/i],['indonesia',/\b(Indonesia|Jakarta)\b/i],['britain',/\b(Britain|British|London|UK)\b/i]];
   const kinds=[['protests',/\b(protests?|riots?|rallies|demonstrations?|unrest|marches?)\b/i],['quake',/\b(earthquake|quake)\b/i],['wildfire',/\b(wildfires?|forest fires?)\b/i]];
   const keys=s=>{const t=s.title || '';return kinds.flatMap(([kind,re])=>re.test(t)?locations.filter(([,place])=>place.test(t)).map(([place])=>`${place}:${kind}`):[]);};
@@ -433,7 +471,7 @@ export function samePersonalDevelopment(a,b) {
 
 function checkedPersonalReport(s) {
   if(!s || typeof s.id!=='string' || typeof s.title!=='string' || !/^https:\/\//.test(s.url || '') || !Number.isFinite(Date.parse(s.publishedAt))) return false;
-  const officialNytFeed=/^https:\/\/rss\.nytimes\.com\/services\/xml\/rss\/nyt\/(?:HomePage|US|World|Technology|Science)\.xml$/.test(s.sourceFeedUrl || '');
+  const officialNytFeed=/^https:\/\/rss\.nytimes\.com\/services\/xml\/rss\/nyt\/(?:HomePage|US|World|Technology|Science|Education)\.xml$/.test(s.sourceFeedUrl || '');
   const feedLead=s.source==='The New York Times' && (s.nytHomeLead || s.nytFeedSummary && officialNytFeed) && s.feedChecked && /^https:\/\/(?:www\.)?nytimes\.com\//.test(s.url);
   return Boolean((s.sourcePageChecked || s.eventDateVerified || feedLead) && (s.explanation || s.summary || '').trim().length>25);
 }
@@ -471,22 +509,32 @@ export function studentPresentation(story) {
     summaryKind='Plain-language source summary';
   }
   if(/Roman Space Telescope/i.test(story.title) && /image quality nearly 30% better than predicted/i.test(text+' '+short))displayTitle='NASA’s new telescope beat its image-quality target by nearly 30%';
+  if(/design software.*self-aware/i.test(story.title) && /X.Hinges/.test(text) && /two different materials/i.test(text)){
+    displayTitle='MIT’s new design tool puts sensors inside 3D-printed objects';
+    explanation='MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.';
+    summaryKind='Plain-language source summary';
+  }
+  if(/NASA, Partners Accelerate Lander Development/i.test(story.title) && /2028/.test(text) && /Orion/.test(text) && /orbit/i.test(text)){
+    displayTitle='NASA changes how its next Moon landers will meet astronauts';
+    explanation='NASA is changing part of the plan for returning astronauts to the Moon in 2028. The Orion capsule carries the crew, and a separate commercial lander takes two astronauts down to the surface while two stay aboard Orion. The spacecraft must meet and connect above the Moon. Instead of requiring every lander to use one particular orbit, NASA now plans to choose the meeting orbit for each partner’s spacecraft. This is a new mission-planning announcement about a future landing, with the spacecraft still being developed.';
+    summaryKind='Plain-language source summary';
+  }
   return {...story,displayTitle,explanation,summary:explanation,summaryKind};
 }
 
 export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date(),nytLead=null}={}) {
-  const prior=Object.values(history).filter(h=>h.editionKey && h.editionKey!==key);
+  const prior=Object.values(history).filter(h=>h.editionKey);
   const alreadySeen=s=>prior.some(h=>(h.id===s.id || h.title && samePersonalDevelopment(h,s))) && !s.majorUpdateVerified;
   const current=stories.filter(checkedPersonalReport);
   const recent=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200});
   const older=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200,maxAgeHours:168}).filter(s=>!recent.some(r=>r.id===s.id));
-  const archives=fallback.filter(checkedPersonalReport).filter(editoriallyEligible);
+  const archives=fallback.filter(checkedPersonalReport).filter(editoriallyEligible).filter(s=>+now-Date.parse(s.publishedAt)<=7*86400000 && s.articleAccess!=='paywalled');
   const chosen=[];
   const unused=s=>!chosen.some(p=>samePersonalDevelopment(p,s)) && (!conflictTopic(s) || !chosen.some(p=>conflictTopic(p)===conflictTopic(s)));
   const score=s=>s.score??interestScore(s).score;
   const relevance=s=>personalRelevance(s);
   const quality=s=>score(s)+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;
-  const personalPriority=s=>relevance(s).score*.45+quality(s)*.30+studentAccessibility(s).score*.25-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*18;
+  const personalPriority=s=>relevance(s).score*.45+quality(s)*.30+studentAccessibility(s).score*.25-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*4;
   const preservesDefaultSlots=s=>{
     const geo=publicNewsScope(s);
     if(!['us','world'].includes(geo) || chosen.some(p=>p.briefingSlot===(geo==='us'?4:5)))return true;
@@ -507,20 +555,20 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
   else {
     const previous=archives.find(s=>s.briefingSlot===1 && s.source==='The New York Times');
     if(previous)put(previous,1,'NYT lead · saved',{carriedForward:true,nytUnavailable:true});
-    else put(pick(recent,()=>true)||pick(archives,()=>true),1,'Top story · NYT unavailable',{nytUnavailable:true});
+    else put(pick(recent,s=>!personalStoryEligible(s)&&preservesDefaultSlots(s))||pick(archives,s=>!personalStoryEligible(s)&&preservesDefaultSlots(s))||pick(recent,()=>true)||pick(archives,()=>true),1,'Top story · NYT unavailable',{nytUnavailable:true});
   }
-  const goodPersonal=s=>studentAccessibility(s).accessible && !conflictTopic(s) && (relevance(s).score>=60 || (['Science','Technology'].includes(s.category)&&score(s)>=80)) && score(s)>=(relevance(s).score>=80?12:32);
+  const goodPersonal=s=>personalStoryEligible(s) && score(s)>=(relevance(s).score>=80?12:32);
   for(const slot of [2,3]) {
     let s=pick(recent,goodPersonal,true),flags={carriedForward:false,olderReport:false};
     if(!s){s=pick(older,goodPersonal,true);flags.olderReport=true;}
+    if(!s){s=pick(archives,s=>goodPersonal(s)&&!alreadySeen(s),true);flags={olderReport:true};}
     if(!s){s=pick(archives,goodPersonal,true);flags={carriedForward:true};}
-    if(!s){s=pick(recent,s=>studentAccessibility(s).accessible && score(s)>=60)||pick(archives,s=>studentAccessibility(s).accessible && score(s)>=50);flags={slotOverride:true,overrideReason:'No qualifying personal-interest report; important broader coverage.'};}
     put(s,slot,'For you',flags);
   }
   for(const [slot,geo,label] of [[4,'us','U.S. news'],[5,'world','World news']]) {
     let s=pick(recent,s=>publicNewsScope(s)===geo),flags={carriedForward:false,olderReport:false};
     if(!s){s=pick(older,s=>publicNewsScope(s)===geo);flags.olderReport=true;}
-    if(!s){s=pick(archives,s=>publicNewsScope(s)===geo);flags={carriedForward:true};}
+    if(!s){s=pick(archives,s=>publicNewsScope(s)===geo&&!alreadySeen(s));flags={olderReport:true};}
     put(s,slot,label,flags);
   }
   // An actual eligibility/deadline/cost change can displace one default slot.
@@ -528,7 +576,7 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
   if(urgent && chosen.length===5){const old=chosen.find(s=>s.briefingSlot===5);chosen.splice(chosen.indexOf(old),1);put(urgent,5,'Affects you',{slotOverride:true,overrideReason:relevance(urgent).connection});}
   // Preserve five genuine reports during outages without silently changing labels.
   for(let slot=1;slot<=5;slot++)if(!chosen.some(s=>s.briefingSlot===slot)){
-    const safe=s=>slot===4?publicNewsScope(s)==='us':slot===5?publicNewsScope(s)==='world':![2,3].includes(slot)||studentAccessibility(s).accessible;
+    const safe=s=>slot===4?publicNewsScope(s)==='us':slot===5?publicNewsScope(s)==='world':![2,3].includes(slot)||goodPersonal(s);
     const s=pick(archives,safe)||pick(recent,safe)||pick(older,safe);
     put(s,slot,slot===1?'Top story · NYT unavailable':slot===4?'U.S. news':slot===5?'World news':'Coverage kept',{carriedForward:true,slotOverride:true,overrideReason:'No qualifying report for this slot; retaining sourced coverage.'});
   }

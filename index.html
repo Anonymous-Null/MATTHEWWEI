@@ -117,7 +117,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
       <section class="welcome" aria-labelledby="greeting"><div><p class="eyebrow" id="today-label"></p><h1 id="greeting">Your world. <span>Your day.</span></h1><p class="welcome-copy">Get a little informed. Make a little progress. Keep something good.</p></div><div class="welcome-side"><span class="edition-pill"><svg><use href="#i-sun"/></svg><span id="edition">Morning check-in</span></span><p id="next-refresh">Next reset · 7:00 PM Eastern</p><button class="refresh-button" id="refresh-button"><span aria-hidden="true">↻</span> Check for updates</button></div></section>
       <p id="save-status" class="save-status" role="status">Waiting to start · entries cannot be saved yet</p><button id="sync-open" class="text-button" type="button">Saved on this device · Set up private sync</button><div id="storage-warning" class="notice" role="status" hidden></div>
       <div class="dashboard-grid">
-        <div class="left-column"><section class="card news-card" id="news-panel" aria-labelledby="news-heading"><div class="section-heading"><div><p class="section-kicker">SURPRISE. SIGNIFICANCE. SOMETHING NEW.</p><h2 id="news-heading">Your five-story briefing<span class="accent-dot">.</span></h2></div><div class="news-heading-actions"><span class="live-badge" id="news-live-label"><span></span> NEWS</span><button id="bookmarks-open" class="text-button bookmarks-open">Saved stories <span id="bookmarks-count">0</span></button></div></div><p class="section-subtitle">NYT lead · two stories for you · U.S. news · world news.</p><div id="news-status" class="news-status" role="status">Checking fresh reports…</div><div id="news-checked" class="news-checked" role="status"></div><div id="news-list" aria-live="polite"><div class="loading-state"><span class="loading-orbit"></span><p>Putting your briefing together…</p></div></div><details class="news-method"><summary>Sources &amp; selection</summary><p>1: the first story in NYT’s official HomePage RSS feed. 2–3: approachable, relatable reporting connected to your interests, written for a curious high-school student. Clear outcomes, familiar examples, and practical relevance come before specialist terminology. 4: substantial U.S. public affairs or national events. 5: consequential international reporting. Both slots require an actual reported public event with broad impact. Important personal eligibility, cost, or deadline changes can replace a default slot and are labeled. Publisher order is preserved for the NYT lead; that lead may stay unchanged between visits. Other slots favor new developments within 24–48 hours and avoid repeated stories. Earlier reporting and saved coverage are labeled when sources are quiet or unavailable. Feed-only NYT summaries are explicitly marked when full articles are inaccessible. Personal-interest notes explain relevance without claiming eligibility or an effect that the reporting does not establish.</p></details></section>
+        <div class="left-column"><section class="card news-card" id="news-panel" aria-labelledby="news-heading"><div class="section-heading"><div><p class="section-kicker">SURPRISE. SIGNIFICANCE. SOMETHING NEW.</p><h2 id="news-heading">Your five-story briefing<span class="accent-dot">.</span></h2></div><div class="news-heading-actions"><span class="live-badge" id="news-live-label"><span></span> NEWS</span><button id="bookmarks-open" class="text-button bookmarks-open">Saved stories <span id="bookmarks-count">0</span></button></div></div><p class="section-subtitle">NYT lead · two stories for you · U.S. news · world news.</p><div id="news-status" class="news-status" role="status">Checking fresh reports…</div><div id="news-checked" class="news-checked" role="status"></div><div id="news-list" aria-live="polite"><div class="loading-state"><span class="loading-orbit"></span><p>Putting your briefing together…</p></div></div><details class="news-method"><summary>Sources &amp; selection</summary><p>1: the first story in NYT’s official HomePage RSS feed. 2–3: approachable, relatable reporting connected to your interests, written for a curious high-school student. Clear outcomes, familiar examples, and practical relevance come before specialist terminology. 4: substantial U.S. public affairs or national events. 5: consequential international reporting. Both slots require an actual reported public event with broad impact. Previously published stories are excluded even within the same morning/evening check-in, except for a labeled unchanged NYT lead or genuine lack of new reports. Selected links are checked immediately before publication; non-NYT subscription-only pages and opinion columns are rejected. Important personal eligibility, cost, or deadline changes can replace a default slot and are labeled. Publisher order is preserved for the NYT lead; that lead may stay unchanged between visits. Other slots favor new developments within 24–48 hours and avoid repeated stories. Earlier reporting and saved coverage are labeled when sources are quiet or unavailable. Feed-only NYT summaries are explicitly marked when full articles are inaccessible. Personal-interest notes explain relevance without claiming eligibility or an effect that the reporting does not establish.</p></details></section>
         <section class="card journal-card" id="good-things" aria-labelledby="journal-heading"><div class="section-heading"><div><p class="section-kicker">THE GOOD DESERVES A PLACE</p><h2 id="journal-heading">What made today better?</h2></div><span class="journal-heart"><svg><use href="#i-heart"/></svg></span></div><p class="section-subtitle">A big win, a small kindness, or just a really good lunch.</p><form id="journal-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><label class="sr-only" for="journal-input">Something good that happened</label><textarea id="journal-input" maxlength="1200" rows="3" placeholder="Since my last check-in…" required></textarea><div class="journal-actions"><span class="fine-print">Private. Saved in this browser.</span><button class="primary-button" type="submit">Keep this moment <svg><use href="#i-arrow"/></svg></button></div><p id="journal-status" class="form-status" role="status"></p></fieldset></form><div id="latest-moment"></div><button class="text-button" id="moments-button">Your good-moments collection <span id="moments-count">0</span> →</button></section>
         <section class="card vocabulary-card" aria-labelledby="vocab-heading"><div class="section-heading"><div><p class="section-kicker">ONE NEW WORD, EVERY DAY</p><h2 id="vocab-heading">Word of the day</h2></div><span id="vocab-kind" class="vocab-kind"></span></div><div class="vocab-word-row"><h3 id="vocab-word"></h3><span id="vocab-part"></span></div><p id="vocab-meaning"></p><p id="vocab-example" class="vocab-example"></p><div class="vocab-actions"><a id="vocab-source" class="text-button" target="_blank" rel="noopener noreferrer">Dictionary →</a><button id="vocab-known" class="secondary-button" type="button">Already know</button></div><div class="vocab-known-row"><span id="vocab-known-count" class="fine-print">0 words marked known</span><button id="vocab-undo" class="text-button" type="button" hidden>Undo last</button></div><p id="vocab-status" class="form-status" role="status"></p></section><section class="card weekly-recap" id="recap-panel" aria-labelledby="recap-heading" hidden><p class="section-kicker">A SUNDAY LOOK BACK</p><h2 id="recap-heading">Your Sunday recap</h2><div id="recap-content"></div></section>
         <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Resets at 7 AM & 7 PM. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Went for a run?</h3><span id="run-week-stat">0 runs this week</span></div><p class="running-help">About 3 runs a week. Log one whenever you go.</p><form id="run-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p><p id="run-status" class="form-status" role="status"></p></fieldset></form><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div></section>
@@ -625,6 +625,7 @@ function calendarFromWeeklyGrid(rows, schoolYearStart) {
 const NEWS_FEEDS = [
   {url:'https://rss.nytimes.com/services/xml/rss/nyt/US.xml',source:'The New York Times',category:'U.S.'},
   {url:'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',source:'The New York Times',category:'World'},
+  {url:'https://rss.nytimes.com/services/xml/rss/nyt/Education.xml',source:'The New York Times',category:'Education'},
   {url:'https://spectrum.ieee.org/feeds/feed.rss',source:'IEEE Spectrum',category:'Technology'},
   {url:'https://www.sciencedaily.com/rss/matter_energy/batteries.xml',source:'ScienceDaily',category:'Science'},
   {url:'https://www.sciencedaily.com/rss/matter_energy/materials_science.xml',source:'ScienceDaily',category:'Science'},
@@ -730,6 +731,9 @@ function readableHeadline(title, summary = '') {
 // to cancer, discovery, AI or education in someone's personal background.
 function editoriallyEligible(story) {
   const title = story.title || '';
+  const opinion = /\/(?:commentisfree|opinion|editorials?|columnists?)\//i.test(story.url || '') || /\b(opinion|commentary|editorial|cartoon)\b/i.test(story.coverage || '') || /\bI have my doubts\b/i.test(title);
+  const promotion = /\b(refurbished|shopping guide|best deals|invites media|media advisory|webinar|conference preview)\b/i.test(title);
+  const imageFeature=/\bImage (?:of the Day|Article)\b/i.test(String(story.editorialText || story.explanation || '').split(/\s+/).slice(0,45).join(' '));
   const sponsored = /\b(this article is brought to you by|sponsored content|paid content|advertisement feature)\b/i.test(story.editorialText || story.explanation || story.summary || '');
   const serviceAnnouncement = /\b(new services available|membership services|call for papers|register for (?:our|the) webinar)\b/i.test(title);
   const backgroundFeature = /\bweekly newsletter\b/i.test(story.editorialText || '');
@@ -740,7 +744,7 @@ function editoriallyEligible(story) {
   const routineAppearance = /\b(town hall|faces? (?:tough )?questions|campaign speech|pledges? support)\b/i.test(title) && !/\b(resigns?|assassination|arrested|killed|shot)\b/i.test(title);
   const shopping = /\b(discount|preorder|on sale|deals?)\b/i.test(title) && /\b(tv|iphone|laptop|headphones|phone|tablet|amazon|apple|gadget)\b/i.test(title);
   const careerProfile = /\b(data cent(?:er|re))\b/i.test(title) && /\b(jobs?|career|training|hour)\b/i.test(title) && !/\b(layoffs?|strikes?|collapse|nationwide)\b/i.test(title);
-  return !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance && !backgroundFeature && !routineAward && !localSighting && !sponsored && !serviceAnnouncement;
+  return !opinion && !promotion && !imageFeature && !(localUpkeep && !widerImpact) && !shopping && !careerProfile && !routineAppearance && !backgroundFeature && !routineAward && !localSighting && !sponsored && !serviceAnnouncement;
 }
 
 const NEWS_WEIGHTS = { surprise: 0.35, consequence: 0.30, novelty: 0.20, relevance: 0.15 };
@@ -980,6 +984,10 @@ function personalRelevance(story) {
   const lead=String(story.editorialText || story.originalSummary || story.explanation || story.summary || '').split(/\s+/).slice(0,160).join(' ');
   const text=`${story.title} ${lead}`;
   let matches=personalTopics.filter(t=>t.pattern.test(text));
+  // Research conducted AT a college is not college admissions/access news.
+  const collegeSubject=/\b(admissions?|college applicants?|undergraduate|tuition|financial aid|scholarships?|FAFSA|high.school research|summer research|research opportunit\w*)\b/i.test(story.title+' '+lead.split(/\s+/).slice(0,65).join(' '));
+  const unrelatedTraining=/\b(cosmetology|massage therapy|beauty school|dental school|medical school|MBA|doctoral|PhD)\b/i.test(story.title);
+  if(!collegeSubject || unrelatedTraining)matches=matches.filter(t=>t.id!=='college-access');
   const personalCrime=/\b(prosecutor|arrested|charged|CSAM|sex abuse|child abuse)\b/i.test(story.title);
   const jobForecast=/\b(AI|robots?)\b/i.test(story.title) && /\b(jobs?|gardeners?|unemployment|may still|might replace)\b/i.test(story.title)
     && !/\b(actual layoffs?|laid off|hired \d|apprenticeships?|scholarships?)\b/i.test(story.title);
@@ -993,10 +1001,29 @@ function personalRelevance(story) {
   const localImpact=/\b(Massachusetts|Andover|Boston|Texas)\b/i.test(text) && /\b(students?|schools?|education|scholarships?|research opportunities|public safety|emergency)\b/i.test(text);
   const critical=/\b(ROTC|scholarship|student visa|financial aid|tuition|FAFSA)\b/i.test(story.title)
     && /\b(cuts?|canceled|cancelled|suspended|eligibility|abolished|ends?|banned|new requirements|deadline)\b/i.test(story.title);
-  const primary=[...matches].sort((a,b)=>b.weight-a.weight)[0];
+  const headlineMatches=matches.filter(t=>t.pattern.test(story.title));
+  const primary=[...(headlineMatches.length?headlineMatches:matches)].sort((a,b)=>b.weight-a.weight)[0];
   return {score:Math.min(100,(primary?.weight || (localImpact?72:0))+(targetSchool && primary?4:0)),
     topics:matches.map(t=>t.id),primaryTopic:primary?.id || (localImpact?'local-student-impact':null),
     connection:/\b(variable frequency drives?|motor controllers?)\b/i.test(story.title) ? 'Motor-speed controllers connect to electronics, control systems, and energy efficiency.' : /\bAI\b/i.test(story.title) && /\bmaterials?\b/i.test(story.title) ? 'AI that searches for useful material properties connects computing with materials and battery research.' : primary?.connection || (localImpact?'School, education, or public-safety developments in Massachusetts or Texas.':null),critical};
+}
+
+function personalStoryEligible(story) {
+  if(!editoriallyEligible(story) || !studentAccessibility(story).accessible || conflictTopic(story))return false;
+  const title=story.title || '',lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,110).join(' ');
+  // Corporate compliance, investor coverage and professional tutorials do not
+  // become a student's building/science story because they mention chips or AI.
+  const businessProcess=/\b(waivers?|compliance|lobbying|earnings|investors?|funding round|accreditor|administrative staff|executive staff|CEO|stocks?|shares?|stock market|price target|designat(?:es?|ed|ion)|critical material)\b/i.test(title);
+  const punditry=/\b(warns?|reacts?|experts? say|legal experts|could still|growing wave|Q&A|interview|preview|symposium|guidelines)\b/i.test(title);
+  const professional=/\b(PHP|CVE-\d|kernel|enterprise|database migration|patch management|renal|enzyme|molecular|phonon|spintronic|botnet|homebrew)\b/i.test(title) || /\babandoned\b.*\bapps?\b/i.test(title);
+  const routineAdoption=/\b(uses?|adopts?|rolls? out)\b.{0,75}\b(ChatGPT|AI tools?|copilot)\b/i.test(title);
+  const conversationalLaunch=/\b(?:AI model|chatbot)\b.{0,70}\b(?:friend|talks to you|companion)\b/i.test(title);
+  const careerProfile=/\bwent from\b.+\bto\b/i.test(title) || /\b(career profile|meet the engineer|day in the life)\b/i.test(title);
+  if(businessProcess || punditry || professional || routineAdoption || conversationalLaunch || careerProfile)return false;
+  const r=personalRelevance(story);
+  const direct=/\b(AI|ChatGPT|computer|computing|smart glasses|software|cybersecurity|password|privacy|phones?|laptops?|apps?|robot\w*|sensors?|chips?|battery|batteries|electric cars?|electric vehicles?|materials?|energy|electricity|space|NASA|rover|Mars|Moon|astronaut|telescope|rockets?|admissions?|scholarships?|tuition|financial aid|college applicants?|undergraduate|ROTC|FAFSA|research opportunit\w*|high.school|students?)\b/i.test(title);
+  const concrete=/\b(built|builds?|created?|design\w*|demonstrat\w*|discover\w*|found|finds?|achiev\w*|breaks?|broke|record|first|new|improves?|reduces?|safer|fire|protect\w*|hack\w*|ban\w*|costs?|cuts?|expand\w*|changes?|opens?|approved|released|launched)\b/i.test(title+' '+lead);
+  return direct && concrete && r.score>=60;
 }
 
 function newsGeography(story) {
@@ -1038,6 +1065,7 @@ function personalBriefingProblems(stories) {
   for(let slot=1;slot<=5;slot++)if(stories.filter(s=>s.briefingSlot===slot).length!==1)problems.push(`Slot ${slot} must occur exactly once.`);
   for(const s of stories){
     if([2,3].includes(s.briefingSlot) && !studentAccessibility(s).accessible)problems.push(`Slot ${s.briefingSlot} requires specialist knowledge.`);
+    if([2,3].includes(s.briefingSlot) && !personalStoryEligible(s) && !s.slotOverride)problems.push(`Slot ${s.briefingSlot} has no concrete student-relevant development.`);
     if(![4,5].includes(s.briefingSlot))continue;
     const validOverride=s.slotOverride && personalRelevance(s).critical && personalRelevance(s).score>=85 && s.overrideReason;
     if(!validOverride && publicNewsScope(s)!==(s.briefingSlot===4?'us':'world'))problems.push(`Slot ${s.briefingSlot} is not qualified public-news reporting.`);
@@ -1048,6 +1076,16 @@ function personalBriefingProblems(stories) {
 
 function samePersonalDevelopment(a,b) {
   if(similarStories(a,b)) return true;
+  const canonical=s=>{try{const u=new URL(s.url || s.id);return u.hostname.replace(/^www\./,'').replace(/^bbc\.co\.uk$/,'bbc.com')+u.pathname.replace(/\/$/,'');}catch{return s.id;}};
+  if(canonical(a)===canonical(b) || a.primaryDoi && a.primaryDoi===b.primaryDoi)return true;
+  // Cross-publisher headlines can frame the same action differently. Require
+  // several specific shared terms as well as the action; "Trump" or "AI"
+  // alone must never collapse unrelated national/technology developments.
+  const generic=new Set('trump president officials official government federal judge court news report says scientists researchers research study technology artificial intelligence'.split(' '));
+  const xTitle=tokens(a.title || ''),yTitle=tokens(b.title || '');
+  const specific=[...xTitle].filter(t=>yTitle.has(t)&&!generic.has(t));
+  const actions=[/\b(block\w*|halt\w*|stop\w*)\b/i,/\b(sues?|sued|lawsuits?)\b/i,/\b(bans?|banned|prohibits?)\b/i,/\b(approves?|approved|passes|passed)\b/i,/\b(ceasefire|truce)\b/i,/\b(arrest\w*|detain\w*)\b/i];
+  if(specific.length>=4 && specific.length/Math.min(xTitle.size,yTitle.size)>=.35 && actions.some(re=>re.test(a.title)&&re.test(b.title)))return true;
   const locations=[['france',/\b(France|French|Paris)\b/i],['us',/\b(U\.S\.|US|United States|America|American|No Kings)\b/i],['albania',/\b(Albania|Albanian|Tirana)\b/i],['india',/\b(India|Indian|Delhi)\b/i],['tunisia',/\b(Tunisia|Tunis|Tunisian)\b/i],['china',/\b(China|Chinese|Beijing)\b/i],['indonesia',/\b(Indonesia|Jakarta)\b/i],['britain',/\b(Britain|British|London|UK)\b/i]];
   const kinds=[['protests',/\b(protests?|riots?|rallies|demonstrations?|unrest|marches?)\b/i],['quake',/\b(earthquake|quake)\b/i],['wildfire',/\b(wildfires?|forest fires?)\b/i]];
   const keys=s=>{const t=s.title || '';return kinds.flatMap(([kind,re])=>re.test(t)?locations.filter(([,place])=>place.test(t)).map(([place])=>`${place}:${kind}`):[]);};
@@ -1056,7 +1094,7 @@ function samePersonalDevelopment(a,b) {
 
 function checkedPersonalReport(s) {
   if(!s || typeof s.id!=='string' || typeof s.title!=='string' || !/^https:\/\//.test(s.url || '') || !Number.isFinite(Date.parse(s.publishedAt))) return false;
-  const officialNytFeed=/^https:\/\/rss\.nytimes\.com\/services\/xml\/rss\/nyt\/(?:HomePage|US|World|Technology|Science)\.xml$/.test(s.sourceFeedUrl || '');
+  const officialNytFeed=/^https:\/\/rss\.nytimes\.com\/services\/xml\/rss\/nyt\/(?:HomePage|US|World|Technology|Science|Education)\.xml$/.test(s.sourceFeedUrl || '');
   const feedLead=s.source==='The New York Times' && (s.nytHomeLead || s.nytFeedSummary && officialNytFeed) && s.feedChecked && /^https:\/\/(?:www\.)?nytimes\.com\//.test(s.url);
   return Boolean((s.sourcePageChecked || s.eventDateVerified || feedLead) && (s.explanation || s.summary || '').trim().length>25);
 }
@@ -1094,22 +1132,32 @@ function studentPresentation(story) {
     summaryKind='Plain-language source summary';
   }
   if(/Roman Space Telescope/i.test(story.title) && /image quality nearly 30% better than predicted/i.test(text+' '+short))displayTitle='NASA’s new telescope beat its image-quality target by nearly 30%';
+  if(/design software.*self-aware/i.test(story.title) && /X.Hinges/.test(text) && /two different materials/i.test(text)){
+    displayTitle='MIT’s new design tool puts sensors inside 3D-printed objects';
+    explanation='MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.';
+    summaryKind='Plain-language source summary';
+  }
+  if(/NASA, Partners Accelerate Lander Development/i.test(story.title) && /2028/.test(text) && /Orion/.test(text) && /orbit/i.test(text)){
+    displayTitle='NASA changes how its next Moon landers will meet astronauts';
+    explanation='NASA is changing part of the plan for returning astronauts to the Moon in 2028. The Orion capsule carries the crew, and a separate commercial lander takes two astronauts down to the surface while two stay aboard Orion. The spacecraft must meet and connect above the Moon. Instead of requiring every lander to use one particular orbit, NASA now plans to choose the meeting orbit for each partner’s spacecraft. This is a new mission-planning announcement about a future landing, with the spacecraft still being developed.';
+    summaryKind='Plain-language source summary';
+  }
   return {...story,displayTitle,explanation,summary:explanation,summaryKind};
 }
 
 function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date(),nytLead=null}={}) {
-  const prior=Object.values(history).filter(h=>h.editionKey && h.editionKey!==key);
+  const prior=Object.values(history).filter(h=>h.editionKey);
   const alreadySeen=s=>prior.some(h=>(h.id===s.id || h.title && samePersonalDevelopment(h,s))) && !s.majorUpdateVerified;
   const current=stories.filter(checkedPersonalReport);
   const recent=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200});
   const older=rankStories(current.filter(s=>!alreadySeen(s)),now,{broad:true,minScore:0,limit:200,maxAgeHours:168}).filter(s=>!recent.some(r=>r.id===s.id));
-  const archives=fallback.filter(checkedPersonalReport).filter(editoriallyEligible);
+  const archives=fallback.filter(checkedPersonalReport).filter(editoriallyEligible).filter(s=>+now-Date.parse(s.publishedAt)<=7*86400000 && s.articleAccess!=='paywalled');
   const chosen=[];
   const unused=s=>!chosen.some(p=>samePersonalDevelopment(p,s)) && (!conflictTopic(s) || !chosen.some(p=>conflictTopic(p)===conflictTopic(s)));
   const score=s=>s.score??interestScore(s).score;
   const relevance=s=>personalRelevance(s);
   const quality=s=>score(s)+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;
-  const personalPriority=s=>relevance(s).score*.45+quality(s)*.30+studentAccessibility(s).score*.25-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*18;
+  const personalPriority=s=>relevance(s).score*.45+quality(s)*.30+studentAccessibility(s).score*.25-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*4;
   const preservesDefaultSlots=s=>{
     const geo=publicNewsScope(s);
     if(!['us','world'].includes(geo) || chosen.some(p=>p.briefingSlot===(geo==='us'?4:5)))return true;
@@ -1130,20 +1178,20 @@ function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date
   else {
     const previous=archives.find(s=>s.briefingSlot===1 && s.source==='The New York Times');
     if(previous)put(previous,1,'NYT lead · saved',{carriedForward:true,nytUnavailable:true});
-    else put(pick(recent,()=>true)||pick(archives,()=>true),1,'Top story · NYT unavailable',{nytUnavailable:true});
+    else put(pick(recent,s=>!personalStoryEligible(s)&&preservesDefaultSlots(s))||pick(archives,s=>!personalStoryEligible(s)&&preservesDefaultSlots(s))||pick(recent,()=>true)||pick(archives,()=>true),1,'Top story · NYT unavailable',{nytUnavailable:true});
   }
-  const goodPersonal=s=>studentAccessibility(s).accessible && !conflictTopic(s) && (relevance(s).score>=60 || (['Science','Technology'].includes(s.category)&&score(s)>=80)) && score(s)>=(relevance(s).score>=80?12:32);
+  const goodPersonal=s=>personalStoryEligible(s) && score(s)>=(relevance(s).score>=80?12:32);
   for(const slot of [2,3]) {
     let s=pick(recent,goodPersonal,true),flags={carriedForward:false,olderReport:false};
     if(!s){s=pick(older,goodPersonal,true);flags.olderReport=true;}
+    if(!s){s=pick(archives,s=>goodPersonal(s)&&!alreadySeen(s),true);flags={olderReport:true};}
     if(!s){s=pick(archives,goodPersonal,true);flags={carriedForward:true};}
-    if(!s){s=pick(recent,s=>studentAccessibility(s).accessible && score(s)>=60)||pick(archives,s=>studentAccessibility(s).accessible && score(s)>=50);flags={slotOverride:true,overrideReason:'No qualifying personal-interest report; important broader coverage.'};}
     put(s,slot,'For you',flags);
   }
   for(const [slot,geo,label] of [[4,'us','U.S. news'],[5,'world','World news']]) {
     let s=pick(recent,s=>publicNewsScope(s)===geo),flags={carriedForward:false,olderReport:false};
     if(!s){s=pick(older,s=>publicNewsScope(s)===geo);flags.olderReport=true;}
-    if(!s){s=pick(archives,s=>publicNewsScope(s)===geo);flags={carriedForward:true};}
+    if(!s){s=pick(archives,s=>publicNewsScope(s)===geo&&!alreadySeen(s));flags={olderReport:true};}
     put(s,slot,label,flags);
   }
   // An actual eligibility/deadline/cost change can displace one default slot.
@@ -1151,7 +1199,7 @@ function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date
   if(urgent && chosen.length===5){const old=chosen.find(s=>s.briefingSlot===5);chosen.splice(chosen.indexOf(old),1);put(urgent,5,'Affects you',{slotOverride:true,overrideReason:relevance(urgent).connection});}
   // Preserve five genuine reports during outages without silently changing labels.
   for(let slot=1;slot<=5;slot++)if(!chosen.some(s=>s.briefingSlot===slot)){
-    const safe=s=>slot===4?publicNewsScope(s)==='us':slot===5?publicNewsScope(s)==='world':![2,3].includes(slot)||studentAccessibility(s).accessible;
+    const safe=s=>slot===4?publicNewsScope(s)==='us':slot===5?publicNewsScope(s)==='world':![2,3].includes(slot)||goodPersonal(s);
     const s=pick(archives,safe)||pick(recent,safe)||pick(older,safe);
     put(s,slot,slot===1?'Top story · NYT unavailable':slot===4?'U.S. news':slot===5?'World news':'Coverage kept',{carriedForward:true,slotOverride:true,overrideReason:'No qualifying report for this slot; retaining sourced coverage.'});
   }
@@ -1197,26 +1245,16 @@ async function browserNews(fetcher = fetch, now = new Date()) {
 }
 
 async function browserResearchedNews(fetcher = fetch, now = new Date()) {
-  // Fetch the latest published research and check live feeds on every visit or
-  // refresh. New source-page research is generated by the scheduled GitHub job.
-  const [published, live] = await Promise.allSettled([
-    (async () => {
-      const url = new URL('./briefing.json', location.href);
-      url.hash = ''; url.search = `?checked=${Date.now()}`;
-      const response = await fetcher(url, { cache: 'no-store', signal: AbortSignal.timeout(18000) });
-      if (!response.ok) throw new Error('The researched briefing is unavailable.');
-      const body = await response.json();
-      if (body.news?.schemaVersion !== 2 || !Array.isArray(body.news.stories)) throw new Error('Source-page research has not been published yet.');
-      return body.news;
-    })(),
-    browserNews(fetcher, now),
-  ]);
-  if (published.status === 'rejected') throw published.reason;
-  const data = published.value;
-  return { ...data, stories: data.minimumStories === 5 ? data.stories : rankStories(data.stories, now, { requireVerified: true }), checkedAt: now.toISOString(), snapshot: false,
-    liveFeedsChecked: live.status === 'fulfilled', candidateCount: live.status === 'fulfilled' ? live.value.candidateCount : 0,
-    researchCheckedAt: data.fetchedAt, delivery: 'Source-page research + live feed check',
-    liveFeedError: live.status === 'rejected' ? 'Live feed check failed; source-page research is still timestamped.' : null };
+  // This button retrieves a published, source-checked edition. A separate RSS
+  // request cannot generate researched articles and must not imply that it did.
+  const url = new URL('./briefing.json', location.href);
+  url.hash = ''; url.search = `?checked=${Date.now()}`;
+  const response = await fetcher(url, { cache: 'no-store', signal: AbortSignal.timeout(18000) });
+  if (!response.ok) throw new Error('The researched briefing is unavailable.');
+  const body = await response.json();
+  if (body.news?.schemaVersion !== 2 || !Array.isArray(body.news.stories)) throw new Error('Source-page research has not been published yet.');
+  const data=body.news;
+  return {...data,checkedAt:now.toISOString(),snapshot:false,researchCheckedAt:data.fetchedAt,delivery:'Published source-checked briefing'};
 }
 
 function googleTableToCSV(table) {
@@ -3790,7 +3828,7 @@ for (const target of ['#recap-panel','#recap-dialog']) $(target).addEventListene
 
 function renderBookmarks() {
   $('#bookmarks-count').textContent = state.bookmarks.length;
-  $('#bookmarks-list').innerHTML = state.bookmarks.length ? state.bookmarks.slice().sort((a,b) => b.savedAt.localeCompare(a.savedAt)).map(s => `<article class="saved-story"><div class="saved-story-meta">${esc(s.source)} · saved ${esc(fullStamp(s.savedAt))}</div><h3><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></h3>${s.eventDate ? `<p class="saved-story-date">Event / announcement: ${esc(formatDate(dateOnly(s.eventDate), { year: 'numeric' }))}</p>` : ''}<p class="saved-story-summary">${esc(s.summary)}</p><div class="saved-story-footer"><span>Reported ${esc(fullStamp(s.publishedAt))}</span><a class="text-button" href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">Read source →</a><button class="text-button" data-remove-bookmark="${esc(s.id)}">Remove</button></div></article>`).join('') : '<p class="empty-state">Use “Save story” on a briefing item to keep its explanation and source here.</p>';
+  $('#bookmarks-list').innerHTML = state.bookmarks.length ? state.bookmarks.slice().sort((a,b) => b.savedAt.localeCompare(a.savedAt)).map(s => `<article class="saved-story"><div class="saved-story-meta">${esc(s.source)} · saved ${esc(fullStamp(s.savedAt))}</div><h3><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></h3>${s.eventDate ? `<p class="saved-story-date">Event / announcement: ${esc(formatDate(dateOnly(s.eventDate), { year: 'numeric' }))}</p>` : ''}<p class="saved-story-summary">${esc(s.summary)}</p><div class="saved-story-footer"><span>Reported ${esc(fullStamp(s.publishedAt))}</span><a class="text-button" href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${s.articleAccess==='feed-only'?'Publisher link · access may require subscription →':'Read source →'}</a><button class="text-button" data-remove-bookmark="${esc(s.id)}">Remove</button></div></article>`).join('') : '<p class="empty-state">Use “Save story” on a briefing item to keep its explanation and source here.</p>';
   for (const button of document.querySelectorAll('[data-save-story]')) {
     const saved = state.bookmarks.some(s => s.id === button.dataset.saveStory);
     button.setAttribute('aria-pressed', String(saved)); button.textContent = saved ? 'Saved ✓' : 'Save story';
@@ -3838,7 +3876,8 @@ function renderNews(data, error = '') {
   $('#news-checked').textContent = error ? 'Latest check failed · previous reports may be out of date' : data?.snapshot ? `Saved research · ${fullStamp(data.fetchedAt)}` : checked ? `Checked ${fullStamp(checked)}${data.liveFeedsChecked ? ` · ${data.candidateCount} live feed candidates` : ''}` : 'Waiting for a source check';
   $('#news-live-label').innerHTML = `<span></span> ${error ? 'CONNECTION ISSUE' : data?.snapshot ? 'SAVED BRIEFING' : data?.mode === 'researched' ? 'SOURCES CHECKED' : 'LIVE FEEDS'}`;
   const stats = data?.research;
-  const research = stats ? `${stats.rawCandidates} candidates gathered · ${stats.sourcePagesRead} source pages read · ${selected.length} stories selected · source research ${fullStamp(data.researchCheckedAt || data.fetchedAt)}.` : '';
+  const freshCount=selected.filter(s=>!s.carriedForward&&!s.olderReport&&!s.leadUnchanged).length;
+  const research = stats ? `${selected.length} reports · ${freshCount} new · briefing published ${fullStamp(data.researchCheckedAt || data.fetchedAt)}.` : '';
   $('#news-status').textContent = `${error ? 'The latest connection failed. ' : ''}${research}${data?.liveFeedError ? ' ' + data.liveFeedError : ''}${globalThis.DAYMARK_RESEARCHED && data?.editionKey !== currentWindow.key ? ' Waiting for this check-in’s source research; checking again automatically.' : ''}${selected.length && selected.length < 5 ? ` ${selected.length} stories passed; no filler added.` : ''}`;
   if (data?.layout === PERSONAL_NEWS_LAYOUT && (data?.nytStatus?.available===false || selected[0]?.nytUnavailable)) $('#news-status').textContent += ' NYT’s public feed is unavailable; the top card is labeled accordingly.';
   const carriedCount = selected.filter(s => s.carriedForward).length;
@@ -3852,7 +3891,7 @@ function renderNews(data, error = '') {
       const image = sourceImage(s.imageUrl);
       const expandable = (s.explanation || s.summary || '').length > 260;
       const eventLabel = s.eventDateVerified && s.eventDate ? `${s.eventKind || 'Event'}: ${formatDate(dateOnly(s.eventDate.slice(0,10)), { month: 'long', day: 'numeric', year: 'numeric' })}` : s.sourcePageChecked ? 'Event date not stated or independently confirmed · publication time below' : 'Event date not verified · feed report only';
-      return `<article class="news-item"><span class="news-number">${String(i + 1).padStart(2, '0')}</span><div><div class="news-meta"><span class="category">${esc(s.slotLabel || s.category)}</span><span>·</span><span>${esc(s.coverage || 'Source report')}</span>${s.leadUnchanged ? '<span class="story-badge carried">NYT lead unchanged</span>' : s.slotOverride ? '<span class="story-badge updated">Priority coverage</span>' : s.carriedForward ? '<span class="story-badge carried">Previously covered</span>' : s.olderReport ? '<span class="story-badge carried">Earlier this week</span>' : s.majorUpdateVerified ? '<span class="story-badge updated">Major new development</span>' : ''}</div><h3><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.displayTitle || s.title)}</a></h3><p class="news-date">${esc(eventLabel)}${s.freshness === '48h' && !s.olderReport && !s.carriedForward ? ' · Reported within 48 hours' : ''}</p>${image ? `<figure class="article-image"><img src="${safeUrl(image)}" alt="Image accompanying ${esc(s.title)} on ${esc(s.source)}" loading="lazy" referrerpolicy="no-referrer"><figcaption>${esc(s.imageCaption || 'Image from the source article.')} <a href="${safeUrl(s.imageSourceUrl || s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.source)}</a></figcaption></figure>` : ''}<p class="news-summary ${expandable ? 'compact-summary' : ''}" id="news-explanation-${i}">${esc(s.explanation || s.summary)}</p>${expandable ? `<button class="news-expand" data-news-expand aria-expanded="false" aria-controls="news-explanation-${i}">Read more</button>` : ''}${s.summaryKind ? `<p class="fine-print">${esc(s.summaryKind)}</p>` : ''}${s.whyForYou ? `<p class="news-context"><strong>Connection to your interests</strong><br>${esc(s.whyForYou)}</p>` : ''}${s.overrideReason ? `<p class="news-context">${esc(s.overrideReason)}</p>` : ''}${s.whyInteresting ? `<p class="news-context"><strong>Why it’s interesting</strong><br>${esc(s.whyInteresting)}</p>` : ''}${s.dateEvidence ? `<details class="date-evidence"><summary>How the date was checked</summary><p>${esc(s.dateEvidence)}</p><a href="${safeUrl(s.dateEvidenceUrl || s.url)}" target="_blank" rel="noopener noreferrer">Date source →</a></details>` : ''}<div class="source-line"><span><b class="source-brand">${esc(s.source)}</b><time datetime="${esc(s.originalPublishedAt || s.publishedAt)}">Reported ${esc(fullStamp(s.originalPublishedAt || s.publishedAt))}</time></span><div class="story-actions"><button class="text-button save-story" data-save-story="${esc(s.id)}" aria-pressed="false">Save story</button><a class="text-button" href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">Read source →</a></div></div></div></article>`;
+      return `<article class="news-item"><span class="news-number">${String(i + 1).padStart(2, '0')}</span><div><div class="news-meta"><span class="category">${esc(s.slotLabel || s.category)}</span><span>·</span><span>${esc(s.coverage || 'Source report')}</span>${s.leadUnchanged ? '<span class="story-badge carried">NYT lead unchanged</span>' : s.carriedForward ? '<span class="story-badge carried">Previously covered</span>' : s.slotOverride ? '<span class="story-badge updated">Priority coverage</span>' : s.olderReport ? '<span class="story-badge carried">Earlier this week</span>' : s.majorUpdateVerified ? '<span class="story-badge updated">Major new development</span>' : ''}</div><h3><a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.displayTitle || s.title)}</a></h3><p class="news-date">${esc(eventLabel)}${s.freshness === '48h' && !s.olderReport && !s.carriedForward ? ' · Reported within 48 hours' : ''}</p>${image ? `<figure class="article-image"><img src="${safeUrl(image)}" alt="Image accompanying ${esc(s.title)} on ${esc(s.source)}" loading="lazy" referrerpolicy="no-referrer"><figcaption>${esc(s.imageCaption || 'Image from the source article.')} <a href="${safeUrl(s.imageSourceUrl || s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.source)}</a></figcaption></figure>` : ''}<p class="news-summary ${expandable ? 'compact-summary' : ''}" id="news-explanation-${i}">${esc(s.explanation || s.summary)}</p>${expandable ? `<button class="news-expand" data-news-expand aria-expanded="false" aria-controls="news-explanation-${i}">Read more</button>` : ''}${s.summaryKind ? `<p class="fine-print">${esc(s.summaryKind)}</p>` : ''}${s.whyForYou ? `<p class="news-context"><strong>Connection to your interests</strong><br>${esc(s.whyForYou)}</p>` : ''}${s.overrideReason ? `<p class="news-context">${esc(s.overrideReason)}</p>` : ''}${s.whyInteresting ? `<p class="news-context"><strong>Why it’s interesting</strong><br>${esc(s.whyInteresting)}</p>` : ''}${s.dateEvidence ? `<details class="date-evidence"><summary>How the date was checked</summary><p>${esc(s.dateEvidence)}</p><a href="${safeUrl(s.dateEvidenceUrl || s.url)}" target="_blank" rel="noopener noreferrer">Date source →</a></details>` : ''}<div class="source-line"><span><b class="source-brand">${esc(s.source)}</b><time datetime="${esc(s.originalPublishedAt || s.publishedAt)}">Reported ${esc(fullStamp(s.originalPublishedAt || s.publishedAt))}</time></span><div class="story-actions"><button class="text-button save-story" data-save-story="${esc(s.id)}" aria-pressed="false">Save story</button><a class="text-button" href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">Read source →</a></div></div></div></article>`;
     }).join('');
     for (const img of document.querySelectorAll('.article-image img')) img.addEventListener('error', () => img.closest('figure').remove());
     if (selected.length < 5) $('#news-list').insertAdjacentHTML('beforeend', '<p class="briefing-empty-note">Only the stories that passed this check are shown. No recycled stories or filler.</p>');
@@ -3939,10 +3978,12 @@ async function refreshAll(manual = false) {
   await Promise.allSettled([
     (async () => {
       try {
+        const previousPublishedAt=state.news?.fetchedAt;
         const data = await requestJSON(`/api/news${manual ? '?refresh=1' : ''}`);
         const display = data.stories?.length || !data.error ? data : state.news;
         if (!data.error) { state.news = data; persist(); }
         renderNews(display, data.error || '');
+        if(manual && !data.error && data.fetchedAt===previousPublishedAt){$('#news-status').textContent+=' No newer briefing has been published yet.';toast('No new briefing published yet. Your calendar was checked too.');}
       } catch (error) { renderNews(state.news, error.message || 'News connection unavailable.'); }
     })(),
     refreshSheet(manual),

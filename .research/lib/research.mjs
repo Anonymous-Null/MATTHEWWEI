@@ -17,7 +17,7 @@ const sourceHosts = {
 };
 const months = 'january february march april may june july august september october november december'.split(' ');
 const weekdays = 'sunday monday tuesday wednesday thursday friday saturday'.split(' ');
-const eventVerb = /\b(held|acknowledged|disclosed|announced|signed|killed|struck|issued|ruled|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found)\b/i;
+const eventVerb = /\b(held|acknowledged|disclosed|announced|signed|killed|struck|issued|ruled|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found|surpassed|crossed|ticked|set|restarted|resumed|reported|outlined|unveiled|developed|built|created)\b/i;
 const future = /\b(will|plans to|scheduled to|expected to|is set to)\b/i;
 const majorEvent = /\b(signed|overturned|resigned|invaded|ceasefire|banned|approved|erupted|landed|discovered)\b/i;
 
@@ -145,14 +145,15 @@ export function parseSourceArticle(html, story) {
     caption = plainText(img?.closest('figure')?.querySelector('figcaption')?.textContent || '');
   }
   // A publisher's AI illustration is not a real photograph of the event.
-  const realImage = /\b(AI|artificial intelligence|AI-generated|generated image|artist.s concept)\b/i.test(caption) || (story.source === 'ScienceDaily' && !caption) || /(?:STK\d|stock[-_ ]?(?:photo|image))/i.test(image || '') ? null : image;
+  const realImage = /\b(AI|ChatGPT|artificial intelligence|AI-generated|generated image|image generated|artist.s concept)\b/i.test(caption) || (story.source === 'ScienceDaily' && !caption) || /(?:STK\d|stock[-_ ]?(?:photo|image))/i.test(image || '') ? null : image;
   const references = document.querySelector('#journal_references') || [...document.querySelectorAll('strong')].find(e => /journal references?/i.test(e.textContent))?.parentElement?.nextElementSibling;
   const doiArea = references || primary || document;
   const dois = [...doiArea.querySelectorAll('a[href]')].map(a => a.getAttribute('href')).filter(h => /^https?:\/\/(?:dx\.)?doi\.org\//i.test(h)).map(h => h.replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, ''));
-  return { text, articleTitle, publishedAt, modifiedAt, imageUrl: realImage, imageCaption: caption, dois: [...new Set(dois)].slice(0, 3) };
+  const paywalled=metadata.isAccessibleForFree===false || metadata.isAccessibleForFree==='False' || metadata.isAccessibleForFree==='false';
+  return { text, articleTitle, publishedAt, modifiedAt, paywalled, imageUrl: realImage, imageCaption: caption, dois: [...new Set(dois)].slice(0, 3) };
 }
 
-export async function fetchArticle(story, fetcher = fetch) {
+export async function fetchArticle(story, fetcher = fetch, delivery = {}) {
   let url = story.url;
   const hosts = sourceHosts[story.source] || [];
   for (let hop = 0; hop < 4; hop++) {
@@ -160,6 +161,7 @@ export async function fetchArticle(story, fetcher = fetch) {
     if (parsed.protocol !== 'https:' || parsed.username || parsed.password || parsed.port || !hosts.some(h => parsed.hostname === h || parsed.hostname.endsWith('.' + h))) throw new Error('Unrecognized source-page host');
     const response = await fetcher(url, { redirect: 'manual', signal: AbortSignal.timeout(12000), headers: { 'User-Agent': 'MatthewWeiDashboard/1.0 (source-checking personal news reader)', Accept: 'text/html' } });
     if ([301,302,303,307,308].includes(response.status)) { url = new URL(response.headers.get('location'), url).href; await response.body?.cancel(); continue; }
+    delivery.url=url;delivery.status=response.status;
     return fetchText(url, { fetcher: async () => response, maxBytes: 3_000_000 });
   }
   throw new Error('Too many source redirects');
@@ -190,18 +192,20 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
   if (!available) throw new Error('No live publisher discovery sources were reachable');
   const pools=discovery.flatMap(r=>r.status==='fulfilled'?[r.value]:[]);
   const raw=pools.flat(), key=checkInWindow(now).key;
-  const prior=Object.values(seen).filter(s=>s.editionKey && s.editionKey!==key);
+  const prior=Object.values(seen).filter(s=>s.editionKey);
   const candidates=readingQueue(pools.map(pool=>pool.filter(story=>
     story.nytHomeLead || !story.publishedAt || !prior.some(old=>old.id===story.id && Date.parse(story.publishedAt)<=Date.parse(old.seenAt)))),{now,limit});
   let pagesRead = 0, primaryDatesRead = 0;
   const checks = await mapLimit(candidates, 4, async story => {
-    let article;
-    try { article=parseSourceArticle(await fetchArticle(story,fetcher),story); }
+    let article;const delivery={};
+    try { article=parseSourceArticle(await fetchArticle(story,fetcher,delivery),story); }
     catch(error) {
-      if(story.source==='The New York Times' && story.feedChecked) return {...story,nytFeedSummary:true,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',articleAccessError:error.message,checkedAt:now.toISOString()};
+      if(story.source==='The New York Times' && story.feedChecked && !/HTTP (?:404|410)/.test(error.message)) return {...story,nytFeedSummary:true,sourcePageChecked:false,articleAccess:'feed-only',explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',articleAccessError:error.message,checkedAt:now.toISOString()};
       throw error;
     }
     pagesRead++;
+    if(article.paywalled && story.source!=='The New York Times')throw new Error('Source requires a subscription');
+    if(article.paywalled) return {...story,nytFeedSummary:true,sourcePageChecked:false,articleAccess:'feed-only',explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article requires a subscription',checkedAt:now.toISOString()};
     if(article.text.split(/\s+/).length<60){
       if(story.source==='The New York Times' && story.feedChecked)return {...story,nytFeedSummary:true,sourcePageChecked:false,explanation:story.summary,eventDate:null,eventDateVerified:false,summaryKind:'NYT public-feed summary · full article unavailable',checkedAt:now.toISOString()};
       throw new Error('Source article was unavailable or too short');
@@ -217,8 +221,8 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
       try { primary = await paperDate(article.dois[0], fetcher); } catch { date = null; }
       if (primary) { primaryDatesRead++; date = { date: primary.date, kind: 'Study published', evidence: `The study cited by the source, “${primary.title}”, was first published on ${primary.date}.`, url: primary.url }; }
     }
-    if (!date && (story.source === 'MIT News' || story.source === 'NASA' && story.url.includes('/news-release/')) && article.publishedAt) {
-      date = { date: dayOf(article.publishedAt), kind: 'Research announced', evidence: `The institution's original announcement is dated ${dayOf(article.publishedAt)}.`, url: story.url };
+    if (!date && (story.source === 'MIT News' || story.source === 'NASA' && (story.url.includes('/news-release/') || /\b(updates?|accelerate|mission ends|mission to test)\b/i.test(story.title))) && article.publishedAt) {
+      date = { date: dayOf(article.publishedAt), kind: 'Announcement published', evidence: `The institution's original announcement is dated ${dayOf(article.publishedAt)}. This is the announcement date, not the date of a future mission.`, url: story.url };
     }
     // Journal issue dates can be in the future even when reporting is already
     // available. Keep the report, but don't claim that future date as an event.
@@ -226,10 +230,10 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
     const eventTime = date ? Date.parse(date.date + 'T12:00:00Z') : Date.parse(publishedAt);
     const age = (+now - eventTime) / 3600000;
     if (!Number.isFinite(age) || age < -24 || age > 168) throw new Error('The actual event/announcement is more than a week old');
-    const old = previous.find(p => p.id === story.id || similarStories(p, story));
+    const old = [...previous,...prior].find(p => p.id === story.id || similarStories(p, story));
     const majorUpdateVerified = Boolean(date && old && old.eventDate && date.date > old.eventDate && majorEvent.test(date.evidence) && article.modifiedAt && +now - Date.parse(article.modifiedAt) <= 48 * 3600000);
     const verified = { ...story, editorialText: article.text.split(/\s+/).slice(0,180).join(' '), publishedAt, originalPublishedAt: publishedAt,
-      sourcePageChecked:true, eventDate: date?.date || null, eventKind: date?.kind || null, eventDateVerified: Boolean(date), dateEvidence: date?.evidence || null,
+      url:delivery.url || story.url,sourcePageChecked:true,articleAccess:'readable',linkStatus:delivery.status,linkCheckedAt:now.toISOString(),primaryDoi:article.dois[0] || null,eventDate: date?.date || null, eventKind: date?.kind || null, eventDateVerified: Boolean(date), dateEvidence: date?.evidence || null,
       dateEvidenceUrl: date?.url || story.url, eventRevision: date ? `${date.date}:${date.kind}` : null, majorUpdateVerified,
       explanation: explanationFromText(article.text, story.title, story.category), summaryKind: 'Source excerpt',
       imageUrl: article.imageUrl, imageCaption: article.imageCaption, imageSourceUrl: story.url,
@@ -237,7 +241,7 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
     if (majorUpdateVerified) verified.publishedAt = article.modifiedAt;
     return verified;
   });
-  const stories = rankStories(checks.flatMap(r => r.value ? [r.value] : []), now, { broad:true, minScore:20, maxAgeHours:168, limit:60 });
+  const stories = rankStories(checks.flatMap(r => r.value ? [r.value] : []), now, { broad:true, minScore:20, maxAgeHours:168, limit:200 });
   const nytLead=checks.find(r=>r.value?.nytHomeLead)?.value || raw.find(s=>s.nytHomeLead);
   const nytStatus={available:Boolean(nytLead),checkedAt:now.toISOString(),error:discovery[NEWS_FEEDS.findIndex(f=>f.homepageLead)]?.reason?.message || null};
   return {

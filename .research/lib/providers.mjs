@@ -41,7 +41,7 @@ export function parseFeed(xml, feed) {
     for (const key of [...url.searchParams.keys()]) if (key.startsWith('utm_') || key === 'at_medium' || key === 'at_campaign') url.searchParams.delete(key);
     url.hash = '';
     return [{ id: url.href, url: url.href, title, summary, publishedAt: published.toISOString(), source: feed.source, category: feed.category,
-      coverage: /\b(analysis|explainer)\b/i.test(title) ? 'Analysis / explainer' : feed.coverage ?? 'Source report' }];
+      coverage: /\/(?:commentisfree|opinion|editorial)\//i.test(url.pathname) ? 'Opinion' : /\b(analysis|explainer)\b/i.test(title) ? 'Analysis / explainer' : feed.coverage ?? 'Source report' }];
   });
 }
 

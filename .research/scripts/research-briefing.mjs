@@ -3,6 +3,7 @@ import { researchNews } from '../lib/research.mjs';
 import { selectPersonalBriefing, PERSONAL_NEWS_LAYOUT, personalBriefingProblems } from '../public/news.js';
 import { checkInWindow } from '../public/shared.js';
 import { briefingDue } from '../lib/briefing-schedule.mjs';
+import {selectAccessibleBriefing} from '../lib/briefing-links.mjs';
 
 const inDeployment = process.argv.includes('--deployment');
 const scheduled = process.argv.includes('--scheduled');
@@ -23,13 +24,16 @@ if (process.env.RESEARCH_REVIEW_PATH) await writeFile(process.env.RESEARCH_REVIE
 const key = checkInWindow(now).key;
 const previousSources = history.editions.find(e => e.key !== key)?.sources || [];
 const reserve = [...(previous?.news?.stories || []), ...(previous?.news?.reserveStories || []), ...(history.archive || [])];
-const selected = selectPersonalBriefing(news.stories, { key, history: history.seen, previousSources, now, fallback:reserve,nytLead:news.nytLead });
+const accessible=await selectAccessibleBriefing(news.stories,{key,history:history.seen,previousSources,now,fallback:reserve,nytLead:news.nytLead});
+const selected=accessible.selected;
+news.research.linkChecks=accessible.linksChecked;
+news.research.rejectedLinks=accessible.rejectedLinks;
 if (selected.length < 5) throw new Error(`Only ${selected.length} usable reports available; retaining the previous edition instead of publishing a short briefing.`);
 const slotProblems=personalBriefingProblems(selected);
 if(slotProblems.length)throw new Error('Refusing invalid slot assignment: '+slotProblems.join(' '));
 news.minimumStories = 5;
 news.layout = PERSONAL_NEWS_LAYOUT;
-news.freshCount = selected.filter(s => !s.carriedForward && !s.olderReport).length;
+news.freshCount = selected.filter(s => !s.carriedForward && !s.olderReport && !s.leadUnchanged).length;
 news.carriedCount = selected.filter(s => s.carriedForward).length;
 news.olderCount = selected.filter(s => s.olderReport && !s.carriedForward).length;
 news.reserveStories = [...selected, ...reserve].filter((s,i,all) => all.findIndex(old => old.id === s.id) === i).slice(0,30);
@@ -37,7 +41,7 @@ news.selectedIds = selected.map(s => s.id);
 // Publish the actual selected edition. Alternative candidates must not let a
 // browser reintroduce cross-publisher copies rejected by shared story history.
 news.stories = selected;
-for (const story of selected) if (!story.carriedForward) history.seen[story.id] = { id: story.id, title: story.title, source: story.source, eventDate: story.eventDate, eventRevision: story.eventRevision, editionKey: key, seenAt: now.toISOString() };
+for (const story of selected) if (!story.carriedForward) history.seen[story.id] = { id: story.id,url:story.url,title: story.title,primaryDoi:story.primaryDoi,source: story.source, eventDate: story.eventDate, eventRevision: story.eventRevision, editionKey: key, seenAt: now.toISOString() };
 history.archive = news.reserveStories;
 history.editions = [{ key, sources: selected.map(s => s.source) }, ...history.editions.filter(e => e.key !== key)].slice(0, 28);
 history.seen = Object.fromEntries(Object.entries(history.seen).sort((a,b) => b[1].seenAt.localeCompare(a[1].seenAt)).slice(0, 1000));
@@ -54,6 +58,6 @@ if (inDeployment) {
   if (updated === html && !html.includes(safe)) throw new Error('The embedded briefing could not be updated');
   await writeFile(htmlTarget, updated);
 }
-console.log(JSON.stringify({ edition: key, selected: selected.length, ...news.research }));
+console.log(JSON.stringify({edition:key,selected:selected.length,fresh:news.freshCount,carried:news.carriedCount,candidates:news.research.rawCandidates,read:news.research.sourcePagesRead,linksChecked:news.research.linkChecks,titles:selected.map(s=>s.title)}));
 if (process.env.GITHUB_STEP_SUMMARY) await writeFile(process.env.GITHUB_STEP_SUMMARY,
   `## Briefing ${key}\n\nGathered ${news.research.rawCandidates} candidates; read ${news.research.sourcePagesRead} original source pages.\n\n${selected.length} stories: ${news.freshCount} recent reports, ${news.olderCount} catch-up reports, ${news.carriedCount} carried forward. Unconfirmed event dates are labeled.\n`, { flag: 'a' });

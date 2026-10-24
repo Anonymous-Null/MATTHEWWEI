@@ -5,6 +5,7 @@ import { plainText } from '../public/news.js';
 export const NEWS_SECTIONS = [
   {url:'https://apnews.com/hub/russia-ukraine',source:'AP News',category:'World'},
   {url:'https://apnews.com/us-news',source:'AP News',category:'U.S.'},
+  {url:'https://apnews.com/hub/education',source:'AP News',category:'Education'},
   {url:'https://apnews.com/',source:'AP News',category:'World'},
   ...[['world-news','World'],['science','Science'],['technology','Technology'],['politics','U.S.'],['business','Business']].map(([path,category]) => ({url:`https://apnews.com/${path}`,source:'AP News',category})),
   {url:'https://www.businessinsider.com/sai',source:'Business Insider',category:'Technology'},
