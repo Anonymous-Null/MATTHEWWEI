@@ -2,22 +2,14 @@ import { NEWS_SECTIONS, sectionStories, readingQueue } from './discovery.mjs';
 import { parseHTML } from 'linkedom';
 import { Readability } from '@mozilla/readability';
 import { NEWS_FEEDS, parseFeed, fetchText } from './providers.mjs';
-import { plainText, rankStories, plainLanguageSummary, sourceImage, similarStories } from '../public/news.js';
+import { plainText, rankStories, plainLanguageSummary, sourceImage, similarStories, cleanNewsText, editorialAssessment, EDITORIAL_VERSION } from '../public/news.js';
 import { shiftDate, checkInWindow } from '../public/shared.js';
 
-const sourceHosts = {
-  'The New York Times':['nytimes.com'], 'IEEE Spectrum':['spectrum.ieee.org'],
-  'AP News':['apnews.com'], 'Business Insider':['businessinsider.com'], 'Investing.com':['investing.com'],
-  'BBC News': ['bbc.com', 'bbc.co.uk'], NPR: ['npr.org'], 'Ars Technica': ['arstechnica.com'],
-  'The Verge': ['theverge.com'], 'Science News': ['sciencenews.org'], ScienceDaily: ['sciencedaily.com'],
-  'MIT News': ['news.mit.edu'], 'Higher Ed Dive': ['highereddive.com'], NASA: ['nasa.gov'],
-  Nature: ['nature.com'], Science: ['science.org', 'sciencemag.org'],
-  'The Guardian': ['theguardian.com'], 'Live Science': ['livescience.com'],
-  ScienceAlert: ['sciencealert.com'], 'Phys.org': ['phys.org'],
-};
+import {SOURCE_HOSTS as sourceHosts} from './news-sources.mjs';
+import {NEWS_SEARCHES,searchStories,searchUrl} from './news-search.mjs';
 const months = 'january february march april may june july august september october november december'.split(' ');
 const weekdays = 'sunday monday tuesday wednesday thursday friday saturday'.split(' ');
-const eventVerb = /\b(held|acknowledged|disclosed|announced|signed|killed|struck|issued|ruled|ordered|filed|decided|testified|conducted|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found|surpassed|crossed|ticked|set|restarted|resumed|reported|outlined|unveiled|developed|built|created)\b/i;
+const eventVerb = /\b(held|introduced|acknowledged|disclosed|announced|signed|killed|struck|issued|ruled|ordered|filed|decided|testified|conducted|discovered|published|demonstrated|achieved|broke|banned|detected|revealed|rescued|erupted|began|invaded|overturned|resigned|collapsed|passed|approved|confirmed|released|attacked|fired|voted|landed|launched|agreed|reached|drove|traveled|covered|captured|died|found|surpassed|crossed|ticked|set|restarted|resumed|reported|outlined|unveiled|developed|built|created)\b/i;
 const future = /\b(will|plans to|scheduled to|expected to|is set to)\b/i;
 const majorEvent = /\b(signed|overturned|resigned|invaded|ceasefire|banned|approved|erupted|landed|discovered)\b/i;
 
@@ -69,35 +61,38 @@ export function oldResearchEvidence(text, now = new Date()) {
 }
 
 export function explanationFromText(text, title = '', category = 'Science') {
-  const sentences = [...new Intl.Segmenter('en', {granularity:'sentence'}).segment(plainText(text))]
+  const sentences=[...new Intl.Segmenter('en',{granularity:'sentence'}).segment(cleanNewsText(text))]
     .map(s=>s.segment.trim()).filter(s=>! /^(subscribe|sign up|advertisement|read more|listen to|share this|copyright|credit:)/i.test(s));
-  if (category !== 'Science') {
-    const lead=[];let words=0;
-    for(const sentence of sentences){const n=sentence.split(/\s+/).length;if(words+n>120)break;lead.push(sentence);words+=n;}
-    return lead.join(' ');
-  }
-  const anchors=[...new Set(title.toLowerCase().match(/[a-z]{4,}/g)||[])].filter(w=>!['this','that','with','from','says','scientists','researchers','research','study','reveals','reveal','mysterious','really','year','years','old'].includes(w));
+  if(!sentences.length)return '';
+  const count=s=>s.split(/\s+/).length;
+  const anchors=[...new Set(title.toLowerCase().match(/[a-z]{4,}/g)||[])].filter(w=>!['this','that','with','from','says','scientists','researchers','research','study','reveals','reveal','year','years'].includes(w));
+  const overlaps=s=>anchors.filter(w=>s.toLowerCase().includes(w)).length;
+  // Start with what happened, then choose source sentences that explain the
+  // result or mechanism. Never replace the lead with only technical background.
+  const lead=sentences.slice(0,5).find(s=>overlaps(s)>0&&count(s)<=60)||sentences[0];
+  if(count(lead)>120)return sentences.find(s=>count(s)<=120)||'';
   let best='',bestScore=-Infinity;
-  // Choose a contiguous, complete-sentence passage containing the result.
-  // An atmospheric introduction must not consume the whole explanation.
-  for(let start=0;start<Math.min(sentences.length,35);start++) {
+  const limit=120-count(lead);
+  for(let start=sentences.indexOf(lead)+1;start<Math.min(sentences.length,40);start++){
     let words=0,parts=[];
-    for(let i=start;i<sentences.length;i++) {
-      const count=sentences[i].split(/\s+/).length;
-      if(words+count>120) break;
-      parts.push(sentences[i]);words+=count;
-      if(words<65) continue;
-      const passage=parts.join(' '), lower=passage.toLowerCase();
-      const overlap=anchors.filter(w=>lower.includes(w)).length;
-      const findings=(passage.match(/\b(found|revealed|reveals|suggests?|challenge|discovered|shows?|demonstrated|concluded|identified|announced|disclosed|issued|signed|waived|arrested|detained|released)\b/gi)||[]).length;
-      const evidence=(passage.match(/\b\d+(?:\.\d+)?(?:%| million| billion| times)\b/gi)||[]).length;
-      const score=overlap*3+Math.min(findings,3)*4+Math.min(evidence,2)*2-start*0.15;
+    for(let i=start;i<sentences.length;i++){
+      if(words+count(sentences[i])>limit)break;
+      parts.push(sentences[i]);words+=count(sentences[i]);
+      const passage=parts.join(' ');
+      const mechanism=/\b(because|without|instead|by using|uses?|converts?|captures?|collects?|allows?|means|prevent|protect|directly|magnetic fields|electrical wiring|training data)\b/i.test(passage);
+      const measured=/\b\d+(?:\.\d+)?\s*(?:%|times|hours?|years?|people|million|billion)\b/i.test(passage);
+      const contextOnly=/\b(previously|years ago|first author|co.authors?|corresponding author|bachelor|master.s|doctoral student|biography)\b/i.test(passage);
+      const finding=/\b(found|discovered|demonstrated|tested|announced|revealed|reduced|excluded|removed|changed|built|created|banned|blocked|ordered|killed|injured)\b/i.test(passage);
+      const uncertainty=/\b(laboratory|prototype|not independently|company.reported|claims?|early stage|still need|cautioned)\b/i.test(passage);
+      const evidence=overlaps(passage);
+      if(!evidence)continue;
+      const score=Math.min(evidence,4)*2+(mechanism?8:0)+(measured?5:0)+(finding?4:0)+(uncertainty?3:0)-(contextOnly?20:0)+Math.min(words,60)*.05-start*.18;
       if(score>bestScore){bestScore=score;best=passage;}
-      if(words>=100) break;
     }
   }
-  // Source excerpts remain attributed; no unsupported paraphrased claims.
-  return best || sentences.slice(0,2).join(' ');
+  // The result consists only of source sentences; nonadjacent excerpts stay
+  // visibly separated, and nothing is invented to pad a short report.
+  return best?lead+' '+best:lead;
 }
 
 function jsonObjects(document) {
@@ -121,15 +116,17 @@ export function parseSourceArticle(html, story) {
   const dateLabel = [...document.querySelectorAll('dt')].find(e => /^date:/i.test(e.textContent.trim()))?.nextElementSibling?.textContent.trim();
   const publishedAt = iso(publication || dateLabel);
   const modifiedAt = iso(metadata.dateModified || meta('article:modified_time'));
-  const primary = document.querySelector('#story_text') || document.querySelector('#storytext') || document.querySelector('[data-testid="article-body"]') || document.querySelector('.article__body');
+  const primary = document.querySelector('#articleContent') || document.querySelector('#story_text') || document.querySelector('#storytext') || document.querySelector('[data-testid="article-body"]') || document.querySelector('.article__body');
+  const splitBlocks=story.source==='Ars Technica'?[...document.querySelectorAll('article .post-content')]:[];
   const bbcBlocks = story.source === 'BBC News' ? [...document.querySelectorAll('[data-component="text-block"]')] : [];
-  const readable = new Readability(document.cloneNode(true)).parse();
-  const body = bbcBlocks.length ? document.createElement('div') : primary?.cloneNode(true) || parseHTML(`<div>${readable?.content || ''}</div>`).document;
-  if (bbcBlocks.length) for (const block of bbcBlocks) body.appendChild(block.cloneNode(true));
-  for (const nuisance of body.querySelectorAll('figure,figcaption,button,nav,aside,header,h1,h2,h3,.credit,.caption,.toggle-caption,.image-credit,.captionwrap,.imagewrap,.byline,.headline,.article-header,.bucketwrap,.storyenhancement,.related-story')) nuisance.remove();
+  let readable=null;
+  try{readable=new Readability(document.cloneNode(true)).parse();}catch(error){if(!primary&&!bbcBlocks.length&&!splitBlocks.length)throw error;}
+  const body = bbcBlocks.length || splitBlocks.length ? document.createElement('div') : primary?.cloneNode(true) || parseHTML(`<div>${readable?.content || ''}</div>`).document;
+  if (bbcBlocks.length || splitBlocks.length) for (const block of [...bbcBlocks,...splitBlocks]) body.appendChild(block.cloneNode(true));
+  for (const nuisance of body.querySelectorAll('figure,figcaption,button,nav,aside,header,h1,h2,h3,.credit,.caption,.toggle-caption,.image-credit,.captionwrap,.imagewrap,.byline,.headline,.article-header,.bucketwrap,.storyenhancement,.related-story,.article__about,.article__author,.article-author,.author-bio,.article__copyright,.article__references,.article__info,.article__comments,.newsletter,.newsletter-signup,[data-component=\"newsletter-signup\"]')) nuisance.remove();
   for (const block of body.querySelectorAll('p,div,li,h1,h2,h3,h4,section,blockquote')) block.appendChild(document.createTextNode(' '));
-  let text = plainText(body.textContent || body.documentElement?.textContent || '');
-  text = text.replace(/^By THE ASSOCIATED PRESS\s*/, '').replace(/^Updated \[hour\]:\[minute\] \[AMPM\] \[timezone\], \[monthFull\] \[day\], \[year\]\s*/, '')
+  let text = cleanNewsText(body.textContent || body.documentElement?.textContent || '');
+  text = text.replace(/^(?:[A-Z][A-Z .,'’()-]{1,55})(?:\s*\(AP\))?\s*[—–]\s*/, '').replace(/^By THE ASSOCIATED PRESS\s*/, '').replace(/^Updated \[hour\]:\[minute\] \[AMPM\] \[timezone\], \[monthFull\] \[day\], \[year\]\s*/, '')
     .replace(/^Skip to content\s*/i, '').replace(/\b\d+ MIN READ\b/g, '');
 
   if (story.source === 'BBC News') {
@@ -138,6 +135,7 @@ export function parseSourceArticle(html, story) {
       .replace(/^Updated\s+\d+\s+(?:minutes?|hours?|days?)\s+ago\s*/i, '').trim();
   }
   const articleTitle = plainText(metadata.headline || readable?.title || story.title);
+  if(/^(?:404|page not found|article not found|access denied|just a moment|attention required)/i.test(articleTitle))throw new Error('Source returned an error page instead of an article');
   const image = sourceImage(meta('og:image') || meta('twitter:image') || (typeof metadata.image === 'string' ? metadata.image : metadata.image?.url));
   let caption = '';
   if (image) {
@@ -150,6 +148,15 @@ export function parseSourceArticle(html, story) {
   const references = document.querySelector('#journal_references') || [...document.querySelectorAll('strong')].find(e => /journal references?/i.test(e.textContent))?.parentElement?.nextElementSibling;
   const doiArea = references || primary || document;
   const dois = [...doiArea.querySelectorAll('a[href]')].map(a => a.getAttribute('href')).filter(h => /^https?:\/\/(?:dx\.)?doi\.org\//i.test(h)).map(h => h.replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, ''));
+  // Many reporters link straight to Nature/Science, not doi.org. Those links
+  // still carry the DOI; missing them used to freshen old journal papers.
+  for(const a of doiArea.querySelectorAll('a[href]')) {
+    let u;try{u=new URL(a.getAttribute('href'));}catch{continue;}
+    if(/^(?:www\.)?nature\.com$/.test(u.hostname)&&/^\/articles\/s[0-9-]+$/.test(u.pathname))dois.push('10.1038/'+u.pathname.split('/').at(-1));
+    if(/^(?:www\.)?(?:science\.org|sciencemag\.org)$/.test(u.hostname)){
+      const doi=u.pathname.match(/\/(10\.1126\/[^/?#]+)/)?.[1];if(doi)dois.push(doi);
+    }
+  }
   const paywalled=metadata.isAccessibleForFree===false || metadata.isAccessibleForFree==='False' || metadata.isAccessibleForFree==='false';
   return { text, articleTitle, publishedAt, modifiedAt, paywalled, imageUrl: realImage, imageCaption: caption, dois: [...new Set(dois)].slice(0, 3) };
 }
@@ -184,9 +191,10 @@ async function mapLimit(items, limit, worker) {
   return results;
 }
 
-export async function researchNews({ fetcher = fetch, now = new Date(), previous = [], seen = {}, limit = 240 } = {}) {
+export async function researchNews({ fetcher = fetch, now = new Date(), previous = [], seen = {}, limit = 320 } = {}) {
   const discovery = await Promise.allSettled([
     ...NEWS_FEEDS.map(async feed => parseFeed(await fetchText(feed.url, { fetcher }), feed).map((s,i)=>({...s,feedChecked:true,sourceFeedUrl:feed.url,feedRank:i+1,nytHomeLead:Boolean(feed.homepageLead && i===0)}))),
+    ...NEWS_SEARCHES.map(async search=>searchStories(await fetchText(searchUrl(search.query),{fetcher}),search)),
     ...NEWS_SECTIONS.map(async section => sectionStories(await fetchArticle(section, fetcher),section)),
   ]);
   const available = discovery.filter(f => f.status === 'fulfilled' && f.value.length).length;
@@ -194,10 +202,10 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
   const pools=discovery.flatMap(r=>r.status==='fulfilled'?[r.value]:[]);
   const raw=pools.flat(), key=checkInWindow(now).key;
   const prior=Object.values(seen).filter(s=>s.editionKey);
-  const candidates=readingQueue(pools.map(pool=>pool.filter(story=>
+  let candidates=readingQueue(pools.map(pool=>pool.filter(story=>
     story.nytHomeLead || !story.publishedAt || !prior.some(old=>old.id===story.id && Date.parse(story.publishedAt)<=Date.parse(old.seenAt)))),{now,limit});
   let pagesRead = 0, primaryDatesRead = 0;
-  const checks = await mapLimit(candidates, 4, async story => {
+  const verifyStory = async story => {
     let article;const delivery={};
     try { article=parseSourceArticle(await fetchArticle(story,fetcher,delivery),story); }
     catch(error) {
@@ -222,8 +230,8 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
       try { primary = await paperDate(article.dois[0], fetcher); } catch { date = null; }
       if (primary) { primaryDatesRead++; date = { date: primary.date, kind: 'Study published', evidence: `The study cited by the source, “${primary.title}”, was first published on ${primary.date}.`, url: primary.url }; }
     }
-    if (!date && (story.source === 'MIT News' || story.source === 'NASA' && (story.url.includes('/news-release/') || /\b(updates?|accelerate|mission ends|mission to test)\b/i.test(story.title))) && article.publishedAt) {
-      date = { date: dayOf(article.publishedAt), kind: 'Announcement published', evidence: `The institution's original announcement is dated ${dayOf(article.publishedAt)}. This is the announcement date, not the date of a future mission.`, url: story.url };
+    if (!date && (['MIT News','Arkansas News'].includes(story.source) || story.source === 'NASA' && (story.url.includes('/news-release/') || /\b(updates?|accelerate|mission ends|mission to test)\b/i.test(story.title))) && article.publishedAt) {
+      date = { date: dayOf(article.publishedAt), kind: 'Announcement published', evidence: `The institution's original announcement is dated ${dayOf(article.publishedAt)}. This dates the public announcement; it does not establish when every underlying experiment took place.`, url: story.url };
     }
     // Journal issue dates can be in the future even when reporting is already
     // available. Keep the report, but don't claim that future date as an event.
@@ -241,21 +249,36 @@ export async function researchNews({ fetcher = fetch, now = new Date(), previous
       checkedAt: now.toISOString() };
     if (majorUpdateVerified) verified.publishedAt = article.modifiedAt;
     return verified;
-  });
-  const stories = rankStories(checks.flatMap(r => r.value ? [r.value] : []), now, { broad:true, minScore:20, maxAgeHours:168, limit:200 });
+  };
+  let checks=await mapLimit(candidates,6,verifyStory);
+  // Find accessible independent coverage of promising developments missed by
+  // short feeds or trapped behind a subscription. Query today's discovered
+  // headlines, never a fixed list of stories supplied by the reader.
+  const searched=[],usedQueries=new Set();
+  const prospects=raw.filter(s=>Number.isFinite(Date.parse(s.publishedAt))&&+now-Date.parse(s.publishedAt)<=72*3600000&&editorialAssessment(s).personalEligible)
+    .sort((a,b)=>editorialAssessment(b).score-editorialAssessment(a).score);
+  for(const s of prospects){
+    const query=s.title.replace(/[^\p{L}\p{N} '-]/gu,' ').split(/\s+/).filter(w=>w.length>2&&!/^(the|and|with|from|says|said|that|this|your|now|its|new|could|would|might|have|has|for|how|why|what|are)$/i.test(w)).slice(0,9).join(' ');
+    if(usedQueries.has(query))continue;usedQueries.add(query);searched.push({query,category:s.category});if(searched.length===6)break;
+  }
+  const related=await Promise.allSettled(searched.map(async search=>searchStories(await fetchText(searchUrl(search.query),{fetcher}),search)));
+  const existing=new Set(candidates.map(s=>s.id));
+  const extra=readingQueue(related.flatMap(r=>r.status==='fulfilled'?[r.value.filter(s=>!existing.has(s.id))]:[]),{now,limit:60});
+  const extraChecks=await mapLimit(extra,6,verifyStory);candidates=[...candidates,...extra];checks=[...checks,...extraChecks];
+  const stories = rankStories(checks.flatMap(r => r.value ? [r.value] : []), now, { broad:true, minScore:0, maxAgeHours:168, limit:250 });
   const nytLead=checks.find(r=>r.value?.nytHomeLead)?.value || raw.find(s=>s.nytHomeLead);
   const nytStatus={available:Boolean(nytLead),checkedAt:now.toISOString(),error:discovery[NEWS_FEEDS.findIndex(f=>f.homepageLead)]?.reason?.message || null};
   return {
     nytLead:nytLead ? {...nytLead,explanation:nytLead.explanation||nytLead.summary,feedChecked:true}:null,nytStatus,
-    schemaVersion: 2, mode: 'researched', editionKey: checkInWindow(now).key, stories,
+    schemaVersion: 2, editorialVersion:EDITORIAL_VERSION, mode: 'researched', editionKey: checkInWindow(now).key, stories,
     fetchedAt: now.toISOString(), checkedAt: now.toISOString(), sources: [...new Set(stories.map(s => s.source))],
-    providersAvailable: available, providersTotal: NEWS_FEEDS.length + NEWS_SECTIONS.length,
-    research: { rawCandidates: raw.length, candidatesReviewed: candidates.length, sourcePagesRead: pagesRead, primaryDatesChecked: primaryDatesRead,
+    providersAvailable: available, providersTotal: NEWS_FEEDS.length + NEWS_SEARCHES.length + NEWS_SECTIONS.length,
+    research: { liveSearches:NEWS_SEARCHES.length+searched.length, additionalSearchCandidates:extra.length, editorialVersion:EDITORIAL_VERSION, editorialAudit:checks.flatMap(r=>r.value?[{title:r.value.title,url:r.value.url,...editorialAssessment(r.value)}]:[]).sort((a,b)=>b.score-a.score).slice(0,40), rawCandidates: raw.length, candidatesReviewed: candidates.length, sourcePagesRead: pagesRead, primaryDatesChecked: primaryDatesRead,
       rejected: checks.filter(r => r.error).length,
       rejectedCandidates: checks.flatMap((r,i)=>r.error?[{title:candidates[i].title,url:candidates[i].url,reason:r.error}]:[]), qualifying: stories.length, eventDatesVerified:stories.filter(s => s.eventDateVerified).length,
       eventDatesUnconfirmed:stories.filter(s => !s.eventDateVerified).length,
       rejectionReasons:checks.filter(r => r.error).reduce((out,r) => ({...out,[r.error]:(out[r.error] || 0)+1}),{}), targetCandidates: 20,
-      discoverySources: [...NEWS_FEEDS,...NEWS_SECTIONS].map((s,i)=>({source:s.source,url:s.url,available:discovery[i].status==='fulfilled',candidates:discovery[i].value?.length || 0,error:discovery[i].reason?.message || null})),
-      method: 'Publisher sections and live feeds; balanced reading budget with no headline-score cutoff; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts.' },
+      discoverySources: [...NEWS_FEEDS,...NEWS_SEARCHES.map(s=>({...s,source:"Live news search",url:searchUrl(s.query)})),...NEWS_SECTIONS].map((s,i)=>({source:s.source,url:s.url,available:discovery[i].status==='fulfilled',candidates:discovery[i].value?.length || 0,error:discovery[i].reason?.message || null})),
+      method: 'Live news searches, publisher sections and feeds; reading budget balanced across publishers; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; evidence-based editorial rubric with 35% surprise, 30% consequence, 20% novelty, 15% personal relevance; attributed, cleaned source excerpts.' },
   };
 }

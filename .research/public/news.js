@@ -11,6 +11,7 @@ export const NEWS_FEEDS = [
   {url:'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml',source:'The New York Times',category:'Technology'},
   {url:'https://rss.nytimes.com/services/xml/rss/nyt/Science.xml',source:'The New York Times',category:'Science'},
   {url:'https://www.theguardian.com/world/ukraine/rss',source:'The Guardian',category:'World'},
+  {url:'https://www.theguardian.com/us-news/rss',source:'The Guardian',category:'U.S.'},
   {url:'https://www.theguardian.com/us-news/us-politics/rss',source:'The Guardian',category:'U.S.'},
   {url:'https://www.businessinsider.com/rss',source:'Business Insider',category:'Technology'},
   {url:'https://www.investing.com/rss/news_14.rss',source:'Investing.com',category:'World'},
@@ -108,6 +109,7 @@ export function readableHeadline(title, summary = '') {
 // to cancer, discovery, AI or education in someone's personal background.
 export function editoriallyEligible(story) {
   const title = story.title || '';
+  if(/\/live\/|\/live-news\//i.test(story.url || ''))return false;
   const opinion = /\/(?:commentisfree|opinion|editorials?|columnists?)\//i.test(story.url || '') || /\b(opinion|commentary|editorial|cartoon)\b/i.test(story.coverage || '') || /\bI have my doubts\b/i.test(title);
   const promotion = /\b(refurbished|shopping guide|best deals|invites media|media advisory|webinar|conference preview)\b/i.test(title);
   const imageFeature=/\bImage (?:of the Day|Article)\b/i.test(String(story.editorialText || story.explanation || '').split(/\s+/).slice(0,45).join(' '));
@@ -385,22 +387,114 @@ export function personalRelevance(story) {
     connection:/\b(variable frequency drives?|motor controllers?)\b/i.test(story.title) ? 'Motor-speed controllers connect to electronics, control systems, and energy efficiency.' : /\bAI\b/i.test(story.title) && /\bmaterials?\b/i.test(story.title) ? 'AI that searches for useful material properties connects computing with materials and battery research.' : primary?.connection || (localImpact?'School, education, or public-safety developments in Massachusetts or Texas.':null),critical};
 }
 
+// Version the editorial policy so a scheduled run repairs an older edition once.
+export const EDITORIAL_VERSION = 'evidence-first-2026-10-25';
+
+export function cleanNewsText(value) {
+  // Source footers are not reporting. Stop before biographies, rights notices,
+  // related links and subscription pitches so they cannot influence selection.
+  return plainText(value)
+    .split(/\b(?:Who['’]s behind this story\?|Citation:|This document is subject to copyright|About the author|Related (?:stories|articles):|More information:|Journal information:|Media Contacts?:)\s*|©\s*20\d{2}/i)[0]
+    .replace(/Get our breaking news email, free app or daily news podcast/gi,' ')
+    .replace(/Continue reading\.{0,3}/gi,' ')
+    .replace(/\bRecommended Videos\b/gi,' ')
+    .replace(/\b(?:Sign up for|Subscribe to) our [^.!?]{0,140}(?:[.!?]|$)/gi,' ')
+    .replace(/\s+/g,' ').trim();
+}
+
+export function editorialAssessment(story) {
+  const title=cleanNewsText(story.title || '');
+  const lead=cleanNewsText(story.editorialText || story.explanation || story.originalSummary || story.summary || '').split(/\s+/).slice(0,180).join(' ');
+  const text=title+'. '+lead;
+  const sentences=[...new Intl.Segmenter('en',{granularity:'sentence'}).segment(text)].map(s=>s.segment.trim());
+  const evidence={};
+  const support=(name,patterns)=>{
+    const sentence=sentences.find(s=>!(/demonstrated result|unexpected finding/.test(name)&&/\b(never|not|no longer|first author|previously|formerly|may|might|could|would|plans to)\b/i.test(s))&&patterns.every(re=>re.test(s)));
+    if(sentence)evidence[name]=sentence.slice(0,320);
+    return Boolean(sentence);
+  };
+  // Each signal needs an action and an outcome in the same sentence. Publisher
+  // category, institution names and topic words alone never establish a result.
+  const research=support('demonstrated result',[
+    /\b(researchers?|scientists?|engineers?|team|study|experiment|tests?|NASA|telescope|astronomers?|physicists?|biologists?|software|sensor|robot|prototype|AI|model)\b/i,
+    /\b(built|builds?|created?|developed|designed?|tested?|demonstrat\w*|discover\w*|found|finds?|detect\w*|reveals?|revealed|achieved|measured|identified|observed|works?|powered|powering|harvest\w*|captures?|reduc\w*|prevent\w*|can (?:power|detect|measure|build|run))\b/i
+  ]);
+  const practical=support('concrete use',[
+    /\b(power\w*|charg\w*|detect\w*|measure\w*|prevent\w*|protect\w*|reduc\w*|build\w*|create\w*|design\w*|treat\w*|repair\w*|recycl\w*|remove\w*|operat\w*|control\w*|record\w*)\b/i,
+    /\b(batter(?:y|ies)|fires?|sensors?|electric(?:ity| cars?| vehicles?)|robots?|controllers?|drinking water|drugs?|patients?|disease|blind|paraly\w*|hearing|phones?|computers?|passwords?|personal data|private|emails?|photographs?|photos|images|gloves|lamps|objects)\b/i
+  ]);
+  const privacy=support('personal technology consequence',[
+    /\b(Google|Gmail|Photos|AI|ChatGPT|Apple|Meta|apps?|software|devices?|technology|glasses|models?|company|it)\b/i,
+    /\b(privacy|private|hacking|hackers?|vulnerabilit\w*|cybersecurity|record\w*|personal data|emails?|advertis\w*|tracking|passwords?)\b/i,
+    /\b(chang\w*|allow\w*|expos\w*|us(?:e|es|ed|ing)|collect\w*|remov\w*|reduc\w*|disabl\w*|bug|breach\w*|leak\w*|train\w*|exclud\w*|unauthorized|deliberately)\b/i
+  ]);
+  const tradeoff=support('unexpected tradeoff',[
+    /\b(without|battery.free|self.power\w*|deliberately|intentionally|despite|instead of|yet|but|unexpected\w*|contrary|challeng\w*|overturn\w*|unable|couldn['’]t)\b/i,
+    /\b(batter(?:y|ies)|worse|hacking|power\w*|flies|fly|flight|paid|cost\w*|billion|million|theor\w*|belief\w*|understanding|surviv\w*|assumption\w*)\b/i
+  ]);
+  const measured=support('measured change',[
+    /\b\d+(?:\.\d+)?\s*(?:%|times|fold|hours?|years?|nanowatts?|kilometers?|km|miles?|flights?|people|households?|injur\w*)\b/i,
+    /\b(faster|slower|fewer|less|more|efficien\w*|reduc\w*|improv\w*|power\w*|operat\w*|record|without|injur\w*|killed|cancel\w*|displac\w*)\b/i
+  ]);
+  const breakthrough=support('unexpected finding',[
+    /\b(found|discovered|observed|detected|demonstrated|revealed|achieved|built|broke|breaks?|first)\b/i,
+    /\b(first|record|unexpected|impossible|never|thought extinct|survived|defies|challenges|revers\w*|unexpectedly)\b/i
+  ]);
+  const publicAction=support('public consequence',[
+    /\b(government|Congress|court|judge|president|military|troops|officials|law|police|central bank|authorities|voters|protests?|protesters?|earthquake|typhoon|hurricane)\b/i,
+    /\b(approved|passed|ordered|signed|blocked|banned|struck|attacked|killed|injured|evacu\w*|arrest\w*|closed|shut|cut|cuts|raises?|vot\w*|election|ceasefire|resign\w*|sanctions|tariffs|overturned)\b/i
+  ]);
+  const massImpact=support('scale',[
+    /\b(millions|thousands|hundreds|nationwide|national|across the country|billion|\d[\d,]* (?:people|injuries|flights|households|arrests))\b/i,
+    /\b(affect\w*|protest\w*|arrest\w*|injur\w*|killed|lost|power|electricity|cancel\w*|access|cost\w*|aid|funding|scholarships|privacy|closed|shut)\b/i
+  ]);
+  const access=support('student access change',[
+    /\b(admissions?|undergraduate|scholarships?|tuition|financial aid|FAFSA|ROTC|student visas?|research opportunities)\b/i,
+    /\b(changes?|changed|cuts?|cut|expands?|expanded|ends?|ended|eliminat\w*|raises?|raised|opens?|opened|eligibility|free|full.tuition|funding|approved)\b/i
+  ]);
+  const headlineScience=/\b(AI|artificial intelligence|ChatGPT|Google|Gmail|software|comput\w*|robots?|sensors?|batter(?:y|ies)|electric\w*|graphene|engineers?|scientists?|researchers?|telescope|astronom\w*|NASA|spacecraft|Moon|Mars|rocket|discov\w*|fossil|bird|dinosaur|physics|biology|material|fusion|quantum|chip|privacy|smart glasses)\b/i.test(title);
+  const weather=/\b(storms?|typhoon|hurricane|floods?|tornado|rain|snow)\b/i.test(title) && !/\b(sensor|forecast|engineers?|scientists?|model|satellite)\b/i.test(title);
+  const appointment=/\b(offers?|nominat\w*|selects?|selected|appoint\w*|named|joins?|honou?rs?)\b/i.test(title) && /\b(astronaut|mission|researcher|scientist|professor|engineer)\b/i.test(title);
+  const routinePublic=/\b(rallies|endorses?|praises?|slams?|criticizes?|attacks? verbally|campaign trail|campaign speech|campaigns? for|campaigns? against|pledges?)\b/i.test(title) && !/\b(No Kings|nationwide|mass protests?|arrest\w*|injur\w*|killed|assassinat\w*|resign\w*)\b/i.test(title);
+  const background=/^(?:why |how |does |should |a look (?:at|inside) )|\?\s*$/i.test(title) || /\b(analysis|explainer|opinion)\b/i.test(story.coverage || '');
+  const scoreboard=/\b(live (?:\w+ ){0,3}results|live updates|as it happened|what we know)\b/i.test(title);
+  const theoryOnly=/\b(could|might|may|potential|theoretical)\b/i.test(title) && !research && !privacy && !access;
+  const productOnly=/\b(unveils?|launches?|introduces?|releases?|newest|new model)\b/i.test(title) && !privacy && !tradeoff && !measured && !breakthrough && !access;
+  const relevance=personalRelevance(story).score;
+  const dimensions={
+    surprise:tradeoff?95:breakthrough?85:measured?70:privacy?65:publicAction&&massImpact?65:25,
+    consequence:publicAction&&massImpact?95:access?90:privacy?85:publicAction?75:practical?60:research?35:20,
+    novelty:tradeoff&&research?90:breakthrough?85:research&&practical?80:research?70:privacy?70:publicAction?55:20,
+    relevance,
+  };
+  const score=Math.round(Object.entries(NEWS_WEIGHTS).reduce((n,[k,w])=>n+dimensions[k]*w,0)*10)/10;
+  const reasons=[];
+  if(background)reasons.push('Background explanation or opinion rather than a new reported development.');
+  if(weather)reasons.push('Weather disruption is not a science or engineering result.');
+  if(appointment)reasons.push('An appointment or proposed mission participant is not a completed achievement.');
+  if(theoryOnly)reasons.push('A prediction without a demonstrated result.');
+  if(productOnly)reasons.push('Routine launch without a substantial consequence or measured advance.');
+  if(routinePublic)reasons.push('Campaign appearance or reaction without a consequential action.');
+  if(scoreboard)reasons.push('A live scoreboard is not a self-contained news report.');
+  const personalEligible=!reasons.length && (access || headlineScience&&(research||privacy)) && score>=45;
+  if(!personalEligible && !reasons.length)reasons.push('No clear, understandable science/technology result or student-access change.');
+  return {version:EDITORIAL_VERSION,score,dimensions,personalEligible,routinePublic:routinePublic||scoreboard,evidence,reasons};
+}
+
 export function personalStoryEligible(story) {
   if(!editoriallyEligible(story) || !studentAccessibility(story).accessible || conflictTopic(story))return false;
-  const title=story.title || '',lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,110).join(' ');
+  if(!editorialAssessment(story).personalEligible)return false;
+  const title=story.title || '';
   // Corporate compliance, investor coverage and professional tutorials do not
   // become a student's building/science story because they mention chips or AI.
   const businessProcess=/\b(waivers?|compliance|lobbying|earnings|investors?|funding round|accreditor|administrative staff|executive staff|CEO|stocks?|shares?|stock market|price target|designat(?:es?|ed|ion)|critical material)\b/i.test(title);
   const punditry=/\b(warns?|reacts?|experts? say|legal experts|could still|growing wave|Q&A|interview|preview|symposium|guidelines)\b/i.test(title);
-  const professional=/\b(PHP|CVE-\d|kernel|enterprise|database migration|patch management|renal|enzyme|molecular|phonon|spintronic|botnet|homebrew)\b/i.test(title+' '+lead) || /\babandoned\b.*\bapps?\b/i.test(title);
+  const professional=/\b(PHP|CVE-\d|kernel|database migration|patch management|renal|phonon|spintronic|botnet|homebrew)\b/i.test(title) || /\babandoned\b.*\bapps?\b/i.test(title);
   const routineAdoption=/\b(uses?|adopts?|rolls? out)\b.{0,75}\b(ChatGPT|AI tools?|copilot)\b/i.test(title);
   const conversationalLaunch=/\b(?:AI model|chatbot)\b.{0,70}\b(?:friend|talks to you|companion)\b/i.test(title);
   const careerProfile=/\bwent from\b.+\bto\b/i.test(title) || /\b(career profile|meet the engineer|day in the life)\b/i.test(title);
   if(businessProcess || punditry || professional || routineAdoption || conversationalLaunch || careerProfile)return false;
-  const r=personalRelevance(story);
-  const direct=/\b(AI|ChatGPT|computer|computing|smart glasses|software|cybersecurity|password|privacy|phones?|laptops?|apps?|robot\w*|sensors?|chips?|battery|batteries|electric cars?|electric vehicles?|materials?|energy|electricity|space|NASA|rover|Mars|Moon|astronaut|telescope|rockets?|admissions?|scholarships?|tuition|financial aid|college applicants?|undergraduate|ROTC|FAFSA|research opportunit\w*|high.school|students?)\b/i.test(title);
-  const concrete=/\b(built|builds?|created?|design\w*|demonstrat\w*|discover\w*|found|finds?|achiev\w*|breaks?|broke|record|first|new|improves?|reduces?|safer|fire|protect\w*|hack\w*|ban\w*|costs?|cuts?|expand\w*|changes?|opens?|approved|released|launched)\b/i.test(title+' '+lead);
-  return direct && concrete && r.score>=60;
+  return true;
 }
 
 export function newsGeography(story) {
@@ -418,19 +512,20 @@ export function newsGeography(story) {
 // development. Geography alone and a publisher's section tag are insufficient.
 export function publicNewsScope(story) {
   const title=story.title || '';
+  if(editorialAssessment(story).routinePublic)return null;
   const lead=String(story.editorialText || story.explanation || story.summary || '').split(/\s+/).slice(0,100).join(' ');
   if(/\?\s*$/.test(title) || /^\s*(how |why |inside |the science of |a guide to )/i.test(title)
     || /\b(explainer|analysis|commentary|opinion|column|approval ratings?|book review|literary|Shakespeare|playwright|museum exhibition|art exhibition)\b/i.test(title)) return null;
   if(/\b(would|could|might|may)\b/i.test(title) && !/\b(approved|approves?|passed|passes|ordered|orders?|signed|announced|banned|attacked|struck|killed|launched|overturned|ruled|blocks?|blocked|cuts?|suspended|filed|sues?|sued|resigns?)\b/i.test(title))return null;
-  const publicSubject=/\b(presidents?|prime minister|government|Congress|Senate|Supreme Court|courts?|judges?|elections?|vot(?:e|es|ers|ing)|ballots?|midterms?|protests?|demonstrations?|rallies|No Kings|military|troops?|missiles?|airstrikes?|fighter jets?|drones?|war|ceasefire|sanctions?|tariffs?|Federal Reserve|central bank|inflation|unemployment|stock market|earthquake|hurricane|wildfire|pandemic|public health|school funding|education funding|statewide|nationwide)\b/i;
-  const development=/\b(approve(?:s|d)?|pass(?:es|ed)?|orders?|ordered|signs?|signed|strikes?|attacks?|hits?|killed|kills?|arrests?|arrested|rallies|protests?|demonstrations?|votes?|voted|elections?|ban(?:s|ned)?|rul(?:es|ed|ing)|suspend\w*|waiv\w*|sanctions?|ceasefire|shoot down|shot down|launch\w*|resigns?|resigned|collapsed|evacu\w*|cuts?|raises?|changes?|expands?|surges?|crash\w*|outbreak|deaths?|ablaze)\b/i;
+  const publicSubject=/\b(presidents?|prime minister|government|Congress|Senate|Supreme Court|courts?|judges?|elections?|vot(?:e|es|ers|ing)|ballots?|midterms?|protests?|demonstrations?|rallies|No Kings|military|troops?|missiles?|airstrikes?|fighter jets?|drones?|war|ceasefire|sanctions?|tariffs?|Federal Reserve|central bank|inflation|unemployment|stock market|earthquake|hurricane|typhoon|wildfire|pandemic|public health|school funding|education funding|statewide|nationwide)\b/i;
+  const development=/\b(approve(?:s|d)?|overturn(?:s|ed)?|revers(?:es|ed)|pass(?:es|ed)?|orders?|ordered|signs?|signed|strikes?|attacks?|hits?|killed|kills?|arrests?|arrested|rallies|protests?|demonstrations?|votes?|voted|elections?|ban(?:s|ned)?|rul(?:es|ed|ing)|suspend\w*|waiv\w*|sanctions?|ceasefire|shoot down|shot down|launch\w*|resigns?|resigned|collapsed|evacu\w*|cuts?|raises?|changes?|expands?|surges?|crash\w*|outbreak|deaths?|ablaze)\b/i;
   // A background passage about national issues cannot turn a technical or
   // cultural headline into a current public-news development.
   if(!publicSubject.test(title+' '+lead) || !development.test(title))return null;
   const scope=newsGeography(story);
   const context=title+' '+lead;
   const nationalScale=/\b(national|nationwide|across (?:the )?(?:U\.S\.|US|United States|country)|federal|president|White House|Congress|Senate|Supreme Court|Federal Reserve|No Kings|midterms?|statewide|governor|state government|Massachusetts|Texas|millions|thousands|hundreds)\b/i.test(context);
-  const internationalScale=/\b(president|prime minister|government|military|troops?|missiles?|airstrikes?|fighter jets?|war|ceasefire|sanctions?|tariffs?|national|nationwide|central bank|stock market|inflation|unemployment|earthquake|hurricane|wildfire|pandemic|outbreak|thousands|hundreds|millions)\b/i.test(context);
+  const internationalScale=/\b(president|prime minister|government|military|troops?|missiles?|airstrikes?|fighter jets?|war|ceasefire|sanctions?|tariffs?|national|nationwide|central bank|stock market|inflation|unemployment|earthquake|hurricane|typhoon|wildfire|pandemic|outbreak|thousands|hundreds|millions)\b/i.test(context);
   if(scope==='us' && nationalScale)return 'us';
   if(scope==='world' && internationalScale)return 'world';
   if(/\b(Federal Reserve|Congress|Senate|IRS|FBI|Supreme Court)\b/.test(title))return 'us';
@@ -496,31 +591,19 @@ export function studentAccessibility(story) {
 }
 
 export function studentPresentation(story) {
-  const text=`${story.title} ${story.editorialText || ''} ${story.explanation || ''}`;
-  let explanation=story.explanation || story.summary || '', displayTitle=story.displayTitle || story.title, summaryKind=story.summaryKind;
-  const short=String(story.originalSummary || '').trim(), words=short.split(/\s+/).length;
-  if(words>=30 && words<=130 && studentAccessibility({...story,editorialText:short}).score>=70){explanation=short;summaryKind='Publisher summary';}
-  // These rewrites require the supporting source facts; they never infer a fix.
-  if(/Ray.Ban|Meta.*smart glasses/i.test(text) && /record\w* inadvertently|record\w*.*without.*consent/i.test(text+' '+(story.url || ''))){
-    displayTitle='A bug made Meta’s smart glasses record audio unexpectedly';
-    explanation=`${story.source} reports that a bug in Meta’s Ray-Ban smart glasses could make them record audio by accident. `;
-    if(/bug is fixed/i.test(short))explanation+='The report says the bug has been fixed, but privacy concerns remain. ';
-    if(/glasses light up|recording light|light.*recording/i.test(text))explanation+='The glasses have a light that shows when they are recording, but that does not guarantee a recording was intentional. ';
-    explanation+='That matters both to the person wearing the glasses and to anyone nearby who might be recorded.';
-    summaryKind='Plain-language source summary';
-  }
-  if(/Roman Space Telescope/i.test(story.title) && /image quality nearly 30% better than predicted/i.test(text+' '+short))displayTitle='NASA’s new telescope beat its image-quality target by nearly 30%';
-  if(/design software.*self-aware/i.test(story.title) && /X.Hinges/.test(text) && /two different materials/i.test(text)){
-    displayTitle='MIT’s new design tool puts sensors inside 3D-printed objects';
-    explanation='MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.';
-    summaryKind='Plain-language source summary';
-  }
-  if(/NASA, Partners Accelerate Lander Development/i.test(story.title) && /2028/.test(text) && /Orion/.test(text) && /orbit/i.test(text)){
-    displayTitle='NASA changes how its next Moon landers will meet astronauts';
-    explanation='NASA is changing part of the plan for returning astronauts to the Moon in 2028. The Orion capsule carries the crew, and a separate commercial lander takes two astronauts down to the surface while two stay aboard Orion. The spacecraft must meet and connect above the Moon. Instead of requiring every lander to use one particular orbit, NASA now plans to choose the meeting orbit for each partner’s spacecraft. This is a new mission-planning announcement about a future landing, with the spacecraft still being developed.';
-    summaryKind='Plain-language source summary';
-  }
-  return {...story,displayTitle,explanation,summary:explanation,summaryKind};
+  const original=cleanNewsText(story.explanation || story.summary || story.originalSummary || '');
+  // General wording changes apply to tomorrow's articles too. Never generate
+  // extra facts, fixes, applications, numbers, or outcomes from a headline.
+  const explanation=original.replace(/\binadvertently\b/gi,'by accident')
+    .replace(/\boffensive cyber operations\b/gi,'cyberattacks')
+    .replace(/\breinforcement-learning environments\b/gi,'training exercises')
+    .replace(/\bultra-low-power temperature sensors\b/gi,'temperature sensors that use very little electricity')
+    .replace(/\bnanowatt-scale power\b/gi,'extremely small amounts of electrical power')
+    .replace(/\bthermal runaway\b/gi,'a chain reaction of battery overheating')
+    .replace(/\bphotovoltaic cells\b/gi,'solar cells')
+    .replace(/\butiliz(?:e|es|ing)\b/gi,m=>({utilize:'use',utilizes:'uses',utilizing:'using'}[m.toLowerCase()]));
+  const summaryKind=explanation===original?story.summaryKind:'Source excerpt with simpler wording';
+  return {...story,displayTitle:story.displayTitle || story.title,explanation,summary:explanation,summaryKind};
 }
 
 export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=new Date(),nytLead=null}={}) {
@@ -532,10 +615,9 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
   const archives=fallback.filter(checkedPersonalReport).filter(editoriallyEligible).filter(s=>+now-Date.parse(s.publishedAt)<=7*86400000 && s.articleAccess!=='paywalled');
   const chosen=[];
   const unused=s=>!chosen.some(p=>samePersonalDevelopment(p,s)) && (!conflictTopic(s) || !chosen.some(p=>conflictTopic(p)===conflictTopic(s)));
-  const score=s=>s.score??interestScore(s).score;
   const relevance=s=>personalRelevance(s);
-  const quality=s=>score(s)+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;
-  const personalPriority=s=>relevance(s).score*.45+quality(s)*.30+studentAccessibility(s).score*.25-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*4;
+  const quality=s=>editorialAssessment(s).score+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3;
+  const personalPriority=s=>editorialAssessment(s).score-Math.max(0,(+now-Date.parse(s.publishedAt))/3600000-24)*.4+(s.freshness==='24h'?3:0)-chosen.filter(p=>p.source===s.source).length*3-chosen.filter(p=>p.personalTopic && p.personalTopic===relevance(s).primaryTopic).length*4;
   const preservesDefaultSlots=s=>{
     const geo=publicNewsScope(s);
     if(!['us','world'].includes(geo) || chosen.some(p=>p.briefingSlot===(geo==='us'?4:5)))return true;
@@ -547,8 +629,8 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
     -(personal?personalPriority(a):quality(a)))[0];
   const put=(s,slot,label,flags={})=>{
     if(!s)return;const r=relevance(s);
-    const presented=[2,3].includes(slot)?studentPresentation(s):s;
-    chosen.push({...presented,briefingSlot:slot,slotLabel:label,personalTopic:r.primaryTopic,whyForYou:r.connection,selectedEdition:key,...flags});
+    const presented=[2,3].includes(slot)?studentPresentation(s):{...s,explanation:cleanNewsText(s.explanation || s.summary),summary:cleanNewsText(s.explanation || s.summary)};
+    chosen.push({...presented,editorial:editorialAssessment(s),briefingSlot:slot,slotLabel:label,personalTopic:r.primaryTopic,whyForYou:r.connection,selectedEdition:key,...flags});
   };
   // First means first in NYT's official HomePage RSS order, not most-clicked.
   const lead=checkedPersonalReport(nytLead)?nytLead:current.find(s=>s.nytHomeLead && s.source==='The New York Times');
@@ -558,9 +640,10 @@ export function selectPersonalBriefing(stories,{key,history={},fallback=[],now=n
     if(previous)put(previous,1,'NYT lead · saved',{carriedForward:true,nytUnavailable:true});
     else put(pick(recent,s=>!personalStoryEligible(s)&&preservesDefaultSlots(s))||pick(archives,s=>!personalStoryEligible(s)&&preservesDefaultSlots(s))||pick(recent,()=>true)||pick(archives,()=>true),1,'Top story · NYT unavailable',{nytUnavailable:true});
   }
-  const goodPersonal=s=>personalStoryEligible(s) && score(s)>=(relevance(s).score>=80?12:32);
+  const goodPersonal=s=>personalStoryEligible(s);
   for(const slot of [2,3]) {
-    let s=pick(recent,goodPersonal,true),flags={carriedForward:false,olderReport:false};
+    let s=pick([...recent,...older.filter(s=>+now-Date.parse(s.publishedAt)<=72*3600000)],goodPersonal,true),flags={carriedForward:false,olderReport:false};
+    if(s)flags.olderReport=!recent.some(r=>r.id===s.id);
     if(!s){s=pick(older,goodPersonal,true);flags.olderReport=true;}
     if(!s){s=pick(archives,s=>goodPersonal(s)&&!alreadySeen(s),true);flags={olderReport:true};}
     if(!s){s=pick(archives,goodPersonal,true);flags={carriedForward:true};}

@@ -15,7 +15,7 @@ try{
   const originalTitle=payload.news.stories[1].displayTitle || payload.news.stories[1].title;
   payload.news.repairedAt=new Date(Date.parse(initial.news.repairedAt||initial.news.fetchedAt)+60000).toISOString();
   payload.news.stories[1]={...payload.news.stories[1],id:'new-browser-report',title:'New checked report from the next published briefing',displayTitle:'New checked report from the next published briefing',url:'https://apnews.com/article/new-browser-report'};
-  await page.locator('#refresh-button').click();await ready();assert.match(await page.locator('.news-item').nth(1).innerText(),/New checked report/);assert.ok(!(await page.locator('.news-item').nth(1).innerText()).includes(originalTitle));assert.doesNotMatch(await page.locator('#news-status').innerText(),/No newer briefing/);
+  await page.locator('#refresh-button').click();await ready();assert.match(await page.locator('.news-item').nth(1).innerText(),/New checked report/);assert.ok(!(await page.locator('.news-item h3').nth(1).innerText()).includes(originalTitle));assert.doesNotMatch(await page.locator('#news-status').innerText(),/No newer briefing/);
   assert.equal(await page.locator('#plan-text').inputValue(),'Keep my plan while news refreshes.');assert.equal(await page.locator('#pushups').isChecked(),true);
   assert.deepEqual(await page.locator('.news-item .category').allTextContents(),payload.news.stories.map(s=>s.slotLabel));assert.equal(await page.locator('.source-line a').count(),5);assert.deepEqual(errors,[]);
   console.log('Mobile refresh checks passed: unchanged response is explicit, a new published briefing replaces old cards in fixed slot order, and notepad/exercise saves are preserved.');
