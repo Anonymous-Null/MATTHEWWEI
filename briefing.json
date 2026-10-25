@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-25T09:21:35.838Z",
+  "fetchedAt": "2026-10-25T13:53:49.307Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
       "url": "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
       "title": "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War",
       "summary": "With new intelligence and the possibility of all sides seeking pretexts for action, the war in Iran is entering a dangerous phase ahead of elections in the United States and Israel.",
-      "publishedAt": "2026-10-25T01:06:17.000Z",
+      "publishedAt": "2026-10-25T13:38:36.000Z",
       "source": "The New York Times",
       "category": "Top story",
       "coverage": "Source report",
@@ -22,23 +22,23 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-25T09:21:35.838Z"
+      "checkedAt": "2026-10-25T13:53:49.307Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-25T09:21:35.838Z",
+      "checkedAt": "2026-10-25T13:53:49.307Z",
       "error": null
     },
     "schemaVersion": 2,
     "mode": "researched",
-    "editionKey": "2026-10-24-pm",
+    "editionKey": "2026-10-25-am",
     "stories": [
       {
         "id": "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
         "url": "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
         "title": "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War",
         "summary": "With new intelligence and the possibility of all sides seeking pretexts for action, the war in Iran is entering a dangerous phase ahead of elections in the United States and Israel.",
-        "publishedAt": "2026-10-25T01:06:17.000Z",
+        "publishedAt": "2026-10-25T13:38:36.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -54,16 +54,16 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-25T09:21:35.838Z",
+        "checkedAt": "2026-10-25T13:53:49.307Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-24-pm",
+        "selectedEdition": "2026-10-25-am",
         "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
       },
       {
         "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
@@ -109,12 +109,12 @@
         "slotLabel": "For you",
         "personalTopic": "aviation-space",
         "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-24-pm",
+        "selectedEdition": "2026-10-25-am",
         "carriedForward": true,
         "olderReport": false,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
       },
       {
         "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
@@ -134,7 +134,7 @@
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
         "primaryDoi": null,
         "eventDate": "2026-10-22",
         "eventKind": "Announcement published",
@@ -164,97 +164,95 @@
         "slotLabel": "For you",
         "personalTopic": "ai-computing",
         "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-24-pm",
+        "selectedEdition": "2026-10-25-am",
         "carriedForward": true,
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
-        "publishedAt": "2026-10-25T00:14:30.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 2,
-        "nytHomeLead": false,
-        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
-        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
-        "sourcePageChecked": true,
-        "articleAccess": "readable",
-        "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
-        "primaryDoi": null,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "checkedAt": "2026-10-25T00:51:49.833Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-24-pm",
-        "carriedForward": true,
-        "olderReport": false,
-        "slotOverride": true,
-        "overrideReason": "No qualifying report for this slot; retaining sourced coverage."
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-        "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-        "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
-        "summary": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied.",
-        "publishedAt": "2026-10-25T08:00:58.000Z",
+        "id": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "url": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "title": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
+        "summary": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners.",
+        "publishedAt": "2026-10-25T13:43:19.000Z",
         "source": "The Guardian",
         "category": "World",
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.theguardian.com/world/rss",
-        "feedRank": 6,
+        "feedRank": 21,
         "nytHomeLead": false,
-        "editorialText": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. The gap between them was the narrowest ever recorded in a first round, at less than 2% of the vote, and the 81-year-old president has spent much of the runoff campaign focused on turnout – abstention reached a record high in the first round and disproportionately affects his voters – and on stoking fears over what a return to power by a member of the Bolsonaro family could mean. A congressman for more than 20 years with few bills passed, the 45-year-old Bolsonaro is the eldest son of the former president Jair Bolsonaro, who is under house arrest serving a 27-year sentence for attempting a coup to overturn his",
-        "originalPublishedAt": "2026-10-25T08:00:58.000Z",
+        "editorialText": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners. Trump has long tried to convince voters that his tariffs are helping to increase the number of manufacturing jobs in the US, and has seized on any new factory investments. However, US vehicle and parts employment has fallen since Trump took office last year. Audi, Volkswagen’s most important premium brand, has suffered from Trump’s 15% tariffs on imports from the",
+        "originalPublishedAt": "2026-10-25T13:43:19.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
         "primaryDoi": null,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "dateEvidenceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied.",
+        "explanation": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/d1353a7e5254aa2f3a8330bdb3468e28a934e47d/391_195_3258_2605/master/3258.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f885a14feea16757d1ab8043ffe4d83a",
+        "imageUrl": "https://i.guim.co.uk/img/media/3505a53736aa93c5c0c6865e0b06b5c8b49159c8/292_0_2917_2333/master/2917.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1c53e9936a3252778f1397e4b99185dc",
+        "imageCaption": "Audi CEO Gernot Döllner joined Trump on stage at a rally on Saturday to announce the factory in Macon, Georgia. Photograph: Friso Gentsch/EPA",
+        "imageSourceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "checkedAt": "2026-10-25T13:53:49.307Z",
+        "score": 63,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
+        "originalSummary": "VW investment creates 4,500 jobs in Georgia comes amid Trump’s damaging tariffs, intense Chinese competition and costly shift towards EVsAudi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump.The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-25-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "title": "Brazil election: Voters choose between Lula and Bolsonaro's son",
+        "summary": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory.",
+        "publishedAt": "2026-10-24T23:50:02.059Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 3,
+        "nytHomeLead": false,
+        "editorialText": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory. Never before has a candidate who trailed after the first round managed to overturn the deficit and win in the second round. The younger Bolsonaro appeared at a polling station in Rio de Janeiro early on Sunday morning, telling reporters outside that \"time has come for real change\". His supporters were jubilant at his final campaign rallies, confident that he would bring change to Brazil through his promised",
+        "originalPublishedAt": "2026-10-24T23:50:02.059Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5c93/live/6c2dbd80-d064-11f1-bbf5-99ed69f0d81f.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-        "checkedAt": "2026-10-25T09:21:35.838Z",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "checkedAt": "2026-10-25T13:53:49.307Z",
         "score": 73,
         "dimensions": {
           "surprise": 90,
@@ -263,59 +261,59 @@
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
-        "originalSummary": "Incumbent president lost in first round to senator and son of convicted ex-president Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote.Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. Continue reading...",
+        "displayTitle": "Brazil election: Voters choose between Lula and Bolsonaro's son",
+        "originalSummary": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-24-pm",
+        "selectedEdition": "2026-10-25-am",
         "carriedForward": false,
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-25T09:21:35.838Z",
-    "checkedAt": "2026-10-25T09:21:35.838Z",
+    "fetchedAt": "2026-10-25T13:53:49.307Z",
+    "checkedAt": "2026-10-25T13:53:49.307Z",
     "sources": [
       "The New York Times",
-      "The Guardian",
-      "ScienceDaily",
-      "Phys.org",
       "BBC News",
+      "Phys.org",
+      "The Guardian",
       "Ars Technica",
       "NPR",
       "ScienceAlert",
+      "ScienceDaily",
       "IEEE Spectrum"
     ],
     "providersAvailable": 34,
     "providersTotal": 49,
     "research": {
-      "rawCandidates": 940,
+      "rawCandidates": 934,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 175,
-      "primaryDatesChecked": 30,
-      "rejected": 79,
+      "sourcePagesRead": 174,
+      "primaryDatesChecked": 29,
+      "rejected": 78,
       "rejectedCandidates": [
         {
-          "title": "A tiny defect in a crystal reveals a big quantum surprise",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261022081302.htm",
+          "title": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023731.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "MIT scientists build a tiny robot that swims using living muscle cells",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261022081308.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "North Korea’s Kim Jong Un makes surprise China visit as ties strengthen",
-          "url": "https://www.investing.com/news/economy-news/north-koreas-kim-jong-un-makes-surprise-china-visit-as-ties-strengthen-4971072",
+          "title": "Earnings flood, Fed meeting will test rickety AI market rally",
+          "url": "https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-will-test-rickety-ai-market-rally-4971185",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Saudi Arabia intercepts drones and missiles as fighting with Yemen’s Houthis continues",
-          "url": "https://www.investing.com/news/commodities-news/saudi-arabia-intercepts-drones-and-missiles-as-fighting-with-yemens-houthis-continues-4971080",
+          "title": "Medpace CEO August Troendle sells $1.59 million in stock",
+          "url": "https://www.investing.com/news/insider-trading-news/medpace-ceo-august-troendle-sells-159-million-in-stock-93CH-4971193",
           "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "The U.S. is the largest grower of a cereal you've never heard of",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-5995613/the-u-s-is-the-largest-grower-of-a-cereal-youve-never-heard-of",
+          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "Time expert Philippe Richard on why scientists are changing how we keep time",
@@ -323,13 +321,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Blue Planet III is keeping the rough edges in the age of AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+          "title": "r/opensource just banned AI, non-English speakers, and more",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
+          "title": "Three giant black holes discovered in a galaxy from the dawn of time",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -338,18 +336,18 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "This sold-out plushie emits the grating hum of a real-life data center when you squeeze it",
-          "url": "https://www.businessinsider.com/plushie-ai-data-center-noise-hug-art-project-2026-10",
+          "title": "One of Google DeepMind's top execs says lifelong learners will have an edge in the AI workplace",
+          "url": "https://www.businessinsider.com/google-deepmind-lila-ibrahim-skills-to-get-hired-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK immigration crackdown threatens £15 billion care sector - Bloomberg",
-          "url": "https://www.investing.com/news/economy-news/uk-immigration-crackdown-threatens-15-billion-care-sector--bloomberg-4971064",
+          "title": "UK’s Rayner says no Brexit reopening as Burnham floats EU free movement",
+          "url": "https://www.investing.com/news/economy-news/uks-rayner-says-no-brexit-reopening-as-burnham-floats-eu-free-movement-4971174",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Goldman Sachs cuts Kospi target by 25% amid AI stock selloff",
-          "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-cuts-kospi-target-by-25-amid-ai-stock-selloff-4971079",
+          "title": "ArriVent reports phase 1 data for cancer drug ARR-217",
+          "url": "https://www.investing.com/news/company-news/arrivent-reports-phase-1-data-for-cancer-drug-arr217-93CH-4971187",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -358,13 +356,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Pennsylvania will require labels on AI-generated ads",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+          "title": "Google’s AI search changes upended online publishing",
+          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+          "title": "Scientists discover how pancreatic cancer rewrites its DNA to escape treatment",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024221849.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -373,28 +371,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Bill Gates predicts 20 years of turmoil before AI creates 'true abundance'",
-          "url": "https://www.businessinsider.com/bill-gates-ai-abundance-job-losses-unemployment-robots-musk-amodei-2026-10",
+          "title": "This sold-out plushie emits the grating hum of a real-life data center when you squeeze it",
+          "url": "https://www.businessinsider.com/plushie-ai-data-center-noise-hug-art-project-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UAE closes more beaches as Gulf oil spill raises environmental concerns",
-          "url": "https://www.investing.com/news/economy-news/uae-closes-more-beaches-as-gulf-oil-spill-raises-environmental-concerns-4971057",
+          "title": "Why look at real assets into 2027?",
+          "url": "https://www.investing.com/news/economy-news/why-look-at-real-assets-into-2027-4971168",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Xencor reports phase 1 data for cancer drug XmAb819",
-          "url": "https://www.investing.com/news/company-news/xencor-reports-phase-1-data-for-cancer-drug-xmab819-93CH-4971076",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
-          "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+          "title": "Blue Planet III is keeping the rough edges in the age of AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Dental implants can hijack your immune system, scientists discover",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261022081314.htm",
+          "title": "Astronomers may have discovered the first moon beyond our Solar System",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023736.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -403,8 +396,38 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
-          "url": "https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html",
+          "title": "The World's First Corporate Psychopath May Have Just Been Identified",
+          "url": "https://www.sciencealert.com/the-worlds-first-corporate-psychopath-may-have-just-been-identified",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Bill Gates predicts 20 years of turmoil before AI creates 'true abundance'",
+          "url": "https://www.businessinsider.com/bill-gates-ai-abundance-job-losses-unemployment-robots-musk-amodei-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "North Korea’s Kim Jong Un makes surprise China visit as ties strengthen",
+          "url": "https://www.investing.com/news/economy-news/north-koreas-kim-jong-un-makes-surprise-china-visit-as-ties-strengthen-4971072",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 2.65%",
+          "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-265-4971175",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Pennsylvania will require labels on AI-generated ads",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Too Much RNA Can Actually Starve Cells of Energy, Study Finds",
+          "url": "https://www.sciencealert.com/too-much-rna-can-actually-starve-cells-of-energy-study-finds",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -413,13 +436,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Should Aggregators block AI Agents?",
-          "url": "https://www.investing.com/news/economy-news/should-aggregators-block-ai-agents-4971047",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Anixa Biosciences president, COO, & CFO buys $15,620 in shares",
-          "url": "https://www.investing.com/news/insider-trading-news/anixa-biosciences-president-coo--cfo-buys-15620-in-shares-93CH-4971073",
+          "title": "UK immigration crackdown threatens £15 billion care sector - Bloomberg",
+          "url": "https://www.investing.com/news/economy-news/uk-immigration-crackdown-threatens-15-billion-care-sector--bloomberg-4971064",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -428,8 +446,18 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+          "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Sea cucumber–inspired gel could help heal damaged tissue in humans",
+          "url": "https://phys.org/news/2026-10-sea-cucumberinspired-gel-tissue-humans.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -438,8 +466,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Obama attacks Trump over inflation as Democrats fight for Michigan Senate seat",
-          "url": "https://www.investing.com/news/economy-news/obama-attacks-trump-over-inflation-as-democrats-fight-for-michigan-senate-seat-4971031",
+          "title": "UAE closes more beaches as Gulf oil spill raises environmental concerns",
+          "url": "https://www.investing.com/news/economy-news/uae-closes-more-beaches-as-gulf-oil-spill-raises-environmental-concerns-4971057",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Oklo chief of staff John Hanson sells $41,129 of stock",
+          "url": "https://www.investing.com/news/insider-trading-news/oklo-chief-of-staff-john-hanson-sells-41129-of-stock-93CH-4971172",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -448,13 +481,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "What to expect from Apple’s ‘Pro and tell’ event",
-          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
-          "reason": "Source requires a subscription"
+          "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
-          "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
+          "title": "Who should have a say in which species are saved? The California condor offers lessons for a global biodiversity treaty",
+          "url": "https://phys.org/news/2026-10-species-california-condor-lessons-global.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -463,19 +496,9 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
-          "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027",
+          "title": "Should Aggregators block AI Agents?",
+          "url": "https://www.investing.com/news/economy-news/should-aggregators-block-ai-agents-4971047",
           "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "5 big analyst AI moves: ’Uniquely catalyst-rich’ months ahead for SpaceX",
-          "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-uniquely-catalystrich-months-ahead-for-spacex-4970923",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Amber weather warning as Storm Boelo hits Scotland",
-          "url": "https://www.bbc.co.uk/news/videos/cmqlnkq6p6y7o",
-          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "'Swing State of the Union' podcast digs deep on issues weighing on Wisconsin voters",
@@ -483,8 +506,8 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
-          "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+          "title": "What to expect from Apple’s ‘Pro and tell’ event",
+          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
           "reason": "Source requires a subscription"
         },
         {
@@ -493,8 +516,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "How flare ribbons reveal hidden solar explosions on the sun",
-          "url": "https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html",
+          "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
+          "url": "https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -503,13 +526,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Yemen’s Houthis renew threat against Riyadh airport as flights set to resume",
-          "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
+          "title": "Obama attacks Trump over inflation as Democrats fight for Michigan Senate seat",
+          "url": "https://www.investing.com/news/economy-news/obama-attacks-trump-over-inflation-as-democrats-fight-for-michigan-senate-seat-4971031",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "BioNTech, Bristol Myers report lung cancer trial data",
-          "url": "https://www.investing.com/news/company-news/biontech-bristol-myers-report-lung-cancer-trial-data-93CH-4971066",
+          "title": "Amarin’s icosapent ethyl shows survival benefit in cancer trial",
+          "url": "https://www.investing.com/news/company-news/amarins-icosapent-ethyl-shows-survival-benefit-in-cancer-trial-93CH-4971165",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -518,18 +541,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Lee Chang Dong ponders the ethics of the camera",
-          "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
+          "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+          "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "A hidden bias in human language challenges 70 years of science",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
-          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
+          "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -538,23 +556,38 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
-          "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
+          "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
+          "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Laika has spent 20 years building up to Wildwood",
-          "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
+          "title": "Oklo CPO Renner sells $41,129 in stock after RSU vesting",
+          "url": "https://www.investing.com/news/insider-trading-news/oklo-cpo-renner-sells-41129-in-stock-after-rsu-vesting-93CH-4971164",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Amber weather warning as Storm Boelo hits Scotland",
+          "url": "https://www.bbc.co.uk/news/videos/cmqlnkq6p6y7o",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Lee Chang Dong ponders the ethics of the camera",
+          "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
+          "title": "This mysterious mushroom makes people see hundreds of tiny humans",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222021.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
-          "url": "https://www.sciencealert.com/as-water-crisis-continues-backup-water-supply-in-the-colorado-river-basin-is-also-drying-up",
+          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
+          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
+          "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -563,33 +596,33 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Ukraine says military Starlink service restored as Musk cites terms violations",
-          "url": "https://www.investing.com/news/economy-news/ukraine-says-military-starlink-service-restored-after-10day-disruption-4970760",
+          "title": "Trump floats unconstitutional third term at campaign rally in Iowa – video",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/trump-floats-unconstitutional-third-term-at-campaign-rally-in-iowa-video",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Yemen’s Houthis renew threat against Riyadh airport as flights set to resume",
+          "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Bitcoin tests $80K support in descending triangle: Live levels",
-          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-bull-flag-coils-at-81908-live-levels-93CH-4958174",
+          "title": "Everpure CVO John Colgrove sells $12.46M in stock",
+          "url": "https://www.investing.com/news/insider-trading-news/everpure-cvo-john-colgrove-sells-1246m-in-stock-93CH-4971155",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Weather warnings in place ahead of Storm Boelo",
-          "url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "It’s time to find a new browser",
-          "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
+          "title": "Laika has spent 20 years building up to Wildwood",
+          "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Both Low And High Testosterone Seem to Be Linked to an Irregular Heartbeat, Study Finds",
-          "url": "https://www.sciencealert.com/both-low-and-high-testosterone-seem-to-be-linked-to-an-irregular-heartbeat-study-finds",
+          "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
+          "url": "https://www.sciencealert.com/as-water-crisis-continues-backup-water-supply-in-the-colorado-river-basin-is-also-drying-up",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications",
-          "url": "https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html",
+          "title": "How flare ribbons reveal hidden solar explosions on the sun",
+          "url": "https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -598,33 +631,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Houthis launch broad assault on Saudi sites as U.S. warns of Iranian plots",
-          "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Video released in Mississippi police shooting of toddler",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013628/video-released-in-mississippi-police-shooting-of-toddler",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Xbox’s first chief operating officer is out after just a few months",
-          "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery",
-          "url": "https://www.sciencealert.com/miniature-ball-lightning-created-in-a-lab-could-help-solve-a-centuries-old-mystery",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
-          "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
+          "title": "A hidden bias in human language challenges 70 years of science",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -633,13 +641,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump floats unconstitutional third term at campaign rally in Iowa – video",
-          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/trump-floats-unconstitutional-third-term-at-campaign-rally-in-iowa-video",
-          "reason": "Source article was unavailable or too short"
+          "title": "Weather warnings in place ahead of Storm Boelo",
+          "url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years",
-          "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
+          "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -648,23 +656,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "These key races in the 2026 midterms will decide who controls the US Senate – video explainer",
-          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/these-key-races-in-the-2026-midterms-will-decide-who-controls-the-us-senate-video-explainer",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
-          "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023710.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Cleaner brick kilns cut pollution, but gains did not reach workers, research finds",
-          "url": "https://phys.org/news/2026-10-cleaner-brick-kilns-pollution-gains.html",
+          "title": "Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications",
+          "url": "https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -678,26 +671,26 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "One of Earth’s most powerful supervolcanoes is refilling with fresh magma",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023003214.htm",
+          "title": "The little-known investment Martin Lewis wants you to understand...",
+          "url": "https://www.bbc.co.uk/news/videos/c8ly0357prl7o",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "New long‑clawed British dinosaur is the first of its kind in Europe",
-          "url": "https://phys.org/news/2026-10-longclawed-british-dinosaur-kind-europe.html",
+          "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
+          "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "I woke up to panicked text messages about the PHP attacks. As a cybersecurity expert, here are the 3 things I tell people to do right away.",
-          "url": "https://www.businessinsider.com/three-steps-to-protect-website-against-php-vulnerabilities-ai-era-2026-10",
-          "reason": "Source requires a subscription"
         }
       ],
-      "qualifying": 85,
-      "eventDatesVerified": 20,
+      "qualifying": 84,
+      "eventDatesVerified": 19,
       "eventDatesUnconfirmed": 65,
       "rejectionReasons": {
-        "The actual event/announcement is more than a week old": 29,
+        "The actual event/announcement is more than a week old": 28,
         "Provider returned HTTP 403": 17,
         "Source article was unavailable or too short": 11,
         "Source requires a subscription": 22
@@ -757,7 +750,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
           "available": true,
-          "candidates": 16,
+          "candidates": 17,
           "error": null
         },
         {
@@ -771,7 +764,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
           "available": true,
-          "candidates": 31,
+          "candidates": 30,
           "error": null
         },
         {
@@ -813,7 +806,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 37,
+          "candidates": 32,
           "error": null
         },
         {
@@ -924,9 +917,9 @@
         {
           "source": "Nature",
           "url": "https://www.nature.com/nature.rss",
-          "available": true,
+          "available": false,
           "candidates": 0,
-          "error": null
+          "error": "fetch failed"
         },
         {
           "source": "Science",
@@ -946,7 +939,7 @@
           "source": "The Guardian",
           "url": "https://www.theguardian.com/science/rss",
           "available": true,
-          "candidates": 27,
+          "candidates": 26,
           "error": null
         },
         {
@@ -1050,17 +1043,12 @@
       ],
       "method": "Publisher sections and live feeds; balanced reading budget with no headline-score cutoff; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts.",
       "linkChecks": 5,
-      "rejectedLinks": [
-        {
-          "id": "https://apnews.com/article/trump-bbc-media-defamation-0a26fa60b265f55a9bcf7ed88cfacab8",
-          "reason": "Provider returned HTTP 403"
-        }
-      ]
+      "rejectedLinks": []
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 1,
-    "carriedCount": 3,
+    "freshCount": 2,
+    "carriedCount": 2,
     "olderCount": 0,
     "reserveStories": [
       {
@@ -1068,7 +1056,7 @@
         "url": "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
         "title": "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War",
         "summary": "With new intelligence and the possibility of all sides seeking pretexts for action, the war in Iran is entering a dangerous phase ahead of elections in the United States and Israel.",
-        "publishedAt": "2026-10-25T01:06:17.000Z",
+        "publishedAt": "2026-10-25T13:38:36.000Z",
         "source": "The New York Times",
         "category": "Top story",
         "coverage": "Source report",
@@ -1084,16 +1072,16 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-25T09:21:35.838Z",
+        "checkedAt": "2026-10-25T13:53:49.307Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
-        "selectedEdition": "2026-10-24-pm",
+        "selectedEdition": "2026-10-25-am",
         "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
       },
       {
         "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
@@ -1139,12 +1127,12 @@
         "slotLabel": "For you",
         "personalTopic": "aviation-space",
         "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-24-pm",
+        "selectedEdition": "2026-10-25-am",
         "carriedForward": true,
         "olderReport": false,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
       },
       {
         "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
@@ -1164,7 +1152,7 @@
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
         "primaryDoi": null,
         "eventDate": "2026-10-22",
         "eventKind": "Announcement published",
@@ -1194,8 +1182,112 @@
         "slotLabel": "For you",
         "personalTopic": "ai-computing",
         "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-24-pm",
+        "selectedEdition": "2026-10-25-am",
         "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "url": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "title": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
+        "summary": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners.",
+        "publishedAt": "2026-10-25T13:43:19.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 21,
+        "nytHomeLead": false,
+        "editorialText": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners. Trump has long tried to convince voters that his tariffs are helping to increase the number of manufacturing jobs in the US, and has seized on any new factory investments. However, US vehicle and parts employment has fallen since Trump took office last year. Audi, Volkswagen’s most important premium brand, has suffered from Trump’s 15% tariffs on imports from the",
+        "originalPublishedAt": "2026-10-25T13:43:19.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/3505a53736aa93c5c0c6865e0b06b5c8b49159c8/292_0_2917_2333/master/2917.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1c53e9936a3252778f1397e4b99185dc",
+        "imageCaption": "Audi CEO Gernot Döllner joined Trump on stage at a rally on Saturday to announce the factory in Macon, Georgia. Photograph: Friso Gentsch/EPA",
+        "imageSourceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "checkedAt": "2026-10-25T13:53:49.307Z",
+        "score": 63,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
+        "originalSummary": "VW investment creates 4,500 jobs in Georgia comes amid Trump’s damaging tariffs, intense Chinese competition and costly shift towards EVsAudi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump.The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-25-am",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "title": "Brazil election: Voters choose between Lula and Bolsonaro's son",
+        "summary": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory.",
+        "publishedAt": "2026-10-24T23:50:02.059Z",
+        "source": "BBC News",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "feedRank": 3,
+        "nytHomeLead": false,
+        "editorialText": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory. Never before has a candidate who trailed after the first round managed to overturn the deficit and win in the second round. The younger Bolsonaro appeared at a polling station in Rio de Janeiro early on Sunday morning, telling reporters outside that \"time has come for real change\". His supporters were jubilant at his final campaign rallies, confident that he would bring change to Brazil through his promised",
+        "originalPublishedAt": "2026-10-24T23:50:02.059Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5c93/live/6c2dbd80-d064-11f1-bbf5-99ed69f0d81f.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "checkedAt": "2026-10-25T13:53:49.307Z",
+        "score": 73,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Brazil election: Voters choose between Lula and Bolsonaro's son",
+        "originalSummary": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-25-am",
+        "carriedForward": false,
         "olderReport": false
       },
       {
@@ -2389,102 +2481,14 @@
         "selectedEdition": "2026-10-23-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-        "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-        "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
-        "summary": "A security researcher has demonstrated a software-only partial jailbreak of the Switch 2, gaining “userland” access that he says “lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO.” The hack relies on the original Switch version of SmileBasic 4, the latest in a long-running series of programming environments and interpreters that run on Nintendo hardware. The so-called “tethered” hack also requires access to a macOS or Linux PC on the same network to run a node.js package that helps enable privileged system access.",
-        "publishedAt": "2026-10-22T22:25:33.000Z",
-        "source": "Ars Technica",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
-        "feedRank": 5,
-        "nytHomeLead": false,
-        "editorialText": "A security researcher has demonstrated a software-only partial jailbreak of the Switch 2, gaining “userland” access that he says “lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO.” The hack relies on the original Switch version of SmileBasic 4, the latest in a long-running series of programming environments and interpreters that run on Nintendo hardware. The so-called “tethered” hack also requires access to a macOS or Linux PC on the same network to run a node.js package that helps enable privileged system access. Researcher Sammy Hajhamid writes that he used OpenAI’s Codex to poke at SmileBasic’s language interpreter, using a custom harness that could send USB commands to the system and view results via HDMI (as well as power cycling via a Bluetooth light switch flipping device). After “substantial effort for ~2 weeks,” that harness discovered a 32-bit integer overflow that occurs when removing items from an array in SmileBasic. That error gives access to an array pointer, which in turn",
-        "originalPublishedAt": "2026-10-22T22:25:33.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "A security researcher has demonstrated a software-only partial jailbreak of the Switch 2, gaining “userland” access that he says “lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO.” The hack relies on the original Switch version of SmileBasic 4, the latest in a long-running series of programming environments and interpreters that run on Nintendo hardware. The so-called “tethered” hack also requires access to a macOS or Linux PC on the same network to run a node.js package that helps enable privileged system access.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png",
-        "imageCaption": "",
-        "imageSourceUrl": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-        "checkedAt": "2026-10-23T15:06:25.328Z",
-        "score": 59.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 60,
-          "novelty": 85,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Switch 2 security takes a hit as hackers unlock homebrew access",
-        "originalSummary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "electronics-building",
-        "whyForYou": "Electrical engineering, embedded electronics, and building projects.",
-        "selectedEdition": "2026-10-23-am",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.nytimes.com/2026/10/23/us/midterm-campaign-finance.html",
-        "url": "https://www.nytimes.com/2026/10/23/us/midterm-campaign-finance.html",
-        "title": "Campaigns Spend Over $1 Billion Over Two Weeks in Final Search for Votes",
-        "summary": "Fueled by tens of millions from Elon Musk, President Trump’s super PAC, Michael Bloomberg and other big donors, both parties are pumping enormous amounts into the final days of the midterms.",
-        "publishedAt": "2026-10-23T14:27:50.000Z",
-        "source": "The New York Times",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
-        "feedRank": 6,
-        "nytHomeLead": false,
-        "nytFeedSummary": true,
-        "sourcePageChecked": false,
-        "explanation": "Fueled by tens of millions from Elon Musk, President Trump’s super PAC, Michael Bloomberg and other big donors, both parties are pumping enormous amounts into the final days of the midterms.",
-        "eventDate": null,
-        "eventDateVerified": false,
-        "summaryKind": "NYT public-feed summary · full article unavailable",
-        "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-23T15:06:25.328Z",
-        "score": 36.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Campaigns Spend Over $1 Billion Over Two Weeks in Final Search for Votes",
-        "originalSummary": "Fueled by tens of millions from Elon Musk, President Trump’s super PAC, Michael Bloomberg and other big donors, both parties are pumping enormous amounts into the final days of the midterms.",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-23-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
       "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
       "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
       "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-      "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-      "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
+      "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+      "https://www.bbc.co.uk/news/articles/cxp8g21j4648o"
     ]
   }
 }
