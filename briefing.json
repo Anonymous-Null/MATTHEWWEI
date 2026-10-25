@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T04:30:29.594Z",
+  "fetchedAt": "2026-10-25T09:21:35.838Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
@@ -14,11 +14,19 @@
       "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
       "feedRank": 1,
       "nytHomeLead": true,
-      "explanation": "With new intelligence and the possibility of all sides seeking pretexts for action, the war in Iran is entering a dangerous phase ahead of elections in the United States and Israel."
+      "nytFeedSummary": true,
+      "sourcePageChecked": false,
+      "articleAccess": "feed-only",
+      "explanation": "With new intelligence and the possibility of all sides seeking pretexts for action, the war in Iran is entering a dangerous phase ahead of elections in the United States and Israel.",
+      "eventDate": null,
+      "eventDateVerified": false,
+      "summaryKind": "NYT public-feed summary · full article unavailable",
+      "articleAccessError": "Provider returned HTTP 403",
+      "checkedAt": "2026-10-25T09:21:35.838Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-25T04:30:29.594Z",
+      "checkedAt": "2026-10-25T09:21:35.838Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -38,21 +46,24 @@
         "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
         "feedRank": 1,
         "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "articleAccess": "feed-only",
         "explanation": "With new intelligence and the possibility of all sides seeking pretexts for action, the war in Iran is entering a dangerous phase ahead of elections in the United States and Israel.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-25T09:21:35.838Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-24-pm",
-        "leadUnchanged": false,
+        "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "sourcePageChecked": false,
-        "articleAccess": "feed-only",
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z",
-        "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
-        "articleAccessError": "Provider returned HTTP 403",
-        "nytFeedSummary": true
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
       },
       {
         "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
@@ -103,7 +114,7 @@
         "olderReport": false,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z"
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
       },
       {
         "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
@@ -123,7 +134,7 @@
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z",
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
         "primaryDoi": null,
         "eventDate": "2026-10-22",
         "eventKind": "Announcement published",
@@ -158,63 +169,65 @@
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration",
-        "url": "https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration",
-        "title": "California leader calls attack on alleged noncitizen voting ‘weaponizing the law’",
-        "summary": "California’s attorney general on Saturday rebuked the Trump administration’s efforts to quash alleged noncitizen voting, calling it “politicizing and weaponizing the law”. Rob Bonta, the state’s attorney general, said the justice department acted at Donald Trump’s direction. “It is once again the United States Department of Justice politicizing and weaponizing the law to attack its enemies, and it is completely improper,” he told MS Now. Less than two weeks before the midterms, federal prosecutors called upon California election officials to verify within 48 hours a list of about 20,000 ballots belonging to suspected noncitizens.",
-        "publishedAt": "2026-10-25T00:16:17.000Z",
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "publishedAt": "2026-10-25T00:14:30.000Z",
         "source": "The Guardian",
         "category": "U.S.",
         "coverage": "Source report",
         "feedChecked": true,
         "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 1,
+        "feedRank": 2,
         "nytHomeLead": false,
-        "editorialText": "California’s attorney general on Saturday rebuked the Trump administration’s efforts to quash alleged noncitizen voting, calling it “politicizing and weaponizing the law”. Rob Bonta, the state’s attorney general, said the justice department acted at Donald Trump’s direction. “It is once again the United States Department of Justice politicizing and weaponizing the law to attack its enemies, and it is completely improper,” he told MS Now. Less than two weeks before the midterms, federal prosecutors called upon California election officials to verify within 48 hours a list of about 20,000 ballots belonging to suspected noncitizens. Noncitizen voting is extremely rare, but in the run-up to the midterm elections, the justice department has ramped up prosecutions of people accused of illegally voting while not holding US citizenship. California’s election personnel have raised concern that the administration’s directive could disenfranchise citizens. Los Angeles officials said this week a “high percentage” of the individuals on the list were born in the United States. “Trump’s DOJ is so desperate to invent ‘widespread voter fraud,’ it sent California counties lists of people who NEVER voted –",
-        "originalPublishedAt": "2026-10-25T00:16:17.000Z",
+        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
+        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z",
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
         "primaryDoi": null,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration",
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "California’s attorney general on Saturday rebuked the Trump administration’s efforts to quash alleged noncitizen voting, calling it “politicizing and weaponizing the law”. Rob Bonta, the state’s attorney general, said the justice department acted at Donald Trump’s direction. “It is once again the United States Department of Justice politicizing and weaponizing the law to attack its enemies, and it is completely improper,” he told MS Now. Less than two weeks before the midterms, federal prosecutors called upon California election officials to verify within 48 hours a list of about 20,000 ballots belonging to suspected noncitizens.",
+        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/0dfc92629802445272a678cec5dab911996a5147/226_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=74d2f45abad8aeb7f14b46537e01a7ed",
+        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration",
-        "checkedAt": "2026-10-25T04:30:29.594Z",
-        "score": 63,
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "California leader calls attack on alleged noncitizen voting ‘weaponizing the law’",
-        "originalSummary": "State attorney general said Trump’s justice department’s directive to verify 20,000 ballots is completely improperCalifornia’s attorney general on Saturday rebuked the Trump administration’s efforts to quash alleged noncitizen voting, calling it “politicizing and weaponizing the law”.Rob Bonta, the state’s attorney general, said the justice department acted at Donald Trump’s direction. Continue reading...",
+        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-24-pm",
-        "carriedForward": false,
-        "olderReport": false
+        "carriedForward": true,
+        "olderReport": false,
+        "slotOverride": true,
+        "overrideReason": "No qualifying report for this slot; retaining sourced coverage."
       },
       {
-        "id": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-        "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-        "title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
-        "summary": "More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro. Nearly 159m Brazilians will vote in the election’s runoff on Sunday, with the pair tied in the polls after Bolsonaro won the first round on 4 October by 47% to 45%. On Saturday, under a fierce sun, red-clad crowds packed the 2.5-mile Copacabana beach in an attempt to help Lula clinch a dramatic and unprecedented comeback. Never since the return of democracy to Brazil in the 1980s has the first-round loser managed to bounce back.",
-        "publishedAt": "2026-10-24T21:10:23.000Z",
+        "id": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
+        "summary": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied.",
+        "publishedAt": "2026-10-25T08:00:58.000Z",
         "source": "The Guardian",
         "category": "World",
         "coverage": "Source report",
@@ -222,36 +235,36 @@
         "sourceFeedUrl": "https://www.theguardian.com/world/rss",
         "feedRank": 6,
         "nytHomeLead": false,
-        "editorialText": "More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro. Nearly 159m Brazilians will vote in the election’s runoff on Sunday, with the pair tied in the polls after Bolsonaro won the first round on 4 October by 47% to 45%. On Saturday, under a fierce sun, red-clad crowds packed the 2.5-mile Copacabana beach in an attempt to help Lula clinch a dramatic and unprecedented comeback. Never since the return of democracy to Brazil in the 1980s has the first-round loser managed to bounce back. Josias Silva, a 61-year-old truck driver, voiced confidence that his 80-year-old president, who was first elected in 2002, would win a fourth non-consecutive term. He carried a homemade sign to the carnival-like procession reading: “Lula re-elected. Tomorrow will be a new day.” “The people have woken up,” Silva said of the large pro-Lula street protests that have swept Brazil since the leftist’s first-round",
-        "originalPublishedAt": "2026-10-24T21:10:23.000Z",
+        "editorialText": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. The gap between them was the narrowest ever recorded in a first round, at less than 2% of the vote, and the 81-year-old president has spent much of the runoff campaign focused on turnout – abstention reached a record high in the first round and disproportionately affects his voters – and on stoking fears over what a return to power by a member of the Bolsonaro family could mean. A congressman for more than 20 years with few bills passed, the 45-year-old Bolsonaro is the eldest son of the former president Jair Bolsonaro, who is under house arrest serving a 27-year sentence for attempting a coup to overturn his",
+        "originalPublishedAt": "2026-10-25T08:00:58.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z",
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
         "primaryDoi": null,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
+        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro. Nearly 159m Brazilians will vote in the election’s runoff on Sunday, with the pair tied in the polls after Bolsonaro won the first round on 4 October by 47% to 45%. On Saturday, under a fierce sun, red-clad crowds packed the 2.5-mile Copacabana beach in an attempt to help Lula clinch a dramatic and unprecedented comeback. Never since the return of democracy to Brazil in the 1980s has the first-round loser managed to bounce back.",
+        "explanation": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/0ba994ba5bb361aee178bf93d77a0ef20ea9f1ee/407_0_4928_3943/master/4928.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1988723b6b0684a11980fd1ef786a152",
-        "imageCaption": "Luiz Inácio Lula da Silva was cheered by a huge crowd on Copacabana beach on Saturday amid hopes he can secure an historic fourth term. Photograph: Agustín Marcarian/Reuters",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-        "checkedAt": "2026-10-25T04:30:29.594Z",
-        "score": 42,
+        "imageUrl": "https://i.guim.co.uk/img/media/d1353a7e5254aa2f3a8330bdb3468e28a934e47d/391_195_3258_2605/master/3258.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f885a14feea16757d1ab8043ffe4d83a",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "checkedAt": "2026-10-25T09:21:35.838Z",
+        "score": 73,
         "dimensions": {
           "surprise": 90,
-          "consequence": 20,
-          "novelty": 15,
+          "consequence": 90,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "More than one million Lula supporters rally on eve of Brazilian election runoff",
-        "originalSummary": "Nearly 159 million people to head to polls on Sunday in battle between leftwing incumbent and Flávio BolsonaroMore than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro.Nearly 159m Brazilians will vote in the election’s runoff on Sunday, with the pair tied in the polls after Bolsonaro won the first round on 4 October by 47% to 45%. Continue reading...",
+        "displayTitle": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
+        "originalSummary": "Incumbent president lost in first round to senator and son of convicted ex-president Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote.Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
@@ -262,28 +275,27 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-25T04:30:29.594Z",
-    "checkedAt": "2026-10-25T04:30:29.594Z",
+    "fetchedAt": "2026-10-25T09:21:35.838Z",
+    "checkedAt": "2026-10-25T09:21:35.838Z",
     "sources": [
       "The New York Times",
-      "ScienceDaily",
-      "BBC News",
-      "Phys.org",
       "The Guardian",
+      "ScienceDaily",
+      "Phys.org",
+      "BBC News",
       "Ars Technica",
       "NPR",
       "ScienceAlert",
-      "Higher Ed Dive",
       "IEEE Spectrum"
     ],
     "providersAvailable": 34,
     "providersTotal": 49,
     "research": {
-      "rawCandidates": 942,
+      "rawCandidates": 940,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 177,
+      "sourcePagesRead": 175,
       "primaryDatesChecked": 30,
-      "rejected": 81,
+      "rejected": 79,
       "rejectedCandidates": [
         {
           "title": "A tiny defect in a crystal reveals a big quantum surprise",
@@ -296,8 +308,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Obama attacks Trump over inflation as Democrats fight for Michigan Senate seat",
-          "url": "https://www.investing.com/news/economy-news/obama-attacks-trump-over-inflation-as-democrats-fight-for-michigan-senate-seat-4971031",
+          "title": "North Korea’s Kim Jong Un makes surprise China visit as ties strengthen",
+          "url": "https://www.investing.com/news/economy-news/north-koreas-kim-jong-un-makes-surprise-china-visit-as-ties-strengthen-4971072",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Saudi Arabia intercepts drones and missiles as fighting with Yemen’s Houthis continues",
+          "url": "https://www.investing.com/news/commodities-news/saudi-arabia-intercepts-drones-and-missiles-as-fighting-with-yemens-houthis-continues-4971080",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -321,29 +338,19 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists May Have Discovered Why Men's Prostates Enlarge With Age",
-          "url": "https://www.sciencealert.com/scientists-may-have-discovered-why-mens-prostates-enlarge-with-age",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Peter Thiel says Apple has done 'nothing new' after Steve Jobs",
-          "url": "https://www.businessinsider.com/peter-thiel-apple-steve-jobs-tim-cook-innovation-iphone-duo-2026-10",
+          "title": "This sold-out plushie emits the grating hum of a real-life data center when you squeeze it",
+          "url": "https://www.businessinsider.com/plushie-ai-data-center-noise-hug-art-project-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
-          "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027",
+          "title": "UK immigration crackdown threatens £15 billion care sector - Bloomberg",
+          "url": "https://www.investing.com/news/economy-news/uk-immigration-crackdown-threatens-15-billion-care-sector--bloomberg-4971064",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Portuguese police clear Lisbon housing protest camp, make arrests",
-          "url": "https://www.investing.com/news/economic-indicators/portuguese-police-clear-lisbon-housing-protest-camp-make-arrests-4971028",
+          "title": "Goldman Sachs cuts Kospi target by 25% amid AI stock selloff",
+          "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-cuts-kospi-target-by-25-amid-ai-stock-selloff-4971079",
           "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Texas voters cast early ballots in key senate race",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6014610/texas-voters-cast-early-ballots-in-key-senate-race",
-          "reason": "Source article was unavailable or too short"
         },
         {
           "title": "The latest in space science: We look back at the Big Bang",
@@ -361,29 +368,24 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "title": "Scientists May Have Discovered Why Men's Prostates Enlarge With Age",
+          "url": "https://www.sciencealert.com/scientists-may-have-discovered-why-mens-prostates-enlarge-with-age",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Who should have a say in which species are saved? The California condor offers lessons for a global biodiversity treaty",
-          "url": "https://phys.org/news/2026-10-species-california-condor-lessons-global.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Inside the cyber flaw scramble that brought the AI threat to life",
-          "url": "https://www.businessinsider.com/black-october-php-vulnerability-cybersecurity-ai-threat-2026-10",
+          "title": "Bill Gates predicts 20 years of turmoil before AI creates 'true abundance'",
+          "url": "https://www.businessinsider.com/bill-gates-ai-abundance-job-losses-unemployment-robots-musk-amodei-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Yemen’s Houthis renew threat against Riyadh airport as flights set to resume",
-          "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
+          "title": "UAE closes more beaches as Gulf oil spill raises environmental concerns",
+          "url": "https://www.investing.com/news/economy-news/uae-closes-more-beaches-as-gulf-oil-spill-raises-environmental-concerns-4971057",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Comedian Charlie Berens has made Wisconsin politics a laughing matter",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6011198/comedian-charlie-berens-has-made-wisconsin-politics-a-laughing-matter",
-          "reason": "Source article was unavailable or too short"
+          "title": "Xencor reports phase 1 data for cancer drug XmAb819",
+          "url": "https://www.investing.com/news/company-news/xencor-reports-phase-1-data-for-cancer-drug-xmab819-93CH-4971076",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
@@ -396,8 +398,63 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
+          "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
           "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
           "url": "https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Peter Thiel says Apple has done 'nothing new' after Steve Jobs",
+          "url": "https://www.businessinsider.com/peter-thiel-apple-steve-jobs-tim-cook-innovation-iphone-duo-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Should Aggregators block AI Agents?",
+          "url": "https://www.investing.com/news/economy-news/should-aggregators-block-ai-agents-4971047",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Anixa Biosciences president, COO, & CFO buys $15,620 in shares",
+          "url": "https://www.investing.com/news/insider-trading-news/anixa-biosciences-president-coo--cfo-buys-15620-in-shares-93CH-4971073",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Texas voters cast early ballots in key senate race",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6014610/texas-voters-cast-early-ballots-in-key-senate-race",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Inside the cyber flaw scramble that brought the AI threat to life",
+          "url": "https://www.businessinsider.com/black-october-php-vulnerability-cybersecurity-ai-threat-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Obama attacks Trump over inflation as Democrats fight for Michigan Senate seat",
+          "url": "https://www.investing.com/news/economy-news/obama-attacks-trump-over-inflation-as-democrats-fight-for-michigan-senate-seat-4971031",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Comedian Charlie Berens has made Wisconsin politics a laughing matter",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011198/comedian-charlie-berens-has-made-wisconsin-politics-a-laughing-matter",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "What to expect from Apple’s ‘Pro and tell’ event",
+          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
+          "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -406,13 +463,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
-          "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
+          "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
+          "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Trump announces Audi will build $4 billion US factory in Georgia",
-          "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+          "title": "5 big analyst AI moves: ’Uniquely catalyst-rich’ months ahead for SpaceX",
+          "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-uniquely-catalystrich-months-ahead-for-spacex-4970923",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -426,103 +483,8 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Fish lamps and Windows XP: Inside Frutiger Aero, the nostalgic tech aesthetic captivating Gen Zers",
-          "url": "https://www.businessinsider.com/frutiger-aero-nostalgic-tech-aesthetic-gen-z-windows-xp-design-2026-10",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Ukraine says military Starlink service restored as Musk cites terms violations",
-          "url": "https://www.investing.com/news/economy-news/ukraine-says-military-starlink-service-restored-after-10day-disruption-4970760",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "HSBC sees cautious optimism in VC and PE activity",
-          "url": "https://www.investing.com/news/stock-market-news/hsbc-sees-cautious-optimism-in-vc-and-pe-activity-4971023",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "How data centers became a bipartisan political issue in Wisconsin",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "What to expect from Apple’s ‘Pro and tell’ event",
-          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
-          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
-          "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Are you a mom who drives for Uber or Lyft? Take our survey",
-          "url": "https://www.businessinsider.com/moms-turn-to-uber-and-lyft-for-flexible-income-opportunities-2026-10",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Houthis launch broad assault on Saudi sites as U.S. warns of Iranian plots",
-          "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Chemed president and CEO Kevin McNamara sells $1.03M in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/chemed-president-and-ceo-kevin-mcnamara-sells-103m-in-stock-93CH-4971022",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
           "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
           "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Scientists discover a hidden messaging system deep inside the brain",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261022081304.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
-          "url": "https://www.sciencealert.com/as-water-crisis-continues-backup-water-supply-in-the-colorado-river-basin-is-also-drying-up",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "How flare ribbons reveal hidden solar explosions on the sun",
-          "url": "https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "The internet has a human slop problem, and AI is exposing it",
-          "url": "https://www.businessinsider.com/ai-human-slop-software-security-vulnerabilities-internet-2026-10",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Could France’s debt crisis spread across Europe?",
-          "url": "https://www.investing.com/news/economy-news/could-frances-debt-crisis-spread-across-europe-4970815",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Verizon evp and group ceo Kyle Malady sells $51,040 in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/verizon-evp-and-group-ceo-kyle-malady-sells-51040-in-stock-93CH-4971021",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Weather warnings in place ahead of Storm Boelo",
-          "url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Lee Chang Dong ponders the ethics of the camera",
-          "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
           "reason": "Source requires a subscription"
         },
         {
@@ -531,33 +493,33 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Both Low And High Testosterone Seem to Be Linked to an Irregular Heartbeat, Study Finds",
-          "url": "https://www.sciencealert.com/both-low-and-high-testosterone-seem-to-be-linked-to-an-irregular-heartbeat-study-finds",
+          "title": "How flare ribbons reveal hidden solar explosions on the sun",
+          "url": "https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Here's how Canva's new image generation tool compares to models by OpenAI, Google, and Meta",
-          "url": "https://www.businessinsider.com/canva-craft-new-ai-image-generation-tool-2026-10",
+          "title": "Fish lamps and Windows XP: Inside Frutiger Aero, the nostalgic tech aesthetic captivating Gen Zers",
+          "url": "https://www.businessinsider.com/frutiger-aero-nostalgic-tech-aesthetic-gen-z-windows-xp-design-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Netanyahu explores crypto to bypass potential sanctions",
-          "url": "https://www.investing.com/news/economy-news/netanyahu-explores-crypto-to-bypass-potential-sanctions-4970810",
+          "title": "Yemen’s Houthis renew threat against Riyadh airport as flights set to resume",
+          "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Chinese equities face prolonged downturn as earnings forecasts tumble",
-          "url": "https://www.investing.com/news/stock-market-news/chinese-equities-face-prolonged-downturn-as-earnings-forecasts-tumble-4971016",
+          "title": "BioNTech, Bristol Myers report lung cancer trial data",
+          "url": "https://www.investing.com/news/company-news/biontech-bristol-myers-report-lung-cancer-trial-data-93CH-4971066",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Video released in Mississippi police shooting of toddler",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013628/video-released-in-mississippi-police-shooting-of-toddler",
+          "title": "How data centers became a bipartisan political issue in Wisconsin",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Laika has spent 20 years building up to Wildwood",
-          "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
+          "title": "Lee Chang Dong ponders the ethics of the camera",
+          "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
           "reason": "Source requires a subscription"
         },
         {
@@ -566,33 +528,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery",
-          "url": "https://www.sciencealert.com/miniature-ball-lightning-created-in-a-lab-could-help-solve-a-centuries-old-mystery",
+          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
+          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Mark Cuban says the best defense against malicious AI agents is more AI",
-          "url": "https://www.businessinsider.com/mark-cuban-warns-of-ai-threats-at-reuters-next-event-2026-10",
+          "title": "Are you a mom who drives for Uber or Lyft? Take our survey",
+          "url": "https://www.businessinsider.com/moms-turn-to-uber-and-lyft-for-flexible-income-opportunities-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK to inject £20.4 billion into state-backed lenders in budget, FT reports",
-          "url": "https://www.investing.com/news/economy-news/uk-to-inject-204-billion-into-statebacked-lenders-in-budget-ft-reports-4970689",
+          "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
+          "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "What is the Budget and what could be in it?",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Father who killed the Bend school shooter speaks to Oregon Public Broadcasting",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6014731/father-who-killed-the-bend-school-shooter-speaks-to-oregon-public-broadcasting",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "It’s time to find a new browser",
-          "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
+          "title": "Laika has spent 20 years building up to Wildwood",
+          "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
           "reason": "Source requires a subscription"
         },
         {
@@ -601,8 +553,38 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "NASA's Perseverance Just Broke The Off-World Driving Record, While Mostly Steering Itself",
-          "url": "https://www.sciencealert.com/nasas-perseverance-just-drove-farther-than-any-vehicle-on-another-world-mostly-steering-itself",
+          "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
+          "url": "https://www.sciencealert.com/as-water-crisis-continues-backup-water-supply-in-the-colorado-river-basin-is-also-drying-up",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "The internet has a human slop problem, and AI is exposing it",
+          "url": "https://www.businessinsider.com/ai-human-slop-software-security-vulnerabilities-internet-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Ukraine says military Starlink service restored as Musk cites terms violations",
+          "url": "https://www.investing.com/news/economy-news/ukraine-says-military-starlink-service-restored-after-10day-disruption-4970760",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Bitcoin tests $80K support in descending triangle: Live levels",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-bull-flag-coils-at-81908-live-levels-93CH-4958174",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Weather warnings in place ahead of Storm Boelo",
+          "url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "It’s time to find a new browser",
+          "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Both Low And High Testosterone Seem to Be Linked to an Irregular Heartbeat, Study Finds",
+          "url": "https://www.sciencealert.com/both-low-and-high-testosterone-seem-to-be-linked-to-an-irregular-heartbeat-study-finds",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -611,8 +593,43 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "AI is driving a data-center power boom. These are some of the biggest US projects being built.",
-          "url": "https://www.businessinsider.com/these-largest-planned-us-ai-data-centers-ranked-by-power-2026-9",
+          "title": "Here's how Canva's new image generation tool compares to models by OpenAI, Google, and Meta",
+          "url": "https://www.businessinsider.com/canva-craft-new-ai-image-generation-tool-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Houthis launch broad assault on Saudi sites as U.S. warns of Iranian plots",
+          "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Video released in Mississippi police shooting of toddler",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6013628/video-released-in-mississippi-police-shooting-of-toddler",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Xbox’s first chief operating officer is out after just a few months",
+          "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery",
+          "url": "https://www.sciencealert.com/miniature-ball-lightning-created-in-a-lab-could-help-solve-a-centuries-old-mystery",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
+          "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Mark Cuban says the best defense against malicious AI agents is more AI",
+          "url": "https://www.businessinsider.com/mark-cuban-warns-of-ai-threats-at-reuters-next-event-2026-10",
           "reason": "Source requires a subscription"
         },
         {
@@ -621,28 +638,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
-          "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "El Salvador president says bodies found in Haiti do not belong to ambushed soldiers",
-          "url": "https://www.investing.com/news/commodities-news/bodies-of-ambushed-salvadoran-soldiers-found-in-haiti-new-york-timesreports-4970997",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Xbox’s first chief operating officer is out after just a few months",
-          "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
-          "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
+          "title": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years",
+          "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Mark Zuckerberg keeps coming out on top",
-          "url": "https://www.businessinsider.com/ceo-mark-zuckerberg-keeps-winning-meta-ai-moves-muse-launch-2026-10",
+          "title": "AI is driving a data-center power boom. These are some of the biggest US projects being built.",
+          "url": "https://www.businessinsider.com/these-largest-planned-us-ai-data-centers-ranked-by-power-2026-9",
           "reason": "Source requires a subscription"
         },
         {
@@ -651,23 +653,13 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years",
-          "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "I woke up to panicked text messages about the PHP attacks. As a cybersecurity expert, here are the 3 things I tell people to do right away.",
-          "url": "https://www.businessinsider.com/three-steps-to-protect-website-against-php-vulnerabilities-ai-era-2026-10",
-          "reason": "Source requires a subscription"
-        },
-        {
           "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
           "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023710.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -676,29 +668,39 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "The Elizabeth Holmes bump is real",
-          "url": "https://www.businessinsider.com/elizabeth-holmes-you-can-see-everything-bump-spotify-dropout-book-2026-10",
+          "title": "Mark Zuckerberg keeps coming out on top",
+          "url": "https://www.businessinsider.com/ceo-mark-zuckerberg-keeps-winning-meta-ai-moves-muse-launch-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023710.htm",
+          "title": "Three released without charge after fatal arson attack in Ireland",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "One of Earth’s most powerful supervolcanoes is refilling with fresh magma",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023003214.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "New long‑clawed British dinosaur is the first of its kind in Europe",
           "url": "https://phys.org/news/2026-10-longclawed-british-dinosaur-kind-europe.html",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "I woke up to panicked text messages about the PHP attacks. As a cybersecurity expert, here are the 3 things I tell people to do right away.",
+          "url": "https://www.businessinsider.com/three-steps-to-protect-website-against-php-vulnerabilities-ai-era-2026-10",
+          "reason": "Source requires a subscription"
         }
       ],
-      "qualifying": 83,
-      "eventDatesVerified": 17,
-      "eventDatesUnconfirmed": 66,
+      "qualifying": 85,
+      "eventDatesVerified": 20,
+      "eventDatesUnconfirmed": 65,
       "rejectionReasons": {
-        "The actual event/announcement is more than a week old": 32,
+        "The actual event/announcement is more than a week old": 29,
         "Provider returned HTTP 403": 17,
         "Source article was unavailable or too short": 11,
-        "Source requires a subscription": 21
+        "Source requires a subscription": 22
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -706,14 +708,14 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 20,
+          "candidates": 10,
           "error": null
         },
         {
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
           "available": true,
-          "candidates": 51,
+          "candidates": 52,
           "error": null
         },
         {
@@ -762,7 +764,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
           "available": true,
-          "candidates": 24,
+          "candidates": 25,
           "error": null
         },
         {
@@ -811,7 +813,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 31,
+          "candidates": 37,
           "error": null
         },
         {
@@ -1048,12 +1050,17 @@
       ],
       "method": "Publisher sections and live feeds; balanced reading budget with no headline-score cutoff; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts.",
       "linkChecks": 5,
-      "rejectedLinks": []
+      "rejectedLinks": [
+        {
+          "id": "https://apnews.com/article/trump-bbc-media-defamation-0a26fa60b265f55a9bcf7ed88cfacab8",
+          "reason": "Provider returned HTTP 403"
+        }
+      ]
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 3,
-    "carriedCount": 2,
+    "freshCount": 1,
+    "carriedCount": 3,
     "olderCount": 0,
     "reserveStories": [
       {
@@ -1069,21 +1076,24 @@
         "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
         "feedRank": 1,
         "nytHomeLead": true,
+        "nytFeedSummary": true,
+        "sourcePageChecked": false,
+        "articleAccess": "feed-only",
         "explanation": "With new intelligence and the possibility of all sides seeking pretexts for action, the war in Iran is entering a dangerous phase ahead of elections in the United States and Israel.",
+        "eventDate": null,
+        "eventDateVerified": false,
+        "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
+        "articleAccessError": "Provider returned HTTP 403",
+        "checkedAt": "2026-10-25T09:21:35.838Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-24-pm",
-        "leadUnchanged": false,
+        "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "sourcePageChecked": false,
-        "articleAccess": "feed-only",
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z",
-        "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
-        "articleAccessError": "Provider returned HTTP 403",
-        "nytFeedSummary": true
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
       },
       {
         "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
@@ -1134,7 +1144,7 @@
         "olderReport": false,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z"
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z"
       },
       {
         "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
@@ -1154,7 +1164,7 @@
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T04:30:29.594Z",
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
         "primaryDoi": null,
         "eventDate": "2026-10-22",
         "eventKind": "Announcement published",
@@ -1186,6 +1196,112 @@
         "whyForYou": "Computer science, AI, and how computing systems work.",
         "selectedEdition": "2026-10-24-pm",
         "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "publishedAt": "2026-10-25T00:14:30.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 2,
+        "nytHomeLead": false,
+        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
+        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": true,
+        "olderReport": false,
+        "slotOverride": true,
+        "overrideReason": "No qualifying report for this slot; retaining sourced coverage."
+      },
+      {
+        "id": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
+        "summary": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied.",
+        "publishedAt": "2026-10-25T08:00:58.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 6,
+        "nytHomeLead": false,
+        "editorialText": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. The gap between them was the narrowest ever recorded in a first round, at less than 2% of the vote, and the 81-year-old president has spent much of the runoff campaign focused on turnout – abstention reached a record high in the first round and disproportionately affects his voters – and on stoking fears over what a return to power by a member of the Bolsonaro family could mean. A congressman for more than 20 years with few bills passed, the 45-year-old Bolsonaro is the eldest son of the former president Jair Bolsonaro, who is under house arrest serving a 27-year sentence for attempting a coup to overturn his",
+        "originalPublishedAt": "2026-10-25T08:00:58.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/d1353a7e5254aa2f3a8330bdb3468e28a934e47d/391_195_3258_2605/master/3258.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f885a14feea16757d1ab8043ffe4d83a",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "checkedAt": "2026-10-25T09:21:35.838Z",
+        "score": 73,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
+        "originalSummary": "Incumbent president lost in first round to senator and son of convicted ex-president Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva, is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro, who won the first-round vote.Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": false,
         "olderReport": false
       },
       {
@@ -1323,58 +1439,6 @@
         "carriedForward": false,
         "olderReport": false,
         "linkCheckedAt": "2026-10-25T00:51:49.833Z"
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
-        "publishedAt": "2026-10-25T00:14:30.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 2,
-        "nytHomeLead": false,
-        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
-        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
-        "sourcePageChecked": true,
-        "articleAccess": "readable",
-        "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T00:51:49.833Z",
-        "primaryDoi": null,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "checkedAt": "2026-10-25T00:51:49.833Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-24-pm",
-        "carriedForward": false,
-        "olderReport": false
       },
       {
         "id": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
@@ -2413,62 +2477,14 @@
         "selectedEdition": "2026-10-23-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-        "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-        "title": "Melania Trump has helped broker ceasefire in Russian-occupied Ukrainian town, says White House – Europe live",
-        "summary": "From 1h ago The White House has issued a statement saying Melania Trump has helped broker a ‘ceasefire’ in the Russian-occupied city of Oleshky, where residents have been enduring a worsening humanitarian crisis due to the lack of food, electricity and other resources. The small town in southern Kherson has been the centre of an increasingly desperate humanitarian crisis under Russian occupation. Since May, Russia has failed to deliver food, medicine or other essential goods to the area leading to deaths from starvation and disease. There has also been problems with the burial of bodies and sanitation, as the local morgue has been destroyed and there is no running water.",
-        "publishedAt": "2026-10-23T15:01:59.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
-        "feedRank": 22,
-        "nytHomeLead": false,
-        "editorialText": "From 1h ago The White House has issued a statement saying Melania Trump has helped broker a ‘ceasefire’ in the Russian-occupied city of Oleshky, where residents have been enduring a worsening humanitarian crisis due to the lack of food, electricity and other resources. The small town in southern Kherson has been the centre of an increasingly desperate humanitarian crisis under Russian occupation. Since May, Russia has failed to deliver food, medicine or other essential goods to the area leading to deaths from starvation and disease. There has also been problems with the burial of bodies and sanitation, as the local morgue has been destroyed and there is no running water. Russia and Ukraine have accused the other of blocking supplies to the population of the ⁠town ​which Ukrainian forces ​want to retake. Ukraine has previously appealed for a ceasefire to evacuate the estimated 2,000 civilians left in the town – but Russia hadn’t made any commitments. Earlier this week, Pope Leo called for an intervention while the Kremlin said Putin had discussed the situation with Donald Trump. The White House",
-        "originalPublishedAt": "2026-10-23T15:01:59.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "From 1h ago The White House has issued a statement saying Melania Trump has helped broker a ‘ceasefire’ in the Russian-occupied city of Oleshky, where residents have been enduring a worsening humanitarian crisis due to the lack of food, electricity and other resources. The small town in southern Kherson has been the centre of an increasingly desperate humanitarian crisis under Russian occupation. Since May, Russia has failed to deliver food, medicine or other essential goods to the area leading to deaths from starvation and disease. There has also been problems with the burial of bodies and sanitation, as the local morgue has been destroyed and there is no running water.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/ace22324730cef3ddc927de0d454abf728aaa232/301_0_1414_1132/master/1414.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=d1739ba780692328a9547c939d87cd38",
-        "imageCaption": "A still image taken from an undated drone video released September 12, 2026, shows a destroyed buildings in Oleshky in Ukraine’s Kherson region Photograph: 34th Separate Marine Brigade \"Borysfen\"/Reuters",
-        "imageSourceUrl": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-        "checkedAt": "2026-10-23T15:06:25.328Z",
-        "score": 64.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Melania Trump has helped broker ceasefire in Russian-occupied Ukrainian town, says White House – Europe live",
-        "originalSummary": "Residents in Oleshky have been enduring a worsening humanitarian crisis due to the lack of food, electricity and other resourcesThe French prime minister Sébastien Lecornu has just issued a statement on a shooting in a town west of Paris this morning where one person was killed and four others injured.Police said a gunman had opened fire in Trappes, in the Yvelines, and neighbouring La Verriere. The gunman was later arrested in nearby Coignieres. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
-        "personalTopic": "energy-engineering",
-        "whyForYou": "Energy systems and engineering.",
-        "selectedEdition": "2026-10-23-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
       "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
       "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
       "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-      "https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration",
-      "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro"
+      "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+      "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
     ]
   }
 }
