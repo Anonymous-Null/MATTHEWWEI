@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T13:53:49.307Z",
+  "fetchedAt": "2026-10-25T17:36:45.710Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
@@ -22,11 +22,11 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-25T13:53:49.307Z"
+      "checkedAt": "2026-10-25T17:36:45.710Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-25T13:53:49.307Z",
+      "checkedAt": "2026-10-25T17:36:45.710Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -54,7 +54,7 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-25T13:53:49.307Z",
+        "checkedAt": "2026-10-25T17:36:45.710Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
@@ -63,7 +63,7 @@
         "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z"
       },
       {
         "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
@@ -114,7 +114,7 @@
         "olderReport": false,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z"
       },
       {
         "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
@@ -134,7 +134,7 @@
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z",
         "primaryDoi": null,
         "eventDate": "2026-10-22",
         "eventKind": "Announcement published",
@@ -169,100 +169,102 @@
         "olderReport": false
       },
       {
-        "id": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
-        "url": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
-        "title": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
-        "summary": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners.",
-        "publishedAt": "2026-10-25T13:43:19.000Z",
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "publishedAt": "2026-10-25T00:14:30.000Z",
         "source": "The Guardian",
-        "category": "World",
+        "category": "U.S.",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
-        "feedRank": 21,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 2,
         "nytHomeLead": false,
-        "editorialText": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners. Trump has long tried to convince voters that his tariffs are helping to increase the number of manufacturing jobs in the US, and has seized on any new factory investments. However, US vehicle and parts employment has fallen since Trump took office last year. Audi, Volkswagen’s most important premium brand, has suffered from Trump’s 15% tariffs on imports from the",
-        "originalPublishedAt": "2026-10-25T13:43:19.000Z",
+        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
+        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z",
         "primaryDoi": null,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. The Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners.",
+        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/3505a53736aa93c5c0c6865e0b06b5c8b49159c8/292_0_2917_2333/master/2917.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1c53e9936a3252778f1397e4b99185dc",
-        "imageCaption": "Audi CEO Gernot Döllner joined Trump on stage at a rally on Saturday to announce the factory in Macon, Georgia. Photograph: Friso Gentsch/EPA",
-        "imageSourceUrl": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
-        "checkedAt": "2026-10-25T13:53:49.307Z",
-        "score": 63,
+        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
-        "originalSummary": "VW investment creates 4,500 jobs in Georgia comes amid Trump’s damaging tariffs, intense Chinese competition and costly shift towards EVsAudi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company Volkswagen struggles with the impact of steep tariffs imposed by Donald Trump.The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections. Continue reading...",
+        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-25-am",
-        "carriedForward": false,
-        "olderReport": false
+        "carriedForward": true,
+        "olderReport": false,
+        "slotOverride": true,
+        "overrideReason": "No qualifying report for this slot; retaining sourced coverage."
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
-        "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
-        "title": "Brazil election: Voters choose between Lula and Bolsonaro's son",
-        "summary": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory.",
-        "publishedAt": "2026-10-24T23:50:02.059Z",
-        "source": "BBC News",
+        "id": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
+        "url": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
+        "title": "Demand for UK government action 10 months after British man’s death in Grenada",
+        "summary": "A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. The Murdered Abroad charity has called on the foreign affairs select committee to step in after Grenadian police found there was “no basis … that any homicide has occurred” and closed the case.",
+        "publishedAt": "2026-10-25T11:00:01.000Z",
+        "source": "The Guardian",
         "category": "World",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "feedRank": 3,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 8,
         "nytHomeLead": false,
-        "editorialText": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory. Never before has a candidate who trailed after the first round managed to overturn the deficit and win in the second round. The younger Bolsonaro appeared at a polling station in Rio de Janeiro early on Sunday morning, telling reporters outside that \"time has come for real change\". His supporters were jubilant at his final campaign rallies, confident that he would bring change to Brazil through his promised",
-        "originalPublishedAt": "2026-10-24T23:50:02.059Z",
+        "editorialText": "A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. The Murdered Abroad charity has called on the foreign affairs select committee to step in after Grenadian police found there was “no basis … that any homicide has occurred” and closed the case. This was despite a report from an autopsy, done in the week he died, saying Frederick, 47, had suffered “blunt force trauma”, was tortured, including by removal of his toenail, and ruling the death a homicide. Frederick’s body was found on 4 January. Since then, the family say they have been forced to focus on their fight for justice instead of coming to terms with their loss. Murdered Abroad’s founder, Eve Henderson, said: “We understand",
+        "originalPublishedAt": "2026-10-25T11:00:01.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z",
         "primaryDoi": null,
         "eventDate": null,
         "eventKind": null,
         "eventDateVerified": false,
         "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
+        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
         "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "fromRio de Janeiro and Patrick Jackson Updated 1 hour ago Polls have opened in Brazil as people choose their new president in a closely fought run-off election. The choice is between the 80-year-old incumbent, left-winger Luiz Inácio Lula da Silva, who is seeking a fourth non-consecutive term in office, and right-wing senator Flávio Bolsonaro, 45. Bolsonaro is the son of former right-wing president Jair Bolsonaro, who is serving a 27-year prison sentence for plotting a coup after losing the last election in 2022. This is Bolsonaro's election to lose after he came top in the first round of voting on 4 October, which US President Donald Trump called a \"very big\" victory.",
+        "explanation": "A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. The Murdered Abroad charity has called on the foreign affairs select committee to step in after Grenadian police found there was “no basis … that any homicide has occurred” and closed the case.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5c93/live/6c2dbd80-d064-11f1-bbf5-99ed69f0d81f.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o",
-        "checkedAt": "2026-10-25T13:53:49.307Z",
-        "score": 73,
+        "imageUrl": "https://i.guim.co.uk/img/media/41857771d6b7e99a163e8d99af363e9bbd9ff452/628_0_5398_4319/master/5398.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=80aacac78857539bbb7b847c20d6ab68",
+        "imageCaption": "Grenada's parliament building in St George's. UK authorities have said Frederick’s case was raised with officials at the highest levels of government in Grenada. Photograph: Georg Berg/Alamy",
+        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
+        "checkedAt": "2026-10-25T17:36:45.710Z",
+        "score": 36.75,
         "dimensions": {
-          "surprise": 90,
+          "surprise": 15,
           "consequence": 90,
-          "novelty": 65,
+          "novelty": 15,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Brazil election: Voters choose between Lula and Bolsonaro's son",
-        "originalSummary": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
+        "displayTitle": "Demand for UK government action 10 months after British man’s death in Grenada",
+        "originalSummary": "Police closed case of Andrew Frederick despite autopsy report ruling his death a homicideA time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries.Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
@@ -273,17 +275,17 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-25T13:53:49.307Z",
-    "checkedAt": "2026-10-25T13:53:49.307Z",
+    "fetchedAt": "2026-10-25T17:36:45.710Z",
+    "checkedAt": "2026-10-25T17:36:45.710Z",
     "sources": [
+      "ScienceDaily",
       "The New York Times",
-      "BBC News",
-      "Phys.org",
       "The Guardian",
+      "BBC News",
       "Ars Technica",
       "NPR",
+      "Phys.org",
       "ScienceAlert",
-      "ScienceDaily",
       "IEEE Spectrum"
     ],
     "providersAvailable": 34,
@@ -291,9 +293,9 @@
     "research": {
       "rawCandidates": 934,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 174,
-      "primaryDatesChecked": 29,
-      "rejected": 78,
+      "sourcePagesRead": 178,
+      "primaryDatesChecked": 28,
+      "rejected": 76,
       "rejectedCandidates": [
         {
           "title": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
@@ -301,13 +303,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Earnings flood, Fed meeting will test rickety AI market rally",
-          "url": "https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-will-test-rickety-ai-market-rally-4971185",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Medpace CEO August Troendle sells $1.59 million in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/medpace-ceo-august-troendle-sells-159-million-in-stock-93CH-4971193",
+          "title": "Trump says there will be no strike on Iran today; Qatari delegation in Tehran",
+          "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -321,11 +318,6 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "r/opensource just banned AI, non-English speakers, and more",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-          "reason": "Source requires a subscription"
-        },
-        {
           "title": "Three giant black holes discovered in a galaxy from the dawn of time",
           "url": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
           "reason": "The actual event/announcement is more than a week old"
@@ -336,18 +328,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "One of Google DeepMind's top execs says lifelong learners will have an edge in the AI workplace",
-          "url": "https://www.businessinsider.com/google-deepmind-lila-ibrahim-skills-to-get-hired-2026-10",
+          "title": "Patterns of polar vortices discovered in lead-free superlattices on silicon",
+          "url": "https://phys.org/news/2026-10-patterns-polar-vortices-free-superlattices.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Apollo says AI has delivered 'zero financial payoff' outside the tech industry",
+          "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK’s Rayner says no Brexit reopening as Burnham floats EU free movement",
-          "url": "https://www.investing.com/news/economy-news/uks-rayner-says-no-brexit-reopening-as-burnham-floats-eu-free-movement-4971174",
+          "title": "Earnings flood, Fed meeting will test rickety AI market rally",
+          "url": "https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-will-test-rickety-ai-market-rally-4971185",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "ArriVent reports phase 1 data for cancer drug ARR-217",
-          "url": "https://www.investing.com/news/company-news/arrivent-reports-phase-1-data-for-cancer-drug-arr217-93CH-4971187",
+          "title": "Audi defends decision to stand by Trump on $4 billion US factory in Georgia",
+          "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -356,8 +353,8 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Google’s AI search changes upended online publishing",
-          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+          "title": "Now you can watch Instagram Reels on your Apple TV",
+          "url": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv",
           "reason": "Source requires a subscription"
         },
         {
@@ -366,23 +363,23 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists May Have Discovered Why Men's Prostates Enlarge With Age",
-          "url": "https://www.sciencealert.com/scientists-may-have-discovered-why-mens-prostates-enlarge-with-age",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "This sold-out plushie emits the grating hum of a real-life data center when you squeeze it",
-          "url": "https://www.businessinsider.com/plushie-ai-data-center-noise-hug-art-project-2026-10",
+          "title": "After a long, strange trip, this CEO is close to taking a psilocybin pill to market",
+          "url": "https://www.businessinsider.com/compass-ceo-kabir-nath-psilocybin-pill-comp360-psychedelics-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Why look at real assets into 2027?",
-          "url": "https://www.investing.com/news/economy-news/why-look-at-real-assets-into-2027-4971168",
+          "title": "UK’s Rayner says no Brexit reopening as Burnham floats EU free movement",
+          "url": "https://www.investing.com/news/economy-news/uks-rayner-says-no-brexit-reopening-as-burnham-floats-eu-free-movement-4971174",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Blue Planet III is keeping the rough edges in the age of AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+          "title": "Jefferies upgrades Dr. Reddy’s stock rating on margin outlook",
+          "url": "https://www.investing.com/news/analyst-ratings/jefferies-upgrades-dr-reddys-stock-rating-on-margin-outlook-93CH-4971223",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "r/opensource just banned AI, non-English speakers, and more",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
           "reason": "Source requires a subscription"
         },
         {
@@ -396,48 +393,28 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "The World's First Corporate Psychopath May Have Just Been Identified",
-          "url": "https://www.sciencealert.com/the-worlds-first-corporate-psychopath-may-have-just-been-identified",
+          "title": "Scientists May Have Discovered Why Men's Prostates Enlarge With Age",
+          "url": "https://www.sciencealert.com/scientists-may-have-discovered-why-mens-prostates-enlarge-with-age",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Bill Gates predicts 20 years of turmoil before AI creates 'true abundance'",
-          "url": "https://www.businessinsider.com/bill-gates-ai-abundance-job-losses-unemployment-robots-musk-amodei-2026-10",
+          "title": "A few seconds of loading time can push online learners off track",
+          "url": "https://phys.org/news/2026-10-seconds-online-learners-track.html",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "One of Google DeepMind's top execs says lifelong learners will have an edge in the AI workplace",
+          "url": "https://www.businessinsider.com/google-deepmind-lila-ibrahim-skills-to-get-hired-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "North Korea’s Kim Jong Un makes surprise China visit as ties strengthen",
-          "url": "https://www.investing.com/news/economy-news/north-koreas-kim-jong-un-makes-surprise-china-visit-as-ties-strengthen-4971072",
+          "title": "Why look at real assets into 2027?",
+          "url": "https://www.investing.com/news/economy-news/why-look-at-real-assets-into-2027-4971168",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 2.65%",
-          "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-265-4971175",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Pennsylvania will require labels on AI-generated ads",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Too Much RNA Can Actually Starve Cells of Energy, Study Finds",
-          "url": "https://www.sciencealert.com/too-much-rna-can-actually-starve-cells-of-energy-study-finds",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Peter Thiel says Apple has done 'nothing new' after Steve Jobs",
-          "url": "https://www.businessinsider.com/peter-thiel-apple-steve-jobs-tim-cook-innovation-iphone-duo-2026-10",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "UK immigration crackdown threatens £15 billion care sector - Bloomberg",
-          "url": "https://www.investing.com/news/economy-news/uk-immigration-crackdown-threatens-15-billion-care-sector--bloomberg-4971064",
+          "title": "Does enough capital exist to finance everyone’s ambitious AI spending plans?",
+          "url": "https://www.investing.com/news/stock-market-news/does-enough-capital-exist-to-finance-everyones-ambitious-ai-spending-plans-4971221",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -446,14 +423,109 @@
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
-          "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Google’s AI search changes upended online publishing",
+          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "The World's First Corporate Psychopath May Have Just Been Identified",
+          "url": "https://www.sciencealert.com/the-worlds-first-corporate-psychopath-may-have-just-been-identified",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "This sold-out plushie emits the grating hum of a real-life data center when you squeeze it",
+          "url": "https://www.businessinsider.com/plushie-ai-data-center-noise-hug-art-project-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "North Korea’s Kim Jong Un makes surprise China visit as ties strengthen",
+          "url": "https://www.investing.com/news/economy-news/north-koreas-kim-jong-un-makes-surprise-china-visit-as-ties-strengthen-4971072",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Comedian Charlie Berens has made Wisconsin politics a laughing matter",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011198/comedian-charlie-berens-has-made-wisconsin-politics-a-laughing-matter",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Blue Planet III is keeping the rough edges in the age of AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
           "reason": "Source requires a subscription"
         },
         {
           "title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
           "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Too Much RNA Can Actually Starve Cells of Energy, Study Finds",
+          "url": "https://www.sciencealert.com/too-much-rna-can-actually-starve-cells-of-energy-study-finds",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Bill Gates predicts 20 years of turmoil before AI creates 'true abundance'",
+          "url": "https://www.businessinsider.com/bill-gates-ai-abundance-job-losses-unemployment-robots-musk-amodei-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "UK immigration crackdown threatens £15 billion care sector - Bloomberg",
+          "url": "https://www.investing.com/news/economy-news/uk-immigration-crackdown-threatens-15-billion-care-sector--bloomberg-4971064",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Medpace CEO August Troendle sells $1.59 million in stock",
+          "url": "https://www.investing.com/news/insider-trading-news/medpace-ceo-august-troendle-sells-159-million-in-stock-93CH-4971193",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "'Swing State of the Union' podcast digs deep on issues weighing on Wisconsin voters",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011186/swing-state-of-the-union-podcast-digs-deep-on-issues-weighing-on-wisconsin-voters",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Pennsylvania will require labels on AI-generated ads",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Peter Thiel says Apple has done 'nothing new' after Steve Jobs",
+          "url": "https://www.businessinsider.com/peter-thiel-apple-steve-jobs-tim-cook-innovation-iphone-duo-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "UAE closes more beaches as Gulf oil spill raises environmental concerns",
+          "url": "https://www.investing.com/news/economy-news/uae-closes-more-beaches-as-gulf-oil-spill-raises-environmental-concerns-4971057",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "ArriVent reports phase 1 data for cancer drug ARR-217",
+          "url": "https://www.investing.com/news/company-news/arrivent-reports-phase-1-data-for-cancer-drug-arr217-93CH-4971187",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "How data centers became a bipartisan political issue in Wisconsin",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Fielded is obsessed with scammers and unhinged Japanese cyberpunk",
+          "url": "https://www.theverge.com/entertainment/1017460/fielded-some-kind-of-animal-interview",
+          "reason": "Source requires a subscription"
         },
         {
           "title": "Sea cucumber–inspired gel could help heal damaged tissue in humans",
@@ -466,23 +538,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UAE closes more beaches as Gulf oil spill raises environmental concerns",
-          "url": "https://www.investing.com/news/economy-news/uae-closes-more-beaches-as-gulf-oil-spill-raises-environmental-concerns-4971057",
+          "title": "Should Aggregators block AI Agents?",
+          "url": "https://www.investing.com/news/economy-news/should-aggregators-block-ai-agents-4971047",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Oklo chief of staff John Hanson sells $41,129 of stock",
-          "url": "https://www.investing.com/news/insider-trading-news/oklo-chief-of-staff-john-hanson-sells-41129-of-stock-93CH-4971172",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Comedian Charlie Berens has made Wisconsin politics a laughing matter",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6011198/comedian-charlie-berens-has-made-wisconsin-politics-a-laughing-matter",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+          "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -496,14 +558,14 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Should Aggregators block AI Agents?",
-          "url": "https://www.investing.com/news/economy-news/should-aggregators-block-ai-agents-4971047",
+          "title": "Obama attacks Trump over inflation as Democrats fight for Michigan Senate seat",
+          "url": "https://www.investing.com/news/economy-news/obama-attacks-trump-over-inflation-as-democrats-fight-for-michigan-senate-seat-4971031",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "'Swing State of the Union' podcast digs deep on issues weighing on Wisconsin voters",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6011186/swing-state-of-the-union-podcast-digs-deep-on-issues-weighing-on-wisconsin-voters",
-          "reason": "Source article was unavailable or too short"
+          "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 2.65%",
+          "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-265-4971175",
+          "reason": "Provider returned HTTP 403"
         },
         {
           "title": "What to expect from Apple’s ‘Pro and tell’ event",
@@ -511,8 +573,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Glioblastoma breakthrough reveals how brain cancer cells become more aggressive",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261022081300.htm",
+          "title": "This mysterious mushroom makes people see hundreds of tiny humans",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222021.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -526,18 +588,18 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Obama attacks Trump over inflation as Democrats fight for Michigan Senate seat",
-          "url": "https://www.investing.com/news/economy-news/obama-attacks-trump-over-inflation-as-democrats-fight-for-michigan-senate-seat-4971031",
+          "title": "Trump floats unconstitutional third term at campaign rally in Iowa – video",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/trump-floats-unconstitutional-third-term-at-campaign-rally-in-iowa-video",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
+          "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Amarin’s icosapent ethyl shows survival benefit in cancer trial",
-          "url": "https://www.investing.com/news/company-news/amarins-icosapent-ethyl-shows-survival-benefit-in-cancer-trial-93CH-4971165",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "How data centers became a bipartisan political issue in Wisconsin",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
+          "title": "Video released in Mississippi police shooting of toddler",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6013628/video-released-in-mississippi-police-shooting-of-toddler",
           "reason": "Source article was unavailable or too short"
         },
         {
@@ -546,8 +608,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
+          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
+          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -556,38 +618,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
-          "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Oklo CPO Renner sells $41,129 in stock after RSU vesting",
-          "url": "https://www.investing.com/news/insider-trading-news/oklo-cpo-renner-sells-41129-in-stock-after-rsu-vesting-93CH-4971164",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
           "title": "Amber weather warning as Storm Boelo hits Scotland",
           "url": "https://www.bbc.co.uk/news/videos/cmqlnkq6p6y7o",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "Lee Chang Dong ponders the ethics of the camera",
-          "url": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "This mysterious mushroom makes people see hundreds of tiny humans",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261024222021.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
-          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
-          "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
+          "title": "A hidden bias in human language challenges 70 years of science",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -596,28 +633,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump floats unconstitutional third term at campaign rally in Iowa – video",
-          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/trump-floats-unconstitutional-third-term-at-campaign-rally-in-iowa-video",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Yemen’s Houthis renew threat against Riyadh airport as flights set to resume",
-          "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Everpure CVO John Colgrove sells $12.46M in stock",
-          "url": "https://www.investing.com/news/insider-trading-news/everpure-cvo-john-colgrove-sells-1246m-in-stock-93CH-4971155",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Laika has spent 20 years building up to Wildwood",
-          "url": "https://www.theverge.com/entertainment/1017740/wildwood-stop-motion-interview-laika",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
-          "url": "https://www.sciencealert.com/as-water-crisis-continues-backup-water-supply-in-the-colorado-river-basin-is-also-drying-up",
+          "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -631,29 +648,14 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "A hidden bias in human language challenges 70 years of science",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
           "title": "Mark Cuban says the best defense against malicious AI agents is more AI",
           "url": "https://www.businessinsider.com/mark-cuban-warns-of-ai-threats-at-reuters-next-event-2026-10",
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Weather warnings in place ahead of Storm Boelo",
-          "url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o",
+          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
           "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "AI is driving a data-center power boom. These are some of the biggest US projects being built.",
-          "url": "https://www.businessinsider.com/these-largest-planned-us-ai-data-centers-ranked-by-power-2026-9",
-          "reason": "Source requires a subscription"
         },
         {
           "title": "Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications",
@@ -661,23 +663,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Mark Zuckerberg keeps coming out on top",
-          "url": "https://www.businessinsider.com/ceo-mark-zuckerberg-keeps-winning-meta-ai-moves-muse-launch-2026-10",
-          "reason": "Source requires a subscription"
-        },
-        {
           "title": "Three released without charge after fatal arson attack in Ireland",
           "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "The little-known investment Martin Lewis wants you to understand...",
-          "url": "https://www.bbc.co.uk/news/videos/c8ly0357prl7o",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
+          "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023710.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -686,14 +678,14 @@
           "reason": "The actual event/announcement is more than a week old"
         }
       ],
-      "qualifying": 84,
-      "eventDatesVerified": 19,
-      "eventDatesUnconfirmed": 65,
+      "qualifying": 85,
+      "eventDatesVerified": 18,
+      "eventDatesUnconfirmed": 67,
       "rejectionReasons": {
-        "The actual event/announcement is more than a week old": 28,
+        "The actual event/announcement is more than a week old": 27,
         "Provider returned HTTP 403": 17,
         "Source article was unavailable or too short": 11,
-        "Source requires a subscription": 22
+        "Source requires a subscription": 21
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -701,7 +693,7 @@
           "source": "The New York Times",
           "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
           "available": true,
-          "candidates": 10,
+          "candidates": 11,
           "error": null
         },
         {
@@ -806,7 +798,7 @@
           "source": "BBC News",
           "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
           "available": true,
-          "candidates": 32,
+          "candidates": 31,
           "error": null
         },
         {
@@ -917,9 +909,9 @@
         {
           "source": "Nature",
           "url": "https://www.nature.com/nature.rss",
-          "available": false,
+          "available": true,
           "candidates": 0,
-          "error": "fetch failed"
+          "error": null
         },
         {
           "source": "Science",
@@ -1043,12 +1035,21 @@
       ],
       "method": "Publisher sections and live feeds; balanced reading budget with no headline-score cutoff; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts.",
       "linkChecks": 5,
-      "rejectedLinks": []
+      "rejectedLinks": [
+        {
+          "id": "https://apnews.com/article/trump-bbc-media-defamation-0a26fa60b265f55a9bcf7ed88cfacab8",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "id": "https://www.nytimes.com/video/world/middleeast/100000011225659/expat-voters-israel-election.html",
+          "reason": "Provider returned HTTP 403"
+        }
+      ]
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 2,
-    "carriedCount": 2,
+    "freshCount": 1,
+    "carriedCount": 3,
     "olderCount": 0,
     "reserveStories": [
       {
@@ -1072,7 +1073,7 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-25T13:53:49.307Z",
+        "checkedAt": "2026-10-25T17:36:45.710Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
@@ -1081,7 +1082,7 @@
         "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z"
       },
       {
         "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
@@ -1132,7 +1133,7 @@
         "olderReport": false,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z"
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z"
       },
       {
         "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
@@ -1152,7 +1153,7 @@
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T13:53:49.307Z",
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z",
         "primaryDoi": null,
         "eventDate": "2026-10-22",
         "eventKind": "Announcement published",
@@ -1184,6 +1185,112 @@
         "whyForYou": "Computer science, AI, and how computing systems work.",
         "selectedEdition": "2026-10-25-am",
         "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "publishedAt": "2026-10-25T00:14:30.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 2,
+        "nytHomeLead": false,
+        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
+        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-25-am",
+        "carriedForward": true,
+        "olderReport": false,
+        "slotOverride": true,
+        "overrideReason": "No qualifying report for this slot; retaining sourced coverage."
+      },
+      {
+        "id": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
+        "url": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
+        "title": "Demand for UK government action 10 months after British man’s death in Grenada",
+        "summary": "A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. The Murdered Abroad charity has called on the foreign affairs select committee to step in after Grenadian police found there was “no basis … that any homicide has occurred” and closed the case.",
+        "publishedAt": "2026-10-25T11:00:01.000Z",
+        "source": "The Guardian",
+        "category": "World",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
+        "feedRank": 8,
+        "nytHomeLead": false,
+        "editorialText": "A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. The Murdered Abroad charity has called on the foreign affairs select committee to step in after Grenadian police found there was “no basis … that any homicide has occurred” and closed the case. This was despite a report from an autopsy, done in the week he died, saying Frederick, 47, had suffered “blunt force trauma”, was tortured, including by removal of his toenail, and ruling the death a homicide. Frederick’s body was found on 4 January. Since then, the family say they have been forced to focus on their fight for justice instead of coming to terms with their loss. Murdered Abroad’s founder, Eve Henderson, said: “We understand",
+        "originalPublishedAt": "2026-10-25T11:00:01.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T17:36:45.710Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. The Murdered Abroad charity has called on the foreign affairs select committee to step in after Grenadian police found there was “no basis … that any homicide has occurred” and closed the case.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/41857771d6b7e99a163e8d99af363e9bbd9ff452/628_0_5398_4319/master/5398.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=80aacac78857539bbb7b847c20d6ab68",
+        "imageCaption": "Grenada's parliament building in St George's. UK authorities have said Frederick’s case was raised with officials at the highest levels of government in Grenada. Photograph: Georg Berg/Alamy",
+        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada",
+        "checkedAt": "2026-10-25T17:36:45.710Z",
+        "score": 36.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Demand for UK government action 10 months after British man’s death in Grenada",
+        "originalSummary": "Police closed case of Andrew Frederick despite autopsy report ruling his death a homicideA time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries.Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-25-am",
+        "carriedForward": false,
         "olderReport": false
       },
       {
@@ -1289,60 +1396,6 @@
         "selectedEdition": "2026-10-25-am",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
-        "publishedAt": "2026-10-25T00:14:30.000Z",
-        "source": "The Guardian",
-        "category": "U.S.",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
-        "feedRank": 2,
-        "nytHomeLead": false,
-        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
-        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
-        "sourcePageChecked": true,
-        "articleAccess": "readable",
-        "linkStatus": 200,
-        "linkCheckedAt": "2026-10-25T09:21:35.838Z",
-        "primaryDoi": null,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-        "checkedAt": "2026-10-25T00:51:49.833Z",
-        "score": 65.75,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 4,
-        "slotLabel": "U.S. news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-24-pm",
-        "carriedForward": true,
-        "olderReport": false,
-        "slotOverride": true,
-        "overrideReason": "No qualifying report for this slot; retaining sourced coverage."
       },
       {
         "id": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
@@ -2437,58 +2490,14 @@
         "leadUnchanged": false,
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.businessinsider.com/what-smart-people-say-cybersecurity-openai-internet-threats-2026-10",
-        "url": "https://www.businessinsider.com/what-smart-people-say-cybersecurity-openai-internet-threats-2026-10",
-        "title": "Smart people react to a growing wave of AI threats to the internet",
-        "summary": "By Cheryl Teh You're currently following this author! Click to unsubscribe from email alerts. and Alice Tecotzky You're currently following this author! Click to unsubscribe from email alerts. It's been a nightmarish week for cybersecurity. AI helped discover two \"critical\" flaws in the infrastructure of PHP, a programming language that up to 70% of websites use, prompting companies to race to roll out a fix or risk being hacked. The incident has illustrated how AI is creating a new level of risk for businesses and consumers online, in a week when multiple other cyber threats caused headaches for security workers.",
-        "publishedAt": "2026-10-23T10:29:53.026Z",
-        "source": "Business Insider",
-        "category": "Technology",
-        "discovery": "Publisher section",
-        "editorialText": "By Cheryl Teh You're currently following this author! Click to unsubscribe from email alerts. and Alice Tecotzky You're currently following this author! Click to unsubscribe from email alerts. It's been a nightmarish week for cybersecurity. AI helped discover two \"critical\" flaws in the infrastructure of PHP, a programming language that up to 70% of websites use, prompting companies to race to roll out a fix or risk being hacked. The incident has illustrated how AI is creating a new level of risk for businesses and consumers online, in a week when multiple other cyber threats caused headaches for security workers. Here's what executives and analysts are saying about the biggest cyber threat of the moment — and how AI could make things even worse. Anthropic's deputy security chief, Jason Clinton, warns that a \"vulnerability tsunami\" is coming — and says critical infrastructure hasn't caught up. Clinton posted on X on Wednesday about the need to \"patch critical infrastructure\" before core network vulnerabilities get exploited. On Thursday, he issued another warning to companies. \"As bad as things have gotten in the",
-        "originalPublishedAt": "2026-10-23T10:29:53.026Z",
-        "sourcePageChecked": true,
-        "eventDate": "2026-10-22",
-        "eventKind": "Published",
-        "eventDateVerified": true,
-        "dateEvidence": "Shumer published another essay on Thursday on his website and LinkedIn, this time titled \"The Internet Is Under Attack.",
-        "dateEvidenceUrl": "https://www.businessinsider.com/what-smart-people-say-cybersecurity-openai-internet-threats-2026-10",
-        "eventRevision": "2026-10-22:Published",
-        "majorUpdateVerified": false,
-        "explanation": "By Cheryl Teh You're currently following this author! Click to unsubscribe from email alerts. and Alice Tecotzky You're currently following this author! Click to unsubscribe from email alerts. It's been a nightmarish week for cybersecurity. AI helped discover two \"critical\" flaws in the infrastructure of PHP, a programming language that up to 70% of websites use, prompting companies to race to roll out a fix or risk being hacked. The incident has illustrated how AI is creating a new level of risk for businesses and consumers online, in a week when multiple other cyber threats caused headaches for security workers.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.insider.com/6adaefff510d67c758d86134?width=1200&format=jpeg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.businessinsider.com/what-smart-people-say-cybersecurity-openai-internet-threats-2026-10",
-        "checkedAt": "2026-10-23T15:06:25.328Z",
-        "score": 86,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 80,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "48h",
-        "displayTitle": "Smart people react to a growing wave of AI threats to the internet",
-        "originalSummary": "By Cheryl Teh You're currently following this author! Click to unsubscribe from email alerts. and Alice Tecotzky You're currently following this author! Click to unsubscribe from email alerts. It's been a nightmarish week for cybersecurity. AI helped discover two \"critical\" flaws in the infrastructure of PHP, a programming language that up to 70% of websites use, prompting companies to race to roll out a fix or risk being hacked. The incident has illustrated how AI is creating a new level of risk for businesses and consumers online, in a week when multiple other cyber threats caused headaches for security workers.",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "ai-computing",
-        "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-23-am",
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
       "https://www.nytimes.com/2026/10/24/us/politics/trump-netanyahu-iran-new-phase-of-war.html",
       "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
       "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-      "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
-      "https://www.bbc.co.uk/news/articles/cxp8g21j4648o"
+      "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+      "https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada"
     ]
   }
 }
