@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T23:39:17.215Z",
+  "fetchedAt": "2026-10-25T00:51:49.833Z",
   "news": {
     "nytLead": {
       "id": "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
@@ -22,11 +22,11 @@
       "eventDateVerified": false,
       "summaryKind": "NYT public-feed summary · full article unavailable",
       "articleAccessError": "Provider returned HTTP 403",
-      "checkedAt": "2026-10-24T23:39:17.215Z"
+      "checkedAt": "2026-10-25T00:51:49.833Z"
     },
     "nytStatus": {
       "available": true,
-      "checkedAt": "2026-10-24T23:39:17.215Z",
+      "checkedAt": "2026-10-25T00:51:49.833Z",
       "error": null
     },
     "schemaVersion": 2,
@@ -54,68 +54,16 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-24T23:39:17.215Z",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-24-pm",
-        "leadUnchanged": false,
+        "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
-      },
-      {
-        "id": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-        "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-        "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-        "summary": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed.",
-        "publishedAt": "2026-10-23T22:48:25.000Z",
-        "source": "Ars Technica",
-        "category": "Technology",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.arstechnica.com/arstechnica/index/",
-        "feedRank": 3,
-        "nytHomeLead": false,
-        "editorialText": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed. In short, it makes some aspects of a lunar landing significantly easier for Blue Origin. As part of this, NASA announced Friday that it is working with United Launch Alliance to develop an “extended” version of the Centaur V upper stage. In concert with the core stage of the Space Launch System, this upper stage would allow Orion to reach low-lunar orbit. This is a big deal. It",
-        "originalPublishedAt": "2026-10-23T22:48:25.000Z",
-        "sourcePageChecked": true,
-        "articleAccess": "readable",
-        "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
-        "primaryDoi": null,
-        "eventDate": "2026-10-23",
-        "eventKind": "Announced",
-        "eventDateVerified": true,
-        "dateEvidence": "As part of this, NASA announced Friday that it is working with United Launch Alliance to develop an “extended” version of the Centaur V upper stage.",
-        "dateEvidenceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-        "eventRevision": "2026-10-23:Announced",
-        "majorUpdateVerified": false,
-        "explanation": "The chart shared by NASA showed Orion docking with the Blue Moon lander in an elliptical lunar orbit, approximately 8,500 km above the Moon’s surface. However NASA is also working to have the option of docking with Orion in low-Lunar orbit. According to Jeremy Parsons, the manager of the Artemis Program for NASA, such an orbit a few hundred km above the Moon would significantly reduce the propellant needed by Blue Moon to bring astronauts down to the lunar surface and back up. This mass could be used elsewhere on the vehicle. The lower orbit would also offer more, and faster opportunities for astronauts to get off the lunar surface if needed.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur-1002x648.jpg",
-        "imageCaption": "",
-        "imageSourceUrl": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-        "checkedAt": "2026-10-24T23:39:17.215Z",
-        "score": 20.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 20,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "48h",
-        "displayTitle": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-        "originalSummary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "aviation-space",
-        "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-24-pm",
-        "carriedForward": false,
-        "olderReport": false
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z"
       },
       {
         "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
@@ -157,7 +105,7 @@
         "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
         "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
         "whyMatters": null,
-        "briefingSlot": 3,
+        "briefingSlot": 2,
         "slotLabel": "For you",
         "personalTopic": "aviation-space",
         "whyForYou": "Aviation, space, and aerospace engineering.",
@@ -166,14 +114,66 @@
         "olderReport": false,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z"
       },
       {
-        "id": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
-        "url": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
-        "title": "Man detained at Georgia immigration detention center dies as hunger strike continues",
-        "summary": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex.",
-        "publishedAt": "2026-10-24T22:06:15.000Z",
+        "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "title": "This design software reimagines everyday objects as self-aware devices",
+        "summary": "MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.",
+        "publishedAt": "2026-10-22T20:45:00.000Z",
+        "source": "MIT News",
+        "category": "Science",
+        "coverage": "University research release",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://news.mit.edu/rss/research",
+        "feedRank": 2,
+        "nytHomeLead": false,
+        "editorialText": "As a child, you likely saw a few Disney movies depicting inanimate objects, such as clocks, cups, and toys, as interactive companions to humans — an act of pure magic, seemingly. But scientists at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) are now doing something similar: transforming stationary items into self-aware tools that perceive and respond to human motion to complete a task. Engineers have 3D-printed these dynamic items with built-in sensing, using conductive materials for sensors and traces (sort of like wires) inside. The issue: both components were typically fabricated using the same material, so they’d emit similar signals. It’s sort of like hearing two radio stations at the same time, a mixup that’s hard to interpret. This confuses, say, a glove that relays instructions to a robotic hand about how to handle a specific object. The device couldn’t filter out the noise or verify the angle of a user’s motions, leading a humanoid student to make errors. Researchers at CSAIL and Tianjin University (TJU) in China may have found a way to 3D print more precise interactive",
+        "originalPublishedAt": "2026-10-22T20:45:00.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z",
+        "primaryDoi": null,
+        "eventDate": "2026-10-22",
+        "eventKind": "Announcement published",
+        "eventDateVerified": true,
+        "dateEvidence": "The institution's original announcement is dated 2026-10-22. This is the announcement date, not the date of a future mission.",
+        "dateEvidenceUrl": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "eventRevision": "2026-10-22:Announcement published",
+        "majorUpdateVerified": false,
+        "explanation": "MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.",
+        "summaryKind": "Plain-language source summary",
+        "imageUrl": "https://news.mit.edu/sites/default/files/images/202610/mit-csail-X-hinges-cover.gif",
+        "imageCaption": "",
+        "imageSourceUrl": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "checkedAt": "2026-10-24T03:08:42.023Z",
+        "score": 41.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "48h",
+        "displayTitle": "MIT’s new design tool puts sensors inside 3D-printed objects",
+        "originalSummary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "publishedAt": "2026-10-25T00:14:30.000Z",
         "source": "The Guardian",
         "category": "U.S.",
         "coverage": "Source report",
@@ -181,36 +181,36 @@
         "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
         "feedRank": 2,
         "nytHomeLead": false,
-        "editorialText": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex. GEO Group, the private prison company that runs the facilities under contract for the federal government, referred all questions to ICE. The Georgia bureau of investigation (GBI), a state law enforcement agency, confirmed in an email that the local sheriff’s office requested the GBI conduct an “in-custody death investigation” at the D Ray facility, the Guardian can reveal. ICE and the Department",
-        "originalPublishedAt": "2026-10-24T22:06:15.000Z",
+        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
+        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z",
         "primaryDoi": null,
-        "eventDate": "2026-10-23",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside.",
-        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
-        "eventRevision": "2026-10-23:Event",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "eventRevision": null,
         "majorUpdateVerified": false,
-        "explanation": "An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside. The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Immigration and Customs Enforcement (ICE) on Saturday confirmed the death inside the facility, which is adjacent to the Folkston ICE processing center. Together, both facilities make up a large detention complex.",
+        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/5098ba27928833896c54068aea6264d9317ddb09/324_0_3238_2590/master/3238.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a538d8b94d088289c4658503ae2887fd",
-        "imageCaption": "Detainees behind concertina wire inside the Folkston ICE Processing Center and D Ray James Processing Center in Folkston, Georgia, on 9 September 2025. Photograph: Erik S Lesser/EPA",
-        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
-        "checkedAt": "2026-10-24T23:39:17.215Z",
-        "score": 36.75,
+        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 65.75,
         "dimensions": {
-          "surprise": 15,
-          "consequence": 90,
-          "novelty": 15,
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
           "relevance": 10
         },
-        "freshness": "48h",
-        "displayTitle": "Man detained at Georgia immigration detention center dies as hunger strike continues",
-        "originalSummary": "Death inside Folkston facility comes as officials allegedly threaten hunger strikers there with force-feedingAn immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing hunger strike inside.The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions. Continue reading...",
+        "freshness": "24h",
+        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
         "whyMatters": null,
         "briefingSlot": 4,
         "slotLabel": "U.S. news",
@@ -221,48 +221,48 @@
         "olderReport": false
       },
       {
-        "id": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
-        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
-        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-        "summary": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history.",
-        "publishedAt": "2026-10-24T21:09:27.675Z",
+        "id": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+        "summary": "Former President Barack Obama has attacked the Trump administration over the Iran war and high consumer prices as he hit the campaign trail for Democrats ahead of the US midterm elections. \"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama told crowds in Ohio on Saturday. Meanwhile, US President Donald Trump sought to energise voters at a rally in Georgia, after he cast an early ballot alongside First Lady Melania Trump in Florida. Early voting has already begun ahead of the 3 November elections, which will decide which party controls Congress for the rest of Trump's presidency.",
+        "publishedAt": "2026-10-24T21:12:55.770Z",
         "source": "BBC News",
-        "category": "World",
+        "category": "U.S.",
         "coverage": "Source report",
         "feedChecked": true,
-        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
         "feedRank": 1,
         "nytHomeLead": false,
-        "editorialText": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history. The interior ministry said an estimated 410,000 people protested on Saturday, while the unions put the number at about 800,000. Some 70,000 police officers were deployed and restrictions imposed in several cities to prevent the latest protests over the cost of living and poor school conditions from descending into the kind of chaos which saw officers outnumbered, hundreds of businesses looted and buildings torched. President Emmanuel Macron had decreed earlier this week that only demonstrations organised by",
-        "originalPublishedAt": "2026-10-24T19:28:47.774Z",
+        "editorialText": "Former President Barack Obama has attacked the Trump administration over the Iran war and high consumer prices as he hit the campaign trail for Democrats ahead of the US midterm elections. \"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama told crowds in Ohio on Saturday. Meanwhile, US President Donald Trump sought to energise voters at a rally in Georgia, after he cast an early ballot alongside First Lady Melania Trump in Florida. Early voting has already begun ahead of the 3 November elections, which will decide which party controls Congress for the rest of Trump's presidency. Speaking on Saturday in Ohio and Michigan, Obama targeted Trump and his cabinet members, at one point mocking the president's attempt to redecorate the White House. \"After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to say, 'enough is enough,'\" the former president said during his appearance in Cleveland. Obama said he sympathised with",
+        "originalPublishedAt": "2026-10-24T21:12:55.770Z",
         "sourcePageChecked": true,
         "articleAccess": "readable",
         "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T23:39:17.215Z",
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z",
         "primaryDoi": null,
-        "eventDate": "2026-10-24",
-        "eventKind": "Event",
-        "eventDateVerified": true,
-        "dateEvidence": "Clashes between protesters and riot police in Paris erupted at the end of a peaceful march from the city's Porte d'Italie towards Porte de Vincennes on Saturday, where the police operation included an elite unit that usually deals with organised crime and counter-terrorism.",
-        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
-        "eventRevision": "2026-10-24:Event",
-        "majorUpdateVerified": true,
-        "explanation": "Nearly 1,000 arrests were made as hundreds of thousands of people took part in another day of protests across France which were followed by some clashes late on Saturday, officials have said. After a day of largely peaceful demonstrations, police fired tear gas and water cannon to disperse protesters in a number of cities including Paris, while barricades were set alight in Marseille and people ripped boards from a shop in Bordeaux. But officials have so far managed to avoid rioting and looting on the scale seen last weekend, which resulted in some of the worst scenes of disorder in France's modern history.",
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Former President Barack Obama has attacked the Trump administration over the Iran war and high consumer prices as he hit the campaign trail for Democrats ahead of the US midterm elections. \"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama told crowds in Ohio on Saturday. Meanwhile, US President Donald Trump sought to energise voters at a rally in Georgia, after he cast an early ballot alongside First Lady Melania Trump in Florida. Early voting has already begun ahead of the 3 November elections, which will decide which party controls Congress for the rest of Trump's presidency.",
         "summaryKind": "Source excerpt",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0734/live/d07c4f10-cff9-11f1-93e1-3b657b665bcf.jpg",
         "imageCaption": "",
-        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
-        "checkedAt": "2026-10-24T23:39:17.215Z",
-        "score": 65.75,
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 36.75,
         "dimensions": {
-          "surprise": 65,
-          "consequence": 95,
-          "novelty": 65,
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 15,
           "relevance": 10
         },
         "freshness": "24h",
-        "displayTitle": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-        "originalSummary": "Officials have so far managed to avoid a repeat of last weekend's rioting and looting as hundreds of thousands took part in demonstrations.",
+        "displayTitle": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+        "originalSummary": "\"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama said.",
         "whyMatters": null,
         "briefingSlot": 5,
         "slotLabel": "World news",
@@ -273,19 +273,19 @@
         "olderReport": false
       }
     ],
-    "fetchedAt": "2026-10-24T23:39:17.215Z",
-    "checkedAt": "2026-10-24T23:39:17.215Z",
+    "fetchedAt": "2026-10-25T00:51:49.833Z",
+    "checkedAt": "2026-10-25T00:51:49.833Z",
     "sources": [
       "The New York Times",
       "ScienceDaily",
       "BBC News",
-      "MIT News",
-      "Ars Technica",
+      "Phys.org",
       "The Guardian",
+      "Ars Technica",
+      "MIT News",
       "NPR",
       "ScienceAlert",
       "Higher Ed Dive",
-      "Phys.org",
       "IEEE Spectrum"
     ],
     "providersAvailable": 34,
@@ -293,8 +293,8 @@
     "research": {
       "rawCandidates": 945,
       "candidatesReviewed": 240,
-      "sourcePagesRead": 175,
-      "primaryDatesChecked": 29,
+      "sourcePagesRead": 174,
+      "primaryDatesChecked": 28,
       "rejected": 81,
       "rejectedCandidates": [
         {
@@ -308,13 +308,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
-          "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Why South Korea’s stock market represents the purest AI trade",
-          "url": "https://www.investing.com/news/stock-market-news/why-south-koreas-stock-market-represents-the-purest-ai-trade-4970991",
+          "title": "Yemen’s Houthis renew threat against Riyadh airport as flights set to resume",
+          "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -338,9 +333,9 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Scientists demonstrate AI-designed enzyme for drug synthesis",
-          "url": "https://phys.org/news/2026-10-scientists-ai-enzyme-drug-synthesis.html",
-          "reason": "fetch failed"
+          "title": "Scientists May Have Discovered Why Men's Prostates Enlarge With Age",
+          "url": "https://www.sciencealert.com/scientists-may-have-discovered-why-mens-prostates-enlarge-with-age",
+          "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "Peter Thiel says Apple has done 'nothing new' after Steve Jobs",
@@ -348,13 +343,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Ukraine says military Starlink service restored as Musk cites terms violations",
-          "url": "https://www.investing.com/news/economy-news/ukraine-says-military-starlink-service-restored-after-10day-disruption-4970760",
+          "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
+          "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Trump set to announce Audi plan to build US factory in Georgia, source says",
-          "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+          "title": "El Salvador president says bodies found in Haiti do not belong to ambushed soldiers",
+          "url": "https://www.investing.com/news/commodities-news/bodies-of-ambushed-salvadoran-soldiers-found-in-haiti-new-york-timesreports-4970997",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -383,8 +378,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
-          "url": "https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html",
+          "title": "Who should have a say in which species are saved? The California condor offers lessons for a global biodiversity treaty",
+          "url": "https://phys.org/news/2026-10-species-california-condor-lessons-global.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -393,13 +388,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Houthis launch broad assault on Saudi sites as U.S. warns of Iranian plots",
-          "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
+          "title": "Ukraine says military Starlink service restored as Musk cites terms violations",
+          "url": "https://www.investing.com/news/economy-news/ukraine-says-military-starlink-service-restored-after-10day-disruption-4970760",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Inside the Trump-administration campaign to return Brazil’s Bolsonaro clan to power",
-          "url": "https://www.investing.com/news/stock-market-news/inside-the-trumpadministration-campaign-to-return-brazils-bolsonaro-clan-to-power-4970978",
+          "title": "Japan Post Holdings sells $1.37M in Aflac stock",
+          "url": "https://www.investing.com/news/insider-trading-news/japan-post-holdings-sells-137m-in-aflac-stock-93CH-4971004",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -418,8 +413,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
-          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
+          "title": "Bell pepper colors reveal differences in sweetness, nutrients and ripeness",
+          "url": "https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -428,8 +423,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Could France’s debt crisis spread across Europe?",
-          "url": "https://www.investing.com/news/economy-news/could-frances-debt-crisis-spread-across-europe-4970815",
+          "title": "Houthis launch broad assault on Saudi sites as U.S. warns of Iranian plots",
+          "url": "https://www.investing.com/news/economy-news/saudi-arabia-intercepts-houthi-missile-as-trump-threatens-new-strikes-4970589",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Sydney’s new international airport opens to passengers",
+          "url": "https://www.investing.com/news/stock-market-news/sydneys-new-international-airport-opens-to-passengers-4971003",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -443,9 +443,44 @@
           "reason": "Source article was unavailable or too short"
         },
         {
+          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
           "title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
           "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
           "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Common Liver Disease May Actually Have 5 Distinct Types With Different Health Risks",
+          "url": "https://www.sciencealert.com/common-liver-disease-may-actually-have-5-distinct-types-with-different-health-risks",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Fish lamps and Windows XP: Inside Frutiger Aero, the nostalgic tech aesthetic captivating Gen Zers",
+          "url": "https://www.businessinsider.com/frutiger-aero-nostalgic-tech-aesthetic-gen-z-windows-xp-design-2026-10",
+          "reason": "Source requires a subscription"
+        },
+        {
+          "title": "Could France’s debt crisis spread across Europe?",
+          "url": "https://www.investing.com/news/economy-news/could-frances-debt-crisis-spread-across-europe-4970815",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Braskem creditors, shareholders near deal on $11bn debt restructuring - Bloomberg",
+          "url": "https://www.investing.com/news/company-news/braskem-creditors-shareholders-near-deal-on-11bn-debt-restructuring--bloomberg-4971002",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "How data centers became a bipartisan political issue in Wisconsin",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
+          "title": "What to expect from Apple’s ‘Pro and tell’ event",
+          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
+          "reason": "Source requires a subscription"
         },
         {
           "title": "As Water Crisis Continues, Backup Water Supply in The Colorado River Basin Is Also Drying Up",
@@ -458,8 +493,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Fish lamps and Windows XP: Inside Frutiger Aero, the nostalgic tech aesthetic captivating Gen Zers",
-          "url": "https://www.businessinsider.com/frutiger-aero-nostalgic-tech-aesthetic-gen-z-windows-xp-design-2026-10",
+          "title": "Are you a mom who drives for Uber or Lyft? Take our survey",
+          "url": "https://www.businessinsider.com/moms-turn-to-uber-and-lyft-for-flexible-income-opportunities-2026-10",
           "reason": "Source requires a subscription"
         },
         {
@@ -468,48 +503,8 @@
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Volkswagen to build Georgia Audi plant, expand in SC - Bloomberg",
-          "url": "https://www.investing.com/news/company-news/volkswagen-to-build-georgia-audi-plant-expand-in-sc--bloomberg-4970968",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "How data centers became a bipartisan political issue in Wisconsin",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
-          "reason": "Source article was unavailable or too short"
-        },
-        {
-          "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "What to expect from Apple’s ‘Pro and tell’ event",
-          "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "Both Low And High Testosterone Seem to Be Linked to an Irregular Heartbeat, Study Finds",
-          "url": "https://www.sciencealert.com/both-low-and-high-testosterone-seem-to-be-linked-to-an-irregular-heartbeat-study-finds",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "How flare ribbons reveal hidden solar explosions on the sun",
-          "url": "https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Are you a mom who drives for Uber or Lyft? Take our survey",
-          "url": "https://www.businessinsider.com/moms-turn-to-uber-and-lyft-for-flexible-income-opportunities-2026-10",
-          "reason": "Source requires a subscription"
-        },
-        {
-          "title": "UK to inject £20.4 billion into state-backed lenders in budget, FT reports",
-          "url": "https://www.investing.com/news/economy-news/uk-to-inject-204-billion-into-statebacked-lenders-in-budget-ft-reports-4970689",
-          "reason": "Provider returned HTTP 403"
-        },
-        {
-          "title": "Adlai Nortye director Ji Ping sells $163,274 in ANL stock",
-          "url": "https://www.investing.com/news/insider-trading-news/adlai-nortye-director-ji-ping-sells-163274-in-anl-stock-93CH-4970965",
+          "title": "Trump set to announce Audi plan to build US factory in Georgia, source says",
+          "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -518,8 +513,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery",
-          "url": "https://www.sciencealert.com/miniature-ball-lightning-created-in-a-lab-could-help-solve-a-centuries-old-mystery",
+          "title": "Both Low And High Testosterone Seem to Be Linked to an Irregular Heartbeat, Study Finds",
+          "url": "https://www.sciencealert.com/both-low-and-high-testosterone-seem-to-be-linked-to-an-irregular-heartbeat-study-finds",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -528,13 +523,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
-          "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
+          "title": "UK to inject £20.4 billion into state-backed lenders in budget, FT reports",
+          "url": "https://www.investing.com/news/economy-news/uk-to-inject-204-billion-into-statebacked-lenders-in-budget-ft-reports-4970689",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Can silver recover from its latest sell-off? UBS weighs in",
-          "url": "https://www.investing.com/news/commodities-news/can-silver-recover-from-its-latest-selloff-ubs-weighs-in-4970956",
+          "title": "Abuse survivors approve $800 million settlement with Archdiocese of New York",
+          "url": "https://www.investing.com/news/stock-market-news/abuse-survivors-approve-800-million-settlement-with-archdiocese-of-new-york-4971001",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -553,8 +548,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "NASA's Perseverance Just Broke The Off-World Driving Record, While Mostly Steering Itself",
-          "url": "https://www.sciencealert.com/nasas-perseverance-just-drove-farther-than-any-vehicle-on-another-world-mostly-steering-itself",
+          "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery",
+          "url": "https://www.sciencealert.com/miniature-ball-lightning-created-in-a-lab-could-help-solve-a-centuries-old-mystery",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -563,13 +558,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK unveils $800 million AI security funding plan",
-          "url": "https://www.investing.com/news/economy-news/uk-unveils-800-million-ai-security-funding-plan-4970642",
+          "title": "UK budget to prioritise bond markets as Labour tensions mount, Bloomberg reports",
+          "url": "https://www.investing.com/news/economy-news/uk-budget-to-prioritise-bond-markets-as-labour-tensions-mount-bloomberg-reports-4970669",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Woori Financial ADR earnings beat by $0.29, revenue topped estimates",
-          "url": "https://www.investing.com/news/earnings/woori-financial-adr-earnings-beat-by-029-revenue-topped-estimates-4970952",
+          "title": "Climb Bio reports early data on budoprutug for kidney diseases",
+          "url": "https://www.investing.com/news/company-news/climb-bio-reports-early-data-on-budoprutug-for-kidney-diseases-93CH-4971000",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -588,8 +583,8 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications",
-          "url": "https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html",
+          "title": "NASA's Perseverance Just Broke The Off-World Driving Record, While Mostly Steering Itself",
+          "url": "https://www.sciencealert.com/nasas-perseverance-just-drove-farther-than-any-vehicle-on-another-world-mostly-steering-itself",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -598,8 +593,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "UK’s Healey to give two state-backed lenders £20 billion capital boost in budget",
-          "url": "https://www.investing.com/news/economy-news/uks-healey-to-give-two-statebacked-lenders-20-billion-capital-boost-in-budget-4970530",
+          "title": "UK unveils $800 million AI security funding plan",
+          "url": "https://www.investing.com/news/economy-news/uk-unveils-800-million-ai-security-funding-plan-4970642",
+          "reason": "Provider returned HTTP 403"
+        },
+        {
+          "title": "Trade Desk CEO overrides investor opposition to option repricing - WSJ",
+          "url": "https://www.investing.com/news/company-news/trade-desk-ceo-overrides-investor-opposition-to-option-repricing--wsj-4970999",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -618,13 +618,8 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Your Brain May Be Switching Between Two Versions of Reality 15 Times a Second",
-          "url": "https://www.sciencealert.com/your-brain-may-be-switching-between-two-versions-of-reality-15-times-a-second",
-          "reason": "The actual event/announcement is more than a week old"
-        },
-        {
-          "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
-          "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
+          "title": "Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications",
+          "url": "https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -633,13 +628,13 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
-          "url": "https://www.investing.com/news/economy-news/us-to-remove-50-tariffs-on-some-canadian-goods-to-help-republicans-in-midterms-wsj-reports-4970225",
+          "title": "UK’s Healey to give two state-backed lenders £20 billion capital boost in budget",
+          "url": "https://www.investing.com/news/economy-news/uks-healey-to-give-two-statebacked-lenders-20-billion-capital-boost-in-budget-4970530",
           "reason": "Provider returned HTTP 403"
         },
         {
-          "title": "Amgen at ESMO: IMDELLTRA data points to earlier lung cancer use",
-          "url": "https://www.investing.com/news/transcripts/amgen-at-esmo-imdelltra-data-points-to-earlier-lung-cancer-use-93CH-4970944",
+          "title": "Why South Korea’s stock market represents the purest AI trade",
+          "url": "https://www.investing.com/news/stock-market-news/why-south-koreas-stock-market-represents-the-purest-ai-trade-4970991",
           "reason": "Provider returned HTTP 403"
         },
         {
@@ -653,13 +648,13 @@
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Tiny Genetic Tweak From An Ancient Virus Might've Prevented Chimpanzees From Developing Brains Like Ours",
-          "url": "https://www.sciencealert.com/tiny-genetic-tweak-from-an-ancient-virus-mightve-prevented-chimpanzees-from-developing-brains-like-ours",
+          "title": "Your Brain May Be Switching Between Two Versions of Reality 15 Times a Second",
+          "url": "https://www.sciencealert.com/your-brain-may-be-switching-between-two-versions-of-reality-15-times-a-second",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years",
-          "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
+          "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
+          "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -668,13 +663,18 @@
           "reason": "Source requires a subscription"
         },
         {
+          "title": "Trump floats unconstitutional third term at campaign rally in Iowa – video",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/trump-floats-unconstitutional-third-term-at-campaign-rally-in-iowa-video",
+          "reason": "Source article was unavailable or too short"
+        },
+        {
           "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
           "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
-          "title": "Cleaner brick kilns cut pollution, but gains did not reach workers, research finds",
-          "url": "https://phys.org/news/2026-10-cleaner-brick-kilns-pollution-gains.html",
+          "title": "Ancient stalagmites reveal exceptions to Asia–South America monsoon seesaw over the past 450,000 years",
+          "url": "https://phys.org/news/2026-10-ancient-stalagmites-reveal-exceptions-asiasouth.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
@@ -683,35 +683,34 @@
           "reason": "Source requires a subscription"
         },
         {
-          "title": "Trump floats unconstitutional third term at campaign rally in Iowa – video",
-          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/trump-floats-unconstitutional-third-term-at-campaign-rally-in-iowa-video",
+          "title": "These key races in the 2026 midterms will decide who controls the US Senate – video explainer",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/these-key-races-in-the-2026-midterms-will-decide-who-controls-the-us-senate-video-explainer",
           "reason": "Source article was unavailable or too short"
         },
         {
-          "title": "New long‑clawed British dinosaur is the first of its kind in Europe",
-          "url": "https://phys.org/news/2026-10-longclawed-british-dinosaur-kind-europe.html",
+          "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
+          "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+          "reason": "The actual event/announcement is more than a week old"
+        },
+        {
+          "title": "Cleaner brick kilns cut pollution, but gains did not reach workers, research finds",
+          "url": "https://phys.org/news/2026-10-cleaner-brick-kilns-pollution-gains.html",
           "reason": "The actual event/announcement is more than a week old"
         },
         {
           "title": "The Elizabeth Holmes bump is real",
           "url": "https://www.businessinsider.com/elizabeth-holmes-you-can-see-everything-bump-spotify-dropout-book-2026-10",
           "reason": "Source requires a subscription"
-        },
-        {
-          "title": "These key races in the 2026 midterms will decide who controls the US Senate – video explainer",
-          "url": "https://www.theguardian.com/us-news/video/2026/oct/23/these-key-races-in-the-2026-midterms-will-decide-who-controls-the-us-senate-video-explainer",
-          "reason": "Source article was unavailable or too short"
         }
       ],
-      "qualifying": 83,
-      "eventDatesVerified": 18,
-      "eventDatesUnconfirmed": 65,
+      "qualifying": 82,
+      "eventDatesVerified": 15,
+      "eventDatesUnconfirmed": 67,
       "rejectionReasons": {
         "The actual event/announcement is more than a week old": 30,
-        "Provider returned HTTP 403": 18,
+        "Provider returned HTTP 403": 19,
         "Source article was unavailable or too short": 11,
-        "Source requires a subscription": 21,
-        "fetch failed": 1
+        "Source requires a subscription": 21
       },
       "targetCandidates": 20,
       "discoverySources": [
@@ -1061,17 +1060,12 @@
       ],
       "method": "Publisher sections and live feeds; balanced reading budget with no headline-score cutoff; full lead-text ranking; original source pages, explicit event-date evidence and Crossref publication dates; automated weighted ranking; attributed source excerpts.",
       "linkChecks": 5,
-      "rejectedLinks": [
-        {
-          "id": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-          "reason": "The article requires a subscription"
-        }
-      ]
+      "rejectedLinks": []
     },
     "minimumStories": 5,
     "layout": "nyt-interests-us-world-v1",
-    "freshCount": 4,
-    "carriedCount": 1,
+    "freshCount": 2,
+    "carriedCount": 2,
     "olderCount": 0,
     "reserveStories": [
       {
@@ -1095,16 +1089,223 @@
         "eventDateVerified": false,
         "summaryKind": "NYT public-feed summary · publisher access may require a subscription",
         "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-24T23:39:17.215Z",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
         "briefingSlot": 1,
         "slotLabel": "NYT lead",
         "personalTopic": null,
         "whyForYou": null,
         "selectedEdition": "2026-10-24-pm",
-        "leadUnchanged": false,
+        "leadUnchanged": true,
         "carriedForward": false,
         "olderReport": false,
-        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z"
+      },
+      {
+        "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "summary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "publishedAt": "2026-10-22T23:51:24.000Z",
+        "source": "The Guardian",
+        "category": "Science",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
+        "feedRank": 20,
+        "nytHomeLead": false,
+        "editorialText": "The federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station. The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. The ESA offer for Bennell-Pegg to join a future ISS mission garnered support from philanthropists and the Australian space industry, but has previously described by the office of the science minister, Tim Ayres, as “a very expensive undertaking” which no government alone could fund. Announcing the decision on Friday, Ayres said:“The government has been engaging extensively with the private sector, philanthropists, and other levels of government to raise funding to support a space flight – which is a significant cost. “We are grateful to the philanthropists who have committed over $6m in cash, plus in-kind support, and some indicative support from some state governments.” Bennell-Pegg is director of space technology at the Australian Space Agency (ASA) and completed astronaut training with the ESA in 2024. She is not the first Australian",
+        "originalPublishedAt": "2026-10-22T23:51:24.000Z",
+        "sourcePageChecked": true,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "summaryKind": "Publisher summary",
+        "imageUrl": "https://i.guim.co.uk/img/media/d23d8f0976a7c8b113da25b1c581dcc0372119fb/846_241_5250_4201/master/5250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec067a9075a79845bf98935768dd62eb",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "checkedAt": "2026-10-23T04:53:11.138Z",
+        "score": 68,
+        "dimensions": {
+          "surprise": 90,
+          "consequence": 90,
+          "novelty": 40,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
+        "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 2,
+        "slotLabel": "For you",
+        "personalTopic": "aviation-space",
+        "whyForYou": "Aviation, space, and aerospace engineering.",
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": true,
+        "olderReport": false,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z"
+      },
+      {
+        "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "title": "This design software reimagines everyday objects as self-aware devices",
+        "summary": "MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.",
+        "publishedAt": "2026-10-22T20:45:00.000Z",
+        "source": "MIT News",
+        "category": "Science",
+        "coverage": "University research release",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://news.mit.edu/rss/research",
+        "feedRank": 2,
+        "nytHomeLead": false,
+        "editorialText": "As a child, you likely saw a few Disney movies depicting inanimate objects, such as clocks, cups, and toys, as interactive companions to humans — an act of pure magic, seemingly. But scientists at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) are now doing something similar: transforming stationary items into self-aware tools that perceive and respond to human motion to complete a task. Engineers have 3D-printed these dynamic items with built-in sensing, using conductive materials for sensors and traces (sort of like wires) inside. The issue: both components were typically fabricated using the same material, so they’d emit similar signals. It’s sort of like hearing two radio stations at the same time, a mixup that’s hard to interpret. This confuses, say, a glove that relays instructions to a robotic hand about how to handle a specific object. The device couldn’t filter out the noise or verify the angle of a user’s motions, leading a humanoid student to make errors. Researchers at CSAIL and Tianjin University (TJU) in China may have found a way to 3D print more precise interactive",
+        "originalPublishedAt": "2026-10-22T20:45:00.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z",
+        "primaryDoi": null,
+        "eventDate": "2026-10-22",
+        "eventKind": "Announcement published",
+        "eventDateVerified": true,
+        "dateEvidence": "The institution's original announcement is dated 2026-10-22. This is the announcement date, not the date of a future mission.",
+        "dateEvidenceUrl": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "eventRevision": "2026-10-22:Announcement published",
+        "majorUpdateVerified": false,
+        "explanation": "MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.",
+        "summaryKind": "Plain-language source summary",
+        "imageUrl": "https://news.mit.edu/sites/default/files/images/202610/mit-csail-X-hinges-cover.gif",
+        "imageCaption": "",
+        "imageSourceUrl": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "checkedAt": "2026-10-24T03:08:42.023Z",
+        "score": 41.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 20,
+          "novelty": 85,
+          "relevance": 90
+        },
+        "freshness": "48h",
+        "displayTitle": "MIT’s new design tool puts sensors inside 3D-printed objects",
+        "originalSummary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+        "whyMatters": null,
+        "briefingSlot": 3,
+        "slotLabel": "For you",
+        "personalTopic": "ai-computing",
+        "whyForYou": "Computer science, AI, and how computing systems work.",
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": true,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "url": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "summary": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "publishedAt": "2026-10-25T00:14:30.000Z",
+        "source": "The Guardian",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://www.theguardian.com/us-news/us-politics/rss",
+        "feedRank": 2,
+        "nytHomeLead": false,
+        "editorialText": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. The former president headlined the rally for El-Sayed, the Democratic nominee for US Senate, and secretary of state Jocelyn Benson, the party’s candidate for governor, at an evening event to “get out the vote”. He accused Donald Trump of “enriching himself and his family”, and said the administration had set a “culture … at the top” of taking favors. “Never seen a president so intent on selling favors like this,” he said. The rally came on the first day of Michigan’s early voting period, with the general election",
+        "originalPublishedAt": "2026-10-25T00:14:30.000Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan. Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://i.guim.co.uk/img/media/bcf04be8e15098a7d07e4aa14bcc516999eb7ef1/233_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8cf2fbe3e80043711d1efc5db83fafe3",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 65.75,
+        "dimensions": {
+          "surprise": 65,
+          "consequence": 95,
+          "novelty": 65,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+        "originalSummary": "Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticketBarack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”. Continue reading...",
+        "whyMatters": null,
+        "briefingSlot": 4,
+        "slotLabel": "U.S. news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": false,
+        "olderReport": false
+      },
+      {
+        "id": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+        "summary": "Former President Barack Obama has attacked the Trump administration over the Iran war and high consumer prices as he hit the campaign trail for Democrats ahead of the US midterm elections. \"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama told crowds in Ohio on Saturday. Meanwhile, US President Donald Trump sought to energise voters at a rally in Georgia, after he cast an early ballot alongside First Lady Melania Trump in Florida. Early voting has already begun ahead of the 3 November elections, which will decide which party controls Congress for the rest of Trump's presidency.",
+        "publishedAt": "2026-10-24T21:12:55.770Z",
+        "source": "BBC News",
+        "category": "U.S.",
+        "coverage": "Source report",
+        "feedChecked": true,
+        "sourceFeedUrl": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+        "feedRank": 1,
+        "nytHomeLead": false,
+        "editorialText": "Former President Barack Obama has attacked the Trump administration over the Iran war and high consumer prices as he hit the campaign trail for Democrats ahead of the US midterm elections. \"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama told crowds in Ohio on Saturday. Meanwhile, US President Donald Trump sought to energise voters at a rally in Georgia, after he cast an early ballot alongside First Lady Melania Trump in Florida. Early voting has already begun ahead of the 3 November elections, which will decide which party controls Congress for the rest of Trump's presidency. Speaking on Saturday in Ohio and Michigan, Obama targeted Trump and his cabinet members, at one point mocking the president's attempt to redecorate the White House. \"After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to say, 'enough is enough,'\" the former president said during his appearance in Cleveland. Obama said he sympathised with",
+        "originalPublishedAt": "2026-10-24T21:12:55.770Z",
+        "sourcePageChecked": true,
+        "articleAccess": "readable",
+        "linkStatus": 200,
+        "linkCheckedAt": "2026-10-25T00:51:49.833Z",
+        "primaryDoi": null,
+        "eventDate": null,
+        "eventKind": null,
+        "eventDateVerified": false,
+        "dateEvidence": null,
+        "dateEvidenceUrl": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "eventRevision": null,
+        "majorUpdateVerified": false,
+        "explanation": "Former President Barack Obama has attacked the Trump administration over the Iran war and high consumer prices as he hit the campaign trail for Democrats ahead of the US midterm elections. \"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama told crowds in Ohio on Saturday. Meanwhile, US President Donald Trump sought to energise voters at a rally in Georgia, after he cast an early ballot alongside First Lady Melania Trump in Florida. Early voting has already begun ahead of the 3 November elections, which will decide which party controls Congress for the rest of Trump's presidency.",
+        "summaryKind": "Source excerpt",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0734/live/d07c4f10-cff9-11f1-93e1-3b657b665bcf.jpg",
+        "imageCaption": "",
+        "imageSourceUrl": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
+        "checkedAt": "2026-10-25T00:51:49.833Z",
+        "score": 36.75,
+        "dimensions": {
+          "surprise": 15,
+          "consequence": 90,
+          "novelty": 15,
+          "relevance": 10
+        },
+        "freshness": "24h",
+        "displayTitle": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+        "originalSummary": "\"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama said.",
+        "whyMatters": null,
+        "briefingSlot": 5,
+        "slotLabel": "World news",
+        "personalTopic": null,
+        "whyForYou": null,
+        "selectedEdition": "2026-10-24-pm",
+        "carriedForward": false,
+        "olderReport": false
       },
       {
         "id": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
@@ -1157,57 +1358,6 @@
         "selectedEdition": "2026-10-24-pm",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
-        "summary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
-        "publishedAt": "2026-10-22T23:51:24.000Z",
-        "source": "The Guardian",
-        "category": "Science",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/science/rss",
-        "feedRank": 20,
-        "nytHomeLead": false,
-        "editorialText": "The federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station. The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. The ESA offer for Bennell-Pegg to join a future ISS mission garnered support from philanthropists and the Australian space industry, but has previously described by the office of the science minister, Tim Ayres, as “a very expensive undertaking” which no government alone could fund. Announcing the decision on Friday, Ayres said:“The government has been engaging extensively with the private sector, philanthropists, and other levels of government to raise funding to support a space flight – which is a significant cost. “We are grateful to the philanthropists who have committed over $6m in cash, plus in-kind support, and some indicative support from some state governments.” Bennell-Pegg is director of space technology at the Australian Space Agency (ASA) and completed astronaut training with the ESA in 2024. She is not the first Australian",
-        "originalPublishedAt": "2026-10-22T23:51:24.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
-        "summaryKind": "Publisher summary",
-        "imageUrl": "https://i.guim.co.uk/img/media/d23d8f0976a7c8b113da25b1c581dcc0372119fb/846_241_5250_4201/master/5250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec067a9075a79845bf98935768dd62eb",
-        "imageCaption": "",
-        "imageSourceUrl": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "checkedAt": "2026-10-23T04:53:11.138Z",
-        "score": 68,
-        "dimensions": {
-          "surprise": 90,
-          "consequence": 90,
-          "novelty": 40,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station",
-        "originalSummary": "Australian of the Year would become the first astronaut in space to qualify under the Australian flag if she embarks on the 2028 missionGet our breaking news email, free app or daily news podcastThe federal government has sent an offer to the European Space Agency (ESA) to send the Australian of the Year, astronaut Katherine Bennell-Pegg, to the International Space Station.The mission, slated for 2028, will mark the first time a qualified astronaut has flown to space under the Australian flag. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 3,
-        "slotLabel": "For you",
-        "personalTopic": "aviation-space",
-        "whyForYou": "Aviation, space, and aerospace engineering.",
-        "selectedEdition": "2026-10-24-pm",
-        "carriedForward": true,
-        "olderReport": false,
-        "articleAccess": "readable",
-        "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T23:39:17.215Z"
       },
       {
         "id": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
@@ -1584,58 +1734,6 @@
         "carriedForward": false,
         "olderReport": false,
         "linkCheckedAt": "2026-10-24T03:17:34.732Z"
-      },
-      {
-        "id": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-        "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-        "title": "This design software reimagines everyday objects as self-aware devices",
-        "summary": "MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.",
-        "publishedAt": "2026-10-22T20:45:00.000Z",
-        "source": "MIT News",
-        "category": "Science",
-        "coverage": "University research release",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://news.mit.edu/rss/research",
-        "feedRank": 2,
-        "nytHomeLead": false,
-        "editorialText": "As a child, you likely saw a few Disney movies depicting inanimate objects, such as clocks, cups, and toys, as interactive companions to humans — an act of pure magic, seemingly. But scientists at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) are now doing something similar: transforming stationary items into self-aware tools that perceive and respond to human motion to complete a task. Engineers have 3D-printed these dynamic items with built-in sensing, using conductive materials for sensors and traces (sort of like wires) inside. The issue: both components were typically fabricated using the same material, so they’d emit similar signals. It’s sort of like hearing two radio stations at the same time, a mixup that’s hard to interpret. This confuses, say, a glove that relays instructions to a robotic hand about how to handle a specific object. The device couldn’t filter out the noise or verify the angle of a user’s motions, leading a humanoid student to make errors. Researchers at CSAIL and Tianjin University (TJU) in China may have found a way to 3D print more precise interactive",
-        "originalPublishedAt": "2026-10-22T20:45:00.000Z",
-        "sourcePageChecked": true,
-        "articleAccess": "readable",
-        "linkStatus": 200,
-        "linkCheckedAt": "2026-10-24T03:17:34.732Z",
-        "primaryDoi": null,
-        "eventDate": "2026-10-22",
-        "eventKind": "Announcement published",
-        "eventDateVerified": true,
-        "dateEvidence": "The institution's original announcement is dated 2026-10-22. This is the announcement date, not the date of a future mission.",
-        "dateEvidenceUrl": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-        "eventRevision": "2026-10-22:Announcement published",
-        "majorUpdateVerified": false,
-        "explanation": "MIT researchers developed X-Hinges, software that helps design 3D-printed objects with built-in sensors. The tricky part is separating the sensors’ signals from interference caused by the wire-like connections around them. The tool places two different materials in the design to reduce that interference. The researchers describe objects such as lamps and gloves that respond to touch, as well as small robots and toys. It is an understandable electronics problem: make an object sense what someone is doing, then get a clear signal out of it.",
-        "summaryKind": "Plain-language source summary",
-        "imageUrl": "https://news.mit.edu/sites/default/files/images/202610/mit-csail-X-hinges-cover.gif",
-        "imageCaption": "",
-        "imageSourceUrl": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-        "checkedAt": "2026-10-24T03:08:42.023Z",
-        "score": 41.75,
-        "dimensions": {
-          "surprise": 15,
-          "consequence": 20,
-          "novelty": 85,
-          "relevance": 90
-        },
-        "freshness": "48h",
-        "displayTitle": "MIT’s new design tool puts sensors inside 3D-printed objects",
-        "originalSummary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
-        "whyMatters": null,
-        "briefingSlot": 2,
-        "slotLabel": "For you",
-        "personalTopic": "ai-computing",
-        "whyForYou": "Computer science, AI, and how computing systems work.",
-        "selectedEdition": "2026-10-23-pm",
-        "carriedForward": false,
-        "olderReport": false
       },
       {
         "id": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
@@ -2368,92 +2466,14 @@
         "selectedEdition": "2026-10-22-pm",
         "carriedForward": false,
         "olderReport": false
-      },
-      {
-        "id": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-        "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-        "title": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
-        "summary": "A magnitude-7 earthquake has hit China’s Tibet region, killing at least 16 people, injuring 54 and collapsing hundreds of homes in the northern regional city of Nagqu, official media said. Search and rescue efforts continued after the collapse of at least 339 homes and 20 livestock sheds, the Nagqu media office said, citing city government officials. More than 1,600 people from the local county were deployed for rescue efforts. Supplies including 1,000 prefabricated housing units and about 3,000 tents and folding beds as well as torches and winter clothing arrived in the region.",
-        "publishedAt": "2026-10-23T04:04:35.000Z",
-        "source": "The Guardian",
-        "category": "World",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://www.theguardian.com/world/rss",
-        "feedRank": 11,
-        "nytHomeLead": false,
-        "editorialText": "A magnitude-7 earthquake has hit China’s Tibet region, killing at least 16 people, injuring 54 and collapsing hundreds of homes in the northern regional city of Nagqu, official media said. Search and rescue efforts continued after the collapse of at least 339 homes and 20 livestock sheds, the Nagqu media office said, citing city government officials. More than 1,600 people from the local county were deployed for rescue efforts. Supplies including 1,000 prefabricated housing units and about 3,000 tents and folding beds as well as torches and winter clothing arrived in the region. The US Geological Survey said the quake occurred at 10.33pm local time on Thursday, with its epicentre 191km (119 miles) east-northeast of Nagqu, in a sparsely populated, high-altitude area of northern Tibet. It put the earthquake’s depth at 18km. The US agency recorded at least seven aftershocks with magnitude between 4.3 and 5.2, all of them with a depth of 10km, according to its website. Videos posted by China’s national broadcaster CCTV said showed workers running out of restaurants and objects falling off shelves at supermarkets when",
-        "originalPublishedAt": "2026-10-23T04:04:35.000Z",
-        "sourcePageChecked": true,
-        "eventDate": null,
-        "eventKind": null,
-        "eventDateVerified": false,
-        "dateEvidence": null,
-        "dateEvidenceUrl": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-        "eventRevision": null,
-        "majorUpdateVerified": false,
-        "explanation": "A magnitude-7 earthquake has hit China’s Tibet region, killing at least 16 people, injuring 54 and collapsing hundreds of homes in the northern regional city of Nagqu, official media said. Search and rescue efforts continued after the collapse of at least 339 homes and 20 livestock sheds, the Nagqu media office said, citing city government officials. More than 1,600 people from the local county were deployed for rescue efforts. Supplies including 1,000 prefabricated housing units and about 3,000 tents and folding beds as well as torches and winter clothing arrived in the region.",
-        "summaryKind": "Source excerpt",
-        "imageUrl": "https://i.guim.co.uk/img/media/2b752e0d59c4399c02caaf09d97ac8759514aa0f/195_0_1350_1080/master/1350.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6d48087c25f5790bf82283a97b0bea13",
-        "imageCaption": "Rescuers use a torch while searching through building ruins in Nagqu city after a 7.0-magnitude quake hit the northern Tibet region of China on Thursday night. Photograph: VCG/Getty Images",
-        "imageSourceUrl": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-        "checkedAt": "2026-10-23T04:53:11.138Z",
-        "score": 54.25,
-        "dimensions": {
-          "surprise": 65,
-          "consequence": 90,
-          "novelty": 15,
-          "relevance": 10
-        },
-        "freshness": "24h",
-        "displayTitle": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
-        "originalSummary": "Search and rescue efforts under way after quake strikes region’s north, officials say, while at least seven aftershocks recordedA magnitude-7 earthquake has hit China’s Tibet region, killing at least 16 people, injuring 54 and collapsing hundreds of homes in the northern regional city of Nagqu, official media said.Search and rescue efforts continued after the collapse of at least 339 homes and 20 livestock sheds, the Nagqu media office said, citing city government officials. Continue reading...",
-        "whyMatters": null,
-        "briefingSlot": 5,
-        "slotLabel": "World news",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-22-pm",
-        "carriedForward": false,
-        "olderReport": false
-      },
-      {
-        "id": "https://www.nytimes.com/2026/10/22/us/politics/iowa-farmers-republicans-trump.html",
-        "url": "https://www.nytimes.com/2026/10/22/us/politics/iowa-farmers-republicans-trump.html",
-        "title": "Iowa, Usually Red, Is in Play This Midterm as Economic Woes Mount",
-        "summary": "The Trump administration’s policies could cost Republicans in a state that is being hit hard by expensive diesel prices and uncertainty over trade.",
-        "publishedAt": "2026-10-22T09:03:19.000Z",
-        "source": "The New York Times",
-        "category": "Top story",
-        "coverage": "Source report",
-        "feedChecked": true,
-        "sourceFeedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "feedRank": 1,
-        "nytHomeLead": true,
-        "nytFeedSummary": true,
-        "sourcePageChecked": false,
-        "explanation": "The Trump administration’s policies could cost Republicans in a state that is being hit hard by expensive diesel prices and uncertainty over trade.",
-        "eventDate": null,
-        "eventDateVerified": false,
-        "summaryKind": "NYT public-feed summary · full article unavailable",
-        "articleAccessError": "Provider returned HTTP 403",
-        "checkedAt": "2026-10-23T01:14:17.425Z",
-        "briefingSlot": 1,
-        "slotLabel": "NYT lead",
-        "personalTopic": null,
-        "whyForYou": null,
-        "selectedEdition": "2026-10-22-pm",
-        "leadUnchanged": false,
-        "carriedForward": false,
-        "olderReport": false
       }
     ],
     "selectedIds": [
       "https://www.nytimes.com/2026/10/24/us/politics/alaska-senate-election-trump-justice-department.html",
-      "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
       "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-      "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
-      "https://www.bbc.co.uk/news/articles/c95ynd587ynzo"
+      "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+      "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo"
     ]
   }
 }
