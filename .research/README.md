@@ -1,3 +1,17 @@
+# Current dashboard (October 26, 2026)
+
+News has been removed at the owner’s request. The deployed `index.html` no longer contains a briefing, news fetcher, news navigation, or embedded news snapshot. Published briefing datasets were removed. `briefing.yml` is manual-only and generates nothing; this is intentional on both `main` and `website-ready`. Historical news research modules below are retired; do not re-enable them as part of routine dashboard updates.
+
+Tasks accept an optional boolean `starred` field. A star changes the row’s tint without reordering tasks or completing them. Existing tasks lacking this field remain valid. The normal task sync/backup path preserves the value; no database migration is needed. All existing personal history and the `daymark:v1` key remain compatible.
+
+Fun facts now use a 40-item collection of concise, accessible explanations. Existing content IDs prevent immediate repeats; the collection still rotates at 7 AM/7 PM Eastern and with “Another fact.” Quotes, jokes and vocabulary retain their schedules.
+
+Checks: `node --test .research/test/sync.test.mjs` and `node .research/test/dashboard-simple-browser.mjs`. The browser check covers desktop/mobile, existing tasks, stars, reloads, keyboard operation, color change, check-ins, no news requests, and preserved saves.
+
+---
+
+## Historical implementation notes
+
 # Briefing research
 
 Run `npm ci` here, then `node --test test/*.test.mjs`.

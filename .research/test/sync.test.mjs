@@ -81,3 +81,12 @@ test('real PostgreSQL enforces account isolation, rejects anonymous saves, and a
     await db.exec("set request.jwt.claim.sub=''");await assert.rejects(db.query('select public.merge_dashboard($1::jsonb)',['{}']),/Sign in/);
   }finally{await db.close();}
 });
+
+test('task stars sync and unstar without dropping an older task’s fields',()=>{
+  const desktop=empty();desktop.tasks=[{id:'legacy',title:'Read history',subject:'history',minutes:30,completed:false,createdAt:'2026-10-25T12:00:00Z'}];
+  const j=journal('desktop',desktop);j.accept(j.entries,desktop,valid);
+  desktop.tasks[0].starred=true;j.capture(desktop);
+  const mobile=applyEntries(empty(),j.entries);assert.equal(mobile.tasks[0].starred,true);assert.equal(mobile.tasks[0].minutes,30);
+  const phone=journal('phone',mobile);phone.accept(j.entries,mobile,valid);mobile.tasks[0].starred=false;phone.capture(mobile);
+  const result=applyEntries(desktop,mergeEntries(j.entries,phone.entries));assert.equal(result.tasks[0].starred,false);assert.equal(result.tasks[0].title,'Read history');
+});
