@@ -1,3 +1,13 @@
+## Exercise progression and full-day streak (October 31, 2026)
+
+The movement card now has a full-day streak: both push-ups and sit-ups checked in both the AM and PM window. Each training day runs from 7AM Eastern to 7AM the next morning; the existing check-in streak is also retained. Every third consecutive fully completed training day earns a 3% increase, applied the next morning. A failed day undoes one increase if it breaks an active streak, resets the three-day counter, and subsequent consecutive missed days do not keep reducing the target. Minimum 25. Multiply the current whole-number target by 1.03 for an increase, divide by 1.03 for a reversal, and round each adjustment half up (25 → 26 → 27 → 28 for the first three blocks). Full-day streaks may include older logs, but progressive targets start October 31, 2026, preserving earlier entries at the original 25 reps.
+
+Targets, streaks, and history totals are derived from the synced check-in records. No extra counters or migration; reopening after an absence includes unlogged days. Past corrections recalculate the plan. New goals apply at 7AM, never midway through a day. Existing history totals now use each date’s target. The algorithm is deterministic across devices, date-sorted, and uses the Eastern window date, including DST.
+
+The YouTube card/dialog/handlers have been removed. Existing archived YouTube records remain compatible with backups and private sync for possible future restoration. No data keys or sync modules were changed.
+
+Validation: `node --test test/exercise-progression.test.mjs` covers three-day blocks, repeated gains, one-step reversal, missed gaps, baseline, partial days, old logs, input order, per-adjustment/half-up rounding, history totals, and DST. `npm run test:browser` includes desktop/mobile progression UI, next-morning reset, reload/history, rollback, and absence of YouTube UI. Existing two-device PostgreSQL sync browser checks also pass.
+
 ## Lift totals and quotations (October 31, 2026)
 
 “All your lifts” now shows derived all-time volume for bench, squat, and curls. Sum weight × reps; curls use a factor of two because existing records explicitly mean weight per dumbbell and reps per arm. A lb/kg selector converts mixed-unit records using exactly 0.45359237 kg/lb; round only the displayed total to at most one decimal place. Counts remain separate. Totals recalculate on logging, deletion, import, sync, and reload; no migration or separate stored counter is needed.
