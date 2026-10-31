@@ -1,3 +1,16 @@
+## Strength logging and new content (October 30, 2026)
+
+The live bundled `index.html` now includes collapsible Bench, Squat, and Curls forms immediately below the running log. Each submission records one set: weight, lb/kg, whole-number reps, date, and creation time. Curls use weight per dumbbell and reps per arm; barbell lifts use total weight including the bar. Recent sets and full removable history persist across check-ins. Validation/import accepts legacy backups without `lifts` and validates new records before applying them.
+
+`sync-core.js` includes `lifts` in the versioned personal collections. Existing Supabase schema/RLS already supports these records; no SQL migration or account setup is needed. Versioned module URLs fetch the matching sync client/core. Refresh both devices after deployment to load support for the new collection. Storage key and version remain `daymark:v1`, version 1.
+
+The joke collection is replaced with 32 dry/observational jokes. Momentum uses 24 original practical notes, explicitly labeled as notes rather than attributed quotations. Notes now use the same persisted seen-history rotation as jokes/facts: retain the current choice across reload, change at the Eastern 7 AM/7 PM check-in, and avoid repeats until exhausted. “Another thought” permits a manual change. Legacy delight history remains compatible.
+
+Validation:
+- `npm run test:browser`: existing dashboard regression plus desktop/mobile lifting validation, persistence, history/deletion, old-data loading, check-in changes, and no-repeat content pools.
+- `node test/sync-browser.mjs`: two browser devices against the real PGlite/PostgreSQL merge function, including bidirectional lifting, offline recovery, deletion, exports, and existing features.
+- `node --test test/sync.test.mjs`: sync journal and database isolation checks.
+
 # Current dashboard (October 26, 2026)
 
 News has been removed at the owner’s request. The deployed `index.html` no longer contains a briefing, news fetcher, news navigation, or embedded news snapshot. Published briefing datasets were removed. `briefing.yml` is manual-only and generates nothing; this is intentional on both `main` and `website-ready`. Historical news research modules below are retired; do not re-enable them as part of routine dashboard updates.

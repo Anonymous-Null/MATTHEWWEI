@@ -1,4 +1,4 @@
-import {SyncJournal, flattenPersonal, mergeEntries} from './sync-core.js';
+import {SyncJournal, flattenPersonal, mergeEntries} from './sync-core.js?v=strength-1';
 
 const CONFIG = 'matthewwei:sync-config:v1';
 const AUTH = 'matthewwei:sync-auth:v1';

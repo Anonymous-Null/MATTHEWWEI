@@ -12,7 +12,7 @@
     "dev": "node --use-env-proxy --watch server.mjs",
     "start": "node --use-env-proxy server.mjs",
     "test": "node --test test/*.test.mjs",
-    "test:browser": "node test/dashboard-simple-browser.mjs",
+    "test:browser": "node test/dashboard-simple-browser.mjs && node test/strength-browser.mjs",
     "test:live": "node --use-env-proxy test/live.mjs",
     "test:schedule": "node test/schedule-browser.mjs",
     "test:standalone-live": "node --use-env-proxy test/standalone-live.mjs",

@@ -1,5 +1,5 @@
 // Personal data only. Provider caches, credentials, and UI state stay on-device.
-const lists = ['tasks', 'studySessions', 'runs', 'moments', 'events', 'bookmarks'];
+const lists = ['tasks', 'studySessions', 'runs', 'lifts', 'moments', 'events', 'bookmarks'];
 const sets = ['knownWords', 'completedEvents'];
 const maps = ['youtubeSessions', 'duolingoDays', 'recapHighlights'];
 const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
@@ -82,7 +82,7 @@ export function applyEntries(state, entries) {
     }
   }
   // Rebuild collections in a stable order on all devices.
-  for (const field of lists) result[field].sort((a,b) => field === 'moments' ? (b.createdAt || '').localeCompare(a.createdAt || '') || a.id.localeCompare(b.id) : a.id.localeCompare(b.id));
+  for (const field of lists) (result[field] ||= []).sort((a,b) => field === 'moments' ? (b.createdAt || '').localeCompare(a.createdAt || '') || a.id.localeCompare(b.id) : a.id.localeCompare(b.id));
   return result;
 }
 

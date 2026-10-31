@@ -23,7 +23,7 @@ const origin='https://anonymous-null.github.io',path='/MATTHEWWEI/';
 const errors=[];
 const tokens=new Map();
 function session(email){const id=email==='matthew@example.test'?userA:userB;const token=crypto.randomUUID();tokens.set(token,{id,email});return {access_token:token,refresh_token:token,expires_in:3600,user:{id,email}};}
-const files=new Map();for(const file of ['index.html','sync-core.js','sync-client.js','briefing.json'])files.set(file,await readFile(new URL(file,root),'utf8'));
+const files=new Map();for(const file of ['index.html','sync-core.js','sync-client.js'])files.set(file,await readFile(new URL(file,root),'utf8'));
 async function device({mobile=false}={}){
   const context=await browser.newContext({viewport:mobile?{width:390,height:844}:{width:1440,height:1000},isMobile:mobile,hasTouch:mobile,acceptDownloads:true});
   let broken=false,saveRequests=0;const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
@@ -84,9 +84,20 @@ try{
     assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).notepad.text),'Keep my existing plan');
     assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).moments[0].text),'Existing good moment');
   }
+  // Lifting records use the same private per-record merge as the existing logs.
+  async function lift(page,exercise,weight,reps,unit='lb') {
+    await page.locator(`[data-lift="${exercise}"]`).click();
+    await page.locator('#lift-weight').fill(String(weight));await page.locator('#lift-unit').selectOption(unit);
+    await page.locator('#lift-reps').fill(String(reps));await page.locator('#lift-form button[type=submit]').click();
+    await page.locator('#lift-cancel').click();
+  }
+  await lift(pc,'bench',95,8);await sync(pc);await sync(mobile);
+  assert.match(await mobile.locator('#recent-lifts').innerText(),/95 lb × 8 reps/);
+  await lift(mobile,'curls',12.5,10,'kg');await sync(mobile);await sync(pc);
+  assert.match(await pc.locator('#recent-lifts').innerText(),/12.5 kg each × 10 reps/);
   // Both sides continue editing while one device cannot reach the service.
   await desktop.context.setOffline(true);await task(pc,'physics','Offline physics task');
-  await pc.locator('#pushups').uncheck();
+  await pc.locator('#pushups').uncheck();await lift(pc,'squat',135,5);
   await task(mobile,'english','Online English task');
   await mobile.locator('#tasks-math-list [data-delete-task]').click();await sync(mobile);
   desktop.setBroken(true);await desktop.context.setOffline(false);await pc.reload();
@@ -97,6 +108,13 @@ try{
     assert.match(await p.locator('#tasks-physics-list').innerText(),/Offline physics task/);assert.match(await p.locator('#tasks-english-list').innerText(),/Online English task/);
     assert.equal(await p.locator('#tasks-math-list li').count(),0,'Deleted task stays deleted on a stale device');assert.equal(await p.locator('#pushups').isChecked(),false);assert.equal(await p.locator('#situps').isChecked(),true);
   }
+  for(const p of [pc,mobile])assert.match(await p.locator('#recent-lifts').innerText(),/135 lb × 5 reps/);
+  await mobile.locator('#lifts-history-button').click();
+  mobile.once('dialog',d=>d.accept());await mobile.locator('#lifts-list [data-delete-lift]').filter({hasText:'✕'}).first().click();
+  await mobile.locator('#lifts-dialog .close-dialog').click();await sync(mobile);await sync(pc);
+  assert.equal(await pc.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).lifts.length),2);
+  await pc.reload();await synced(pc);
+  assert.equal(await pc.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).lifts.length),2,'Deleted lifting set stays deleted after reload');
   // Complete on the phone and receive the completion on the computer.
   await mobile.locator('#tasks-english-list input[type=checkbox]').click();await mobile.locator('#study-skip').click();await sync(mobile);await sync(pc);
   assert.equal(await pc.locator('#tasks-english-list li').count(),0);
@@ -104,10 +122,11 @@ try{
   await pc.evaluate(()=>{const key='matthewwei:sync-auth:v1',auth=JSON.parse(localStorage.getItem(key));auth.expires_at=0;localStorage.setItem(key,JSON.stringify(auth));});
   await pc.reload();await synced(pc);assert.ok(refreshes>0,'Expired sign-in refreshes automatically');
   await settings(pc);const downloaded=pc.waitForEvent('download');await pc.locator('#export-button').click();const download=await downloaded;const backup=await readFile(await download.path(),'utf8');
+  assert.equal(JSON.parse(backup).lifts.length,2,'Lifting history included in export');
   assert.doesNotMatch(backup,/access_token|refresh_token|sb_publishable_/);await close(pc);
   const outsider=await device();await configure(outsider.page);await login(outsider.page,'someoneelse@example.test');assert.equal(await outsider.page.locator('.task-entry').count(),0,'Another account cannot see Matthew’s tasks');
   await settings(mobile);await mobile.locator('#sync-signout').click();assert.match(await mobile.locator('#sync-status').innerText(),/Signed out/);await close(mobile);
   assert.match(await mobile.locator('#tasks-history-list').innerText(),/Computer history task/,'Sign-out preserves the local history');
   assert.deepEqual(errors,[]);
-  console.log('Desktop/mobile browser checks passed using the real PostgreSQL merge function: existing history, two-way tasks and exercise, offline/reload recovery, deletions, completed tasks, session refresh, account isolation, credential-free backups, and sign-out.');
+  console.log('Desktop/mobile browser checks passed using the real PostgreSQL merge function: existing history, two-way lifting sets, offline lifting, deletion and backups, tasks and exercise, offline/reload recovery, deletions, completed tasks, session refresh, account isolation, credential-free backups, and sign-out.');
 }finally{await browser.close();await db.close();}

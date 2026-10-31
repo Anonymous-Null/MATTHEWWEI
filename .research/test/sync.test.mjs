@@ -39,7 +39,7 @@ test('concurrent changes converge independent of delivery order; invalid data is
 });
 test('all personal collections sync; credentials, news, caches, and notepad open state do not',()=>{
   const state=empty();state.knownWords=['obdurate'];state.completedEvents=['event-key'];state.youtubeSessions={'2026-10-18-am':{completed:true}};state.duolingoDays={'2026-10-18':{completed:true}};state.notepad={text:'Hello',open:true};state.auth={secret:'never'};
-  for(const field of ['tasks','studySessions','runs','moments','events','bookmarks'])state[field]=[{id:field}];
+  for(const field of ['tasks','studySessions','runs','lifts','moments','events','bookmarks'])state[field]=[{id:field}];
   const keys=Object.keys(flattenPersonal(state)).join(' ');assert.doesNotMatch(keys,/auth|news|open|sheetEvents/);
   const result=applyEntries(empty(),journal('a',state).entries);assert.equal(result.notepad.open,false);assert.equal(result.duolingoDays['2026-10-18'].completed,true);assert.equal(result.runs[0].id,'runs');
 });

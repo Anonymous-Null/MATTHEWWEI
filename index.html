@@ -98,6 +98,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
 .task-entry.task-starred{background:var(--accent-light);border-color:color-mix(in srgb,var(--accent) 25%,var(--line));border-left-color:var(--accent)}
 @media(min-width:761px){.dashboard-grid{grid-template-columns:minmax(0,1fr) minmax(330px,1fr)}}
 @media(max-width:760px){.dashboard-grid{grid-template-columns:minmax(0,1fr)}.left-column,.right-column{display:contents}.dashboard-grid .card,.dashboard-grid .plan-notepad{grid-row:auto}.dashboard-grid .tasks-card{grid-row:1}.dashboard-grid .plan-notepad{grid-row:2}}
+.lift-buttons{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:9px}.lift-buttons .secondary-button{font-size:12px;padding:7px 13px}.lift-buttons [aria-expanded=true]{background:var(--accent-light);border-color:var(--accent);color:var(--accent)}.lift-form-heading{display:flex;align-items:center;justify-content:space-between;margin:12px 0 10px;gap:8px}.lift-form-heading strong{font-size:12px}.lift-form-heading .text-button{font-size:11px}.strength-block .form-status:not(:empty){margin:8px 0}.quote-section .delight-next{display:block;margin-top:12px}#lifts-list .run-entry{padding:15px 0}#lifts-list .run-entry>div{gap:4px 10px}
 </style>
   
 </head>
@@ -127,8 +128,8 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
       <div class="dashboard-grid">
         <div class="left-column"><section class="card journal-card" id="good-things" aria-labelledby="journal-heading"><div class="section-heading"><div><p class="section-kicker">THE GOOD DESERVES A PLACE</p><h2 id="journal-heading">What made today better?</h2></div><span class="journal-heart"><svg><use href="#i-heart"/></svg></span></div><p class="section-subtitle">A big win, a small kindness, or just a really good lunch.</p><form id="journal-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><label class="sr-only" for="journal-input">Something good that happened</label><textarea id="journal-input" maxlength="1200" rows="3" placeholder="Since my last check-in…" required></textarea><div class="journal-actions"><span class="fine-print">Private. Saved in this browser.</span><button class="primary-button" type="submit">Keep this moment <svg><use href="#i-arrow"/></svg></button></div><p id="journal-status" class="form-status" role="status"></p></fieldset></form><div id="latest-moment"></div><button class="text-button" id="moments-button">Your good-moments collection <span id="moments-count">0</span> →</button></section>
         <section class="card vocabulary-card" aria-labelledby="vocab-heading"><div class="section-heading"><div><p class="section-kicker">ONE NEW WORD, EVERY DAY</p><h2 id="vocab-heading">Word of the day</h2></div><span id="vocab-kind" class="vocab-kind"></span></div><div class="vocab-word-row"><h3 id="vocab-word"></h3><span id="vocab-part"></span></div><p id="vocab-meaning"></p><p id="vocab-example" class="vocab-example"></p><div class="vocab-actions"><a id="vocab-source" class="text-button" target="_blank" rel="noopener noreferrer">Dictionary →</a><button id="vocab-known" class="secondary-button" type="button">Already know</button></div><div class="vocab-known-row"><span id="vocab-known-count" class="fine-print">0 words marked known</span><button id="vocab-undo" class="text-button" type="button" hidden>Undo last</button></div><p id="vocab-status" class="form-status" role="status"></p></section><section class="card weekly-recap" id="recap-panel" aria-labelledby="recap-heading" hidden><p class="section-kicker">A SUNDAY LOOK BACK</p><h2 id="recap-heading">Your Sunday recap</h2><div id="recap-content"></div></section>
-        <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Resets at 7 AM & 7 PM. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Went for a run?</h3><span id="run-week-stat">0 runs this week</span></div><p class="running-help">About 3 runs a week. Log one whenever you go.</p><form id="run-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p><p id="run-status" class="form-status" role="status"></p></fieldset></form><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div></section>
-        <section class="card small-delights" aria-labelledby="delights-heading"><div class="delights-heading"><p class="section-kicker">FRESH AT 7 AM & 7 PM</p><h2 id="delights-heading">A little fuel for your day</h2></div><div class="delight quote-section"><div class="delight-label"><span class="delight-symbol">“</span><span>A LITTLE MOMENTUM</span></div><blockquote id="motivation-quote"></blockquote><cite id="motivation-author"></cite></div><div class="delight joke-section"><div class="delight-label"><span class="delight-symbol">:)</span><span>THIS CHECK-IN’S SMALL LAUGH</span></div><p id="joke-question" class="joke-question"></p><button id="joke-reveal" class="text-button">I’ll bite. Tell me →</button><p id="joke-answer" class="joke-answer" hidden></p><button id="joke-next" class="text-button delight-next" type="button">Another joke ↻</button></div><div class="delight fact-section"><div class="delight-label"><span class="delight-symbol">✦</span><span>FUN FACT</span></div><h3 id="fact-title"></h3><p id="fact-text"></p><p id="fact-source" class="fact-attribution"></p><button id="fact-next" class="text-button delight-next" type="button">Another fact ↻</button></div></section>
+        <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Resets at 7 AM & 7 PM. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Went for a run?</h3><span id="run-week-stat">0 runs this week</span></div><p class="running-help">About 3 runs a week. Log one whenever you go.</p><form id="run-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p><p id="run-status" class="form-status" role="status"></p></fieldset></form><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div><div class="running-block strength-block"><div class="running-heading"><h3>Lift log</h3><span id="lift-week-stat"></span></div><p class="running-help">Pick a lift to log a set.</p><div class="lift-buttons" aria-label="Choose a lift"><button type="button" class="secondary-button" data-lift="bench" aria-expanded="false" aria-controls="lift-form">+ Bench</button><button type="button" class="secondary-button" data-lift="squat" aria-expanded="false" aria-controls="lift-form">+ Squat</button><button type="button" class="secondary-button" data-lift="curls" aria-expanded="false" aria-controls="lift-form">+ Curls</button></div><form id="lift-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="lift-form-heading"><strong id="lift-form-title">Bench · one set</strong><button class="text-button" type="button" id="lift-cancel">Cancel</button></div><div class="run-fields"><div><label id="lift-weight-label" for="lift-weight">Weight (total)</label><div class="distance-input"><input id="lift-weight" type="number" min="0.1" max="1500" step="any" inputmode="decimal" required aria-describedby="lift-help"><label class="sr-only" for="lift-unit">Weight unit</label><select id="lift-unit"><option value="lb">lb</option><option value="kg">kg</option></select></div></div><div><label for="lift-reps">Reps</label><input id="lift-reps" type="number" min="1" max="1000" step="1" inputmode="numeric" placeholder="8" required></div></div><div class="run-save-row"><label class="sr-only" for="lift-date">Date of lifting set</label><input id="lift-date" type="date" required><button class="primary-button" type="submit">Log set →</button></div><p id="lift-help" class="fine-print">Total weight, including the bar. Each save logs one set.</p></fieldset></form><p id="lift-status" class="form-status" role="status"></p><div id="recent-lifts"></div><button id="lifts-history-button" class="text-button" type="button">All your lifts →</button></div></section>
+        <section class="card small-delights" aria-labelledby="delights-heading"><div class="delights-heading"><p class="section-kicker">FRESH AT 7 AM & 7 PM</p><h2 id="delights-heading">A little fuel for your day</h2></div><div class="delight quote-section"><div class="delight-label"><span class="delight-symbol">“</span><span>MOMENTUM</span></div><blockquote id="motivation-quote"></blockquote><cite id="motivation-author"></cite><button id="motivation-next" class="text-button delight-next" type="button">Another thought ↻</button></div><div class="delight joke-section"><div class="delight-label"><span class="delight-symbol">:)</span><span>COMIC RELIEF</span></div><p id="joke-question" class="joke-question"></p><button id="joke-reveal" class="text-button">Go on →</button><p id="joke-answer" class="joke-answer" hidden></p><button id="joke-next" class="text-button delight-next" type="button">Another joke ↻</button></div><div class="delight fact-section"><div class="delight-label"><span class="delight-symbol">✦</span><span>FUN FACT</span></div><h3 id="fact-title"></h3><p id="fact-text"></p><p id="fact-source" class="fact-attribution"></p><button id="fact-next" class="text-button delight-next" type="button">Another fact ↻</button></div></section>
         </div>
         <div class="right-column">
           <section class="card tasks-card" id="tasks-panel" aria-labelledby="tasks-heading"><div class="section-heading"><div><p class="section-kicker">A LITTLE PLAN, A LITTLE PROGRESS</p><h2 id="tasks-heading">Your to-do list</h2></div><span id="tasks-total" class="tasks-total">0 to do</span></div><p class="section-subtitle">Classes, projects, and everything else.</p><div id="task-groups"></div><div class="study-week"><div><span class="study-week-label">STUDIED THIS WEEK</span><strong id="study-week-total">0.0 h</strong><span id="study-week-detail">0 sessions · 0 min logged</span></div><button id="study-open" class="secondary-button">Log time</button><p id="study-week-range"></p></div><details id="completed-tasks" class="completed-tasks" hidden><summary id="completed-tasks-count">Completed (0)</summary><ul id="completed-task-list" class="task-list"></ul></details><details id="study-log" class="completed-tasks"><summary id="study-log-count">Study-time log (0)</summary><ul id="study-log-list" class="task-list"></ul></details><p class="fine-print task-help">Estimates help you plan. Logged time counts toward your week.</p><p id="tasks-status" class="form-status" role="status"></p></section>
@@ -145,10 +146,11 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
   <dialog id="recap-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">THE LITTLE THINGS ADD UP</p><h2>Your weekly recap</h2></div><button class="icon-button close-dialog" aria-label="Close weekly recap">✕</button></div><label for="recap-week">Choose a week · Monday–Sunday</label><select id="recap-week"></select><div id="recap-history-content"></div><p class="field-help">Based on the activity you’ve logged here. This week’s recap updates as you add things.</p></dialog>
   <dialog id="duolingo-dialog" class="duolingo-dialog"><div class="dialog-header"><div><p class="eyebrow">A LITTLE LANGUAGE, EVERY DAY</p><h2>Duolingo today</h2></div><button class="icon-button close-dialog" aria-label="Close Duolingo reminder">✕</button></div><p id="duolingo-date" class="field-help"></p><a class="primary-button duolingo-open" href="https://www.duolingo.com/learn" target="_blank" rel="noopener noreferrer">Open Duolingo →</a><a class="text-button duolingo-profile" href="https://www.duolingo.com/profile/ViolinKid21" target="_blank" rel="noopener noreferrer">ViolinKid21’s profile →</a><label class="duolingo-check"><input type="checkbox" id="duolingo-done"><span>I did my lesson today</span></label><p id="duolingo-status" class="form-status" role="status"></p><p class="field-help">Mark this after your lesson. The icon remembers your answer and starts fresh each day at midnight Eastern. Your public streak does not reliably confirm today’s lesson. Mark completion here after practicing.</p></dialog>
   <dialog id="study-dialog"><div class="dialog-header"><div><p class="eyebrow">ONE SESSION AT A TIME</p><h2 id="study-dialog-heading">Log study time</h2></div><button class="icon-button close-dialog" aria-label="Close study time">✕</button></div><p id="study-task-title" class="study-task-title" hidden></p><form id="study-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><div id="study-subject-field"><label for="study-subject">Class or activity</label><select id="study-subject"></select></div><div id="study-title-field"><label for="study-title">What did you work on? (optional)</label><input id="study-title" maxlength="300" placeholder="Practice problems, reading, research…"></div><div class="form-row"><div><label for="study-minutes">Actual minutes</label><input id="study-minutes" type="number" min="1" max="1440" step="1" inputmode="numeric" placeholder="45" required></div><div><label for="study-date">Date</label><input id="study-date" type="date" required></div></div><p id="study-dialog-help" class="field-help"></p><div class="study-dialog-actions"><button id="study-save" class="primary-button" type="submit">Save study time</button><button id="study-skip" class="text-button" type="button" hidden>Finish without logging time</button></div><p id="study-form-status" class="form-status" role="status"></p></fieldset></form></dialog>
+  <dialog id="lifts-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">BENCH · SQUAT · CURLS</p><h2>Your lifting log</h2></div><button class="icon-button close-dialog" aria-label="Close lifting log">✕</button></div><p id="lifts-totals" class="running-help"></p><div id="lifts-list"></div></dialog>
   <dialog id="runs-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">A RECORD OF SHOWING UP</p><h2>Your running log</h2></div><button class="icon-button close-dialog" aria-label="Close running log">✕</button></div><div id="runs-totals" class="history-stats"></div><div id="runs-list"></div><p class="field-help">Log runs whenever you go. Distances stay in the unit you entered; totals are converted to miles.</p></dialog>
   <dialog id="youtube-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">ONE HALF-DAY AT A TIME</p><h2>Your no-YouTube history</h2></div><button class="icon-button close-dialog" aria-label="Close no-YouTube history">✕</button></div><p class="field-help">Morning check-ins cover the previous night. Evening check-ins cover the daytime. Correct a past entry here if you need to.</p><div id="youtube-history"></div></dialog>
   <dialog id="history-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">CONSISTENCY, ONE CHECK-IN AT A TIME</p><h2>Your movement history</h2></div><button class="icon-button close-dialog" aria-label="Close exercise history">✕</button></div><div id="history-stats" class="history-stats"></div><div class="month-controls"><button class="icon-button" id="history-prev" aria-label="Previous month">←</button><label class="sr-only" for="history-month">History month</label><input type="month" id="history-month"><button class="icon-button" id="history-next" aria-label="Next month">→</button></div><div class="calendar-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div id="history-calendar" class="history-calendar"></div><p class="history-legend"><span><i class="legend-dot complete"></i> Complete</span><span><i class="legend-dot partial"></i> One set</span><span><i class="legend-dot empty"></i> No entry</span></p><div id="history-day"></div><p class="field-help">Tap a day to review or correct your self-reported sets. Each dot is one morning or evening check-in. Future check-ins can’t be logged.</p></dialog>
-  <dialog id="settings-dialog"><div class="dialog-header"><div><p class="eyebrow">MAKE IT YOURS</p><h2>Dashboard settings</h2></div><button class="icon-button close-dialog" aria-label="Close settings">✕</button></div><p>Check-ins use Eastern Time, including daylight saving time.</p><section class="sync-section" aria-labelledby="sync-heading"><h3 id="sync-heading">Sync your devices</h3><p>Sign in with the same account on your computer and phone. Your tasks, exercise, running logs, good moments, notepad, vocabulary progress and calendar checkmarks sync privately.</p><p id="sync-status" role="status">Checking sync setup…</p><details id="sync-project"><summary>Connect the save service · one-time setup</summary><form id="sync-config-form"><label for="sync-url">Supabase project URL</label><input id="sync-url" type="url" autocomplete="off" placeholder="https://your-project.supabase.co" required><label for="sync-key">Publishable key</label><input id="sync-key" type="text" autocomplete="off" placeholder="sb_publishable_…" required><p class="field-help">Use only the publishable or legacy anon key. Never enter your database password, secret key or service_role key. Run the <a href="./supabase-setup.sql" download>setup file</a> in the project's SQL Editor first. <a href="./sync-setup.html" target="_blank" rel="noopener">Setup instructions</a>.</p><button class="secondary-button" type="submit">Connect project</button></form></details><form id="sync-login" hidden><label for="sync-email">Email</label><input id="sync-email" name="username" type="email" autocomplete="username" required><label for="sync-password">Password</label><input id="sync-password" name="password" type="password" autocomplete="current-password"><div class="sync-actions"><button class="primary-button" type="submit" value="signin">Sign in</button><button class="secondary-button" type="submit" value="signup">Create account</button><button class="text-button" type="submit" value="reset" formnovalidate>Reset password</button></div></form><div id="sync-account" hidden><p>Signed in as <strong id="sync-email-label"></strong></p><div class="sync-actions"><button id="sync-now" class="secondary-button" type="button">Sync now</button><button id="sync-device-link" class="secondary-button" type="button">Connect another device</button><button id="sync-signout" class="text-button" type="button">Sign out</button></div><input id="sync-link-output" readonly hidden aria-label="Setup link for another device"><p class="field-help">Online saves update automatically while the dashboard is open and when you return. Offline edits stay here and upload when you reconnect. Signing out keeps this browser's local entries.</p></div><div id="sync-recovery-password" hidden><form id="sync-new-password-form"><label for="sync-new-password">New password</label><input id="sync-new-password" type="password" autocomplete="new-password" minlength="8" required><button type="submit" class="primary-button">Save new password</button></form></div><button id="sync-recovery-download" class="text-button" type="button" hidden>Download the backup kept before first sync</button></section><form id="settings-form"><label for="sheet-url">Google Sheets calendar</label><input id="sheet-url" type="url" placeholder="https://docs.google.com/spreadsheets/d/…"><p class="field-help">Optional. This first version can read a public or published sheet. Don’t publish a private calendar just to connect it—use manual events instead. Google sign-in and private Drive access aren’t connected yet.</p><details><summary>Sheet format</summary><p>Your current MON–SUN weekly grid is supported directly, with 2026–2027 dates. Times without AM/PM stay as written. A list format is also supported: <code>title,date,time,notes,type</code>. Date: <code>2026-11-20</code>. Time: <code>15:00</code> (Eastern), or blank for all day. Set type to <code>break</code> to include an event in the countdown.</p></details><button type="submit" class="primary-button">Save & connect</button><p id="settings-status" role="status"></p></form><hr><h3>Keep a backup</h3><p>Your notepad, known vocabulary, tasks, study time, exercise progress, running logs, no-YouTube history, good moments and manual events are saved on this browser and device. When updating a downloaded file, download a backup from the old file first, then restore it here if your history doesn’t appear. Export a backup before clearing browser data. Private sync is optional. Until you connect and sign in, each browser has separate data. Sync credentials are never included in these backups.</p><button class="secondary-button" id="export-button">Download a backup</button><label class="secondary-button import-label" for="import-file">Restore a backup<input id="import-file" type="file" accept="application/json,.json" hidden></label></dialog>
+  <dialog id="settings-dialog"><div class="dialog-header"><div><p class="eyebrow">MAKE IT YOURS</p><h2>Dashboard settings</h2></div><button class="icon-button close-dialog" aria-label="Close settings">✕</button></div><p>Check-ins use Eastern Time, including daylight saving time.</p><section class="sync-section" aria-labelledby="sync-heading"><h3 id="sync-heading">Sync your devices</h3><p>Sign in with the same account on your computer and phone. Your tasks, exercise, running logs, good moments, notepad, vocabulary progress and calendar checkmarks sync privately.</p><p id="sync-status" role="status">Checking sync setup…</p><details id="sync-project"><summary>Connect the save service · one-time setup</summary><form id="sync-config-form"><label for="sync-url">Supabase project URL</label><input id="sync-url" type="url" autocomplete="off" placeholder="https://your-project.supabase.co" required><label for="sync-key">Publishable key</label><input id="sync-key" type="text" autocomplete="off" placeholder="sb_publishable_…" required><p class="field-help">Use only the publishable or legacy anon key. Never enter your database password, secret key or service_role key. Run the <a href="./supabase-setup.sql" download>setup file</a> in the project's SQL Editor first. <a href="./sync-setup.html" target="_blank" rel="noopener">Setup instructions</a>.</p><button class="secondary-button" type="submit">Connect project</button></form></details><form id="sync-login" hidden><label for="sync-email">Email</label><input id="sync-email" name="username" type="email" autocomplete="username" required><label for="sync-password">Password</label><input id="sync-password" name="password" type="password" autocomplete="current-password"><div class="sync-actions"><button class="primary-button" type="submit" value="signin">Sign in</button><button class="secondary-button" type="submit" value="signup">Create account</button><button class="text-button" type="submit" value="reset" formnovalidate>Reset password</button></div></form><div id="sync-account" hidden><p>Signed in as <strong id="sync-email-label"></strong></p><div class="sync-actions"><button id="sync-now" class="secondary-button" type="button">Sync now</button><button id="sync-device-link" class="secondary-button" type="button">Connect another device</button><button id="sync-signout" class="text-button" type="button">Sign out</button></div><input id="sync-link-output" readonly hidden aria-label="Setup link for another device"><p class="field-help">Online saves update automatically while the dashboard is open and when you return. Offline edits stay here and upload when you reconnect. Signing out keeps this browser's local entries.</p></div><div id="sync-recovery-password" hidden><form id="sync-new-password-form"><label for="sync-new-password">New password</label><input id="sync-new-password" type="password" autocomplete="new-password" minlength="8" required><button type="submit" class="primary-button">Save new password</button></form></div><button id="sync-recovery-download" class="text-button" type="button" hidden>Download the backup kept before first sync</button></section><form id="settings-form"><label for="sheet-url">Google Sheets calendar</label><input id="sheet-url" type="url" placeholder="https://docs.google.com/spreadsheets/d/…"><p class="field-help">Optional. This first version can read a public or published sheet. Don’t publish a private calendar just to connect it—use manual events instead. Google sign-in and private Drive access aren’t connected yet.</p><details><summary>Sheet format</summary><p>Your current MON–SUN weekly grid is supported directly, with 2026–2027 dates. Times without AM/PM stay as written. A list format is also supported: <code>title,date,time,notes,type</code>. Date: <code>2026-11-20</code>. Time: <code>15:00</code> (Eastern), or blank for all day. Set type to <code>break</code> to include an event in the countdown.</p></details><button type="submit" class="primary-button">Save & connect</button><p id="settings-status" role="status"></p></form><hr><h3>Keep a backup</h3><p>Your notepad, known vocabulary, tasks, study time, exercise progress, running and lifting logs, no-YouTube history, good moments and manual events are saved on this browser and device. When updating a downloaded file, download a backup from the old file first, then restore it here if your history doesn’t appear. Export a backup before clearing browser data. Private sync is optional. Until you connect and sign in, each browser has separate data. Sync credentials are never included in these backups.</p><button class="secondary-button" id="export-button">Download a backup</button><label class="secondary-button import-label" for="import-file">Restore a backup<input id="import-file" type="file" accept="application/json,.json" hidden></label></dialog>
 
   <dialog id="event-dialog"><div class="dialog-header"><div><p class="eyebrow">SOMETHING AHEAD</p><h2>Add an event</h2></div><button class="icon-button close-dialog" aria-label="Close add event">✕</button></div><form id="event-form"><label for="event-title">What’s happening?</label><input id="event-title" name="title" maxlength="200" placeholder="Dinner with friends" required><div class="form-row"><div><label for="event-date">Date</label><input id="event-date" type="date" name="date" required></div><div><label for="event-time">Time · Eastern (optional)</label><input id="event-time" type="time" name="time"></div></div><label for="event-notes">Notes (optional)</label><input id="event-notes" name="notes" maxlength="1000" placeholder="Anything worth remembering"><label class="checkbox-label"><input type="checkbox" name="isBreak"> This is a school break — include in countdown</label><button type="submit" class="primary-button">Add to my calendar</button></form></dialog>
 
@@ -156,7 +158,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
 
   <dialog id="moments-dialog"><div class="dialog-header"><div><p class="eyebrow">THE GOOD ADDS UP</p><h2>Your little collection</h2></div><button class="icon-button close-dialog" aria-label="Close good moments">✕</button></div><div id="moments-list"></div></dialog>
 
-  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking and a streak for consecutive completed check-in windows, a personal good-moments journal, manual calendar events, school-break dates, running records, a separate no-YouTube streak, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily quote, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 7 AM and 7 PM Eastern. The quote, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
+  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking and a streak for consecutive completed check-in windows, a personal good-moments journal, manual calendar events, school-break dates, running and lifting records, a separate no-YouTube streak, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily practical note, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 7 AM and 7 PM Eastern. The note, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running and lifting history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 <script>(()=>{globalThis.DAYMARK_STANDALONE=true;const TIME_ZONE = 'America/New_York';
 const WEATHER_REFRESH_MS = 15 * 60 * 1000;
@@ -718,940 +720,132 @@ const schoolBreaks = [
 // Joke collection supplied by Matthew; wording preserved from his pasted list.
 const jokes = [
   [
-    "I would avoid the sushi if I was you.",
-    "It’s a little fishy."
+    "My screen-time report arrived during a productive afternoon.",
+    "It disagreed with the premise."
   ],
   [
-    "Want to hear a joke about paper?",
-    "Nevermind it’s tearable."
+    "I opened my phone to check the time.",
+    "Twenty minutes later, I knew less about the time and considerably more about an otter in Singapore."
   ],
   [
-    "Why did the cookie cry?",
-    "Because his father was a wafer so long!"
+    "The group project is going well.",
+    "We've successfully distributed the work among me."
   ],
   [
-    "I used to work in a shoe recycling shop.",
-    "It was sole destroying."
+    "My laptop asked whether I wanted to restore the previous session.",
+    "Emotionally? Absolutely not."
   ],
   [
-    "What do you call a belt with a watch on it?",
-    "A waist of time."
+    "I renamed my essay ‘final_final_ACTUAL_final.’",
+    "The document and I have agreed to stop discussing the future."
   ],
   [
-    "How do you organize an outer space party?",
-    "You planet."
+    "I clicked ‘accept all cookies.’",
+    "Still the most misleading button on the internet."
   ],
   [
-    "I went to a seafood disco last week...",
-    "and pulled a mussel."
+    "The printer says ‘user intervention required.’",
+    "Bold words from the only one in the room eating paper."
   ],
   [
-    "Do you know where you can get chicken broth in bulk?",
-    "The stock market."
+    "I set my alarm across the room so I'd have to get up.",
+    "I've added a short commute to my snooze routine."
   ],
   [
-    "I cut my finger chopping cheese, but I think that I may have greater problems.",
-    ""
+    "The recipe said ‘use whatever you have in the fridge.’",
+    "Apparently it meant ingredients, not potential."
   ],
   [
-    "My cat was just sick on the carpet, I don’t think it’s feline well.",
-    ""
+    "I taught my parents a keyboard shortcut.",
+    "I now have a permanent unpaid position in IT."
   ],
   [
-    "Why did the octopus beat the shark in a fight?",
-    "Because it was well armed."
+    "The website asked if I was a robot, then made me identify twelve traffic lights.",
+    "I've never felt less qualified to be human."
   ],
   [
-    "How much does a hipster weigh?",
-    "An instagram."
+    "My calculator gave me 6.02 × 10²³.",
+    "The question asked how many chairs fit in the room. I'm going to need a bigger room."
   ],
   [
-    "What did daddy spider say to baby spider?",
-    "You spend too much time on the web."
+    "I love a five-minute task.",
+    "Especially the three days I spend mentally preparing for it."
   ],
   [
-    "Atheism is a non-prophet organisation.",
-    ""
+    "The gym has mirrors on every wall.",
+    "Apparently one witness wasn't enough."
   ],
   [
-    "There’s a new type of broom out, it’s sweeping the nation.",
-    ""
+    "I went for a run to clear my head.",
+    "Now there's just one thought in there: stop running."
   ],
   [
-    "What cheese can never be yours?",
-    "Nacho cheese."
+    "My violin teacher said, ‘Play it like you're telling a story.’",
+    "Apparently the story was a small animal getting trapped in a door."
   ],
   [
-    "What did the Buffalo say to his little boy when he dropped him off at school?",
-    "Bison."
+    "I followed the tutorial exactly, and it still didn't work.",
+    "Then I discovered the word ‘exactly’ was doing a lot of unpaid labor."
   ],
   [
-    "Have you ever heard of a music group called Cellophane?",
-    "They mostly wrap."
+    "The hotel advertised a room with a view.",
+    "It didn't specify that the view would be of someone else's room with a view."
   ],
   [
-    "Why does Superman gets invited to dinners?",
-    "Because he is a Supperhero."
+    "My phone said the photo couldn't upload because the file was too large.",
+    "It's a picture of a sandwich. It wasn't even a large sandwich."
   ],
   [
-    "How was Rome split in two?",
-    "With a pair of Ceasars."
+    "I bought a notebook to organize my thoughts.",
+    "Now the thoughts are scattered across two locations."
   ],
   [
-    "The shovel was a ground breaking invention.",
-    ""
+    "The vending machine took my money and kept the snack.",
+    "My first experience with venture capital."
   ],
   [
-    "A scarecrow says, \"This job isn't for everyone, but hay, it's in my jeans.\"",
-    ""
+    "The professor said, ‘There's no such thing as a stupid question.’",
+    "I appreciated the challenge."
   ],
   [
-    "A Buddhist walks up to a hot dog stand and says, \"Make me one with everything.\"",
-    ""
+    "I installed a smart light bulb.",
+    "Now I can fail to turn on a lamp in three different apps."
   ],
   [
-    "Did you hear about the guy who lost the left side of his body?",
-    "He's alright now."
+    "I asked the GPS for the fastest route.",
+    "It suggested a road that felt like a dare."
   ],
   [
-    "What do you call a girl with one leg that's shorter than the other?",
-    "Ilene."
+    "The elevator's ‘door close’ button is my favorite game.",
+    "No instructions, uncertain mechanics, and I've been playing for years."
   ],
   [
-    "I did a theatrical performance on puns.",
-    "It was a play on words."
+    "I downloaded a meditation app.",
+    "It immediately sent me seven notifications about relaxing."
   ],
   [
-    "What do you do with a dead chemist?",
-    "You barium."
+    "My password manager says my password is weak.",
+    "It's already carrying my entire academic career. What more does it want?"
   ],
   [
-    "I bet the person who created the door knocker won a Nobel prize.",
-    ""
+    "I turned the music down so I could find the address.",
+    "My ears are apparently in charge of navigation."
   ],
   [
-    "Towels can’t tell jokes.",
-    "They have a dry sense of humor."
+    "The self-checkout announced an unexpected item in the bagging area.",
+    "It was the groceries. We had just discussed this."
   ],
   [
-    "Two birds are sitting on a perch and one says \"Do you smell fish?\"",
-    ""
+    "I learned the Rubik's cube so I could look impressive at parties.",
+    "Now I just need to learn the parties."
   ],
   [
-    "Do you know sign language?",
-    "You should learn it, it’s pretty handy."
+    "The software update promised ‘stability improvements.’",
+    "I assumed that included me. It did not."
   ],
   [
-    "What do you call a beautiful pumpkin?",
-    "GOURDgeous."
-  ],
-  [
-    "Why did one banana spy on the other?",
-    "Because she was appealing."
-  ],
-  [
-    "What do you call a cow with no legs?",
-    "Ground beef."
-  ],
-  [
-    "What do you call a cow with two legs?",
-    "Lean beef."
-  ],
-  [
-    "What do you call a cow with all of its legs?",
-    "High steaks."
-  ],
-  [
-    "A cross eyed teacher couldn’t control his pupils.",
-    ""
-  ],
-  [
-    "After the accident, the juggler didn’t have the balls to do it.",
-    ""
-  ],
-  [
-    "I used to be afraid of hurdles, but I got over it.",
-    ""
-  ],
-  [
-    "To write with a broken pencil is pointless.",
-    ""
-  ],
-  [
-    "I read a book on anti-gravity.",
-    "I couldn’t put it down."
-  ],
-  [
-    "I couldn’t remember how to throw a boomerang but it came back to me.",
-    ""
-  ],
-  [
-    "What should you do if you are cold?",
-    "Stand in the corner. It’s 90 degrees."
-  ],
-  [
-    "How does Moses make coffee?",
-    "Hebrews it."
-  ],
-  [
-    "The energizer bunny went to jail.",
-    "He was charged with battery."
-  ],
-  [
-    "What did the alien say to the pitcher of water?",
-    "Take me to your liter."
-  ],
-  [
-    "What happens when you eat too many spaghettiOs?",
-    "You have a vowel movement."
-  ],
-  [
-    "The soldier who survived mustard gas and pepper spray was a seasoned veteran.",
-    ""
-  ],
-  [
-    "Sausage puns are the wurst.",
-    ""
-  ],
-  [
-    "What do you call a bear with no teeth?",
-    "A gummy bear."
-  ],
-  [
-    "Why shouldn’t you trust atoms?",
-    "They make up everything."
-  ],
-  [
-    "What’s it called when you have too many aliens?",
-    "Extraterrestrials."
-  ],
-  [
-    "Want to hear a pizza joke?",
-    "Nevermind, it’s too cheesy."
-  ],
-  [
-    "What do cows tell each other at bedtime?",
-    "Dairy tales."
-  ],
-  [
-    "Why can’t you take inventory in Afghanistan?",
-    "Because of the tally ban."
-  ],
-  [
-    "Why didn’t the lion win the race?",
-    "Because he was racing a cheetah."
-  ],
-  [
-    "What happens to nitrogen when the sun comes up?",
-    "It becomes daytrogen."
-  ],
-  [
-    "What’s it called when you put a cow in an elevator?",
-    "Raising the steaks."
-  ],
-  [
-    "What’s america’s favorite soda?",
-    "Mini soda."
-  ],
-  [
-    "Why did the tomato turn red?",
-    "Because it saw the salad dressing."
-  ],
-  [
-    "What kind of car does a sheep drive?",
-    "Their SuBAHHru."
-  ],
-  [
-    "What do you call a french pig?",
-    "Porque."
-  ],
-  [
-    "What do you call a line of rabbits marching backwards?",
-    "A receding hairline."
-  ],
-  [
-    "Why don’t vampires go to barbecues?",
-    "They don’t like steak."
-  ],
-  [
-    "How do trees access the internet?",
-    "They log on."
-  ],
-  [
-    "Why should you never trust a train?",
-    "They have loco motives."
-  ],
-  [
-    "Is your refrigerator running?",
-    "Better go catch it."
-  ],
-  [
-    "The future,the present and the past walked into a bar.Things got a little tense.",
-    ""
-  ],
-  [
-    "I saw an ad for burial plots, and thought to myself this is the last thing I need.",
-    ""
-  ],
-  [
-    "I just found out I'm colorblind.",
-    "The diagnosis came completely out of the purple."
-  ],
-  [
-    "I'd tell you a chemistry joke but I know I wouldn't get a reaction.",
-    ""
-  ],
-  [
-    "Have you ever tried to eat a clock?",
-    "It's very time consuming."
-  ],
-  [
-    "I wondered why the baseball was getting bigger.",
-    "Then it hit me."
-  ],
-  [
-    "Read enough of our funny puns, and you'll be punstoppable.",
-    ""
-  ],
-  [
-    "Yesterday a clown held the door for me.",
-    "It was a nice jester."
-  ],
-  [
-    "I used to go fishing with Skrillex but he kept dropping the bass.",
-    ""
-  ],
-  [
-    "The wedding was so emotional even the cake was in tiers.",
-    ""
-  ],
-  [
-    "What does a house wear?",
-    "A dress."
-  ],
-  [
-    "Why can't bicycles stand up on their own?",
-    "Since they are 2 tired."
-  ],
-  [
-    "I owe a lot to the sidewalks.",
-    "They’ve been keeping me off the streets for years."
-  ],
-  [
-    "Imagine if alarm clocks hit you back in the morning.It would be truly alarming.",
-    ""
-  ],
-  [
-    "Why is a skeleton a bad liar?",
-    "You can see right through it."
-  ],
-  [
-    "What do you receive when you ask a lemon for help?",
-    "Lemonaid."
-  ],
-  [
-    "A man sued an airline company after it lost his luggage.",
-    "Sadly, he lost his case."
-  ],
-  [
-    "What does a dog say when he sits down on a piece of sandpaper?",
-    "Ruff!"
-  ],
-  [
-    "What do you call crystal clear urine?",
-    "1080pee."
-  ],
-  [
-    "At my boxing club there is only one punch bag.",
-    "I hate waiting for the punch line!"
-  ],
-  [
-    "An untalented gymast walks into a bar.",
-    ""
-  ],
-  [
-    "Einstein developed a theory about space, and it was about time too.",
-    ""
-  ],
-  [
-    "I was accused of being a plagiarist, their word not mine.",
-    ""
-  ],
-  [
-    "My friends say they don’t like skeleton puns.",
-    "I should put more backbone into them."
-  ],
-  [
-    "Let me FILL you in on my trip to the dentist.",
-    ""
-  ],
-  [
-    "Why does the singer of Cheap Thrills not want us to Sia?",
-    ""
-  ],
-  [
-    "Traveling on a flying carpet is a rugged experience.",
-    ""
-  ],
-  [
-    "Cartoonist found dead in home.",
-    "Details are sketchy."
-  ],
-  [
-    "The old woman who lived in a shoe wasn’t the sole owner,there were strings attached.",
-    ""
-  ],
-  [
-    "Did you hear about the crime in the parking garage?",
-    "It was wrong on so many levels."
-  ],
-  [
-    "My new diet consists of aircraft, its a bit plane.",
-    ""
-  ],
-  [
-    "Have you ever tried to milk a cow which has been cut in half?",
-    "Udder madness."
-  ],
-  [
-    "Why are there fences on graveyards?",
-    "Because people are dying to get in."
-  ],
-  [
-    "Why do trees have so many friends?",
-    "They branch out."
-  ],
-  [
-    "Models of dragons are not to scale.",
-    ""
-  ],
-  [
-    "Never discuss infinity with a mathematician, they can go on about it forever.",
-    ""
-  ],
-  [
-    "Why don’t some couples go to the gym?",
-    "Because some relationships don’t work out."
-  ],
-  [
-    "Don’t trust people that do acupuncture, they’re back stabbers.",
-    ""
-  ],
-  [
-    "A persistent banker wouldn’t stop hitting on me so I asked him to leave me a loan.",
-    ""
-  ],
-  [
-    "I ordered a book of puns last week, but i didn't get it.",
-    ""
-  ],
-  [
-    "People say i look better without glasses but i just can't see it.",
-    ""
-  ],
-  [
-    "Don’t judge a meal by the look of the first course.",
-    "It’s very souperficial."
-  ],
-  [
-    "I heard Donald Trump is going to ban shredded cheese, and make America grate again.",
-    ""
-  ],
-  [
-    "I relish the fact that you’ve mustard the strength to ketchup to me.",
-    ""
-  ],
-  [
-    "What do you call a young musician?",
-    "A minor."
-  ],
-  [
-    "Police were called to a daycare yesterday, where a 2-year-old was resisting a rest.",
-    ""
-  ],
-  [
-    "If artists wear sketchers do linguists wear converse?",
-    ""
-  ],
-  [
-    "I changed my iPod name to Titanic.",
-    "It’s syncing now."
-  ],
-  [
-    "Jill broke her finger today, but on the other hand she was completely fine.",
-    ""
-  ],
-  [
-    "I smeared some ketchup all over my eyes once.",
-    "It was a bad idea in Heinz- sight."
-  ],
-  [
-    "I flipped a coin over an issue the other day, it was quite the toss-up.",
-    ""
-  ],
-  [
-    "I got hit in the head with a can of soda?",
-    "Luckily it was a soft drink."
-  ],
-  [
-    "I heard that the post office was a male dominated industry.",
-    ""
-  ],
-  [
-    "Why isn’t suntanning an Olympic sport?",
-    "Because the best you can ever get is bronze."
-  ],
-  [
-    "What do you mean June is over?",
-    "Julying."
-  ],
-  [
-    "Why is Kylo Ren so angry?",
-    "Beause he’s always Ben Solo."
-  ],
-  [
-    "These reversing cameras are great.",
-    "Since I got one I haven’t looked back."
-  ],
-  [
-    "The candle quit his job because he felt burned out.",
-    ""
-  ],
-  [
-    "Our maintenance guy lost his legs on the job, now he’s just a handyman.",
-    ""
-  ],
-  [
-    "Going to bed with music on gave him sound sleep.",
-    ""
-  ],
-  [
-    "A magic tractor drove down the road and turned into a field!",
-    ""
-  ],
-  [
-    "I met some aliens from outer space.",
-    "They were pretty down to earth."
-  ],
-  [
-    "The plane flight brought my acrophobia to new heights.",
-    ""
-  ],
-  [
-    "My phone has to wear glasses ever since it lost its contacts.",
-    ""
-  ],
-  [
-    "I, for one, like Roman numerals.",
-    ""
-  ],
-  [
-    "How do mountains see?",
-    "They peak."
-  ],
-  [
-    "The show was called Spongebob Squarepants but everyone knows the star was Patrick.",
-    ""
-  ],
-  [
-    "This is not alcohol, water you thinking?!",
-    ""
-  ],
-  [
-    "Novice pirates make terrible singers because they can’t hit the high seas.",
-    ""
-  ],
-  [
-    "I told my friend she drew her eyebrows too high.",
-    "She seemed surprised."
-  ],
-  [
-    "The earth's rotation really makes my day.",
-    ""
-  ],
-  [
-    "If I buy a bigger bed will I have more or less bedroom?",
-    ""
-  ],
-  [
-    "Two peanuts were walking in a tough neighborhood and one of them was a-salted.",
-    ""
-  ],
-  [
-    "Two ropes were walking in a tough neighborhood and one of them was a-frayed.",
-    ""
-  ],
-  [
-    "What kind of shoes do ninjas wear?",
-    "Sneakers."
-  ],
-  [
-    "I got a master’s degree in being ignored; no one seems to care.",
-    ""
-  ],
-  [
-    "After eating the ship, the sea monster said, I can’t believe I ate the hull thing.",
-    ""
-  ],
-  [
-    "Smaller babies may be delivered by stork but the heavier ones need a crane.",
-    ""
-  ],
-  [
-    "A bartender broke up with her boyfriend, but he kept asking her for another shot.",
-    ""
-  ],
-  [
-    "I had a pun about insanity but then I lost it.",
-    ""
-  ],
-  [
-    "He couldn’t work out how to fix the washing machine so he threw in the towel.",
-    ""
-  ],
-  [
-    "Why does the man want to buy nine rackets?",
-    "Cause tennis too many."
-  ],
-  [
-    "Why don’t cannibals eat clowns?",
-    "Because they taste funny."
-  ],
-  [
-    "If I got paid in lots of Pennes I would make loads of pasta.",
-    ""
-  ],
-  [
-    "I thought I saw a spider on my laptop, but my friend said it was just a bug.",
-    ""
-  ],
-  [
-    "A doctor broke his leg while auditioning for a play.Luckily he still made the cast.",
-    ""
-  ],
-  [
-    "The tale of the haunted refrigerator was chilling.",
-    ""
-  ],
-  [
-    "Why are frogs so happy?",
-    "They eat whatever bugs them."
-  ],
-  [
-    "If you wear cowboy clothes are you ranch dressing?",
-    ""
-  ],
-  [
-    "I was addicted to the hokey pokey but I turned myself around.",
-    ""
-  ],
-  [
-    "Simba, you're falling behind.",
-    "I must ask you to Mufasa."
-  ],
-  [
-    "I bought a wooden whistle but it wooden whistle.",
-    ""
-  ],
-  [
-    "The bomb didn't want to go off.",
-    "So it refused."
-  ],
-  [
-    "The sore mummy needed a Cairo-practor",
-    ""
-  ],
-  [
-    "I feel sorry for shopping carts.",
-    "They’re always getting pushed around."
-  ],
-  [
-    "The display of still-life art was not at all moving!",
-    ""
-  ],
-  [
-    "On Halloween October is nearly Octover.",
-    ""
-  ],
-  [
-    "Pig puns are so boaring.",
-    ""
-  ],
-  [
-    "Why couldn’t the dead car drive into the cluttered garage?",
-    "Lack of vroom."
-  ],
-  [
-    "What do you call Samsung's security guards?",
-    "Guardians of the Galaxy."
-  ],
-  [
-    "What does Superman have in his drink?",
-    "Just ice."
-  ],
-  [
-    "How does a penguin build it’s house?",
-    "Igloos it together."
-  ],
-  [
-    "Time flies like an arrow.",
-    "Fruit flies like a banana."
-  ],
-  [
-    "The safe was invented by a cop and a robber.",
-    "It was quite a combination."
-  ],
-  [
-    "What do you do when balloons are hurt?",
-    "You helium."
-  ],
-  [
-    "One hat says to the other, \"You stay here, I’ll go on a head.\"",
-    ""
-  ],
-  [
-    "How many tickles does it take to make an octopus laugh?",
-    "Ten tickles."
-  ],
-  [
-    "When does a farmer dance?",
-    "When he drops the beet."
-  ],
-  [
-    "When the scientist wanted to clone a deer, he bought a doe it yourself kit.",
-    ""
-  ],
-  [
-    "If people ask how many puns I made in Germany I reply, \"nein\"",
-    ""
-  ],
-  [
-    "Did you hear about the invention of the white board?",
-    "It was remarkable."
-  ],
-  [
-    "If Donald Trump becomes president, America is going toupee.",
-    ""
-  ],
-  [
-    "Can February March?",
-    "No, but April May."
-  ],
-  [
-    "I hate Russian Dolls, they are so full of themselves.",
-    ""
-  ],
-  [
-    "What do you do to an open wardrobe?",
-    "You closet."
-  ],
-  [
-    "The magazine about ceiling fans went out of business due to low circulation.",
-    ""
-  ],
-  [
-    "So what if I don’t know what apocalypse means?",
-    "It’s not the end of the world!"
-  ],
-  [
-    "Some aquatic mammals at the zoo escaped.",
-    "It was otter chaos."
-  ],
-  [
-    "A backwards poem writes inverse.",
-    ""
-  ],
-  [
-    "Getting the ability to fly would be so uplifting.",
-    ""
-  ],
-  [
-    "I asked my friend, Nick, if he had 5 cents I could borrow.",
-    "But he was Nicholas."
-  ],
-  [
-    "The soundtrack for Blackfish was orcastrated.",
-    ""
-  ],
-  [
-    "Where do you imprison a skeleton?",
-    "In a rib cage."
-  ],
-  [
-    "There’s a fine line between the numerator and the denominator.",
-    ""
-  ],
-  [
-    "I used to work at a hairdresser but i just wasn’t cut out for it.",
-    ""
-  ],
-  [
-    "Why is metal and a microwave a match made in heaven?",
-    "When they met, sparks flew."
-  ],
-  [
-    "The lumberjack loved his new computer.",
-    "He especially enjoyed logging in."
-  ],
-  [
-    "Garbage collectors are rubbish drivers!",
-    ""
-  ],
-  [
-    "When the church relocated it had an organ transplant.",
-    ""
-  ],
-  [
-    "Lettuce take a moment to appreciate this salad pun.",
-    ""
-  ],
-  [
-    "The scarecrow get promoted because he was outstanding in his field.",
-    ""
-  ],
-  [
-    "Sleeping comes so naturally to me, I could do it with my eyes closed.",
-    ""
-  ],
-  [
-    "I never understood odorless chemicals, they never make scents.",
-    ""
-  ],
-  [
-    "What do prisoners use to call each other?",
-    "Cell phones."
-  ],
-  [
-    "Why was dumbo sad?",
-    "He felt irrelephant."
-  ],
-  [
-    "When a clock is hungry, it goes back four seconds.",
-    ""
-  ],
-  [
-    "Old skiers never die.",
-    "They just go down hill."
-  ],
-  [
-    "Did you hear about the pun that was actually funny?",
-    "Neither have we."
-  ],
-  [
-    "You know why I like egg puns?",
-    "They crack me up!"
-  ],
-  [
-    "Want to hear a pun about ghosts?",
-    "That's the spirit!"
-  ],
-  [
-    "I used to make clown shoes… which was no small feat.",
-    ""
-  ],
-  [
-    "Did you hear about the human cannonball?",
-    "Too bad he got fired!"
-  ],
-  [
-    "What happened when the magician got mad?",
-    "She pulled her hare out!"
-  ],
-  [
-    "Did you hear about the circus that caught on fire?",
-    "It was in tents."
-  ],
-  [
-    "The one day of the week that eggs are definitely afraid of is Fry-day.",
-    ""
-  ],
-  [
-    "A hen will always leave her house through the proper eggs-it.",
-    ""
-  ],
-  [
-    "The man who ate too many eggs was considered to be an egg-oholic.",
-    ""
-  ],
-  [
-    "All the hens consider the chef to be very mean because he beats the eggs.",
-    ""
-  ],
-  [
-    "Eskimos keep all of their chilled eggs inside of the egg-loo.",
-    ""
-  ],
-  [
-    "Under the doctor’s advice, the hen is laying off eggs for a few weeks.",
-    ""
-  ],
-  [
-    "I had a real problem making a hard-boiled egg this morning until I cracked it.",
-    ""
-  ],
-  [
-    "The best time of day to eat eggs is at the crack of dawn.",
-    ""
-  ],
-  [
-    "The chicken coop only had 2 doors since if it had 4 doors it would be a sedan.",
-    ""
-  ],
-  [
-    "Crossing a cement mixer and a chicken will result in you getting a brick layer.",
-    ""
-  ],
-  [
-    "That reckless little egg always seems to egg-celerate when he sees the light turn yellow.",
-    ""
-  ],
-  [
-    "Hopefully this egg pun doesn't make your brain too fried or scrambled.",
-    ""
-  ],
-  [
-    "Don't ever have multiple people wash dishes together.",
-    "It's hard for them to stay in sink."
-  ],
-  [
-    "People using umbrellas always seem to be under the weather.",
-    ""
-  ],
-  [
-    "I dissected an iris today.",
-    "It was an eye-opening experience."
-  ],
-  [
-    "What was Forrest Gump’s email password?",
-    "1forrest1."
-  ],
-  [
-    "What planet is like a circus?",
-    "Saturn, it has three rings!"
-  ],
-  [
-    "Before my father died he worked in a circus as a stilt walker.",
-    "I used to look up to him."
-  ],
-  [
-    "Why did the lion eat the tightrope walker?",
-    "He wanted a well-balanced meal!"
-  ],
-  [
-    "I really look up to my tall friends.",
-    ""
-  ],
-  [
-    "I hate negative numbers and will stop at nothing to avoid them.",
-    ""
-  ],
-  [
-    "Long fairy tales have a tendency to dragon.",
-    ""
-  ],
-  [
-    "It takes guts to make a sausage.",
-    ""
+    "The airport announced that boarding would begin ‘shortly.’",
+    "A beautifully flexible unit of time."
   ]
 ];
 
@@ -1857,106 +1051,79 @@ const facts = [
     "source": "Smithsonian · honeybee waggle dance"
   }
 ];
+// Original practical notes; no invented quotations or author attributions.
 const motivationalQuotes = [
   {
-    "text": "Waste no more time arguing about what a good man should be. Be one.",
-    "author": "Marcus Aurelius",
-    "work": "Meditations, 10.16"
+    "text": "Pick the problem you're avoiding and write down exactly where you get stuck. That gives you a useful question to take to someone."
   },
   {
-    "text": "First say to yourself what you would be; and then do what you have to do.",
-    "author": "Epictetus",
-    "work": "Discourses, 3.23"
+    "text": "If you've read the same paragraph three times, close the book and explain what you remember. Find the missing piece before reading it a fourth time."
   },
   {
-    "text": "If there is no struggle there is no progress.",
-    "author": "Frederick Douglass",
-    "work": "West India Emancipation speech, 1857"
+    "text": "Give the first draft permission to be embarrassing. Nobody else has to see the version that gets you started."
   },
   {
-    "text": "Nothing great was ever achieved without enthusiasm.",
-    "author": "Ralph Waldo Emerson",
-    "work": "Circles"
+    "text": "Before opening another tutorial, try building the smallest version yourself. You'll find out which parts you actually need explained."
   },
   {
-    "text": "Do the thing, and you shall have the power.",
-    "author": "Ralph Waldo Emerson",
-    "work": "Compensation"
+    "text": "Choose what would make today feel finished. Make it specific enough that you can actually stop when it's done."
   },
   {
-    "text": "The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood.",
-    "author": "Theodore Roosevelt",
-    "work": "Citizenship in a Republic, 1910"
+    "text": "When everything feels urgent, ask which unfinished thing is creating the most trouble. Start there."
   },
   {
-    "text": "Far better it is to dare mighty things, to win glorious triumphs, even though checkered by failure.",
-    "author": "Theodore Roosevelt",
-    "work": "The Strenuous Life, 1899"
+    "text": "Practice the two measures you keep stumbling over. Playing from the beginning again gives your best measures more practice than your worst ones."
   },
   {
-    "text": "I’ve failed over and over and over again in my life. And that is why I succeed.",
-    "author": "Michael Jordan",
-    "work": "Nike “Failure” advertisement, 1997"
+    "text": "Send the question you've been rewriting. You don't have to sound like an expert to ask for help."
   },
   {
-    "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
-    "author": "James Clear",
-    "work": "Atomic Habits"
+    "text": "A confusing problem is easier to work on once it's on paper. Draw what you know, label what you don't, and try one step."
   },
   {
-    "text": "Every action you take is a vote for the type of person you wish to become.",
-    "author": "James Clear",
-    "work": "Atomic Habits"
+    "text": "Before changing five things in your circuit, test one. Give yourself a chance to learn why it worked."
   },
   {
-    "text": "Enthusiasm is common. Endurance is rare.",
-    "author": "Angela Duckworth",
-    "work": "Grit"
+    "text": "Leave tomorrow a starting point: the next equation, the next sentence, or the part you need to test. Make restarting easy."
   },
   {
-    "text": "It is not that we have a short time to live, but that we waste a lot of it.",
-    "author": "Seneca",
-    "work": "On the Shortness of Life"
+    "text": "Getting something wrong in practice is useful. Make sure you can explain the mistake before moving on."
   },
   {
-    "text": "Do not let what you cannot do interfere with what you can do.",
-    "author": "John Wooden",
-    "work": "Coach and author"
+    "text": "If the plan no longer fits the day, change the plan. Spend the remaining time on something you can still finish."
   },
   {
-    "text": "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.",
-    "author": "Audre Lorde",
-    "work": "The Cancer Journals"
+    "text": "You can ask someone who's better at this to look at your work. You don't have to spend another hour guessing what they'd notice."
   },
   {
-    "text": "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.",
-    "author": "Samuel Beckett",
-    "work": "Worstward Ho"
+    "text": "Open yesterday's difficult problem and try it without looking. That's a better test than whether the solution seems familiar."
   },
   {
-    "text": "I am the master of my fate: I am the captain of my soul.",
-    "author": "William Ernest Henley",
-    "work": "Invictus"
+    "text": "Choose one project small enough to finish and interesting enough to show someone. Let that be the next thing you build."
   },
   {
-    "text": "If one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.",
-    "author": "Henry David Thoreau",
-    "work": "Walden, Conclusion"
+    "text": "If your explanation needs a word you can't define, pause there. Understanding that word might unlock the rest."
   },
   {
-    "text": "Only those who will risk going too far can possibly find out how far one can go.",
-    "author": "T. S. Eliot",
-    "work": "Introduction to Transit of Venus"
+    "text": "Keep a record of the things that finally worked. Future you shouldn't have to solve the same wiring mistake twice."
   },
   {
-    "text": "Isn’t it nice to think that tomorrow is a new day with no mistakes in it yet?",
-    "author": "L. M. Montgomery",
-    "work": "Anne of Green Gables"
+    "text": "Take a real break: stand up, get water, look away from the screen. Give your attention somewhere else to go for a few minutes."
   },
   {
-    "text": "The best way out is always through.",
-    "author": "Robert Frost",
-    "work": "A Servant to Servants"
+    "text": "Ask for feedback while there's still time to use it. An imperfect draft today gives you more options than a polished one at midnight."
+  },
+  {
+    "text": "Decide what ‘done’ means before you start polishing. Otherwise a ten-minute fix can quietly become your entire evening."
+  },
+  {
+    "text": "You don't need to settle your whole future tonight. You can send one email, investigate one program, or finish one assignment."
+  },
+  {
+    "text": "Look at the last attempt before making another. What will you change this time?"
+  },
+  {
+    "text": "If you're exhausted, choose what can wait and get some sleep. Tomorrow's work deserves a functioning version of you."
   }
 ];
 
@@ -2675,7 +1842,15 @@ const paletteNames = ['lavender', 'sage', 'blue', 'rose', 'sand', 'teal'];
 const $ = selector => document.querySelector(selector);
 const STORAGE_KEY = 'daymark:v1';
 let syncController = null;
-const defaults = () => ({ version: 1, notepad: { text: '', open: false }, delights: { jokes: { seen: [], current: null }, facts: { seen: [], current: null } }, knownWords: [], vocabChoice: null, bookmarks: [], recapHighlights: {}, tasks: [], studySessions: [], sessions: {}, newsHistory: {}, briefingEdition: null, duolingoDays: {}, runs: [], youtubeSessions: {}, jokeWindow: null, moments: [], completedEvents: [], events: [], sheetEvents: [], sheetUrl: DEFAULT_SHEET_URL, sheetConfigured: true, sheetFetchedAt: null, seen: {}, lastVisit: null, jokeDate: null, weather: null, news: null });
+const liftNames = { bench: 'Bench', squat: 'Squat', curls: 'Curls' };
+function validLift(lift) {
+  return Boolean(lift && typeof lift.id === 'string' && lift.id.length > 0 && lift.id.length <= 200
+    && Object.hasOwn(liftNames, lift.exercise) && validDate(lift.date)
+    && Number.isFinite(lift.weight) && lift.weight > 0 && lift.weight <= 1500
+    && ['lb', 'kg'].includes(lift.unit) && Number.isInteger(lift.reps) && lift.reps > 0 && lift.reps <= 1000
+    && Number.isFinite(Date.parse(lift.createdAt)));
+}
+const defaults = () => ({ version: 1, notepad: { text: '', open: false }, delights: { jokes: { seen: [], current: null }, facts: { seen: [], current: null }, quotes: { seen: [], current: null } }, knownWords: [], vocabChoice: null, bookmarks: [], recapHighlights: {}, tasks: [], studySessions: [], sessions: {}, newsHistory: {}, briefingEdition: null, duolingoDays: {}, runs: [], lifts: [], youtubeSessions: {}, jokeWindow: null, moments: [], completedEvents: [], events: [], sheetEvents: [], sheetUrl: DEFAULT_SHEET_URL, sheetConfigured: true, sheetFetchedAt: null, seen: {}, lastVisit: null, jokeDate: null, weather: null, news: null });
 let storageReadable = true;
 let state = defaults();
 
@@ -2690,6 +1865,7 @@ function validateState(value) {
   if (value.completedEvents !== undefined && (!Array.isArray(value.completedEvents) || value.completedEvents.some(k => typeof k !== 'string' || k.length > 2000))) throw new Error('The backup contains invalid calendar completion history.');
   if (Object.entries(value.sessions).some(([key, v]) => !/^\d{4}-\d{2}-\d{2}-(am|pm)$/.test(key) || !v || typeof v.pushups !== 'boolean' || typeof v.situps !== 'boolean')) throw new Error('The backup contains invalid exercise history.');
   if (value.runs !== undefined && (!Array.isArray(value.runs) || value.runs.some(r => !validRun(r)))) throw new Error('The backup contains an invalid run.');
+  if (value.lifts !== undefined && (!Array.isArray(value.lifts) || value.lifts.some(l => !validLift(l)) || new Set(value.lifts.map(l => l.id)).size !== value.lifts.length)) throw new Error('The backup contains an invalid lifting set.');
   if (value.tasks !== undefined && (!Array.isArray(value.tasks) || value.tasks.some(t => !validTask(t)) || new Set(value.tasks.map(t => t.id)).size !== value.tasks.length)) throw new Error('The backup contains an invalid task.');
   if (value.studySessions !== undefined && (!Array.isArray(value.studySessions) || value.studySessions.some(s => !validStudySession(s)) || new Set(value.studySessions.map(s => s.id)).size !== value.studySessions.length)) throw new Error('The backup contains invalid study time.');
   if (value.youtubeSessions !== undefined && (!value.youtubeSessions || typeof value.youtubeSessions !== 'object' || Array.isArray(value.youtubeSessions) || Object.entries(value.youtubeSessions).some(([k, v]) => !/^\d{4}-\d{2}-\d{2}-(am|pm)$/.test(k) || !validDate(k.slice(0, 10)) || !v || typeof v.completed !== 'boolean'))) throw new Error('The backup contains invalid no-YouTube history.');
@@ -2699,7 +1875,7 @@ function validateState(value) {
   if (value.vocabChoice != null && (!validDate(value.vocabChoice.date) || typeof value.vocabChoice.word !== 'string' || value.vocabChoice.word.length > 80)) throw new Error('The backup contains an invalid vocabulary choice.');
   if (value.bookmarks !== undefined && (!Array.isArray(value.bookmarks) || value.bookmarks.some(s => !validSavedStory(s)) || new Set(value.bookmarks.map(s => s.id)).size !== value.bookmarks.length)) throw new Error('The backup contains an invalid saved story.');
   if (value.recapHighlights !== undefined && (!value.recapHighlights || typeof value.recapHighlights !== 'object' || Array.isArray(value.recapHighlights) || Object.entries(value.recapHighlights).some(([date,id]) => !validDate(date) || typeof id !== 'string'))) throw new Error('The backup contains an invalid recap highlight.');
-  if (value.delights !== undefined && (!validDelightHistory(value.delights?.jokes) || !validDelightHistory(value.delights?.facts))) throw new Error('The backup contains invalid joke or fact history.');
+  if (value.delights !== undefined && (!validDelightHistory(value.delights?.jokes) || !validDelightHistory(value.delights?.facts) || (value.delights.quotes !== undefined && !validDelightHistory(value.delights.quotes)))) throw new Error('The backup contains invalid joke or fact history.');
   // Provider caches are not trusted as backup data; refresh them from the server.
   return { ...defaults(), ...value, weather: null, news: null };
 }
@@ -3038,6 +2214,57 @@ for (const exercise of ['pushups', 'situps']) {
   });
 }
 
+let activeLift = null;
+function liftMarkup(lift, removable = false) {
+  return `<article class="run-entry"><div><strong>${esc(liftNames[lift.exercise])}</strong><span>${esc(lift.weight)} ${esc(lift.unit)}${lift.exercise === 'curls' ? ' each' : ''} × ${esc(lift.reps)} reps</span><small>${esc(formatDate(dateOnly(lift.date), { year: 'numeric' }))}</small></div>${removable ? `<button class="delete-button" type="button" data-delete-lift="${esc(lift.id)}" aria-label="Delete ${esc(liftNames[lift.exercise])} set: ${esc(lift.weight)} ${esc(lift.unit)}, ${esc(lift.reps)} reps on ${esc(lift.date)}">✕</button>` : ''}</article>`;
+}
+function renderLifts() {
+  const today = currentWindow.today, weekday = dateOnly(today).getUTCDay();
+  const monday = shiftDate(today, -((weekday + 6) % 7));
+  const weekCount = state.lifts.filter(l => l.date >= monday && l.date <= today).length;
+  $('#lift-week-stat').textContent = `${weekCount} set${weekCount === 1 ? '' : 's'} this week`;
+  $('#lift-date').max = today;
+  if (!$('#lift-date').value || !activeLift) $('#lift-date').value = today;
+  const lifts = [...state.lifts].sort((a, b) => b.date.localeCompare(a.date) || b.createdAt.localeCompare(a.createdAt));
+  $('#recent-lifts').innerHTML = lifts.slice(0, 3).map(l => liftMarkup(l)).join('');
+  $('#lifts-totals').textContent = `${lifts.length} set${lifts.length === 1 ? '' : 's'} saved · ${weekCount} this week`;
+  $('#lifts-list').innerHTML = lifts.length ? lifts.map(l => liftMarkup(l, true)).join('') : '<p class="empty-state">Your bench, squat, and curl sets will appear here.</p>';
+}
+function closeLiftForm() {
+  const previous = activeLift;
+  activeLift = null; $('#lift-form').hidden = true; $('#lift-form').reset();
+  document.querySelectorAll('[data-lift]').forEach(button => button.setAttribute('aria-expanded', 'false'));
+  if (previous) document.querySelector(`[data-lift="${previous}"]`).focus();
+}
+document.querySelectorAll('[data-lift]').forEach(button => button.addEventListener('click', () => {
+  if (activeLift === button.dataset.lift) { closeLiftForm(); return; }
+  activeLift = button.dataset.lift; $('#lift-form').reset(); $('#lift-status').textContent = '';
+  $('#lift-form-title').textContent = `${liftNames[activeLift]} · one set`;
+  $('#lift-weight-label').textContent = activeLift === 'curls' ? 'Weight (each dumbbell)' : 'Weight (total)';
+  $('#lift-help').textContent = activeLift === 'curls' ? 'Weight per dumbbell; reps per arm. Each save logs one set.' : 'Total weight, including the bar. Each save logs one set.';
+  $('#lift-date').value = currentWindow.today;
+  document.querySelectorAll('[data-lift]').forEach(b => b.setAttribute('aria-expanded', String(b === button)));
+  $('#lift-form').hidden = false; $('#lift-weight').focus();
+}));
+$('#lift-cancel').addEventListener('click', closeLiftForm);
+$('#lift-form').addEventListener('submit', event => {
+  event.preventDefault();
+  try {
+    const lift = { id: entryId(), exercise: activeLift, date: $('#lift-date').value, weight: Number($('#lift-weight').value), unit: $('#lift-unit').value, reps: Number($('#lift-reps').value), createdAt: new Date().toISOString() };
+    if (!validLift(lift) || lift.date > currentWindow.today) throw new Error('Enter a positive weight, whole-number reps, and a date on or before today.');
+    state.lifts.push(lift); const saved = persist(); renderLifts();
+    $('#lift-status').textContent = saved ? `${liftNames[lift.exercise]} saved · ${lift.weight} ${lift.unit}${lift.exercise === 'curls' ? ' each' : ''} × ${lift.reps} reps. Ready for another set.` : 'Set added for this visit only. Export a backup to keep it.';
+    // Keep the weight/date for the next set, but require fresh reps to avoid double submissions.
+    $('#lift-reps').value = ''; $('#lift-reps').focus();
+  } catch (error) { $('#lift-status').textContent = error.message; }
+});
+$('#lifts-history-button').addEventListener('click', () => { renderLifts(); showDialog('#lifts-dialog'); });
+$('#lifts-list').addEventListener('click', event => {
+  const button = event.target.closest('[data-delete-lift]');
+  if (!button || !confirm('Delete this set from your lifting log?')) return;
+  state.lifts = state.lifts.filter(l => l.id !== button.dataset.deleteLift); persist(); renderLifts();
+});
+
 function runMarkup(run, removable = false) {
   return `<article class="run-entry"><div><strong>${esc(run.distance)} ${esc(run.unit)}</strong><span>${esc(formatRunDuration(run.durationSeconds))}</span><small>${esc(formatDate(dateOnly(run.date), { year: 'numeric' }))}</small></div>${removable ? `<button class="delete-button" data-delete-run="${esc(run.id)}">Delete</button>` : ''}</article>`;
 }
@@ -3181,9 +2408,10 @@ $('#all-events').addEventListener('click', event => {
 function renderDelights(force = '') {
   const jokeChoice = trackedDelight(jokes, currentWindow.key, 'jokes', state.delights.jokes, force === 'joke');
   const factChoice = trackedDelight(facts, currentWindow.key, 'facts', state.delights.facts, force === 'fact');
-  const changed = jokeChoice.history !== state.delights.jokes || factChoice.history !== state.delights.facts;
+  const quoteChoice = trackedDelight(motivationalQuotes, currentWindow.key, 'quotes', state.delights.quotes, force === 'quote');
+  const changed = quoteChoice.history !== state.delights.quotes || jokeChoice.history !== state.delights.jokes || factChoice.history !== state.delights.facts;
   if (jokeChoice.history.current?.id !== state.delights.jokes.current?.id) state.jokeWindow = null;
-  state.delights = { jokes: jokeChoice.history, facts: factChoice.history };
+  state.delights = { jokes: jokeChoice.history, facts: factChoice.history, quotes: quoteChoice.history };
   if (changed) persist();
   const joke = jokeChoice.item;
   $('#joke-question').textContent = joke[0]; $('#joke-answer').textContent = joke[1];
@@ -3192,12 +2420,13 @@ function renderDelights(force = '') {
   const fact = factChoice.item;
   $('#fact-title').textContent = fact.title; $('#fact-text').textContent = fact.text;
   $('#fact-source').textContent = `Source: ${fact.source}`;
-  const quote = motivationalQuotes[checkInPick(currentWindow.key, motivationalQuotes.length, 'quotes')];
-  $('#motivation-quote').textContent = quote.text; $('#motivation-author').textContent = `${quote.author}${quote.work ? ` · ${quote.work}` : ''}`;
+  $('#motivation-quote').textContent = quoteChoice.item.text;
+  $('#motivation-author').textContent = 'A note for this check-in';
   renderVocabulary();
   document.documentElement.dataset.palette = paletteNames[checkInPick(currentWindow.key, paletteNames.length, 'palettes')];
   $('meta[name="theme-color"]').content = getComputedStyle(document.documentElement).getPropertyValue('--nav-bg').trim();
 }
+$('#motivation-next').addEventListener('click', () => renderDelights('quote'));
 function renderVocabulary() {
   const word = vocabularyChoice(vocabulary, currentWindow.today, state.knownWords, state.vocabChoice);
   displayedVocabulary = word;
@@ -3339,7 +2568,7 @@ $('#import-file').addEventListener('change', async event => {
     const retainedNews = state.news;
     state = restored; state.news = retainedNews; storageReadable = true; persist();
     visitSeen = structuredClone(state.seen); visitTime = state.lastVisit;
-    renderExercise(); renderRuns(); renderTasks(); renderNotepad(); renderYoutube(); renderDuolingo(); renderMoments(); renderCalendar(); renderDelights(); renderRecaps();
+    renderExercise(); renderRuns(); renderLifts(); renderTasks(); renderNotepad(); renderYoutube(); renderDuolingo(); renderMoments(); renderCalendar(); renderDelights(); renderRecaps();
     $('#sheet-url').value = state.sheetUrl;
     toast('Backup restored.'); void refreshAll();
   } catch (error) { toast(`Couldn’t restore: ${error.message}`); }
@@ -3353,11 +2582,11 @@ function tick() {
   currentWindow = next; currentDay = next.today;
   renderHeader(); renderBreak();
   if (changed) { renderExercise(); renderYoutube(); renderDelights(); renderCalendar(); void refreshAll(true); }
-  if (dayChanged) { renderDuolingo(); renderDelights(); renderRuns(); renderCalendar(); renderStudy(); renderRecaps(); }
+  if (dayChanged) { renderDuolingo(); renderDelights(); renderRuns(); renderLifts(); renderCalendar(); renderStudy(); renderRecaps(); }
 }
 document.addEventListener('visibilitychange', () => { if (!document.hidden) tick(); });
 setInterval(tick, 30000);
-renderHeader(); renderExercise(); renderRuns(); renderTasks(); renderNotepad(); renderYoutube(); renderDuolingo(); renderMoments(); renderCalendar(); renderDelights(); renderRecaps();
+renderHeader(); renderExercise(); renderRuns(); renderLifts(); renderTasks(); renderNotepad(); renderYoutube(); renderDuolingo(); renderMoments(); renderCalendar(); renderDelights(); renderRecaps();
 // Verify that this browser can really save, without touching existing records.
 if (storageReadable) {
   const probe = `${STORAGE_KEY}:probe:${entryId()}`;
@@ -3378,7 +2607,7 @@ if (sheetFromLink && persist()) {
   try { history.replaceState(null, '', location.pathname + location.search); } catch { /* The saved connection still works. */ }
 }
 void refreshAll();
-void import('./sync-client.js').then(async ({connectSync}) => {
+void import('./sync-client.js?v=strength-1').then(async ({connectSync}) => {
   syncController = await connectSync({
     getState: () => state,
     emptyState: defaults,
@@ -3389,7 +2618,7 @@ void import('./sync-client.js').then(async ({connectSync}) => {
       const news = state.news;
       state = incoming; state.news = news;
       if (!persist({sync: false})) throw new Error('This browser could not save the synced data. Export a backup before closing.');
-      renderExercise(); renderRuns(); renderTasks(); renderNotepad(); renderYoutube(); renderDuolingo(); renderMoments(); renderCalendar(); renderRecaps(); renderVocabulary();
+      renderExercise(); renderRuns(); renderLifts(); renderTasks(); renderNotepad(); renderYoutube(); renderDuolingo(); renderMoments(); renderCalendar(); renderRecaps(); renderVocabulary();
       if (document.activeElement !== $('#sheet-url')) $('#sheet-url').value = state.sheetUrl;
       if (state.sheetUrl && !state.sheetFetchedAt) void refreshSheet(true);
     },
