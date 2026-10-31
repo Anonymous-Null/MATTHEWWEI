@@ -1,3 +1,11 @@
+## Visible day/week streaks (October 31, 2026)
+
+The push-ups/sit-ups full-day streak is now a labeled row immediately above the seven-day history. The running section targets 2 logged runs per Monday–Sunday week, with a separate week streak. Lifting targets 4 distinct dates per Monday–Sunday week; any bench, curl, or squat set qualifies, and extra sets on the same date do not increase the day count. The lifting dialog still shows set counts and volume separately.
+
+An incomplete current week preserves the immediately preceding completed-week streak until Monday. Once this week meets its target, it joins the streak immediately. A completed week after a missed week begins a new streak of one. Counts derive from saved run/lift records, ignore future dates, and update on add/delete, import, sync, reload, and Eastern date rollover. There are no new storage/sync fields.
+
+Validation: `node --test test/weekly-streaks.test.mjs` covers current/past weeks, distinct dates, missed weeks, deletions, input order, future records, and year boundaries. `npm run test:browser` includes desktop/mobile labels/placement, record deletion (including multiple sets on one date), persisted counts, and layout, along with existing exercise/strength/history checks.
+
 ## Exercise progression and full-day streak (October 31, 2026)
 
 The movement card now has a full-day streak: both push-ups and sit-ups checked in both the AM and PM window. Each training day runs from 7AM Eastern to 7AM the next morning; the existing check-in streak is also retained. Every third consecutive fully completed training day earns a 3% increase, applied the next morning. A failed day undoes one increase if it breaks an active streak, resets the three-day counter, and subsequent consecutive missed days do not keep reducing the target. Minimum 25. Multiply the current whole-number target by 1.03 for an increase, divide by 1.03 for a reversal, and round each adjustment half up (25 → 26 → 27 → 28 for the first three blocks). Full-day streaks may include older logs, but progressive targets start October 31, 2026, preserving earlier entries at the original 25 reps.

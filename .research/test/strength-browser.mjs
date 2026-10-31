@@ -37,7 +37,7 @@ try {
     await page.locator('#lift-weight').fill('22.5');await page.locator('#lift-reps').fill('12');
     await page.locator('#lift-form button[type=submit]').click();await page.locator('#lift-cancel').click();
     assert.equal(await page.locator('#lift-form').isVisible(),false);
-    assert.match(await page.locator('#lift-week-stat').innerText(),/3 sets/);
+    assert.match(await page.locator('#lift-week-stat').innerText(),/2 \/ 4 lifting days/);
     await page.reload();await page.waitForFunction(()=>document.querySelector('#startup-notice').hidden);
     assert.match(await page.locator('#recent-runs').innerText(),/3 mi/);
     assert.equal(await page.locator('#recent-lifts .run-entry').count(),3);
