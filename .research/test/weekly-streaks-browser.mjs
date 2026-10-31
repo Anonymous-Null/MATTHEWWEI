@@ -26,6 +26,21 @@ try{for(const width of [390,1440]){
  await page.locator('#runs-history-button').click();page.once('dialog',d=>d.accept());await page.locator('[data-delete-run="run-5"]').click();await page.locator('#runs-dialog .close-dialog').click();
  assert.equal(await page.locator('#run-week-streak').innerText(),'2 weeks');
  await page.reload();await page.waitForFunction(()=>document.querySelector('#startup-notice').hidden);assert.equal(await page.locator('#run-week-streak').innerText(),'2 weeks');
+ assert.equal(await page.locator('.exercise-rules,.habit-streak-row').count(),0);
+ assert.equal(await page.locator('#run-form').isVisible(),false);
+ await page.locator('#run-toggle').focus();await page.keyboard.press('Enter');
+ assert.equal(await page.locator('#run-form').isVisible(),true);assert.equal(await page.locator('#run-toggle').getAttribute('aria-expanded'),'true');
+ await page.locator('#run-distance').fill('2.5');await page.locator('#run-toggle').click();await page.locator('#run-toggle').click();
+ assert.equal(await page.locator('#run-distance').inputValue(),'2.5');
+ await page.locator('#run-time').fill('22:30');await page.locator('#run-form button[type=submit]').click();
+ assert.equal(await page.locator('#run-form').isVisible(),false);assert.match(await page.locator('#run-status').innerText(),/Run saved/);
+ assert.match(await page.locator('#recent-runs').innerText(),/2.5 mi/);
+ const colors=await page.evaluate(()=>{
+   const result=[];const host=document.createElement('div');host.innerHTML='<span class="session-dot empty"></span><span class="session-dot partial"></span><span class="session-dot complete"></span>';document.body.append(host);
+   for(const theme of ['light','dark'])for(const palette of ['lavender','sage','blue','rose','sand','teal']){document.documentElement.dataset.theme=theme;document.documentElement.dataset.palette=palette;result.push([...host.children].map(e=>getComputedStyle(e).backgroundColor));}
+   host.remove();return result;
+ });
+ for(const row of colors)assert.deepEqual(row,['rgb(239, 68, 68)','rgb(250, 204, 21)','rgb(34, 197, 94)']);
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);assert.deepEqual(errors,[]);
- if(width===390)await page.locator('#movement-panel').screenshot({path:'/tmp/weekly-streaks-mobile.png'});await page.close();
+ if(width===390)await page.locator('#movement-panel').screenshot({path:'/tmp/compact-mobile.png'});await page.close();
 }console.log('Desktop/mobile day streak placement, weekly progress/streaks, distinct lift days, deletions, reload, and layout passed.');}finally{await browser.close();}

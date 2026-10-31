@@ -1,3 +1,13 @@
+## Compact movement controls (October 31, 2026)
+
+Runs now use a collapsed “+ Log run” control. Opening reveals the existing distance/unit, optional duration, date, and submit fields. Closing without saving preserves the draft; a successful save resets and closes the form, leaving its save confirmation visible. The existing run history, validation, weekly progress, and sync remain intact.
+
+Run/lifting weekly streak bars are replaced by small flame-and-weeks badges in the section headings, with accessible group labels and existing status announcements. Progress labels remain visible; lifting help is shortened. The “How targets work” details are removed, while progression behavior is retained.
+
+Exercise calendar/history dots have fixed red (#ef4444) empty, yellow (#facc15) partial, and green (#22c55e) complete colors across palettes/themes. Future unopened windows retain an unfilled outline. Status tooltips and accessible labels are preserved.
+
+Validation: existing `npm run test:browser`; the weekly streak browser scenario now also checks keyboard form opening, draft retention, successful run save/collapse, absence of removed bars/details, and exact status colors across all six palettes in light and dark modes, on desktop/mobile.
+
 ## Visible day/week streaks (October 31, 2026)
 
 The push-ups/sit-ups full-day streak is now a labeled row immediately above the seven-day history. The running section targets 2 logged runs per Monday–Sunday week, with a separate week streak. Lifting targets 4 distinct dates per Monday–Sunday week; any bench, curl, or squat set qualifies, and extra sets on the same date do not increase the day count. The lifting dialog still shows set counts and volume separately.
