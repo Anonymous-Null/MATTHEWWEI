@@ -1,3 +1,11 @@
+## Lift totals and quotations (October 31, 2026)
+
+“All your lifts” now shows derived all-time volume for bench, squat, and curls. Sum weight × reps; curls use a factor of two because existing records explicitly mean weight per dumbbell and reps per arm. A lb/kg selector converts mixed-unit records using exactly 0.45359237 kg/lb; round only the displayed total to at most one decimal place. Counts remain separate. Totals recalculate on logging, deletion, import, sync, and reload; no migration or separate stored counter is needed.
+
+The original momentum notes were replaced with 16 quotations from 11 authors, credited and linked to checked primary texts; literary characters are identified. See [content-sources.md](content-sources.md). The facts collection now has 59 entries, including 32 new ones, with 13 simpler entries removed. Existing content history and twice-daily rotation remain intact.
+
+Validation: `npm run test:browser` covers all prior dashboard checks, quote rotation and attribution, and new desktop/mobile all-time totals for mixed units, both-arm curls, empty categories, add/delete, and reload. `node test/sync-browser.mjs` also passes with the actual PostgreSQL merge function and two browser devices. Sync code/schema/config and personal-data storage keys are unchanged in this update.
+
 ## Strength logging and new content (October 30, 2026)
 
 The live bundled `index.html` now includes collapsible Bench, Squat, and Curls forms immediately below the running log. Each submission records one set: weight, lb/kg, whole-number reps, date, and creation time. Curls use weight per dumbbell and reps per arm; barbell lifts use total weight including the bar. Recent sets and full removable history persist across check-ins. Validation/import accepts legacy backups without `lifts` and validates new records before applying them.

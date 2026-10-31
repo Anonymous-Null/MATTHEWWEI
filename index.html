@@ -99,6 +99,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
 @media(min-width:761px){.dashboard-grid{grid-template-columns:minmax(0,1fr) minmax(330px,1fr)}}
 @media(max-width:760px){.dashboard-grid{grid-template-columns:minmax(0,1fr)}.left-column,.right-column{display:contents}.dashboard-grid .card,.dashboard-grid .plan-notepad{grid-row:auto}.dashboard-grid .tasks-card{grid-row:1}.dashboard-grid .plan-notepad{grid-row:2}}
 .lift-buttons{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:9px}.lift-buttons .secondary-button{font-size:12px;padding:7px 13px}.lift-buttons [aria-expanded=true]{background:var(--accent-light);border-color:var(--accent);color:var(--accent)}.lift-form-heading{display:flex;align-items:center;justify-content:space-between;margin:12px 0 10px;gap:8px}.lift-form-heading strong{font-size:12px}.lift-form-heading .text-button{font-size:11px}.strength-block .form-status:not(:empty){margin:8px 0}.quote-section .delight-next{display:block;margin-top:12px}#lifts-list .run-entry{padding:15px 0}#lifts-list .run-entry>div{gap:4px 10px}
+.lift-totals-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:4px 0 12px}.lift-totals-heading h3{font-size:14px}.lift-totals-heading label{font-size:12px;white-space:nowrap;color:var(--muted)}.lift-totals-heading select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:5px}.lift-volume-totals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:12px}.lift-volume-total{min-width:0;padding:14px 10px;background:var(--accent-light);border:1px solid var(--line);border-radius:12px}.lift-volume-total h4{font-size:12px;margin:0 0 6px;color:var(--accent)}.lift-volume-total strong{display:block;font-size:19px;line-height:1.3;overflow-wrap:anywhere}.lift-volume-total small{font-size:11px;color:var(--muted)}.quote-section cite a{text-decoration:underline;text-underline-offset:3px}@media(max-width:420px){.lift-volume-total{padding:12px 8px}.lift-volume-total strong{font-size:17px}}
 </style>
   
 </head>
@@ -129,7 +130,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
         <div class="left-column"><section class="card journal-card" id="good-things" aria-labelledby="journal-heading"><div class="section-heading"><div><p class="section-kicker">THE GOOD DESERVES A PLACE</p><h2 id="journal-heading">What made today better?</h2></div><span class="journal-heart"><svg><use href="#i-heart"/></svg></span></div><p class="section-subtitle">A big win, a small kindness, or just a really good lunch.</p><form id="journal-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><label class="sr-only" for="journal-input">Something good that happened</label><textarea id="journal-input" maxlength="1200" rows="3" placeholder="Since my last check-in…" required></textarea><div class="journal-actions"><span class="fine-print">Private. Saved in this browser.</span><button class="primary-button" type="submit">Keep this moment <svg><use href="#i-arrow"/></svg></button></div><p id="journal-status" class="form-status" role="status"></p></fieldset></form><div id="latest-moment"></div><button class="text-button" id="moments-button">Your good-moments collection <span id="moments-count">0</span> →</button></section>
         <section class="card vocabulary-card" aria-labelledby="vocab-heading"><div class="section-heading"><div><p class="section-kicker">ONE NEW WORD, EVERY DAY</p><h2 id="vocab-heading">Word of the day</h2></div><span id="vocab-kind" class="vocab-kind"></span></div><div class="vocab-word-row"><h3 id="vocab-word"></h3><span id="vocab-part"></span></div><p id="vocab-meaning"></p><p id="vocab-example" class="vocab-example"></p><div class="vocab-actions"><a id="vocab-source" class="text-button" target="_blank" rel="noopener noreferrer">Dictionary →</a><button id="vocab-known" class="secondary-button" type="button">Already know</button></div><div class="vocab-known-row"><span id="vocab-known-count" class="fine-print">0 words marked known</span><button id="vocab-undo" class="text-button" type="button" hidden>Undo last</button></div><p id="vocab-status" class="form-status" role="status"></p></section><section class="card weekly-recap" id="recap-panel" aria-labelledby="recap-heading" hidden><p class="section-kicker">A SUNDAY LOOK BACK</p><h2 id="recap-heading">Your Sunday recap</h2><div id="recap-content"></div></section>
         <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong>25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Resets at 7 AM & 7 PM. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Went for a run?</h3><span id="run-week-stat">0 runs this week</span></div><p class="running-help">About 3 runs a week. Log one whenever you go.</p><form id="run-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p><p id="run-status" class="form-status" role="status"></p></fieldset></form><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div><div class="running-block strength-block"><div class="running-heading"><h3>Lift log</h3><span id="lift-week-stat"></span></div><p class="running-help">Pick a lift to log a set.</p><div class="lift-buttons" aria-label="Choose a lift"><button type="button" class="secondary-button" data-lift="bench" aria-expanded="false" aria-controls="lift-form">+ Bench</button><button type="button" class="secondary-button" data-lift="squat" aria-expanded="false" aria-controls="lift-form">+ Squat</button><button type="button" class="secondary-button" data-lift="curls" aria-expanded="false" aria-controls="lift-form">+ Curls</button></div><form id="lift-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="lift-form-heading"><strong id="lift-form-title">Bench · one set</strong><button class="text-button" type="button" id="lift-cancel">Cancel</button></div><div class="run-fields"><div><label id="lift-weight-label" for="lift-weight">Weight (total)</label><div class="distance-input"><input id="lift-weight" type="number" min="0.1" max="1500" step="any" inputmode="decimal" required aria-describedby="lift-help"><label class="sr-only" for="lift-unit">Weight unit</label><select id="lift-unit"><option value="lb">lb</option><option value="kg">kg</option></select></div></div><div><label for="lift-reps">Reps</label><input id="lift-reps" type="number" min="1" max="1000" step="1" inputmode="numeric" placeholder="8" required></div></div><div class="run-save-row"><label class="sr-only" for="lift-date">Date of lifting set</label><input id="lift-date" type="date" required><button class="primary-button" type="submit">Log set →</button></div><p id="lift-help" class="fine-print">Total weight, including the bar. Each save logs one set.</p></fieldset></form><p id="lift-status" class="form-status" role="status"></p><div id="recent-lifts"></div><button id="lifts-history-button" class="text-button" type="button">All your lifts →</button></div></section>
-        <section class="card small-delights" aria-labelledby="delights-heading"><div class="delights-heading"><p class="section-kicker">FRESH AT 7 AM & 7 PM</p><h2 id="delights-heading">A little fuel for your day</h2></div><div class="delight quote-section"><div class="delight-label"><span class="delight-symbol">“</span><span>MOMENTUM</span></div><blockquote id="motivation-quote"></blockquote><cite id="motivation-author"></cite><button id="motivation-next" class="text-button delight-next" type="button">Another thought ↻</button></div><div class="delight joke-section"><div class="delight-label"><span class="delight-symbol">:)</span><span>COMIC RELIEF</span></div><p id="joke-question" class="joke-question"></p><button id="joke-reveal" class="text-button">Go on →</button><p id="joke-answer" class="joke-answer" hidden></p><button id="joke-next" class="text-button delight-next" type="button">Another joke ↻</button></div><div class="delight fact-section"><div class="delight-label"><span class="delight-symbol">✦</span><span>FUN FACT</span></div><h3 id="fact-title"></h3><p id="fact-text"></p><p id="fact-source" class="fact-attribution"></p><button id="fact-next" class="text-button delight-next" type="button">Another fact ↻</button></div></section>
+        <section class="card small-delights" aria-labelledby="delights-heading"><div class="delights-heading"><p class="section-kicker">FRESH AT 7 AM & 7 PM</p><h2 id="delights-heading">A little fuel for your day</h2></div><div class="delight quote-section"><div class="delight-label"><span class="delight-symbol">“</span><span>A DIFFERENT PERSPECTIVE</span></div><blockquote id="motivation-quote"></blockquote><cite id="motivation-author"></cite><button id="motivation-next" class="text-button delight-next" type="button">Another quote ↻</button></div><div class="delight joke-section"><div class="delight-label"><span class="delight-symbol">:)</span><span>COMIC RELIEF</span></div><p id="joke-question" class="joke-question"></p><button id="joke-reveal" class="text-button">Go on →</button><p id="joke-answer" class="joke-answer" hidden></p><button id="joke-next" class="text-button delight-next" type="button">Another joke ↻</button></div><div class="delight fact-section"><div class="delight-label"><span class="delight-symbol">✦</span><span>FUN FACT</span></div><h3 id="fact-title"></h3><p id="fact-text"></p><p id="fact-source" class="fact-attribution"></p><button id="fact-next" class="text-button delight-next" type="button">Another fact ↻</button></div></section>
         </div>
         <div class="right-column">
           <section class="card tasks-card" id="tasks-panel" aria-labelledby="tasks-heading"><div class="section-heading"><div><p class="section-kicker">A LITTLE PLAN, A LITTLE PROGRESS</p><h2 id="tasks-heading">Your to-do list</h2></div><span id="tasks-total" class="tasks-total">0 to do</span></div><p class="section-subtitle">Classes, projects, and everything else.</p><div id="task-groups"></div><div class="study-week"><div><span class="study-week-label">STUDIED THIS WEEK</span><strong id="study-week-total">0.0 h</strong><span id="study-week-detail">0 sessions · 0 min logged</span></div><button id="study-open" class="secondary-button">Log time</button><p id="study-week-range"></p></div><details id="completed-tasks" class="completed-tasks" hidden><summary id="completed-tasks-count">Completed (0)</summary><ul id="completed-task-list" class="task-list"></ul></details><details id="study-log" class="completed-tasks"><summary id="study-log-count">Study-time log (0)</summary><ul id="study-log-list" class="task-list"></ul></details><p class="fine-print task-help">Estimates help you plan. Logged time counts toward your week.</p><p id="tasks-status" class="form-status" role="status"></p></section>
@@ -146,7 +147,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
   <dialog id="recap-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">THE LITTLE THINGS ADD UP</p><h2>Your weekly recap</h2></div><button class="icon-button close-dialog" aria-label="Close weekly recap">✕</button></div><label for="recap-week">Choose a week · Monday–Sunday</label><select id="recap-week"></select><div id="recap-history-content"></div><p class="field-help">Based on the activity you’ve logged here. This week’s recap updates as you add things.</p></dialog>
   <dialog id="duolingo-dialog" class="duolingo-dialog"><div class="dialog-header"><div><p class="eyebrow">A LITTLE LANGUAGE, EVERY DAY</p><h2>Duolingo today</h2></div><button class="icon-button close-dialog" aria-label="Close Duolingo reminder">✕</button></div><p id="duolingo-date" class="field-help"></p><a class="primary-button duolingo-open" href="https://www.duolingo.com/learn" target="_blank" rel="noopener noreferrer">Open Duolingo →</a><a class="text-button duolingo-profile" href="https://www.duolingo.com/profile/ViolinKid21" target="_blank" rel="noopener noreferrer">ViolinKid21’s profile →</a><label class="duolingo-check"><input type="checkbox" id="duolingo-done"><span>I did my lesson today</span></label><p id="duolingo-status" class="form-status" role="status"></p><p class="field-help">Mark this after your lesson. The icon remembers your answer and starts fresh each day at midnight Eastern. Your public streak does not reliably confirm today’s lesson. Mark completion here after practicing.</p></dialog>
   <dialog id="study-dialog"><div class="dialog-header"><div><p class="eyebrow">ONE SESSION AT A TIME</p><h2 id="study-dialog-heading">Log study time</h2></div><button class="icon-button close-dialog" aria-label="Close study time">✕</button></div><p id="study-task-title" class="study-task-title" hidden></p><form id="study-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><div id="study-subject-field"><label for="study-subject">Class or activity</label><select id="study-subject"></select></div><div id="study-title-field"><label for="study-title">What did you work on? (optional)</label><input id="study-title" maxlength="300" placeholder="Practice problems, reading, research…"></div><div class="form-row"><div><label for="study-minutes">Actual minutes</label><input id="study-minutes" type="number" min="1" max="1440" step="1" inputmode="numeric" placeholder="45" required></div><div><label for="study-date">Date</label><input id="study-date" type="date" required></div></div><p id="study-dialog-help" class="field-help"></p><div class="study-dialog-actions"><button id="study-save" class="primary-button" type="submit">Save study time</button><button id="study-skip" class="text-button" type="button" hidden>Finish without logging time</button></div><p id="study-form-status" class="form-status" role="status"></p></fieldset></form></dialog>
-  <dialog id="lifts-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">BENCH · SQUAT · CURLS</p><h2>Your lifting log</h2></div><button class="icon-button close-dialog" aria-label="Close lifting log">✕</button></div><p id="lifts-totals" class="running-help"></p><div id="lifts-list"></div></dialog>
+  <dialog id="lifts-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">BENCH · SQUAT · CURLS</p><h2>Your lifting log</h2></div><button class="icon-button close-dialog" aria-label="Close lifting log">✕</button></div><div class="lift-totals-heading"><h3>Total weight lifted</h3><label for="lift-total-unit">Show in <select id="lift-total-unit"><option value="lb">lb</option><option value="kg">kg</option></select></label></div><div id="lift-volume-totals" class="lift-volume-totals" aria-live="polite"></div><p class="running-help">All time · weight × reps across saved sets. Curls count both arms (weight per dumbbell × reps × 2). Mixed units are converted.</p><p id="lifts-totals" class="running-help"></p><div id="lifts-list"></div></dialog>
   <dialog id="runs-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">A RECORD OF SHOWING UP</p><h2>Your running log</h2></div><button class="icon-button close-dialog" aria-label="Close running log">✕</button></div><div id="runs-totals" class="history-stats"></div><div id="runs-list"></div><p class="field-help">Log runs whenever you go. Distances stay in the unit you entered; totals are converted to miles.</p></dialog>
   <dialog id="youtube-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">ONE HALF-DAY AT A TIME</p><h2>Your no-YouTube history</h2></div><button class="icon-button close-dialog" aria-label="Close no-YouTube history">✕</button></div><p class="field-help">Morning check-ins cover the previous night. Evening check-ins cover the daytime. Correct a past entry here if you need to.</p><div id="youtube-history"></div></dialog>
   <dialog id="history-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">CONSISTENCY, ONE CHECK-IN AT A TIME</p><h2>Your movement history</h2></div><button class="icon-button close-dialog" aria-label="Close exercise history">✕</button></div><div id="history-stats" class="history-stats"></div><div class="month-controls"><button class="icon-button" id="history-prev" aria-label="Previous month">←</button><label class="sr-only" for="history-month">History month</label><input type="month" id="history-month"><button class="icon-button" id="history-next" aria-label="Next month">→</button></div><div class="calendar-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div><div id="history-calendar" class="history-calendar"></div><p class="history-legend"><span><i class="legend-dot complete"></i> Complete</span><span><i class="legend-dot partial"></i> One set</span><span><i class="legend-dot empty"></i> No entry</span></p><div id="history-day"></div><p class="field-help">Tap a day to review or correct your self-reported sets. Each dot is one morning or evening check-in. Future check-ins can’t be logged.</p></dialog>
@@ -158,7 +159,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
 
   <dialog id="moments-dialog"><div class="dialog-header"><div><p class="eyebrow">THE GOOD ADDS UP</p><h2>Your little collection</h2></div><button class="icon-button close-dialog" aria-label="Close good moments">✕</button></div><div id="moments-list"></div></dialog>
 
-  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking and a streak for consecutive completed check-in windows, a personal good-moments journal, manual calendar events, school-break dates, running and lifting records, a separate no-YouTube streak, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily practical note, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 7 AM and 7 PM Eastern. The note, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running and lifting history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
+  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking and a streak for consecutive completed check-in windows, a personal good-moments journal, manual calendar events, school-break dates, running and lifting records, a separate no-YouTube streak, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily quotation, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 7 AM and 7 PM Eastern. The quotation, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running and lifting history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 <script>(()=>{globalThis.DAYMARK_STANDALONE=true;const TIME_ZONE = 'America/New_York';
 const WEATHER_REFRESH_MS = 15 * 60 * 1000;
@@ -851,13 +852,8 @@ const jokes = [
 
 const facts = [
   {
-    "title": "Metal feels colder than wood—even at the same temperature",
-    "text": "Metal pulls heat out of your hand much faster than wood does. Your skin senses that heat loss, so two objects in the same room can feel dramatically different.",
-    "source": "Exploratorium · heat transfer"
-  },
-  {
     "title": "Contactless cards have no battery",
-    "text": "The reader creates a magnetic field that briefly powers a tiny chip inside the card. That chip can then send information back—your tap supplies both the connection and the energy.",
+    "text": "The reader creates a magnetic field that briefly powers a tiny chip inside the card. That chip can then send information back—the reader supplies both the connection and the energy.",
     "source": "NXP · contactless smart cards"
   },
   {
@@ -869,21 +865,6 @@ const facts = [
     "title": "The smell of rain comes partly from bacteria",
     "text": "Soil bacteria produce a substance called geosmin. Raindrops hitting the ground can launch tiny droplets carrying that earthy smell into the air.",
     "source": "MIT News · rainfall and aerosols"
-  },
-  {
-    "title": "Mint tricks your temperature sensors",
-    "text": "Menthol activates a receptor that normally responds to cold. Your mouth can feel cooler even though the mint has not actually lowered its temperature.",
-    "source": "Nobel Prize · temperature and touch receptors"
-  },
-  {
-    "title": "Chili peppers trigger a heat alarm",
-    "text": "Capsaicin activates a receptor that also responds to painful heat. That burning sensation is your nervous system sounding an alarm, even when the food is not hot.",
-    "source": "Nobel Prize · temperature and touch receptors"
-  },
-  {
-    "title": "Your eyes have holes in their vision",
-    "text": "Each eye has a blind spot where its optic nerve exits: there are no light-detecting cells there. You usually never notice because your brain fills in information and the other eye helps cover the gap.",
-    "source": "National Eye Institute · blind spots"
   },
   {
     "title": "Blue eyes contain no blue pigment",
@@ -909,11 +890,6 @@ const facts = [
     "title": "GPS needs Einstein’s physics",
     "text": "Satellite clocks would drift by about 38 microseconds a day relative to clocks on Earth without relativistic corrections. That tiny timing difference is large enough to make navigation increasingly inaccurate.",
     "source": "NIST · relativity and GPS"
-  },
-  {
-    "title": "A tennis ball’s fuzz changes its flight",
-    "text": "The fuzzy surface increases drag, slowing the ball through the air. Its covering is part of how the game works, rather than just decoration.",
-    "source": "NASA Glenn Research Center · tennis ball aerodynamics"
   },
   {
     "title": "A violin bow repeatedly grabs and releases the string",
@@ -971,11 +947,6 @@ const facts = [
     "source": "Georgia Tech · wombat intestinal mechanics"
   },
   {
-    "title": "You can get a sunburn through clouds",
-    "text": "Cloud cover does not block all ultraviolet radiation. A cool or overcast day can still deliver enough UV to damage skin, even when it does not feel sunny.",
-    "source": "World Health Organization · ultraviolet radiation"
-  },
-  {
     "title": "A soap bubble’s colors measure its thinness",
     "text": "Light reflecting from the front and back of the soap film overlaps. Different wavelengths reinforce or cancel one another depending on the film’s thickness, producing those shifting colors.",
     "source": "Exploratorium · soap film interference"
@@ -984,21 +955,6 @@ const facts = [
     "title": "The Moon is slowly leaving us",
     "text": "The Moon recedes from Earth by about 3.8 centimeters a year. Scientists measure the distance by timing laser pulses reflected from equipment left on the lunar surface.",
     "source": "NASA · lunar laser ranging"
-  },
-  {
-    "title": "One Venus rotation takes longer than its year",
-    "text": "Venus takes about 243 Earth days to spin once relative to the stars, but only about 225 days to orbit the Sun. Its sunrise-to-sunrise day is different again, because it spins backward.",
-    "source": "NASA · Venus facts"
-  },
-  {
-    "title": "Space-station crews see about 16 sunrises a day",
-    "text": "The International Space Station circles Earth roughly every 90 minutes. That means its astronauts repeatedly cross from daylight to darkness while people on the ground experience a single day.",
-    "source": "NASA · International Space Station"
-  },
-  {
-    "title": "The Sun you see is already eight minutes old",
-    "text": "Sunlight takes about eight minutes and twenty seconds to reach Earth. Looking at the Sun means seeing it as it was a little earlier, not as it is at this instant.",
-    "source": "NASA · Sun facts"
   },
   {
     "title": "Airplane window corners used to be a serious problem",
@@ -1016,24 +972,9 @@ const facts = [
     "source": "MIT News · Roman concrete self-healing"
   },
   {
-    "title": "The Eiffel Tower changes height with the weather",
-    "text": "Iron expands when it gets warmer and contracts as it cools. Temperature changes can make the tower roughly 15 centimeters taller in hot weather.",
-    "source": "Eiffel Tower official website · thermal expansion"
-  },
-  {
     "title": "The Statue of Liberty’s green layer protects it",
     "text": "Its outer skin is copper, which gradually formed a green patina as it reacted with the environment. That surface layer helps protect the metal underneath from further corrosion.",
     "source": "National Park Service · Statue of Liberty copper"
-  },
-  {
-    "title": "The first item scanned at a supermarket was chewing gum",
-    "text": "In 1974, a pack of Wrigley’s Juicy Fruit became the first product scanned at a supermarket checkout using the UPC barcode system. The everyday beep began with a very small purchase.",
-    "source": "Smithsonian National Museum of American History · UPC scanner"
-  },
-  {
-    "title": "Roller coasters do not need an engine for every hill",
-    "text": "The first big lift stores energy as height. As the train drops, that becomes motion; later hills are usually lower because friction and air resistance continually take energy away.",
-    "source": "The Physics Classroom · roller-coaster energy"
   },
   {
     "title": "Your voice sounds different on a recording for a physical reason",
@@ -1041,89 +982,268 @@ const facts = [
     "source": "Cleveland Clinic · why your recorded voice sounds different"
   },
   {
-    "title": "A spinning bicycle wheel resists being tilted",
-    "text": "Changing the direction of a spinning wheel’s rotation requires a torque. That is why turning a rapidly spinning wheel in your hands feels strangely resistant and can twist your arms.",
-    "source": "Exploratorium · angular momentum"
-  },
-  {
     "title": "Honeybees can give directions by dancing",
     "text": "A returning bee’s waggle dance can communicate the direction and approximate distance of a food source. The angle of the dance is related to the Sun’s position, even inside the dark hive.",
     "source": "Smithsonian · honeybee waggle dance"
+  },
+  {
+    "title": "Every scrambled Rubik’s cube is at most 20 moves from solved",
+    "text": "For a standard 3×3 cube, any legal position can be solved in 20 moves or fewer, counting a half-turn as one move. There are about 43 quintillion possible positions; the challenge is finding that short route.",
+    "source": "Cube20.org · exhaustive computer-assisted proof (2010)"
+  },
+  {
+    "title": "Bluetooth’s logo spells a medieval king’s initials",
+    "text": "Bluetooth was named after Harald Bluetooth, a king associated with uniting Denmark and Norway. The logo combines the runes for H and B: a thousand-year-old royal monogram on your headphones.",
+    "source": "Bluetooth SIG · origin of the name and logo"
+  },
+  {
+    "title": "QR codes borrowed a trick from newspaper scanning",
+    "text": "The QR code’s developers looked for a pattern that scanners would rarely confuse with printed text. The three corner markers use a distinctive black-and-white ratio, helping a reader recognize a code even when you tilt your phone.",
+    "source": "DENSO WAVE · QR Code development history"
+  },
+  {
+    "title": "The Moon-landing computer had software woven into its memory",
+    "text": "Apollo’s core-rope memory stored instructions in the paths of wires through or around tiny magnetic rings. Some of the software that took people to the Moon was physically manufactured into the hardware.",
+    "source": "MIT Museum · Apollo guidance computer core-rope memory"
+  },
+  {
+    "title": "Apollo 11’s computer alarms did not mean it had stopped working",
+    "text": "During the landing, the guidance computer became overloaded and raised alarms. Its software shed lower-priority work and kept the essential landing calculations going, allowing mission control to tell the astronauts to continue.",
+    "source": "NASA · Apollo 11 program alarms"
+  },
+  {
+    "title": "Saturn has a moon with lakes and rivers—but not of water",
+    "text": "Titan has rain, rivers, lakes and seas made of methane and ethane. Its surface is so cold that water is frozen hard, while substances we usually encounter as gases can flow as liquids.",
+    "source": "NASA Science · Titan facts"
+  },
+  {
+    "title": "On Mercury, the Sun can rise, retreat, and rise again",
+    "text": "At certain locations on Mercury, the Sun appears to rise briefly, set, then rise again. Near the planet’s closest approach to the Sun, its changing orbital speed temporarily overtakes its slow rotation.",
+    "source": "NASA Science · Mercury facts"
+  },
+  {
+    "title": "Everest’s summit is not the point farthest from Earth’s center",
+    "text": "Earth bulges around the equator. Ecuador’s Mount Chimborazo sits on that bulge, so its summit is over two kilometers farther from Earth’s center than Everest’s, even though Everest is higher above sea level.",
+    "source": "NOAA National Ocean Service · highest point on Earth"
+  },
+  {
+    "title": "Old window glass has not slowly flowed toward the bottom",
+    "text": "Glass at room temperature behaves as a solid. Uneven thickness in old windows comes from how the panes were made, rather than centuries of liquid glass creeping downward.",
+    "source": "Scientific American · Fact or Fiction: Glass Is a (Supercooled) Liquid"
+  },
+  {
+    "title": "Scientists built a playable tennis video game in 1958",
+    "text": "Visitors to Brookhaven National Laboratory could play Tennis for Two on an oscilloscope, using separate controllers to hit a glowing dot over a net. It predates Pong by fourteen years.",
+    "source": "Brookhaven National Laboratory · Tennis for Two"
+  },
+  {
+    "title": "Nintendo started with handmade playing cards",
+    "text": "Nintendo was founded in Kyoto in 1889 to make hanafuda cards. Its history began almost a century before the Nintendo Entertainment System reached American homes.",
+    "source": "Nintendo · company history"
+  },
+  {
+    "title": "China’s terracotta army originally wore bright colors",
+    "text": "The warriors were painted with vivid pigments over a lacquer coating. On newly excavated figures, exposure to drier air can make that coating curl and flake off, so preserving the original colors is a major conservation challenge.",
+    "source": "Smithsonian · painted terracotta warriors and conservation"
+  },
+  {
+    "title": "Paper money was circulating in China centuries before Europe used it",
+    "text": "During the Song dynasty, paper notes called jiaozi developed from merchants’ receipts into government-issued currency. Carrying a piece of paper was far easier than hauling large amounts of metal coins.",
+    "source": "British Museum · Chinese paper money"
+  },
+  {
+    "title": "The Great Wave’s famous blue was an international ingredient",
+    "text": "Hokusai used Prussian blue, a synthetic pigment developed in Europe and imported into Japan. A color from abroad helped create one of the world’s most recognizable Japanese artworks.",
+    "source": "The Metropolitan Museum of Art · Hokusai and Prussian blue"
+  },
+  {
+    "title": "New York tried an underground subway powered by air",
+    "text": "In 1870, Alfred Ely Beach opened a short demonstration railway beneath Broadway. A giant fan pushed and pulled a passenger car through the tunnel; the experiment never grew into a full network.",
+    "source": "New York Transit Museum · Beach Pneumatic Transit"
+  },
+  {
+    "title": "Paris sent messages through tubes for more than a century",
+    "text": "The city’s pneumatic-post network carried written messages in capsules pushed through underground pipes. It began in 1866 and remained in service until 1984—an urban messaging system that physically shot the message across town.",
+    "source": "Musée de La Poste · Paris pneumatic post"
+  },
+  {
+    "title": "Fresh pineapple can stop gelatin from setting",
+    "text": "Pineapple contains an enzyme that cuts up proteins, including the ones that form gelatin’s structure. Canned pineapple usually works in gelatin desserts because the heat used in canning disables that enzyme.",
+    "source": "Exploratorium · pineapple enzymes and gelatin"
+  },
+  {
+    "title": "Popcorn is a tiny pressure vessel turning inside out",
+    "text": "A kernel’s tough outer shell traps steam as its interior heats up. When the shell bursts, the softened starch expands into foam and cools into the white shape you eat.",
+    "source": "American Chemical Society · the chemistry of popcorn"
+  },
+  {
+    "title": "A platypus hunts with its eyes and ears closed",
+    "text": "Underwater, a platypus closes its eyes, ears and nostrils. Sensors in its bill help it find prey by detecting movement and tiny electrical signals from the prey’s muscles.",
+    "source": "Australian Museum · platypus senses"
+  },
+  {
+    "title": "A turtle nest’s temperature can decide the babies’ sex",
+    "text": "For many sea turtles, cooler incubation temperatures tend to produce males and warmer ones females. The conditions around a buried nest can therefore shape an entire generation’s sex ratio.",
+    "source": "NOAA Ocean Service · sea turtle sex determination"
+  },
+  {
+    "title": "Some Antarctic fish have almost colorless blood",
+    "text": "Antarctic icefishes lack hemoglobin, the red protein most vertebrates use to carry oxygen. They survive with other adaptations, including large hearts and blood vessels, in exceptionally cold, oxygen-rich water.",
+    "source": "British Antarctic Survey · icefish physiology"
+  },
+  {
+    "title": "Rats make an ultrasonic sound when tickled",
+    "text": "Researchers have recorded high-pitched calls from rats during tickling and playful encounters. The calls are too high for us to hear without special equipment, and many rats actively seek more of the interaction.",
+    "source": "Science · tickling responses and 50-kHz rat vocalizations"
+  },
+  {
+    "title": "Cuttlefish can wait for a better snack",
+    "text": "In an experiment, cuttlefish passed up food they could eat immediately to wait for a preferred live shrimp. Some waited up to about two minutes—a version of the delayed-gratification test often associated with children and marshmallows.",
+    "source": "Proceedings of the Royal Society B · cuttlefish delay of gratification (2021)"
+  },
+  {
+    "title": "Pigeons have learned to tell Monet from Picasso",
+    "text": "In a 1995 experiment, trained pigeons distinguished paintings by the two artists and applied what they learned to unfamiliar examples. They were recognizing visual patterns, not just memorizing a single rewarded picture.",
+    "source": "Journal of the Experimental Analysis of Behavior · Watanabe, Sakamoto and Wakita (1995)"
+  },
+  {
+    "title": "Post-it notes came from glue that would not hold very strongly",
+    "text": "A 3M researcher developed an adhesive that stuck lightly and could be reused. A colleague later used it to keep bookmarks from falling out of his choir hymnal, helping turn a weak bond into a useful product.",
+    "source": "3M · Post-it brand history"
+  },
+  {
+    "title": "A Force Touch trackpad’s click is an illusion of movement",
+    "text": "On supported MacBooks, the trackpad senses pressure and uses a haptic actuator to create the click sensation. It does not need the old mechanical button traveling downward beneath your finger.",
+    "source": "Apple Support · Force Touch trackpad"
+  },
+  {
+    "title": "A thermal camera usually cannot see through a window",
+    "text": "Ordinary glass blocks much of the infrared light that common thermal cameras detect. Point one at a window and you generally see the glass’s temperature and reflections, rather than the warm objects behind it.",
+    "source": "FLIR · what thermal cameras can see through"
+  },
+  {
+    "title": "Clouds can hold hundreds of thousands of kilograms of water",
+    "text": "A roughly cubic-kilometer cumulus cloud can contain about 500,000 kilograms of liquid water, using a typical water-content estimate. That water is spread among tiny droplets in a huge volume of air, rather than gathered into one floating lake.",
+    "source": "USGS Water Science School · how much a cloud weighs"
+  },
+  {
+    "title": "Some sand dunes sing",
+    "text": "On certain dunes, sliding sand can produce a deep, sustained booming sound as many grains move together. The result can resemble a distant engine, even though the sound comes from the dune itself.",
+    "source": "Caltech · booming and singing sand dunes"
+  },
+  {
+    "title": "Some bridges in India are grown from living tree roots",
+    "text": "In Meghalaya, Khasi and Jaintia communities guide rubber-fig roots across streams and let them strengthen over years. The resulting footbridges remain living structures that require ongoing care.",
+    "source": "UNESCO World Heritage Centre · living root bridges cultural landscapes"
+  },
+  {
+    "title": "Voyager’s record cover explains how to play the record",
+    "text": "The spacecraft carry gold-plated records with sounds and images from Earth. Diagrams on the cover use a hydrogen atom’s behavior as a time reference, providing a way to describe playback speed without assuming the finder knows human seconds.",
+    "source": "NASA · Voyager Golden Record cover"
+  },
+  {
+    "title": "Astronauts can temporarily get taller in space",
+    "text": "Without gravity loading the spine in the usual way, astronauts’ spines can lengthen. The increase can reach several centimeters and generally reverses after they return to Earth.",
+    "source": "NASA · spinal changes during spaceflight"
   }
 ];
-// Original practical notes; no invented quotations or author attributions.
+// Attributed excerpts; fictional speakers are identified in the work credit.
 const motivationalQuotes = [
   {
-    "text": "Pick the problem you're avoiding and write down exactly where you get stuck. That gives you a useful question to take to someone."
+    "text": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "author": "Alan Turing",
+    "work": "Computing Machinery and Intelligence (1950)",
+    "url": "https://www.csee.umbc.edu/courses/471/papers/turing.pdf"
   },
   {
-    "text": "If you've read the same paragraph three times, close the book and explain what you remember. Find the missing piece before reading it a fourth time."
+    "text": "In every work of genius we recognize our own rejected thoughts: they come back to us with a certain alienated majesty.",
+    "author": "Ralph Waldo Emerson",
+    "work": "Self-Reliance",
+    "url": "https://www.gutenberg.org/cache/epub/16643/pg16643.txt"
   },
   {
-    "text": "Give the first draft permission to be embarrassing. Nobody else has to see the version that gets you started."
+    "text": "My courage always rises with every attempt to intimidate me.",
+    "author": "Jane Austen",
+    "work": "Pride and Prejudice · Elizabeth Bennet",
+    "url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt"
   },
   {
-    "text": "Before opening another tutorial, try building the smallest version yourself. You'll find out which parts you actually need explained."
+    "text": "As far as I can judge, I am not apt to follow blindly the lead of other men.",
+    "author": "Charles Darwin",
+    "work": "Autobiography",
+    "url": "https://www.gutenberg.org/cache/epub/2010/pg2010.txt"
   },
   {
-    "text": "Choose what would make today feel finished. Make it specific enough that you can actually stop when it's done."
+    "text": "It was like a new world opened to me, the world of science, which I was at last permitted to know in all liberty.",
+    "author": "Marie Curie",
+    "work": "Autobiographical Notes",
+    "url": "https://www.gutenberg.org/cache/epub/69617/pg69617.txt"
   },
   {
-    "text": "When everything feels urgent, ask which unfinished thing is creating the most trouble. Start there."
+    "text": "The first principle is that you must not fool yourself—and you are the easiest person to fool.",
+    "author": "Richard Feynman",
+    "work": "Cargo Cult Science · Caltech address (1974)",
+    "url": "https://calteches.library.caltech.edu/51/2/CargoCult.htm"
   },
   {
-    "text": "Practice the two measures you keep stumbling over. Playing from the beginning again gives your best measures more practice than your worst ones."
+    "text": "I long to accomplish a great and noble task; but it is my chief duty and joy to accomplish humble tasks as though they were great and noble.",
+    "author": "Helen Keller",
+    "work": "Optimism (1903)",
+    "url": "https://www.gutenberg.org/cache/epub/31622/pg31622.txt"
   },
   {
-    "text": "Send the question you've been rewriting. You don't have to sound like an expert to ask for help."
+    "text": "Books must be read as deliberately and reservedly as they were written.",
+    "author": "Henry David Thoreau",
+    "work": "Walden · Reading",
+    "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
   },
   {
-    "text": "A confusing problem is easier to work on once it's on paper. Draw what you know, label what you don't, and try one step."
+    "text": "What do we live for, if it is not to make life less difficult to each other?",
+    "author": "George Eliot",
+    "work": "Middlemarch · Dorothea Brooke",
+    "url": "https://www.gutenberg.org/cache/epub/145/pg145.txt"
   },
   {
-    "text": "Before changing five things in your circuit, test one. Give yourself a chance to learn why it worked."
+    "text": "I’m not afraid of storms, for I’m learning how to sail my ship.",
+    "author": "Louisa May Alcott",
+    "work": "Little Women · Amy March",
+    "url": "https://www.gutenberg.org/cache/epub/514/pg514.txt"
   },
   {
-    "text": "Leave tomorrow a starting point: the next equation, the next sentence, or the part you need to test. Make restarting easy."
+    "text": "You can't depend on your eyes when your imagination is out of focus.",
+    "author": "Mark Twain",
+    "work": "A Connecticut Yankee in King Arthur’s Court · Hank Morgan",
+    "url": "https://www.gutenberg.org/cache/epub/86/pg86.txt"
   },
   {
-    "text": "Getting something wrong in practice is useful. Make sure you can explain the mistake before moving on."
+    "text": "Your own gift you can present every moment with the cumulative force of a whole life's cultivation; but of the adopted talent of another, you have only an extemporaneous, half possession.",
+    "author": "Ralph Waldo Emerson",
+    "work": "Self-Reliance",
+    "url": "https://www.gutenberg.org/cache/epub/16643/pg16643.txt"
   },
   {
-    "text": "If the plan no longer fits the day, change the plan. Spend the remaining time on something you can still finish."
+    "text": "No pessimist ever discovered the secrets of the stars, or sailed to an uncharted land, or opened a new heaven to the human spirit.",
+    "author": "Helen Keller",
+    "work": "Optimism (1903)",
+    "url": "https://www.gutenberg.org/cache/epub/31622/pg31622.txt"
   },
   {
-    "text": "You can ask someone who's better at this to look at your work. You don't have to spend another hour guessing what they'd notice."
+    "text": "Machines take me by surprise with great frequency.",
+    "author": "Alan Turing",
+    "work": "Computing Machinery and Intelligence (1950)",
+    "url": "https://www.csee.umbc.edu/courses/471/papers/turing.pdf"
   },
   {
-    "text": "Open yesterday's difficult problem and try it without looking. That's a better test than whether the solution seems familiar."
+    "text": "I know of no more encouraging fact than the unquestionable ability of man to elevate his life by a conscious endeavor.",
+    "author": "Henry David Thoreau",
+    "work": "Walden · Where I Lived, and What I Lived For",
+    "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt"
   },
   {
-    "text": "Choose one project small enough to finish and interesting enough to show someone. Let that be the next thing you build."
-  },
-  {
-    "text": "If your explanation needs a word you can't define, pause there. Understanding that word might unlock the rest."
-  },
-  {
-    "text": "Keep a record of the things that finally worked. Future you shouldn't have to solve the same wiring mistake twice."
-  },
-  {
-    "text": "Take a real break: stand up, get water, look away from the screen. Give your attention somewhere else to go for a few minutes."
-  },
-  {
-    "text": "Ask for feedback while there's still time to use it. An imperfect draft today gives you more options than a polished one at midnight."
-  },
-  {
-    "text": "Decide what ‘done’ means before you start polishing. Otherwise a ten-minute fix can quietly become your entire evening."
-  },
-  {
-    "text": "You don't need to settle your whole future tonight. You can send one email, investigate one program, or finish one assignment."
-  },
-  {
-    "text": "Look at the last attempt before making another. What will you change this time?"
-  },
-  {
-    "text": "If you're exhausted, choose what can wait and get some sleep. Tomorrow's work deserves a functioning version of you."
+    "text": "I like good strong words that mean something.",
+    "author": "Louisa May Alcott",
+    "work": "Little Women · Jo March",
+    "url": "https://www.gutenberg.org/cache/epub/514/pg514.txt"
   }
 ];
 
@@ -2218,7 +2338,22 @@ let activeLift = null;
 function liftMarkup(lift, removable = false) {
   return `<article class="run-entry"><div><strong>${esc(liftNames[lift.exercise])}</strong><span>${esc(lift.weight)} ${esc(lift.unit)}${lift.exercise === 'curls' ? ' each' : ''} × ${esc(lift.reps)} reps</span><small>${esc(formatDate(dateOnly(lift.date), { year: 'numeric' }))}</small></div>${removable ? `<button class="delete-button" type="button" data-delete-lift="${esc(lift.id)}" aria-label="Delete ${esc(liftNames[lift.exercise])} set: ${esc(lift.weight)} ${esc(lift.unit)}, ${esc(lift.reps)} reps on ${esc(lift.date)}">✕</button>` : ''}</article>`;
 }
+function liftVolumeTotals(lifts, unit = 'lb') {
+  const totals = { bench: 0, squat: 0, curls: 0 };
+  for (const lift of lifts) {
+    const weight = lift.unit === unit ? lift.weight : unit === 'kg' ? lift.weight * 0.45359237 : lift.weight / 0.45359237;
+    totals[lift.exercise] += weight * lift.reps * (lift.exercise === 'curls' ? 2 : 1);
+  }
+  return totals;
+}
+function renderLiftTotals() {
+  const unit = $('#lift-total-unit').value, totals = liftVolumeTotals(state.lifts, unit);
+  const number = new Intl.NumberFormat('en-US', { maximumFractionDigits: 1 });
+  $('#lift-volume-totals').innerHTML = Object.entries(liftNames).map(([exercise, label]) => `<div class="lift-volume-total" data-lift-total="${exercise}"><h4>${label}</h4><strong>${number.format(totals[exercise])}</strong><small>${unit} lifted</small></div>`).join('');
+}
+$('#lift-total-unit').addEventListener('change', renderLiftTotals);
 function renderLifts() {
+  renderLiftTotals();
   const today = currentWindow.today, weekday = dateOnly(today).getUTCDay();
   const monday = shiftDate(today, -((weekday + 6) % 7));
   const weekCount = state.lifts.filter(l => l.date >= monday && l.date <= today).length;
@@ -2421,7 +2556,7 @@ function renderDelights(force = '') {
   $('#fact-title').textContent = fact.title; $('#fact-text').textContent = fact.text;
   $('#fact-source').textContent = `Source: ${fact.source}`;
   $('#motivation-quote').textContent = quoteChoice.item.text;
-  $('#motivation-author').textContent = 'A note for this check-in';
+  $('#motivation-author').innerHTML = `${esc(quoteChoice.item.author)} · <a href="${esc(quoteChoice.item.url)}" target="_blank" rel="noopener noreferrer">${esc(quoteChoice.item.work)}</a>`;
   renderVocabulary();
   document.documentElement.dataset.palette = paletteNames[checkInPick(currentWindow.key, paletteNames.length, 'palettes')];
   $('meta[name="theme-color"]').content = getComputedStyle(document.documentElement).getPropertyValue('--nav-bg').trim();
