@@ -103,6 +103,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
 .exercise-progression{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0 8px}.exercise-progression .fine-print{flex:1;min-width:140px}.exercise-rules{font-size:11px;color:var(--muted);margin:10px 0}.exercise-rules summary{cursor:pointer}.exercise-rules p{margin-top:7px;line-height:1.7}
 .habit-streak-row,.exercise-progression{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:12px 13px;border:1px solid var(--line);border-radius:12px;background:var(--bg);margin:12px 0}.habit-streak-label{font-size:12px;font-weight:650;color:var(--ink)}.habit-streak-row .streak-pill,.exercise-progression .streak-pill{font-size:13px;font-weight:700;padding:5px 10px}.exercise-progression .fine-print{flex-basis:100%;margin:0}.running-heading>span{font-size:11px}
 .compact-streak{display:inline-flex;align-items:center;gap:5px;color:var(--muted);font-size:12px;white-space:nowrap}.compact-streak strong{font-weight:600;font-size:12px;color:var(--ink)}.run-log-controls{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 0}.run-log-controls .secondary-button{font-size:12px;padding:7px 13px;white-space:nowrap}.run-log-controls .running-help{margin:0;text-align:right}.session-dot.empty{background:#ef4444}.session-dot.partial{background:#facc15}.session-dot.complete{background:#22c55e}.legend-dot{background:#22c55e}.session-dot.future{background:transparent;border-color:var(--muted)}
+.recap-stats>.recap-exercise-split{position:relative;min-height:170px;padding:0;overflow:hidden}.recap-diagonal{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.recap-diagonal line{stroke:var(--line);stroke-width:1.3}.recap-exercise-half{position:absolute;top:12px;left:12px;max-width:65%}.recap-exercise-half span{display:block;max-width:95px;line-height:1.4}.recap-weight-half{position:absolute;bottom:12px;right:12px;text-align:right;max-width:90%;padding:0}.recap-weight-half strong{font-size:18px;letter-spacing:-.4px;overflow-wrap:anywhere}.recap-weight-half span{display:block;line-height:1.4}.recap-weight-half:hover strong{color:var(--accent)}.body-weight-fields{display:flex;gap:10px;margin:8px 0 12px}.body-weight-fields input{min-width:0;flex:1}.body-weight-fields select{border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;padding:8px}
 </style>
   
 </head>
@@ -146,6 +147,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
       </div><footer class="site-footer"><span class="footer-brand">Matthew Wei <small>A little more intentional.</small></span><span>7 AM & 7 PM · Eastern Time <button class="text-button" id="recap-open">Weekly recap</button> <button class="text-button" id="about-button">About your dashboard</button></span></footer>
     </main>
   </div>
+  <dialog id="body-weight-dialog"><div class="dialog-header"><h2>Body weight</h2><button class="icon-button close-dialog" aria-label="Close body weight">✕</button></div><p class="field-help">Weight moved estimates each logged push-up or sit-up as 60% of your body weight. It uses the rep target for that day; partial check-ins count the exercise you completed.</p><form id="body-weight-form" novalidate><label for="body-weight-value">Your body weight</label><div class="body-weight-fields"><input id="body-weight-value" type="number" min="0.1" max="1500" step="any" inputmode="decimal" required><label class="sr-only" for="body-weight-unit">Weight unit</label><select id="body-weight-unit"><option value="lb">lb</option><option value="kg">kg</option></select></div><p class="field-help">Saved with your dashboard and included in private sync. Changing it recalculates recap estimates.</p><button class="primary-button" type="submit">Save weight</button><p id="body-weight-status" class="form-status" role="status"></p></form></dialog>
   <dialog id="recap-dialog" class="wide-dialog"><div class="dialog-header"><div><p class="eyebrow">THE LITTLE THINGS ADD UP</p><h2>Your weekly recap</h2></div><button class="icon-button close-dialog" aria-label="Close weekly recap">✕</button></div><label for="recap-week">Choose a week · Monday–Sunday</label><select id="recap-week"></select><div id="recap-history-content"></div><p class="field-help">Based on the activity you’ve logged here. This week’s recap updates as you add things.</p></dialog>
   <dialog id="duolingo-dialog" class="duolingo-dialog"><div class="dialog-header"><div><p class="eyebrow">A LITTLE LANGUAGE, EVERY DAY</p><h2>Duolingo today</h2></div><button class="icon-button close-dialog" aria-label="Close Duolingo reminder">✕</button></div><p id="duolingo-date" class="field-help"></p><a class="primary-button duolingo-open" href="https://www.duolingo.com/learn" target="_blank" rel="noopener noreferrer">Open Duolingo →</a><a class="text-button duolingo-profile" href="https://www.duolingo.com/profile/ViolinKid21" target="_blank" rel="noopener noreferrer">ViolinKid21’s profile →</a><label class="duolingo-check"><input type="checkbox" id="duolingo-done"><span>I did my lesson today</span></label><p id="duolingo-status" class="form-status" role="status"></p><p class="field-help">Mark this after your lesson. The icon remembers your answer and starts fresh each day at midnight Eastern. Your public streak does not reliably confirm today’s lesson. Mark completion here after practicing.</p></dialog>
   <dialog id="study-dialog"><div class="dialog-header"><div><p class="eyebrow">ONE SESSION AT A TIME</p><h2 id="study-dialog-heading">Log study time</h2></div><button class="icon-button close-dialog" aria-label="Close study time">✕</button></div><p id="study-task-title" class="study-task-title" hidden></p><form id="study-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><div id="study-subject-field"><label for="study-subject">Class or activity</label><select id="study-subject"></select></div><div id="study-title-field"><label for="study-title">What did you work on? (optional)</label><input id="study-title" maxlength="300" placeholder="Practice problems, reading, research…"></div><div class="form-row"><div><label for="study-minutes">Actual minutes</label><input id="study-minutes" type="number" min="1" max="1440" step="1" inputmode="numeric" placeholder="45" required></div><div><label for="study-date">Date</label><input id="study-date" type="date" required></div></div><p id="study-dialog-help" class="field-help"></p><div class="study-dialog-actions"><button id="study-save" class="primary-button" type="submit">Save study time</button><button id="study-skip" class="text-button" type="button" hidden>Finish without logging time</button></div><p id="study-form-status" class="form-status" role="status"></p></fieldset></form></dialog>
@@ -570,11 +572,15 @@ function weeklyReflection(state, end = recapSunday(), now = new Date()) {
   const tasks = (state.tasks || []).filter(t => t.completed && t.completedAt && inWeek(reflectionDate(t.completedAt)));
   const exercise = Object.entries(state.sessions || {}).filter(([key]) => inWeek(key.slice(0,10)) && key <= checkInWindow(now).key)
     .reduce((total, [, session]) => total + (Number(session.pushups === true) + Number(session.situps === true)) / 2, 0);
+  const repsByDate = exerciseProgression(state.sessions || {}, checkInWindow(now).key).targets;
+  const exerciseReps = Object.entries(state.sessions || {}).filter(([key]) => inWeek(key.slice(0,10)) && key <= checkInWindow(now).key)
+    .reduce((sum, [key, session]) => sum + (Number(session.pushups === true) + Number(session.situps === true)) * (repsByDate[key.slice(0,10)] ?? 25), 0);
+  const weightMoved = state.bodyWeight ? exerciseReps * 0.6 * state.bodyWeight.value : null;
   const runs = (state.runs || []).filter(r => inWeek(r.date));
   const moments = (state.moments || []).filter(m => inWeek(reflectionDate(m.createdAt))).sort((a,b) => b.createdAt.localeCompare(a.createdAt));
   const bookmarks = (state.bookmarks || []).filter(s => inWeek(reflectionDate(s.savedAt)));
   return { start, end, minutes: studies.reduce((n,s) => n+s.minutes,0), tasks: tasks.length,
-    exercise, runs: runs.length,
+    exercise, exerciseReps, weightMoved, weightUnit: state.bodyWeight?.unit || null, runs: runs.length,
     miles: runs.reduce((n,r) => n + r.distance * (r.unit === 'km' ? 1/1.609344 : 1),0),
     moments, bookmarks: bookmarks.length };
 }
@@ -2650,7 +2656,7 @@ function validLift(lift) {
     && ['lb', 'kg'].includes(lift.unit) && Number.isInteger(lift.reps) && lift.reps > 0 && lift.reps <= 1000
     && Number.isFinite(Date.parse(lift.createdAt)));
 }
-const defaults = () => ({ version: 1, notepad: { text: '', open: false }, delights: { jokes: { seen: [], current: null }, facts: { seen: [], current: null }, quotes: { seen: [], current: null } }, knownWords: [], vocabChoice: null, bookmarks: [], recapHighlights: {}, tasks: [], studySessions: [], sessions: {}, newsHistory: {}, briefingEdition: null, duolingoDays: {}, runs: [], lifts: [], youtubeSessions: {}, jokeWindow: null, moments: [], completedEvents: [], events: [], sheetEvents: [], sheetUrl: DEFAULT_SHEET_URL, sheetConfigured: true, sheetFetchedAt: null, seen: {}, lastVisit: null, jokeDate: null, weather: null, news: null });
+const defaults = () => ({ version: 1, bodyWeight: null, notepad: { text: '', open: false }, delights: { jokes: { seen: [], current: null }, facts: { seen: [], current: null }, quotes: { seen: [], current: null } }, knownWords: [], vocabChoice: null, bookmarks: [], recapHighlights: {}, tasks: [], studySessions: [], sessions: {}, newsHistory: {}, briefingEdition: null, duolingoDays: {}, runs: [], lifts: [], youtubeSessions: {}, jokeWindow: null, moments: [], completedEvents: [], events: [], sheetEvents: [], sheetUrl: DEFAULT_SHEET_URL, sheetConfigured: true, sheetFetchedAt: null, seen: {}, lastVisit: null, jokeDate: null, weather: null, news: null });
 let storageReadable = true;
 let state = defaults();
 
@@ -2659,6 +2665,7 @@ function validDate(date) {
 }
 function validateState(value) {
   if (!value || value.version !== 1 || !value.sessions || typeof value.sessions !== 'object' || Array.isArray(value.sessions) || !Array.isArray(value.moments) || !Array.isArray(value.events) || !Array.isArray(value.sheetEvents) || typeof value.sheetUrl !== 'string' || !value.seen || typeof value.seen !== 'object') throw new Error('This is not a valid dashboard backup.');
+  if (value.bodyWeight != null && (!Number.isFinite(value.bodyWeight.value) || value.bodyWeight.value <= 0 || value.bodyWeight.value > 1500 || !['lb', 'kg'].includes(value.bodyWeight.unit))) throw new Error('The backup contains an invalid body weight.');
   if (value.notepad !== undefined && (!value.notepad || typeof value.notepad.text !== 'string' || value.notepad.text.length > 30000 || typeof value.notepad.open !== 'boolean')) throw new Error('The backup contains an invalid notepad.');
   if (value.moments.some(m => !m || typeof m.id !== 'string' || typeof m.text !== 'string' || m.text.length > 1200 || !Number.isFinite(Date.parse(m.createdAt)))) throw new Error('The backup contains an invalid good moment.');
   if ([...value.events, ...value.sheetEvents].some(e => !e || typeof e.id !== 'string' || typeof e.title !== 'string' || !validDate(e.date) || (e.time && !/^([01]\d|2[0-3]):[0-5]\d$/.test(e.time)))) throw new Error('The backup contains an invalid calendar event.');
@@ -2695,6 +2702,17 @@ try {
 }
 
 if (state.sheetConfigured !== true) { state.sheetUrl = DEFAULT_SHEET_URL; state.sheetConfigured = true; state.sheetEvents = []; state.sheetFetchedAt = null; }
+
+// A private setup fragment initializes weight once; fragments are not sent to the host.
+let bodyWeightFromLink = false;
+try {
+  const value = new URLSearchParams(location.hash.slice(1)).get('body-weight');
+  const match = value?.match(/^(\d+(?:\.\d+)?)\s*(lb|kg)$/i);
+  if (match && Number(match[1]) > 0 && Number(match[1]) <= 1500) {
+    if (state.bodyWeight == null) state.bodyWeight = { value: Number(match[1]), unit: match[2].toLowerCase() };
+    bodyWeightFromLink = true;
+  }
+} catch { /* Existing settings stay intact. */ }
 
 // A personal first-visit link can connect the calendar without putting its URL
 // in the public website's source. URL fragments are not sent to the host.
@@ -3263,10 +3281,27 @@ $('#vocab-undo').addEventListener('click', () => {
   $('#vocab-status').textContent = saved ? `“${word}” is back in your word collection.` : 'Restored for this visit. Export a backup to keep it.';
 });
 
+function openBodyWeight() {
+  $('#body-weight-value').value = state.bodyWeight?.value || '';
+  $('#body-weight-unit').value = state.bodyWeight?.unit || 'lb';
+  $('#body-weight-status').textContent = '';
+  showDialog('#body-weight-dialog'); $('#body-weight-value').focus();
+}
+$('#body-weight-form').addEventListener('submit', event => {
+  event.preventDefault();
+  const weight = { value: Number($('#body-weight-value').value), unit: $('#body-weight-unit').value };
+  if (!Number.isFinite(weight.value) || weight.value <= 0 || weight.value > 1500 || !['lb', 'kg'].includes(weight.unit)) { $('#body-weight-status').textContent = 'Enter a positive body weight and choose lb or kg.'; return; }
+  state.bodyWeight = weight;
+  if (!persist()) { $('#body-weight-status').textContent = 'Updated for this visit only. Export a backup to keep it.'; return; }
+  $('#body-weight-dialog').close(); renderRecaps();
+});
+for (const selector of ['#recap-panel', '#recap-dialog']) $(selector).addEventListener('click', event => {
+  if (event.target.closest('[data-body-weight]')) openBodyWeight();
+});
 function recapMarkup(end, scope = 'panel') {
   const recap = weeklyReflection(state, end), current = recapSunday();
   const highlight = recap.moments.find(m => m.id === state.recapHighlights[end]) || recap.moments[0];
-  return `<p class="recap-range">${esc(formatDate(dateOnly(recap.start)))}–${esc(formatDate(dateOnly(end), { year: 'numeric' }))}${end === current ? ' · week so far' : ''}</p><div class="recap-stats"><div><strong>${(recap.minutes/60).toFixed(1)} h</strong><span>study time logged</span></div><div><strong>${recap.tasks}</strong><span>tasks completed</span></div><div><strong>${recap.exercise}</strong><span>exercise check-ins</span></div><div><strong>${recap.runs}</strong><span>runs · ${recap.miles.toFixed(1)} mi</span></div></div><p class="recap-small">${recap.moments.length} good moment${recap.moments.length === 1 ? '' : 's'} saved</p>${highlight ? `<div class="recap-moment"><label for="recap-highlight-${scope}-${end}">A moment to remember</label><select id="recap-highlight-${scope}-${end}" data-recap-highlight="${end}">${recap.moments.map(m => `<option value="${esc(m.id)}" ${m.id === highlight.id ? 'selected' : ''}>${esc(m.text.slice(0,75))}${m.text.length > 75 ? '…' : ''}</option>`).join('')}</select><blockquote>${esc(highlight.text)}</blockquote></div>` : '<p class="recap-empty">No good moments saved this week yet. They’ll appear here when you add one.</p>'}`;
+  return `<p class="recap-range">${esc(formatDate(dateOnly(recap.start)))}–${esc(formatDate(dateOnly(end), { year: 'numeric' }))}${end === current ? ' · week so far' : ''}</p><div class="recap-stats"><div><strong>${(recap.minutes/60).toFixed(1)} h</strong><span>study time logged</span></div><div><strong>${recap.tasks}</strong><span>tasks completed</span></div><div class="recap-exercise-split"><svg class="recap-diagonal" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="0" y1="100" x2="100" y2="0" vector-effect="non-scaling-stroke"/></svg><div class="recap-exercise-half"><strong class="recap-exercise-count">${recap.exercise}</strong><span>exercise<br>check-ins</span></div><button type="button" class="recap-weight-half" data-body-weight title="60% of body weight per logged rep · click to change weight" aria-label="${state.bodyWeight ? 'Change' : 'Set'} body weight for weight moved estimate"><strong>${recap.weightMoved == null ? 'Set weight' : `~${new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(recap.weightMoved)} ${esc(recap.weightUnit)}`}</strong><span>weight moved</span></button></div><div><strong>${recap.runs}</strong><span>runs · ${recap.miles.toFixed(1)} mi</span></div></div><p class="recap-small">${recap.moments.length} good moment${recap.moments.length === 1 ? '' : 's'} saved</p>${highlight ? `<div class="recap-moment"><label for="recap-highlight-${scope}-${end}">A moment to remember</label><select id="recap-highlight-${scope}-${end}" data-recap-highlight="${end}">${recap.moments.map(m => `<option value="${esc(m.id)}" ${m.id === highlight.id ? 'selected' : ''}>${esc(m.text.slice(0,75))}${m.text.length > 75 ? '…' : ''}</option>`).join('')}</select><blockquote>${esc(highlight.text)}</blockquote></div>` : '<p class="recap-empty">No good moments saved this week yet. They’ll appear here when you add one.</p>'}`;
 }
 function renderRecaps() {
   const today = reflectionDate(new Date()), sunday = recapSunday();
@@ -3405,11 +3440,17 @@ if (storageReadable) {
 } else { $('#save-status').textContent = 'Temporary session · see the storage message below'; $('#save-status').dataset.mode = 'temporary'; }
 for (const fieldset of document.querySelectorAll('[data-requires-app]')) fieldset.disabled = false;
 $('#startup-notice').hidden = true;
+if (bodyWeightFromLink && persist()) {
+  try {
+    const parts = new URLSearchParams(location.hash.slice(1)); parts.delete('body-weight');
+    history.replaceState(null, '', location.pathname + location.search + (parts.size ? `#${parts}` : ''));
+  } catch { /* Weight is saved even if this browser cannot tidy the setup URL. */ }
+}
 if (sheetFromLink && persist()) {
   try { history.replaceState(null, '', location.pathname + location.search); } catch { /* The saved connection still works. */ }
 }
 void refreshAll();
-void import('./sync-client.js?v=strength-1').then(async ({connectSync}) => {
+void import('./sync-client.js?v=body-weight-1').then(async ({connectSync}) => {
   syncController = await connectSync({
     getState: () => state,
     emptyState: defaults,

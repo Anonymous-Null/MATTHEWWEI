@@ -1,3 +1,13 @@
+## Diagonal exercise recap and body-weight estimate (November 1, 2026)
+
+The exercise recap tile is split diagonally: check-in equivalents in the upper-left and estimated weight moved in the lower-right. The estimate sums reps from completed push-up/sit-up checkboxes using each date’s target, then multiplies by 60% of the saved body weight. Both exercise types use that coefficient at the user’s request. Partial check-ins contribute only the logged exercise. Unopened windows and other weeks remain excluded. Values are labeled estimates and displayed rounded to whole lb/kg; calculations keep full precision.
+
+Click the weight half to set/change body weight and unit. Missing weight displays “Set weight,” never a fabricated estimate. The optional first-visit `#body-weight=NUMBERlb` (or kg) URL fragment initializes an unset weight, saves locally, and removes only that parameter from the URL. Fragments are not sent to the host; an already configured weight is not overwritten by revisiting a setup link. Body weight is not baked into the public page defaults.
+
+`bodyWeight` is an optional/null version-1 state field and a private per-field sync entry. Legacy backups remain valid. Unconfigured devices do not publish null defaults that could erase a configured device. Sync client/core URLs are versioned together; refresh both devices. Existing Supabase schema/RLS needs no migration. Editing body weight recalculates archived estimates rather than storing a historical weight log.
+
+Validation: exercise unit tests check dated rep targets, partial sets, 60% math and units; sync unit/browser tests verify two-way private body-weight changes and preservation on an unset device; the new recap browser scenario checks the diagonal tile, setup fragment removal, validation/editing, reload, archived modal interaction, and mobile/desktop layout. Existing dashboard browser checks also pass.
+
 ## Partial exercise credit in the weekly recap (November 1, 2026)
 
 Sunday and archived weekly recaps now count each logged exercise as 0.5 check-in: neither = 0, either one = 0.5, both = 1. The total still respects the selected Monday–Sunday date range and the currently open Eastern check-in window. Full-completion requirements for streaks and progressive targets are unchanged. No data/schema changes. The exercise progression regression suite includes mixed partial/full/empty sessions, date exclusions, unopened windows, and correction of a half check-in to a full one.

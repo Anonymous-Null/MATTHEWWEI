@@ -50,3 +50,16 @@ test('Sunday recap counts yellow check-ins as half, excludes other weeks and uno
  assert.equal(recap(state,'2026-11-01',new Date('2026-11-01T20:00:00Z')).exercise,2.5);
  assert.equal(recap(state,'2026-11-01',new Date('2026-11-02T02:00:00Z')).exercise,3.5);
 });
+
+test('recap weight uses dated reps, 60% of body weight, partial credit, and selected unit',()=>{
+ const state={bodyWeight:{value:165,unit:'lb'},sessions:days(4)};
+ const recap=context.api.weeklyReflection;
+ let result=recap(state,'2026-11-08',new Date('2026-11-04T15:00:00Z'));
+ // Monday Nov 2: 100 reps; Tuesday Nov 3: 104 reps at the increased target of 26.
+ assert.equal(result.exerciseReps,204);assert.equal(result.weightMoved,20196);assert.equal(result.weightUnit,'lb');
+ state.sessions['2026-11-03-pm'].situps=false;
+ result=recap(state,'2026-11-08',new Date('2026-11-04T15:00:00Z'));
+ assert.equal(result.exerciseReps,178);assert.equal(result.exercise,3.5);assert.equal(result.weightMoved,17622);
+ state.bodyWeight={value:75,unit:'kg'};assert.equal(recap(state,'2026-11-08',new Date('2026-11-04T15:00:00Z')).weightMoved,8010);
+ delete state.bodyWeight;assert.equal(recap(state,'2026-11-08',new Date('2026-11-04T15:00:00Z')).weightMoved,null);
+});

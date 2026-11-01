@@ -84,6 +84,14 @@ try{
     assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).notepad.text),'Keep my existing plan');
     assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).moments[0].text),'Existing good moment');
   }
+  await pc.locator('#recap-open').click();await pc.locator('#recap-history-content [data-body-weight]').click();
+  await pc.locator('#body-weight-value').fill('165');await pc.locator('#body-weight-form button').click();await pc.locator('#recap-dialog .close-dialog').click();
+  await sync(pc);await sync(mobile);
+  assert.deepEqual(await mobile.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).bodyWeight),{value:165,unit:'lb'});
+  await mobile.locator('#recap-open').click();await mobile.locator('#recap-history-content [data-body-weight]').click();
+  await mobile.locator('#body-weight-value').fill('75');await mobile.locator('#body-weight-unit').selectOption('kg');await mobile.locator('#body-weight-form button').click();await mobile.locator('#recap-dialog .close-dialog').click();
+  await sync(mobile);await sync(pc);
+  assert.deepEqual(await pc.evaluate(()=>JSON.parse(localStorage.getItem('daymark:v1')).bodyWeight),{value:75,unit:'kg'});
   // Lifting records use the same private per-record merge as the existing logs.
   async function lift(page,exercise,weight,reps,unit='lb') {
     await page.locator(`[data-lift="${exercise}"]`).click();

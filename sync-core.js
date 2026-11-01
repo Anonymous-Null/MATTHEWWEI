@@ -17,6 +17,7 @@ export function flattenPersonal(state) {
   }
   put(['notepad', 'text'], state.notepad?.text || '');
   put(['sheetUrl'], state.sheetUrl || '');
+  if (state.bodyWeight != null) put(['bodyWeight'], state.bodyWeight);
   return result;
 }
 
@@ -27,7 +28,7 @@ function pathFor(key) {
   const allowed = path.length === 2 && [...lists, ...sets, ...maps].includes(field)
     || path.length === 3 && field === 'sessions' && /^\d{4}-\d{2}-\d{2}-(am|pm)$/.test(id) && ['pushups', 'situps'].includes(part)
     || path.length === 2 && field === 'notepad' && id === 'text'
-    || path.length === 1 && field === 'sheetUrl';
+    || path.length === 1 && ['sheetUrl', 'bodyWeight'].includes(field);
   if (!allowed) throw new Error('Unsupported sync field.');
   return path;
 }
@@ -37,6 +38,7 @@ export function validateEntries(entries) {
   for (const [key, entry] of Object.entries(entries)) {
     const path = pathFor(key);
     if (!entry || !Number.isSafeInteger(entry.clock) || entry.clock < 1 || typeof entry.actor !== 'string' || !/^[\w-]{1,128}$/.test(entry.actor) || typeof entry.deleted !== 'boolean' || !own(entry, 'value')) throw new Error('Invalid sync version.');
+    if (!entry.deleted && path[0] === 'bodyWeight' && (!entry.value || !Number.isFinite(entry.value.value) || entry.value.value <= 0 || entry.value.value > 1500 || !['lb', 'kg'].includes(entry.value.unit))) throw new Error('Invalid synced body weight.');
     if (!entry.deleted && lists.includes(path[0]) && (!entry.value || entry.value.id !== path[1])) throw new Error('Invalid synced item.');
     if (!entry.deleted && (sets.includes(path[0]) || path[0] === 'sessions') && typeof entry.value !== 'boolean') throw new Error('Invalid synced checkbox.');
   }
@@ -75,6 +77,7 @@ export function applyEntries(state, entries) {
       result.sessions[id] ||= { pushups: false, situps: false };
       result.sessions[id][part] = !entry.deleted && entry.value === true;
     } else if (field === 'notepad') result.notepad.text = entry.deleted ? '' : entry.value;
+    else if (field === 'bodyWeight') result.bodyWeight = entry.deleted ? null : structuredClone(entry.value);
     else if (field === 'sheetUrl') {
       const url = entry.deleted ? '' : entry.value;
       if (result.sheetUrl !== url) { result.sheetEvents = []; result.sheetFetchedAt = null; result.sheetSlot = null; }

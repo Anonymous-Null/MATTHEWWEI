@@ -90,3 +90,12 @@ test('task stars sync and unstar without dropping an older task’s fields',()=>
   const phone=journal('phone',mobile);phone.accept(j.entries,mobile,valid);mobile.tasks[0].starred=false;phone.capture(mobile);
   const result=applyEntries(desktop,mergeEntries(j.entries,phone.entries));assert.equal(result.tasks[0].starred,false);assert.equal(result.tasks[0].title,'Read history');
 });
+
+test('body weight syncs privately without an unset device erasing it, and rejects invalid values',()=>{
+ const state=empty();state.bodyWeight={value:165,unit:'lb'};const a=journal('a',state);
+ const b=journal('b');assert.equal(b.changes()['["bodyWeight"]'],undefined);
+ const phone=b.accept(a.entries,empty(),valid);assert.deepEqual(phone.bodyWeight,{value:165,unit:'lb'});
+ phone.bodyWeight={value:75,unit:'kg'};b.capture(phone);
+ assert.deepEqual(a.accept(b.entries,state,valid).bodyWeight,{value:75,unit:'kg'});
+ assert.throws(()=>mergeEntries({}, {'["bodyWeight"]':entry({value:-10,unit:'lb'})}));
+});

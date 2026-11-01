@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {chromium} from 'playwright-core';
+const html=await readFile(process.env.LIVE_HTML||new URL('../../index.html',import.meta.url),'utf8');
+const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
+try{for(const width of [390,1440]){
+ const p=await browser.newPage({viewport:{width,height:950}}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.clock.install({time:new Date('2026-11-02T01:00:00Z')});
+ await p.route('**/*',r=>r.request().isNavigationRequest()?r.fulfill({contentType:'text/html',body:html}):r.abort());
+ await p.goto('https://dashboard.test/');await p.waitForFunction(()=>document.querySelector('#startup-notice').hidden);
+ assert.equal(await p.locator('#recap-content [data-body-weight] strong').innerText(),'Set weight');
+ await p.evaluate(()=>{const s=JSON.parse(localStorage.getItem('daymark:v1'));s.sessions={'2026-11-01-am':{pushups:true,situps:true},'2026-11-01-pm':{pushups:true,situps:false}};localStorage.setItem('daymark:v1',JSON.stringify(s));});
+ await p.goto('https://dashboard.test/#body-weight=165lb');await p.reload();await p.waitForFunction(()=>document.querySelector('#startup-notice').hidden);
+ assert.equal(await p.locator('#recap-content .recap-exercise-count').innerText(),'1.5');
+ assert.equal(await p.locator('#recap-content [data-body-weight] strong').innerText(),'~7,425 lb');
+ assert.equal(new URL(p.url()).hash,'');
+ const box=p.locator('#recap-content .recap-exercise-split');
+ assert.equal(await box.locator('.recap-diagonal line').count(),1);
+ assert.equal(await box.evaluate(e=>e.scrollWidth>e.clientWidth),false);
+ if(width===390)await p.locator('#recap-panel').screenshot({path:'/tmp/recap-weight-mobile.png'});
+ await p.locator('#recap-content [data-body-weight]').click();await p.locator('#body-weight-value').fill('-1');await p.locator('#body-weight-form button').click();
+ assert.match(await p.locator('#body-weight-status').innerText(),/positive body weight/);
+ await p.locator('#body-weight-value').fill('75');await p.locator('#body-weight-unit').selectOption('kg');await p.locator('#body-weight-form button').click();
+ assert.equal(await p.locator('#recap-content [data-body-weight] strong').innerText(),'~3,375 kg');
+ await p.goto('https://dashboard.test/#body-weight=165lb');await p.reload();await p.waitForFunction(()=>document.querySelector('#startup-notice').hidden);
+ assert.equal(await p.locator('#recap-content [data-body-weight] strong').innerText(),'~3,375 kg','Repeated setup link must preserve subsequent edits');
+ await p.locator('#situps').check();assert.equal(await p.locator('#recap-content .recap-exercise-count').innerText(),'2');assert.equal(await p.locator('#recap-content [data-body-weight] strong').innerText(),'~4,500 kg');
+ await p.locator('#recap-open').click();assert.equal(await p.locator('#recap-history-content [data-body-weight] strong').innerText(),'~4,500 kg');
+ await p.locator('#recap-history-content [data-body-weight]').click();assert.equal(await p.locator('#body-weight-dialog').evaluate(e=>e.open),true);await p.locator('#body-weight-dialog .close-dialog').click();
+ assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);assert.deepEqual(errors,[]);await p.close();
+}console.log('Desktop/mobile diagonal recap, private setup, 60% totals, half credit, weight editing/validation, reload, and archive passed.');}finally{await browser.close();}
