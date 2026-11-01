@@ -48,7 +48,7 @@ try {
     assert.equal(await page.locator('#lifts-list .run-entry').count(),2);
     await page.locator('#lifts-dialog .close-dialog').click();
     // Exhausting each new pool should be the first time any item can repeat.
-    for(const [text,button,count] of [['#joke-question','#joke-next',32],['#motivation-quote','#motivation-next',16]]) {
+    for(const [text,button,count] of [['#joke-question','#joke-next',103],['#motivation-quote','#motivation-next',16]]) {
       const seen=new Set();
       for(let i=0;i<count;i++) {const value=await page.locator(text).innerText();assert.ok(!seen.has(value),'Content repeated before pool exhausted');seen.add(value);if(i<count-1)await page.locator(button).click();}
     }

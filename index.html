@@ -132,7 +132,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
       <div class="dashboard-grid">
         <div class="left-column"><section class="card journal-card" id="good-things" aria-labelledby="journal-heading"><div class="section-heading"><div><p class="section-kicker">THE GOOD DESERVES A PLACE</p><h2 id="journal-heading">What made today better?</h2></div><span class="journal-heart"><svg><use href="#i-heart"/></svg></span></div><p class="section-subtitle">A big win, a small kindness, or just a really good lunch.</p><form id="journal-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><label class="sr-only" for="journal-input">Something good that happened</label><textarea id="journal-input" maxlength="1200" rows="3" placeholder="Since my last check-in…" required></textarea><div class="journal-actions"><span class="fine-print">Private. Saved in this browser.</span><button class="primary-button" type="submit">Keep this moment <svg><use href="#i-arrow"/></svg></button></div><p id="journal-status" class="form-status" role="status"></p></fieldset></form><div id="latest-moment"></div><button class="text-button" id="moments-button">Your good-moments collection <span id="moments-count">0</span> →</button></section>
         <section class="card vocabulary-card" aria-labelledby="vocab-heading"><div class="section-heading"><div><p class="section-kicker">ONE NEW WORD, EVERY DAY</p><h2 id="vocab-heading">Word of the day</h2></div><span id="vocab-kind" class="vocab-kind"></span></div><div class="vocab-word-row"><h3 id="vocab-word"></h3><span id="vocab-part"></span></div><p id="vocab-meaning"></p><p id="vocab-example" class="vocab-example"></p><div class="vocab-actions"><a id="vocab-source" class="text-button" target="_blank" rel="noopener noreferrer">Dictionary →</a><button id="vocab-known" class="secondary-button" type="button">Already know</button></div><div class="vocab-known-row"><span id="vocab-known-count" class="fine-print">0 words marked known</span><button id="vocab-undo" class="text-button" type="button" hidden>Undo last</button></div><p id="vocab-status" class="form-status" role="status"></p></section><section class="card weekly-recap" id="recap-panel" aria-labelledby="recap-heading" hidden><p class="section-kicker">A SUNDAY LOOK BACK</p><h2 id="recap-heading">Your Sunday recap</h2><div id="recap-content"></div></section>
-        <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong id="pushups-target">25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong id="situps-target">25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="exercise-progression"><span class="habit-streak-label">Push-ups + sit-ups</span><span id="exercise-day-streak" class="streak-pill" role="status">0-day streak</span><p id="exercise-goal-progress" class="fine-print"></p></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Resets at 7 AM & 7 PM Eastern. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Runs</h3><span class="compact-streak" role="group" aria-label="Running weekly streak"><span aria-hidden="true">🔥</span><strong id="run-week-streak" role="status">0 weeks</strong></span></div><div class="run-log-controls"><button id="run-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="run-form">+ Log run</button><span id="run-week-stat" class="running-help"></span></div><form id="run-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p></fieldset></form><p id="run-status" class="form-status" role="status"></p><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div><div class="running-block strength-block"><div class="running-heading"><h3>Lift log</h3><span class="compact-streak" role="group" aria-label="Lifting weekly streak"><span aria-hidden="true">🔥</span><strong id="lift-week-streak" role="status">0 weeks</strong></span></div><p class="running-help"><span id="lift-week-stat"></span> · any lift counts</p><div class="lift-buttons" aria-label="Choose a lift"><button type="button" class="secondary-button" data-lift="bench" aria-expanded="false" aria-controls="lift-form">+ Bench</button><button type="button" class="secondary-button" data-lift="squat" aria-expanded="false" aria-controls="lift-form">+ Squat</button><button type="button" class="secondary-button" data-lift="curls" aria-expanded="false" aria-controls="lift-form">+ Curls</button></div><form id="lift-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="lift-form-heading"><strong id="lift-form-title">Bench · one set</strong><button class="text-button" type="button" id="lift-cancel">Cancel</button></div><div class="run-fields"><div><label id="lift-weight-label" for="lift-weight">Weight (total)</label><div class="distance-input"><input id="lift-weight" type="number" min="0.1" max="1500" step="any" inputmode="decimal" required aria-describedby="lift-help"><label class="sr-only" for="lift-unit">Weight unit</label><select id="lift-unit"><option value="lb">lb</option><option value="kg">kg</option></select></div></div><div><label for="lift-reps">Reps</label><input id="lift-reps" type="number" min="1" max="1000" step="1" inputmode="numeric" placeholder="8" required></div></div><div class="run-save-row"><label class="sr-only" for="lift-date">Date of lifting set</label><input id="lift-date" type="date" required><button class="primary-button" type="submit">Log set →</button></div><p id="lift-help" class="fine-print">Total weight, including the bar. Each save logs one set.</p></fieldset></form><p id="lift-status" class="form-status" role="status"></p><div id="recent-lifts"></div><button id="lifts-history-button" class="text-button" type="button">All your lifts →</button></div></section>
+        <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong id="pushups-target">25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong id="situps-target">25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="exercise-progression"><span class="habit-streak-label">Push-ups + sit-ups</span><span class="compact-streak" role="group" aria-label="Push-ups and sit-ups daily streak"><span aria-hidden="true">🔥</span><strong id="exercise-day-streak" role="status">0-day streak</strong></span><p id="exercise-goal-progress" class="fine-print"></p></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Resets at 7 AM & 7 PM Eastern. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Runs</h3><span class="compact-streak" role="group" aria-label="Running weekly streak"><span aria-hidden="true">🔥</span><strong id="run-week-streak" role="status">0 weeks</strong></span></div><div class="run-log-controls"><button id="run-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="run-form">+ Log run</button><span id="run-week-stat" class="running-help"></span></div><form id="run-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p></fieldset></form><p id="run-status" class="form-status" role="status"></p><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div><div class="running-block strength-block"><div class="running-heading"><h3>Lift log</h3><span class="compact-streak" role="group" aria-label="Lifting weekly streak"><span aria-hidden="true">🔥</span><strong id="lift-week-streak" role="status">0 weeks</strong></span></div><p class="running-help"><span id="lift-week-stat"></span> · any lift counts</p><div class="lift-buttons" aria-label="Choose a lift"><button type="button" class="secondary-button" data-lift="bench" aria-expanded="false" aria-controls="lift-form">+ Bench</button><button type="button" class="secondary-button" data-lift="squat" aria-expanded="false" aria-controls="lift-form">+ Squat</button><button type="button" class="secondary-button" data-lift="curls" aria-expanded="false" aria-controls="lift-form">+ Curls</button></div><form id="lift-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="lift-form-heading"><strong id="lift-form-title">Bench · one set</strong><button class="text-button" type="button" id="lift-cancel">Cancel</button></div><div class="run-fields"><div><label id="lift-weight-label" for="lift-weight">Weight (total)</label><div class="distance-input"><input id="lift-weight" type="number" min="0.1" max="1500" step="any" inputmode="decimal" required aria-describedby="lift-help"><label class="sr-only" for="lift-unit">Weight unit</label><select id="lift-unit"><option value="lb">lb</option><option value="kg">kg</option></select></div></div><div><label for="lift-reps">Reps</label><input id="lift-reps" type="number" min="1" max="1000" step="1" inputmode="numeric" placeholder="8" required></div></div><div class="run-save-row"><label class="sr-only" for="lift-date">Date of lifting set</label><input id="lift-date" type="date" required><button class="primary-button" type="submit">Log set →</button></div><p id="lift-help" class="fine-print">Total weight, including the bar. Each save logs one set.</p></fieldset></form><p id="lift-status" class="form-status" role="status"></p><div id="recent-lifts"></div><button id="lifts-history-button" class="text-button" type="button">All your lifts →</button></div></section>
         <section class="card small-delights" aria-labelledby="delights-heading"><div class="delights-heading"><p class="section-kicker">FRESH AT 7 AM & 7 PM</p><h2 id="delights-heading">A little fuel for your day</h2></div><div class="delight quote-section"><div class="delight-label"><span class="delight-symbol">“</span><span>A DIFFERENT PERSPECTIVE</span></div><blockquote id="motivation-quote"></blockquote><cite id="motivation-author"></cite><button id="motivation-next" class="text-button delight-next" type="button">Another quote ↻</button></div><div class="delight joke-section"><div class="delight-label"><span class="delight-symbol">:)</span><span>COMIC RELIEF</span></div><p id="joke-question" class="joke-question"></p><button id="joke-reveal" class="text-button">Go on →</button><p id="joke-answer" class="joke-answer" hidden></p><button id="joke-next" class="text-button delight-next" type="button">Another joke ↻</button></div><div class="delight fact-section"><div class="delight-label"><span class="delight-symbol">✦</span><span>FUN FACT</span></div><h3 id="fact-title"></h3><p id="fact-text"></p><p id="fact-source" class="fact-attribution"></p><button id="fact-next" class="text-button delight-next" type="button">Another fact ↻</button></div></section>
         </div>
         <div class="right-column">
@@ -767,132 +767,416 @@ const schoolBreaks = [
 // Joke collection supplied by Matthew; wording preserved from his pasted list.
 const jokes = [
   [
-    "My screen-time report arrived during a productive afternoon.",
-    "It disagreed with the premise."
+    "What did the horse say after it tripped?",
+    "Help! I’ve fallen and I can’t giddy-up!"
   ],
   [
-    "I opened my phone to check the time.",
-    "Twenty minutes later, I knew less about the time and considerably more about an otter in Singapore."
+    "Why can’t you hear a pterodactyl going to the bathroom?",
+    "Because the “P” is silent."
   ],
   [
-    "The group project is going well.",
-    "We've successfully distributed the work among me."
+    "What do you call a well-balanced horse?",
+    "Stable."
   ],
   [
-    "My laptop asked whether I wanted to restore the previous session.",
-    "Emotionally? Absolutely not."
+    "What do you call an angry carrot?",
+    "A steamed veggie."
   ],
   [
-    "I renamed my essay ‘final_final_ACTUAL_final.’",
-    "The document and I have agreed to stop discussing the future."
+    "Where do polar bears keep their money?",
+    "In a snowbank."
   ],
   [
-    "I clicked ‘accept all cookies.’",
-    "Still the most misleading button on the internet."
+    "How do you make an egg roll?",
+    "You push it!"
   ],
   [
-    "The printer says ‘user intervention required.’",
-    "Bold words from the only one in the room eating paper."
+    "What would bears be without bees?",
+    "Ears."
   ],
   [
-    "I set my alarm across the room so I'd have to get up.",
-    "I've added a short commute to my snooze routine."
+    "What do you call a pile of cats?",
+    "A meow-ntain."
   ],
   [
-    "The recipe said ‘use whatever you have in the fridge.’",
-    "Apparently it meant ingredients, not potential."
+    "Why do cows wear bells?",
+    "Because their horns don’t work."
   ],
   [
-    "I taught my parents a keyboard shortcut.",
-    "I now have a permanent unpaid position in IT."
+    "Why did the bicycle fall over?",
+    "Because it was two tired."
   ],
   [
-    "The website asked if I was a robot, then made me identify twelve traffic lights.",
-    "I've never felt less qualified to be human."
+    "What did the triangle say to the circle?",
+    "You’re pointless."
   ],
   [
-    "My calculator gave me 6.02 × 10²³.",
-    "The question asked how many chairs fit in the room. I'm going to need a bigger room."
+    "RIP, boiling water.",
+    "You will be mist."
   ],
   [
-    "I love a five-minute task.",
-    "Especially the three days I spend mentally preparing for it."
+    "Time flies like an arrow.",
+    "Fruit flies like a banana."
   ],
   [
-    "The gym has mirrors on every wall.",
-    "Apparently one witness wasn't enough."
+    "I ordered a chicken and an egg online.",
+    "I’ll let you know what comes first."
   ],
   [
-    "I went for a run to clear my head.",
-    "Now there's just one thought in there: stop running."
+    "Why was Cinderella so bad at soccer?",
+    "She kept running away from the ball!"
   ],
   [
-    "My violin teacher said, ‘Play it like you're telling a story.’",
-    "Apparently the story was a small animal getting trapped in a door."
+    "What do lawyers wear to court?",
+    "Lawsuits."
   ],
   [
-    "I followed the tutorial exactly, and it still didn't work.",
-    "Then I discovered the word ‘exactly’ was doing a lot of unpaid labor."
+    "What do elves learn in school?",
+    "The elf-abet."
   ],
   [
-    "The hotel advertised a room with a view.",
-    "It didn't specify that the view would be of someone else's room with a view."
+    "Where was King David’s temple located?",
+    "Beside his ear."
   ],
   [
-    "My phone said the photo couldn't upload because the file was too large.",
-    "It's a picture of a sandwich. It wasn't even a large sandwich."
+    "What did one toilet say to another?",
+    "You look flushed."
   ],
   [
-    "I bought a notebook to organize my thoughts.",
-    "Now the thoughts are scattered across two locations."
+    "What lights up a soccer stadium?",
+    "A soccer match."
   ],
   [
-    "The vending machine took my money and kept the snack.",
-    "My first experience with venture capital."
+    "What does corn say when it gets a compliment?",
+    "Aw, shucks!"
   ],
   [
-    "The professor said, ‘There's no such thing as a stupid question.’",
-    "I appreciated the challenge."
+    "What’s the difference between a poorly dressed man on a tricycle and a well-dressed man on a bicycle?",
+    "Attire."
   ],
   [
-    "I installed a smart light bulb.",
-    "Now I can fail to turn on a lamp in three different apps."
+    "What’s red and bad for your teeth?",
+    "A brick."
   ],
   [
-    "I asked the GPS for the fastest route.",
-    "It suggested a road that felt like a dare."
+    "What do sprinters eat before they race?",
+    "Nothing. They fast."
   ],
   [
-    "The elevator's ‘door close’ button is my favorite game.",
-    "No instructions, uncertain mechanics, and I've been playing for years."
+    "What has more lives than a cat?",
+    "A frog, because it croaks every day."
   ],
   [
-    "I downloaded a meditation app.",
-    "It immediately sent me seven notifications about relaxing."
+    "A bossy man walked into a bar…",
+    "And ordered everyone a round."
   ],
   [
-    "My password manager says my password is weak.",
-    "It's already carrying my entire academic career. What more does it want?"
+    "What’s Forrest Gump’s password?",
+    "1forrest1."
   ],
   [
-    "I turned the music down so I could find the address.",
-    "My ears are apparently in charge of navigation."
+    "What do you call a fish without an eye?",
+    "Fsh."
   ],
   [
-    "The self-checkout announced an unexpected item in the bagging area.",
-    "It was the groceries. We had just discussed this."
+    "What do you call a pig that practices karate?",
+    "A pork chop."
   ],
   [
-    "I learned the Rubik's cube so I could look impressive at parties.",
-    "Now I just need to learn the parties."
+    "Do you know what they say about a clean desk?",
+    "It's a sure sign of a cluttered desk drawer."
   ],
   [
-    "The software update promised ‘stability improvements.’",
-    "I assumed that included me. It did not."
+    "How did the barber win the race?",
+    "He knew a short cut."
   ],
   [
-    "The airport announced that boarding would begin ‘shortly.’",
-    "A beautifully flexible unit of time."
+    "I told my friend 10 jokes to make him laugh.",
+    "Sadly, no pun in ten did."
+  ],
+  [
+    "Two fish are in a tank.",
+    "One turns to the other and says, “Any idea how to drive this thing?”"
+  ],
+  [
+    "What did the tomato say to the other tomato during a race?",
+    "Ketchup."
+  ],
+  [
+    "Why shouldn’t you write with a broken pen?",
+    "Because it’s pointless."
+  ],
+  [
+    "Why can't you trust the king of the jungle?",
+    "Because he's always lion."
+  ],
+  [
+    "What did one wall say to the other?",
+    "\"I'll meet you at the corner.\""
+  ],
+  [
+    "What do sea monsters eat?",
+    "Fish and ships."
+  ],
+  [
+    "What do you call a sad strawberry?",
+    "A blueberry!"
+  ],
+  [
+    "Why are pirates called pirates?",
+    "They just ARRRR!"
+  ],
+  [
+    "How do you organize a space party?",
+    "You planet."
+  ],
+  [
+    "Why do seagulls fly over the sea?",
+    "If they flew over the bay, they would be bagels."
+  ],
+  [
+    "What do cows read the most?",
+    "Cattle-logs."
+  ],
+  [
+    "I lost an electron.",
+    "You really have to keep an ion them!"
+  ],
+  [
+    "What do clouds wear under their shorts?",
+    "Thunder pants!"
+  ],
+  [
+    "How many tickles does it take to make an octopus laugh?",
+    "Ten-tickles."
+  ],
+  [
+    "What did 0 say to 8?",
+    "\"Nice belt.\""
+  ],
+  [
+    "How did the hipster burn his tongue?",
+    "He drank his coffee before it was cool."
+  ],
+  [
+    "What did the drummer name her twin daughters?",
+    "Anna 1, Anna 2."
+  ],
+  [
+    "What did the lettuce say to the celery?",
+    "Quit stalking me!"
+  ],
+  [
+    "What’s small and red and has a rough voice?",
+    "A hoarse raddish!"
+  ],
+  [
+    "Why do mushrooms get invited to all the parties?",
+    "Because they are such fungis."
+  ],
+  [
+    "Why shouldn’t you tell secrets in a cornfield?",
+    "Too many ears."
+  ],
+  [
+    "Why couldn’t the bad sailor learn the alphabet?",
+    "Because he always got lost at “C.”"
+  ],
+  [
+    "How bad were the fish’s grades?",
+    "They were below sea level."
+  ],
+  [
+    "What do you call a shoe made out of a banana?",
+    "A slipper."
+  ],
+  [
+    "How many computer programmers does it take to change a light bulb?",
+    "None, that's a hardware problem!"
+  ],
+  [
+    "I’m reading a book about anti-gravity.",
+    "I can’t put it down."
+  ],
+  [
+    "What kind of cheese isn’t yours?",
+    "Nacho cheese."
+  ],
+  [
+    "What does a spy do when he is cold?",
+    "He goes undercover."
+  ],
+  [
+    "How does the moon cut his hair?",
+    "Eclipse it."
+  ],
+  [
+    "When do computers overheat?",
+    "When they need to vent."
+  ],
+  [
+    "Why did the scarecrow win an award?",
+    "Because he was outstanding in his field."
+  ],
+  [
+    "If athletes get athlete’s foot, what do elves get?",
+    "Mistle-toes."
+  ],
+  [
+    "What’s brown and sticky?",
+    "A stick."
+  ],
+  [
+    "What do you call a sad cup of coffee?",
+    "Depresso."
+  ],
+  [
+    "How did the telephone propose to his girlfriend?",
+    "He gave her a ring."
+  ],
+  [
+    "What did the cucumber say to the pickle?",
+    "You mean a great dill to me."
+  ],
+  [
+    "Where did the lettuce go for a drink?",
+    "The salad bar."
+  ],
+  [
+    "Did you hear the rumor about butter?",
+    "Well, I'm not going to go spreading it!"
+  ],
+  [
+    "What happens when a snowman throws a tantrum?",
+    "He has a meltdown."
+  ],
+  [
+    "What goes up and down but doesn’t move?",
+    "Stairs."
+  ],
+  [
+    "Why did the cookie go to the hospital?",
+    "Because he felt crumby."
+  ],
+  [
+    "What did the janitor say when he jumped out of the closet?",
+    "Supplies!"
+  ],
+  [
+    "What do you get when you cross a fish and an elephant?",
+    "Swimming trunks."
+  ],
+  [
+    "What did the worker at the rubber band factory say when he was fired?",
+    "Oh, snap."
+  ],
+  [
+    "Why can’t a nose be 12 inches long?",
+    "Because then it would be a foot."
+  ],
+  [
+    "Why did the belt go to jail?",
+    "Because it held up a pair of pants."
+  ],
+  [
+    "Where does the general put his armies?",
+    "In his sleevies."
+  ],
+  [
+    "What do you call a magician that loses his magic?",
+    "Ian."
+  ],
+  [
+    "Why did the golfer bring two pairs of pants?",
+    "In case he got a hole-in-one."
+  ],
+  [
+    "What did the yoga instructor say when her landlord tried to evict her?",
+    "Namaste."
+  ],
+  [
+    "How do rabbits travel?",
+    "By hareplanes."
+  ],
+  [
+    "What do you call a sleeping dinosaur?",
+    "A dino-snore."
+  ],
+  [
+    "Why did the kid stock up on yeast?",
+    "He wanted to make some dough."
+  ],
+  [
+    "What did the football coach say to the broken vending machine?",
+    "Give me my quarterback."
+  ],
+  [
+    "Why are elephants wrinkly?",
+    "Because you can’t iron them."
+  ],
+  [
+    "What did the cake say to the fork?",
+    "You want a piece of me?"
+  ],
+  [
+    "How did the two cats end their fight?",
+    "They hissed and made up."
+  ],
+  [
+    "Why did the strawberry cry?",
+    "He found himself in a jam."
+  ],
+  [
+    "What’s black and white and read all over?",
+    "A newspaper!"
+  ],
+  [
+    "What do you say to a cow that gets in your way?",
+    "“Moooo-ve!”"
+  ],
+  [
+    "What did 50 Cent do when he was hungry?",
+    "58!"
+  ],
+  [
+    "What did the nut say to the other nut in a game of tag?",
+    "Imma cashew!"
+  ],
+  [
+    "Why did an old man fall in a well?",
+    "Because he couldn’t see that well!"
+  ],
+  [
+    "Why is Peter Pan always flying?",
+    "Because he Neverlands."
+  ],
+  [
+    "Why don’t astronomers like Orion’s Belt?",
+    "It’s a big waist of space."
+  ],
+  [
+    "What do you call a hippie’s wife?",
+    "Mississippi."
+  ],
+  [
+    "Why are peppers the best at archery?",
+    "Because they habanero!"
+  ],
+  [
+    "How do you tell the difference between a bull and a cow?",
+    "It is either one or the udder!"
+  ],
+  [
+    "When is a door not a door?",
+    "When it’s ajar."
+  ],
+  [
+    "Why can’t you trust duck doctors?",
+    "They’re all quacks."
+  ],
+  [
+    "What do you call a musical bear?",
+    "A beartitone."
   ]
 ];
 
@@ -1191,6 +1475,355 @@ const facts = [
     "title": "Astronauts can temporarily get taller in space",
     "text": "Without gravity loading the spine in the usual way, astronauts’ spines can lengthen. The increase can reach several centimeters and generally reverses after they return to Earth.",
     "source": "NASA · spinal changes during spaceflight"
+  },
+  {
+    "title": "An ordinary LED can detect light",
+    "text": "Light hitting it can create a tiny electrical signal. With the right circuit, a spare LED can become a light sensor.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Shape-memory metal can become an airless tire",
+    "text": "Engineers have woven nickel-titanium springs into tires that squash around rocks and recover their shape. The same family of materials as your SMA springs can become the suspension built into a wheel.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Metal can grow tiny hairs that break electronics",
+    "text": "Tin coatings sometimes grow thin, conductive “whiskers.” When one reaches another electrical connection, it can create a short circuit.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Slippery tennis strings can create more spin",
+    "text": "When strings slide against each other easily, the main strings can move sideways during impact and snap back against the ball, adding rotation.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A cube can have every piece in its correct location and still need 20 moves",
+    "text": "In the superflip, every corner is solved and every edge is flipped in place. It takes at least 20 moves to solve when a half-turn counts as one move.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Your violin’s f-holes have an efficient shape",
+    "text": "Air moves especially strongly near a sound hole’s edges. Long, narrow holes provide lots of edge while removing relatively little wood, helping the instrument produce sound efficiently.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A small speaker can work as a microphone",
+    "text": "Electricity normally moves its coil to produce sound. Your voice can move that coil and produce a tiny electrical signal, reversing the process.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Repeating any fixed cube algorithm eventually returns you to where you started",
+    "text": "Some sequences need as many as 1,260 repetitions before the cube returns to its original arrangement.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Fish have identified human faces by spitting at pictures",
+    "text": "Researchers trained archerfish to select a familiar face on a screen by shooting water at it. They could distinguish it from dozens of other faces.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Your violin string catches and slips hundreds of times per second",
+    "text": "The bow briefly drags the string sideways, then the string slips back and catches again. For an A at 440 Hz, that cycle happens about 440 times each second.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Some New England frogs survive winter with ice inside their bodies",
+    "text": "Wood frogs can stop breathing and lose their heartbeat during partial freezing, then resume activity when they thaw. Their cells remain protected while ice forms around them.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A finger snap works like a tiny loaded catapult",
+    "text": "Friction holds your finger against your thumb while you build force. When it slips free, your finger accelerates rapidly. Too much slipperiness or stickiness weakens the snap.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Wimbledon stores its tennis balls at 68°F",
+    "text": "Keeping them at a controlled temperature helps keep their bounce consistent.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Wet snow can partly “suck” on your skis",
+    "text": "Tiny water bridges between a ski and the snow can resist motion, contributing to that sticky feeling on warm snow.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A wooden violin contains carbon that came from the air",
+    "text": "Trees take in carbon dioxide and use its carbon to build wood. Part of the instrument you hold was once floating in the atmosphere.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "You can draw an electrical resistor with a pencil",
+    "text": "Graphite conducts electricity, and a pencil line on paper can provide measurable resistance. Its length, thickness, and width affect how easily current passes through it.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Many quartz watches contain a crystal vibrating 32,768 times per second",
+    "text": "The circuit repeatedly halves that frequency until it gets one pulse per second. That oddly specific number is useful because it equals 2¹⁵.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A motion-sensing chip can contain an actual moving weight",
+    "text": "Some accelerometers have a microscopic piece of silicon suspended on tiny springs. When the chip accelerates, the weight shifts, and electronics measure that movement.",
+    "source": "analog.com",
+    "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL001.pdf"
+  },
+  {
+    "title": "A camera can reveal the invisible flashing light from a TV remote",
+    "text": "Many remotes send commands using infrared light. Some phone cameras can detect it, so pressing a button makes the remote’s tip appear to flash on your screen.",
+    "source": "esero.ie",
+    "url": "https://esero.ie/wp-content/uploads/2025/08/UPDATED-Space-Week-2022-primary-resource-infrared-Astronomy-1-1.pdf"
+  },
+  {
+    "title": "The holes in a microwave door exploit the size of light waves",
+    "text": "Visible light can pass through the tiny holes, while the much longer microwaves are strongly blocked by the metal screen. That lets you watch your food while the energy stays inside.",
+    "source": "hhs.gov",
+    "url": "https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/FDA/Procedures-for-Field-Testing-Microwave-Ovens.pdf"
+  },
+  {
+    "title": "Grapes can concentrate microwaves enough to create glowing gas",
+    "text": "Researchers found that nearby grapes can focus energy into a tiny hot spot, producing plasma: gas containing electrically charged particles. This can damage an oven, so it belongs in research videos.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Mixing two metals can make something that melts below either ingredient",
+    "text": "A common tin-lead solder melts at 183°C, below the melting temperature of pure tin or pure lead. Choosing the mixture changes how the atoms arrange themselves and when the material melts.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Wireless charging uses two coils that never need to touch",
+    "text": "A changing magnetic field from the charger’s coil produces electricity in the phone’s coil. Electrical energy crosses the gap through the magnetic field.",
+    "source": "Wireless Power Consortium",
+    "url": "https://www.wirelesspowerconsortium.com/knowledge-base/magnetic-induction/"
+  },
+  {
+    "title": "A magnet can fall through a copper pipe in apparent slow motion",
+    "text": "Its movement creates electrical currents in the copper. Those currents produce magnetic fields that oppose the movement and slow its fall.",
+    "source": "Simon Fraser University",
+    "url": "https://www.sfu.ca/physics/demos/demos-experiments/eddy-current-tubes-burnaby.html"
+  },
+  {
+    "title": "A camera can make a straight propeller look bent",
+    "text": "Many cameras capture different rows of an image at slightly different times. A rapidly moving object changes position during that process, so the finished picture combines several moments into one distorted shape.",
+    "source": "Adobe",
+    "url": "https://www.adobe.com/creativecloud/video/discover/rolling-shutter-effect.html"
+  },
+  {
+    "title": "One piano key can strike three strings at once",
+    "text": "Many middle and high notes use three strings tuned very close together. Their combined vibrations help create the rich sound of a piano.",
+    "source": "Yamaha · piano mechanism",
+    "url": "https://usa.yamaha.com/products/contents/musical_instrument_guide/piano/mechanism/mechanism004.html"
+  },
+  {
+    "title": "You hear your own voice partly through your skull",
+    "text": "Vibrations reach your inner ears through your bones and tissues as well as through the air. A recording captures the sound traveling through air, which helps explain why playback sounds unfamiliar.",
+    "source": "govinfo.gov",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo136166/pdf/GOVPUB-D101-PURL-gpo136166.pdf"
+  },
+  {
+    "title": "Chewing gum reduced stuck songs in an experiment",
+    "text": "Researchers found that people chewing gum experienced fewer unwanted musical thoughts. Moving the mouth appears to interfere with processes involved in mentally replaying music.",
+    "source": "journals.sagepub.com",
+    "url": "https://journals.sagepub.com/doi/full/10.1080/17470218.2015.1034142"
+  },
+  {
+    "title": "Helium changes how your throat filters sound",
+    "text": "Sound travels faster through helium, shifting the frequencies your vocal tract emphasizes. Your vocal cords can keep vibrating at roughly their usual rate while your voice takes on that strange squeaky quality.",
+    "source": "phys.unsw.edu.au",
+    "url": "https://phys.unsw.edu.au/jw/musFAQ.html"
+  },
+  {
+    "title": "A sound can seem to rise in pitch forever",
+    "text": "A Shepard tone layers sounds at different octaves and gradually changes their volumes. High notes fade away as low notes enter, creating the illusion of an endless climb.",
+    "source": "OEN Manifold",
+    "url": "https://manifold.open.umn.edu/read/sensation-perception-v3/section/6dbc03df-40af-4720-9122-1b0ca7ceac2d"
+  },
+  {
+    "title": "Pressing a trumpet valve sends your breath through a longer route",
+    "text": "Valves connect extra lengths of tubing, changing the notes the instrument can produce. A trumpet packs several different air-path lengths into one object.",
+    "source": "hub.yamaha.com",
+    "url": "https://hub.yamaha.com/winds/brass/the-brass-family-explained/"
+  },
+  {
+    "title": "Noise-canceling headphones fight sound with more sound",
+    "text": "Their microphones measure outside noise, and the headphones produce a carefully timed sound wave that partly cancels it at your ears.",
+    "source": "Bose",
+    "url": "https://www.bose.com/stories/anc-earbuds-meaning"
+  },
+  {
+    "title": "Two steady notes can combine into a pulsing sound",
+    "text": "Play 440 Hz and 442 Hz together and the volume swells about twice per second. These pulses become slower as the notes approach the same pitch, making them useful for tuning instruments.",
+    "source": "UCLA Physics & Astronomy",
+    "url": "https://demoweb.physics.ucla.edu/content/30-beats-and-sympathetic-vibration"
+  },
+  {
+    "title": "One flipped cube edge can make a scramble impossible",
+    "text": "If you remove an edge, flip it, and put it back into an otherwise solved cube, ordinary turns can never solve it. The cube’s legal moves obey hidden mathematical restrictions.",
+    "source": "speedcubing.org",
+    "url": "https://speedcubing.org/blogs/news/what-are-the-impossible-cases-on-a-3x3-cube"
+  },
+  {
+    "title": "A sliding-tile puzzle can also become mathematically impossible",
+    "text": "In the classic 15-puzzle, swapping just two numbered tiles in the solved arrangement can create a position that no amount of sliding will fix.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A group of 23 people already has about a 50% chance of a shared birthday",
+    "text": "That assumes birthdays are independent and equally likely across 365 days. With 23 people, there are 253 different pairs that could match.",
+    "source": "mathworld.wolfram.com",
+    "url": "https://mathworld.wolfram.com/BirthdayProblem.html"
+  },
+  {
+    "title": "A deck of cards has roughly 8 × 10⁶⁷ possible orders",
+    "text": "That is roughly 8 × 10⁶⁷. A thoroughly randomized deck can easily have an order nobody has ever encountered before.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "You can design dice that behave like rock-paper-scissors",
+    "text": "Die A tends to beat B, B tends to beat C, and C tends to beat A. Choosing the die with the best chance of winning depends on which die your opponent picks.",
+    "source": "NRICH",
+    "url": "https://nrich.maths.org/problems/non-transitive-dice?tab=teacher"
+  },
+  {
+    "title": "A twisted paper loop can have just one side",
+    "text": "Give a strip a half-turn before taping its ends together to make a Möbius strip. You can draw a continuous line over its entire surface without crossing an edge.",
+    "source": "UW–Madison",
+    "url": "https://www.physics.wisc.edu/ingersollmuseum/exhibits/mechanics/mobiusstrip/"
+  },
+  {
+    "title": "Eight perfectly executed shuffles can restore a deck’s original order",
+    "text": "Split 52 cards exactly in half and interleave them one at a time, keeping the original top card on top. Repeat eight times and every card returns to its starting position.",
+    "source": "math.hmc.edu",
+    "url": "https://math.hmc.edu/funfacts/perfect-shuffles/"
+  },
+  {
+    "title": "In many real datasets, numbers start with 1 surprisingly often",
+    "text": "For suitable datasets spanning many scales, about 30% of values begin with 1. This pattern, called Benford’s law, appears in things such as population and financial data.",
+    "source": "mathworld.wolfram.com",
+    "url": "https://mathworld.wolfram.com/BenfordsLaw.html"
+  },
+  {
+    "title": "Bumblebees can sense electricity using their hairs",
+    "text": "Weak electric fields around flowers move the bees’ tiny hairs. Those movements send signals to the nervous system, giving the bees information through a sense humans lack.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Electric fields can help lift spiders into the air",
+    "text": "Some spiders release silk that acquires electrical charge. In laboratory experiments, electric fields helped lift them even without wind.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A mantis shrimp’s strike can hit its target twice",
+    "text": "The first impact comes from its club. The rapid motion also creates a bubble in the water, and that bubble’s collapse produces another sharp force against the target.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "An octopus can taste something by grabbing it",
+    "text": "Chemical sensors in its suckers let its arms examine what they touch. Imagine being able to check the flavor of a snack with your fingertips.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Dragonflies aim for where their prey is going",
+    "text": "Research shows that their hunting movements account for the prey’s expected motion. They fly toward an interception point, a little like running ahead to catch a tennis ball.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "A brainless slime mold can find a short route through a maze",
+    "text": "In an experiment, it spread through the maze, then withdrew from unnecessary routes while maintaining a connection between food sources. The surviving connection followed a shortest path.",
+    "source": "Nature",
+    "url": "https://www.nature.com/articles/35035159"
+  },
+  {
+    "title": "Bumblebees have been observed playing with balls",
+    "text": "They repeatedly rolled small wooden balls even without a food reward. Younger bees did more rolling, and researchers found that the behavior met scientific criteria for play.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Some ants build bridges using their own bodies",
+    "text": "They link together across gaps so other ants can walk over them. The insects become both the construction workers and the construction material.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Recycling aluminum can save roughly 95% of the energy needed to make it from ore",
+    "text": "Extracting fresh aluminum takes enormous amounts of electricity. Melting existing metal avoids much of that work, making cans especially valuable to recycle.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Changing a roof’s surface can change how hot a building gets",
+    "text": "Reflective roofs send more sunlight away before it becomes heat. That can reduce the heat entering the building and the electricity needed for air conditioning.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Snow can act as a winter blanket for animals",
+    "text": "Air trapped in snow slows heat loss. Mice and other small animals can live in tunnels underneath, where temperatures stay much steadier than in the exposed air.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "The color of plastic can confuse a recycling machine",
+    "text": "Carbon-black pigment absorbs the infrared light used by some sorting systems. A recyclable plastic object can become difficult for the machine to identify because of its dye.",
+    "source": "izm.fraunhofer.de",
+    "url": "https://www.izm.fraunhofer.de/content/dam/izm/de/documents/downloads/Developing-Recyclable-Electronic-Devices_a-playbook-for-design-for-and-from-recycling_2026.pdf"
+  },
+  {
+    "title": "Many receipts are printed using heat",
+    "text": "A heated printhead changes chemicals already present in the paper, producing the dark lettering. That is why thermal receipt paper can darken when heated.",
+    "source": "acs.org",
+    "url": "https://www.acs.org/explore/catalyzing-change/receipt-makeover-using-recyclable-paper.html"
+  },
+  {
+    "title": "A compost pile can generate its own heat",
+    "text": "Microorganisms release energy as they break down the material. A well-managed pile can reach around 131–160°F, enough to help destroy many weed seeds and pathogens.",
+    "source": "US EPA",
+    "url": "https://www.epa.gov/sustainable-management-food/approaches-composting"
+  },
+  {
+    "title": "Two roofs that look the same color can reach different temperatures",
+    "text": "Special pigments can reflect more invisible infrared sunlight while keeping a dark appearance. Your eyes see similar roofs while the sun heats them differently.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Sea otters can help protect underwater forests",
+    "text": "By eating animals such as sea urchins that graze on kelp, otters help keep kelp ecosystems in balance. Those forests provide wildlife habitat and store carbon.",
+    "source": "U.S. Fish & Wildlife Service",
+    "url": "https://www.fws.gov/species/southern-sea-otter-enhydra-lutris-nereis"
+  },
+  {
+    "title": "A golf ball’s dents help it travel farther",
+    "text": "The dimples change how air flows around the ball, shrinking the disturbed region behind it and reducing drag. Carefully placed roughness can improve flight.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Curling players can influence a stone after releasing it",
+    "text": "Sweeping changes conditions on the ice ahead of the stone, affecting friction and its path. Players are modifying the playing surface while the shot is happening.",
+    "source": "Your supplied fact collection"
+  },
+  {
+    "title": "Starting a bicycle turn can involve briefly steering the opposite way",
+    "text": "To enter a left turn, a small rightward steering motion can help the bike lean left. Experienced riders often do this automatically.",
+    "source": "TU Delft Repository",
+    "url": "https://repository.tudelft.nl/record/uuid%3Aec31182d-8063-41a3-89ec-799be901cb6e"
+  },
+  {
+    "title": "Wimbledon used white tennis balls for more than a century",
+    "text": "The tournament switched to yellow balls in 1986, after 108 years of white ones. The familiar neon-colored ball is a relatively recent part of its history.",
+    "source": "wimbledon.com",
+    "url": "https://www.wimbledon.com/pdf/Online_Pack_Bouncing_Along.pdf"
+  },
+  {
+    "title": "Boiling water can be cooler on a mountain",
+    "text": "Lower air pressure lets water boil at a lower temperature. Food can take longer to cook even while the pot is bubbling vigorously.",
+    "source": "CSU Extension",
+    "url": "https://extension.colostate.edu/resource/high-elevation-food-preparation-guide/"
+  },
+  {
+    "title": "The curved parts of a running track create the need for staggered starts",
+    "text": "Each outer lane has larger curves and therefore a longer lap. Giving those runners a head start makes their assigned race distances equal.",
+    "source": "worldathletics.org",
+    "url": "https://worldathletics.org/responsive/download/downloaddirect?filename=7d39b677-8043-45f4-89f4-6c8814023057.pdf&urlslug=Track%2Band%2BField%2BFacilities%2BManual%2B2019%2BEdition%2B-%2BChapters%2B1-3"
+  },
+  {
+    "title": "Competitive skiers can have their skis chemically tested",
+    "text": "FIS banned fluorinated waxes because of environmental and health concerns. Residue from an old waxing brush can contaminate a freshly prepared ski enough to cause trouble during testing.",
+    "source": "Your supplied fact collection"
   }
 ];
 // Attributed excerpts; fictional speakers are identified in the work credit.

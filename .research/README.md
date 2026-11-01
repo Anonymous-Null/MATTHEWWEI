@@ -1,3 +1,13 @@
+## Supplied jokes and additional facts (October 31, 2026)
+
+All 32 previous jokes were replaced with the 103 question/punchline pairs in the user-supplied Good Housekeeping paste. Removed standalone advertising markers, video/player controls, repeated publication credits, and section headings. Jokes otherwise retain the supplied wording and reveal behavior. Stable content IDs automatically invalidate an old current joke while retaining seen-history; the collection still rotates on the Eastern check-in schedule and with Another joke.
+
+All 59 existing facts were retained byte-for-byte as data, then all 64 entries from the second user paste were appended (123 total). Markdown citations are extracted into source credits and optional cleaned URL metadata; user-provided entries without a citation are credited to the supplied collection rather than assigned an invented institutional source. TeX-style exponents are plain readable Unicode. The card-order count is expressed as 8 × 10⁶⁷ rather than repeated “billion.” Some supplied entries overlap older topics; they are retained as requested.
+
+The daily push-ups/sit-ups streak now uses the same flame + count badge as the weekly streaks. The label and live day count remain accessible. Personal data, progression, and sync are unchanged.
+
+Validation: content extraction asserted 103 complete two-line joke pairs, 64 appended facts, and preservation of all prior fact entries. The existing desktop/mobile browser checks exercise the new complete joke pool, reload/check-in rotation, logs and streaks.
+
 ## Compact movement controls (October 31, 2026)
 
 Runs now use a collapsed “+ Log run” control. Opening reveals the existing distance/unit, optional duration, date, and submit fields. Closing without saving preserves the draft; a successful save resets and closes the form, leaving its save confirmation visible. The existing run history, validation, weekly progress, and sync remain intact.
