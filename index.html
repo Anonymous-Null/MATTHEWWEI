@@ -568,12 +568,13 @@ function weeklyReflection(state, end = recapSunday(), now = new Date()) {
   const inWeek = date => date >= start && date <= until;
   const studies = (state.studySessions || []).filter(s => inWeek(s.date));
   const tasks = (state.tasks || []).filter(t => t.completed && t.completedAt && inWeek(reflectionDate(t.completedAt)));
-  const exercise = Object.entries(state.sessions || {}).filter(([key,s]) => inWeek(key.slice(0,10)) && key <= checkInWindow(now).key && s.pushups && s.situps);
+  const exercise = Object.entries(state.sessions || {}).filter(([key]) => inWeek(key.slice(0,10)) && key <= checkInWindow(now).key)
+    .reduce((total, [, session]) => total + (Number(session.pushups === true) + Number(session.situps === true)) / 2, 0);
   const runs = (state.runs || []).filter(r => inWeek(r.date));
   const moments = (state.moments || []).filter(m => inWeek(reflectionDate(m.createdAt))).sort((a,b) => b.createdAt.localeCompare(a.createdAt));
   const bookmarks = (state.bookmarks || []).filter(s => inWeek(reflectionDate(s.savedAt)));
   return { start, end, minutes: studies.reduce((n,s) => n+s.minutes,0), tasks: tasks.length,
-    exercise: exercise.length, runs: runs.length,
+    exercise, runs: runs.length,
     miles: runs.reduce((n,r) => n + r.distance * (r.unit === 'km' ? 1/1.609344 : 1),0),
     moments, bookmarks: bookmarks.length };
 }

@@ -1,3 +1,7 @@
+## Partial exercise credit in the weekly recap (November 1, 2026)
+
+Sunday and archived weekly recaps now count each logged exercise as 0.5 check-in: neither = 0, either one = 0.5, both = 1. The total still respects the selected Monday–Sunday date range and the currently open Eastern check-in window. Full-completion requirements for streaks and progressive targets are unchanged. No data/schema changes. The exercise progression regression suite includes mixed partial/full/empty sessions, date exclusions, unopened windows, and correction of a half check-in to a full one.
+
 ## Supplied jokes and additional facts (October 31, 2026)
 
 All 32 previous jokes were replaced with the 103 question/punchline pairs in the user-supplied Good Housekeeping paste. Removed standalone advertising markers, video/player controls, repeated publication credits, and section headings. Jokes otherwise retain the supplied wording and reveal behavior. Stable content IDs automatically invalidate an old current joke while retaining seen-history; the collection still rotates on the Eastern check-in schedule and with Another joke.

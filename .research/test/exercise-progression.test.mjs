@@ -4,7 +4,7 @@ import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 const html=await readFile(new URL('../../index.html',import.meta.url),'utf8');
 const context=vm.createContext({});
-vm.runInContext(html.slice(html.indexOf("const TIME_ZONE ="),html.indexOf("const DEFAULT_SHEET_URL ="))+';globalThis.api={exerciseProgression,exerciseTotals,roundExerciseTarget,checkInWindow,shiftDate};',context);
+vm.runInContext(html.slice(html.indexOf("const TIME_ZONE ="),html.indexOf("const DEFAULT_SHEET_URL ="))+';globalThis.api={exerciseProgression,exerciseTotals,roundExerciseTarget,checkInWindow,shiftDate,weeklyReflection};',context);
 const {exerciseProgression:plan,exerciseTotals:totals,roundExerciseTarget:round,checkInWindow,shiftDate}=context.api;
 function days(count,start='2026-10-31') {const s={};for(let i=0;i<count;i++)for(const p of ['am','pm'])s[`${shiftDate(start,i)}-${p}`]={pushups:true,situps:true};return s;}
 test('3% increases rounded per adjustment every three completed days; next-morning activation',()=>{
@@ -32,4 +32,21 @@ test('round half up on each adjustment; history uses the dated goal',()=>{
 test('Eastern 7AM day boundary follows daylight saving change',()=>{
  assert.equal(checkInWindow(new Date('2026-11-01T11:59:00Z')).key,'2026-10-31-pm');
  assert.equal(checkInWindow(new Date('2026-11-01T12:00:00Z')).key,'2026-11-01-am');
+});
+
+test('Sunday recap counts yellow check-ins as half, excludes other weeks and unopened windows',()=>{
+ const state={sessions:{
+  '2026-10-30-am':{pushups:true,situps:true},
+  '2026-10-30-pm':{pushups:false,situps:true},
+  '2026-10-31-am':{pushups:false,situps:false},
+  '2026-11-01-am':{pushups:true,situps:false},
+  '2026-11-01-pm':{pushups:true,situps:true},
+  '2026-10-25-am':{pushups:true,situps:true},
+  '2026-11-02-am':{pushups:true,situps:true}
+ }};
+ const recap=context.api.weeklyReflection;
+ assert.equal(recap(state,'2026-11-01',new Date('2026-11-01T20:00:00Z')).exercise,2);
+ state.sessions['2026-11-01-am'].situps=true;
+ assert.equal(recap(state,'2026-11-01',new Date('2026-11-01T20:00:00Z')).exercise,2.5);
+ assert.equal(recap(state,'2026-11-01',new Date('2026-11-02T02:00:00Z')).exercise,3.5);
 });
