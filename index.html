@@ -133,7 +133,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
       <div class="dashboard-grid">
         <div class="left-column"><section class="card journal-card" id="good-things" aria-labelledby="journal-heading"><div class="section-heading"><div><p class="section-kicker">THE GOOD DESERVES A PLACE</p><h2 id="journal-heading">What made today better?</h2></div><span class="journal-heart"><svg><use href="#i-heart"/></svg></span></div><p class="section-subtitle">A big win, a small kindness, or just a really good lunch.</p><form id="journal-form" novalidate><fieldset class="entry-fields" data-requires-app disabled><label class="sr-only" for="journal-input">Something good that happened</label><textarea id="journal-input" maxlength="1200" rows="3" placeholder="Since my last check-in…" required></textarea><div class="journal-actions"><span class="fine-print">Private. Saved in this browser.</span><button class="primary-button" type="submit">Keep this moment <svg><use href="#i-arrow"/></svg></button></div><p id="journal-status" class="form-status" role="status"></p></fieldset></form><div id="latest-moment"></div><button class="text-button" id="moments-button">Your good-moments collection <span id="moments-count">0</span> →</button></section>
         <section class="card vocabulary-card" aria-labelledby="vocab-heading"><div class="section-heading"><div><p class="section-kicker">ONE NEW WORD, EVERY DAY</p><h2 id="vocab-heading">Word of the day</h2></div><span id="vocab-kind" class="vocab-kind"></span></div><div class="vocab-word-row"><h3 id="vocab-word"></h3><span id="vocab-part"></span></div><p id="vocab-meaning"></p><p id="vocab-example" class="vocab-example"></p><div class="vocab-actions"><a id="vocab-source" class="text-button" target="_blank" rel="noopener noreferrer">Dictionary →</a><button id="vocab-known" class="secondary-button" type="button">Already know</button></div><div class="vocab-known-row"><span id="vocab-known-count" class="fine-print">0 words marked known</span><button id="vocab-undo" class="text-button" type="button" hidden>Undo last</button></div><p id="vocab-status" class="form-status" role="status"></p></section><section class="card weekly-recap" id="recap-panel" aria-labelledby="recap-heading" hidden><p class="section-kicker">A SUNDAY LOOK BACK</p><h2 id="recap-heading">Your Sunday recap</h2><div id="recap-content"></div></section>
-        <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong id="pushups-target">25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong id="situps-target">25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="exercise-progression"><span class="habit-streak-label">Push-ups + sit-ups</span><span class="compact-streak" role="group" aria-label="Push-ups and sit-ups daily streak"><span aria-hidden="true">🔥</span><strong id="exercise-day-streak" role="status">0-day streak</strong></span><p id="exercise-goal-progress" class="fine-print"></p></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Resets at 7 AM & 7 PM Eastern. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Runs</h3><span class="compact-streak" role="group" aria-label="Running weekly streak"><span aria-hidden="true">🔥</span><strong id="run-week-streak" role="status">0 weeks</strong></span></div><div class="run-log-controls"><button id="run-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="run-form">+ Log run</button><span id="run-week-stat" class="running-help"></span></div><form id="run-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p></fieldset></form><p id="run-status" class="form-status" role="status"></p><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div><div class="running-block strength-block"><div class="running-heading"><h3>Lift log</h3><span class="compact-streak" role="group" aria-label="Lifting weekly streak"><span aria-hidden="true">🔥</span><strong id="lift-week-streak" role="status">0 weeks</strong></span></div><p class="running-help"><span id="lift-week-stat"></span> · any lift counts</p><div class="lift-buttons" aria-label="Choose a lift"><button type="button" class="secondary-button" data-lift="bench" aria-expanded="false" aria-controls="lift-form">+ Bench</button><button type="button" class="secondary-button" data-lift="squat" aria-expanded="false" aria-controls="lift-form">+ Squat</button><button type="button" class="secondary-button" data-lift="curls" aria-expanded="false" aria-controls="lift-form">+ Curls</button></div><form id="lift-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="lift-form-heading"><strong id="lift-form-title">Bench · one set</strong><button class="text-button" type="button" id="lift-cancel">Cancel</button></div><div class="run-fields"><div><label id="lift-weight-label" for="lift-weight">Weight (total)</label><div class="distance-input"><input id="lift-weight" type="number" min="0.1" max="1500" step="any" inputmode="decimal" required aria-describedby="lift-help"><label class="sr-only" for="lift-unit">Weight unit</label><select id="lift-unit"><option value="lb">lb</option><option value="kg">kg</option></select></div></div><div><label for="lift-reps">Reps</label><input id="lift-reps" type="number" min="1" max="1000" step="1" inputmode="numeric" placeholder="8" required></div></div><div class="run-save-row"><label class="sr-only" for="lift-date">Date of lifting set</label><input id="lift-date" type="date" required><button class="primary-button" type="submit">Log set →</button></div><p id="lift-help" class="fine-print">Total weight, including the bar. Each save logs one set.</p></fieldset></form><p id="lift-status" class="form-status" role="status"></p><div id="recent-lifts"></div><button id="lifts-history-button" class="text-button" type="button">All your lifts →</button></div></section>
+        <section class="card exercise-card" id="movement-panel" aria-labelledby="exercise-heading"><div class="section-heading"><div><p class="section-kicker">SHOW UP FOR YOURSELF</p><h2 id="exercise-heading">Daily movement</h2></div><span class="movement-icon"><svg><use href="#i-move"/></svg></span></div><p class="section-subtitle">Two small sets. One habit worth keeping.</p><div class="exercise-options"><label class="exercise-option"><input type="checkbox" id="pushups"><span class="check-visual" aria-hidden="true"></span><span><strong id="pushups-target">25</strong><span>push-ups</span></span></label><label class="exercise-option"><input type="checkbox" id="situps"><span class="check-visual" aria-hidden="true"></span><span><strong id="situps-target">25</strong><span>sit-ups</span></span></label></div><div class="exercise-footer"><span id="exercise-message" role="status"></span><span id="exercise-progress">0 / 2</span></div><div class="exercise-progression"><span class="habit-streak-label">Push-ups + sit-ups</span><span class="compact-streak" role="group" aria-label="Push-ups and sit-ups daily streak"><span aria-hidden="true">🔥</span><strong id="exercise-day-streak" role="status">0-day streak</strong></span><p id="exercise-goal-progress" class="fine-print"></p></div><div class="week-heading"><span>YOUR LAST 7 DAYS</span><span id="streak" class="streak-pill">0 check-ins</span></div><div id="exercise-week" class="exercise-week" aria-label="Exercise history for the last seven days"></div><div class="history-footer"><span><i class="legend-dot"></i> AM / PM check-ins</span><button class="text-button" id="exercise-history-button">View history <svg><use href="#i-arrow"/></svg></button></div><p class="fine-print">Exercise resets at 3 AM & 7 PM Eastern. Refreshing keeps your progress.</p><div class="running-block"><div class="running-heading"><h3>Runs</h3><span class="compact-streak" role="group" aria-label="Running weekly streak"><span aria-hidden="true">🔥</span><strong id="run-week-streak" role="status">0 weeks</strong></span></div><div class="run-log-controls"><button id="run-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="run-form">+ Log run</button><span id="run-week-stat" class="running-help"></span></div><form id="run-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="run-fields"><div><label for="run-distance">Distance</label><div class="distance-input"><input id="run-distance" type="number" min="0.01" max="1000" step="any" placeholder="3.0" required><label class="sr-only" for="run-unit">Distance unit</label><select id="run-unit"><option value="mi">mi</option><option value="km">km</option></select></div></div><div><label for="run-time">Time (optional)</label><input id="run-time" type="text" maxlength="15" placeholder="24:30" aria-describedby="run-time-help"></div></div><div class="run-save-row"><label class="sr-only" for="run-date">Date of run</label><input id="run-date" type="date" required><button class="primary-button" type="submit">Log run →</button></div><p id="run-time-help" class="fine-print">Time: minutes or mm:ss. Your log is saved.</p></fieldset></form><p id="run-status" class="form-status" role="status"></p><div id="recent-runs"></div><button id="runs-history-button" class="text-button">All your runs →</button></div><div class="running-block strength-block"><div class="running-heading"><h3>Lift log</h3><span class="compact-streak" role="group" aria-label="Lifting weekly streak"><span aria-hidden="true">🔥</span><strong id="lift-week-streak" role="status">0 weeks</strong></span></div><p class="running-help"><span id="lift-week-stat"></span> · any lift counts</p><div class="lift-buttons" aria-label="Choose a lift"><button type="button" class="secondary-button" data-lift="bench" aria-expanded="false" aria-controls="lift-form">+ Bench</button><button type="button" class="secondary-button" data-lift="squat" aria-expanded="false" aria-controls="lift-form">+ Squat</button><button type="button" class="secondary-button" data-lift="curls" aria-expanded="false" aria-controls="lift-form">+ Curls</button></div><form id="lift-form" hidden novalidate><fieldset class="entry-fields" data-requires-app disabled><div class="lift-form-heading"><strong id="lift-form-title">Bench · one set</strong><button class="text-button" type="button" id="lift-cancel">Cancel</button></div><div class="run-fields"><div><label id="lift-weight-label" for="lift-weight">Weight (total)</label><div class="distance-input"><input id="lift-weight" type="number" min="0.1" max="1500" step="any" inputmode="decimal" required aria-describedby="lift-help"><label class="sr-only" for="lift-unit">Weight unit</label><select id="lift-unit"><option value="lb">lb</option><option value="kg">kg</option></select></div></div><div><label for="lift-reps">Reps</label><input id="lift-reps" type="number" min="1" max="1000" step="1" inputmode="numeric" placeholder="8" required></div></div><div class="run-save-row"><label class="sr-only" for="lift-date">Date of lifting set</label><input id="lift-date" type="date" required><button class="primary-button" type="submit">Log set →</button></div><p id="lift-help" class="fine-print">Total weight, including the bar. Each save logs one set.</p></fieldset></form><p id="lift-status" class="form-status" role="status"></p><div id="recent-lifts"></div><button id="lifts-history-button" class="text-button" type="button">All your lifts →</button></div></section>
         <section class="card small-delights" aria-labelledby="delights-heading"><div class="delights-heading"><p class="section-kicker">FRESH AT 7 AM & 7 PM</p><h2 id="delights-heading">A little fuel for your day</h2></div><div class="delight quote-section"><div class="delight-label"><span class="delight-symbol">“</span><span>A DIFFERENT PERSPECTIVE</span></div><blockquote id="motivation-quote"></blockquote><cite id="motivation-author"></cite><button id="motivation-next" class="text-button delight-next" type="button">Another quote ↻</button></div><div class="delight joke-section"><div class="delight-label"><span class="delight-symbol">:)</span><span>COMIC RELIEF</span></div><p id="joke-question" class="joke-question"></p><button id="joke-reveal" class="text-button">Go on →</button><p id="joke-answer" class="joke-answer" hidden></p><button id="joke-next" class="text-button delight-next" type="button">Another joke ↻</button></div><div class="delight fact-section"><div class="delight-label"><span class="delight-symbol">✦</span><span>FUN FACT</span></div><h3 id="fact-title"></h3><p id="fact-text"></p><p id="fact-source" class="fact-attribution"></p><button id="fact-next" class="text-button delight-next" type="button">Another fact ↻</button></div></section>
         </div>
         <div class="right-column">
@@ -162,7 +162,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
 
   <dialog id="moments-dialog"><div class="dialog-header"><div><p class="eyebrow">THE GOOD ADDS UP</p><h2>Your little collection</h2></div><button class="icon-button close-dialog" aria-label="Close good moments">✕</button></div><div id="moments-list"></div></dialog>
 
-  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking with a twice-a-day streak and progressive rep targets, a personal good-moments journal, manual calendar events, school-break dates, running and lifting records, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily quotation, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 7 AM and 7 PM Eastern. The quotation, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running and lifting history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
+  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking with a twice-a-day streak and progressive rep targets, a personal good-moments journal, manual calendar events, school-break dates, running and lifting records, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily quotation, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 3 AM and 7 PM Eastern. Its day stays open after midnight until 3 AM. The quotation, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running and lifting history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 <script>(()=>{globalThis.DAYMARK_STANDALONE=true;const TIME_ZONE = 'America/New_York';
 const WEATHER_REFRESH_MS = 15 * 60 * 1000;
@@ -212,15 +212,21 @@ function zonedInstant(date, time = '00:00', timeZone = TIME_ZONE) {
   return new Date(guess);
 }
 
-function checkInWindow(now = new Date(), timeZone = TIME_ZONE) {
+function checkInWindow(now = new Date(), timeZone = TIME_ZONE, morningHour = 7) {
   const p = localParts(now, timeZone);
   const today = `${p.year}-${p.month}-${p.day}`;
   const hour = Number(p.hour);
-  const date = hour < 7 ? shiftDate(today, -1) : today;
-  const period = hour >= 7 && hour < 19 ? 'am' : 'pm';
+  const date = hour < morningHour ? shiftDate(today, -1) : today;
+  const period = hour >= morningHour && hour < 19 ? 'am' : 'pm';
   const nextDate = hour >= 19 ? shiftDate(today, 1) : today;
-  const nextTime = hour >= 7 && hour < 19 ? '19:00' : '07:00';
+  const nextTime = hour >= morningHour && hour < 19 ? '19:00' : `${String(morningHour).padStart(2, '0')}:00`;
   return { key: `${date}-${period}`, date, period, today, next: zonedInstant(nextDate, nextTime, timeZone) };
+}
+
+// Exercise has its own 3AM day boundary; the rest of the dashboard keeps 7AM.
+function exerciseWindow(now = new Date()) {
+  const window = checkInWindow(now, TIME_ZONE, 3);
+  return { ...window, today: window.date };
 }
 
 function previousWindow(key) {
@@ -281,7 +287,7 @@ function exerciseProgression(sessions, key) {
   return { target, targets, fullDays, progress: missedMorning ? 0 : progress % 3,
     nextTarget: earnedTonight ? roundExerciseTarget(target * 1.03) : target, earnedTonight };
 }
-function exerciseTotals(sessions, currentKey = checkInWindow().key) {
+function exerciseTotals(sessions, currentKey = exerciseWindow().key) {
   const { targets } = exerciseProgression(sessions, currentKey);
   return Object.entries(sessions).filter(([key]) => key <= currentKey).reduce((totals, [key, s]) => {
     const reps = targets[key.slice(0, 10)] ?? 25;
@@ -570,10 +576,10 @@ function weeklyReflection(state, end = recapSunday(), now = new Date()) {
   const inWeek = date => date >= start && date <= until;
   const studies = (state.studySessions || []).filter(s => inWeek(s.date));
   const tasks = (state.tasks || []).filter(t => t.completed && t.completedAt && inWeek(reflectionDate(t.completedAt)));
-  const exercise = Object.entries(state.sessions || {}).filter(([key]) => inWeek(key.slice(0,10)) && key <= checkInWindow(now).key)
+  const exercise = Object.entries(state.sessions || {}).filter(([key]) => inWeek(key.slice(0,10)) && key <= exerciseWindow(now).key)
     .reduce((total, [, session]) => total + (Number(session.pushups === true) + Number(session.situps === true)) / 2, 0);
-  const repsByDate = exerciseProgression(state.sessions || {}, checkInWindow(now).key).targets;
-  const exerciseReps = Object.entries(state.sessions || {}).filter(([key]) => inWeek(key.slice(0,10)) && key <= checkInWindow(now).key)
+  const repsByDate = exerciseProgression(state.sessions || {}, exerciseWindow(now).key).targets;
+  const exerciseReps = Object.entries(state.sessions || {}).filter(([key]) => inWeek(key.slice(0,10)) && key <= exerciseWindow(now).key)
     .reduce((sum, [key, session]) => sum + (Number(session.pushups === true) + Number(session.situps === true)) * (repsByDate[key.slice(0,10)] ?? 25), 0);
   const weightMoved = state.bodyWeight ? exerciseReps * 0.6 * state.bodyWeight.value : null;
   const runs = (state.runs || []).filter(r => inWeek(r.date));
@@ -2750,8 +2756,9 @@ const formatTime = date => new Intl.DateTimeFormat('en-US', { timeZone: TIME_ZON
 const fullStamp = value => formatDate(new Date(value), { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET';
 let currentWindow = checkInWindow();
 let currentDay = currentWindow.today;
-let historyDate = currentWindow.today;
-let historyMonth = currentWindow.today.slice(0, 7);
+let currentExerciseWindow = exerciseWindow();
+let historyDate = currentExerciseWindow.date;
+let historyMonth = currentExerciseWindow.date.slice(0, 7);
 let visitSeen = structuredClone(state.seen);
 let visitTime = state.lastVisit;
 let refreshPending = false;
@@ -2958,15 +2965,15 @@ $('#duolingo-done').addEventListener('change', event => {
 });
 
 function renderExercise() {
-  const session = state.sessions[currentWindow.key] ?? { pushups: false, situps: false };
-  const plan = exerciseProgression(state.sessions, currentWindow.key);
+  const session = state.sessions[currentExerciseWindow.key] ?? { pushups: false, situps: false };
+  const plan = exerciseProgression(state.sessions, currentExerciseWindow.key);
   $('#pushups-target').textContent = plan.target; $('#situps-target').textContent = plan.target;
   $('#exercise-day-streak').textContent = `${plan.fullDays}-day streak`;
   $('#exercise-goal-progress').textContent = plan.earnedTonight ? `3 days complete · next morning: ${plan.nextTarget} reps each` : `${plan.progress} / 3 complete days toward the next +3%`;
   $('#pushups').checked = session.pushups;
   $('#situps').checked = session.situps;
   const completed = Number(session.pushups) + Number(session.situps);
-  const streak = exerciseStreak(state.sessions, currentWindow.key);
+  const streak = exerciseStreak(state.sessions, currentExerciseWindow.key);
   $('#streak').textContent = `${streak ? '↟ ' : ''}${streak} check-in${streak === 1 ? '' : 's'} in a row`;
   $('#exercise-message').textContent = completed === 2 ? 'You showed up. That counts. ✓' : completed === 1 ? 'Halfway there. Keep going!' : 'A fresh start, twice a day.';
   $('#exercise-progress').textContent = `${completed} / 2 done`;
@@ -2975,34 +2982,34 @@ function renderExercise() {
 
 function dots(date) {
   return `<span class="session-dots">${['am', 'pm'].map(period => {
-    const status = sessionStatus(state.sessions, `${date}-${period}`, currentWindow.key);
+    const status = sessionStatus(state.sessions, `${date}-${period}`, currentExerciseWindow.key);
     const label = { complete: 'Both sets complete', partial: 'One set complete', empty: 'No entry', future: 'Not open yet' }[status];
     return `<span class="session-dot ${status}" title="${period.toUpperCase()}: ${label}" aria-label="${period.toUpperCase()}: ${label}"></span>`;
   }).join('')}</span>`;
 }
 
 function renderExerciseHistory() {
-  $('#exercise-week').innerHTML = Array.from({ length: 7 }, (_, i) => shiftDate(currentWindow.today, i - 6)).map(date => `<button class="week-day ${date === currentWindow.today ? 'today' : ''}" data-history-date="${date}" aria-label="Review exercise for ${esc(formatDate(dateOnly(date), { month: 'long', day: 'numeric' }))}"><span>${esc(formatDate(dateOnly(date), { weekday: 'narrow', month: undefined, day: undefined }))}</span><b>${Number(date.slice(-2))}</b>${dots(date)}</button>`).join('');
-  const plan = exerciseProgression(state.sessions, currentWindow.key);
-  const totals = exerciseTotals(state.sessions, currentWindow.key);
+  $('#exercise-week').innerHTML = Array.from({ length: 7 }, (_, i) => shiftDate(currentExerciseWindow.today, i - 6)).map(date => `<button class="week-day ${date === currentExerciseWindow.today ? 'today' : ''}" data-history-date="${date}" aria-label="Review exercise for ${esc(formatDate(dateOnly(date), { month: 'long', day: 'numeric' }))}"><span>${esc(formatDate(dateOnly(date), { weekday: 'narrow', month: undefined, day: undefined }))}</span><b>${Number(date.slice(-2))}</b>${dots(date)}</button>`).join('');
+  const plan = exerciseProgression(state.sessions, currentExerciseWindow.key);
+  const totals = exerciseTotals(state.sessions, currentExerciseWindow.key);
   $('#history-stats').innerHTML = `<div class="history-stat"><strong>${totals.completed}</strong><span>completed check-ins</span></div><div class="history-stat"><strong>${totals.pushups}</strong><span>push-ups logged</span></div><div class="history-stat"><strong>${totals.situps}</strong><span>sit-ups logged</span></div>`;
   $('#history-month').value = historyMonth;
-  $('#history-month').max = currentWindow.today.slice(0, 7);
-  $('#history-next').disabled = historyMonth >= currentWindow.today.slice(0, 7);
+  $('#history-month').max = currentExerciseWindow.today.slice(0, 7);
+  $('#history-next').disabled = historyMonth >= currentExerciseWindow.today.slice(0, 7);
   const first = new Date(`${historyMonth}-01T12:00:00Z`);
   const offset = (first.getUTCDay() + 6) % 7;
   const end = new Date(first); end.setUTCMonth(end.getUTCMonth() + 1, 0);
   $('#history-calendar').innerHTML = '<span></span>'.repeat(offset) + Array.from({ length: end.getUTCDate() }, (_, i) => {
     const date = `${historyMonth}-${String(i + 1).padStart(2, '0')}`;
-    return `<button class="history-date ${date === historyDate ? 'selected' : ''}" data-history-date="${date}" ${date > currentWindow.today ? 'disabled' : ''} aria-pressed="${date === historyDate}" aria-label="${esc(formatDate(dateOnly(date), { month: 'long', day: 'numeric' }))}">${i + 1}${dots(date)}</button>`;
+    return `<button class="history-date ${date === historyDate ? 'selected' : ''}" data-history-date="${date}" ${date > currentExerciseWindow.today ? 'disabled' : ''} aria-pressed="${date === historyDate}" aria-label="${esc(formatDate(dateOnly(date), { month: 'long', day: 'numeric' }))}">${i + 1}${dots(date)}</button>`;
   }).join('');
   $('#history-day').innerHTML = `<h3 class="history-day-title">${esc(formatDate(dateOnly(historyDate), { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }))}</h3><div class="history-sessions">${['am', 'pm'].map(period => {
-    const key = `${historyDate}-${period}`, entry = state.sessions[key] ?? {}, future = key > currentWindow.key;
-    return `<section class="history-session"><h3>${period === 'am' ? 'Morning · 7 AM' : 'Evening · 7 PM'}</h3>${['pushups', 'situps'].map(exercise => `<label class="history-check"><input type="checkbox" data-session="${key}" data-exercise="${exercise}" ${entry[exercise] ? 'checked' : ''} ${future ? 'disabled' : ''}>${plan.targets[historyDate] ?? 25} ${exercise === 'pushups' ? 'push-ups' : 'sit-ups'}</label>`).join('')}<small>${future ? 'This window hasn’t opened yet.' : entry.pushups && entry.situps ? 'Check-in complete' : entry.pushups || entry.situps ? 'One set logged' : 'No sets logged'}</small></section>`;
+    const key = `${historyDate}-${period}`, entry = state.sessions[key] ?? {}, future = key > currentExerciseWindow.key;
+    return `<section class="history-session"><h3>${period === 'am' ? 'Morning · 3 AM' : 'Evening · 7 PM'}</h3>${['pushups', 'situps'].map(exercise => `<label class="history-check"><input type="checkbox" data-session="${key}" data-exercise="${exercise}" ${entry[exercise] ? 'checked' : ''} ${future ? 'disabled' : ''}>${plan.targets[historyDate] ?? 25} ${exercise === 'pushups' ? 'push-ups' : 'sit-ups'}</label>`).join('')}<small>${future ? 'This window hasn’t opened yet.' : entry.pushups && entry.situps ? 'Check-in complete' : entry.pushups || entry.situps ? 'One set logged' : 'No sets logged'}</small></section>`;
   }).join('')}</div>`;
 }
 
-function openHistory(date = currentWindow.today) { historyDate = date; historyMonth = date.slice(0, 7); renderExerciseHistory(); showDialog('#history-dialog'); }
+function openHistory(date = currentExerciseWindow.today) { historyDate = date; historyMonth = date.slice(0, 7); renderExerciseHistory(); showDialog('#history-dialog'); }
 $('#exercise-history-button').addEventListener('click', () => openHistory());
 $('#history-nav').addEventListener('click', () => openHistory());
 for (const selector of ['#exercise-week', '#history-calendar']) $(selector).addEventListener('click', event => {
@@ -3010,8 +3017,8 @@ for (const selector of ['#exercise-week', '#history-calendar']) $(selector).addE
   if (button && !button.disabled) openHistory(button.dataset.historyDate);
 });
 function changeHistoryMonth(month) {
-  if (!/^\d{4}-\d{2}$/.test(month) || month > currentWindow.today.slice(0, 7)) return;
-  historyMonth = month; historyDate = month === currentWindow.today.slice(0, 7) ? currentWindow.today : `${month}-01`; renderExerciseHistory();
+  if (!/^\d{4}-\d{2}$/.test(month) || month > currentExerciseWindow.today.slice(0, 7)) return;
+  historyMonth = month; historyDate = month === currentExerciseWindow.today.slice(0, 7) ? currentExerciseWindow.today : `${month}-01`; renderExerciseHistory();
 }
 $('#history-month').addEventListener('change', event => changeHistoryMonth(event.target.value));
 for (const [selector, delta] of [['#history-prev', -1], ['#history-next', 1]]) $(selector).addEventListener('click', () => {
@@ -3019,8 +3026,8 @@ for (const [selector, delta] of [['#history-prev', -1], ['#history-next', 1]]) $
 });
 $('#history-day').addEventListener('change', event => {
   const { session, exercise } = event.target.dataset;
-  currentWindow = checkInWindow();
-  if (!session || session > currentWindow.key || !['pushups', 'situps'].includes(exercise)) return;
+  tick();
+  if (!session || session > currentExerciseWindow.key || !['pushups', 'situps'].includes(exercise)) return;
   state.sessions[session] ??= { pushups: false, situps: false };
   state.sessions[session][exercise] = event.target.checked;
   const saved = persist(); renderExercise(); toast(saved ? 'Exercise history saved.' : 'Updated for this visit. Export a backup to keep it.');
@@ -3031,8 +3038,8 @@ for (const exercise of ['pushups', 'situps']) {
     // Re-evaluate the boundary on input, even if the browser paused the timer.
     const checked = event.target.checked;
     tick();
-    state.sessions[currentWindow.key] ??= { pushups: false, situps: false };
-    state.sessions[currentWindow.key][exercise] = checked;
+    state.sessions[currentExerciseWindow.key] ??= { pushups: false, situps: false };
+    state.sessions[currentExerciseWindow.key][exercise] = checked;
     persist(); renderHeader(); renderExercise();
   });
 }
@@ -3414,11 +3421,18 @@ $('#import-file').addEventListener('change', async event => {
 
 function tick() {
   const next = checkInWindow();
+  const nextExercise = exerciseWindow();
+  const exerciseChanged = nextExercise.key !== currentExerciseWindow.key;
   const changed = next.key !== currentWindow.key;
   const dayChanged = next.today !== currentDay;
   currentWindow = next; currentDay = next.today;
+  currentExerciseWindow = nextExercise;
+  if (exerciseChanged) {
+    if (!$('#history-dialog').open) { historyDate = nextExercise.date; historyMonth = historyDate.slice(0, 7); }
+    renderExercise(); renderRecaps();
+  }
   renderHeader(); renderBreak();
-  if (changed) { renderExercise(); renderDelights(); renderCalendar(); void refreshAll(true); }
+  if (changed) { renderDelights(); renderCalendar(); void refreshAll(true); }
   if (dayChanged) { renderDuolingo(); renderDelights(); renderRuns(); renderLifts(); renderCalendar(); renderStudy(); renderRecaps(); }
 }
 document.addEventListener('visibilitychange', () => { if (!document.hidden) tick(); });

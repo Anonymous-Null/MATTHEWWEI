@@ -1,3 +1,9 @@
+## 3AM exercise day boundary (November 2, 2026)
+
+Push-ups/sit-ups now use a dedicated exercise window: morning opens at 3AM Eastern, evening opens at 7PM, and the evening stays assigned to its starting date until 3AM the next morning. The movement calendar’s active date, history defaults/limits, streaks, rep progression, exercise totals, and recap exercise/weight calculations all use that exercise window. Midnight does not switch the exercise day; 7AM does not clear a set already logged after 3AM. General content/calendar refreshes and themes keep their existing schedule.
+
+`tick()` independently detects exercise-window changes, including when returning to a suspended tab. Existing session keys and data/sync schemas are unchanged. The movement footnote/history/about labels show the new hours. Tests cover midnight and 3AM, 7AM retention, evening reset, both occurrences of the fall-back hour, spring-forward, history dates, and persisted checkboxes on desktop/mobile.
+
 ## Diagonal exercise recap and body-weight estimate (November 1, 2026)
 
 The exercise recap tile is split diagonally: check-in equivalents in the upper-left and estimated weight moved in the lower-right. The estimate sums reps from completed push-up/sit-up checkboxes using each date’s target, then multiplies by 60% of the saved body weight. Both exercise types use that coefficient at the user’s request. Partial check-ins contribute only the logged exercise. Unopened windows and other weeks remain excluded. Values are labeled estimates and displayed rounded to whole lb/kg; calculations keep full precision.

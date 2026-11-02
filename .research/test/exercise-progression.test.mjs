@@ -4,7 +4,7 @@ import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 const html=await readFile(new URL('../../index.html',import.meta.url),'utf8');
 const context=vm.createContext({});
-vm.runInContext(html.slice(html.indexOf("const TIME_ZONE ="),html.indexOf("const DEFAULT_SHEET_URL ="))+';globalThis.api={exerciseProgression,exerciseTotals,roundExerciseTarget,checkInWindow,shiftDate,weeklyReflection};',context);
+vm.runInContext(html.slice(html.indexOf("const TIME_ZONE ="),html.indexOf("const DEFAULT_SHEET_URL ="))+';globalThis.api={exerciseProgression,exerciseTotals,roundExerciseTarget,checkInWindow,shiftDate,weeklyReflection,exerciseWindow};',context);
 const {exerciseProgression:plan,exerciseTotals:totals,roundExerciseTarget:round,checkInWindow,shiftDate}=context.api;
 function days(count,start='2026-10-31') {const s={};for(let i=0;i<count;i++)for(const p of ['am','pm'])s[`${shiftDate(start,i)}-${p}`]={pushups:true,situps:true};return s;}
 test('3% increases rounded per adjustment every three completed days; next-morning activation',()=>{
@@ -62,4 +62,15 @@ test('recap weight uses dated reps, 60% of body weight, partial credit, and sele
  assert.equal(result.exerciseReps,178);assert.equal(result.exercise,3.5);assert.equal(result.weightMoved,17622);
  state.bodyWeight={value:75,unit:'kg'};assert.equal(recap(state,'2026-11-08',new Date('2026-11-04T15:00:00Z')).weightMoved,8010);
  delete state.bodyWeight;assert.equal(recap(state,'2026-11-08',new Date('2026-11-04T15:00:00Z')).weightMoved,null);
+});
+
+test('exercise day changes at 3AM Eastern across midnight, fall-back, and spring-forward',()=>{
+ const window=context.api.exerciseWindow;
+ for(const time of ['2026-11-03T05:01:00Z','2026-11-03T07:59:59Z']){assert.equal(window(new Date(time)).key,'2026-11-02-pm');assert.equal(window(new Date(time)).today,'2026-11-02');}
+ assert.equal(window(new Date('2026-11-03T08:00:00Z')).key,'2026-11-03-am');
+ assert.equal(window(new Date('2026-11-03T12:00:00Z')).key,'2026-11-03-am');
+ assert.equal(checkInWindow(new Date('2026-11-03T08:00:00Z')).key,'2026-11-02-pm','General dashboard stays on its 7AM schedule');
+ for(const time of ['2026-11-01T05:30:00Z','2026-11-01T06:30:00Z','2026-11-01T07:59:59Z'])assert.equal(window(new Date(time)).key,'2026-10-31-pm');
+ assert.equal(window(new Date('2026-11-01T08:00:00Z')).key,'2026-11-01-am');
+ assert.equal(window(new Date('2027-03-14T06:59:59Z')).key,'2027-03-13-pm');assert.equal(window(new Date('2027-03-14T07:00:00Z')).key,'2027-03-14-am');
 });
