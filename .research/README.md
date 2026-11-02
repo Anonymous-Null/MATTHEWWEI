@@ -1,3 +1,11 @@
+## Linear exercise progression, capped at 65 (November 2, 2026)
+
+Replaced the percentage formula with +2 reps after each block of 3 consecutive fully completed training days, capped at 65 per exercise per check-in. A fully completed day means both exercises in both AM/PM windows. Missed or partial days reset advancement progress and subtract 2 on the first consecutive missed day, 2 on the second, then 6 on the third and every further consecutive missed day. Floor remains the original 25. A fully completed day resets the missed-day counter, so a subsequent miss begins at -2 again. Increases and penalties apply to the next training day at 3AM Eastern; evening opens at 7PM.
+
+Targets and history continue to derive deterministically from saved check-ins, including unlogged gaps. No migration or sync changes. The initial October 31 progression start remains; all historical targets through the November 2 policy change are still 25, so actual earlier rep history is unchanged. Recap weight calculations use the new dated targets going forward. At the cap, the progress caption shows the 65-rep maximum rather than promising another increase.
+
+Validation: updated unit tests verify +2 blocks, sustained cap, -2/-2/-6/-6 penalties, baseline floor, full-day recovery/reset, three-day recovery gains, partial days, historical rep/weight totals, and 3AM/DST boundaries. Browser checks verify the next-morning 27-rep target, history/reload, and missed-day rollback; the full existing browser suite also passes.
+
 ## 3AM exercise day boundary (November 2, 2026)
 
 Push-ups/sit-ups now use a dedicated exercise window: morning opens at 3AM Eastern, evening opens at 7PM, and the evening stays assigned to its starting date until 3AM the next morning. The movement calendar’s active date, history defaults/limits, streaks, rep progression, exercise totals, and recap exercise/weight calculations all use that exercise window. Midnight does not switch the exercise day; 7AM does not clear a set already logged after 3AM. General content/calendar refreshes and themes keep their existing schedule.

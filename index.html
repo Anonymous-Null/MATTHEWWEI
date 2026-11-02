@@ -162,7 +162,7 @@ dialog{border:1px solid var(--line);border-radius:22px;padding:30px;background:#
 
   <dialog id="moments-dialog"><div class="dialog-header"><div><p class="eyebrow">THE GOOD ADDS UP</p><h2>Your little collection</h2></div><button class="icon-button close-dialog" aria-label="Close good moments">✕</button></div><div id="moments-list"></div></dialog>
 
-  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking with a twice-a-day streak and progressive rep targets, a personal good-moments journal, manual calendar events, school-break dates, running and lifting records, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily quotation, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 3 AM and 7 PM Eastern. Its day stays open after midnight until 3 AM. The quotation, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running and lifting history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
+  <dialog id="about-dialog"><div class="dialog-header"><h2>A calmer kind of dashboard.</h2><button class="icon-button close-dialog" aria-label="Close about">✕</button></div><p>Your morning and evening reset: a little perspective, a little movement, and something good to keep.</p><h3>What works now</h3><p>Exercise tracking with a twice-a-day streak and targets that rise by 2 after every 3 complete days (maximum 65), a personal good-moments journal, manual calendar events, school-break dates, running and lifting records, a daily Duolingo reminder, a challenging daily vocabulary word, class to-do lists with time estimates, and a twice-daily quotation, joke, and fun fact.</p><h3>Your calendar</h3><p>Your connected Google Sheet is checked when you open the dashboard, use Check for updates, and at each 7 AM / 7 PM Eastern check-in while the page is open.</p><h3>About the schedule</h3><p>Exercise gets a fresh check-in at 3 AM and 7 PM Eastern. Its day stays open after midnight until 3 AM. The quotation, joke, fun fact and color palette change with it. Dark mode runs from 7 PM to 7 AM. Vocabulary changes daily. Your tasks, journal, running and lifting history and daily plan are kept.</p><h3>Your data</h3><p>Entries save on this device and sync privately when you connect your account in Settings. Offline edits sync when you reconnect. You can also export a backup. The Duolingo reminder is self-reported.</p></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 <script>(()=>{globalThis.DAYMARK_STANDALONE=true;const TIME_ZONE = 'America/New_York';
 const WEATHER_REFRESH_MS = 15 * 60 * 1000;
@@ -269,13 +269,13 @@ function roundExerciseTarget(exact) {
 function exerciseProgression(sessions, key) {
   const date = key.slice(0, 10), period = key.slice(-2), targets = {};
   const done = day => ['am', 'pm'].every(p => sessions[`${day}-${p}`]?.pushups === true && sessions[`${day}-${p}`]?.situps === true);
-  let target = 25, consecutive = 0;
+  let target = 25, consecutive = 0, missedDays = 0;
   // Every closed training day is evaluated once by date, including unlogged gaps.
   for (let day = EXERCISE_PROGRESSION_START; day <= date; day = shiftDate(day, 1)) {
     targets[day] = target;
     if (day === date) break;
-    if (done(day)) { consecutive++; if (consecutive % 3 === 0) target = roundExerciseTarget(target * 1.03); }
-    else { if (consecutive > 0) target = Math.max(25, roundExerciseTarget(target / 1.03)); consecutive = 0; }
+    if (done(day)) { consecutive++; missedDays = 0; if (consecutive % 3 === 0) target = Math.min(65, target + 2); }
+    else { missedDays++; target = Math.max(25, target - (missedDays >= 3 ? 6 : 2)); consecutive = 0; }
   }
   const completedToday = period === 'pm' && done(date);
   // A morning-only day cannot break the streak until its AM window has closed.
@@ -283,9 +283,9 @@ function exerciseProgression(sessions, key) {
   let cursor = completedToday ? date : shiftDate(date, -1), fullDays = 0;
   if (!missedMorning) while (done(cursor) && fullDays < 10000) { fullDays++; cursor = shiftDate(cursor, -1); }
   const progress = consecutive + Number(completedToday);
-  const earnedTonight = completedToday && progress % 3 === 0;
+  const earnedTonight = completedToday && progress % 3 === 0 && target < 65;
   return { target, targets, fullDays, progress: missedMorning ? 0 : progress % 3,
-    nextTarget: earnedTonight ? roundExerciseTarget(target * 1.03) : target, earnedTonight };
+    nextTarget: earnedTonight ? Math.min(65, target + 2) : target, earnedTonight, atCap: target >= 65, missedDays };
 }
 function exerciseTotals(sessions, currentKey = exerciseWindow().key) {
   const { targets } = exerciseProgression(sessions, currentKey);
@@ -2969,7 +2969,7 @@ function renderExercise() {
   const plan = exerciseProgression(state.sessions, currentExerciseWindow.key);
   $('#pushups-target').textContent = plan.target; $('#situps-target').textContent = plan.target;
   $('#exercise-day-streak').textContent = `${plan.fullDays}-day streak`;
-  $('#exercise-goal-progress').textContent = plan.earnedTonight ? `3 days complete · next morning: ${plan.nextTarget} reps each` : `${plan.progress} / 3 complete days toward the next +3%`;
+  $('#exercise-goal-progress').textContent = plan.atCap ? '65-rep maximum · keep your streak' : plan.earnedTonight ? `3 days complete · next morning: ${plan.nextTarget} reps each` : `${plan.progress} / 3 complete days toward the next +2 reps`;
   $('#pushups').checked = session.pushups;
   $('#situps').checked = session.situps;
   const completed = Number(session.pushups) + Number(session.situps);
